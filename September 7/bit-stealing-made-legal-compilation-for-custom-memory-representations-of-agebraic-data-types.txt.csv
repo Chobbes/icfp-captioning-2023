@@ -1,0 +1,39 @@
+Term,Pronunciation,Context / Example Usage,Notes,Tags
+ADTs,,,,unclassified
+Algebraic,,,,unclassified
+CNRS,,Centre national de la recherche scientifique ,,Institution
+EnsL,,,,unclassified
+INRIA,,,,Institution
+low-level,,,,unclassified
+pattern matching,,,,
+UCBL,,,,unclassified
+abstracting,,,,unclassified
+abstractions,,,,
+BAUDON,,,,unclassified
+Bit-Stealing,,,,unclassified
+CCS,,,,unclassified
+compiles,,,,unclassified
+constructors,,,,unclassified
+correctness,,,,unclassified
+destructors,,,,unclassified
+Gabriel Radanne,,,,Author
+Grenoble,,,,unclassified
+Haskell,,,,Common-term programming-language
+high-level,,,,unclassified
+INP,,,,unclassified
+IR ,I.R.,intermediate representation,,
+Laure Gonnord,,,,Author
+LCIS,,,,unclassified
+LLVM,L.L.V.M.,,,
+Lyon,,,,unclassified
+manipulate,,,,unclassified
+OCaml,,,,Common-term programming-language
+optimizations,,,,unclassified
+pervasive,,,,unclassified
+ribbit,,,,unclassified
+Rust,,,,Common-term programming-language
+seldom,,,,unclassified
+severely,,,,unclassified
+THAIS,,,,unclassified
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+UGA,,,,unclassified

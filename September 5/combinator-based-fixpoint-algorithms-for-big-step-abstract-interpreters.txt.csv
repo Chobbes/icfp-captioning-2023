@@ -1,0 +1,38 @@
+Term,Pronunciation,Context / Example Usage,Notes,Tags
+fixpoint,,,,Common-term
+big-step,,,,unclassified
+combinators,,,,unclassified
+interpreters,,,,unclassified
+Combinator-Based,,,,unclassified
+recursive,,,,Common-term
+analyzers,,,,unclassified
+auxiliary,,,,unclassified
+CCS,,,,unclassified
+combinator,,,,Common-term
+compose,,,,unclassified
+context-sensitive,,,,Common-term parsing
+Darmstadt,,,,unclassified
+experimentally,,,,unclassified
+HOMBUCHER,,,,unclassified
+JGU,,,,unclassified
+Mainz,,,,unclassified
+metatheory,,,,Common-term
+reachability,,,,unclassified
+reduction,,,,Common-term
+reusable,,,,unclassified
+reused,,,,unclassified
+Scheme,,,,Common-term programming-language
+Sebastian Erdweg,,,,Author
+small-step,,,,Common-term
+soundness,,,,unclassified
+Stratego,,,,unclassified
+Sven Keidel,,,,Author
+systematically,,,,unclassified
+TOBIAS,,,,unclassified
+transition system,,,,
+uncertain,,,,unclassified
+unfolded,,,,unclassified
+unrolled,,,,unclassified
+validate,,,,unclassified
+WebAssembly,,,,Common-term programming-language
+widened,,,,unclassified
