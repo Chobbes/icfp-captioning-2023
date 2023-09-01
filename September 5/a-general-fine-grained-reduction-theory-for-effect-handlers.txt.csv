@@ -1,20 +1,479 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
 reduction,,,,Common-term
-handlers,,,,unclassified
-Fine-Grained,,,,unclassified
-operational semantics,,,,
-Wrocaw,,,,unclassified
-Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
-Filip Sieczkowski,,,,Author
-functional programming,,,,
-handler-equipped,,,,unclassified
-Heriot-Watt,,,,unclassified
-Mateusz Pyzik,,,,Author
-non-local,,,,unclassified
-observational equivalence,,,,
-preserves,,,,unclassified
-rewriting,,,,unclassified
+effect handlers,,,,
 semantics,,,,
+context,,,,Common-term
+nlDH,,,,unclassified
+fgDH,,,,unclassified
+calculus,,Used to describe a core simple programming language,,Common-term
+expression,,,,Common-term
+ICFP,,,,unclassified
+lemma,,,,Common-term
+Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
+weak-head,,,,unclassified
+Filip Sieczkowski,,,,Author
+theorem,,,,Common-term
+Mateusz Pyzik,,,,Author
+McKinna,,,,unclassified
+operational semantics,,,,
+standardisation,,,,unclassified
+Semantic,,,,Common-term
+a2,,,,unclassified
+algebraic effects,,,,
+stack,,,,
+evaluator,,,,
+Biernacki,,,,unclassified
+calculi,,,,
+Pretnar,,,,
+redex,,,,
+v1,,,,unclassified
+v2,,,,unclassified
+clause,,,,
+continuation,,,,
+contraction,,,,
+DH.let,,,,unclassified
+Felleisen,,,,
+RBa,,,,unclassified
+Biernacka,,,,unclassified
+control-stuck,,,,unclassified
+E[handle,,,,unclassified
+fn,,,,
+non-local,,,,unclassified
+optimisation,,,,unclassified
+Power,,,,
+read-back,,,,unclassified
+syntax,,,,Common-term
+untyped,,,,
+C1,,,,unclassified
+C2,,,,unclassified
+DH.lift,,,,unclassified
+DH.v,,,,unclassified
+E0,,,,unclassified
+0-free,,,,unclassified
+closure,,,,Common-term
+DH.do,,,,unclassified
+DH.j,,,,unclassified
+E1,,,,unclassified
+E2,,,,unclassified
+expressive,,,,Common-term
+matching,,“pattern matching”,,Common-term
+RBv,,,,unclassified
+reduction relation,,,,
+Saleh,,,,unclassified
+super-parallel,,,,unclassified
+syntactic,,,,Common-term
+vCV,,,,unclassified
+Comput,,,,unclassified
+context-capturing,,,,unclassified
+induction,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+let-expression,,,,unclassified
+Olivier Danvy,,,,researcher
+RB0E,,,,unclassified
+redexes,,,,unclassified
+SIGPLAN,,,,unclassified
+Takahashi,,,,unclassified
+Wrocaw,,,,unclassified
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+erasure,,type erasure,,Common-term
+functional programming,,,,
+Hillerstrom,,,,unclassified
+lift.v,,,,unclassified
+Matthias Felleisen,,,,Author
+normalization by evaluation,,,,
+observational equivalence,,,,
+Plotkin,,Name,,name
+POPL,,,,unclassified
+al.'s,,,,unclassified
+Barendregt,,,,unclassified
+call-by-value,,,,unclassified
+conclusion,,,,
+Dagstuhl,,,,unclassified
+effectful,,,,
+fCL,,,,unclassified
+Filinski,,,,unclassified
+Funct,,,,unclassified
+H(f,,,,unclassified
+handle(handle,,,,unclassified
+https://doi.org/10,,,,unclassified
+Informatik,,,,unclassified
+internal-parallel,,,,unclassified
+Karachalias,,,,unclassified
+Leibniz-Zentrum,,,,unclassified
+LIPIcs,,,,unclassified
+LNF,,,,unclassified
+Malgorzata,,,,unclassified
+Matija,,,,unclassified
+nl-red,,,,unclassified
+OCaml,,,,Common-term programming-language
+Polesiuk,,,,unclassified
+recursive,,,,Common-term
+reduction semantics,,,,
+Reynolds,,,,Name
+SVal,,,,unclassified
+type-and-effect system,,,,
+vCD,,,,unclassified
+2017a,,,,unclassified
+Aczel,,,,unclassified
+applicative,,,,Common-term
+big-step,,,,unclassified
+bisimilarity,,Notion of equivalence between programs,,Common-term equivalence
+Brachthauser,,,,unclassified
+Church-Rosser,,,,
+closures,,,,Common-term
+Danvy,,,,unclassified
+Dependent types,,,,types
+derivation,,,,
+E[let,,,,unclassified
+E[lift,,,,unclassified
+effect handler,,,,
+equational theory,,,,Common-term
+first-order,,,,unclassified
+FSCD,,,,unclassified
+functional correspondence,,,,
+Garcia-Perez,,,,unclassified
+higher-order,,,,Common-term
+Leijen,,,,unclassified
+Maciej,,,,unclassified
+Mitschke,,,,unclassified
+ML,,,,Programming-language
+nl-let,,,,unclassified
+non-trivial,,,,unclassified
+normalisation-by-evaluation,,,,unclassified
+optimisations,,,,unclassified
+Raamsdonk,,,,unclassified
+RBf,,,,unclassified
+refocusing,,,,
+s-let,,,,unclassified
+semi-standardisation,,,,unclassified
 shift0,,,,unclassified
-structuring,,,,unclassified
-well-suited,,,,unclassified
+sub-terms,,,,unclassified
+1998a,,,,unclassified
+1998b,,,,unclassified
+2005a,,,,unclassified
+2005b,,,,unclassified
+2017b,,,,unclassified
+44th,,,,unclassified
+Abel,,,,Name
+Abel's,,,,unclassified
+Aehlig,,,,unclassified
+Ahman,,,,
+Andrzej,,,,unclassified
+CEK-like,,,,unclassified
+compiled,,,,
+compiler,,,,Common-term
+contextual,,,,Common-term
+continuation-passing style,,,,
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+Daan Leijen,,,,Author
+delimited-control,,,,unclassified
+DH.do)-redex,,,,unclassified
+Duba,,,,unclassified
+Dybvig,,,,unclassified
+environment-based,,,,unclassified
+environment-stuck,,,,unclassified
+equational,,,,Common-term
+Felleisen's,,,,unclassified
+finegrained,,,,unclassified
+formalization,,,,Common-term
+Giuseppe Castagna,,,,Author
+handle-expression,,,,unclassified
+Heriot-Watt,,,,unclassified
+inductive,,,,Common-term
+Joachimski,,,,unclassified
+Kiselyov,,,,
+Klaus Ostermann,,,,Author
+Leroy,,,,Name
+let-expressions,,,,unclassified
+Levy,,,,
+Marek Materzok,,,,Author
+Martin-Lof,,,,unclassified
+match,,,,
+Materzok,,,,unclassified
+McLaughlin's,,,,unclassified
+MFPS,,,,unclassified
+nh-handle,,,,unclassified
+nh-let,,,,unclassified
+nh-ret,,,,unclassified
+Nogueira,,,,unclassified
+non-capturing,,,,unclassified
+non-expressibility,,,,unclassified
+normalization,,computations,,theory
+normalization-by-evaluation,,,,unclassified
+North-Holland,,,,unclassified
+OOPSLA,,,,unclassified
+Peyton Jones,,,,Name
+Philipp Schuster,,,,Author
+piece-by-piece,,,,unclassified
+Pretnar's,,,,unclassified
+program-ness,,,,unclassified
+relational,,,,
+Rohde,,,,unclassified
+Ronchi,,,,unclassified
+row-typed,,,,unclassified
+Saleh's,,,,unclassified
+Sam Lindley,,,,Author
+SComp,,,,unclassified
+SEnv,,,,unclassified
+SFun,,,,unclassified
+Staton,,,,unclassified
+subtyping,,,,Common-term
+tail-calls,,,,unclassified
+well-formedness,,,,unclassified
+Wirsing,,,,unclassified
+Witold Charatonik,Vitold /ˈvʲitɔlt/ Haratonik,,,author
+0-deep,,,,unclassified
+0-level,,,,unclassified
+1002/malq.19790250104,,,,unclassified
+1006/inco.1995.1057,,,,unclassified
+16th,,,,unclassified
+18th,,,,unclassified
+2/WG,,,,unclassified
+2019/33/B/ST6/00289,,,,unclassified
+23rd,,,,unclassified
+2475-1421/2023/8-ART206,,,,unclassified
+29-July,,,,unclassified
+31st,,,,unclassified
+43rd,,,,unclassified
+4AS,,,,unclassified
+5We,,,,unclassified
+abs/cs/0508048,,,,unclassified
+abstract-machine-style,,,,unclassified
+abstraction,,,,Common-term
+Abstraction-Safe,,,,unclassified
+abstractions,,,,
+Agda,,Agda-style,,Common-term Programming-language
+Algebr,,,,unclassified
+algebraic-effect,,,,unclassified
+algebras,,,,
+Andreas Abel,,,,Author
+APLAS,,,,unclassified
+appoach,,,,unclassified
+Arenberg,,,,unclassified
+Ariola,,,,unclassified
+arXiv:cs/0508048,,,,unclassified
+Atkey,,,,unclassified
+Autom,,,,unclassified
+binder,like in bind,,,
+Boolean,,,,
+bottom-up,,,,unclassified
+BRICS,,,,unclassified
+c.f,,,,unclassified
+call by value,,,call-by-value as adjective,
+call/cc,,Call with current continuation,,Common-term
+capability,,,,
+captureavoiding,,,,unclassified
+Chakravarty,,,,unclassified
+Chung-chieh,,,,unclassified
+closures/semantic,,,,unclassified
+congruentially,,,,unclassified
+conjunction,,,,
+conservative,,,,theory
+context-sensitive,,,,Common-term parsing
+continuationpassing,,,,unclassified
+control0/prompt,,,,unclassified
+correponds,,,,unclassified
+cs.uni.wroc.pl,,,,unclassified
+dabi,,,,unclassified
+Danel,,,,unclassified
+DATA-AVAILABILITY,,,,unclassified
+definitions.8,,,,unclassified
+Defunctionalizing,,,,unclassified
+dependent,,,,Common-term
+DH.j)-redex,,,,unclassified
+DH.j)redex,,,,unclassified
+DH.v)-redexes,,,,unclassified
+Dillig,,,,unclassified
+Direct-Style,,,,unclassified
+doi.org/10.1145/3428194,,,,unclassified
+e5,,,,unclassified
+e9,,,,unclassified
+E[do,,,,unclassified
+Ebberup,,,,unclassified
+Eff,,,,
+effect-handler,,,,unclassified
+Effekt,,,,unclassified
+EH14,,,,unclassified
+Elimination,,,,
+eqational,,,,unclassified
+equivalent.2,,,,unclassified
+f-app,,,,unclassified
+f-do,,,,unclassified
+f-handle,,,,unclassified
+f-let,,,,unclassified
+f-let-ret,,,,unclassified
+f-lift,,,,unclassified
+f-lift-ret,,,,unclassified
+f-ret,,,,unclassified
+f.sieczkowski@hw.ac.uk,,,,email
+Femke,,,,unclassified
+Ferrante,,,,unclassified
+Findler,,,,
+finergrained,,,,unclassified
+fixed-point,,,,unclassified
+Flatt,,,,unclassified
+fold,,,,Common-term
+force,,,,Common-term evaluation
+Franz-Josef,,,,unclassified
+fully-normalizing,,,,unclassified
+function-application,,,,unclassified
+generalpurpose,,,,unclassified
+Georgios,,,,unclassified
+Geuvers,,,,unclassified
+Ghica,,,,unclassified
+Ghilezan,,,,unclassified
+guages,,,,unclassified
+handle(handle(lift,,,,unclassified
+handle-free,,,,unclassified
+handlef,,,,unclassified
+handler-equipped,,,,unclassified
+handler-free,,,,unclassified
+handler-reduction,,,,unclassified
+handlers.10,,,,unclassified
+handlers.4,,,,unclassified
+Hany,,,,unclassified
+Hayo,,,,unclassified
+head-normal,,,,unclassified
+head-reduction,,,,unclassified
+homomorphism,,,,Common-term
+https,,,,unclassified
+i-app,,,,unclassified
+i-do,,,,unclassified
+i-handle,,,,unclassified
+i-lam,,,,unclassified
+i-let,,,,unclassified
+i-lift,,,,unclassified
+i-ret,,,,unclassified
+i-var,,,,unclassified
+Impredicativity,,,,unclassified
+inductivelydefined,,,,unclassified
+Isil,,,,unclassified
+Jan Midtgaard,,,,researcher
+kinded,,,,unclassified
+Kohlbecker,,,,unclassified
+Koka,,,,Programming-language
+Koprivec,,,,unclassified
+Korsholm,,,,unclassified
+Kozen,,,,unclassified
+KU Leuven,,,,
+lambda calculi,,,,Common-term
+lambda-abstraction,,,,Common-term
+lambda-abstractions,,,,unclassified
+lambda-calculus,,,,Common-term
+lambda-expressions,,,,unclassified
+lambda-like,,,,unclassified
+lambdaabstractions,,,,unclassified
+left-to-right,,,,unclassified
+Leijen's,,,,unclassified
+Lenglet,,,,unclassified
+let-bindings,,,,unclassified
+LFP,,,,unclassified
+LICS,,,,unclassified
+lift-expressions,,,,unclassified
+lift.v)-redexes,,,,unclassified
+Lochside,,,,unclassified
+logical relation,,,,Common-term
+MacQueen,,,,unclassified
+macro,,,,
+macro-express,,,,unclassified
+macro-expressibility,,,,unclassified
+Mads Sig Ager,,,,researcher
+Mager,,,,unclassified
+manual/effects.html,,,,unclassified
+Masako,,,,unclassified
+mateusz.pyzik@cs.uni.wroc.pl,,,,email
+McBride,,,,Name
+McKinna's,,,,unclassified
+meta-language,,,,
+Mislove,,,,unclassified
+Mitschke's,,,,unclassified
+modular,,,,Common-term
+monad,Mow-nad,,,Common-term
+monadic,Mow-nad-ick,,,
+MULTI-STEP,,,,unclassified
+NBE,normalization-by-evaluation,,,
+nh-lift,,,,unclassified
+Nielsen's,,,,unclassified
+Nijmegen,,“Radboud University Nijmegen” A city in the Netherlands,,City
+non-deterministically,,,,unclassified
+non-empty,,,,unclassified
+non-standard,,,,unclassified
+non-terminating,,,,unclassified
+non-weak-head,,,,unclassified
+Normal-Form,,,,unclassified
+normaliser,,computations,,theory
+normalisers,,,,unclassified
+normalizers,,,,unclassified
+Oliveira,,,,unclassified
+open-term,,,,unclassified
+outside-in,,,,unclassified
+owner/author(s,,,,unclassified
+Pablo Nogueira,,,,researcher
+PACMPL,,,,unclassified
+Passau,,,,unclassified
+PLDI,,,,unclassified
+polymorphism,,,,Common-term
+power.5,,,,unclassified
+PPDP,,,,unclassified
+precision,,Gradual typing,,theory
+pseudocode,,,,unclassified
+RAIRO,,,,unclassified
+Ranjit Jhala,,,,Author
+RB+1,,,,unclassified
+readback,,,,unclassified
+recognises,,,,unclassified
+reification,,,,Common-term
+reifies,,,,
+residualizing,,,,unclassified
+Ret,,,,
+RTA-93,,,,unclassified
+runtime,,,,Common-term
+S-handle,,,,unclassified
+s-lam,,,,unclassified
+s-ret,,,,unclassified
+s-var,,,,unclassified
+Sabry,,,,unclassified
+scalability,,,,
+SCont,,,,unclassified
+SECD-machine,,,,unclassified
+semistandardisation,,,,unclassified
+Serguei,,,,unclassified
+shift0/reset,,,,unclassified
+Sieczkowski,,,,unclassified
+single-premised,,,,unclassified
+small-step,,,,Common-term
+SPLV,,,,unclassified
+STACS,,,,unclassified
+statically-typed,,,,unclassified
+strong reduction,,,,
+stuck term,,,,
+Subtyped,,,,unclassified
+Superdevelopments,,,,unclassified
+superparallel,,,,unclassified
+symbolic,,,,
+syntax-directed,,,,
+tail-recursive,,,,
+Thielecke,,,,unclassified
+TLCA,,,,unclassified
+Tom Schrijvers,,,,Author
+Tomasz Drab,Tomash /ˈtɔ̃maʃ/ Drab /drap/,,,author
+type-and-effect-systems,,,,unclassified
+type-based,,,,unclassified
+University of Edinburgh,,,,Institution
+unknown,,Gradual typing,,theory
+untyped lambda calculus,,,,Common-term
+v.4.14.0,,,,unclassified
+v.8.16.1,,,,unclassified
+v]E,,,,unclassified
+Veltri,,,,unclassified
+Vidal-Naquet,,,,unclassified
+way.1,,,,unclassified
+well-scoped,,,,unclassified
+well.3,,,,unclassified
+With-Do,,,,unclassified
+With-Handled-Op,,,,unclassified
+With-Pure,,,,unclassified
+withv,,,,unclassified
+Yizhou,,,,unclassified
+Zhenjiang,,,,unclassified
+Zielinska,,,,unclassified

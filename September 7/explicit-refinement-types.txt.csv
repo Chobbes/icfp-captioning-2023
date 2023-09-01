@@ -1,5 +1,442 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-ert,,,,unclassified
-Jad Elkhaleq Ghalayini,,,,Author
-Neel Krishnaswami,,,,Author
+semantics,,,,
+succ,,,,
+K ,,“K axiom”,,
 refinement types,,,,
+ghost,,,,
+erasure,,type erasure,,Common-term
+tyK,,,,unclassified
+dependent,,,,Common-term
+ICFP,,,,unclassified
+inr,,,,unclassified
+stlc,,,,unclassified
+Ret,,,,
+context,,,,Common-term
+prK,,,,unclassified
+well-typed,,,,Common-term
+denotational semantics,,,,semantics
+natrec,,,,unclassified
+theorem,,,,Common-term
+calculus,,Used to describe a core simple programming language,,Common-term
+Jad Elkhaleq Ghalayini,,,,Author
+JK,,,,unclassified
+Neel Krishnaswami,,,,Author
+simply-typed,,,,unclassified
+Vec,,,,unclassified
+lemma,,,,Common-term
+okK,,,,unclassified
+Semantic,,,,Common-term
+reduction,,,,Common-term
+Vec.len,,,,unclassified
+axioms,,,,
+extensionality,,,,Common-term
+Lean,,,,
+syntactic,,,,Common-term
+axiom,,,,
+Elimination,,,,
+first-order,,,,unclassified
+induction,,,,Common-term
+intersection types,,,,Common-term
+IR ,I.R.,intermediate representation,,
+refinements,,,,
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+lambda calculus,lam-duh calculus,,,theory
+quantified,,,,Common-term
+derivation,,,,
+monad,Mow-nad,,,Common-term
+J||K,,,,unclassified
+List.len,,,,unclassified
+propositional,,,,Common-term
+category,,,,
+expression,,,,Common-term
+runtime,,,,Common-term
+SMT ,,,,
+ATS ,,“Advanced Type System”,,Programming-language
+conjunction,,,,
+Dependent types,,,,types
+EJ,,,,unclassified
+formalization,,,,Common-term
+inductive,,,,Common-term
+let-binding,,,,unclassified
+Mellies,,,,unclassified
+MJ||K,,,,unclassified
+quantifier,,,,Common-term
+set-theoretic,,,,unclassified
+SIGPLAN,,,,unclassified
+tactic,,,,
+well-formedness,,,,unclassified
+Zeilberger,,,,unclassified
+Curry-Howard,,,,
+Haskell,,,,Common-term programming-language
+Hoare logic,,,,Common-term
+injection,,,,
+Liquid Haskell,,,,Tool programming-language
+POPL,,,,unclassified
+Prop,,,,
+recursive,,,,Common-term
+Reynolds,,,,Name
+syntax,,,,Common-term
+type-theoretic,,,,unclassified
+typechecking,,,,unclassified
+Vec.len_def,,,,unclassified
+Aczel,,,,unclassified
+arXiv:2010.07763,,,,unclassified
+arXiv:2102.00905,,,,unclassified
+Atkey,,,,unclassified
+Awodey,,,,unclassified
+binder,like in bind,,,
+call-by-push-value,,,,Common-term
+call-by-value,,,,unclassified
+categorical semantics,,,,
+codebase,,,,unclassified
+coproduct,,,,
+datatype,,,,Common-term
+decidable,,,,
+dependent pairs,,,,
+Discr,,,,unclassified
+DML,,,,
+effectful,,,,
+entailment,,,,
+Gambino,,,,unclassified
+ill-typed,,,,unclassified
+Lam-Pr,,,,unclassified
+Let-Ir,,,,unclassified
+ML,,,,Programming-language
+monadic,Mow-nad-ick,,,
+Niki Vazou,,,,Author
+Pair-Ir,,,,unclassified
+QTT,,,,unclassified
+Ranjit Jhala,,,,Author
+recursion,,,,Common-term
+Rfl,,,,unclassified
+SMT solver,,Type of tool for solving SMT problems,,Tool
+subtyping,,,,Common-term
+Tejiak,,,,unclassified
+Uniq,,,,unclassified
+untyped,,,,
+Vazou,,,,
+vlen,,,,unclassified
+Voronkov,,,,unclassified
+Xi,,,,
+Absurd-Pr,,,,unclassified
+Ahman,,,,
+And-WF,,,,unclassified
+App-Ir,,,,unclassified
+array,,,,Common-term
+arXiv,,,,unclassified
+Besten,,,,unclassified
+Boolean,,,,
+Cases-Or,,,,unclassified
+Cases-Pr,,,,unclassified
+coherence,,,,
+congr,,,,unclassified
+Coproducts,,,,unclassified
+Curry-Howard correspondence,,,,Common-term
+de-Bruijn,,,,unclassified
+dependently-typed,,,,types
+e-prints,,,,unclassified
+elementwise,,,,unclassified
+Eq-WF,,,,unclassified
+ETAPS,,,,unclassified
+Exists-WF,,,,unclassified
+fibration,,,,Common-term
+fmap,,,,unclassified
+FOSSACS,,,,unclassified
+Gen,,,,
+Go,,,,
+HasType.subst_stlc_commute,,,,unclassified
+Hongwei,,,,unclassified
+https,,,,unclassified
+IMP,Like the little demon “imp”,A simple “imperative” programming language,,
+Imp-WF,,,,unclassified
+inferring,,,,
+integer,,,,Common-term
+intepretation,,,,unclassified
+Intr-WF,,,,unclassified
+Ir-Pr,,,,unclassified
+Ir-Ty,,,,unclassified
+J0K,,,,unclassified
+Katsumata,,,,
+Kleisli,,,,
+Kopylov,,,,unclassified
+Lam-Ir,,,,unclassified
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Lean's,,,,unclassified
+Let-And,,,,unclassified
+Let-Exists,,,,unclassified
+Let-Ir-Pr,,,,unclassified
+Let-Pair,,,,unclassified
+Let-Pair-Pr,,,,unclassified
+Let-Set,,,,unclassified
+Let-Set-Pr,,,,unclassified
+LICS,,,,unclassified
+linear,,,,Common-term
+logical relation,,,,Common-term
+M(JK,,,,unclassified
+Martin-Lof,,,,unclassified
+Miquel,,,,unclassified
+MJK,,,,unclassified
+modalities,,,,Common-term
+Moggi,,,,Name
+N.Vec,,,,unclassified
+Pair-WF,,,,unclassified
+pi-type,,,,unclassified
+polymorphism,,,,Common-term
+Pre-WF,,,,unclassified
+quantifier-free,,,,unclassified
+quantitative,,,,
+safeDiv,,,,unclassified
+separation logic,,,,Common-term
+Set-WF,,,,unclassified
+SIGPLAN-SIGACT,,,,unclassified
+succcomm,,,,unclassified
+succright,,,,unclassified
+symbolic,,,,
+symm,,,,unclassified
+trans[succ,,,,unclassified
+typecheck,,,,unclassified
+Union-WF,,,,unclassified
+Unit-WF,,,,unclassified
+Univ-WF,,,,unclassified
+weakening,,,,Common-term
+Weidenbach,,,,unclassified
+while-program,,,,unclassified
+Why,,,,
+zerocomm,,,,unclassified
+zeroright,,,,unclassified
+0:N,,,,unclassified
+1.error,,,,unclassified
+11th,,,,unclassified
+15th,,,,unclassified
+18th,,,,unclassified
+1K,,,,unclassified
+2015]'s,,,,unclassified
+2475-1421/2023/8-ART195,,,,unclassified
+24th,,,,unclassified
+29-April,,,,unclassified
+3's,,,,unclassified
+33rd,,,,unclassified
+41st,,,,unclassified
+42nd,,,,unclassified
+99CB36332,,,,unclassified
+abstraction,,,,Common-term
+ACM/IEEE,,,,unclassified
+addcomm,,,,unclassified
+Agda-style,,,,unclassified
+Ahman's,,,,unclassified
+al's,,,,unclassified
+algebra,,,,
+algebraic effects,,,,
+Altenkirch,,,,unclassified
+ambiently,,,,unclassified
+App-Pr,,,,unclassified
+ATS's,,,,unclassified
+Attribution-ShareAlike,,,,unclassified
+Awodey-Bauer,,,,unclassified
+AwodeyBauer,,,,unclassified
+Bauer's,,,,unclassified
+Benno,,,,unclassified
+best-effort,,,,unclassified
+beta-reduction,,,,Common-term evaluation
+calculi,,,,
+capability,,,,
+capture-avoiding,,,,unclassified
+captureavoiding,,,,unclassified
+casesor,,,,unclassified
+cast,,Gradual typing,,theory
+categorically-minded,,,,unclassified
+Chengyu,,,,unclassified
+closure,,,,Common-term
+code-base,,,,unclassified
+congruence,,,,Common-term
+construtive,,,,unclassified
+Coprod-WF,,,,unclassified
+Coq-based,,,,unclassified
+Coquand,,,,unclassified
+cs.LO,,,,unclassified
+cs.PL,,,,unclassified
+CVC4,,,,unclassified
+Dalibor,,,,unclassified
+Danel,,,,unclassified
+decidability,,,,
+Deduction---CADE-18,,,,unclassified
+derive,,,,
+destructure,,,,unclassified
+desugaring,,,,Common-term
+Dimitrios,,,,unclassified
+domain-theoretic,,,,unclassified
+dsimp,,,,unclassified
+early-stage,,,,unclassified
+easily-trusted,,,,unclassified
+endofunctions,,,,unclassified
+Enno,,,,unclassified
+entailment-based,,,,unclassified
+equational,,,,Common-term
+equational theory,,,,Common-term
+equatiosn,,,,unclassified
+Escardo,,,,unclassified
+exceptions/partial,,,,unclassified
+existentials,,,,unclassified
+expressiveness,,,,Common-term
+false,,,,unclassified
+False-WF,,,,unclassified
+fibrational,,,,unclassified
+Fn-WF,,,,unclassified
+forall,,,,unclassified
+foregrounding,,,,unclassified
+Frank Pfenning,Frank “Fenning”,,,Author
+FroCoS,,,,unclassified
+fully-typed,,,,unclassified
+fullyannotated,,,,unclassified
+function-like,,,,unclassified
+function-style,,,,unclassified
+functional programming,,,,
+functor,,,,Common-term
+furthemore,,,,unclassified
+Harper's,,,,unclassified
+HasType.denote,,,,unclassified
+HasType.denote_ty_non_null,,,,unclassified
+HasType.regular,,,,unclassified
+HasType.stlc,,,,unclassified
+HasType.subst,,,,unclassified
+Hilbert's,,,,unclassified
+Hillenbrand,,,,unclassified
+Hoare-style,,,,unclassified
+hom-set,,,,unclassified
+https://doi.org,,,,unclassified
+Id,,,,
+impredicative,,,,Common-term
+inl(J,,,,unclassified
+inlining,,,,unclassified
+inr(J,,,,unclassified
+intepret,,,,unclassified
+intepretations,,,,unclassified
+intersection-style,,,,unclassified
+IO,Eye-oh,,,
+irpr,,,,unclassified
+irty,,,,unclassified
+isomorphic,,,,Common-term
+J*K,,,,unclassified
+J1K,,,,unclassified
+jeg74@cl.cam.ac.uk,,,,email
+Jhala,,,,unclassified
+JNK,,,,unclassified
+JsuccK,,,,unclassified
+judgement,,dependent types,,theory
+Katsumata's,,,,unclassified
+Kawaguci,,,,unclassified
+lambda-calculus,,,,Common-term
+lambda-expression,,,,unclassified
+left-identity,,,,unclassified
+less-typed,,,,unclassified
+let-bindings,,,,unclassified
+letbinding,,,,unclassified
+linear-time,,,,Common-term
+Liquid-Haskell-like,,,,unclassified
+logic-enriched,,,,unclassified
+Luo-style,,,,unclassified
+M1,,,,unclassified
+Matu,,,,unclassified
+McBride's,,,,unclassified
+mechanization,,,,
+meta-language,,,,
+meta-theory,,,,unclassified
+metatheoretic,,,,unclassified
+metatheoretical,,,,unclassified
+metatheory,,,,Common-term
+Milner's,,,,unclassified
+ML-style,,Similar to ML programming language,,
+modal,,,,
+Moggi's,,,,unclassified
+monoid,,,,Common-term
+monotonicity,,Mathematical property,,Common-term
+mostly-automated,,,,unclassified
+multi-sorted,,,,unclassified
+Mumbai,,,,unclassified
+Nadia Polikarpova,,,,Author
+Nats-WF,,,,unclassified
+NK,,,,unclassified
+nk480@cl.cam.ac.uk,,,,email
+NP-hard,,,,Common-term
+Nuprl,,,,unclassified
+Obj.magic,,,,unclassified
+OCaml,,,,Common-term programming-language
+off-the-shelf,,,,unclassified
+OOPSLA,,,,unclassified
+operational semantics,,,,
+Or-WF,,,,unclassified
+owner/author(s,,,,unclassified
+parametricity,,,,unclassified
+Paul-Andre,,,,unclassified
+Peano,,,,
+Peyton-Jones,,,,unclassified
+Pfenning,,,,unclassified
+PLDI,,,,unclassified
+ponens,,,,unclassified
+post-conditions,,,,unclassified
+postconditions,,,,unclassified
+pre-conditions,,,,unclassified
+pre-existing,,,,unclassified
+proof-irrelevance,,,,unclassified
+Proof-relevant,,,,unclassified
+propositional equality,,,,Common-term
+QF-UFLIA,,,,unclassified
+quadratic,,,,Common-term
+re-using,,,,unclassified
+real-world,,,,unclassified
+realizabilty,,,,unclassified
+reflexivity,,,,Common-term
+relational,,,,
+right-identity,,,,unclassified
+safe-division,,,,unclassified
+Satoshi,,,,unclassified
+set-theoretically,,,,unclassified
+Sharygina,,,,unclassified
+Shin-ya Katsumata,,,,Author
+sigma-types,,,,unclassified
+simplytyped,,,,unclassified
+SMT-based,,,,unclassified
+SMTbased,,,,unclassified
+Stephanie Weirich,,,,Author
+Sterling-Harper,,,,unclassified
+Stlc.HasType.subst,,,,unclassified
+Stlc.HasType.subst_interp_dist,,,,unclassified
+SubstCtx.subst_denot,,,,unclassified
+subterms,,,,unclassified
+syntax sugar,,,,
+syntax-directed,,,,
+Tasson,,,,unclassified
+terms/proofs,,,,unclassified
+trans[(succ,,,,unclassified
+trans[0,,,,unclassified
+trans[len,,,,unclassified
+trans[Vec.len,,,,unclassified
+True-WF,,,,unclassified
+tuple-like,,,,unclassified
+tyK(J,,,,unclassified
+Type-Aware,,,,unclassified
+type-checker,,,,Common-term
+type-checking,,,,unclassified
+type-well-formedness,,,,unclassified
+typechecker,,,,Common-term
+typing's,,,,unclassified
+uni-typed,,,,unclassified
+University of Edinburgh,,,,Institution
+untyped lambda calculus,,,,Common-term
+Uwe,,,,unclassified
+Var-Pr,,,,unclassified
+variables/arguments,,,,unclassified
+Veith,,,,unclassified
+Vytiniotis,,,,
+Weirich,,,,unclassified
+well-typedness,,,,unclassified
+welltyped,,,,unclassified
+workflow,,,,unclassified
+x:Int,,,,unclassified
+y:Int,,,,unclassified
+Z3,,Tool to automatically prove theorems,,Tool
+Zeilberger-Mellies,,,,unclassified
+zeroleft,,,,unclassified
+Zhaohui,,,,unclassified
+Zhendong,,,,unclassified
+Zulip,,,,unclassified

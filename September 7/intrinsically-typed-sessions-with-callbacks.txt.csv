@@ -1,31 +1,429 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-linearity,,,,unclassified
 session types,,,,
-Intrinsically,,,,unclassified
-multichannel,,,,unclassified
-session-typed,,,,unclassified
+suc,,,,unclassified
+RECV,,,,unclassified
+K ,,“K axiom”,,
+ICFP,,,,unclassified
+callback,,,,
+protocol,,,,
+MSession,,,,unclassified
+IO,Eye-oh,,,
+monadic,Mow-nad-ick,,,
+monad,Mow-nad,,,Common-term
 Agda,,Agda-style,,Common-term Programming-language
-branching,,,,unclassified
-Callbacks,,,,unclassified
-CCS,,,,unclassified
-clever,,,,unclassified
-constructions,,,,unclassified
-context-free,,,,unclassified
-deadlock freedom,,,,
-discharged,,,,unclassified
-encapsulated,,,,unclassified
-formalizations,,,,unclassified
-Freiburg,,,,unclassified
-higher-order,,,,Common-term
-implementations,,,,unclassified
-inversionof-control,,,,unclassified
-language-embedded,,,,unclassified
-linear types,,,,Common-term
+continuation,,,,
 Peter Thiemann,,,,Author
+Vasconcelos,,,,unclassified
+recursive,,,,Common-term
+Yoshida,,,,unclassified
+CmdStack,,,,unclassified
+linear,,,,Common-term
+Gay ,,,,Name
+Nobuko,,,,unclassified
 recursion,,,,Common-term
-relies,,,,unclassified
+unaryp,,,,unclassified
+context-free,,,,unclassified
+Haskell,,,,Common-term programming-language
+Honda,,,,
+syntax,,,,Common-term
+constructor,,,,Common-term
+IntTree,,,,unclassified
+API,A.P.I.,Application Programming Interface,,Common-term
+negp-command,,,,unclassified
+Vasco,,,,unclassified
+M1,,,,unclassified
+M2,,,,unclassified
+many-unaryp,,,,unclassified
+Padovani,,,,unclassified
+Rust,,,,Common-term programming-language
+stack,,,,
+addp-command,,,,unclassified
+binaryp,,,,unclassified
+liftIO,,,,unclassified
+primSend,,,,unclassified
+XCmd,,,,unclassified
+functional programming,,,,
+getx,,,,unclassified
+Id,,,,
+primRecv,,,,unclassified
+Ravara,,,,unclassified
+session-typed,,,,unclassified
+arithp,,,,unclassified
+c0,,,,unclassified
+CheckDual0,,,,unclassified
+datatype,,,,Common-term
+Set1,,,,unclassified
+Vec,,,,unclassified
+Wadler,,,,Name
+A2,,,,unclassified
+arithp-command,,,,unclassified
+B1,,,,unclassified
+c.x,,,,unclassified
+Caires,,,,unclassified
+client-p,,,,unclassified
+CmdCont,,,,unclassified
+concurrent,,,,Common-term
+context,,,,Common-term
+Java,,,,
+Kohei,,,,unclassified
+LNCS,,,,unclassified
+Pucella,,,,unclassified
+putx,,,,unclassified
 run-time,,,,unclassified
-soundness,,,,unclassified
-statically,,,,unclassified
+server-p,,,,unclassified
+splitTree,,,,unclassified
+Thiemann,,,,unclassified
+Thudichum,,,,unclassified
+treep,,,,unclassified
+Agda's,,,,unclassified
+branchp,,,,unclassified
+c2,,,,unclassified
+Comput,,,,unclassified
+ECOOP,,,,unclassified
+higher-order,,,,Common-term
+IntTreeF,,,,unclassified
+Miu,,,,unclassified
+Neykova,,,,unclassified
+POPL,,,,unclassified
+putStrLn,,,,unclassified
+Reynolds,,,,Name
+Rumyana,,,,unclassified
+Session-Based,,,,unclassified
+StateT,,,,Common-term
+Toninho,,,,unclassified
+Zhou,,,,unclassified
+abstraction,,,,Common-term
+B2,,,,unclassified
+BoolF2,,,,unclassified
+c.j,,,,unclassified
+c1,,,,unclassified
+calculus,,Used to describe a core simple programming language,,Common-term
+cmd1,,,,unclassified
+cmd2,,,,unclassified
+Cutner,,,,unclassified
+Dagstuhl,,,,unclassified
+delegateIN,,,,unclassified
+delegateOUT,,,,unclassified
+dependent,,,,Common-term
+endpoint,,,,
+Frank Pfenning,Frank “Fenning”,,,Author
+Funct,,,,unclassified
+Informatik,,,,unclassified
+leafp,,,,unclassified
+Leibniz-Zentrum,,,,unclassified
+LIPIcs,,,,unclassified
+object-oriented,,,,unclassified
+primClose,,,,unclassified
+S1,,,,unclassified
+S2,,,,unclassified
+Scala,,,,Common-term programming-language
+Scalas,,,,unclassified
+untyped,,,,
+addup-command,,,,unclassified
+Bartoletti,,,,unclassified
+Bruijn,,,,unclassified
+Carette,,,,unclassified
+Deadlock-free,,,,unclassified
+delegation,,,,
+Denielou,,,,unclassified
+dependently-typed,,,,types
+duality,,,,
+Eisenbach,,,,unclassified
+embeddings,,,,
+false,,,,unclassified
+https://doi.org/10,,,,unclassified
+Imai,,,,unclassified
+inj1,,,,unclassified
+INP,,,,unclassified
+isomorphic,,,,Common-term
+Kiselyov,,,,
+Lagaillardie,,,,unclassified
+lambda calculus,lam-duh calculus,,,theory
+linear types,,,,Common-term
+monad transformer,,,,Common-term
+OCaml,,,,Common-term programming-language
+Pierre-Malo,,,,unclassified
+pop1,,,,unclassified
+primAccept,,,,unclassified
+RawMonad,,,,unclassified
+ReaderT,,,,unclassified
+reified,,,,
+runCmd,,,,unclassified
+semantics,,,,
+sp-c,,,,unclassified
+subtyping,,,,Common-term
+tagless,,,,unclassified
+Wadler's,,,,unclassified
+arithp-client,,,,unclassified
+body-cmd,,,,unclassified
+Boolean,,,,
+bypass,,,,
+Cledou,,,,unclassified
+cmd-i,,,,unclassified
+cmd0,,,,unclassified
+compiler,,,,Common-term
+Cruz-Filipe,,,,unclassified
+Dardha,,,,unclassified
+Deadlock,,,,
+deadlock freedom,,,,
+DSELECT,,,,unclassified
+EPTCS,,,,unclassified
+f-cmd,,,,unclassified
+Fabrizio,,,,unclassified
+Fangyi,,,,unclassified
+Gesbert,,,,unclassified
+getl,,,,unclassified
+GHC,,,,compiler tool
+Haskell's,,,,unclassified
+Huttel,,,,unclassified
+inj2,,,,unclassified
+integer,,,,Common-term
+Ishii,,,,
+iterations,,,,
+J_K,,,,unclassified
+JFP,,,,unclassified
+Kokke,,,,
+Kouzapas,,,,unclassified
+Kubo,,,,unclassified
+Label-Dependent,,,,unclassified
+Makoto,,,,unclassified
+many-unaryp-command,,,,unclassified
+match,,,,
+Melgratti,,,,unclassified
+modular,,,,Common-term
+Montesi,,,,unclassified
+negp,,,,unclassified
+Neubauer,,,,unclassified
+next-cmd,,,,unclassified
+NON-BRANCHING,,,,unclassified
+Ornela,,,,unclassified
+pgm,,,,unclassified
+Piessens,,,,unclassified
+polymorphic,,,,Common-term
+polymorphism,,,,Common-term
+rawFunctorRIO,,,,unclassified
+recvTree,,,,unclassified
+running-sum-client,,,,unclassified
+running-sum-command,,,,unclassified
+runServer,,,,unclassified
+Sam Lindley,,,,Author
+sendTree,,,,unclassified
+Set2,,,,unclassified
+t2,,,,unclassified
+tail-recursive,,,,
+TJ,,,,unclassified
+User-defined,,,,unclassified
+Vieira,,,,unclassified
+Why,,,,
+Willsey,,,,unclassified
+x.j,,,,unclassified
+xclose,,,,unclassified
+Xia,,,,unclassified
+xsend,,,,unclassified
+0Z,,,,unclassified
+1017/s0956796899003469,,,,unclassified
+21st,,,,unclassified
+2475-1421/2023/8-ART212,,,,unclassified
+Agrawal,,,,unclassified
+algorithmic,,,,Common-term
+aliasing,,,,
+Andreia,,,,unclassified
+Andrzej,,,,unclassified
+another.13,,,,unclassified
+API-based,,,,unclassified
+apply-split,,,,unclassified
+autocompletion,,,,unclassified
+BEAT2,,,,unclassified
+Bica,,,,unclassified
+bidirectional,,,,
+Bliudze,,,,unclassified
+Bocchi,,,,unclassified
+Bodik,,,,unclassified
+Bracht,,,,unclassified
+Bravetti,,,,unclassified
+callback-based,,,,unclassified
+Castellani,,,,unclassified
+Cervesato,,,,
+Chakravarty,,,,unclassified
+channel.5,,,,unclassified
+choreography12,,,,unclassified
+Chung-chieh,,,,unclassified
+Chung-Kil,,,,unclassified
+CmdStore,,,,unclassified
+Cmd{n,,,,unclassified
+command-based,,,,unclassified
+Communication-Based,,,,unclassified
+Communication-safe,,,,unclassified
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+Counsell,,,,unclassified
+Curry-Howard correspondence,,,,Common-term
+Data.Text.IO,,,,unclassified
+definien,,,,unclassified
+definition.8,,,,unclassified
+Demange,,,,unclassified
+Demangeon,,,,unclassified
+Dependent types,,,,types
+dependentlytyped,,,,unclassified
+Deusen,,,,unclassified
+Devriese,,,,unclassified
+Dezani-Ciancaglini,,,,unclassified
+Dimitrios,,,,unclassified
+distribution,,,,
+domain-specific,,,,unclassified
+Dominique Devriese,,,,
+e4,,,,unclassified
+Edixhoven,,,,unclassified
+Eijiro,,,,unclassified
+Einar Broch Johnsen,,,,Author
+equirecursive,,,,
+Euro-Par,,,,unclassified
+execStateT,,,,unclassified
+exec{suc,,,,unclassified
+FASE,,,,unclassified
+Ferruccio,,,,unclassified
+FM-RAIL-Bok,,,,unclassified
+formalization,,,,Common-term
+free monad,free mow-nad,,,
+freer monads,,,,
+Friis,,,,unclassified
+function.6,,,,unclassified
+functor,,,,Common-term
+Garrigue14,,,,unclassified
+Ghilezan,,,,unclassified
+Giachino,,,,unclassified
+Gianluigi,,,,unclassified
+Gistrup,,,,unclassified
+Giuseppe Castagna,,,,Author
+graded monads,,,,
+Guillermina,,,,unclassified
+Hannes,,,,unclassified
+Haskell-inspired,,,,unclassified
+Henrio,,,,unclassified
+Hernan,,,,unclassified
+Hiromi,,,,unclassified
+HOAS,,,,unclassified
+https,,,,unclassified
+https://doi.org/10.1007,,,,unclassified
+https://doi.org/10.1017,,,,unclassified
+human-readable,,,,unclassified
+Hur,,,,unclassified
+I/O,“eye-oh”,,,
+Ilaria,,,,unclassified
+Iliano,,,,unclassified
+induction,,,,Common-term
+inductive,,,,Common-term
+INRIA,,,,Institution
+Interaction-based,,,,unclassified
+inversionof-control,,,,unclassified
+Jaejin,,,,unclassified
+Jayaraman,,,,unclassified
+Jongmans,,,,unclassified
+Jovanka,,,,unclassified
+Kaku,,,,unclassified
+Keigo,,,,unclassified
+Kunal,,,,unclassified
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Lanese,,,,unclassified
+language-embedded,,,,unclassified
+Laumann,,,,unclassified
+Legay,,,,unclassified
+Li-yao,,,,unclassified
+like2,,,,unclassified
+Lippmeier,,,,unclassified
+locate-split,,,,unclassified
+locatesplit,,,,unclassified
+Ludovic,,,,unclassified
+macro,,,,
+Majumdar,,,,unclassified
+Malecha,,,,unclassified
+Mariangiola,,,,unclassified
+Mascardi,,,,unclassified
+Mavridou,,,,unclassified
+metafunctions,,,,unclassified
+mixfix,,,,unclassified
+MoKMaSD,,,,unclassified
+Mordido,,,,unclassified
+Mostrous,,,,unclassified
+MSCS,,,,unclassified
+Munksgaard,,,,unclassified
+non-dependent,,,,unclassified
+non-empty,,,,unclassified
+non-monadic,,,,unclassified
+non-terminating,,,,unclassified
+Olivier Danvy,,,,researcher
+OOPSLA,,,,unclassified
+OpenCert,,,,unclassified
+operator:7,,,,unclassified
+owner/author(s,,,,unclassified
+PADL,,,,unclassified
+Pantovic,,,,unclassified
+Parrow,,,,unclassified
+Passau,,,,unclassified
+Patrick Bahr,,,,Author
+pen-and-paper,,,,unclassified
+Peressotti,,,,unclassified
+Peyton Jones,,,,Name
+Pfenning,,,,unclassified
+pi-calculus,,,,unclassified
+Power,,,,
+PPoPP,,,,unclassified
+pragma,,,,unclassified
+Proenca,,,,unclassified
+protocol-specific,,,,unclassified
+Rastislav,,,,unclassified
+reader's,,,,unclassified
+recursion.11,,,,unclassified
+RECVCH,,,,unclassified
+refactored,,,,unclassified
+refinements,,,,
+reflect,,,,
+reifies,,,,
+Rokhini,,,,unclassified
+Roly Perera,,,,Author
+runReaderT,,,,unclassified
+runtime,,,,Common-term
+Ruofei,,,,unclassified
+Rupak,,,,unclassified
+s-i,,,,unclassified
+s0,,,,unclassified
+S0956796808006758,,,,unclassified
+Saddek,,,,unclassified
+Saffrich,,,,unclassified
+Sebastian Erdweg,,,,Author
+SEFM,,,,unclassified
+SENDCH,,,,unclassified
+SEPI,,,,unclassified
+sequential ,,,,
+Session-OCaml,,,,unclassified
+Shriram Krishnamurthi,,,,Author
+SILL ,,,,
+Spaderna,,,,unclassified
+state-based,,,,unclassified
+Stephanie Balzer,,,,Author
+StMungo,,,,unclassified
+subprotocols,,,,unclassified
+Sumii,,,,unclassified
+Sung-Shik,,,,unclassified
+Swierstra,,,,
+Text.putStrLn,,,,unclassified
+thiemann@acm.org,,,,email
+toN-fromN,,,,unclassified
+toolchain,,,,
+Tuosto,,,,unclassified
+type checker,,,,Common-term
 type-checked,,,,unclassified
-Typed,,,,unclassified
+Typechecking,,,,unclassified
+typerelated,,,,unclassified
+typestate,,,,unclassified
+values.3,,,,unclassified
+variable-feature,,,,unclassified
+Vassor,,,,unclassified
+Wasowski,,,,unclassified
+WGP@ICFP,,,,email
+Wouter Swierstra,,,,Author
+WS-FMDS,,,,unclassified
+Yannick Zakowski,,,,Author
+Yuen,,,,unclassified
+Zavattaro,,,,unclassified
+Zdancewic,,,,unclassified
+Zhenjiang,,,,unclassified

@@ -1,42 +1,368 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-erasable,,,,unclassified
-Chalmers University of Technology,,,,Institute
 erasure,,type erasure,,Common-term
-graded,,,,unclassified
-University of Gothenburg,,,,Institution
 context,,,,Common-term
-dependent,,,,Common-term
-Formalized,,,,unclassified
-modal,,,,
-modalities,,,,Common-term
-modality,,,,Common-term
-universe,,dependent types,,theory
-Agda,,Agda-style,,Common-term Programming-language
-Andreas Abel,,,,Author
-calculus,,Used to describe a core simple programming language,,Common-term
-CCS,,,,unclassified
-consistency,,Gradual typing,,theory
-decidability,,,,
-definitional,,,,unclassified
-enforce,,,,unclassified
-erased,,,,unclassified
-establishes,,,,unclassified
+prodrec,,,,unclassified
 formalization,,,,Common-term
-Kripke,,“Kripke semantics”,,Name
-logical relation,,,,Common-term
-meta-theoretic,,,,unclassified
-Nils Anders Danielsson,,,,Author
-normalization,,computations,,theory
-Oskar Eriksson,,,,Author
-parameterized,,,,unclassified
-quantitative,,,,
-reduction,,,,Common-term
-removes,,,,unclassified
-semiring,,,,
-Soundness,,,,unclassified
-subject reduction,,,,Common-term
-substitution,,,,unclassified
-syntactic,,,,Common-term
+fst,,,,unclassified
+Id,,,,
+ICFP,,,,unclassified
 theorem,,,,Common-term
-translates,,,,unclassified
+Abel,,,,Name
+dependent,,,,Common-term
+lemma,,,,Common-term
+suc,,,,unclassified
+logical relation,,,,Common-term
+natrec,,,,unclassified
+modal,,,,
+modality,,,,Common-term
+modalities,,,,Common-term
+reducibility,,,,
+Andreas Abel,,,,Author
+universe,,dependent types,,theory
+snd,,,,unclassified
+Agda,,Agda-style,,Common-term Programming-language
+Atkey,,,,unclassified
+Oskar Eriksson,,,,Author
+0M,,,,unclassified
+Nils Anders Danielsson,,,,Author
+judgement,,dependent types,,theory
+linear,,,,Common-term
+semantics,,,,
+reduction,,,,Common-term
+induction,,,,Common-term
+quantitative,,,,
+subject reduction,,,,Common-term
+well-resourced,,,,unclassified
+recursion,,,,Common-term
+decidability,,,,
+2id,,,,unclassified
+calculus,,Used to describe a core simple programming language,,Common-term
+Choudhury,,,,
+emptyrec,,,,unclassified
+semiring,,,,
+McBride,,,,Name
+natrec-star,,,,unclassified
+WHNF,,,,unclassified
+lattice,,,,Common-term
+linear types,,,,Common-term
+LNCS,,,,unclassified
+subterms,,,,unclassified
+weakening,,,,Common-term
+Bernardy,,,,
+Dependent types,,,,types
+meta-theory,,,,unclassified
+normalization,,computations,,theory
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+decidable,,,,
+https,,,,unclassified
+syntax,,,,Common-term
+Tejiak,,,,unclassified
+1M,,,,unclassified
+Atkey's,,,,unclassified
+Elimination,,,,
+emb,,,,unclassified
+match,,,,
+abstractions,,,,
+axioms,,,,
+expression,,,,Common-term
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+matching,,“pattern matching”,,Common-term
+multiplicative,,,,
+Petricek,,,,unclassified
+prodrec0,,,,unclassified
+QTT,,,,unclassified
+recursive,,,,Common-term
+well-typed,,,,Common-term
+Chalmers University of Technology,,,,Institute
+Eades,,,,unclassified
+false,,,,unclassified
+Ghica,,,,unclassified
+higher-order,,,,Common-term
+non-resourced,,,,unclassified
+subtyping,,,,Common-term
+syntactic,,,,Common-term
+algorithmic,,,,Common-term
+B.2,,,,unclassified
+canonicity,,,,
+compiled,,,,
+conclusion,,,,
+conjunction,,,,
+consistency,,Gradual typing,,theory
+constructor,,,,Common-term
+CwF,,,,unclassified
+CwFs,,,,unclassified
+derive,,,,
+emptyrec0,,,,unclassified
+functional programming,,,,
+generic,,,,
+Giarrusso ,,,,
+heap,,,,
+Idris,,,,
+inductive,,,,Common-term
+Letouzey,,,,unclassified
+Mishra-Linger,,,,unclassified
+non-erased,,,,unclassified
+Pfenning,,,,unclassified
+polymorphic,,,,Common-term
+POPL,,,,unclassified
+qubits,,,,unclassified
+recursor,,,,unclassified
+resource-free,,,,unclassified
+Scherer,,,,unclassified
+Stephanie Weirich,,,,Author
+Stucki,,,,unclassified
+unitrec,,,,unclassified
+University of Gothenburg,,,,Institution
+weakenings,,,,unclassified
+zero-product,,,,unclassified
+23rd,,,,unclassified
+A.1,,,,unclassified
+A.5,,,,unclassified
+axiom,,,,
+B.1,,,,unclassified
+Brady,,,,
+call-by-name,,,,unclassified
+closure,,,,Common-term
+closures,,,,Common-term
+compiler,,,,Common-term
+Coquand,,,,unclassified
+derivation,,,,
+distribution,,,,
+Eqs,,,,unclassified
+extensionality,,,,Common-term
+fst0,,,,unclassified
+Gaetan,,,,unclassified
+Geuvers,,,,unclassified
+Gratzer,,,,unclassified
+idempotent,,,,Common-term
+informationflow,,,,unclassified
+Intensionality,,,,unclassified
+Jean-Philippe Bernardy,,,,Author
+JK,,,,unclassified
+K ,,“K axiom”,,
+Kripke,,“Kripke semantics”,,Name
+LIPIcs,,,,unclassified
+McBride's,,,,unclassified
+meta-theoretic,,,,unclassified
+monotone,,,,Common-term
+Non-erasable,,,,unclassified
+non-neutral,,,,unclassified
+non-terminating,,,,unclassified
+non-trivial,,,,unclassified
+operational semantics,,,,
+pattern matching,,,,
+Pfenning's,,,,unclassified
+polymorphism,,,,Common-term
+Pritam,,,,unclassified
+R)N,,,,unclassified
+README.agda,,,,unclassified
+resource-aware,,,,unclassified
+resource-preserving,,,,unclassified
+Rijke,,,,unclassified
+semilattice,,,,unclassified
+semiring-like,,,,unclassified
+SEMIRINGS,,,,unclassified
+SIGPLAN,,,,unclassified
+star-based,,,,unclassified
+sub-distributive,,,,unclassified
+subterm,,,,unclassified
+two-element,,,,unclassified
+type-checking,,,,unclassified
 untyped,,,,
+untyped lambda calculus,,,,Common-term
+Vezzosi,,,,unclassified
+Volpano,,,,unclassified
+well-scoped,,,,unclassified
+WHNFs,,,,unclassified
+Wojciech,,,,unclassified
+0-annotated,,,,unclassified
+0N,,,,unclassified
+0U,,,,unclassified
+11th,,,,unclassified
+16th,,,,unclassified
+2-point,,,,unclassified
+2021]--the,,,,unclassified
+21st,,,,unclassified
+22nd,,,,unclassified
+2475-1421/2023/8-ART220,,,,unclassified
+24th,,,,unclassified
+30th,,,,unclassified
+31st,,,,unclassified
+33rd,,,,unclassified
+35th,,,,unclassified
+7-tuple,,,,unclassified
+A.2,,,,unclassified
+A.3,,,,unclassified
+A.4,,,,unclassified
+A.6,,,,unclassified
+A.7,,,,unclassified
+A.8,,,,unclassified
+A.9,,,,unclassified
+abstracts/abel1.pdf,,,,unclassified
+ACM/IEEE,,,,unclassified
+Agda's,,,,unclassified
+algebra,,,,
+algebras,,,,
+andreas.abel@gu.se,,,,email
+appropriate--see,,,,unclassified
+Arnaud Spiwack,,,,Author
+Atkey--inspired,,,,unclassified
+B.3,,,,unclassified
+B.4,,,,unclassified
+B.5,,,,unclassified
+Bassel,,,,unclassified
+bb69ad3f39,,,,unclassified
+BCI,,,,unclassified
+beroende,,,,unclassified
+binder,like in bind,,,
+Boespflug,,,,unclassified
+Bruijn-style,,,,unclassified
+co)inductive,,,,unclassified
+co-domain,,,,unclassified
+comonad,Koe-mow-nad,,,
+compile-time,,,,unclassified
+constraint solver,,,,
+Context-Dependent,,,,unclassified
+Coq's,,,,unclassified
+Damiano Mazza,,,,researcher
+deconstructed,,,,unclassified
+definitionally,,,,theory
+design/feature,,,,unclassified
+doi.org/10.1145/3434331,,,,unclassified
+doi.org/10.4204/EPTCS.353.10,,,,unclassified
+ECOOP,,,,unclassified
+EPTCS,,,,unclassified
+equality--are,,,,unclassified
+erased/compile-time,,,,unclassified
+Erlangen-Nurnberg,,,,unclassified
+expression.3,,,,unclassified
+expressiveness,,,,Common-term
+extensional,,functions,,theory
+Extraction/erasure,,,,unclassified
+Fitchstyle,,,,unclassified
+fixed-point,,,,unclassified
+force,,,,Common-term evaluation
+FOSSACS,,,,unclassified
+four-element,,,,unclassified
+Frank Pfenning,Frank “Fenning”,,,Author
+G.A,,,,unclassified
+Gaboardi,,,,unclassified
+H-labelled,,,,unclassified
+H/M,,,,unclassified
+Haskell,,,,Common-term programming-language
+heap-stored,,,,unclassified
+HTML,,,,unclassified
+ICFP'10,,,,unclassified
+ICFP'14,,,,unclassified
+Idris 2,,,,
+induction-recursion,,,,unclassified
+inferring,,,,
+information-flow,,,,unclassified
+iterations,,,,
+J1,,,,unclassified
+Joakim,,,,unclassified
+Kavvos,,,,unclassified
+Kishida,,,,unclassified
+Kohei,,,,unclassified
+L/M,,,,unclassified
+Lars Birkedal,,,,Author
+left-divided,,,,unclassified
+LICS,,,,unclassified
+Liepelt,,,,unclassified
+linear Haskell,,,,
+Lower-Bounded,,,,unclassified
+M-labelled,,,,unclassified
+M/M,,,,unclassified
+Mannaa,,,,unclassified
+matter.4,,,,unclassified
+Matu,,,,unclassified
+meta-variables,,,,unclassified
+metatheory,,,,Common-term
+Moded,,,,unclassified
+monadic,Mow-nad-ick,,,
+monotonicity,,Mathematical property,,Common-term
+Morrisett,,,,unclassified
+Mortberg,,,,unclassified
+multi-modal,,,,unclassified
+multimodal,,,,
+Mycroft,,,,unclassified
+N:U,,,,unclassified
+nad@cse.gu.se,,,,email
+non-dependent,,,,unclassified
+non-empty,,,,unclassified
+non-graded,,,,unclassified
+non-implicit,,,,unclassified
+non-quantitative,,,,unclassified
+non-restricting,,,,unclassified
+non-standard,,,,unclassified
+non-zero,,,,unclassified
+"none-one-tons"").5",,,,unclassified
+Nuttin,,,,unclassified
+Nuyts,,,,unclassified
+Object-Oriented,,,,unclassified
+Ohman,,,,unclassified
+oskar.eriksson@gu.se,,,,email
+owner/author(s,,,,unclassified
+post-fixed,,,,unclassified
+pre-existing,,,,unclassified
+predicative,,,,Common-term
+present/run-time,,,,unclassified
+"prodrec,0",,,,unclassified
+prodrec00,,,,unclassified
+product/-type,,,,unclassified
+projections--including,,,,unclassified
+Proof-irrelevant,,,,Common-term
+R)0,,,,unclassified
+re-fit,,,,unclassified
+real-world,,,,unclassified
+redexes,,,,unclassified
+reduction relation,,,,
+reduction semantics,,,,
+reference-counting,,,,unclassified
+reflexive-transitive,,,,unclassified
+relation--it,,,,unclassified
+resource-wise,,,,unclassified
+resourcecorrectness,,,,unclassified
+resourcepreserving,,,,unclassified
+resourcing/usage,,,,unclassified
+rule's,,,,unclassified
+run-time,,,,unclassified
+runtime,,,,Common-term
+Scala,,,,Common-term programming-language
+Selinger,,,,unclassified
+semimodule,,,,unclassified
+setting.10,,,,unclassified
+short-cuts,,,,unclassified
+Simon Peyton Jones,,,,Author
+simply-typed,,,,unclassified
+single-constructor,,,,unclassified
+snd0,,,,unclassified
+so2,,,,unclassified
+star-operator,,,,unclassified
+Star-Semiring,,,,unclassified
+star-semirings,,,,unclassified
+sub-interchangeable,,,,unclassified
+suc+1,,,,unclassified
+suc0,,,,unclassified
+system--the,,,,unclassified
+text.1,,,,unclassified
+three-element,,,,unclassified
+two-world,,,,unclassified
+type-case,,,,unclassified
+type-erasure,,,,unclassified
+type-side,,,,unclassified
+types--can,,,,unclassified
+types--or,,,,unclassified
+types.7,,,,unclassified
+types.8,,,,unclassified
+typteori,,,,unclassified
+unit-vector,,,,unclassified
+Universitat,,,,unclassified
+Usage-Aware,,,,unclassified
+variable-binding,,,,Common-term
+Vetenskapsradet,,,,unclassified
+Vilem-Benjamin,,,,unclassified
+wellbehaved,,,,unclassified
+Why,,,,
+work--in,,,,unclassified
+Zdancewic,,,,unclassified
