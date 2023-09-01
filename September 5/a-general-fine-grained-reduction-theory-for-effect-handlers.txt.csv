@@ -156,8 +156,6 @@ syntax-directed,,,,
 tail-recursive,,,,
 untyped lambda calculus,,,,Common-term
 well-formed,,,,Common-term
-nlDH,,,,unclassified
-fgDH,,,,unclassified
 weak-head,,,,unclassified
 McKinna,,,,unclassified
 standardisation,,,,unclassified
@@ -175,26 +173,18 @@ DH.v,,,,unclassified
 0-free,,,,unclassified
 DH.do,,,,unclassified
 DH.j,,,,unclassified
-RBv,,,,unclassified
 Saleh,,,,unclassified
 super-parallel,,,,unclassified
-vCV,,,,unclassified
-Comput,,,,unclassified
 context-capturing,,,,unclassified
 let-expression,,,,unclassified
-RB0E,,,,unclassified
 Takahashi,,,,unclassified
 Wrocaw,,,,unclassified
 Hillerstrom,,,,unclassified
 lift.v,,,,unclassified
-al.'s,,,,unclassified
 Barendregt,,,,unclassified
 Dagstuhl,,,,unclassified
 fCL,,,,unclassified
 Filinski,,,,unclassified
-Funct,,,,unclassified
-H(f,,,,unclassified
-handle(handle,,,,unclassified
 Informatik,,,,unclassified
 internal-parallel,,,,unclassified
 Karachalias,,,,unclassified
@@ -211,8 +201,6 @@ Aczel,,,,unclassified
 big-step,,,,unclassified
 Brachthauser,,,,unclassified
 Danvy,,,,unclassified
-E[let,,,,unclassified
-E[lift,,,,unclassified
 first-order,,,,unclassified
 FSCD,,,,unclassified
 Garcia-Perez,,,,unclassified
@@ -234,7 +222,6 @@ Aehlig,,,,unclassified
 Andrzej,,,,unclassified
 CEK-like,,,,unclassified
 delimited-control,,,,unclassified
-DH.do)-redex,,,,unclassified
 Duba,,,,unclassified
 Dybvig,,,,unclassified
 environment-based,,,,unclassified
@@ -285,7 +272,6 @@ Atkey,,,,unclassified
 Autom,,,,unclassified
 bottom-up,,,,unclassified
 BRICS,,,,unclassified
-c.f,,,,unclassified
 captureavoiding,,,,unclassified
 Chakravarty,,,,unclassified
 Chung-chieh,,,,unclassified
@@ -294,18 +280,13 @@ congruentially,,,,unclassified
 continuationpassing,,,,unclassified
 control0/prompt,,,,unclassified
 correponds,,,,unclassified
-cs.uni.wroc.pl,,,,unclassified
 dabi,,,,unclassified
 Danel,,,,unclassified
 DATA-AVAILABILITY,,,,unclassified
 definitions.8,,,,unclassified
 Defunctionalizing,,,,unclassified
-DH.j)-redex,,,,unclassified
-DH.j)redex,,,,unclassified
-DH.v)-redexes,,,,unclassified
 Dillig,,,,unclassified
 Direct-Style,,,,unclassified
-E[do,,,,unclassified
 Ebberup,,,,unclassified
 effect-handler,,,,unclassified
 Effekt,,,,unclassified
@@ -345,7 +326,6 @@ Hany,,,,unclassified
 Hayo,,,,unclassified
 head-normal,,,,unclassified
 head-reduction,,,,unclassified
-https,,,,unclassified
 i-app,,,,unclassified
 i-do,,,,unclassified
 i-handle,,,,unclassified
@@ -373,7 +353,6 @@ let-bindings,,,,unclassified
 LFP,,,,unclassified
 LICS,,,,unclassified
 lift-expressions,,,,unclassified
-lift.v)-redexes,,,,unclassified
 Lochside,,,,unclassified
 MacQueen,,,,unclassified
 macro-express,,,,unclassified
@@ -401,7 +380,6 @@ outside-in,,,,unclassified
 owner/author(s,,,,unclassified
 PACMPL,,,,unclassified
 Passau,,,,unclassified
-power.5,,,,unclassified
 PPDP,,,,unclassified
 pseudocode,,,,unclassified
 RAIRO,,,,unclassified
@@ -430,12 +408,9 @@ Thielecke,,,,unclassified
 TLCA,,,,unclassified
 type-and-effect-systems,,,,unclassified
 type-based,,,,unclassified
-v]E,,,,unclassified
 Veltri,,,,unclassified
 Vidal-Naquet,,,,unclassified
-way.1,,,,unclassified
 well-scoped,,,,unclassified
-well.3,,,,unclassified
 With-Do,,,,unclassified
 With-Handled-Op,,,,unclassified
 With-Pure,,,,unclassified
