@@ -1,0 +1,1423 @@
+Term,Pronunciation,Context / Example Usage,Notes,Tags
+ Λ_p,I assume lambda p,A probabilistic lambda calculus created by authors,,
+ Λ_p^c,"Lambda p c, or lambda p continuous, maybe?",Continues version of  Λ_p created by authors,,
+0CFA,,,,
+2LTT (two-level type theory),,,,
+3CPS,,Special variant of CPS,,
+A Reasonably Gradual Type Theory,,,,Title
+A completely unique account of enumeration,,,,Title
+AD (automatic differentiation) ,,,,
+AM (abstract machine) ,,,,
+ANF,,,,
+API,A.P.I.,Application Programming Interface,,Common-term
+ASICs ,,Application specific integrated circutes – custom hardware to solve a problem,,
+ASM,A.S.M.,Assembly language,,
+AST ,A.S.T.,Abstract Syntax Tree,,
+ATS ,,“Advanced Type System”,,Programming-language
+AU (atomic update) ,,,,
+Aarhus University,,,,Institution
+Abel,,,,Name
+Academia Sinica,,,,Institution
+Adam Chlipala,,,,Author
+Aeneas,,,,
+Agda,,Agda-style,,Programming-language Common-term
+Aguirre,,,,
+Ahman,,,,
+Ahmed,,,,Name
+Ahmed ,,,,
+Alan Turing Institute,,,,Institution
+Alan Turing Institute,,,,Institution
+Alex Hubers,,,,Author
+Algol,,,,
+Algorithm W,,,,
+Allais,,,,
+Alonzo Church,,,,researcher
+Alperen Keles,,,,Author
+Altenkrich,,,,
+Alwyn E. Goodloe,,,,Author
+Amal Ahmed,,,,Author
+Amin Timany,,,,Author
+Andreas Abel,,,,Author
+Andres Erbsen,,,,Author
+Andrzej Wąsowski,,,,Author
+András Kovács,,,,Author
+Andy Wright,,,,Author
+Anglican,,,,
+Anton Lorenzen,,,,Author
+Anton Trunov,,,,Author
+Appel,,,,
+Appel,,,,Name
+Armando Solar-Lezama,,,,Author
+Armstrong,,,,
+Arnaud Spiwack,,,,Author
+Async,,,,
+Aymeric Fromherz,,,,Author
+BED ,,,,
+Barthe,,,,
+Bayesian programming,,,,
+Bedrock,,,,
+Ben Greenman,,,,Author
+Benjamin Accattoli,,Author,,Author
+Benjamin C. Pierce,,,,Author
+Benjamin Quirring,,,,Author
+Berarducci,,,,
+Bernardy,,,,
+Bernoulli,,,,
+Bernoulli,,,,
+Bernoulli,,,,
+Beta-divergent,,,,
+BiRelCost,,,,
+Bigloo,,,,
+Bird ,,,,
+Blasgen,,,,
+Blelloch,,,,Name
+Boluton,,,,
+Boolean,,,,
+Borel sigma-algebra,,,,
+Borel spaces,,,,
+Bowman,,,,Name
+Brady,,,,
+Breath-first-search (BFS),,,,Common-term
+Brown University,,,,Institution
+Btree,Bee-tree,Data structure,,Common-term
+Böhm,,,,
+C++,,,,
+C++ STL library,,,,
+CACM ,,,,
+CCC (Cartesian closed category) ,,,,Common-term
+CFA,,,,
+CFG (control-flow graph) ,,,,
+CIC (Calculus of Inductive Constructions),see-ay-see,,,Common-term
+CLU,,,,
+CNRS,,Centre national de la recherche scientifique ,,Institution
+CNRS,,,,Lab
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+CPS-based,,,,
+CPU,,,,
+CaReSL,,,,
+calculi,,,,
+Calculus of Constructions (CoC),,,,
+Calculus of Inductive Constructions,,,,
+Call-by-Name (CBN) ,,,,Common-term evaluation
+Call-by-Push-Value (CBPV) ,,,,Common-term evaluation
+Call-by-Value (CBV) ,,,,Common-term evaluation
+Call-by-Value (CbV),,,,Common-term
+Call-by-name (CbN),,,,
+Call-by-name (CbN),,,,
+Call-by-push-value (CbPV),,,,
+Call-by-value (CbV),,,,
+Cameron Wong,,,,Author
+Cap,,,,
+Capretta,,,,
+Cardelli,,,,
+Carlos Tomé Cortiñas,,,,Author
+Carnegie Mellon University,,CMU,,Institution
+Carnegie Mellon University,,Often “CMU”,,Institution
+Carnegie Mellon University,,Often CMU,,Institution
+Carvalho,,,,
+Cas van der Rest,,,,Author
+CastCIC,kast-see-ay-see,cast calculus associated to GCIC,,
+CbN (Call by name),,,,
+CbV (call-by-value) ,,,,Common-term
+CbV Taylor expansion,,Call by value taylor expansion,,
+Central Software Institute,,Institution,,Institution
+CertiKOS,,“Certified Kit Operating System”,,
+Cervesato,,,,
+Chalmers University of Technology,,,,Institute
+Chapman,,,,
+Charon tool,,,,
+Chhi’mèd Künzang,,,,Author
+Choudhury,,,,
+Christos Dimoulas,,,,Author
+Church arithmetic,church arithmetic,,,
+Church encoding,,,,
+Church-Rosser,,,,
+Clash functional hardware,,,,Programming-language
+Cli package,,,,
+Cmm,,,,Programming-language
+Cockx and Devriese,,,,
+Cogent,Koe-jent?,,,
+CompCert,,A certified compiler,,
+Conal Elliott,,,,Author
+Continuation-passing style (CPS),,,,Common-term
+Control-flow analysis,,,,
+Control-flow graphs (CFGs),,,,
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+Cornell University,,Institution,,Institution
+Creusot,,,,
+Csongor Kiss,,,,Author
+Curry-Howard,,,,
+Curry-Howard ,,,,
+Curry-Howard correspondence,,,,Common-term
+Curry-Howard correspondence,,,,Common-term
+DML,,,,
+DPDK,,,,
+DSL,,,,
+DSL (domain-specific language) ,,,,
+DSL (domain-specific language) ,,,,Common-term
+DWARF,,,,
+Daan Leijen,,,,Author
+Dafny,,,,
+Damiano Mazza,,,,researcher
+Daniel R. Licata,,,,Author
+Daniel Rogozin,,,,Author
+Danielsson,,,,
+Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
+Datatype-generic programming,,,,
+David Binder,,,,Author
+Davidson ,,,,
+Deadlock,,,,
+Deep Programmability: A New Lens on Networking ,,Title,,Title
+Delft University of Technology,,,,Institution
+Delia Kesner,,,,Author
+Deng,,,,
+Denotational Semantics as a Foundation for Cost Recurrence Extraction for Functional Languages,,,,Title
+Dependent types,,,,types
+Dependently-Typed Data Plane Programming,,Title,,Title
+Derek Dreyer,,,,Author
+Dijkstra,,,,
+Dijkstra monad ,/ˈdɑɪkstɹə/ DYKE-struh,,,
+Dirac distribution,,,,
+Dominique Devriese,,,,
+Duncan Paul Attard,,,,Author
+Dybjer,,,,
+Dylan McDermott,,,,Author
+Dynamic Gradual Guarantee (DGG),,,,
+ECC (extended calculus of constructions) ,,,,
+ECTAs (equality-constrained tree automata) ,Probably “eck-ta”,,,
+EQMR,E.Q.M.R.,,,
+ES,,Explicit substitutions,,
+EVM ,,,,
+Ecole Polytechnique,,Institution,,Institution
+Edinburgh Research Centre,,Institution,,Institution
+Edsko de Vries,,,,Author
+Eduardo Bonelli,,,,researcher
+Eff,,,,
+Eich,,,,
+Einar Broch Johnsen,,,,Author
+Electrolysis,,,,
+Elijah Rivera,,,,Author
+Elimination,,,,
+Elixir,,,,Common-term programming-language
+Elizaveta Vasilenko,,,,Author
+Emscripten,,,,tool
+Entanglement Detection with Near-Zero Cost,,,,Title
+Eric Hayden Campbell,,Author,,Author
+Erlang,,,,Common-term programming-language
+Err functor,,,,
+Eswaran,,,,
+Ethel Tshukudu,,,,Author
+EtherType,,,,
+Ethernet,,,,
+ExceptT,,,,
+Eötvös Loránd University,,,,Institution
+F* ,F-star,,,
+F* language,,,,
+F-algebra,,,,
+FAA (Fetch-and-add) ,,,,
+FBIP (Functional But In-Place),,,,
+FFI (Foreign Function Interface) ,,,,
+FFI (foreign function interface) ,,,,
+FP,,functional programming,,
+FP (functional programming) ,,,,
+FPGA (field-programmable gate arrays),,,,hardware
+FPGAs,,Field Programmable Gate Arrays,,Hardware
+FTA (finite tree automata) ,,,,
+FVF,,,,
+Fabian Ruch,,,,Author
+Felleisen,,,,
+Feller-continuity,,,,
+Feller-continuous,,,,
+Feser,,,,
+Filip Sieczkowski,,,,Author
+Findler,,,,
+First-class storable locks,,,,
+Fisler,,,,
+Fitch-style,,,,
+Flanagan,,,,
+Flist,,Fixed-length lists,,
+Foldable,,,,
+Foundational Proof-Carrying Code project,,,,
+FoxNet project,,,,
+Frama-C,,,,
+Frame-limited,,,,Common-term
+Francesco Gavazzo,,,,Author
+Franciszek Sowul,,,,Author
+Frank Emrich,,,,Author
+Frank Pfenning,Frank “Fenning”,,,Author
+François Garillot,,,,Author
+Fraser,,,,
+FreeSpec,,,,
+FreezeML,,,,
+G-code,,,,
+GADT,Gad-it,Generalized algebraic data types,,Common-term
+GAN,,generative adversarial network,,Common-term machine-learning
+GC,,garbage collector,,Common-term
+GCIC,jee-see-ay-see,Gradual version of the Calculus of Inductive Constructions,,
+GDTL,,Gradual Dependently Typed Language,,
+GEq (pronounced Geek),,,,
+GHC,,,,tool compiler
+GHC Haskell,,,,
+GI,,,,
+GLR parsing,,,,
+GMQL,,,,
+GNU Bison,,,,
+GRIP ,greep,,,
+GRIP^↑,greep-shift,,,theory
+GV (Good Variation),,,,
+Gabriel Radanne,,,,Author
+Gabriele Vanoni,,,,Author
+Gaifman graph,,,,
+Gallinette Project-Team,,,,Lab
+Gan Shen,,,,Author
+Gardner's system ,,,,
+Gay ,,,,Name
+Gen,,,,
+Generating Circuits with Generators,,,,Title
+Gentzen,,,,
+Georgy Lukyanov,,,,
+Giarrusso ,,,,
+Gibbons,,,,
+Gifford,,,,
+Gilles Barthe,,,,Author
+Gilray,,,,
+Girard,,,,Name
+GitHub,,,,Institution
+Giulio Guerrieri,,Author,,Author
+Giuseppe Castagna,,,,Author
+Glasgow Haskell Compiler,,,,tool compiler
+GlashFill,,,,
+Go,,,,
+Goncharov,,,,
+Gotsman,,,,
+Graham Hutton,,,,Author
+Graydon Hoare,,,,Name
+Guy L. Steele Jr.,,,,Author
+HD44780,,HD44780 Display Driver. Example used in paper,,
+HDL (hardware description language),,,,Programming-language
+HELIX ,,,,
+HLS (high level synthesis),,,,Common-term
+HM,,,,
+HM(X) Solver,,A tool that they compare against,,tool
+HMM (Hidden Markov Model) ,,,,
+HOFS (higher-order functions) ,,,,
+HOL4,hol as in “hollow”,This is theorem proving software,,tool
+HTDP,,,,
+Hancock,,,,Name
+Handley,,,,
+Handley ,,,,
+Harrison Goldstein,,,,Author
+Haskell,,,,Common-term programming-language
+Haskell Core,,,,
+Haxl,,,,
+Hectare,,,,
+Hereditary Harrop,,,,
+Higher-order ghost state,,,,
+Hilbert,,,,
+Hindley-Milner,,,,
+Hindley-Milner type inference,,,,
+Hinrichsen,,,,
+Hiroyuki Katsura,,,,Author
+Hoare,Like “horse”,,,Name
+Hoare logic,,,,Common-term
+Hoare tripple ,,,,Common-term
+Hodas and Miller,,,,
+Honda,,,,
+Hoogle+,"Like google, but with an “h” plus",Search tool for Haskell types,,
+Hsiang-Shang 'Josh' Ko,,,,Author
+Hsu,,,,
+Huawei,,,,Company
+Hudak,,,,Name
+I/O,“eye-oh”,,,
+I/O,,,,
+I/O-tree,Eye-oh-tree,,,
+IHL (Internet Header Length),,,,networking
+IIT,,,,
+IK,,A logic,,
+IK4,,,,
+IL (intermediate language) ,,,,Common-term
+IMDEA Software Institute,,,,Institution
+IMP,Like the little demon “imp”,A simple “imperative” programming language,,
+INRIA,,,,Institution
+IO,Eye-oh,,,
+IORef,Eye-oh ref,,,
+IR ,I.R.,intermediate representation,,
+IR (intermediate representation) ,,,,Common-term
+IRIF,,,,Lab
+IS4,,,,
+ISA (instruction set architecture) ,,,,
+ISP networks,,,,
+IT University of Copenhagen,,,,Institution
+ITree (interaction tree) ,“eye-tree”,,,
+Ian Clester,,,,Author
+Id,,,,
+Idris,,,,
+Idris 2,,,,
+Ilya Sergey,,,,Author
+ImperativeHaskell,,,,
+Imperial College London,,,,Institution
+IncA,,,,
+Information-flow control (IFC),,,,
+Ingo Skupin,,,,Author
+Inria,,Institution,,Institution
+Institut Universitaire de France,,,,Institution
+Interp,,,,
+Ipv4,acronym,Ipv4 and Ipv6 are protocols,,protocol
+Ipv6,acronym,,,
+Irene Yoon,,,,Author
+Iris,,,,tool theorem-proving
+Iris proof mode,,,,
+Isabelle,,,,
+Isabelle/HOL,,,,
+Ishii,,,,
+Ivan Perez,,,,Author
+J eliminator,,,,
+J. Garrett Morris,,,,Author
+JIT-compiler (just-in-time compiler) ,,,,
+JVM (Java Virtual Machine) ,,,,
+Jackson Kearl,,,,Author
+Jad Elkhaleq Ghalayini,,,,Author
+James Cheney,,,,Author
+James Koppel,,,,Author
+Jan Midtgaard,,,,researcher
+Jan Stolarek,,,,Author
+Jane Street,,,,Institution
+Jatin Arora,,,,Author
+Java,,,,
+JavaScript,,,,Common-term programming-language
+Jay and Ghani ,,,,
+Jean-Philippe Bernardy,,,,Author
+Jeremy Yallop,,,,Author
+Jesper Cockx,,,,Author
+Jessica Shi,,,,Author
+Jim,,,,
+Joachim Breitner,,,,Author
+Joachim Breitner,,,,Author
+Johan Munk,,,,researcher
+John Burnham,,,,Author
+John Reppy,,,,Author
+John Reynolds,,,,researcher
+Join-Point,,,,
+Jonas Kastberg Hinrichsen,,,,Author
+Jonathan Immanuel Brachthäuser,,,,Author
+Jonathan Protzenko,,,,Author
+Joseph Eremondi,,,,Author
+Joseph Tassarotti,,,,Author
+Jules Jacobs,,,,Author
+K ,,“K axiom”,,
+KC Sivaramakrishnan,,,,Author
+KL,K.L.,KL abstract machine,,
+KN,K.N.,KN abstract machine,,
+KU Leuven,,,,
+KU Leuven,,,,Institution
+Kantorivich ,,“Kantorovich lifting”,,
+Karlsruhe Institute of Technology,,,,Institution
+Kasami,,,,
+Katamaran,,,,
+Kathi Fisler,,,,Author
+Katsumata,,,,
+Kazutaka Matsuda,,,,Author
+Kenji Maillard,ken-jee my-yar,,,Author
+Kiselyov,,,,
+Klaas Pruiksma,,,,Author
+Klaus Ostermann,,,,Author
+Kleisli,,,,
+Kleisli extension,,,,
+Koen Claessen,,,,Author
+Koka,,,,Programming-language
+Koka,,,,
+Kokke,,,,
+Kripke,,“Kripke semantics”,,Name
+Kripke,,,,
+Kripke-indexed,,,,
+Krishnamurthi,,,,
+Krishnaswami,,,,
+Krivine abstract machine,,,,
+Krivine machine,,,,
+Kuang-Chen Lu,,,,Author
+L-Lipschitz,,,,
+LALR(1) parser,,,,
+LIFO,,“last in first out”,,
+LIX,,Lab at Ecole Polytechnique,,Institution
+LL (linear logic) ,,,,
+LLBC,,,,
+LLVM,L.L.V.M.,,,
+LLVM,,"Low-Level Virtual Machine, almost always referred to by acronym alone",,Common-term programming-language
+LMPs ,,Labelled Markov Processes,,
+LR parsing,,Left-to-right parsing,,
+Lars Birkedal,,,,Author
+Laure Gonnord,,,,Author
+LawfulMonad,,,,
+Le Fessant,,,,
+Lean,,,,
+Lean theorem prover,,,,
+Lehman ,,,,
+Lennard Gäher,,,,Author
+Lennart Augustsson,,,,Author
+Lennon-Bertrand ,,,,Name
+Leo White,,,,Author
+Leonardo de Moura,,,,Author
+Leonidas Lampropoulos,,,,Author
+Leroy,,,,Name
+Letan,,,,
+Levy,,,,
+Liang,,,,Name
+Liang-Ting Chen,,,,Author
+Limsoon Wong,,,,Author
+Lindsey Kuper,,,,Author
+Liquid Haskell,,,,Tool programming-language
+Lisa Vasilenko,,,,Author
+Low-Level Borrow Calculus,,,,
+Ltac,,,,
+Lucas Escot,,,,Author
+Lucassen,,,,
+Lukas Lazarek,,,,Author
+Lwt,,,,
+Léon Gondelman,,,,Author
+MDP (Markov Decision Process) ,,,,
+MITScript,,,,
+ML,,,,Programming-language
+ML-style,,Similar to ML programming language,,
+MLTT,,short for Martin-Lof Type Theory/dependent type,,theory
+MLton,I assume “milton”,,,
+MPGV (Multiparty GV) ,,,,
+MPI Security and Privance,,Max Plank Institute,,Institution
+MPI-SP,,Max Planck Institute for Security and Privacy,,Institution
+MPI-SWS,,Max Planck Institute for Software Systems,,Institution
+MPL (MaPLe) compiler for Parallel ML,,,,Programming-language
+MTC (Metatheory a la Carte) ,,,,
+MTL,,,,
+MTT (Multimodal Type Theory) ,,,,
+MTU (maximum transmission unit),,"Maximum transmission unit, the largest size of packet that can be transmitted",,Networking
+Maciej Buszka,Maciey /ˈmaʨ̑ɛ̇j/ Bushka,,,researcher
+Madras,,,,
+Mads Sig Ager,,,,researcher
+Magnus Madsen,,,,Author
+Mahsa Varshosaz,,,,Author
+Maillard,,,,
+Mandate,,,,
+Maranget,,,,
+Marek Materzok,,,,Author
+Markov processes,,,,Common-term
+Marlow,,,,
+Martin-Lôf,,,,
+Massachusetts Institute of Technology,,,,Institution
+Massachusetts Institute of Technology,,,,Institution
+Mateusz Pyzik,,,,Author
+Matsakis,,,,
+Matthew Lutze,,,,Author
+Matthias Eichholz,,Author,,Author
+Matthias Felleisen,,,,Author
+Matthias Krebs,,Author,,Author
+Małgorzata Biernacka,Mawgojata /ˌmawɡɔˈʒata/ Biernacka,,,author
+McBride,,,,Name
+Mealy machines,,,,
+Meas ,,category of “measurable spaces and measurable functions”,,
+Melliès ,,,,
+Meng Wang,,,,Author
+Meta-level,,,,Common-term
+MetaML,,,,
+MetaOCaml,,,,
+Meven Lennon-Bertrand,May-van Lenon Bear-tran,,,Author
+Mezzo,,,,
+Microsoft Research,,Often “MSR”,,Institution
+Mike Dodds,,,,Author
+Minh Nguyen,,,,Author
+MinimalCaps property,,,,
+Mira Mezini,,Author,,Author
+Mishra,,,,
+Mlton,Maybe milton,compiler for ML,,tool
+Moggi,,,,Name
+Mohsen Ghaffari,,,,Author
+Monad.PrM ,,,,
+MonadBayes,,,,
+Monge-Kantorovich duality,,,,
+Moore machines,,,,
+Multi Types and Reasonable Space,,,,Title
+Multicore,,,,
+Multicore OCaml,,,,
+Mário Pereira,,,,Author
+NBE,normalization-by-evaluation,,,
+ND,(natural deduction),,,Common-term
+NESL,,,,
+NIC,,,,
+NICs ,,,,
+NLTT,,N-level type theory,,
+NP-hard,,,,Common-term
+NYU,,New York University,,Institution
+Nachiappan Valliappan,,,,Author
+Nada Amin,,,,Author
+Nadia Polikarpova,,,,Author
+Nantes,,,,City
+Naoki Kobayashi,,,,Author
+Nate Foster,,Author,,Author
+National Institute of Informatics,,,,Institution
+National University of Singapore,,,,Institution
+Neel Krishnaswami,,,,Author
+NetImp,,,,
+NetSpec,,,,
+Newcastle University,,,,
+Nicolas Tabareau,nikola tabaro,,,Author
+Nicolas Wu,,,,Author
+Nijmegen,,“Radboud University Nijmegen” A city in the Netherlands,,City
+Niki Vazou,,,,Author
+Nils Anders Danielsson,,,,Author
+Ningning Xie,,,,Author
+No Confusion principle,,,,
+Non-determinism,,,,Common-term
+Non-total,,,,Common-term
+Nordström,,,,
+Norman Danner,,,,Author
+Norman Ramsey,,,,Author
+Northeastern University,,,,Institution
+Nystrom,,,,
+O'Hearn,,,,Name
+O(N),Big-oh-of-n,,,Common-term
+OCaml,,,,Common-term programming-language
+OCaml Multicore CI,,,,
+OS,operating system,,,
+Objective-C,,,,
+Okisaki style,,,,
+Olin Shivers,,,,Author
+Olivier Danvy,,,,researcher
+Olivier Nicole,,,,Author
+Omega-cppo-enriched,,,,
+On Feller Continuity and Full Abstraction,,,,Title
+OpenJDK,,,,
+Oskar Eriksson,,,,Author
+OutsideIn,,,,
+P.B. Levy,,,,
+P4,,programming language for specifying behaviour of data-planes,,Programming-language
+PAM (Phased Abstract Machine) ,,,,
+PDataD,,,,
+PEC (path equivalence class) ,,,,
+PISA switches,,,,
+PL,,,,
+PLEIAD Lab,,,,Lab
+PLUTUS,,,,
+PPLs (probabilistic programming languages) ,,,,
+Pablo Barenbaum,,,,researcher
+Pablo Nogueira,,,,researcher
+Parallel functional programming,,,,
+Parigot,,,,Name
+Pascal,,,,
+Paterson,,,,
+Patricia trees,,,,
+Patrick Bahr,,,,Author
+Patrick Thomson,,,,Author
+Paul Downen,,,,Author
+Paulette Koronkevich,,,,Author
+Peano,,,,
+Pensando,,,,
+Perceus algorithm,,,,
+Peter Thiemann,,,,Author
+Peterson,,,,
+Peyton Jones,,,,Name
+Phil Trinder,,,,Author
+Philipp Schuster,,,,Author
+Pi, pie,dependent types,,theory
+Pickard,,,,
+Pierre Crégut,,,,researcher
+Plotkin,,Name,,name
+Pol,,Subcategory of Meas whose objects are Borel spaces,,
+Polonius,,,,
+PolyML,,,,
+Polyglot,,,,
+Portland State University,,,,Institution
+Pottier,,,,
+Pottier/Rémy,,,,
+Power,,,,
+Pratap Singh,,,,Author
+Pre-order,,,,Common-term
+Pretnar,,,,
+ProbFX,,Name of the tool developed in this paper,,
+Probabilistic Monad,,,,
+ProjectLoom,,,,
+Proof-irrelevant,,,,Common-term
+Prop,,,,
+Property-based testing,,,,
+Propositional Equality for Gradual Dependently Typed Programming,,,,Title
+Protzenko,,,,
+Prusti,,,,
+Pseudo-random,,,,Common-term
+PureScript,,,,
+QuickCheck,,,,testing tool
+QuickChick,,,,testing tool
+QuickLook,,,,
+RHOL (Relational Higher-Order Logic) ,,,,
+RISC-V core,Risc Five Core,,,
+RKNL,"R.K.N.L., or arcane L.",RKNL abstract machine,,
+RKNV,"R.K.N.V., or arcane V.",RKNV abstract machine,,
+RTL (register transfer level),,,,hardware
+Racket,racket,Racket programming language,,
+Radboud University,,,,Institution
+Radboud University Nijmegen,,,,Institution
+Ralf Jung,,,,Author
+Ramon Rakow,,,,Author
+Ramsey ,,,,
+Random Testing of a Higher-Order Blockchain Language (Experience Report),,,,Title
+Ranjit Jhala,,,,Author
+Raphaelle Crubille,,,,Author
+Rasmus Ejlers Møgelberg,,,,Author
+ReLoC ,,Logical relations in iris,,
+Red-black-tree,,Data structure,,
+Redmond,,,,
+Reference Counting With Frame Limited Reuse,,,,Title
+Reference-counted,,,,
+RefinedC,,,,
+Reid-Miller,,,,Name
+Relooper ,,,,
+Ret,,,,
+Reykjavik University,,,,Institution
+Reynolds,,,,Name
+Richard A. Eisenberg,,,,Author
+Rivera,,,,
+Rob Rix,,,,Author
+Robbert Krebbers,,,,Author
+Robert Dockins,,,,Author
+Roly Perera,,,,Author
+Ronald Garcia,,,,Author
+Rosario Gennaro,,,,Author
+Rosen,,,,
+Roşu and Şerbănută,,,,
+Rust,,,,Common-term programming-language
+RustBelt,,,,
+RustHorn,,,,
+Ryan G. Scott,,,,Author
+Ryosuke Sato,,,,Author
+SAT,,Type of problem,,term
+SAT,,,,
+SAX (semi-axiomatic sequent calculus) ,,,,
+SC (sequent calculus) ,,,,Common-term
+SCAM,scam,SCAM (abstract machine),,
+SCILLA,,,,
+SE (symbolic execution) ,,,,
+SGD (stochastic gradient descent) ,,,,
+SILL ,,,,
+SILL family ,,,,
+SIR model,,,,
+SIR observation model,,,,
+SIR transition model,,,,
+SML,,,,
+SML/NJ,,,,
+SMT ,,,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+SOS (structural operational semantics) ,,,,
+SPIRAL,,,,
+SProp,S-prop,short for strict propositions,,theory
+SSA (static single assignment) ,,,,Common-term
+STG machine,S.T.G. machine,,,
+STLC (simply-typed lambda calculus) ,,,,Common-term
+Saarland University,,,,Institution
+SafeP4,,A version of P4 with a simple type system,,Programming-language
+Sail,,,,
+Sam Lindley,,,,Author
+Sam Westrick,,,,Author
+Samantha Frohlich,,,,Author
+Samuel Gruetter,,,,Author
+Sander Huyghebaert,,,,
+Scala,,,,Common-term programming-language
+Scheme,,,,Common-term programming-language
+Schrijvers,,,,
+Seax,,,,
+Sebastian Erdweg,,,,Author
+Sebastian Ullrich,,,,Author
+Semantic,,,,Common-term
+Semi-axiomatic,,,,
+Semi-lattice,,,,Common-term
+Sergey and Clarke,,,,
+Series-parallel order maintenance (SP-order maintenance),,,,
+Session-typed concurrency,,,,
+Shao,,,,
+Shin-ya Katsumata,,,,Author
+Shivers,,,,
+Shriram Krishnamurthi,,,,Author
+Shun Kashiwa,,,,Author
+Siek ,,,,
+Sigma,,,,
+Silberschatz,,,,
+Simon Fowler,,,,Author
+Simon J. Gay,,,,Author
+Simon Peyton Jones,,,,Author
+Simon Spies,,,,Author
+Single-step reduction rules,,,,
+Small-step operational semantics,,,,
+Smirnov,,,,
+Software-Defined Networking (SDN),,,,
+Son Ho,,,,Author
+Son Ho,,,,Author
+Space KAM,,,,
+StackOverflow,,,,
+Staged Compilation with Two-Level Type Theory,,,,Title
+StateT,,,,Common-term
+Steele,,,,Name
+Stephanie Balzer,,,,Author
+Stephanie Weirich,,,,Author
+Stephano Perna,,,,Author
+Steve Zdanewic,,,,Author
+Steven Keuchel,,,,
+Stirling,,,,
+Stump,,,,
+Sub-probability kernels,,,,
+Subevent,,,,
+Sulzman,,,,
+Sven Keidel,,,,Author
+Swamy,,,,
+Swierstra,,,,
+System F,,,,Common-term
+TAL,,Typed assembly language,,Common-term
+TAs,,,,
+TD (Temporal Difference) ,,,,
+TE,,Traffic engineering,,
+TRMC (tail-recursion-modulo-cons),,,,
+TTL (time to live),,,,networking
+TU Delft,,,,Institution
+TaDA logic,,,,
+Tarides,,,,
+Tarmo Uustula,,,,Author
+Tarski,,,,
+Technical University of Darmstadt,,Institution,,Institution
+Technische Universiteit Delft,,,,Institution
+Template Haskell ,,,,tool
+Thaïs Baudon,,,,Author
+The Theory of Call-by-Value Solvability,,Title,,Title
+Thibaut Balabonski,,,,researcher
+Thomas Bourgeat,,,,Author
+Tim Sweeney,,,,Author
+Tim Süberkrüb,,,,Author
+Tlön embedding,,,,
+Tobias Hombücher,,,,Author
+Tofino,,,,
+Tokura,,,,
+Tolpin,,,,
+Tom Schrijvers,,,,Author
+Tomasz Drab,Tomash /ˈtɔ̃maʃ/ Drab /drap/,,,author
+Tram Hoang,,,,Author
+Tranchini,,,,Name
+Traversible,,,,
+Tree-Sitter,,,,
+Trigger,,,,
+Tufts University,,,,Institution
+Turing,,,,
+Turing complete,,,,Common-term
+Tweag,,,,Institution
+Tweag,,,,Institution
+Type-driven program synthesis,,,,
+Type-preservation,,,,
+Tzu-Chi Lin,,,,Author
+Ugo Dal Lago,,,,Author
+Umut A. Acar,,,,Author
+Universiteit Utrecht,,,,Institution
+University of Bologna,,,,Institution
+University of Bonn,,,,Institution
+University of Bristol,,,,Institution
+University of British Columbia,,Often UBC,,Institution
+University of California,,,,Institution
+University of Chicago,,,,Institution
+University of Chile,,,,Institution
+University of Chile,,,,Institution
+University of Edinburgh,,,,Institution
+University of Gothenburg,,,,Institution
+University of Maryland,,Often UMD,,Institution
+University of Massachusetts Lowell,,,,Institution
+University of Nottingham,,,,Institution
+University of Pennsylvania,,,,Institution
+University of Tübingen,,,,Institution
+University of Wroclaw,,,,Institution
+University of Wrocław,University of Vrotzwav /ˈvrɔʦ̑waf/,,,institution
+Université de Paris,,,,Institution
+Unix.fork,,,,
+Ur (pronounced unrestricted) ,,,,
+Useful MAM,useful mam,Useful MAM (abstract machine),,
+Utrecht University,,,,Institution
+VC (Verification condition) ,,,,
+VCG (verification condition generator) ,,,,
+VHDL,,,,Programming-language
+VPP,,,,
+VSAs (version space algebras) ,,,,
+VSC (value substitution calculus),,Value substitution calculus,,
+VST,,Verified Software Toolchain,,tool theorem-proving
+Val Tannen,,,,Author
+Vardoulakis,,,,
+Vasconscelos,,,,Name
+Vazou,,,,
+Vellvm,vellum,,,
+Vera,,,,
+VeriFast,,,,
+VeriSmall,,,,
+Verilog,,,,Programming-language
+Viper,,,,
+Voevodsky,,,,Name
+Vrije Universiteit Brussel,,,,
+Vytiniotis,,,,
+WP (weakest preconditions) ,,,,
+Wadler,,,,Name
+Wamy,,,,
+WebAssembly,,,,Common-term programming-language
+Well-Typed LLP,,,,Institution
+Wesleyan University,,,,Institution
+Why,,,,
+William J. Bowman,,,,Author
+Witold Charatonik,Vitold /ˈvʲitɔlt/ Haratonik,,,author
+Wouter Swierstra,,,,Author
+Wouter Swierstra,,,,Author
+XDP ,,,,
+Xi,,,,
+Xilinx,,Company that makes FPGAs,,Hardware company
+Yannick Zakowski,,,,Author
+Yao Li,,,,Author
+YieldFSM ,,,,
+Yiyun Liu,,,,Author
+Yoneda,,Yoneda embedding / yoneda lemma,,
+Z3,,Tool to automatically prove theorems,,Tool
+Z3 SMT solver,,,,
+ZILLIQA,,,,
+Zheng Guo,,,,Author
+Zhixuan Yang,,,,Author
+Zhu,,,,
+Zilliqa Research,,,,Institution
+abstract machine states,,,,
+abstract state space,,,,
+abstract state transition,,,,
+abstraction,,,,Common-term
+abstractions,,,,
+acyclic,,,,Common-term
+adjoint,,,,theory
+adjunction,,,,Common-term
+algebra,,,,
+algebraic datatype,,,,Common-term
+algebraic effects,,,,
+algebraic ornamentation,,,,
+algebras,,,,
+algorithmic,,,,Common-term
+alias,,,,
+aliasing,,,,
+allocations,,,,Common-term
+amortized,,amortized analyses,,Common-term
+angelic ,,,,
+antimonotonic,,,,Common-term
+antimonotonicity,,,,Common-term
+applicative,,,,Common-term
+applicative functor,,,,
+array,,,,Common-term
+array,,,,
+asymptotic,,,,Common-term
+async/await,,,,
+atomic,,,,
+atomicity,,,,Common-term
+autarkic style,,,,
+automata,,,,Common-term
+automaton,,,,Common-term
+axiom,,,,
+axiomatic,,,,
+axioms,,,,
+backtrack,,,,Common-term
+backtracking,,,,Common-term
+beta redex,,,,Common-term evaluation
+beta-normalizable,,,,Common-term
+beta-reduction,,,,Common-term evaluation
+beta-steps,,,,Common-term evaluation
+bi-directional type checker,,,,
+bi-expressibility,,,,
+bidirectional,,,,
+binder,like in bind,,,
+binding variables,,,,
+bisimilar,,,,Common-term equivalence
+bisimilarity,,Notion of equivalence between programs,,Common-term equivalence
+bisimulation,,,,Common-term equivalence
+boilerplate,,,,
+borrows,,,,
+bypass,,,,
+calculus,,Used to describe a core simple programming language,,Common-term
+calculus,,,,Common-term
+call by name,,,call-by-name as adjective,
+call by need,,,call-by-need as adjective,
+call by value,,,call-by-value as adjective,
+call-by-name (CbN),,,,Common-term
+call-by-name (cbn),,,,Common-term evaluation
+call-by-push-value,,,,Common-term
+call-by-value (cbv),,,,Common-term evaluation
+call/cc,,Call with current continuation,,Common-term
+callback,,,,
+canonicity,,,,
+capability,,,,
+case expression,,,,
+cast,,Gradual typing,,theory
+categorical semantics,,,,
+category,,,,
+clause,,,,
+closure,,,,Common-term
+closure conversion,,,,Common-term
+closures,,,,Common-term
+co-contextual,,,,
+code continuation,,,,
+coherence,,,,
+coinductive,,,,Common-term
+collapsible,,,,
+collecting semantics,,,,
+combinator,,,,Common-term
+comonad,Koe-mow-nad,,,
+compiled,,,,
+compiler,,,,Common-term
+composable,,,,
+conclusion,,,,
+concurrency,,,,Common-term
+concurrent,,,,Common-term
+congruence,,,,Common-term
+conjunction,,,,
+cons,kon-ss,,,
+conservative,,,,theory
+conservative extension,,,,
+consistency,,Gradual typing,,theory
+constraint inference,,,,
+constraint solver,,,,
+constructor,,,,Common-term
+consumer,,,,
+context,,,,Common-term
+context-sensitive,,,,Common-term parsing
+contextual,,,,Common-term
+continuation,,,,
+continuation-passing style,,,,
+continuation-passing style,,,,Common-term evaluation
+contraction,,,,
+contrex,,,,
+convex,,,,Common-term
+copattern,,,,
+coproduct,,,,
+cumulativity,,,,theory
+curried,,,,
+data-plane,,,,
+datatype,,,,Common-term
+datatype generic,,,,
+datatype-generic programming,,,,
+de Carvalho correspondence,,,,
+de Moura,,,,
+deadlock freedom,,,,
+deadlock/leak freedom,,,,
+decidability,,,,
+decidable,,,,
+decomposition,,,,
+deductive,,,,
+definitionally,,,,theory
+defunctionalization,,,,
+delegation,,,,
+delimiting operator,,,,
+demonic,,,,
+denotational semantics,,,,semantics
+dependent,,,,Common-term
+dependent pairs,,,,
+dependent types,,,,Common-term
+dependent types,,,,
+dependently-typed,,,,types
+derivation,,,,
+derivative,,,,
+derive,,,,
+deriving,,,,
+destructor,,,,Common-term
+desugar,,,,Common-term
+desugaring,,,,Common-term
+diff,,,,
+diffing,,,,
+direct style,,,,
+discrete,,,,
+disentanglement,,,,
+distribution,,,,
+divergence,,,,Common-term
+dominator tree,,,,
+drop-guided reuse algorithm,,,,
+dropWhile,,,,
+duality,,,,
+dump,,,,
+dynamic semantics,,,,
+e-graphs,,,,
+ecosystem,,,,
+effect handler,,,,
+effect handlers,,,,
+effectful,,,,
+effectfully,,,,
+elaborator reflection,,,,
+elimination calculus,,,,
+embeddings,,,,
+endpoint,,,,
+entailment,,,,
+entanglement,,,,
+enumeration,,,,Common-term
+enumerator,,,,Common-term
+ep-pairs,E-P-pair,short for embedding projection pair,,theory
+equational,,,,Common-term
+equational theory,,,,Common-term
+equirecursive,,,,
+erasure,,type erasure,,Common-term
+error-approximation,,,,
+eutt,equivalence-up-to-taus,E.U.T.T.,,
+evaluator,,,,
+explicit positivity annotations,,,,
+exponential,,,,
+expression,,,,Common-term
+expressive,,,,Common-term
+expressiveness,,,,Common-term
+extensional,,functions,,theory
+extensional expressive power,,,,
+extensionality,,,,Common-term
+extensionally,,,,
+f-relevant,,,,
+feature-arity,,,,
+fibration,,,,Common-term
+filter,,,,
+fixpoint,,,,Common-term
+fn,,,,
+fold,,,,Common-term
+fold fusion,,,,
+foldLeft,,,,
+force,,,,Common-term evaluation
+fork/join,,“fork/join parallelism”,,
+formalization,,,,Common-term
+free monad,free mow-nad,,,
+freer monad,,,,
+freer monads,,,,
+functional correspondence,,,,
+functional programming,,,,
+functor,,,,Common-term
+garbage collection,,GC,,Common-term
+garbage collector,,GC,,Common-term
+garbage-collected,,,,
+garbage-free ,,,,
+gcc,,,,tool compiler
+generative adversarial network,,GAN,,Common-term machine-learning
+generic,,,,
+genometric,,related to genomes,,
+genomic,,,,
+ghost,,,,
+ghost machine,,,,
+ghost program,,,,
+git-diff,,,,
+graded monads,,,,
+gradual dependent types,,,,
+gradual types,,,,
+graduality,,,,
+graduality,,,,
+gradually typed language,,,,
+hash table,,,,
+head normalizable terms,,,,
+headers,,,,
+heap,,,,
+heterogeneous,,,,
+higher-order,,,,Common-term
+higher-order function,,,,
+homomorphism,,,,Common-term
+homotopy theory,,,,Common-term
+iCAP,,,,
+idempotence,,,,
+idempotent,,,,Common-term
+immutable,,,,Common-term
+imperativity,,,,
+implicit sharing,,,,
+impredicative,,,,Common-term
+indexed families,,,,Common-term
+induction,,,,Common-term
+inductive,,,,Common-term
+inert term,,,,
+inferring,,,,
+injection,,,,
+inscrutable terms,,,,
+instance inference,,,,
+instantiation,,,,
+instruction,,,,
+integer,,,,Common-term
+intensional code analysis,,,,
+internal precision,,,,theory
+intersection types,,,,Common-term
+invertible,,,,
+isomorphic,,,,Common-term
+iterations,,,,
+iterator,,,,Common-term
+judgement,,dependent types,,theory
+k-CFA framework,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+lambda calculi,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+lambda-abstraction,,,,Common-term
+lambda-bang calculus,,,,
+lambda-calculi,,,,Common-term
+lambda-calculus,,,,Common-term
+lambda-terms,,,,Common-term
+later-modality,,,,
+lattice,,,,Common-term
+lax functor,,,,
+laziness,,,,
+lemma,,,,Common-term
+let-bound,,,,Common-term
+linear,,,,Common-term
+linear Haskell,,,,
+linear constraints,,,,
+linear ordering,,,,
+linear resource calculus,,,,
+linear types,,,,Common-term
+linear-time,,,,Common-term
+linearization,,,,
+locally graded category ,,,,
+logical relation,,,,Common-term
+macro,,,,
+macro system,,,,Common-term
+mapReduce,,,,
+match,,,,
+matching,,“pattern matching”,,Common-term
+measurability,,,,
+mechanization,,,,
+memoisation,,,,Common-term
+memoise,,,,
+memoising,,,,
+memoization,,,,
+memory management,,,,Common-term
+memothunk,,,,
+meta-language,,,,
+meta-programming,,,,
+metalanguage,,,,
+metaprogram,,,,
+metaprogramming,,,,Common-term
+metaprograms,,,,
+metatheory,,,,Common-term
+modal,,,,
+modalities,,,,Common-term
+modality,,,,Common-term
+model checking,,Automatic theorem proving,,tool technique
+model-checker,,,,
+modifier,,,,
+modular,,,,Common-term
+modular,,,,Common-term
+modular,,,,
+modularity,,,,Common-term
+modularity,,,,
+monad,Mow-nad,,,Common-term
+monad transformer,,,,Common-term
+monadic,Mow-nad-ick,,,
+monadic interpreters,,,,
+monoid,,,,Common-term
+monoid-theory,,,,Common-term
+monoidal,,,,Common-term
+monoids,,,,Common-term
+monolithic,,,,
+monomorphic,,,,
+monomorphization,,,,
+monotone,,,,Common-term
+monotonic,,,,Common-term
+monotonicity,,Mathematical property,,Common-term
+morphism,,,,Common-term
+mu operator,,,,
+multiLisp,,,,
+multicore programs,,,,
+multimodal,,,,
+multiplicative,,,,
+mut,“mute”,“mutable”,,
+mutation,,,,
+n-ary,,,,
+n-normal-form,,,,
+n-th ,,,,
+necessity modality,,,,
+networking,,,,term
+nil,,,,
+non-determinism,,,,Common-term
+non-equijoin,,,,
+nondeterminism,,,,
+nondeterministic,,,,
+noninterference,,,,Common-term
+normalization,,computations,,theory
+normalization by evaluation,,,,
+normalize,,computations,,theory
+normalizer,,computations,,theory
+normaliser,,computations,,theory
+normalized,,,,Common-term
+observational,,,,
+observational equivalence,,,,
+operational semantics,,,,
+optional,,,,
+ornaments,,,,
+p4v,,,,
+packets,,,,networking
+paradigm,,,,Common-term
+parsimonious filters,,,,
+partial pre-orders,,,,theory
+partiality monad,,,,
+pattern matching,,,,
+pointer,,,,Common-term
+polarity,,,,
+polymorphic,,,,Common-term
+polymorphism,,,,Common-term
+pomonoid,,,,
+potential function,,,,
+ppx_derive,,,,
+precision,,Gradual typing,,theory
+predicative,,,,Common-term
+premiss,,,,
+presheaf,,,,Common-term
+principality,,,,
+probabilistic,,,,Common-term
+probability,,,,Common-term
+probability kernels,,,,
+producer,,,,
+program adverb,,,,
+proof-irrelevant,,,,theory
+propositional,,,,Common-term
+propositional equality,,,,Common-term
+protocol,,,,
+pthread,,,,Common-term posix
+qtype,,,,
+quadratic,,,,Common-term
+quagmires,,,,
+qualified type system,,,,
+quantified,,,,Common-term
+quantifier,,,,Common-term
+quantitative,,,,
+quasi-linear,,,,Common-term
+quicksort,,Common sorting algorithm,,Common-term sorting algorithm
+race condition,,,,
+race detection,,,,
+race-freedom,,,,
+reachable configuration,,,,
+read2AndDiscard,,,,
+reasonability,,,,
+reborrowing,,,,
+recurrence,,,,
+recursion,,,,Common-term
+recursion schemes,,,,
+recursive,,,,Common-term
+redex,,,,
+reducibility,,,,
+reduction,,,,Common-term
+reduction,,,,Common-term
+reduction criterion,,,,
+reduction relation,,,,
+reduction semantics,,,,
+ref,,,,
+referential transparency,,,,Common-term
+refinement types,,,,
+refinements,,,,
+reflect,,,,
+reflection,,,,Common-term
+reflexivity,,,,Common-term
+refocusing,,,,
+refutation,,,,
+register,,,,
+register-based machine,,,,
+reification,,,,Common-term
+reified,,,,
+reifies,,,,
+reify,,,,Common-term
+relational,,,,
+reorderability,,,,
+restriction context,,,,
+resumption monad,,,,
+reuse analysis,,,,
+right-sided convexity,,,,
+rigid term,,,,
+rigidly graded monads,,,,
+routing,,deciding which way packets of information are sent,,networking
+row polymorphism,,,,
+runtime,,,,Common-term
+runtime type system,,,,
+safe-coupling,,,,
+scalability,,,,
+scoped,,,,Common-term
+semantic,,,,
+semantics,,,,
+semiring,,,,
+separation logic,,,,Common-term
+sequent calculus ,,,,Common-term
+sequential ,,,,
+sequential semantics,,,,
+session typed,,,,
+session types,,,,
+setoid,,,,Common-term
+shape invariant,,,,
+shared-memory,,,,
+small-step,,,,Common-term
+smart contract language,,,,
+smartNICs,,,,
+stack,,,,
+staging,,,,
+staging-by-evaluation,,,,
+step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
+stochastic,Stow-kas-tick,,,Common-term statistics
+strong reduction,,,,
+stuck term,,,,
+subject reduction,,,,Common-term
+subtyping,,,,Common-term
+succ,,,,
+suspension types,,,,
+symbolic,,,,
+synchrony,,,,
+synchrony fold,,,,
+syntactic,,,,Common-term
+syntax,,,,Common-term
+syntax sugar,,,,
+syntax-directed,,,,
+synthesizer,,,,
+synthetic,,,,
+tactic,,,,
+tail call,,,,
+tail-recursive,,,,
+takeWhile,,,,
+telescope,,,,
+theorem,,,,Common-term
+thread-safety,,,,
+thunk,,,,Common-term evaluation
+toolchain,,,,
+topological,,,,Common-term
+transfinite,,,,
+transition graph,,,,
+transition system,,,,
+traversal,,,,Common-term
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+try-finally,,,,
+type checker,,,,Common-term
+type substitution,,,,
+type-and-effect system,,,,
+type-checker,,,,Common-term
+typeability,,,,Common-term
+typechecker,,,,Common-term
+typeclass,,,,Common-term
+typeclasses,,,,
+ulam,,,,
+uncountable,,,,Common-term
+uncurried,,,,
+unidirectional,,,,Common-term
+unification,,,,
+uniform strategy,,,,
+universe,,dependent types,,theory
+universe-polymorhpism,,,,
+universe-polymorphic,,,,
+untyped,,,,
+untyped lambda calculus,,,,Common-term
+v-normal-form,,,,
+v-relevant,,,,
+van de Meent,,,,
+variable-binding,,,,Common-term
+vect,,program data structure,,
+wasm,,,,
+weak reduction,,,,
+weakening,,,,Common-term
+well-typed,,,,Common-term
+zip,,,,
+Álvaro García-Pérez,,,,researcher
+Éric Tanter,Ayric tan-ter,,,Author
+Éric Tanter,,,,Author
+à la Carte,,,,
+Ścibior,,,,
+α-conversion,alpha conversion,,,
+α-renaming,alpha renaming,,,
+β-conversion,bee-ta /ˈbiːtə/ conversion,,,
+β-normalizable,bee-ta /ˈbiːtə/ normalizable,,,
+β-reduction,bee-ta /ˈbiːtə/ reduction,,,
+β-step,bee-ta /ˈbiːtə/ step,,,
+δ-constructors,delta constructors,,,
+λIK,Probably lambda-eye-kay,A variant of the lambda-calculus (a simple programming language),,
+λIS4,,,,
+λIT,,,,
+λRP,Likely “lambda R.P.”,A variant of the lambda calculus with relational probabilistic typing,,
+λ^1,,“linear resource calculus”,,
+λ^1n,,“normalized linear resource calculus”,,
+μSail (mu-sail) ,,,,
+𝚷4,Probably “pi 4”,Dependently typed version of P4 developed by authors,,Programming-language
+𝛽-equivalence (beta-equivalence) ,,,,Common-term equivalence
+𝜂-equivalence (eta-equivalence) ,,,,Common-term equivalence
+ICFP,,,,Common-term
