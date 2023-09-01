@@ -37,7 +37,6 @@ CHC,,,,unclassified
 inductive,,,,Common-term
 Terauchi,,,,unclassified
 theorem,,,,Common-term
-e0,,,,unclassified
 induction,,,,Common-term
 lattice,,,,Common-term
 PaHFL,,,,unclassified
@@ -60,12 +59,10 @@ dom(K,,,,unclassified
 formalization,,,,Common-term
 JKK,,,,unclassified
 LT-OpPDR,,,,unclassified
-M+1,,,,unclassified
 recursion schemes,,,,
 syntactic,,,,Common-term
 underapproximation,,,,unclassified
 Viswanathan,,,,unclassified
-2009a,,,,unclassified
 CEGAR,,,,unclassified
 Gurfinkel,,,,unclassified
 HFL,,,,unclassified
@@ -85,12 +82,10 @@ transition system,,,,
 well-typed,,,,Common-term
 a.k.a,,,,unclassified
 app3,,,,unclassified
-C.-H,,,,unclassified
 dom(1,,,,unclassified
 ETAPS,,,,unclassified
 IC3,,,,unclassified
 InferConflict,,,,unclassified
-J()K,,,,unclassified
 K(JK,,,,unclassified
 modal,,,,
 monotonic,,,,Common-term
@@ -106,8 +101,6 @@ Terauchi's,,,,unclassified
 Tr-Decide,,,,unclassified
 Tr-Valid,,,,unclassified
 Zhu,,,,
-2009b,,,,unclassified
-27th,,,,unclassified
 Amarasinghe,,,,unclassified
 assert(i,,,,unclassified
 Atsushi,,,,unclassified
@@ -165,31 +158,11 @@ unfoldings,,,,unclassified
 unknown,,Gradual typing,,theory
 VMCAI,,,,unclassified
 well-formedness,,,,unclassified
-x+1,,,,unclassified
-x>0,,,,unclassified
 x>y,,,,unclassified
 Z3,,Tool to automatically prove theorems,,Tool
-11th,,,,unclassified
-12th,,,,unclassified
-14th,,,,unclassified
-15th,,,,unclassified
-16th,,,,unclassified
-18th,,,,unclassified
-19th,,,,unclassified
-21st,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART190,,,,unclassified
-26th,,,,unclassified
 29-April,,,,unclassified
-32nd,,,,unclassified
-34th,,,,unclassified
 3We,,,,unclassified
-40th,,,,unclassified
-43rd,,,,unclassified
 4We,,,,unclassified
-75th,,,,unclassified
-7a,,,,unclassified
-7b,,,,unclassified
 Amal Ahmed,,,,Author
 angelic/demonic,,,,unclassified
 APLAS,,,,unclassified
@@ -199,9 +172,6 @@ assert(r>=0,,,,unclassified
 assert(sum,,,,unclassified
 Autom,,,,unclassified
 Automizer,,,,unclassified
-b0,,,,unclassified
-b1,,,,unclassified
-b2,,,,unclassified
 Bhargavan,,,,unclassified
 Bjesse,,,,unclassified
 Bjorner's,,,,unclassified
@@ -221,8 +191,6 @@ dependent,,,,Common-term
 Dietsch,,,,unclassified
 dom(0,,,,unclassified
 dom(2,,,,unclassified
-e)))e,,,,unclassified
-E5-2680,,,,unclassified
 else-clause,,,,unclassified
 equi-expressive,,,,unclassified
 Ermis,,,,unclassified
@@ -269,12 +237,9 @@ Jean-Karim,,,,unclassified
 Jhala,,,,unclassified
 JIntK,,,,unclassified
 Joost-Pieter,,,,unclassified
-JP20H05703,,,,unclassified
-JP23KJ0546,,,,unclassified
 JPMJSP2108,,,,unclassified
 JSPS,,,,unclassified
 Junges,,,,unclassified
-k(-x,,,,unclassified
 k(z+r,,,,unclassified
 KAKENHI,,,,unclassified
 Kaminski,,,,unclassified
@@ -391,7 +356,6 @@ Smolka,,,,unclassified
 SMT solver,,Type of tool for solving SMT problems,,Tool
 Srivastava,,,,unclassified
 ST()K,,,,unclassified
-ST(2,,,,unclassified
 ST-Abs,,,,unclassified
 ST-All,,,,unclassified
 ST-App,,,,unclassified
@@ -429,7 +393,6 @@ untypable,,,,unclassified
 Urabe,,,,unclassified
 Urzyczyn,,,,unclassified
 user-defined,,,,unclassified
-v3,,,,unclassified
 validityOof,,,,unclassified
 Venkatesan,,,,unclassified
 Viswanathan's,,,,unclassified

@@ -27,7 +27,6 @@ Coq,“Coq”,,,Common-term programming-language theorem-prover
 Hinrichsen,,,,
 new1,,,,unclassified
 iProp,,,,unclassified
-p.15,,,,unclassified
 Yoshida,,,,unclassified
 IMP,Like the little demon “imp”,A simple “imperative” programming language,,
 semantics,,,,
@@ -46,7 +45,6 @@ Toninho,,,,unclassified
 concurrency,,,,Common-term
 Dardha,,,,unclassified
 new_imp,,,,unclassified
-p.18,,,,unclassified
 API,A.P.I.,Application Programming Interface,,Common-term
 Derek Dreyer,,,,Author
 Honda,,,,
@@ -66,11 +64,6 @@ Gay ,,,,Name
 https,,,,unclassified
 https://doi.org/10,,,,unclassified
 Mostrous,,,,unclassified
-p.11,,,,unclassified
-p.20,,,,unclassified
-p.22,,,,unclassified
-p.7,,,,unclassified
-p.8,,,,unclassified
 Ralf Jung,,,,Author
 send-close,,,,unclassified
 Actris's,,,,unclassified
@@ -85,9 +78,6 @@ Kohei,,,,unclassified
 linear,,,,Common-term
 modalities,,,,Common-term
 multi-shot,,,,unclassified
-p.14,,,,unclassified
-p.16,,,,unclassified
-p.17,,,,unclassified
 Peter Thiemann,,,,Author
 prog_add,,,,unclassified
 Scalas,,,,unclassified
@@ -97,7 +87,6 @@ Go,,,,
 Ht-inv-open-close,,,,unclassified
 minimalistic,,,,unclassified
 O'Hearn,,,,Name
-p1,,,,unclassified
 Padovani,,,,unclassified
 pointer,,,,Common-term
 PPDP,,,,unclassified
@@ -121,7 +110,6 @@ Higher-order ghost state,,,,
 Hoare,Like “horse”,,,Name
 Ht-ghost-alloc,,,,unclassified
 Ht-inv-alloc,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 instantiation,,,,
 is_chan,,,,unclassified
 Jan-Oliver,,,,unclassified
@@ -134,9 +122,6 @@ modular,,,,Common-term
 multi-binders,,,,unclassified
 Nakano,,,,unclassified
 Ornela,,,,unclassified
-p.19,,,,unclassified
-p.21,,,,unclassified
-p.6,,,,unclassified
 points-tos,,,,unclassified
 prot_add_rec,,,,unclassified
 run-time,,,,unclassified
@@ -146,8 +131,6 @@ Semantic,,,,Common-term
 shared-memory,,,,
 step-indexing,,,,unclassified
 use-after-free,,,,unclassified
-2017a,,,,unclassified
-2017b,,,,unclassified
 Aarhus University,,,,Institution
 Actris-style,,,,unclassified
 Amal Ahmed,,,,Author
@@ -180,7 +163,6 @@ Ht-later-frame,,,,unclassified
 Ht-later-timeless,,,,unclassified
 Ht-load,,,,unclassified
 Ht-store,,,,unclassified
-https://doi.org/10.1017,,,,unclassified
 Intrinsically-Typed,,,,unclassified
 Java,,,,
 Joseph Tassarotti,,,,Author
@@ -219,15 +201,7 @@ Tok-excl,,,,unclassified
 untyped,,,,
 Wadler,,,,Name
 Zhou,,,,unclassified
-1016/j.ic.2017.06.002,,,,unclassified
 2-symbols,,,,unclassified
-2002]'s,,,,unclassified
-2020]--we,,,,unclassified
-2022a,,,,unclassified
-2022b,,,,unclassified
-"2022b,a",,,,unclassified
-2475-1421/2023/8-ART214,,,,unclassified
-48550/arXiv.2210.17335,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
 Ahmed,,,,Name
 allocations,,,,Common-term
@@ -266,8 +240,6 @@ derivation,,,,
 derive,,,,
 design--from,,,,unclassified
 Design-by-Contract,,,,unclassified
-doi.org/10.1109/LICS.2009.34,,,,unclassified
-doi.org/10.1145/3607859,,,,unclassified
 double-free--it,,,,unclassified
 DSL,,,,
 dual_dual,,,,unclassified
@@ -291,7 +263,6 @@ Hongseok,,,,unclassified
 Ht-inv-openclose,,,,unclassified
 Ht-invalloc,,,,unclassified
 Ht-val,,,,unclassified
-https://doi.org/10.4230,,,,unclassified
 ICECCS,,,,unclassified
 imp.v,,,,unclassified
 impredicativity,,,,unclassified
@@ -313,7 +284,6 @@ lambdacalculus,,,,unclassified
 Laumann,,,,unclassified
 LICS,,,,unclassified
 linear Haskell,,,,
-LIPIcs.ECOOP.2016.21,,,,unclassified
 Louwrink,,,,unclassified
 Machine-checked,,,,unclassified
 mail@robbertkrebbers.nl,,,,email
@@ -342,8 +312,6 @@ nondeterministic,,,,
 oneshot,,,,unclassified
 OOPSLA,,,,unclassified
 owner/author(s,,,,unclassified
-p.12,,,,unclassified
-p.5,,,,unclassified
 p=p,,,,unclassified
 Paul-Andre,,,,unclassified
 Pfenning,,,,unclassified
@@ -382,12 +350,9 @@ Riely,,,,unclassified
 Rumyana,,,,unclassified
 Ruofei,,,,unclassified
 RustBelt,,,,
-S0956796816000289,,,,unclassified
-S0956796818000151,,,,unclassified
 safely--i.e,,,,unclassified
 Sam Lindley,,,,Author
 Schwinghammer,,,,unclassified
-send((100,,,,unclassified
 send-receive,,,,unclassified
 send1_spec,,,,unclassified
 send1_spec0,,,,unclassified
@@ -438,5 +403,4 @@ wait_prot_dual,,,,unclassified
 wait_spec,,,,unclassified
 Wei-Ngan,,,,unclassified
 Why,,,,
-Z.!Z.?B.end,,,,unclassified
 Zenodo,,,,unclassified

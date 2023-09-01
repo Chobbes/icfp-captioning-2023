@@ -31,8 +31,6 @@ IntTree,,,,unclassified
 API,A.P.I.,Application Programming Interface,,Common-term
 negp-command,,,,unclassified
 Vasco,,,,unclassified
-M1,,,,unclassified
-M2,,,,unclassified
 many-unaryp,,,,unclassified
 Padovani,,,,unclassified
 Rust,,,,Common-term programming-language
@@ -49,15 +47,12 @@ primRecv,,,,unclassified
 Ravara,,,,unclassified
 session-typed,,,,unclassified
 arithp,,,,unclassified
-c0,,,,unclassified
 CheckDual0,,,,unclassified
 datatype,,,,Common-term
 Set1,,,,unclassified
 Vec,,,,unclassified
 Wadler,,,,Name
-A2,,,,unclassified
 arithp-command,,,,unclassified
-B1,,,,unclassified
 c.x,,,,unclassified
 Caires,,,,unclassified
 client-p,,,,unclassified
@@ -77,7 +72,6 @@ Thudichum,,,,unclassified
 treep,,,,unclassified
 Agda's,,,,unclassified
 branchp,,,,unclassified
-c2,,,,unclassified
 Comput,,,,unclassified
 ECOOP,,,,unclassified
 higher-order,,,,Common-term
@@ -93,10 +87,8 @@ StateT,,,,Common-term
 Toninho,,,,unclassified
 Zhou,,,,unclassified
 abstraction,,,,Common-term
-B2,,,,unclassified
 BoolF2,,,,unclassified
 c.j,,,,unclassified
-c1,,,,unclassified
 calculus,,Used to describe a core simple programming language,,Common-term
 cmd1,,,,unclassified
 cmd2,,,,unclassified
@@ -114,8 +106,6 @@ Leibniz-Zentrum,,,,unclassified
 LIPIcs,,,,unclassified
 object-oriented,,,,unclassified
 primClose,,,,unclassified
-S1,,,,unclassified
-S2,,,,unclassified
 Scala,,,,Common-term programming-language
 Scalas,,,,unclassified
 untyped,,,,
@@ -209,7 +199,6 @@ runServer,,,,unclassified
 Sam Lindley,,,,Author
 sendTree,,,,unclassified
 Set2,,,,unclassified
-t2,,,,unclassified
 tail-recursive,,,,
 TJ,,,,unclassified
 User-defined,,,,unclassified
@@ -220,10 +209,6 @@ x.j,,,,unclassified
 xclose,,,,unclassified
 Xia,,,,unclassified
 xsend,,,,unclassified
-0Z,,,,unclassified
-1017/s0956796899003469,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART212,,,,unclassified
 Agrawal,,,,unclassified
 algorithmic,,,,Common-term
 aliasing,,,,
@@ -271,7 +256,6 @@ Dimitrios,,,,unclassified
 distribution,,,,
 domain-specific,,,,unclassified
 Dominique Devriese,,,,
-e4,,,,unclassified
 Edixhoven,,,,unclassified
 Eijiro,,,,unclassified
 Einar Broch Johnsen,,,,Author
@@ -303,8 +287,6 @@ Hernan,,,,unclassified
 Hiromi,,,,unclassified
 HOAS,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1007,,,,unclassified
-https://doi.org/10.1017,,,,unclassified
 human-readable,,,,unclassified
 Hur,,,,unclassified
 I/O,“eye-oh”,,,
@@ -385,8 +367,6 @@ runtime,,,,Common-term
 Ruofei,,,,unclassified
 Rupak,,,,unclassified
 s-i,,,,unclassified
-s0,,,,unclassified
-S0956796808006758,,,,unclassified
 Saddek,,,,unclassified
 Saffrich,,,,unclassified
 Sebastian Erdweg,,,,Author

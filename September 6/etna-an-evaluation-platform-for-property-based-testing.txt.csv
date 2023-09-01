@@ -60,7 +60,6 @@ Findler,,,,
 generic-random,,,,unclassified
 Hazimeh,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 Hughes's,,,,unclassified
 Klees,,,,unclassified
 Kuncak,,,,unclassified
@@ -75,10 +74,6 @@ Test-Case,,,,unclassified
 well-typed,,,,Common-term
 Wongsuphasawat,,,,unclassified
 Xia,,,,unclassified
-18th,,,,unclassified
-2012a,,,,unclassified
-2012b,,,,unclassified
-31st,,,,unclassified
 Amorim,,,,unclassified
 Andoni,,,,unclassified
 Azevedo,,,,unclassified
@@ -122,20 +117,6 @@ USENIX,,,,unclassified
 Vega-Lite,,,,unclassified
 Viktor,,,,unclassified
 Vytiniotis,,,,
-11th,,,,unclassified
-14th,,,,unclassified
-"2012a,b",,,,unclassified
-2475-1421/2023/8-ART218,,,,unclassified
-24th,,,,unclassified
-26th,,,,unclassified
-27th,,,,unclassified
-28th,,,,unclassified
-32nd,,,,unclassified
-34th,,,,unclassified
-36th,,,,unclassified
-3a,,,,unclassified
-44th,,,,unclassified
-a)-(c,,,,unclassified
 AFL-style,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
 akeles@umd.edu,,,,email
@@ -162,8 +143,6 @@ Darko,,,,unclassified
 dataframe,,,,unclassified
 DeBruijn,,,,unclassified
 documented4,,,,unclassified
-doi.org/10.1145/3360607,,,,unclassified
-doi.org/10.1145/351240.351266,,,,unclassified
 DraGEN,,,,unclassified
 Dumitru,,,,unclassified
 ecosystem,,,,
@@ -190,7 +169,6 @@ head-to-head,,,,unclassified
 hgo@seas.upenn.edu,,,,email
 high-effort,,,,unclassified
 higher-order,,,,Common-term
-https://doi.org/10.1109,,,,unclassified
 https://hypothesis.works,,,,unclassified
 https://jupyter.org,,,,unclassified
 https://pandas.pydata.org,,,,unclassified
@@ -285,7 +263,6 @@ Tree)s,,,,unclassified
 TrialConfig,,,,unclassified
 TrialConfig(workload=workload,,,,unclassified
 trials=10,,,,unclassified
-TVCG.2016.2599030,,,,unclassified
 type substitution,,,,
 Type-System,,,,unclassified
 typebased,,,,unclassified

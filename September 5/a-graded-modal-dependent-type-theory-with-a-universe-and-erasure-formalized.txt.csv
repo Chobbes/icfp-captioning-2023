@@ -23,7 +23,6 @@ snd,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
 Atkey,,,,unclassified
 Oskar Eriksson,,,,Author
-0M,,,,unclassified
 Nils Anders Danielsson,,,,Author
 judgement,,dependent types,,theory
 linear,,,,Common-term
@@ -57,7 +56,6 @@ decidable,,,,
 https,,,,unclassified
 syntax,,,,Common-term
 Tejiak,,,,unclassified
-1M,,,,unclassified
 Atkey's,,,,unclassified
 Elimination,,,,
 emb,,,,unclassified
@@ -82,7 +80,6 @@ non-resourced,,,,unclassified
 subtyping,,,,Common-term
 syntactic,,,,Common-term
 algorithmic,,,,Common-term
-B.2,,,,unclassified
 canonicity,,,,
 compiled,,,,
 conclusion,,,,
@@ -115,11 +112,7 @@ unitrec,,,,unclassified
 University of Gothenburg,,,,Institution
 weakenings,,,,unclassified
 zero-product,,,,unclassified
-23rd,,,,unclassified
-A.1,,,,unclassified
-A.5,,,,unclassified
 axiom,,,,
-B.1,,,,unclassified
 Brady,,,,
 call-by-name,,,,unclassified
 closure,,,,Common-term
@@ -176,28 +169,8 @@ well-scoped,,,,unclassified
 WHNFs,,,,unclassified
 Wojciech,,,,unclassified
 0-annotated,,,,unclassified
-0N,,,,unclassified
-0U,,,,unclassified
-11th,,,,unclassified
-16th,,,,unclassified
 2-point,,,,unclassified
-2021]--the,,,,unclassified
-21st,,,,unclassified
-22nd,,,,unclassified
-2475-1421/2023/8-ART220,,,,unclassified
-24th,,,,unclassified
-30th,,,,unclassified
-31st,,,,unclassified
-33rd,,,,unclassified
-35th,,,,unclassified
 7-tuple,,,,unclassified
-A.2,,,,unclassified
-A.3,,,,unclassified
-A.4,,,,unclassified
-A.6,,,,unclassified
-A.7,,,,unclassified
-A.8,,,,unclassified
-A.9,,,,unclassified
 abstracts/abel1.pdf,,,,unclassified
 ACM/IEEE,,,,unclassified
 Agda's,,,,unclassified
@@ -207,11 +180,7 @@ andreas.abel@gu.se,,,,email
 appropriate--see,,,,unclassified
 Arnaud Spiwack,,,,Author
 Atkey--inspired,,,,unclassified
-B.3,,,,unclassified
-B.4,,,,unclassified
-B.5,,,,unclassified
 Bassel,,,,unclassified
-bb69ad3f39,,,,unclassified
 BCI,,,,unclassified
 beroende,,,,unclassified
 binder,like in bind,,,
@@ -228,8 +197,6 @@ Damiano Mazza,,,,researcher
 deconstructed,,,,unclassified
 definitionally,,,,theory
 design/feature,,,,unclassified
-doi.org/10.1145/3434331,,,,unclassified
-doi.org/10.4204/EPTCS.353.10,,,,unclassified
 ECOOP,,,,unclassified
 EPTCS,,,,unclassified
 equality--are,,,,unclassified
@@ -252,14 +219,11 @@ H/M,,,,unclassified
 Haskell,,,,Common-term programming-language
 heap-stored,,,,unclassified
 HTML,,,,unclassified
-ICFP'10,,,,unclassified
-ICFP'14,,,,unclassified
 Idris 2,,,,
 induction-recursion,,,,unclassified
 inferring,,,,
 information-flow,,,,unclassified
 iterations,,,,
-J1,,,,unclassified
 Joakim,,,,unclassified
 Kavvos,,,,unclassified
 Kishida,,,,unclassified
@@ -312,7 +276,6 @@ prodrec00,,,,unclassified
 product/-type,,,,unclassified
 projections--including,,,,unclassified
 Proof-irrelevant,,,,Common-term
-R)0,,,,unclassified
 re-fit,,,,unclassified
 real-world,,,,unclassified
 redexes,,,,unclassified

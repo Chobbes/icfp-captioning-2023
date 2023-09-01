@@ -1,6 +1,4 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-e2,,,,unclassified
-e1,,,,unclassified
 expression,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 unification,,,,
@@ -10,7 +8,6 @@ context,,,,Common-term
 lambda calculus,lam-duh calculus,,,theory
 Augustsson,,,,unclassified
 Steele,,,,Name
-e3,,,,unclassified
 reduction,,,,Common-term
 Ariola,,,,unclassified
 Peyton Jones,,,,Name
@@ -18,7 +15,6 @@ syntax,,,,Common-term
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 Claessen,,,,unclassified
 functional programming,,,,
-v1,,,,unclassified
 Breitner,,,,unclassified
 Jhala,,,,unclassified
 Shivers,,,,
@@ -37,14 +33,12 @@ Lopez-Fraguas,,,,unclassified
 pattern matching,,,,
 redex,,,,
 seq-swap,,,,unclassified
-x1,,,,unclassified
 backtracking,,,,Common-term
 Haskell,,,,Common-term programming-language
 one{e,,,,unclassified
 recursion,,,,Common-term
 SIGPLAN,,,,unclassified
 syntactic,,,,Common-term
-v2,,,,unclassified
 Brael,,,,unclassified
 exi-swap,,,,unclassified
 recursive,,,,Common-term
@@ -66,7 +60,6 @@ denotational semantics,,,,semantics
 EXI,,,,unclassified
 FLC,,,,unclassified
 fvs(v,,,,unclassified
-k1,,,,unclassified
 Koen Claessen,,,,Author
 Launchbury,,,,unclassified
 laziness,,,,
@@ -142,10 +135,8 @@ set-functions,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 untyped,,,,
 v/x,,,,unclassified
-v0,,,,unclassified
 val-elim,,,,unclassified
 VC's,,,,unclassified
-17th,,,,unclassified
 all-fail,,,,unclassified
 all-value,,,,unclassified
 all{1,,,,unclassified
@@ -178,7 +169,6 @@ Dagstuhl,,,,unclassified
 Dagstuhl--Leibniz-Zentrum,,,,unclassified
 Datafun,,,,unclassified
 de'Liguoro,,,,unclassified
-e4,,,,unclassified
 ECOOP,,,,unclassified
 equational,,,,Common-term
 exi-elim,,,,unclassified
@@ -224,7 +214,6 @@ non-terminating,,,,unclassified
 North-Holland,,,,unclassified
 one-fail,,,,unclassified
 one-value,,,,unclassified
-one{(e1,,,,unclassified
 one{1,,,,unclassified
 one{i,,,,unclassified
 one{p(x,,,,unclassified
@@ -249,49 +238,18 @@ term-rewriting,,,,unclassified
 tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 u-fail,,,,unclassified
 User-defined,,,,unclassified
-x2,,,,unclassified
 x=x,,,,unclassified
-1)(y,,,,unclassified
-11th,,,,unclassified
 "12""Compatible",,,,unclassified
-13th,,,,unclassified
-1978]--but,,,,unclassified
-1995]'s,,,,unclassified
-1999/A99-03/JFLP-A99-03.pdf,,,,unclassified
-19th,,,,unclassified
-2(i,,,,unclassified
-2.2--and,,,,unclassified
-2.5)--unless,,,,unclassified
-2/WG,,,,unclassified
-2004a,,,,unclassified
-"2004a,b",,,,unclassified
-2004b,,,,unclassified
-20th,,,,unclassified
-21st,,,,unclassified
-22nd,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART203,,,,unclassified
-3.1.13(ii,,,,unclassified
-30th,,,,unclassified
-32(x,,,,unclassified
-36th,,,,unclassified
-37th,,,,unclassified
-4230/LIPIcs.ECOOP.2022.7,,,,unclassified
-9(x,,,,unclassified
 a(i,,,,unclassified
-A2004-06/JFLP-A2004-06.pdf,,,,unclassified
 a[i,,,,unclassified
-abs/2009.10929,,,,unclassified
 add3,,,,unclassified
 add7,,,,unclassified
 adde1,,,,unclassified
 addk1,,,,unclassified
 Adenilso,,,,unclassified
-AIB-2004-05,,,,unclassified
 al.'s,,,,unclassified
 all{(i,,,,unclassified
 all{e1,,,,unclassified
-all{e})(0,,,,unclassified
 all{SC,,,,unclassified
 all{v1,,,,unclassified
 all{x1,,,,unclassified
@@ -299,7 +257,6 @@ all{x1,,,,unclassified
 ANF,,,,
 APLAS,,,,unclassified
 arm-waving,,,,unclassified
-arXiv:2009.10929,,,,unclassified
 as-yetunknown,,,,unclassified
 bagof,,,,unclassified
 Barenbaum,,,,unclassified
@@ -339,13 +296,10 @@ Correctes,,,,unclassified
 dans,,,,unclassified
 data-flow,,,,unclassified
 Dietmar,,,,unclassified
-doi.org/10.1145/199448.199507,,,,unclassified
 DSL,,,,
 duality,,,,
 Duba,,,,unclassified
 dynamic semantics,,,,
-e)(v,,,,unclassified
-E.4,,,,unclassified
 Ebberup,,,,unclassified
 epicgames.com,,,,unclassified
 eqnelim,,,,unclassified
@@ -403,8 +357,6 @@ Hortala-Gonzalez,,,,unclassified
 http,,,,unclassified
 https,,,,unclassified
 https://doi.org/10,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
-https://doi.org/10.1145/224164,,,,unclassified
 https://web.archive.org/web,,,,unclassified
 ICTAC,,,,unclassified
 Id,,,,
@@ -419,7 +371,6 @@ J.C,,,,unclassified
 Java,,,,
 Jean-Jacques,,,,unclassified
 Jouannaud,,,,unclassified
-k3,,,,unclassified
 KiCS,,,,unclassified
 koen.claessen@epicgames.com,,,,email
 Kohlbecker,,,,unclassified
@@ -442,7 +393,6 @@ LICS,,,,unclassified
 LNAI,,,,unclassified
 logic-programming,,,,unclassified
 logically-complete,,,,unclassified
-loop})(0,,,,unclassified
 Machine-Oriented,,,,unclassified
 Magnus Madsen,,,,Author
 mail@joachim-breitner.de,,,,email
@@ -480,7 +430,6 @@ olin.shivers@epicgames.com,,,,email
 Olivier Danvy,,,,researcher
 Ondej,,,,unclassified
 one/all,,,,unclassified
-one{(x1,,,,unclassified
 one{fail,,,,unclassified
 one{SC,,,,unclassified
 OOPSLA,,,,unclassified
@@ -577,7 +526,6 @@ Wadler,,,,Name
 Weidenbach,,,,unclassified
 well-behaved-ness,,,,unclassified
 well-specified,,,,unclassified
-WFLP'04,,,,unclassified
 Wroclaw,,,,unclassified
 x-equation,,,,unclassified
 x=e,,,,unclassified

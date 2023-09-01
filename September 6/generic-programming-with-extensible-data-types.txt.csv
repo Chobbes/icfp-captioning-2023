@@ -2,18 +2,12 @@ Term,Pronunciation,Context / Example Usage,Notes,Tags
 generic,,,,
 ICFP,,,,unclassified
 K ,,“K axiom”,,
-M2,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
-M1,,,,unclassified
 constructor,,,,Common-term
 Alex Hubers,,,,Author
 entailment,,,,
 SIGPLAN,,,,unclassified
-z1,,,,unclassified
 KEnv,,,,unclassified
-z2,,,,unclassified
-y1,,,,unclassified
-y2,,,,unclassified
 kinding,,,,unclassified
 label-generic,,,,unclassified
 functor,,,,Common-term
@@ -34,10 +28,8 @@ reflect,,,,
 algebraic effects,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
 JKke,,,,unclassified
-M3,,,,unclassified
 non-commutative,,,,unclassified
 POPL,,,,unclassified
-1...n,,,,unclassified
 mechanization,,,,
 oj,,,,unclassified
 rapply,,,,unclassified
@@ -61,10 +53,8 @@ Berthomieu,,,,unclassified
 CasesB,,,,unclassified
 e-sing,,,,unclassified
 functoriality,,,,unclassified
-i3,,,,unclassified
 k-lift2,,,,unclassified
 modular,,,,Common-term
-oi1...m,,,,unclassified
 prj,,,,unclassified
 reflectB,,,,unclassified
 reifyB,,,,unclassified
@@ -76,22 +66,16 @@ Z3,,Tool to automatically prove theorems,,Tool
 combinator,,,,Common-term
 Daan Leijen,,,,Author
 Dunfield,,,,unclassified
-i1,,,,unclassified
-i2,,,,unclassified
 injection,,,,
 instantiation,,,,
-J1,,,,unclassified
 k-lift1,,,,unclassified
 KH,,,,unclassified
 monad,Mow-nad,,,Common-term
 n-lift1,,,,unclassified
 n-lift2,,,,unclassified
-oi1...n,,,,unclassified
 Oliveira,,,,unclassified
 Plotkin,,Name,,name
 polymorphic,,,,Common-term
-R1,,,,unclassified
-R2,,,,unclassified
 Remy's,,,,unclassified
 row polymorphism,,,,
 Sam Lindley,,,,Author
@@ -111,7 +95,6 @@ formalization,,,,Common-term
 Giuseppe Castagna,,,,Author
 Hillerstrom,,,,unclassified
 Hubers,,,,unclassified
-J2,,,,unclassified
 lsuc,,,,unclassified
 McBride,,,,Name
 ML,,,,Programming-language
@@ -125,10 +108,6 @@ session types,,,,
 syntactic,,,,Common-term
 type-level,,,,unclassified
 type-transforming,,,,unclassified
-11th,,,,unclassified
-13th,,,,unclassified
-18th,,,,unclassified
-44th,,,,unclassified
 abstraction,,,,Common-term
 ad-hoc,,,,unclassified
 Blott,,,,unclassified
@@ -146,8 +125,6 @@ EPTCS,,,,unclassified
 GAN,,generative adversarial network,,Common-term machine-learning
 Haskell's,,,,unclassified
 https://doi.org/10,,,,unclassified
-i+1)j,,,,unclassified
-ICFP'13,,,,unclassified
 ifte,,,,unclassified
 inj,,,,unclassified
 injd,,,,unclassified
@@ -178,7 +155,6 @@ n-refl,,,,unclassified
 nanopass,,,,unclassified
 non-trivial,,,,unclassified
 object-oriented,,,,unclassified
-ok1...m+n,,,,unclassified
 operational semantics,,,,
 p(k,,,,unclassified
 Peyton Jones,,,,Name
@@ -203,19 +179,10 @@ unlabel,,,,unclassified
 upd,,,,unclassified
 Ur's,,,,unclassified
 Ur/Web,,,,unclassified
-UU-CS-2004-51,,,,unclassified
 Uustalu,,,,unclassified
 Well-formedness,,,,unclassified
 WGP,,,,unclassified
 y.(case,,,,unclassified
-15th,,,,unclassified
-2015a,,,,unclassified
-"2015a,b",,,,unclassified
-2015b,,,,unclassified
-20th,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART201,,,,unclassified
-42nd,,,,unclassified
 Acar,,,,unclassified
 Agda's,,,,unclassified
 alexander-hubers@uiowa.edu,,,,email
@@ -230,7 +197,6 @@ c-tvar,,,,unclassified
 c-var,,,,unclassified
 calculi,,,,
 case--(a,,,,unclassified
-CCF-2044815,,,,unclassified
 Cervesato,,,,
 Cheney's,,,,unclassified
 component-wise,,,,unclassified
@@ -275,7 +241,6 @@ Hindley-Milner,,,,
 Hoc--Artifact,,,,unclassified
 https,,,,unclassified
 Iavor,,,,unclassified
-ICFP'12,,,,unclassified
 Iliano,,,,unclassified
 impredicative,,,,Common-term
 information--as,,,,unclassified
@@ -340,7 +305,6 @@ Neel Krishnaswami,,,,Author
 Neelakantan,,,,unclassified
 non-overlapping,,,,unclassified
 non-singleton,,,,unclassified
-NOTTCS-TR-96-3,,,,unclassified
 ntrans,,,,unclassified
 OCaml,,,,Common-term programming-language
 Okasaki,,,,unclassified
@@ -393,7 +357,6 @@ TyDe@ICFP,,,,email
 type--of,,,,unclassified
 type-based,,,,unclassified
 type-directed,,,,unclassified
-u.(t,,,,unclassified
 Umut,,,,unclassified
 unification-based,,,,unclassified
 universe-stratified,,,,unclassified
@@ -410,6 +373,5 @@ Wouter Swierstra,,,,Author
 x-selection,,,,unclassified
 x/l,,,,unclassified
 Xuejing,,,,unclassified
-YALEU/DCS/RR-1128,,,,unclassified
 Zalewski,,,,unclassified
 Zdancewic,,,,unclassified

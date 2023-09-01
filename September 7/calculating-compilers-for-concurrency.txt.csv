@@ -40,8 +40,6 @@ effect handlers,,,,
 NewChan,,,,unclassified
 non-termination,,,,unclassified
 context,,,,Common-term
-e1,,,,unclassified
-e2,,,,unclassified
 interpc,,,,unclassified
 PrintInt,,,,unclassified
 equational,,,,Common-term
@@ -67,10 +65,7 @@ higher-order,,,,Common-term
 HOCC,,,,unclassified
 inductive,,,,Common-term
 infChoice,,,,unclassified
-p1,,,,unclassified
 Semantic,,,,Common-term
-c1,,,,unclassified
-c2,,,,unclassified
 calculus,,Used to describe a core simple programming language,,Common-term
 CTreeInf,,,,unclassified
 datatype,,,,Common-term
@@ -99,10 +94,8 @@ Ret,,,,
 Reynolds,,,,Name
 transition system,,,,
 Vezzosi,,,,unclassified
-1982a,,,,unclassified
 Bizjak,,,,unclassified
 brD,,,,unclassified
-c+1,,,,unclassified
 CakeML,,,,unclassified
 Capretta,,,,
 co-)induction,,,,unclassified
@@ -137,15 +130,10 @@ Olivier Danvy,,,,researcher
 pattern matching,,,,
 polymorphic,,,,Common-term
 POPL,,,,unclassified
-q1,,,,unclassified
-q2,,,,unclassified
 quantified,,,,Common-term
 Rasmus,,,,unclassified
 reflection,,,,Common-term
 Rivas,,,,unclassified
-s+1,,,,unclassified
-s1,,,,unclassified
-s2,,,,unclassified
 sequential ,,,,
 syntactic,,,,Common-term
 University of Nottingham,,,,Institution
@@ -154,12 +142,6 @@ Vafeiadis,,,,unclassified
 Veltri,,,,unclassified
 Viktor,,,,unclassified
 Voigtlander,,,,unclassified
-"1982a,b",,,,unclassified
-1982b,,,,unclassified
-2003a,,,,unclassified
-"2003a,b",,,,unclassified
-2003b,,,,unclassified
-2475-1421/2023/8-ART213,,,,unclassified
 ad-hoc,,,,unclassified
 Adam Chlipala,,,,Author
 Ahmed,,,,Name
@@ -170,7 +152,6 @@ arity,,,,unclassified
 asymptotic,,,,Common-term
 bisimulation,,,,Common-term equivalence
 BRICS,,,,unclassified
-c::b,,,,unclassified
 c=cn,,,,unclassified
 Capretta's,,,,unclassified
 ch1,,,,unclassified
@@ -192,8 +173,6 @@ defunctionalization,,,,
 dependent,,,,Common-term
 Derek Dreyer,,,,Author
 derive,,,,
-doi.org/10.5281/zenodo.8124116,,,,unclassified
-e+1,,,,unclassified
 equational theory,,,,Common-term
 equational-style,,,,unclassified
 exec::Code,,,,unclassified
@@ -256,7 +235,6 @@ register,,,,
 Relaxed-Memory,,,,unclassified
 RelaxedMemory,,,,unclassified
 richly-featured,,,,unclassified
-RS-03-14,,,,unclassified
 Semantics-Directed,,,,unclassified
 Sigbjorn,,,,unclassified
 SIGPLAN,,,,unclassified

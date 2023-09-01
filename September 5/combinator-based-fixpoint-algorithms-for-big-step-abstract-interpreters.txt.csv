@@ -111,7 +111,6 @@ for(j,,,,unclassified
 g(x,,,,unclassified
 Hudak,,,,Name
 Id,,,,
-if(n==0,,,,unclassified
 Informatik,,,,unclassified
 inter-procedural,,,,unclassified
 isFunBody,,,,unclassified
@@ -127,11 +126,6 @@ rror,,,,unclassified
 Scala-AM,,,,unclassified
 valnew,,,,unclassified
 Visser,,,,unclassified
-14th,,,,unclassified
-2006a,,,,unclassified
-22nd,,,,unclassified
-33rd,,,,unclassified
-64-bit,,,,unclassified
 args,,,,unclassified
 Boolean,,,,
 bytecode,,,,unclassified
@@ -146,8 +140,6 @@ cloc,,,,unclassified
 Control-flow analysis,,,,
 ctx,,,,unclassified
 domain-specific,,,,unclassified
-e1,,,,unclassified
-e2,,,,unclassified
 "env,expr",,,,unclassified
 ES,,Explicit substitutions,,
 eval(fix,,,,unclassified
@@ -161,14 +153,10 @@ GlobalState,,,,unclassified
 "grown,resultwidened",,,,unclassified
 hand-written,,,,unclassified
 Hilbig,,,,unclassified
-i1,,,,unclassified
-i2,,,,unclassified
 if(m,,,,unclassified
 Interprocedural,,,,unclassified
 isApplication,,,,unclassified
 isBreakpoint,,,,unclassified
-j1,,,,unclassified
-j2,,,,unclassified
 Java,,,,
 JGU,,,,unclassified
 language-independent,,,,unclassified
@@ -209,22 +197,7 @@ TermEnv,,,,unclassified
 valcached,,,,unclassified
 wasm,,,,
 WhileLoop,,,,unclassified
-"0,1]Val",,,,unclassified
-0.1s,,,,unclassified
 0CFA,,,,
-11th,,,,unclassified
-15th,,,,unclassified
-16th,,,,unclassified
-1993]'s,,,,unclassified
-"2006a,b",,,,unclassified
-2006b,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART221,,,,unclassified
-28th,,,,unclassified
-30th,,,,unclassified
-37th,,,,unclassified
-38th,,,,unclassified
-5s,,,,unclassified
 "a,s",,,,unclassified
 Akademgorodok,,,,unclassified
 algebra,,,,
@@ -291,11 +264,8 @@ derive,,,,
 destruc,,,,unclassified
 desugaring,,,,Common-term
 Devanbu,,,,unclassified
-DFG)-451545561,,,,unclassified
 distribution,,,,
 diviter,,,,unclassified
-doi.org/10.1145/199448.199462,,,,unclassified
-doi.org/10.1145/3607863,,,,unclassified
 Domain-theoretic,,,,unclassified
 Dominique Devriese,,,,
 Dybvig,,,,unclassified
@@ -311,8 +281,6 @@ Eugster,,,,unclassified
 executables,,,,unclassified
 "Expr,Ed",,,,unclassified
 False,,,,unclassified
-fib(n-1,,,,unclassified
-fib(n-2,,,,unclassified
 FieldSensitiveBiDiIFDS,,,,unclassified
 first-order,,,,unclassified
 firstorder,,,,unclassified
@@ -322,7 +290,6 @@ Flanagan,,,,
 FloatVal,,,,unclassified
 flow-sensitive,,,,unclassified
 FlowTwist,,,,unclassified
-FSE-22,,,,unclassified
 functions.5,,,,unclassified
 GammaCFA,,,,unclassified
 garbage collection,,GC,,Common-term
@@ -339,10 +306,7 @@ Grobelnik,,,,unclassified
 Guannan,,,,unclassified
 Hai,,,,unclassified
 Hans-Juergen,,,,unclassified
-https://doi.org/10.1016,,,,unclassified
 IDESolver.java,,,,unclassified
-if(m==1,,,,unclassified
-if(n==1,,,,unclassified
 ill-typed,,,,unclassified
 Ilya Sergey,,,,Author
 induction,,,,Common-term
@@ -429,7 +393,6 @@ Phuc,,,,unclassified
 Piessens,,,,unclassified
 PLILP'92,,,,unclassified
 pointer,,,,Common-term
-POPL'95,,,,unclassified
 Pottosin,,,,unclassified
 Poulsen,,,,unclassified
 Pradel,,,,unclassified
@@ -452,9 +415,7 @@ Rossberg,,,,unclassified
 round-robin,,,,unclassified
 Rozas,,,,unclassified
 Ruthing,,,,unclassified
-S0167-6423(99)00023-4,,,,unclassified
 Salvaneschi,,,,unclassified
-SAS'95,,,,unclassified
 SCG.add,,,,unclassified
 Schmidt's,,,,unclassified
 Schuff,,,,unclassified

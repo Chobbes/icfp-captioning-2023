@@ -47,7 +47,6 @@ liftSO,,,,unclassified
 snd,,,,unclassified
 unpair,,,,unclassified
 Why,,,,
-2018d,,,,unclassified
 Carette,,,,unclassified
 category,,,,
 DVar,,,,unclassified
@@ -69,7 +68,6 @@ polymorphic,,,,Common-term
 round-tripping,,,,unclassified
 Acar,,,,unclassified
 DLam,,,,unclassified
-g1,,,,unclassified
 https,,,,unclassified
 IxZ,,,,unclassified
 liftSOn,,,,unclassified
@@ -94,7 +92,6 @@ lookEnv,,,,unclassified
 ol0,,,,unclassified
 PBij,,,,unclassified
 presheaf,,,,Common-term
-Q1,,,,unclassified
 runILC,,,,unclassified
 runOpenSTLC,,,,unclassified
 runSim,,,,unclassified
@@ -104,7 +101,6 @@ absPFunSem,,,,unclassified
 applicative,,,,Common-term
 appSem,,,,unclassified
 Bruijn-indexed,,,,unclassified
-c1,,,,unclassified
 Chlipala,,,,unclassified
 DApp,,,,unclassified
 datatype,,,,Common-term
@@ -129,7 +125,6 @@ weakenMany,,,,unclassified
 Bancilhon,,,,unclassified
 bidirectionalization,,,,unclassified
 breakNLB,,,,unclassified
-c2,,,,unclassified
 CTSBool,,,,unclassified
 decompEnv,,,,unclassified
 expressive,,,,Common-term
@@ -149,8 +144,6 @@ tupling,,,,unclassified
 typeclasses,,,,
 untyped,,,,
 Zhenjiang,,,,unclassified
-2014]'s,,,,unclassified
-2018b,,,,unclassified
 abstraction,,,,Common-term
 abstractions,,,,
 algebra,,,,
@@ -163,13 +156,11 @@ consP,,,,unclassified
 constructor,,,,Common-term
 contraction,,,,
 CTSLiftPred,,,,unclassified
-D.4,,,,unclassified
 dgEmpty,,,,unclassified
 ETAPS,,,,unclassified
 Fegaras,,,,unclassified
 FliPpr,,,,unclassified
 Funct,,,,unclassified
-g2,,,,unclassified
 generic,,,,
 Gibbons,,,,
 host-level,,,,unclassified
@@ -201,8 +192,6 @@ weakenBy,,,,unclassified
 well-behavedness,,,,unclassified
 Werk,,,,unclassified
 XML,,,,unclassified
-2009]'s,,,,unclassified
-2018a,,,,unclassified
 ADTree,,,,unclassified
 algebras,,,,
 args,,,,unclassified
@@ -211,26 +200,20 @@ checkEmpty,,,,unclassified
 cnv,,,,unclassified
 CodeM,,,,unclassified
 cons,kon-ss,,,
-D.3,,,,unclassified
 dependent,,,,Common-term
 domain-specific,,,,unclassified
 DSLs,,,,unclassified
 Dunfield,,,,unclassified
-e1,,,,unclassified
-e2,,,,unclassified
 eCTS,,,,unclassified
 emptySem,,,,unclassified
 ex_g,,,,unclassified
 expressiveness,,,,Common-term
-F.1,,,,unclassified
 Flanagan,,,,
 formalization,,,,Common-term
 fromFuncTerm,,,,unclassified
 GHC,,,,compiler tool
 Haskell's,,,,unclassified
 Huet,,,,unclassified
-i1,,,,unclassified
-i2,,,,unclassified
 incrementalization,,,,unclassified
 invertible,,,,
 isomorphic,,,,Common-term
@@ -265,20 +248,13 @@ VECons,,,,unclassified
 Voigtlander,,,,unclassified
 Wadler,,,,Name
 "x,y",,,,unclassified
-14th,,,,unclassified
 1QU,,,,unclassified
-2014a,,,,unclassified
-2014b,,,,unclassified
-2018c,,,,unclassified
-23rd,,,,unclassified
 "a,b",,,,unclassified
 a-typed,,,,unclassified
-"a1,...,an",,,,unclassified
 a:env,,,,unclassified
 Abadi,,,,unclassified
 Abramsky,,,,unclassified
 adxs,,,,unclassified
-after1991,,,,unclassified
 applyADTree,,,,unclassified
 aTerm,,,,unclassified
 Babybel,,,,unclassified
@@ -290,7 +266,6 @@ BS8,,,,unclassified
 BString,,,,unclassified
 bTerm,,,,unclassified
 byAW,,,,unclassified
-C.2,,,,unclassified
 c2pL,,,,unclassified
 calculi,,,,
 CodeDelta,,,,unclassified
@@ -305,7 +280,6 @@ cs2,,,,unclassified
 CTSQ,,,,unclassified
 CTSSeqE,,,,unclassified
 Cunha,,,,unclassified
-D.2,,,,unclassified
 DAttr,,,,unclassified
 dbs1,,,,unclassified
 dbs2,,,,unclassified
@@ -326,7 +300,6 @@ environment</title,,,,unclassified
 equational,,,,Common-term
 exEnv,,,,unclassified
 Extr,,,,unclassified
-F.2,,,,unclassified
 fmap,,,,unclassified
 FOSSACS,,,,unclassified
 FPCA,,,,unclassified
@@ -374,7 +347,6 @@ nilP,,,,unclassified
 non-compositional,,,,unclassified
 nondeterministic,,,,
 ol2,,,,unclassified
-p1,,,,unclassified
 Pagani,,,,unclassified
 pairP,,,,unclassified
 pairSem,,,,unclassified
@@ -383,7 +355,6 @@ Pfenning,,,,unclassified
 ph@(PFun,,,,email
 Phan,,,,unclassified
 Plotkin,,Name,,name
-price>65.95</price,,,,unclassified
 Publishers</publisher,,,,unclassified
 quantified,,,,Common-term
 Rajkumar,,,,unclassified
@@ -401,7 +372,6 @@ Simon Peyton Jones,,,,Author
 singletonSem,,,,unclassified
 SMT solver,,Type of tool for solving SMT problems,,Tool
 stand-alone,,,,unclassified
-t2,,,,unclassified
 title>Advanced,,,,unclassified
 title>TCP/IP,,,,unclassified
 Tohoku,,,,unclassified
@@ -410,8 +380,6 @@ top-most,,,,unclassified
 toString,,,,unclassified
 tr1,,,,unclassified
 tr2,,,,unclassified
-u1,,,,unclassified
-u2,,,,unclassified
 UE.liftFO0,,,,unclassified
 UE.liftFO2,,,,unclassified
 uncons,,,,unclassified
@@ -421,36 +389,13 @@ user-friendly,,,,unclassified
 VENil,,,,unclassified
 Vytiniotis,,,,
 weakenManyDSTLC,,,,unclassified
-x=3,,,,unclassified
 Xiong,,,,unclassified
-"year=""1992",,,,unclassified
-"year=""1994",,,,unclassified
 Yoneda,,Yoneda embedding / yoneda lemma,,
-11th,,,,unclassified
-11We,,,,unclassified
-13-inch,,,,unclassified
-17We,,,,unclassified
 1993]--essentially,,,,unclassified
-19th,,,,unclassified
-"2018a,d",,,,unclassified
-2019]'s,,,,unclassified
-22nd,,,,unclassified
-2475-1421/2023/8-ART189,,,,unclassified
-24th,,,,unclassified
-26th,,,,unclassified
-28th,,,,unclassified
 2AZ,,,,unclassified
-30th,,,,unclassified
-32nd,,,,unclassified
-35th,,,,unclassified
-3a,,,,unclassified
-3b,,,,unclassified
-5b,,,,unclassified
 9We,,,,unclassified
-"A"",""B"",""C",,,,unclassified
 A'-normal,,,,unclassified
 A'-normalizing,,,,unclassified
-"a,18",,,,unclassified
 A-normal,,,,unclassified
 A-normalization,,,,unclassified
 A-normalized,,,,unclassified
@@ -460,7 +405,6 @@ A\nB\nC\n,,,,unclassified
 a])--which,,,,unclassified
 ab)use,,,,unclassified
 Abiteboul,,,,unclassified
-abs/2108.13114,,,,unclassified
 Adam Chlipala,,,,Author
 adas,,,,unclassified
 Addison-Wesley,,,,unclassified
@@ -474,7 +418,6 @@ al.'s,,,,unclassified
 Alcino,,,,unclassified
 Alonzo Church,,,,researcher
 Amal Ahmed,,,,Author
-"an,14",,,,unclassified
 Andrzej,,,,unclassified
 Anuj,,,,unclassified
 Aoba-ku,,,,unclassified
@@ -485,9 +428,6 @@ Aramaki,,,,unclassified
 Arnaud Spiwack,,,,Author
 array,,,,Common-term
 Artif,,,,unclassified
-arXiv:1910.10775,,,,unclassified
-arXiv:2108.13114,,,,unclassified
-as1:{b1,,,,unclassified
 asn:{bn,,,,unclassified
 AST-level,,,,unclassified
 ASTs,,,,unclassified
@@ -496,12 +436,9 @@ Avaiable,,,,unclassified
 Availble,,,,unclassified
 Axelsen,,,,unclassified
 Aza-aoba,,,,unclassified
-"B"",""C",,,,unclassified
 B(String,,,,unclassified
 "b,a",,,,unclassified
 "b,f",,,,unclassified
-B.1,,,,unclassified
-B.2,,,,unclassified
 B.V,,,,unclassified
 b/Delta,,,,unclassified
 B[String,,,,unclassified
@@ -517,9 +454,7 @@ branch_n,,,,unclassified
 breakNLBstr,,,,unclassified
 Bruijn-index-like,,,,unclassified
 C-Based,,,,unclassified
-C.1,,,,unclassified
 c.CTS,,,,unclassified
-"c1,c2",,,,unclassified
 Cache-Transfer,,,,unclassified
 cache-transferstyle,,,,unclassified
 Caires,,,,unclassified
@@ -545,7 +480,6 @@ conclusion,,,,
 consistency,,Gradual typing,,theory
 constP,,,,unclassified
 container3,,,,unclassified
-containers-0.6.5.1,,,,unclassified
 context-free,,,,unclassified
 contextual-typed,,,,unclassified
 contributions:1,,,,unclassified
@@ -556,7 +490,6 @@ CTSBase,,,,unclassified
 CTSSeq,,,,unclassified
 Curien,,,,unclassified
 curried,,,,
-D.1,,,,unclassified
 Damiano Mazza,,,,researcher
 Data.Sequence,,,,unclassified
 Data.Sequence.Seq,,,,unclassified
@@ -572,12 +505,8 @@ Demystifying,,,,unclassified
 derivative,,,,
 Diffeologies,,,,unclassified
 Dimitrios,,,,unclassified
-doi.org/10.1145/3110271,,,,unclassified
-doi.org/10.1145/3341700,,,,unclassified
 Dongxi,,,,unclassified
 Duba,,,,unclassified
-e15,,,,unclassified
-e20,,,,unclassified
 EACSL,,,,unclassified
 easy-to-reason,,,,unclassified
 ECEASST,,,,unclassified
@@ -587,7 +516,6 @@ Egyed,,,,unclassified
 Eijiro,,,,unclassified
 embedding-by-unembedding,,,,unclassified
 embeddings,,,,
-EP/T008911/1,,,,unclassified
 EPSRC,,,,unclassified
 Essertel,,,,unclassified
 existentially-quantified,,,,unclassified
@@ -622,7 +550,6 @@ Grelck,,,,unclassified
 GTTSE,,,,unclassified
 guest-language,,,,unclassified
 guest-level,,,,unclassified
-h.7,,,,unclassified
 h/htr/dh,,,,unclassified
 Hackage,,,,unclassified
 Haibo,,,,unclassified
@@ -641,14 +568,11 @@ host-language,,,,unclassified
 https://doi.org,,,,unclassified
 https://doi.org/10,,,,unclassified
 https://pyro.ai,,,,unclassified
-i7-1068NG7,,,,unclassified
 ICDE,,,,unclassified
 ICDT,,,,unclassified
-ICFP'13,,,,unclassified
 ICSE,,,,unclassified
 Id,,,,
 IEEE-CS,,,,unclassified
-IES\R3\170104,,,,unclassified
 if2,,,,unclassified
 ILC/CTS,,,,unclassified
 implementer's,,,,unclassified
@@ -665,17 +589,12 @@ interoperability,,,,unclassified
 Ioana,,,,unclassified
 ith,,,,unclassified
 Ivan Perez,,,,Author
-J1,,,,unclassified
 James Cheney,,,,Author
 Jankowiak,,,,unclassified
 Java,,,,
 Jean-Philippe Bernardy,,,,Author
 Jeremy Yallop,,,,Author
 Joakim,,,,unclassified
-JP19K11892,,,,unclassified
-JP20H04161,,,,unclassified
-JP22H03562,,,,unclassified
-JPJSBP120199913,,,,unclassified
 KAKENHI,,,,unclassified
 Kanellakis,,,,unclassified
 Keean,,,,unclassified
@@ -731,7 +650,6 @@ non-local,,,,unclassified
 non-trivial,,,,unclassified
 nonself-maintained,,,,unclassified
 North-Holland,,,,unclassified
-o1,,,,unclassified
 o_i,,,,unclassified
 OCaml's,,,,unclassified
 olk,,,,unclassified
@@ -760,19 +678,15 @@ pin-pointing,,,,unclassified
 pin-points,,,,unclassified
 Pingali,,,,unclassified
 Point-free,,,,unclassified
-POPL'96,,,,unclassified
 POPL's,,,,unclassified
 PPX,,,,unclassified
 pre-processor,,,,unclassified
 predicative,,,,Common-term
-price>129.95</price,,,,unclassified
-price>39.95</price,,,,unclassified
 proof-of-concept,,,,unclassified
 Proxy4,,,,unclassified
 publisher>Kluwer,,,,unclassified
 publisher>Morgan,,,,unclassified
 q1fitler,,,,unclassified
-r.17,,,,unclassified
 R.E.A,,,,unclassified
 Rastislav,,,,unclassified
 Refactoring,,,,unclassified
@@ -791,7 +705,6 @@ S.empty,,,,unclassified
 S.index,,,,unclassified
 S.insertAt,,,,unclassified
 S.update,,,,unclassified
-S:10,,,,unclassified
 Saraiva,,,,unclassified
 SBool,,,,unclassified
 Schupke,,,,unclassified
@@ -856,7 +769,6 @@ TV</title,,,,unclassified
 Type-Based,,,,unclassified
 Type-directed,,,,unclassified
 type-theoretic,,,,unclassified
-u1/u2,,,,unclassified
 Umeshwar,,,,unclassified
 unembeddeding,,,,unclassified
 unembedding's,,,,unclassified
@@ -890,14 +802,10 @@ widely-adopted,,,,unclassified
 Wille,,,,unclassified
 workarounds,,,,unclassified
 WPTE,,,,unclassified
-x::a,,,,unclassified
 Xi,,,,
 Xilun,,,,unclassified
 XMLs,,,,unclassified
 XMP,,,,unclassified
-y::b,,,,unclassified
-"year=""1999",,,,unclassified
-"year=""2000",,,,unclassified
 Yerdos,,,,unclassified
 Yices,,,,unclassified
 yices-painless,,,,unclassified

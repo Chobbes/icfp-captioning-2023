@@ -40,7 +40,6 @@ mmio_load32,,,,unclassified
 model checking,,Automatic theorem proving,,technique tool
 rs2,,,,unclassified
 Wadler,,,,Name
-64-bit,,,,unclassified
 ACL2,,,,unclassified
 compiler-correctness,,,,unclassified
 endCycle,,,,unclassified
@@ -49,7 +48,6 @@ mcomp_sat,,,,unclassified
 model-checking,,,,unclassified
 Myreen,,,,unclassified
 riscv-formal,,,,unclassified
-32-bit,,,,unclassified
 Armstrong,,,,
 Erbsen,,,,unclassified
 Flur,,,,unclassified
@@ -69,8 +67,6 @@ quantified,,,,Common-term
 raiseException,,,,unclassified
 setRegister,,,,unclassified
 SIGPLAN,,,,unclassified
-X86,,,,unclassified
-12-bit,,,,unclassified
 ad-hoc,,,,unclassified
 appendLog,,,,unclassified
 Asanovic,,,,unclassified
@@ -98,7 +94,6 @@ Shaked,,,,unclassified
 simm12,,,,unclassified
 stobj,,,,unclassified
 storeWord,,,,unclassified
-100k,,,,unclassified
 abstraction,,,,Common-term
 Alkassar,,,,unclassified
 ARMv8,,,,unclassified
@@ -174,20 +169,7 @@ VirtualMemory,,,,unclassified
 weakest-precondition,,,,unclassified
 Why,,,,
 Xia,,,,unclassified
-128-bit,,,,unclassified
-13th,,,,unclassified
-16th,,,,unclassified
-19th,,,,unclassified
 2-thread,,,,unclassified
-20190608-Priv-MSU-Ratified,,,,unclassified
-2019a,,,,unclassified
-"2019a,b",,,,unclassified
-2019b,,,,unclassified
-22nd,,,,unclassified
-2475-1421/2023/8-ART192,,,,unclassified
-43rd,,,,unclassified
-64GB,,,,unclassified
-A)(f,,,,unclassified
 "a,s",,,,unclassified
 Abrahamsson,,,,unclassified
 abstract)2,,,,unclassified
@@ -217,7 +199,6 @@ bitvector,,,,unclassified
 bitvectors,,,,unclassified
 Bourgeat,,,,unclassified
 C/Bedrock2,,,,unclassified
-CCF-1521584,,,,unclassified
 CHERI-MIPS,,,,unclassified
 Choi,,,,unclassified
 Chung-Kil,,,,unclassified
@@ -290,7 +271,6 @@ highest-profile,,,,unclassified
 Hillebrand,,,,unclassified
 Hiromi,,,,unclassified
 Hoare-logic-style,,,,unclassified
-HR001118C0018,,,,unclassified
 Hrutvik,,,,unclassified
 hs-to-coq's,,,,unclassified
 https://clash-lang.org,,,,unclassified
@@ -300,7 +280,6 @@ human-readable,,,,unclassified
 Hur,,,,unclassified
 I-immediate,,,,unclassified
 I-type,,,,unclassified
-i7-5930K,,,,unclassified
 immediates,,,,unclassified
 imperative-looking,,,,unclassified
 inductive,,,,Common-term
@@ -346,9 +325,6 @@ memorymodel,,,,unclassified
 metatheorems,,,,unclassified
 Michalis,,,,unclassified
 Minimal32,,,,unclassified
-Minimal32/64,,,,unclassified
-Minimal64/32,,,,unclassified
-MIPS-64,,,,unclassified
 mixed-size,,,,unclassified
 model-check,,,,unclassified
 model-checked,,,,unclassified
@@ -379,8 +355,6 @@ partial-execution,,,,unclassified
 performance-aware,,,,unclassified
 Pichon-Pharabod,,,,unclassified
 PLDI,,,,unclassified
-PLDI'19,,,,unclassified
-PLDI'21,,,,unclassified
 polymorphism,,,,Common-term
 processorcorrectness,,,,unclassified
 proof-specific,,,,unclassified
@@ -439,8 +413,6 @@ trade-offs,,,,unclassified
 unsafeSetCSRField,,,,unclassified
 use-case-specific,,,,unclassified
 User-Level,,,,unclassified
-V8-A,,,,unclassified
-v8-M,,,,unclassified
 verification-motivated,,,,unclassified
 Verilog/VHDL,,,,unclassified
 Viktor,,,,unclassified
@@ -451,8 +423,6 @@ wall-clock,,,,unclassified
 Wassell,,,,unclassified
 Wiegley,,,,unclassified
 work's,,,,unclassified
-x0,,,,unclassified
-x86-64,,,,unclassified
 Yannick Zakowski,,,,Author
 Yao Li,,,,Author
 Yosys,,,,unclassified

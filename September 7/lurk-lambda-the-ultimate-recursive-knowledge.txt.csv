@@ -37,7 +37,6 @@ Setty,,,,unclassified
 small-step,,,,Common-term
 theorem,,,,Common-term
 type-checker,,,,Common-term
-x2937881e,,,,unclassified
 zk-SNARKs,,,,unclassified
 Boolean,,,,
 Chhi'med,,,,unclassified
@@ -67,8 +66,6 @@ Turing-complete,,,,unclassified
 USENIX,,,,unclassified
 zk-TC,,,,unclassified
 zk-TCs,,,,unclassified
-1982b,,,,unclassified
-2014b,,,,unclassified
 Abhiram,,,,unclassified
 ad-hoc,,,,unclassified
 Appel,,,,
@@ -122,34 +119,14 @@ syntax,,,,Common-term
 Type-checking,,,,unclassified
 validators,,,,unclassified
 Virza,,,,unclassified
-x03836e2e,,,,unclassified
 x0ea21fab,,,,unclassified
 x1aec2d8c,,,,unclassified
-x3cb2f966,,,,unclassified
-x3dd3ad73,,,,unclassified
 Yatima,,,,unclassified
 zk-VMs,,,,unclassified
 ZKProof,,,,unclassified
 0x0ea21fab,,,,unclassified
 0x1aec2d8c,,,,unclassified
-0x2937881e,,,,unclassified
-1109/SP40000.2020.00050,,,,unclassified
-1982a,,,,unclassified
-"1982a,b",,,,unclassified
-2014a,,,,unclassified
-"2014a,b",,,,unclassified
-2080Ti,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART197,,,,unclassified
-254+-bit,,,,unclassified
-256GB,,,,unclassified
-30th,,,,unclassified
-32-Core,,,,unclassified
-3970X,,,,unclassified
 4-week,,,,unclassified
-43rd,,,,unclassified
-64-bit,,,,unclassified
-651.pdf,,,,unclassified
 acyclic,,,,Common-term
 Anca,,,,unclassified
 applicative,,,,Common-term
@@ -167,7 +144,6 @@ bypass,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
 Canteaut,,,,unclassified
 cast,,Gradual typing,,theory
-CBO9780511609619,,,,unclassified
 CESK,,,,unclassified
 Circom,,,,unclassified
 clwk@lurk-lab.com,,,,email
@@ -224,7 +200,6 @@ GreenCom,,,,unclassified
 Gurkan,,,,unclassified
 hashconsed,,,,unclassified
 heap,,,,
-https://doi.org/10.1017,,,,unclassified
 https://eprint.iacr.org/2021,,,,unclassified
 https://scroll.io/blog/zkEVM,,,,unclassified
 https://starkware.co/starknet,,,,unclassified
@@ -264,8 +239,6 @@ Monocopy,,,,unclassified
 Morais,,,,unclassified
 Moti,,,,unclassified
 Munoz-Tapia,,,,unclassified
-N=100,,,,unclassified
-N=200,,,,unclassified
 namin@seas.harvard.edu,,,,email
 Nitulescu,,,,unclassified
 NIZKs,,,,unclassified
@@ -309,11 +282,9 @@ Ryzen,,,,unclassified
 scalability,,,,
 Schofnegger,,,,unclassified
 Sebastian Ullrich,,,,Author
-SEC'14,,,,unclassified
 SECD-machine,,,,unclassified
 self-evaluating,,,,unclassified
 Semantics-Directed,,,,unclassified
-SHA-256,,,,unclassified
 side-effect,,,,unclassified
 SIGACT-SIGPLAN,,,,unclassified
 SIGPLAN,,,,unclassified

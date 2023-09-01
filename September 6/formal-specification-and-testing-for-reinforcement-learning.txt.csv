@@ -29,7 +29,6 @@ gamma_t,,,,unclassified
 IEEE/ACM,,,,unclassified
 Kleisli,,,,
 mutators,,,,unclassified
-r5,,,,unclassified
 stochastic,Stow-kas-tick,,,Common-term statistics
 g_t,,,,unclassified
 https,,,,unclassified
@@ -37,13 +36,10 @@ IT University of Copenhagen,,,,Institution
 Kruschke,,,,unclassified
 on-policy,,,,unclassified
 Property-based testing,,,,
-r2,,,,unclassified
 Bastani,,,,unclassified
 forAll,,,,unclassified
 functional programming,,,,
 Kishor,,,,unclassified
-r6,,,,unclassified
-r8,,,,unclassified
 RQ3,,,,unclassified
 Tappler,,,,unclassified
 Tbl,,,,unclassified
@@ -52,7 +48,6 @@ arXiv,,,,unclassified
 Bernoulli,,,,
 Boolean,,,,
 context,,,,Common-term
-d1,,,,unclassified
 est2,,,,unclassified
 iterations,,,,
 Konighofer,,,,unclassified
@@ -61,14 +56,9 @@ n-step,,,,unclassified
 off-policy,,,,unclassified
 os_t,,,,unclassified
 property-based,,,,unclassified
-r1,,,,unclassified
-r4,,,,unclassified
-r7,,,,unclassified
 RQ2,,,,unclassified
-s_t1,,,,unclassified
 Sztipanovits,,,,unclassified
 Vardhan,,,,unclassified
-36th,,,,unclassified
 a_tk,,,,unclassified
 Bansal,,,,unclassified
 Beygelzimer,,,,unclassified
@@ -87,7 +77,6 @@ Papadakis,,,,unclassified
 Platzer,,,,unclassified
 problem-specific,,,,unclassified
 Q-learning,,,,unclassified
-r3,,,,unclassified
 reflect,,,,
 RQ1,,,,unclassified
 Ruderman,,,,unclassified
@@ -103,17 +92,6 @@ type checker,,,,Common-term
 Zheng,,,,unclassified
 1-step,,,,unclassified
 2-step,,,,unclassified
-2021a,,,,unclassified
-2021b,,,,unclassified
-2022a,,,,unclassified
-2022b,,,,unclassified
-22nd,,,,unclassified
-29th,,,,unclassified
-31st,,,,unclassified
-37th,,,,unclassified
-A.1,,,,unclassified
-A.2,,,,unclassified
-a_t1,,,,unclassified
 a_tt,,,,unclassified
 Abolfathi,,,,unclassified
 agent.discretize,,,,unclassified
@@ -185,9 +163,6 @@ Romdhana,,,,unclassified
 Ruan,,,,unclassified
 runtime,,,,Common-term
 RxR,,,,unclassified
-S_1,,,,unclassified
-S_2,,,,unclassified
-S_2.p,,,,unclassified
 sample(T,,,,unclassified
 SampleU,,,,unclassified
 Seijen,,,,unclassified
@@ -208,37 +183,11 @@ Worst-case,,,,unclassified
 Wortman,,,,unclassified
 Xiaowei,,,,unclassified
 Zolfagharian,,,,unclassified
-10.1016/j.tcs.2019.05.046,,,,unclassified
-11th,,,,unclassified
-2.3K,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART193,,,,unclassified
-24th,,,,unclassified
-25th,,,,unclassified
-26th,,,,unclassified
-30th,,,,unclassified
-32nd,,,,unclassified
-33rd,,,,unclassified
-34th,,,,unclassified
-4230/LIPIcs.CONCUR.2020.3,,,,unclassified
-43rd,,,,unclassified
-44th,,,,unclassified
-60th,,,,unclassified
-A.1.1,,,,unclassified
-A.1.2,,,,unclassified
-A.1.3,,,,unclassified
-A.2.1,,,,unclassified
-A.2.2,,,,unclassified
-AAAI'18/IAAI'18/EAAI'18,,,,unclassified
-AAAI-18,,,,unclassified
 Abbeel,,,,unclassified
 Abdellatif,,,,unclassified
-abs/1707.06347,,,,unclassified
-abs/1801.08099,,,,unclassified
 abstraction,,,,Common-term
 ACM/IEEE,,,,unclassified
 Actor-critic,,,,unclassified
-adcom.2018.03.015,,,,unclassified
 agent.initialize,,,,unclassified
 Aghajani,,,,unclassified
 Aichernig,,,,unclassified
@@ -252,9 +201,6 @@ Amirhossein,,,,unclassified
 Ananya,,,,unclassified
 Arindam,,,,unclassified
 Artif,,,,unclassified
-ARXIV.2103.03938,,,,unclassified
-arXiv:1801.08099,,,,unclassified
-ASE51524.2021.9678832,,,,unclassified
 available4,,,,unclassified
 axioms,,,,
 Bagherzadeh,,,,unclassified
@@ -304,7 +250,6 @@ discretizes,,,,unclassified
 discretizing,,,,unclassified
 distribution--if,,,,unclassified
 divergence,,,,Common-term
-doi.org/10.1145/357766.351266,,,,unclassified
 dynamic-programming-based,,,,unclassified
 Ehlers,,,,unclassified
 einarj@ifi.uio.no,,,,email
@@ -325,7 +270,6 @@ FIGCPS,,,,unclassified
 force,,,,Common-term evaluation
 forward-moving,,,,unclassified
 frequentist,,,,unclassified
-FSE-22,,,,unclassified
 Fukumizu,,,,unclassified
 fulla,,,,unclassified
 fully-formal,,,,unclassified
@@ -351,21 +295,13 @@ Hierons,,,,unclassified
 highest-value,,,,unclassified
 Hong-Ning,,,,unclassified
 https://doi.org,,,,unclassified
-https://doi.org/10.1016/bs,,,,unclassified
-https://doi.org/10.1109,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
-https://doi.org/10.24963,,,,unclassified
-https://doi.org/10.48550,,,,unclassified
 https://stryker-mutator.io,,,,unclassified
 https://typelevel.org/cats,,,,unclassified
 Humbatova,,,,unclassified
-i5,,,,unclassified
-ICFP'00,,,,unclassified
 ICLR,,,,unclassified
 ICMLT,,,,unclassified
 IJCAI'17,,,,unclassified
 IJCAI-22,,,,unclassified
-ijcai.2022/72,,,,unclassified
 Informatik,,,,unclassified
 instability)--both,,,,unclassified
 Insup,,,,unclassified
@@ -506,7 +442,6 @@ right-hand-side,,,,unclassified
 right-most,,,,unclassified
 Rupak,,,,unclassified
 RxRxRxR,,,,unclassified
-S_1.p,,,,unclassified
 Safety-Constrained,,,,unclassified
 Saikat,,,,unclassified
 sampling-based,,,,unclassified
@@ -543,7 +478,6 @@ Suvodeep,,,,unclassified
 symbolic,,,,
 symsim,,,,unclassified
 t+n,,,,unclassified
-TD(0,,,,unclassified
 TD-updates,,,,unclassified
 temporal-difference,,,,unclassified
 terms--formal,,,,unclassified

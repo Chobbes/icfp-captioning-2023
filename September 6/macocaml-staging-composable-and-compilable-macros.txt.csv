@@ -27,14 +27,12 @@ syntax,,,,Common-term
 compiled,,,,
 codeGen,,,,unclassified
 Id,,,,
-M1,,,,unclassified
 integer,,,,Common-term
 Kiselyov,,,,
 JSK,,,,unclassified
 expr,,,,unclassified
 Flatt,,,,unclassified
 lemma,,,,Common-term
-M2,,,,unclassified
 c-loc,,,,unclassified
 derivation,,,,
 JMK,,,,unclassified
@@ -49,8 +47,6 @@ ev-qote,,,,unclassified
 induction,,,,Common-term
 MacroML,,,,unclassified
 printk,,,,unclassified
-S1,,,,unclassified
-S2,,,,unclassified
 type-check,,,,unclassified
 Calcagno,,,,unclassified
 ev-assign,,,,unclassified
@@ -93,7 +89,6 @@ MacoCaml's,,,,unclassified
 MetaML,,,,
 printf,,,,unclassified
 see-button,,,,unclassified
-2003b,,,,unclassified
 c-eq,,,,unclassified
 c-lit,,,,unclassified
 c-st-def,,,,unclassified
@@ -116,9 +111,6 @@ ST.id,,,,unclassified
 subtyping,,,,Common-term
 syntactic,,,,Common-term
 TTH,,,,unclassified
-B.1,,,,unclassified
-B.2,,,,unclassified
-B.4,,,,unclassified
 c-abs,,,,unclassified
 c-app,,,,unclassified
 c-assign,,,,unclassified
@@ -162,10 +154,6 @@ type-checking,,,,unclassified
 type-checks,,,,unclassified
 well-stagedness,,,,unclassified
 Yukiyoshi,,,,unclassified
-0c,,,,unclassified
-B.11,,,,unclassified
-B.3,,,,unclassified
-B.5,,,,unclassified
 binder,like in bind,,,
 bytecode,,,,unclassified
 c-m-mvar,,,,unclassified
@@ -187,12 +175,10 @@ ML,,,,Programming-language
 mpower5,,,,unclassified
 mprintf,,,,unclassified
 mprintk,,,,unclassified
-n-1,,,,unclassified
 Odersky,,,,unclassified
 operational semantics,,,,
 Rompf,,,,unclassified
 run-time,,,,unclassified
-s-1,,,,unclassified
 st-type,,,,unclassified
 unit0,,,,unclassified
 v-importC,,,,unclassified
@@ -201,22 +187,12 @@ v-struct,,,,unclassified
 Vaugon,,,,unclassified
 Walid,,,,unclassified
 Well-Formedness,,,,unclassified
-17th,,,,unclassified
-2003a,,,,unclassified
-3a,,,,unclassified
 Aggelos,,,,unclassified
 array,,,,Common-term
 automata,,,,Common-term
-B.10,,,,unclassified
-B.12,,,,unclassified
-B.13,,,,unclassified
-B.6,,,,unclassified
-B.8,,,,unclassified
-B.9,,,,unclassified
 Biboudis,,,,unclassified
 Binding-Time,,,,unclassified
 Burmako,,,,unclassified
-c-1,,,,unclassified
 c-m-pmvar,,,,unclassified
 c-st-importC,,,,unclassified
 Camlp5,,,,unclassified
@@ -273,34 +249,10 @@ x:Int,,,,unclassified
 Yallop,,,,unclassified
 Yuhi,,,,unclassified
 Zhao,,,,unclassified
-0)K,,,,unclassified
-0q,,,,unclassified
-1)K,,,,unclassified
-11th,,,,unclassified
-12th,,,,unclassified
-14th,,,,unclassified
-18th,,,,unclassified
 1We,,,,unclassified
-20th,,,,unclassified
-21st,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART209,,,,unclassified
 2LTT,,,,unclassified
 2We,,,,unclassified
-3b,,,,unclassified
-44th,,,,unclassified
-477ms,,,,unclassified
-543ms,,,,unclassified
-600ms,,,,unclassified
-A.1,,,,unclassified
-A.2,,,,unclassified
-A.3,,,,unclassified
-A.4,,,,unclassified
-A.5,,,,unclassified
-A.6,,,,unclassified
-A.7,,,,unclassified
 A.apply,,,,unclassified
-abs/1110.1029,,,,unclassified
 ad-hoc,,,,unclassified
 Ahrefs,,,,unclassified
 Aleksandar,,,,unclassified
@@ -311,11 +263,9 @@ APLAS,,,,unclassified
 applicative,,,,Common-term
 apply.ml,,,,unclassified
 Apress,,,,unclassified
-arXiv:1110.1029,,,,unclassified
 ASTs,,,,unclassified
 Atsushi,,,,unclassified
 Automatique,,,,unclassified
-B.7,,,,unclassified
 backend,,,,unclassified
 BEGIN_EG2,,,,unclassified
 Benaissa,,,,unclassified
@@ -329,7 +279,6 @@ c-p-mvar,,,,unclassified
 c-p-pmvar,,,,unclassified
 c-st-importR,,,,unclassified
 C-style,,,,unclassified
-c.8,,,,unclassified
 Camlp4,,,,unclassified
 closure-converts,,,,unclassified
 Codish,,,,unclassified
@@ -345,13 +294,9 @@ define-syntax,,,,unclassified
 delayed32,,,,unclassified
 dependent,,,,Common-term
 document11,,,,unclassified
-doi.org/10.1145/3498700,,,,unclassified
 DSLs,,,,unclassified
 Duba,,,,unclassified
-e1,,,,unclassified
-e2,,,,unclassified
 Eijiro,,,,unclassified
-EP/K031724/2,,,,unclassified
 EPSRC,,,,unclassified
 EPTCS,,,,unclassified
 eq-arrow,,,,unclassified
@@ -380,7 +325,6 @@ formalization,,,,Common-term
 framework.2,,,,unclassified
 Funct,,,,unclassified
 functor,,,,Common-term
-G101121,,,,unclassified
 GADT,Gad-it,Generalized algebraic data types,,Common-term
 Gelineau,,,,unclassified
 gensym,,,,unclassified
@@ -389,11 +333,7 @@ Hans-Juergen,,,,unclassified
 Haskell-style,,,,unclassified
 heap-allocated,,,,unclassified
 higher-order,,,,Common-term
-http://arxiv.org/abs/1110.1029,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1017,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
-https://doi.org/10.1145/507635,,,,unclassified
 https://github.com/LexiFi/lrt,,,,unclassified
 if-expressions,,,,unclassified
 Igarashi,,,,unclassified
@@ -450,7 +390,6 @@ once9,,,,unclassified
 owner/author(s,,,,unclassified
 Palladinos,,,,unclassified
 pattern matching,,,,
-POPL'96,,,,unclassified
 power5(2,,,,unclassified
 ppx,,,,unclassified
 ppx-based,,,,unclassified
@@ -469,8 +408,6 @@ references6,,,,unclassified
 reflection,,,,Common-term
 regex,,,,unclassified
 regexes,,,,unclassified
-S0956796812000093,,,,unclassified
-S4,,,,unclassified
 Sabry,,,,unclassified
 Scala's,,,,unclassified
 scanf,,,,unclassified

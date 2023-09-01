@@ -64,13 +64,11 @@ Id,,,,
 Ishii,,,,
 leanBST,,,,unclassified
 lemma,,,,Common-term
-Node._2,,,,unclassified
 probabilistic,,,,Common-term
 reduction,,,,Common-term
 rmap,,,,unclassified
 STLC,,,,unclassified
 University of Pennsylvania,,,,Institution
-1b,,,,unclassified
 abstractions,,,,
 BSTs,,,,unclassified
 enumeration,,,,Common-term
@@ -78,7 +76,6 @@ enumerator,,,,Common-term
 expressive,,,,Common-term
 Fioraldi,,,,unclassified
 functional programming,,,,
-g1,,,,unclassified
 GetSize,,,,unclassified
 Hypothesis's,,,,unclassified
 induction,,,,Common-term
@@ -91,7 +88,6 @@ suchThat,,,,unclassified
 theorem,,,,Common-term
 University of Bristol,,,,Institution
 user-provided,,,,unclassified
-1a,,,,unclassified
 abstraction,,,,Common-term
 bitstring,,,,unclassified
 bound5,,,,unclassified
@@ -119,13 +115,9 @@ Moggi,,,,Name
 PartialProf,,,,unclassified
 sub-generator,,,,unclassified
 Zalewski,,,,unclassified
-1s,,,,unclassified
-2b,,,,unclassified
-2c,,,,unclassified
 analyzeWeights,,,,unclassified
 Aschermann,,,,unclassified
 bitstrings,,,,unclassified
-C1,,,,unclassified
 Chasins,,,,unclassified
 cibior,,,,unclassified
 Claessen,,,,unclassified
@@ -153,8 +145,6 @@ Magalhaes,,,,unclassified
 maybeToList,,,,unclassified
 Micha,,,,unclassified
 modular,,,,Common-term
-Node._1,,,,unclassified
-Node._3,,,,unclassified
 optimisticTypeOf,,,,unclassified
 PACKAGE.JSON,,,,unclassified
 Paka,,,,unclassified
@@ -191,30 +181,7 @@ Veggalam,,,,unclassified
 well-typed,,,,Common-term
 Zeller,,,,unclassified
 zeroDraws,,,,unclassified
-0s,,,,unclassified
 1--where,,,,unclassified
-2000]--i.e,,,,unclassified
-2019-07-25T16:50:06Z,,,,unclassified
-2019]--arguably,,,,unclassified
-2022]--capitalize,,,,unclassified
-20th,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART200,,,,unclassified
-29th,,,,unclassified
-2a,,,,unclassified
-2s,,,,unclassified
-30th,,,,unclassified
-32nd,,,,unclassified
-34th,,,,unclassified
-4.2)--in,,,,unclassified
-41st,,,,unclassified
-43rd,,,,unclassified
-7a,,,,unclassified
-7b,,,,unclassified
-9a,,,,unclassified
-9b,,,,unclassified
-9c,,,,unclassified
-a).5,,,,unclassified
 a--after,,,,unclassified
 Ahmad-Reza,,,,unclassified
 algebras,,,,
@@ -265,8 +232,6 @@ definitionally,,,,theory
 deriving,,,,
 Dijkstra,,,,
 direct style,,,,
-Div._1,,,,unclassified
-Div._2,,,,unclassified
 divergence7,,,,unclassified
 divide-by-zero,,,,unclassified
 Doshi,,,,unclassified
@@ -279,7 +244,6 @@ ecosystem,,,,
 Eifeldt,,,,unclassified
 Eline,,,,unclassified
 England-Elbro,,,,unclassified
-EP/T008911/1,,,,unclassified
 EPSRC,,,,unclassified
 equally-weighted,,,,unclassified
 ESORICS,,,,unclassified
@@ -296,7 +260,6 @@ function-like,,,,unclassified
 functions--a,,,,unclassified
 functor,,,,Common-term
 fuzzing-style,,,,unclassified
-"gE)),k",,,,unclassified
 general--these,,,,unclassified
 generator-based,,,,unclassified
 generators--overlap--which,,,,unclassified
@@ -314,14 +277,11 @@ Heiko,,,,unclassified
 Henzinger,,,,unclassified
 Heuse,,,,unclassified
 hgo@seas.upenn.edu,,,,email
-hi=10,,,,unclassified
 higher-order,,,,Common-term
 Hiromi,,,,unclassified
 Holz,,,,unclassified
 Hoogle,,,,unclassified
 https://dl.acm.org/doi/10,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
-https://doi.org/10.1145/351240,,,,unclassified
 https://example.com,,,,unclassified
 https://github.com/google/AFL,,,,unclassified
 https://hedgehog.qa,,,,unclassified
@@ -375,7 +335,6 @@ liftMi,,,,unclassified
 liftMj,,,,unclassified
 LIPIcs,,,,unclassified
 Lmaps,,,,unclassified
-lo=-10,,,,unclassified
 Loh,,,,unclassified
 maps--to,,,,unclassified
 Matela,,,,unclassified
@@ -385,13 +344,10 @@ max_value=hi,,,,unclassified
 meng.wang@bristol.ac,,,,email
 minifiers,,,,unclassified
 monad's,,,,unclassified
-Mul._1,,,,unclassified
-Mul._2,,,,unclassified
 mutators,,,,unclassified
 Nadia Polikarpova,,,,Author
 newtype,,,,unclassified
 no-op,,,,unclassified
-"node"",""4"",""leaf"",""leaf",,,,unclassified
 Node(x,,,,unclassified
 Node.js,,,,unclassified
 non-terminals,,,,unclassified
@@ -455,8 +411,6 @@ reifies,,,,
 Reiterman,,,,unclassified
 reweighting,,,,unclassified
 Rishabh,,,,unclassified
-"S"",""S"",""S"",""S"",""S"",""Z",,,,unclassified
-S._S,,,,unclassified
 S.S,,,,unclassified
 Sadeghi,,,,unclassified
 Security'12,,,,unclassified

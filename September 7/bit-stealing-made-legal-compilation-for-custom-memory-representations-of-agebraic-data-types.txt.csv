@@ -14,32 +14,24 @@ Gabriel Radanne,,,,Author
 Laure Gonnord,,,,Author
 Baudon,,,,unclassified
 pat2mem,,,,unclassified
-b0,,,,unclassified
 Word63,,,,unclassified
-b-1,,,,unclassified
 Id,,,,
 subterms,,,,unclassified
-Word128,,,,unclassified
 constructor,,,,Common-term
 ty2val,,,,unclassified
 matching,,“pattern matching”,,Common-term
 val2mem,,,,unclassified
-64-bit,,,,unclassified
 ADTs,,,,unclassified
 Maranget,,,,
 match,,,,
 Ptr,,,,unclassified
-T0,,,,unclassified
 bitword,,,,unclassified
-"Ptr64,1",,,,unclassified
 recursive,,,,Common-term
 Word32,,,,unclassified
 Zarith,,,,unclassified
 functional programming,,,,
 coherence,,,,
-i64,,,,unclassified
 Linux,,,,unclassified
-T-1,,,,unclassified
 "weaveb,id",,,,unclassified
 cons,kon-ss,,,
 K ,,“K axiom”,,
@@ -47,11 +39,8 @@ provs,,,,unclassified
 structs,,,,unclassified
 ty2pat,,,,unclassified
 array,,,,Common-term
-b2,,,,unclassified
 IR ,I.R.,intermediate representation,,
 scaffoldb,,,,unclassified
-32-bit,,,,unclassified
-b1,,,,unclassified
 compiler,,,,Common-term
 Haskell,,,,Common-term programming-language
 Int32,,,,unclassified
@@ -106,14 +95,9 @@ UCBL,,,,unclassified
 WebKit,,,,unclassified
 wildcards,,,,unclassified
 Word24,,,,unclassified
-0x0000,,,,unclassified
-0x2,,,,unclassified
-0x6,,,,unclassified
-0x7,,,,unclassified
 0xa,,,,unclassified
 2small,,,,unclassified
 algebra,,,,
-B.1,,,,unclassified
 BindVars,,,,unclassified
 cast,,Gradual typing,,theory
 Cons.0,,,,unclassified
@@ -121,7 +105,6 @@ context,,,,Common-term
 False,,,,unclassified
 https://doi.org/10,,,,unclassified
 i.Small,,,,unclassified
-i63,,,,unclassified
 immutable,,,,Common-term
 Int63,,,,unclassified
 Java,,,,
@@ -138,22 +121,16 @@ Scala,,,,Common-term programming-language
 sequential ,,,,
 SoA,,,,unclassified
 SplitValidity,,,,unclassified
-u2,,,,unclassified
 WeaveBud,,,,unclassified
 WeaveSplit,,,,unclassified
 WeaveStruct,,,,unclassified
 WeaveSubterm,,,,unclassified
 0xfffe,,,,unclassified
 1+cardinal(l)+cardinal(r,,,,unclassified
-128-bit,,,,unclassified
-63-bit,,,,unclassified
 8-bit,,,,unclassified
-8b,,,,unclassified
-8c,,,,unclassified
 arbitrary-precision,,,,unclassified
 architecture-dependent,,,,unclassified
 Augustsson,,,,unclassified
-B.2,,,,unclassified
 Backend,,,,unclassified
 bbad,,,,unclassified
 bdouble,,,,unclassified
@@ -188,7 +165,6 @@ Iannetta,,,,unclassified
 id0,,,,unclassified
 inlined,,,,unclassified
 INP,,,,unclassified
-Int128,,,,unclassified
 Karachalias,,,,unclassified
 Large(u1,,,,unclassified
 Large(u2,,,,unclassified
@@ -206,7 +182,6 @@ Peterson,,,,
 provs0,,,,unclassified
 provs1,,,,unclassified
 provs2,,,,unclassified
-"Ptr64,2",,,,unclassified
 r:Empty,,,,unclassified
 Ramsey ,,,,
 reflect,,,,
@@ -222,7 +197,6 @@ standalone,,,,unclassified
 subvalue,,,,unclassified
 subvalues,,,,unclassified
 Syme,,,,unclassified
-t2,,,,unclassified
 theorem,,,,Common-term
 Torvalds,,,,unclassified
 Tuerk,,,,unclassified
@@ -231,7 +205,6 @@ unknown,,Gradual typing,,theory
 val2mem(focus,,,,unclassified
 Wadler,,,,Name
 "weave,id",,,,unclassified
-"weave.0,0",,,,unclassified
 "weaveb.,id",,,,unclassified
 WeaveBudWildcard,,,,unclassified
 WeaveLeaf,,,,unclassified
@@ -240,46 +213,11 @@ WEBKIT-LIKE,,,,unclassified
 well-typed,,,,Common-term
 Word56,,,,unclassified
 WordValidity,,,,unclassified
-x1,,,,unclassified
-x2,,,,unclassified
-x86-64,,,,unclassified
 Zarith::Integer,,,,unclassified
-0xfff8000000000000,,,,unclassified
-0xfffa000000000000,,,,unclassified
-0xfffe0000,,,,unclassified
-0xfffe000000000000,,,,unclassified
 0xfffe0000ffffffff,,,,unclassified
 0xffffffffffffff00,,,,unclassified
-"1,2]:(_.c",,,,unclassified
-1.60GHz,,,,unclassified
-1007/BFb0024189,,,,unclassified
-12b,,,,unclassified
-12c,,,,unclassified
-12d,,,,unclassified
-12th,,,,unclassified
-15th,,,,unclassified
-17-July-2023,,,,unclassified
-18th,,,,unclassified
-1a,,,,unclassified
-1b,,,,unclassified
-1c,,,,unclassified
-1d,,,,unclassified
-20th,,,,unclassified
-22-February-2023,,,,unclassified
-2475-1421/2023/8-ART216,,,,unclassified
-3a,,,,unclassified
-3b,,,,unclassified
-3c,,,,unclassified
-5281/zenodo.7994178,,,,unclassified
-64>(t.Node,,,,unclassified
 64bits,,,,unclassified
-7a,,,,unclassified
-7b,,,,unclassified
 8>(i.Large,,,,unclassified
-8a,,,,unclassified
-9a,,,,unclassified
-9b,,,,unclassified
-9c,,,,unclassified
 A-normal,,,,unclassified
 abstraction,,,,Common-term
 abstractions,,,,
@@ -288,12 +226,8 @@ andoa,,,,unclassified
 APLAS,,,,unclassified
 applicative,,,,Common-term
 arXiv,,,,unclassified
-arXiv:1811.02300,,,,unclassified
 as-is,,,,unclassified
-"b""|""b",,,,unclassified
 "b,b",,,,unclassified
-b.0,,,,unclassified
-B.3,,,,unclassified
 b.b,,,,unclassified
 b/Large,,,,unclassified
 b/prov,,,,unclassified
@@ -313,7 +247,6 @@ block/struct,,,,unclassified
 Boolean(False,,,,unclassified
 Boulytchev,,,,unclassified
 byte-aligned,,,,unclassified
-"c,v,l,r",,,,unclassified
 C-like,,,,unclassified
 cardinal(x,,,,unclassified
 Cell(cell,,,,unclassified
@@ -345,7 +278,6 @@ Doligez,,,,unclassified
 dom(b,,,,unclassified
 Dominique Devriese,,,,
 dual-view,,,,unclassified
-e16,,,,unclassified
 ECMAScript,,,,unclassified
 Eijiro,,,,unclassified
 Elimination,,,,
@@ -372,18 +304,11 @@ GMP's,,,,unclassified
 GNU/Linux,,,,unclassified
 gously,,,,unclassified
 GPCE,,,,unclassified
-GPCE'13,,,,unclassified
 hand-tweaked,,,,unclassified
 high-performance,,,,unclassified
 highlevel,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1017,,,,unclassified
-https://doi.org/10.1145/141471,,,,unclassified
 Hudak,,,,Name
-i1,,,,unclassified
-i32,,,,unclassified
-i5,,,,unclassified
-"i64),(_.l",,,,unclassified
 IBigICmp(u1,,,,unclassified
 IBigICmp(u2,,,,unclassified
 ICmp(u1,,,,unclassified
@@ -404,8 +329,6 @@ Jarvi,,,,unclassified
 Jeremy Yallop,,,,Author
 Jesper Cockx,,,,Author
 Jouannaud,,,,unclassified
-K-1,,,,unclassified
-K0,,,,unclassified
 kinding,,,,unclassified
 l:Empty,,,,unclassified
 l:Node{c:Black,,,,unclassified
@@ -502,13 +425,10 @@ Processings,,,,unclassified
 prov-1,,,,unclassified
 provs-1,,,,unclassified
 Ptr48,,,,unclassified
-"Ptr64,8",,,,unclassified
-R)(R,,,,unclassified
 "r:Node{c:Black,v:z,l:c,r:d",,,,unclassified
 r:RBT,,,,unclassified
 Rainey,,,,unclassified
 Ramana,,,,unclassified
-"RBT),(_.r",,,,unclassified
 reduction,,,,Common-term
 Reppy,,,,unclassified
 ribbit1,,,,unclassified
@@ -520,7 +440,6 @@ Rizkallah,,,,unclassified
 Roover,,,,unclassified
 runtime,,,,Common-term
 rustc,,,,unclassified
-S0956796807006223,,,,unclassified
 Sannella,,,,unclassified
 scaffoldb.b,,,,unclassified
 scaffoldbI,,,,unclassified
@@ -549,8 +468,6 @@ sum-like,,,,unclassified
 Sumii,,,,unclassified
 super-optimization,,,,unclassified
 supercompilation,,,,unclassified
-Switch(.0.[0,,,,unclassified
-Switch(.1&1,,,,unclassified
 Sylvain,,,,unclassified
 symbolic,,,,
 syntax,,,,Common-term
@@ -566,18 +483,11 @@ two-by-two,,,,unclassified
 two-tiered,,,,unclassified
 Type-safe,,,,unclassified
 Type-Specific,,,,unclassified
-u1,,,,unclassified
-u32,,,,unclassified
 unambigous,,,,unclassified
 untyped,,,,
 user-defined,,,,unclassified
 user-provided,,,,unclassified
-v0,,,,unclassified
-"v1,v2",,,,unclassified
 v2:Zarith,,,,unclassified
-v:0,,,,unclassified
-v:1515,,,,unclassified
-v:i64,,,,unclassified
 val2mem(42,,,,unclassified
 vertion,,,,unclassified
 Vollmer,,,,unclassified
@@ -588,9 +498,6 @@ weaveb,,,,unclassified
 whole-program,,,,unclassified
 word-aligned,,,,unclassified
 Word48,,,,unclassified
-x0,,,,unclassified
-x3,,,,unclassified
-x8,,,,unclassified
 Xingyuan,,,,unclassified
 Yuriy,,,,unclassified
 Zilin,,,,unclassified

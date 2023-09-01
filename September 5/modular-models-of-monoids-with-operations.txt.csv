@@ -88,7 +88,6 @@ lattice,,,,Common-term
 Lawvere,,,,unclassified
 Mon/Eqs(E,,,,unclassified
 Tarmo,,,,unclassified
-A.1,,,,unclassified
 coend,,,,unclassified
 Filinski,,,,unclassified
 fold,,,,Common-term
@@ -104,9 +103,6 @@ Pretnar,,,,
 Rivas,,,,unclassified
 sequential ,,,,
 variable-binding,,,,Common-term
-2009]'s,,,,unclassified
-A.2,,,,unclassified
-A.5,,,,unclassified
 coequaliser,,,,unclassified
 coherence,,,,
 coreflective,,,,unclassified
@@ -130,13 +126,6 @@ recursion,,,,Common-term
 Second-Order,,,,unclassified
 Springer-Verlag,,,,unclassified
 Szamozvancev,,,,unclassified
-1989a,,,,unclassified
-1989b,,,,unclassified
-2010]'s,,,,unclassified
-2022a,,,,unclassified
-2022b,,,,unclassified
-23rd,,,,unclassified
-A.4,,,,unclassified
 abst,,,,unclassified
 ACM/IEEE,,,,unclassified
 ALG(Endo,,,,unclassified
@@ -204,30 +193,9 @@ VAR(SetFin,,,,unclassified
 Voigtlander,,,,unclassified
 Wadler,,,,Name
 1-categorical,,,,unclassified
-10.4230/LIPIcs.FSCD.2017.16,,,,unclassified
-1006/aima.1999.1877,,,,unclassified
-1017/S0956796808006758,,,,unclassified
-14th,,,,unclassified
-1983]'s,,,,unclassified
-"1989a,b",,,,unclassified
-1C,,,,unclassified
 2-categorical,,,,unclassified
 2-cells,,,,unclassified
-2002]'s,,,,unclassified
-2013]'s,,,,unclassified
-2018]'s,,,,unclassified
-2021]'s,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART208,,,,unclassified
-26th,,,,unclassified
-29th,,,,unclassified
 3-categorical,,,,unclassified
-3.4]'s,,,,unclassified
-33rd,,,,unclassified
-34th,,,,unclassified
-4.3)--under,,,,unclassified
-41st,,,,unclassified
-A.3,,,,unclassified
 Act)-Alg,,,,unclassified
 Act-algebra,,,,unclassified
 Adjunctions,,,,unclassified
@@ -239,8 +207,6 @@ applicative-algebraic,,,,unclassified
 applicative-computations,,,,unclassified
 Archiv,,,,unclassified
 arity,,,,unclassified
-ARXIV.1401.4697,,,,unclassified
-arXiv:1406.4823,,,,unclassified
 asymptotic,,,,Common-term
 Audebaud,,,,unclassified
 binding variables,,,,
@@ -269,18 +235,14 @@ Dawar,,,,unclassified
 Dependently-Sorted,,,,unclassified
 Differentielle,,,,unclassified
 Dmitrij,,,,unclassified
-doi.org/10.1007/BF01304852,,,,unclassified
 down-right,,,,unclassified
 Dubuc,,,,unclassified
-e23,,,,unclassified
 EACSL,,,,unclassified
-ECS-LFCS-90-113,,,,unclassified
 edn,,,,unclassified
 Eilenberg,,,,unclassified
 Electr,,,,unclassified
 Elimination,,,,
 Engberg,,,,unclassified
-EP/S028129/1,,,,unclassified
 epimorphisms,,,,unclassified
 EPSRC,,,,unclassified
 ExId,,,,unclassified
@@ -295,7 +257,6 @@ freer monads,,,,
 FSCD,,,,unclassified
 fuer,,,,unclassified
 functors/graded,,,,unclassified
-G(1,,,,unclassified
 G-graded,,,,unclassified
 G.M,,,,unclassified
 generic,,,,
@@ -307,11 +268,7 @@ Hasuo,,,,unclassified
 Heunen,,,,unclassified
 Hiromi,,,,unclassified
 hom-set,,,,unclassified
-http://eudml.org/doc/16649,,,,unclassified
 https://doi.org,,,,unclassified
-https://doi.org/10.1.1.41.7807,,,,unclassified
-https://doi.org/10.1109/LICS,,,,unclassified
-https://doi.org/10.48550,,,,unclassified
 Hudak,,,,Name
 ICALP'07,,,,unclassified
 Ichiro,,,,unclassified
@@ -323,10 +280,7 @@ initial-algebra,,,,unclassified
 "injMon,2",,,,unclassified
 internalised,,,,unclassified
 invertible,,,,
-IV.1,,,,unclassified
 J*K,,,,unclassified
-J1,,,,unclassified
-J2,,,,unclassified
 JIK,,,,unclassified
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 lambda calculus,lam-duh calculus,,,theory

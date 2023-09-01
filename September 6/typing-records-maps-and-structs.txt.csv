@@ -13,7 +13,6 @@ integer,,,,Common-term
 K-step,,,,unclassified
 key-types,,,,unclassified
 Semantic,,,,Common-term
-"cell1,2",,,,unclassified
 syntax,,,,Common-term
 match,,,,
 nil,,,,
@@ -48,21 +47,17 @@ key-type,,,,unclassified
 mutation,,,,
 run-time,,,,unclassified
 Scala,,,,Common-term programming-language
-F.2,,,,unclassified
 immutable,,,,Common-term
 JSON,,,,unclassified
 Lua,,,,unclassified
-L{1,,,,unclassified
 map-deletion,,,,unclassified
 OCaml,,,,Common-term programming-language
 Rust,,,,Common-term programming-language
-x...x,,,,unclassified
 arity,,,,unclassified
 backtracking-free,,,,unclassified
 Cardelli,,,,
 component-wise,,,,unclassified
 contractivity,,,,unclassified
-F.3,,,,unclassified
 intersection types,,,,Common-term
 keyexp,,,,unclassified
 KxJ,,,,unclassified
@@ -72,25 +67,20 @@ POPL,,,,unclassified
 read-and-write,,,,unclassified
 read-only,,,,unclassified
 Why,,,,
-x2,,,,unclassified
-1x1,,,,unclassified
 Algol,,,,
 Benzaken,,,,unclassified
 derivation,,,,
 DxPfin,,,,unclassified
-e2,,,,unclassified
 inductive,,,,Common-term
 Jref,,,,unclassified
 loc(JK,,,,unclassified
 M-Sel,,,,unclassified
-not(R(0,,,,unclassified
 polymorphic,,,,Common-term
 polymorphism,,,,Common-term
 reduction,,,,Common-term
 SIGPLAN,,,,unclassified
 type-checks,,,,unclassified
 well-typed,,,,Common-term
-C.1,,,,unclassified
 cofinite,,,,unclassified
 coinduction,,,,unclassified
 constructor,,,,Common-term
@@ -110,18 +100,13 @@ M-Del,,,,unclassified
 map-update,,,,unclassified
 not(R,,,,unclassified
 Pottier,,,,
-R(0,,,,unclassified
 recursive,,,,Common-term
 reductum,,,,unclassified
 row polymorphism,,,,
 Typespec,,,,unclassified
 user-defined,,,,unclassified
 Zhiwu,,,,unclassified
-16th,,,,unclassified
-"1966a,b",,,,unclassified
 1loc,,,,unclassified
-1x,,,,unclassified
-2004]--and,,,,unclassified
 abstractions,,,,
 algorithmic,,,,Common-term
 backtrack,,,,Common-term
@@ -130,7 +115,6 @@ betwo,,,,unclassified
 Blog,,,,unclassified
 Bonnaire-Sergeant,,,,unclassified
 C.A.R,,,,unclassified
-"cell0,0",,,,unclassified
 Clojure,,,,unclassified
 CNRS,,Centre national de la recherche scientifique ,,Institution
 coinductively,,,,unclassified
@@ -141,8 +125,6 @@ Duboc,,,,unclassified
 E(loc,,,,unclassified
 Elixir's,,,,unclassified
 extensional,,functions,,theory
-F.1,,,,unclassified
-F.1.1,,,,unclassified
 falafels,,,,unclassified
 https,,,,unclassified
 https://doi.org/10,,,,unclassified
@@ -179,21 +161,8 @@ x.e.length,,,,unclassified
 xPfin,,,,unclassified
 1(nilNaN,,,,unclassified
 1)loc(Bool,,,,unclassified
-15We,,,,unclassified
-17th,,,,unclassified
-1966a,,,,unclassified
-1966b,,,,unclassified
 1basic,,,,unclassified
-1O,,,,unclassified
-23638/LMCS-16(1:15)2020,,,,unclassified
-2475-1421/2023/8-ART196,,,,unclassified
-25th,,,,unclassified
-31st,,,,unclassified
-32nd,,,,unclassified
-41st,,,,unclassified
-42nd,,,,unclassified
 6We,,,,unclassified
-A.2,,,,unclassified
 a.k.a,,,,unclassified
 ACM-SIGPLAN,,,,unclassified
 ad-hoc,,,,unclassified
@@ -206,8 +175,6 @@ application/json,,,,unclassified
 arguments--is,,,,unclassified
 array,,,,Common-term
 Artem,,,,unclassified
-arXiv:2111.03354,,,,unclassified
-arXiv:2306.06391,,,,unclassified
 as-patterns,,,,unclassified
 atoms--cf,,,,unclassified
 atoms--ranged,,,,unclassified
@@ -221,7 +188,6 @@ call-by-value,,,,unclassified
 case--i.e,,,,unclassified
 catch-them-all,,,,unclassified
 cell0,,,,unclassified
-"cell1,1",,,,unclassified
 "cellInt,Int",,,,unclassified
 "cellIntBool,IntBool",,,,unclassified
 Chlipala,,,,unclassified
@@ -237,7 +203,6 @@ contravariantly,,,,unclassified
 Controvariance,,,,unclassified
 counter-intuitive,,,,unclassified
 d'un,,,,unclassified
-D)))--can,,,,unclassified
 D)Pcofin,,,,unclassified
 D)x(Pfin,,,,unclassified
 D)xP,,,,unclassified
@@ -248,20 +213,15 @@ decidability,,,,
 decidable,,,,
 dependent,,,,Common-term
 DJK,,,,unclassified
-doi.org/10.1145/3276483,,,,unclassified
-doi.org/10.1145/3571224,,,,unclassified
 dom(R,,,,unclassified
 Dref,,,,unclassified
 DxP,,,,unclassified
 dynamic semantics,,,,
 dynamically-typed,,,,unclassified
-e1,,,,unclassified
 Elimination,,,,
 errors--but,,,,unclassified
 expressiveness,,,,Common-term
 f(x,,,,unclassified
-F.1.2,,,,unclassified
-F.4,,,,unclassified
 face-value,,,,unclassified
 fetch!(e1,,,,unclassified
 fetch!(r,,,,unclassified
@@ -287,7 +247,6 @@ https://docs.scala-lang.org,,,,unclassified
 https://go.dev/ref/spec,,,,unclassified
 https://luau-lang.org,,,,unclassified
 https://ocaml.org/docs,,,,unclassified
-https://ruby-doc.org/3.2.1,,,,unclassified
 https://www.lua.org/manual,,,,unclassified
 Hyeonseung,,,,unclassified
 ICALP,,,,unclassified
@@ -300,7 +259,6 @@ input--needs,,,,unclassified
 instantiation,,,,
 IntxInt,,,,unclassified
 Int}}--since,,,,unclassified
-Int}}.15,,,,unclassified
 IRIF,,,,Lab
 is--by,,,,unclassified
 J1loc,,,,unclassified
@@ -342,7 +300,6 @@ metatheoretic,,,,unclassified
 modularity,,,,Common-term
 mutability--i.e,,,,unclassified
 mutatable,,,,unclassified
-n..m,,,,unclassified
 nilInt,,,,unclassified
 non-integer,,,,unclassified
 non-optional,,,,unclassified
@@ -405,7 +362,6 @@ S(integer|nil,,,,unclassified
 safe--the,,,,unclassified
 Scala's,,,,unclassified
 Serguei,,,,unclassified
-sets.10,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 slice(01,,,,unclassified
 Springer-Verlag,,,,unclassified
@@ -425,7 +381,6 @@ Swift's,,,,unclassified
 Telecom,,,,unclassified
 theNcase,,,,unclassified
 Theorie,,,,unclassified
-to:20,,,,unclassified
 Tobin-Hochstadt,,,,unclassified
 type checker,,,,Common-term
 type--while,,,,unclassified
@@ -434,8 +389,6 @@ type-error,,,,unclassified
 type-operators,,,,unclassified
 type-systems,,,,unclassified
 type-theoretic,,,,unclassified
-type.18,,,,unclassified
-type.19,,,,unclassified
 typechecking,,,,unclassified
 types--which,,,,unclassified
 unknown,,Gradual typing,,theory
@@ -451,10 +404,6 @@ well-given,,,,unclassified
 wild-card,,,,unclassified
 wild-cards,,,,unclassified
 write-type,,,,unclassified
-"x.[""42",,,,unclassified
-x.[42,,,,unclassified
-"x.e=""ok",,,,unclassified
-x.e=3,,,,unclassified
 XML,,,,unclassified
 XML-Centric,,,,unclassified
 Xuejing,,,,unclassified

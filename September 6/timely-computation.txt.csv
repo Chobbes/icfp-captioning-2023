@@ -8,19 +8,14 @@ false,,,,unclassified
 functor,,,,Common-term
 Conal Elliott,,,,Author
 semiring,,,,
-f1,,,,unclassified
-f2,,,,unclassified
 morphism,,,,Common-term
 K ,,“K axiom”,,
 Agda,,Agda-style,,Common-term Programming-language
 Id,,,,
 functional programming,,,,
-0-H,,,,unclassified
 sequential ,,,,
 exl,,,,unclassified
 semimodule,,,,unclassified
-x1,,,,unclassified
-x2,,,,unclassified
 algebra,,,,
 compositionality,,,,unclassified
 constructor,,,,Common-term
@@ -31,11 +26,8 @@ Op2,,,,unclassified
 Semantic,,,,Common-term
 semantics,,,,
 two-input,,,,unclassified
-A2,,,,unclassified
 abstraction,,,,Common-term
 functoriality,,,,unclassified
-g1,,,,unclassified
-g2,,,,unclassified
 max-plus,,,,unclassified
 semimodules,,,,unclassified
 semirings,,,,unclassified
@@ -49,13 +41,9 @@ multi-signals,,,,unclassified
 Oliveira,,,,unclassified
 refinement types,,,,
 stable0,,,,unclassified
-u1,,,,unclassified
-u2,,,,unclassified
 Zero-input,,,,unclassified
 analog0,,,,unclassified
 analog1,,,,unclassified
-B1,,,,unclassified
-B2,,,,unclassified
 Cocartesian,,,,unclassified
 data-independent,,,,unclassified
 Dependent types,,,,types
@@ -94,7 +82,6 @@ MinPlus,,,,unclassified
 multi-dimensional,,,,unclassified
 multi-interval,,,,unclassified
 Nonstrict,,,,unclassified
-P1,,,,unclassified
 paradigm,,,,Common-term
 Pfenning,,,,unclassified
 Power,,,,
@@ -109,18 +96,7 @@ Ulf,,,,unclassified
 Wadler,,,,Name
 Why,,,,
 Zhai,,,,unclassified
-13th,,,,unclassified
-16th,,,,unclassified
-18th,,,,unclassified
-2-by-2,,,,unclassified
-21st,,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART219,,,,unclassified
-26th,,,,unclassified
-28th,,,,unclassified
-abs/1903.10677,,,,unclassified
 Agda's,,,,unclassified
-Agda:26,,,,unclassified
 Algorithmica,,,,unclassified
 Aliaume,,,,unclassified
 Beidar,,,,unclassified
@@ -157,7 +133,6 @@ continuous-to-discrete,,,,unclassified
 coproducts,,,,unclassified
 correctness--such,,,,unclassified
 correctness.11,,,,unclassified
-CUCS-017-15,,,,unclassified
 curried,,,,
 dark--guessing,,,,unclassified
 data-dependent,,,,unclassified
@@ -165,11 +140,9 @@ Deadlock,,,,
 decidable,,,,
 denotations.35,,,,unclassified
 differences.2,,,,unclassified
-do.8,,,,unclassified
 domainindependent,,,,unclassified
 duplication.28,,,,unclassified
 Dybjer,,,,
-"e.g.,32",,,,unclassified
 EACSL,,,,unclassified
 Edsger,,,,unclassified
 elegant.24,,,,unclassified
@@ -186,16 +159,12 @@ function--the,,,,unclassified
 function-valued,,,,unclassified
 functions:20,,,,unclassified
 functoriality:27,,,,unclassified
-fuss:29,,,,unclassified
 gates:7,,,,unclassified
 hardware-oriented,,,,unclassified
 Hardware/Software,,,,unclassified
 Hathhorn,,,,unclassified
 Heisenbugs,,,,unclassified
-here):15,,,,unclassified
 homomorphically,,,,unclassified
-I1,,,,unclassified
-I2,,,,unclassified
 information.1,,,,unclassified
 input-dependent,,,,unclassified
 input-independent,,,,unclassified
@@ -232,13 +201,11 @@ non-singleton,,,,unclassified
 nondeterminism,,,,
 number.33,,,,unclassified
 Nuno,,,,unclassified
-O1,,,,unclassified
 obj1,,,,unclassified
 obj2,,,,unclassified
 object-indexed,,,,unclassified
 one-bit,,,,unclassified
 ones--enabling,,,,unclassified
-"outputs:17,18",,,,unclassified
 owner/author(s,,,,unclassified
 parallel--not,,,,unclassified
 Pi-Ware,,,,unclassified
@@ -252,7 +219,6 @@ pre-composed,,,,unclassified
 program4,,,,unclassified
 proof-checked,,,,unclassified
 pulses--specifically,,,,unclassified
-q0,,,,unclassified
 quantifier,,,,Common-term
 recursive,,,,Common-term
 reflection--appears,,,,unclassified
@@ -263,7 +229,6 @@ scalar-to-scalar,,,,unclassified
 semi-)analog,,,,unclassified
 semi-analog,,,,unclassified
 separability--we,,,,unclassified
-sets:19,,,,unclassified
 shaped/typed,,,,unclassified
 SIGPLAN/SIGBED,,,,unclassified
 Sijsling,,,,unclassified
@@ -285,7 +250,6 @@ Turing,,,,
 type-checker,,,,Common-term
 type-level,,,,unclassified
 type-setting,,,,unclassified
-types).16,,,,unclassified
 U:I,,,,unclassified
 uni-signals,,,,unclassified
 value-and-timing,,,,unclassified
@@ -294,9 +258,7 @@ version30,,,,unclassified
 without-K,,,,unclassified
 Wouter Swierstra,,,,Author
 "x,x",,,,unclassified
-x.23,,,,unclassified
 x=t,,,,unclassified
 x=x,,,,unclassified
 xf=x,,,,unclassified
-xt=x4/5,,,,unclassified
 zone--neither,,,,unclassified

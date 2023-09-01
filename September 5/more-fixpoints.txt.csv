@@ -7,9 +7,7 @@ ICFP,,,,unclassified
 ghci,,,,unclassified
 API,A.P.I.,Application Programming Interface,,Common-term
 recursive,,,,Common-term
-e2,,,,unclassified
 MkRWE,,,,unclassified
-e1,,,,unclassified
 RS.get,,,,unclassified
 can_throw,,,,unclassified
 M.Map,,,,unclassified
@@ -29,15 +27,11 @@ mapp,,,,unclassified
 monotonic,,,,Common-term
 defCellInsert,,,,unclassified
 buildExpr,,,,unclassified
-c2,,,,unclassified
 fixpoint,,,,Common-term
 Hatafun,,,,unclassified
-s1,,,,unclassified
-s2,,,,unclassified
 todo,,,,unclassified
 unsafePerformIO,,,,unclassified
 AST ,A.S.T.,Abstract Syntax Tree,,
-c1,,,,unclassified
 CatchF,,,,unclassified
 Data.Set,,,,unclassified
 datafix,,,,unclassified
@@ -68,7 +62,6 @@ M.union,,,,unclassified
 RB.false,,,,unclassified
 rTrans1,,,,unclassified
 RTrue,,,,unclassified
-s3,,,,unclassified
 ThrowF,,,,unclassified
 VarF,,,,unclassified
 Boolean,,,,
@@ -86,8 +79,6 @@ S.fromList,,,,unclassified
 TF,,,,unclassified
 TransferAlgebra,,,,unclassified
 transferFunctionAlg,,,,unclassified
-b1,,,,unclassified
-b2,,,,unclassified
 can_throw1,,,,unclassified
 can_throw2,,,,unclassified
 closure,,,,Common-term
@@ -104,7 +95,6 @@ mlam,,,,unclassified
 monad,Mow-nad,,,Common-term
 monadic,Mow-nad-ick,,,
 MVar,,,,unclassified
-r2,,,,unclassified
 removeCatch,,,,unclassified
 rs1,,,,unclassified
 rs2,,,,unclassified
@@ -153,8 +143,6 @@ CoCaml,,,,unclassified
 coinductive,,,,Common-term
 conservative,,,,theory
 context,,,,Common-term
-D.1,,,,unclassified
-D.2,,,,unclassified
 Data.Map,,,,unclassified
 e1Unsafe,,,,unclassified
 e2Unsafe,,,,unclassified
@@ -218,14 +206,7 @@ vUnsafe,,,,unclassified
 Why,,,,
 zipWith,,,,unclassified
 "1,fromList",,,,unclassified
-11th,,,,unclassified
-21st,,,,unclassified
-"23,42],fromList",,,,unclassified
 "23],fromList",,,,unclassified
-23rd,,,,unclassified
-2475-1421/2023/8-ART211,,,,unclassified
-37th,,,,unclassified
-4d5239c,,,,unclassified
 Abramsky,,,,unclassified
 abstractions,,,,
 Acar,,,,unclassified
@@ -235,7 +216,6 @@ automata,,,,Common-term
 back-translation,,,,unclassified
 Boehm,,,,unclassified
 Breitner,,,,unclassified
-c372b81,,,,unclassified
 call-by-value,,,,unclassified
 case-study,,,,unclassified
 code's,,,,unclassified
@@ -268,7 +248,6 @@ disentanglement,,,,
 Dominique Devriese,,,,
 "done""-flag",,,,unclassified
 "done""-flags",,,,unclassified
-e11,,,,unclassified
 effectful,,,,
 Eijiro,,,,unclassified
 embeddings,,,,
@@ -293,10 +272,7 @@ Henglein,,,,unclassified
 high-performance,,,,unclassified
 HOAS,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1017,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 ICALP,,,,unclassified
-IFL'99,,,,unclassified
 Ilya Sergey,,,,Author
 Informaticae,,,,unclassified
 inliner,,,,unclassified
@@ -337,7 +313,6 @@ Massachusetts Institute of Technology,,,,Institution
 mbind,,,,unclassified
 MFun,,,,unclassified
 MIT/CSAIL,,,,unclassified
-MITCSAIL-TR-2009-002,,,,unclassified
 ML,,,,Programming-language
 modifyMVar,,,,unclassified
 modular,,,,Common-term
@@ -359,7 +334,6 @@ PEDESTRIAN-STYLE,,,,unclassified
 Peter Thiemann,,,,Author
 plugins,,,,unclassified
 POPL,,,,unclassified
-POPL'96,,,,unclassified
 RDB.get,,,,unclassified
 re-phrased,,,,unclassified
 re-phrases,,,,unclassified
@@ -380,7 +354,6 @@ S.delete,,,,unclassified
 S.member,,,,unclassified
 S.union,,,,unclassified
 S.unions,,,,unclassified
-s0956796897002943,,,,unclassified
 Seidl,,,,unclassified
 self):transferredBind,,,,unclassified
 semantics,,,,

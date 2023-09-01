@@ -44,7 +44,6 @@ lambda calculus,lam-duh calculus,,,theory
 quantified,,,,Common-term
 derivation,,,,
 monad,Mow-nad,,,Common-term
-J||K,,,,unclassified
 List.len,,,,unclassified
 propositional,,,,Common-term
 category,,,,
@@ -80,8 +79,6 @@ type-theoretic,,,,unclassified
 typechecking,,,,unclassified
 Vec.len_def,,,,unclassified
 Aczel,,,,unclassified
-arXiv:2010.07763,,,,unclassified
-arXiv:2102.00905,,,,unclassified
 Atkey,,,,unclassified
 Awodey,,,,unclassified
 binder,like in bind,,,
@@ -204,21 +201,8 @@ while-program,,,,unclassified
 Why,,,,
 zerocomm,,,,unclassified
 zeroright,,,,unclassified
-0:N,,,,unclassified
 1.error,,,,unclassified
-11th,,,,unclassified
-15th,,,,unclassified
-18th,,,,unclassified
-1K,,,,unclassified
-2015]'s,,,,unclassified
-2475-1421/2023/8-ART195,,,,unclassified
-24th,,,,unclassified
 29-April,,,,unclassified
-3's,,,,unclassified
-33rd,,,,unclassified
-41st,,,,unclassified
-42nd,,,,unclassified
-99CB36332,,,,unclassified
 abstraction,,,,Common-term
 ACM/IEEE,,,,unclassified
 addcomm,,,,unclassified
@@ -335,7 +319,6 @@ linear-time,,,,Common-term
 Liquid-Haskell-like,,,,unclassified
 logic-enriched,,,,unclassified
 Luo-style,,,,unclassified
-M1,,,,unclassified
 Matu,,,,unclassified
 McBride's,,,,unclassified
 mechanization,,,,

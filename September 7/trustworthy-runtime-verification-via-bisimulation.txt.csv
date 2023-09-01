@@ -1,6 +1,5 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
 CopilotVerifier,,,,unclassified
-s0,,,,unclassified
 Trigger,,,,
 bisimulation,,,,Common-term equivalence
 runtime,,,,Common-term
@@ -52,13 +51,9 @@ LTSes,,,,unclassified
 SMT solver,,Type of tool for solving SMT problems,,Tool
 theorem,,,,Common-term
 unsafeCast,,,,unclassified
-2022c,,,,unclassified
 bv4,,,,unclassified
 bvadd,,,,unclassified
-C99,,,,unclassified
 CopilotVerifier's,,,,unclassified
-cs0_idx@89,,,,email
-DO-333,,,,unclassified
 extensional,,functions,,theory
 functional programming,,,,
 GSN,,,,unclassified
@@ -71,10 +66,6 @@ Pnueli,,,,unclassified
 Pouzet,,,,unclassified
 Property-based testing,,,,
 quantified,,,,Common-term
-x4,,,,unclassified
-x5,,,,unclassified
-12th,,,,unclassified
-2021e,,,,unclassified
 Alive2,,,,unclassified
 arg0,,,,unclassified
 backend,,,,unclassified
@@ -97,7 +88,6 @@ Frama-C,,,,
 high-assurance,,,,unclassified
 higher-level,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 Learning-Enabled,,,,unclassified
 Lelio,,,,unclassified
 lower-level,,,,unclassified
@@ -108,7 +98,6 @@ Prop,,,,
 Ramananandro,,,,unclassified
 Ravitch,,,,unclassified
 Ryabtsev,,,,unclassified
-s0_get(4,,,,unclassified
 Simulink,,,,unclassified
 size_t,,,,unclassified
 stream-based,,,,unclassified
@@ -116,32 +105,7 @@ streamAdd,,,,unclassified
 Strichman,,,,unclassified
 toolchain,,,,
 Upchurch,,,,unclassified
-v100,,,,unclassified
-v121,,,,unclassified
 Wegmann,,,,unclassified
-x1,,,,unclassified
-1)th,,,,unclassified
-14th,,,,unclassified
-150.f,,,,unclassified
-17th,,,,unclassified
-2021a,,,,unclassified
-"2021a,d",,,,unclassified
-2021b,,,,unclassified
-"2021b,c",,,,unclassified
-2021c,,,,unclassified
-2021d,,,,unclassified
-2022a,,,,unclassified
-"2022a,b",,,,unclassified
-2022b,,,,unclassified
-20th,,,,unclassified
-2475-1421/2023/8-ART199,,,,unclassified
-255.0f,,,,unclassified
-38th,,,,unclassified
-4)th,,,,unclassified
-40th,,,,unclassified
-42nd,,,,unclassified
-5s,,,,unclassified
-80ARC020D0010,,,,unclassified
 a.goodloe@nasa.gov,,,,email
 abort-early,,,,unclassified
 abstraction,,,,Common-term
@@ -150,7 +114,6 @@ AFE87,,,,unclassified
 Amundson,,,,unclassified
 ANSI-C,,,,unclassified
 application-dependent,,,,unclassified
-ARP4754A,,,,unclassified
 backends,,,,unclassified
 Balayan,,,,unclassified
 behavior--see,,,,unclassified
@@ -158,7 +121,6 @@ bitvector,,,,unclassified
 brevity's,,,,unclassified
 Broy,,,,unclassified
 bv1,,,,unclassified
-bv42,,,,unclassified
 Byun,,,,unclassified
 CBMC,,,,unclassified
 Chechik,,,,unclassified
@@ -188,8 +150,6 @@ Dedden,,,,unclassified
 Diatchki,,,,unclassified
 Dimitra,,,,unclassified
 discrete,,,,
-DO-178C,,,,unclassified
-DO-278A,,,,unclassified
 Dockins,,,,unclassified
 Doron,,,,unclassified
 EDSL,,,,unclassified
@@ -210,7 +170,6 @@ Go,,,,
 Halbwachs,,,,unclassified
 Hoare-logic-style,,,,unclassified
 https://doi.org,,,,unclassified
-https://doi.org/10.1145/351240,,,,unclassified
 https://galois.com/blog/2020,,,,unclassified
 https://github,,,,unclassified
 Hur,,,,unclassified
@@ -218,7 +177,6 @@ Iavor,,,,unclassified
 IEEE/AIAA,,,,unclassified
 immutable,,,,Common-term
 input-output,,,,unclassified
-int32_t,,,,unclassified
 ivan.perezdominguez@nasa.gov,,,,email
 Jeanmaire,,,,unclassified
 Juneyoung,,,,unclassified
@@ -251,7 +209,6 @@ Munje,,,,unclassified
 Munoz,,,,unclassified
 Myreen,,,,unclassified
 Narkawicz,,,,unclassified
-NASA/CR-2010-216724,,,,unclassified
 NFM,,,,unclassified
 Nhut,,,,unclassified
 non-exclusive,,,,unclassified
@@ -261,8 +218,6 @@ Norrish,,,,unclassified
 Northridge,,,,unclassified
 notation-a,,,,unclassified
 Nuno,,,,unclassified
-O0,,,,unclassified
-O1,,,,unclassified
 object-oriented,,,,unclassified
 objectoriented,,,,unclassified
 Open-Source,,,,unclassified
@@ -287,7 +242,6 @@ Prevosto,,,,unclassified
 QuickCheck,,,,testing tool
 Ramana,,,,unclassified
 Rayadurgam,,,,unclassified
-RCTA/DO-178C,,,,unclassified
 RCTA/DO333,,,,unclassified
 rdoc@amazon.com,,,,email
 reflect,,,,
@@ -300,8 +254,6 @@ RMOR,,,,unclassified
 Rozier,,,,unclassified
 rscott@galois.com,,,,email
 Run-Time,,,,unclassified
-s0_get(0,,,,unclassified
-s0_get(1,,,,unclassified
 s0_get(i,,,,unclassified
 s2n,,,,unclassified
 Sandrine,,,,unclassified
@@ -342,9 +294,6 @@ uint8_t,,,,unclassified
 unknown,,Gradual typing,,theory
 unsafeCast.2,,,,unclassified
 user-configurable,,,,unclassified
-v122,,,,unclassified
-v1874,,,,unclassified
-v94,,,,unclassified
 validation-based,,,,unclassified
 verification.1,,,,unclassified
 verifier's,,,,unclassified

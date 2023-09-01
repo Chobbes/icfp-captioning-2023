@@ -33,7 +33,6 @@ sigAwait,,,,unclassified
 derivative,,,,
 garbage collection,,GC,,Common-term
 tick-free,,,,unclassified
-A.1,,,,unclassified
 Haskell,,,,Common-term programming-language
 in1,,,,unclassified
 domp,,,,unclassified
@@ -41,12 +40,10 @@ in2,,,,unclassified
 Kripke,,“Kripke semantics”,,Name
 reduction,,,,Common-term
 recursion,,,,Common-term
-A.5,,,,unclassified
 zip,,,,
 Fitch-style,,,,
 functional programming,,,,
 Graulund,,,,unclassified
-J1,,,,unclassified
 keyPressed,,,,unclassified
 modality,,,,Common-term
 scanAwait,,,,unclassified
@@ -64,8 +61,6 @@ push-only,,,,unclassified
 runtime,,,,Common-term
 syntax,,,,Common-term
 waittoggle,,,,unclassified
-A.12,,,,unclassified
-A.6,,,,unclassified
 abstraction,,,,Common-term
 alloc,,,,unclassified
 buffered-only,,,,unclassified
@@ -78,9 +73,6 @@ Jeltsch,,,,unclassified
 JProd,,,,unclassified
 output-compute,,,,unclassified
 POPL,,,,unclassified
-A.11,,,,unclassified
-A.4,,,,unclassified
-A.9,,,,unclassified
 abstractions,,,,
 Clouston,,,,unclassified
 constructor,,,,Common-term
@@ -93,12 +85,6 @@ Neelakantan,,,,unclassified
 time-dependent,,,,unclassified
 type-level,,,,unclassified
 Uldal,,,,unclassified
-18th,,,,unclassified
-A.10,,,,unclassified
-A.2,,,,unclassified
-A.3,,,,unclassified
-A.7,,,,unclassified
-A.8,,,,unclassified
 adjoint,,,,theory
 Appel,,,,
 Barenz,,,,unclassified
@@ -111,8 +97,6 @@ ESTEREL,,,,unclassified
 field2,,,,unclassified
 floating-point-valued,,,,unclassified
 FRPNow,,,,unclassified
-K(0,,,,unclassified
-K(1,,,,unclassified
 Koen Claessen,,,,Author
 linear-time,,,,Common-term
 McAllester,,,,unclassified
@@ -137,16 +121,6 @@ Trigger,,,,
 two-heap,,,,unclassified
 waitsample,,,,unclassified
 waitup,,,,unclassified
-11th,,,,unclassified
-14th,,,,unclassified
-1a,,,,unclassified
-1b,,,,unclassified
-2032-00134B,,,,unclassified
-20th,,,,unclassified
-2475-1421/2023/8-ART205,,,,unclassified
-26th,,,,unclassified
-39th,,,,unclassified
-41st,,,,unclassified
 ACM/IEEE,,,,unclassified
 adv(wait,,,,unclassified
 allocations,,,,Common-term
@@ -180,10 +154,8 @@ delaycl(xs,,,,unclassified
 denotational semantics,,,,semantics
 derive,,,,
 Dmitrij,,,,unclassified
-doi.org/10.1109/LICS.2011.38,,,,unclassified
 dt.der,,,,unclassified
 dt.integral,,,,unclassified
-e15,,,,unclassified
 EACSL,,,,unclassified
 Expr,,,,unclassified
 expressiveness,,,,Common-term
@@ -192,14 +164,12 @@ FoSSaCS,,,,unclassified
 Frank Pfenning,Frank “Fenning”,,,Author
 GUIs,,,,unclassified
 Halbwachs,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 inducTo,,,,unclassified
 initialises,,,,unclassified
 internalise,,,,unclassified
 Ivan Perez,,,,Author
 J*K,,,,unclassified
 J1K,,,,unclassified
-J2,,,,unclassified
 judgement,,dependent types,,theory
 KeyCode,,,,unclassified
 Krishnaswami's,,,,unclassified
@@ -219,7 +189,6 @@ MuliLisp,,,,unclassified
 multiLisp,,,,
 Neel Krishnaswami,,,,Author
 Nikhil,,,,unclassified
-No.99CB36332,,,,unclassified
 non-causal,,,,unclassified
 non-deterministic,,,,unclassified
 non-empty,,,,unclassified

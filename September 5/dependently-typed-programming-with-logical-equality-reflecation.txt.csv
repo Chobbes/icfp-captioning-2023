@@ -1,18 +1,13 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-a2,,,,unclassified
-b1,,,,unclassified
-b2,,,,unclassified
 lemma,,,,Common-term
 reduction,,,,Common-term
 Haskell,,,,Common-term programming-language
 context,,,,Common-term
 ICFP,,,,unclassified
 reflection,,,,Common-term
-y.a3,,,,unclassified
 dependently-typed,,,,types
 succ,,,,
 CSV,,,,unclassified
-"x:,N.A",,,,unclassified
 Stephanie Weirich,,,,Author
 consistency,,Gradual typing,,theory
 type checker,,,,Common-term
@@ -26,16 +21,12 @@ dependent,,,,Common-term
 inductive,,,,Common-term
 reflect,,,,
 appendNilEq,,,,unclassified
-B0,,,,unclassified
 theorem,,,,Common-term
 induction,,,,Common-term
 congruence,,,,Common-term
-a0,,,,unclassified
 covalue,,,,unclassified
 Coq,“Coq”,,,Common-term programming-language theorem-prover
-a3,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
-c0,,,,unclassified
 forall,,,,unclassified
 foreach,,,,unclassified
 pifst,,,,unclassified
@@ -49,7 +40,6 @@ Martin-Lof,,,,unclassified
 recursion,,,,Common-term
 untyped,,,,
 well-formedness,,,,unclassified
-b3,,,,unclassified
 badApp,,,,unclassified
 Choudhury,,,,
 compiler,,,,Common-term
@@ -70,8 +60,6 @@ extensional,,functions,,theory
 Liquid Haskell,,,,Tool programming-language
 semantics,,,,
 sizeList,,,,unclassified
-x.b2,,,,unclassified
-A.a2,,,,unclassified
 functional programming,,,,
 judgement,,dependent types,,theory
 R-AppAbs,,,,unclassified
@@ -82,7 +70,6 @@ T-Var,,,,unclassified
 University of Pennsylvania,,,,Institution
 A.a,,,,unclassified
 axiom,,,,
-A{a1,,,,unclassified
 a{b/x,,,,unclassified
 calculus,,Used to describe a core simple programming language,,Common-term
 CR-AbsPush,,,,unclassified
@@ -100,7 +87,6 @@ SIGPLAN,,,,unclassified
 Sulzmann,,,,unclassified
 T-Ind,,,,unclassified
 type-level,,,,unclassified
-A.a1,,,,unclassified
 abstraction,,,,Common-term
 appendNilEqSing,,,,unclassified
 beta-equivalence,,,,unclassified
@@ -120,7 +106,6 @@ recursive,,,,Common-term
 T-Pi,,,,unclassified
 T-Reify,,,,unclassified
 well-typed,,,,Common-term
-y.b3,,,,unclassified
 Atkey,,,,unclassified
 combinator,,,,Common-term
 constructor,,,,Common-term
@@ -162,32 +147,17 @@ universe,,dependent types,,theory
 Vazou,,,,
 vreplicate,,,,unclassified
 Why,,,,
-A.1,,,,unclassified
-A.2,,,,unclassified
-A.2.1,,,,unclassified
-A.2.2,,,,unclassified
-A.2.3,,,,unclassified
-A.2.4,,,,unclassified
-A.3.1,,,,unclassified
-A.3.3,,,,unclassified
 Abel,,,,Name
 abstractions,,,,
 Amadio,,,,unclassified
 Andreas Abel,,,,Author
-A{b1,,,,unclassified
 A{succ,,,,unclassified
 A{y/x,,,,unclassified
 A{zero/x,,,,unclassified
-B.1,,,,unclassified
-B.2,,,,unclassified
 b/x,,,,unclassified
 backend,,,,unclassified
 Brady,,,,
 B{a/x,,,,unclassified
-C.1,,,,unclassified
-C.2,,,,unclassified
-C.3,,,,unclassified
-C.4,,,,unclassified
 call-by-name,,,,unclassified
 call-by-value,,,,unclassified
 Cardelli,,,,
@@ -202,8 +172,6 @@ CR-ConvCong,,,,unclassified
 CR-ConvRefl,,,,unclassified
 CT-Leq,,,,unclassified
 Dagstuhl,,,,unclassified
-e1,,,,unclassified
-e2,,,,unclassified
 Elimination,,,,
 explicitly-typed,,,,unclassified
 Grigori,,,,unclassified
@@ -250,20 +218,6 @@ x:xs,,,,unclassified
 Xia,,,,unclassified
 y/x,,,,unclassified
 Zombie's,,,,unclassified
-1017/S0956796808006758,,,,unclassified
-16th,,,,unclassified
-18th,,,,unclassified
-2475-1421/2023/8-ART210,,,,unclassified
-33rd,,,,unclassified
-34th,,,,unclassified
-35th,,,,unclassified
-38th,,,,unclassified
-41st,,,,unclassified
-A).a,,,,unclassified
-A.2.5,,,,unclassified
-A.3,,,,unclassified
-A.3.2,,,,unclassified
-A.3.4,,,,unclassified
 aBeta-AbsPush,,,,unclassified
 aBeta-AppAbs,,,,unclassified
 aBeta-Combine,,,,unclassified
@@ -289,11 +243,6 @@ Chakravarty,,,,unclassified
 Chung-Kil,,,,unclassified
 Church-Rosser,,,,
 Cleaveland,,,,unclassified
-Co)12,,,,unclassified
-Co)18,,,,unclassified
-Co)33,,,,unclassified
-Co-Abs)34,,,,unclassified
-Co-Nat)35,,,,unclassified
 coinfective,,,,unclassified
 compiled,,,,
 consistency32,,,,unclassified
@@ -311,7 +260,6 @@ design1,,,,unclassified
 Diatchki,,,,unclassified
 Dijkstra monad ,/ˈdɑɪkstɹə/ DYKE-struh,,,
 divergence,,,,Common-term
-doi.org/10.48730/jt3g-ws74,,,,unclassified
 domain-theoretic,,,,unclassified
 E-ConvCong,,,,unclassified
 E-EqCong,,,,unclassified
@@ -326,7 +274,6 @@ E-Sym,,,,unclassified
 E-Trans,,,,unclassified
 Eades,,,,unclassified
 ECOOP,,,,unclassified
-ECOOP.2021.9,,,,unclassified
 ecosystem,,,,
 eqality30,,,,unclassified
 equality28,,,,unclassified
@@ -355,7 +302,6 @@ Herbelin's,,,,unclassified
 higher-order,,,,Common-term
 HList,,,,unclassified
 Hsu,,,,
-https://doi.org/10.4230/LIPIcs,,,,unclassified
 https://goto.ucsd.edu,,,,unclassified
 https://repository,,,,unclassified
 https://www.haskell.org/ghc,,,,unclassified
@@ -406,7 +352,6 @@ Moller,,,,unclassified
 monad,Mow-nad,,,Common-term
 MP-One,,,,unclassified
 MP-Step,,,,unclassified
-N.((x,,,,unclassified
 N.b,,,,unclassified
 N.N,,,,unclassified
 N.x,,,,unclassified
@@ -543,11 +488,8 @@ withTheorem,,,,unclassified
 work--we,,,,unclassified
 Wouter Swierstra,,,,Author
 x.a,,,,unclassified
-x.|a,,,,unclassified
-x.|b2,,,,unclassified
 x:(xs,,,,unclassified
 x:l,,,,unclassified
-y.b2,,,,unclassified
 Yannick Zakowski,,,,Author
 z.reify,,,,unclassified
 Zdancewic,,,,unclassified

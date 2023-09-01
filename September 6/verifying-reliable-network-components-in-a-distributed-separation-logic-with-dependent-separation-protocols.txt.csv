@@ -21,7 +21,6 @@ Iris,,,,theorem-proving tool
 modular,,,,Common-term
 serializer,,,,unclassified
 leader-followers,,,,unclassified
-R)/(R,,,,unclassified
 ses_own,,,,unclassified
 ses_idx,,,,unclassified
 Coq,“Coq”,,,Common-term programming-language theorem-prover
@@ -34,8 +33,6 @@ S.pre,,,,unclassified
 S.qs,,,,unclassified
 SrvInit,,,,unclassified
 prot_ownl,,,,unclassified
-R)1,,,,unclassified
-R)2,,,,unclassified
 S.srv,,,,unclassified
 modality,,,,Common-term
 prot_ctx,,,,unclassified
@@ -81,8 +78,6 @@ FreeIp(ip,,,,unclassified
 heap,,,,
 Ht-accept,,,,unclassified
 Krogh-Jespersen,,,,unclassified
-m1,,,,unclassified
-m2,,,,unclassified
 Nieto,,,,unclassified
 Prop,,,,
 RC_Resources,,,,unclassified
@@ -172,7 +167,6 @@ src.ip,,,,unclassified
 Stenning's,,,,unclassified
 user-defined,,,,unclassified
 wait_on_read,,,,unclassified
-43rd,,,,unclassified
 abstraction,,,,Common-term
 acknowledgement_message,,,,unclassified
 algebras,,,,
@@ -237,7 +231,6 @@ Obs-update,,,,unclassified
 OCaml-like,,,,unclassified
 one-time-use,,,,unclassified
 Op-Based,,,,unclassified
-P1,,,,unclassified
 polymorphic,,,,Common-term
 proto--l,,,,unclassified
 proto-send-l,,,,unclassified
@@ -285,31 +278,12 @@ Yishuai,,,,unclassified
 Yoshida,,,,unclassified
 Zdancewic,,,,unclassified
 Zhou,,,,unclassified
-12th,,,,unclassified
-14th,,,,unclassified
-1996]'s,,,,unclassified
-21st,,,,unclassified
-22nd,,,,unclassified
-2475-1421/2023/8-ART217,,,,unclassified
-27th,,,,unclassified
-28th,,,,unclassified
-29th,,,,unclassified
-30th,,,,unclassified
-31st,,,,unclassified
-33rd,,,,unclassified
-36th,,,,unclassified
 4-tuple,,,,unclassified
 4-way,,,,unclassified
-A.1,,,,unclassified
-A.2,,,,unclassified
-abs/1902.01353,,,,unclassified
-abs/2109.07863,,,,unclassified
 Actris's,,,,unclassified
 Adam Chlipala,,,,Author
 Adeqacy,,,,unclassified
 Araujo,,,,unclassified
-arXiv:1902.01353,,,,unclassified
-arXiv:2109.07863,,,,unclassified
 Assia,,,,unclassified
 atomic,,,,
 Bahareh,,,,unclassified
@@ -345,10 +319,8 @@ deserializes,,,,unclassified
 Dillig,,,,unclassified
 Dimitrios,,,,unclassified
 distribution,,,,
-doi.org/10.1145/3547631,,,,unclassified
 domain-specific,,,,unclassified
 dynamically-instantiated,,,,unclassified
-e20,,,,unclassified
 echoserver,,,,unclassified
 ECOOP,,,,unclassified
 Eike,,,,unclassified
@@ -393,8 +365,6 @@ Ht-rpcreqest,,,,unclassified
 Htconnect,,,,unclassified
 http://iris-project.org,,,,unclassified
 https,,,,unclassified
-https://doi.org/10.1109,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 Ilya Sergey,,,,Author
 indentifier,,,,unclassified
 induction,,,,Common-term
@@ -478,7 +448,6 @@ pattern--dubbed,,,,unclassified
 pattern--the,,,,unclassified
 pattern--which,,,,unclassified
 PDIS,,,,unclassified
-PDIS.1994.331722,,,,unclassified
 Peyton Jones,,,,Name
 PLDI,,,,unclassified
 points-to-predicate,,,,unclassified

@@ -16,9 +16,7 @@ match,,,,
 Son Ho,,,,Author
 idx,,,,unclassified
 call-graph,,,,unclassified
-Curve25519,,,,unclassified
 DSL,,,,
-h0,,,,unclassified
 mindex,,,,unclassified
 false,,,,unclassified
 tactic,,,,
@@ -28,9 +26,7 @@ modular,,,,Common-term
 state_s,,,,unclassified
 compiler,,,,Common-term
 Id,,,,
-Poly1305,,,,unclassified
 functor,,,,Common-term
-h1,,,,unclassified
 higher-order,,,,Common-term
 HPKE,,,,unclassified
 ifind,,,,unclassified
@@ -47,7 +43,6 @@ ML,,,,Programming-language
 Nikhil,,,,unclassified
 Polubelova,,,,unclassified
 Rastogi,,,,unclassified
-U32.v,,,,unclassified
 Aseem,,,,unclassified
 Dependent types,,,,types
 EverCrypt,,,,unclassified
@@ -65,9 +60,7 @@ type-checking,,,,unclassified
 block-based,,,,unclassified
 block_len,,,,unclassified
 block_state,,,,unclassified
-ChaCha20-Poly1305,,,,unclassified
 e.t,,,,unclassified
-F64,,,,unclassified
 hpke_alg,,,,unclassified
 https,,,,unclassified
 instantiation,,,,
@@ -76,7 +69,6 @@ Karthikeyan,,,,unclassified
 Lean,,,,
 Pit-Claudel,,,,unclassified
 Protzenko,,,,
-U8.t,,,,unclassified
 update_multi,,,,unclassified
 update_multi_s,,,,unclassified
 Appel,,,,
@@ -123,12 +115,10 @@ ChaCha20,,,,unclassified
 context,,,,Common-term
 deref,,,,unclassified
 enumeration,,,,Common-term
-F51,,,,unclassified
 fold,,,,Common-term
 functional programming,,,,
 Go,,,,
 Gueron,,,,unclassified
-i.(k,,,,unclassified
 INRIA,,,,Institution
 key.t,,,,unclassified
 Lammich,,,,unclassified
@@ -142,7 +132,6 @@ split_at_last,,,,unclassified
 String.eq,,,,unclassified
 toolchain,,,,
 type-level,,,,unclassified
-U32.t,,,,unclassified
 uint32_t,,,,unclassified
 update_block,,,,unclassified
 vectorized,,,,unclassified
@@ -152,7 +141,6 @@ aes_dec,,,,unclassified
 aes_enc,,,,unclassified
 Ahman,,,,
 arch_index,,,,unclassified
-b1,,,,unclassified
 Beurdouche,,,,unclassified
 bi.block_len,,,,unclassified
 bi.state.footprint,,,,unclassified
@@ -167,7 +155,6 @@ compile-time,,,,unclassified
 composability,,,,unclassified
 de Moura,,,,
 decidable,,,,
-do_poly1305,,,,unclassified
 encode_point,,,,unclassified
 encode_point_64_lowstar,,,,unclassified
 encode_point_64_vale,,,,unclassified
@@ -205,7 +192,6 @@ s:seq,,,,unclassified
 scalarmult,,,,unclassified
 seL4,,,,unclassified
 semantics,,,,
-SHA2-256,,,,unclassified
 side-channel,,,,unclassified
 SMT ,,,,
 spec_is_incremental,,,,unclassified
@@ -213,12 +199,8 @@ spec_s,,,,unclassified
 ss.footprint,,,,unclassified
 str_eqty,,,,unclassified
 total_len,,,,unclassified
-V128,,,,unclassified
 w:arch_index,,,,unclassified
 Z3,,Tool to automatically prove theorems,,Tool
-128-bit,,,,unclassified
-14th,,,,unclassified
-43rd,,,,unclassified
 Abhishek,,,,unclassified
 aead_alg,,,,unclassified
 aead_decrypt,,,,unclassified
@@ -228,7 +210,6 @@ Ashay,,,,unclassified
 AVX,,,,unclassified
 AVX2,,,,unclassified
 a{m.k,,,,unclassified
-b2,,,,unclassified
 Bacelar,,,,unclassified
 Barbosa,,,,unclassified
 Bedrock,,,,
@@ -243,8 +224,6 @@ boilerplate,,,,
 Brady,,,,
 Bugzilla,,,,unclassified
 chacha20_encrypt_st,,,,unclassified
-CHACHA20_POLY1305,,,,unclassified
-Chacha20Poly1305_128,,,,unclassified
 Chlipala,,,,unclassified
 Choi,,,,unclassified
 code-rewriting,,,,unclassified
@@ -280,7 +259,6 @@ Hixon,,,,unclassified
 HMAC,,,,unclassified
 hpke_sealBase,,,,unclassified
 Hricu,,,,unclassified
-i.(v,,,,unclassified
 i:field_index,,,,unclassified
 ill-typed,,,,unclassified
 inductive,,,,Common-term
@@ -323,7 +301,6 @@ off-the-shelf,,,,unclassified
 optional_key,,,,unclassified
 Paraskevopoulou,,,,unclassified
 Philipoom,,,,unclassified
-poly1305_st,,,,unclassified
 polymorphic,,,,Common-term
 pre-existing,,,,unclassified
 prenex,,,,unclassified
@@ -339,7 +316,6 @@ Rustan,,,,unclassified
 s:state,,,,unclassified
 scalarmult_51,,,,unclassified
 separation logic,,,,Common-term
-SHA-256,,,,unclassified
 SHA-3,,,,unclassified
 SHA1,,,,unclassified
 SHA3,,,,unclassified
@@ -367,9 +343,7 @@ Voight,,,,unclassified
 Vranken,,,,unclassified
 well-typed,,,,Common-term
 Why,,,,
-x2,,,,unclassified
 x:i.k,,,,unclassified
-x:U32.t,,,,unclassified
 Xiongnan,,,,unclassified
 Yutaka,,,,unclassified
 Zanella-Beguelin,,,,unclassified
@@ -377,44 +351,6 @@ ZanellaBeguelin,,,,unclassified
 Zhong,,,,unclassified
 Zilin,,,,unclassified
 0-cost,,,,unclassified
-103.5s,,,,unclassified
-105k,,,,unclassified
-115.1s,,,,unclassified
-12th,,,,unclassified
-13.6s,,,,unclassified
-13th,,,,unclassified
-18th,,,,unclassified
-19s,,,,unclassified
-"20,000-line",,,,unclassified
-20.3s,,,,unclassified
-2016a,,,,unclassified
-"2016a,b,c",,,,unclassified
-2016b,,,,unclassified
-2016c,,,,unclassified
-2018a,,,,unclassified
-"2018a,b",,,,unclassified
-2018b,,,,unclassified
-231s,,,,unclassified
-2475-1421/2023/8-ART202,,,,unclassified
-24th,,,,unclassified
-28th,,,,unclassified
-2x,,,,unclassified
-30k,,,,unclassified
-32-bit,,,,unclassified
-334s,,,,unclassified
-39.4s,,,,unclassified
-42nd,,,,unclassified
-43s,,,,unclassified
-47.6s,,,,unclassified
-55.7s,,,,unclassified
-59-th,,,,unclassified
-6.4s,,,,unclassified
-64ul,,,,unclassified
-6s,,,,unclassified
-72k,,,,unclassified
-74s,,,,unclassified
-8.3s,,,,unclassified
-9.2s,,,,unclassified
 a:Type,,,,unclassified
 accross,,,,unclassified
 aead_encrypt_cp128,,,,unclassified
@@ -429,10 +365,7 @@ allocations,,,,Common-term
 allocations1,,,,unclassified
 amortized,,amortized analyses,,Common-term
 Andronick,,,,unclassified
-ANR-22-PECY-0006,,,,unclassified
 Arti,,,,unclassified
-arXiv:1601.05520,,,,unclassified
-arXiv:2003.06458,,,,unclassified
 as-is,,,,unclassified
 as-needed,,,,unclassified
 assisant,,,,unclassified
@@ -486,18 +419,11 @@ cross-platform,,,,unclassified
 crypto-oriented,,,,unclassified
 CryptoFuzz,,,,unclassified
 curated,,,,unclassified
-Curve25519(Field51,,,,unclassified
 Curve25519(Field64(CoreLowstar,,,,unclassified
 Curve25519(Field64(CoreVale,,,,unclassified
-Curve25519-51,,,,unclassified
-Curve25519-64,,,,unclassified
 Curve51,,,,unclassified
 Curve64Lowstar,,,,unclassified
 Curve64Vale,,,,unclassified
-CVE-2012-2459,,,,unclassified
-CVE-2014-0160,,,,unclassified
-CVE-2017-5715,,,,unclassified
-CVE-2017-5753,,,,unclassified
 CVE-ridden,,,,unclassified
 d:dv{d.pid,,,,unclassified
 Dafny,,,,
@@ -505,14 +431,9 @@ data-oriented,,,,unclassified
 de-allocation,,,,unclassified
 Derrin,,,,unclassified
 dh_alg,,,,unclassified
-DH_CURVE25519,,,,unclassified
 Dhammika,,,,unclassified
 divergence,,,,Common-term
 Dmitry,,,,unclassified
-do_poly1305_128,,,,unclassified
-doi.org/10.1109/SP.2019.00005,,,,unclassified
-doi.org/10.1145/3236773,,,,unclassified
-doi.org/10.1561/2500000045,,,,unclassified
 draft-irtf-cfrg-hpke-02,,,,unclassified
 Drop-In,,,,unclassified
 DSL-centric,,,,unclassified
@@ -574,7 +495,6 @@ Hiil,,,,unclassified
 Hoare logic,,,,Common-term
 hpke_sealBase_t,,,,unclassified
 https://doi.org/10,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 Huseyin,,,,unclassified
 Hyper-V,,,,unclassified
 i:mindex,,,,unclassified
@@ -650,7 +570,6 @@ Morrisett,,,,unclassified
 Mozilla,,,,unclassified
 Multi-Monadic,,,,unclassified
 Mumbai,,,,unclassified
-n-1,,,,unclassified
 NaCl/x86,,,,unclassified
 Nadim,,,,unclassified
 Narasimhamurthy,,,,unclassified
@@ -671,11 +590,8 @@ OCaml's,,,,unclassified
 open-source,,,,unclassified
 optional,,,,
 optional_reveal,,,,unclassified
-OSDI'16,,,,unclassified
 out:seq,,,,unclassified
 owner/author(s,,,,unclassified
-P-256,,,,unclassified
-P256,,,,unclassified
 p_key,,,,unclassified
 PACMPL,,,,unclassified
 Palmskog,,,,unclassified
@@ -687,8 +603,6 @@ PKC,,,,unclassified
 PLDI,,,,unclassified
 Plotkin,,Name,,name
 plugin,,,,unclassified
-Poly1305-AES,,,,unclassified
-poly1305-x86.pl,,,,unclassified
 pow2,,,,unclassified
 pragma,,,,unclassified
 pre-)compute,,,,unclassified
@@ -738,8 +652,6 @@ sealBase,,,,unclassified
 self-certifying,,,,unclassified
 semi-automated,,,,unclassified
 Setty,,,,unclassified
-SHA2_256,,,,unclassified
-sha2_256(uint8_t,,,,unclassified
 shallowly-embedded,,,,unclassified
 SHS,,,,unclassified
 Shu-Chun,,,,unclassified
@@ -781,8 +693,6 @@ type-checker,,,,Common-term
 type-theory-based,,,,unclassified
 typechecker,,,,Common-term
 typedef,,,,unclassified
-U64.t,,,,unclassified
-U64.v,,,,unclassified
 U8.t{len,,,,unclassified
 uint8_t,,,,unclassified
 unit-elimination,,,,unclassified
@@ -793,8 +703,6 @@ user-defined,,,,unclassified
 user-extensible,,,,unclassified
 user-written,,,,unclassified
 userprovided,,,,unclassified
-V256,,,,unclassified
-V32,,,,unclassified
 Vale-Crypto,,,,unclassified
 Vale.Field64.fadd,,,,unclassified
 Vazquez,,,,unclassified
@@ -809,11 +717,6 @@ widely-used,,,,unclassified
 Wilcox-O'Hearn,,,,unclassified
 Winnerlein,,,,unclassified
 Winwood,,,,unclassified
-X25519,,,,unclassified
-x3,,,,unclassified
-x4,,,,unclassified
-X448,,,,unclassified
-x86,,,,unclassified
 x:nat,,,,unclassified
 Z3 SMT solver,,,,
 zero-copy,,,,unclassified

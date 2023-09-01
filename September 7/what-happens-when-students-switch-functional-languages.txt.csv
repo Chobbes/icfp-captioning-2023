@@ -47,7 +47,6 @@ K ,,“K axiom”,,
 Lispy,,,,unclassified
 multi-armed,,,,unclassified
 object-oriented,,,,unclassified
-P1.9,,,,unclassified
 Politz,,,,unclassified
 Resnick,,,,unclassified
 Wilensky,,,,unclassified
@@ -69,12 +68,6 @@ Krishnamurthi,,,,
 Masnick,,,,unclassified
 MATLAB,,,,unclassified
 OCaml,,,,Common-term programming-language
-P1.10,,,,unclassified
-P1.3,,,,unclassified
-P1.6,,,,unclassified
-P1.7,,,,unclassified
-P2.5,,,,unclassified
-P2.6,,,,unclassified
 Pyret-only,,,,unclassified
 recursion,,,,Common-term
 reflect,,,,
@@ -85,22 +78,7 @@ StackOverflow,,,,
 Tshukudu's,,,,unclassified
 Whalley,,,,unclassified
 word_double,,,,unclassified
-1016/j.cedpsych.2019.03.004,,,,unclassified
-17th,,,,unclassified
-1980s,,,,unclassified
-1990s,,,,unclassified
-2020a,,,,unclassified
-"2020a,b",,,,unclassified
-2020b,,,,unclassified
-2021a,,,,unclassified
-"2021a,b",,,,unclassified
-2021b,,,,unclassified
-21st,,,,unclassified
-2475-1421/2023/8-ART215,,,,unclassified
 3-month,,,,unclassified
-42nd,,,,unclassified
-47th,,,,unclassified
-53rd,,,,unclassified
 A/B,,,,unclassified
 Ablex,,,,unclassified
 ACM/IEEE,,,,unclassified
@@ -171,8 +149,6 @@ Hewson,,,,unclassified
 Hirshfield,,,,unclassified
 http://pyret.org,,,,unclassified
 https://dcic-world.org,,,,unclassified
-https://doi.org/10.1002,,,,unclassified
-https://doi.org/10.1145,,,,unclassified
 https://htdp.org,,,,unclassified
 https://theses.gla.ac.uk/82984,,,,unclassified
 ICSE,,,,unclassified
@@ -219,24 +195,6 @@ Oppezzo,,,,unclassified
 out-dented,,,,unclassified
 overviewed,,,,unclassified
 owner/author(s,,,,unclassified
-P1.1,,,,unclassified
-P1.10P2.8,,,,unclassified
-P1.2,,,,unclassified
-P1.4,,,,unclassified
-P1.5,,,,unclassified
-P1.8,,,,unclassified
-P1.n,,,,unclassified
-P2.1,,,,unclassified
-P2.10,,,,unclassified
-P2.11,,,,unclassified
-P2.12,,,,unclassified
-P2.2,,,,unclassified
-P2.3,,,,unclassified
-P2.4,,,,unclassified
-P2.7,,,,unclassified
-P2.8,,,,unclassified
-P2.9,,,,unclassified
-P2.n,,,,unclassified
 Parnin,,,,unclassified
 pattern-match,,,,unclassified
 post-secondary,,,,unclassified
@@ -256,7 +214,6 @@ RacketPyret,,,,unclassified
 recursive,,,,Common-term
 returns--cannot,,,,unclassified
 Rust,,,,Common-term programming-language
-sce.3730660207,,,,unclassified
 seemingly1,,,,unclassified
 shown--does,,,,unclassified
 shriram@brown.edu,,,,email
