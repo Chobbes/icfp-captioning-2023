@@ -6,6 +6,7 @@ Term,Pronunciation,Context / Example Usage,Notes,Tags
 3CPS,,Special variant of CPS,,
 A Reasonably Gradual Type Theory,,,,Title
 A completely unique account of enumeration,,,,Title
+ACM,,Association for Computing Machinery,,
 AD (automatic differentiation) ,,,,
 AM (abstract machine) ,,,,
 ANF,,,,
@@ -84,6 +85,9 @@ Böhm,,,,
 C++,,,,
 C++ STL library,,,,
 CACM ,,,,
+CBN,,call-by-name,,Common-term evaluation
+CBPV,,Call-by-Push-Value,,Common-term evaluation
+CBV,,Call-by-Value,,Common-term evaluation
 CCC (Cartesian closed category) ,,,,Common-term
 CFA,,,,
 CFG (control-flow graph) ,,,,
@@ -95,17 +99,11 @@ CPS,C.P.S.,abbreviation for continuation-passing style ,,
 CPS-based,,,,
 CPU,,,,
 CaReSL,,,,
-calculi,,,,
 Calculus of Constructions (CoC),,,,
 Calculus of Inductive Constructions,,,,
-Call-by-Name (CBN) ,,,,Common-term evaluation
-Call-by-Push-Value (CBPV) ,,,,Common-term evaluation
-Call-by-Value (CBV) ,,,,Common-term evaluation
-Call-by-Value (CbV),,,,Common-term
-Call-by-name (CbN),,,,
-Call-by-name (CbN),,,,
-Call-by-push-value (CbPV),,,,
-Call-by-value (CbV),,,,
+Call-by-Name,,(CBN),,Common-term evaluation
+Call-by-Push-Value,,(CBPV),,Common-term evaluation
+Call-by-Value,,(CBV),,Common-term evaluation
 Cameron Wong,,,,Author
 Cap,,,,
 Capretta,,,,
@@ -117,8 +115,6 @@ Carnegie Mellon University,,Often CMU,,Institution
 Carvalho,,,,
 Cas van der Rest,,,,Author
 CastCIC,kast-see-ay-see,cast calculus associated to GCIC,,
-CbN (Call by name),,,,
-CbV (call-by-value) ,,,,Common-term
 CbV Taylor expansion,,Call by value taylor expansion,,
 Central Software Institute,,Institution,,Institution
 CertiKOS,,“Certified Kit Operating System”,,
@@ -143,6 +139,7 @@ Continuation-passing style (CPS),,,,Common-term
 Control-flow analysis,,,,
 Control-flow graphs (CFGs),,,,
 Coq,“Coq”,,,Common-term programming-language theorem-prover
+Coq's,“Coq”,,,Common-term programming-language theorem-prover
 Cornell University,,Institution,,Institution
 Creusot,,,,
 Csongor Kiss,,,,Author
@@ -331,6 +328,8 @@ Hudak,,,,Name
 I/O,“eye-oh”,,,
 I/O,,,,
 I/O-tree,Eye-oh-tree,,,
+ICFP,,Conference,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 IHL (Internet Header Length),,,,networking
 IIT,,,,
 IK,,A logic,,
@@ -500,6 +499,7 @@ Maranget,,,,
 Marek Materzok,,,,Author
 Markov processes,,,,Common-term
 Marlow,,,,
+Martin-Lof,,,Martin-Lôf,
 Martin-Lôf,,,,
 Massachusetts Institute of Technology,,,,Institution
 Massachusetts Institute of Technology,,,,Institution
@@ -515,6 +515,8 @@ Mealy machines,,,,
 Meas ,,category of “measurable spaces and measurable functions”,,
 Melliès ,,,,
 Meng Wang,,,,Author
+Meta-F,,,,tool
+Meta-F*,,,,tool
 Meta-level,,,,Common-term
 MetaML,,,,
 MetaOCaml,,,,
@@ -570,11 +572,13 @@ Nordström,,,,
 Norman Danner,,,,Author
 Norman Ramsey,,,,Author
 Northeastern University,,,,Institution
+Nuprl,new pearl,,,Common-term proof-assistant tool
 Nystrom,,,,
 O'Hearn,,,,Name
 O(N),Big-oh-of-n,,,Common-term
 OCaml,,,,Common-term programming-language
 OCaml Multicore CI,,,,
+OOPSLA,oops-la,,,Conference
 OS,operating system,,,
 Objective-C,,,,
 Okisaki style,,,,
@@ -584,6 +588,7 @@ Olivier Nicole,,,,Author
 Omega-cppo-enriched,,,,
 On Feller Continuity and Full Abstraction,,,,Title
 OpenJDK,,,,
+OpenSSL,,,,tool
 Oskar Eriksson,,,,Author
 OutsideIn,,,,
 P.B. Levy,,,,
@@ -593,8 +598,10 @@ PDataD,,,,
 PEC (path equivalence class) ,,,,
 PISA switches,,,,
 PL,,,,
+PLDI,,Conference,,Common-term
 PLEIAD Lab,,,,Lab
 PLUTUS,,,,
+POPL,pop-ill,Conference,,Common-term
 PPLs (probabilistic programming languages) ,,,,
 Pablo Barenbaum,,,,researcher
 Pablo Nogueira,,,,researcher
@@ -645,6 +652,7 @@ QuickCheck,,,,testing tool
 QuickChick,,,,testing tool
 QuickLook,,,,
 RHOL (Relational Higher-Order Logic) ,,,,
+RISC-V,Risc Five,,,Computer-architecture
 RISC-V core,Risc Five Core,,,
 RKNL,"R.K.N.L., or arcane L.",RKNL abstract machine,,
 RKNV,"R.K.N.V., or arcane V.",RKNV abstract machine,,
@@ -685,6 +693,7 @@ RustBelt,,,,
 RustHorn,,,,
 Ryan G. Scott,,,,Author
 Ryosuke Sato,,,,Author
+Ryzen,,,,Hardware
 SAT,,Type of problem,,term
 SAT,,,,
 SAX (semi-axiomatic sequent calculus) ,,,,
@@ -693,6 +702,7 @@ SCAM,scam,SCAM (abstract machine),,
 SCILLA,,,,
 SE (symbolic execution) ,,,,
 SGD (stochastic gradient descent) ,,,,
+SIGPLAN,,special interest group on programming languages,,
 SILL ,,,,
 SILL family ,,,,
 SIR model,,,,
@@ -749,6 +759,7 @@ Son Ho,,,,Author
 Space KAM,,,,
 StackOverflow,,,,
 Staged Compilation with Two-Level Type Theory,,,,Title
+Starknet,,,,Networking
 StateT,,,,Common-term
 Steele,,,,Name
 Stephanie Balzer,,,,Author
@@ -783,6 +794,7 @@ Thaïs Baudon,,,,Author
 The Theory of Call-by-Value Solvability,,Title,,Title
 Thibaut Balabonski,,,,researcher
 Thomas Bourgeat,,,,Author
+Threadripper,,,,Hardware
 Tim Sweeney,,,,Author
 Tim Süberkrüb,,,,Author
 Tlön embedding,,,,
@@ -807,6 +819,7 @@ Type-preservation,,,,
 Tzu-Chi Lin,,,,Author
 Ugo Dal Lago,,,,Author
 Umut A. Acar,,,,Author
+UndecidableInstances,,Language pragma / extension for Haskell,,Haskell
 Universiteit Utrecht,,,,Institution
 University of Bologna,,,,Institution
 University of Bonn,,,,Institution
@@ -914,6 +927,7 @@ axioms,,,,
 backtrack,,,,Common-term
 backtracking,,,,Common-term
 beta redex,,,,Common-term evaluation
+beta-equivalent,,,,Common-term
 beta-normalizable,,,,Common-term
 beta-reduction,,,,Common-term evaluation
 beta-steps,,,,Common-term evaluation
@@ -928,6 +942,7 @@ bisimulation,,,,Common-term equivalence
 boilerplate,,,,
 borrows,,,,
 bypass,,,,
+calculi,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
 calculus,,,,Common-term
 call by name,,,call-by-name as adjective,
@@ -939,6 +954,7 @@ call-by-push-value,,,,Common-term
 call-by-value (cbv),,,,Common-term evaluation
 call/cc,,Call with current continuation,,Common-term
 callback,,,,
+callee,,,,Common-term
 canonicity,,,,
 capability,,,,
 case expression,,,,
@@ -951,15 +967,18 @@ closure conversion,,,,Common-term
 closures,,,,Common-term
 co-contextual,,,,
 code continuation,,,,
+codebase,,,,Common-term
 coherence,,,,
 coinductive,,,,Common-term
 collapsible,,,,
 collecting semantics,,,,
 combinator,,,,Common-term
 comonad,Koe-mow-nad,,,
+compile-time,,,,Common-term
 compiled,,,,
 compiler,,,,Common-term
 composable,,,,
+concat,,concatenation common function,,Function
 conclusion,,,,
 concurrency,,,,Common-term
 concurrent,,,,Common-term
@@ -1023,6 +1042,9 @@ discrete,,,,
 disentanglement,,,,
 distribution,,,,
 divergence,,,,Common-term
+domain theory,,,,Common-term
+domain-theoretic,,,,Common-term
+domain-theory,,,,Common-term
 dominator tree,,,,
 drop-guided reuse algorithm,,,,
 dropWhile,,,,
@@ -1051,6 +1073,7 @@ erasure,,type erasure,,Common-term
 error-approximation,,,,
 eutt,equivalence-up-to-taus,E.U.T.T.,,
 evaluator,,,,
+existentials,,quantification,,Common-term logic
 explicit positivity annotations,,,,
 exponential,,,,
 expression,,,,Common-term
@@ -1065,11 +1088,14 @@ feature-arity,,,,
 fibration,,,,Common-term
 filter,,,,
 fixpoint,,,,Common-term
+fmap,,functor map common function,,Function
 fn,,,,
 fold,,,,Common-term
 fold fusion,,,,
 foldLeft,,,,
+forall,,quantifier,,Common-term logic
 force,,,,Common-term evaluation
+foreach,,quantifier,,Common-term
 fork/join,,“fork/join parallelism”,,
 formalization,,,,Common-term
 free monad,free mow-nad,,,
@@ -1106,6 +1132,7 @@ higher-order,,,,Common-term
 higher-order function,,,,
 homomorphism,,,,Common-term
 homotopy theory,,,,Common-term
+host-language,,,,Common-term compilers
 iCAP,,,,
 idempotence,,,,
 idempotent,,,,Common-term
@@ -1156,6 +1183,7 @@ linear types,,,,Common-term
 linear-time,,,,Common-term
 linearization,,,,
 locally graded category ,,,,
+lock-step,,,,Common-term
 logical relation,,,,Common-term
 macro,,,,
 macro system,,,,Common-term
@@ -1172,10 +1200,13 @@ memory management,,,,Common-term
 memothunk,,,,
 meta-language,,,,
 meta-programming,,,,
+meta-theory,,,"also ""metatheory""",Common-term
 metalanguage,,,,
 metaprogram,,,,
 metaprogramming,,,,Common-term
 metaprograms,,,,
+metatheoretic,,,,Common-term
+metatheoretical,,,,Common-term
 metatheory,,,,Common-term
 modal,,,,
 modalities,,,,Common-term
@@ -1188,6 +1219,7 @@ modular,,,,Common-term
 modular,,,,
 modularity,,,,Common-term
 modularity,,,,
+modus ponens,/ˈmoʊdəs ˈpoʊnɛnz/,,,Common-term
 monad,Mow-nad,,,Common-term
 monad transformer,,,,Common-term
 monadic,Mow-nad-ick,,,
@@ -1213,6 +1245,8 @@ mutation,,,,
 n-ary,,,,
 n-normal-form,,,,
 n-th ,,,,
+namespace,,,,Common-term
+namespaces,,,,Common-term
 necessity modality,,,,
 networking,,,,term
 nil,,,,
@@ -1221,12 +1255,13 @@ non-equijoin,,,,
 nondeterminism,,,,
 nondeterministic,,,,
 noninterference,,,,Common-term
+normaliser,,computations,,theory
 normalization,,computations,,theory
 normalization by evaluation,,,,
 normalize,,computations,,theory
-normalizer,,computations,,theory
-normaliser,,computations,,theory
 normalized,,,,Common-term
+normalizer,,computations,,theory
+object-oriented,,,,Common-term paradigm
 observational,,,,
 observational equivalence,,,,
 operational semantics,,,,
@@ -1246,6 +1281,9 @@ polymorphism,,,,Common-term
 pomonoid,,,,
 potential function,,,,
 ppx_derive,,,,
+pre-compute,,,,Common-term
+pre-computed,,,,Common-term
+pre-computing,,,,Common-term
 precision,,Gradual typing,,theory
 predicative,,,,Common-term
 premiss,,,,
@@ -1281,7 +1319,9 @@ recurrence,,,,
 recursion,,,,Common-term
 recursion schemes,,,,
 recursive,,,,Common-term
+recursor,,,,Common-term
 redex,,,,
+redexes,,,,Common-term
 reducibility,,,,
 reduction,,,,Common-term
 reduction,,,,Common-term
@@ -1305,6 +1345,7 @@ reifies,,,,
 reify,,,,Common-term
 relational,,,,
 reorderability,,,,
+repo,,repository,,Common-term
 restriction context,,,,
 resumption monad,,,,
 reuse analysis,,,,
@@ -1330,6 +1371,8 @@ session types,,,,
 setoid,,,,Common-term
 shape invariant,,,,
 shared-memory,,,,
+simply-typed,,,,Common-term
+simply-typed lambda calculus,,,,Common-term
 small-step,,,,Common-term
 smart contract language,,,,
 smartNICs,,,,
@@ -1337,6 +1380,8 @@ stack,,,,
 staging,,,,
 staging-by-evaluation,,,,
 step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
+step-wise,,,,Common-term
+step-wise reduction,,,,Common-term
 stochastic,Stow-kas-tick,,,Common-term statistics
 strong reduction,,,,
 stuck term,,,,
@@ -1357,6 +1402,7 @@ tactic,,,,
 tail call,,,,
 tail-recursive,,,,
 takeWhile,,,,
+target-language,,,,Common-term compilers
 telescope,,,,
 theorem,,,,Common-term
 thread-safety,,,,
@@ -1372,9 +1418,15 @@ try-finally,,,,
 type checker,,,,Common-term
 type substitution,,,,
 type-and-effect system,,,,
+type-check,,,,Common-term
+type-checked,,,,Common-term
 type-checker,,,,Common-term
+type-level,,,,Common-term
+type-theoretic,,,,Common-term
+type-theory,,,,Common-term
 typeability,,,,Common-term
 typechecker,,,,Common-term
+typechecking,,,,Common-term
 typeclass,,,,Common-term
 typeclasses,,,,
 ulam,,,,
@@ -1396,6 +1448,8 @@ vect,,program data structure,,
 wasm,,,,
 weak reduction,,,,
 weakening,,,,Common-term
+well-formed,,,,Common-term
+well-formedness,,,,Common-term
 well-typed,,,,Common-term
 zip,,,,
 Álvaro García-Pérez,,,,researcher
@@ -1420,4 +1474,3 @@ zip,,,,
 𝚷4,Probably “pi 4”,Dependently typed version of P4 developed by authors,,Programming-language
 𝛽-equivalence (beta-equivalence) ,,,,Common-term equivalence
 𝜂-equivalence (eta-equivalence) ,,,,Common-term equivalence
-ICFP,,,,Common-term
