@@ -19,9 +19,10 @@ Cornell University,,Institution,,Institution
 Massachusetts Institute of Technology,,,,Institution
 expression,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
+ACM,,Association for Computing Machinery,,
 unification,,,,
 semantics,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 context,,,,Common-term
 lambda calculus,lam-duh calculus,,,theory
 Steele,,,,Name
@@ -40,6 +41,7 @@ redex,,,,
 backtracking,,,,Common-term
 Haskell,,,,Common-term programming-language
 recursion,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 syntactic,,,,Common-term
 recursive,,,,Common-term
 small-step,,,,Common-term
@@ -49,20 +51,25 @@ Why,,,,
 denotational semantics,,,,semantics
 laziness,,,,
 array,,,,Common-term
+Call-by-Value,,(CBV),,Common-term evaluation
 concurrent,,,,Common-term
 constructor,,,,Common-term
 desugar,,,,Common-term
 Felleisen,,,,
 integer,,,,Common-term
 K ,,“K axiom”,,
+POPL,pop-ill,Conference,,Common-term
+redexes,,,,Common-term
 reifies,,,,
 reify,,,,Common-term
 stack,,,,
 theorem,,,,Common-term
 abstraction,,,,Common-term
 defunctionalization,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 match,,,,
 Non-determinism,,,,Common-term
+object-oriented,,,,Common-term paradigm
 QuickCheck,,,,testing tool
 reduction relation,,,,
 relational,,,,
@@ -75,6 +82,7 @@ cons,kon-ss,,,
 conservative,,,,theory
 contextual,,,,Common-term
 equational,,,,Common-term
+existentials,,quantification,,Common-term logic
 expressive,,,,Common-term
 expressiveness,,,,Common-term
 fixpoint,,,,Common-term
@@ -92,6 +100,7 @@ tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 ANF,,,,
 CACM ,,,,
 calculi,,,,
+Call-by-Name,,(CBN),,Common-term evaluation
 case expression,,,,
 Church-Rosser,,,,
 clause,,,,
@@ -117,8 +126,11 @@ matching,,“pattern matching”,,Common-term
 metatheory,,,,Common-term
 monad,Mow-nad,,,Common-term
 monotone,,,,Common-term
+namespaces,,,,Common-term
 nondeterministic,,,,
 olin.shivers@epicgames.com,,,,email
+OOPSLA,oops-la,,,Conference
+PLDI,,Conference,,Common-term
 probabilistic,,,,Common-term
 ranjit.jhala@epicgames.com,,,,email
 reification,,,,Common-term
@@ -149,7 +161,6 @@ call-by-need,,,,unclassified
 Lopez-Fraguas,,,,unclassified
 seq-swap,,,,unclassified
 one{e,,,,unclassified
-SIGPLAN,,,,unclassified
 Brael,,,,unclassified
 exi-swap,,,,unclassified
 fail-elim,,,,unclassified
@@ -171,7 +182,6 @@ all{i,,,,unclassified
 app-tup,,,,unclassified
 Barendregt,,,,unclassified
 big-step,,,,unclassified
-call-by-value,,,,unclassified
 e{v/x,,,,unclassified
 first-order,,,,unclassified
 for(x,,,,unclassified
@@ -180,8 +190,6 @@ head-normal,,,,unclassified
 letrec,,,,unclassified
 LNCS,,,,unclassified
 one-choice,,,,unclassified
-POPL,,,,unclassified
-redexes,,,,unclassified
 Schmidt-Schau,,,,unclassified
 u-lit,,,,unclassified
 u-var,,,,unclassified
@@ -204,7 +212,6 @@ Huet,,,,unclassified
 Mellish,,,,unclassified
 multi-value,,,,unclassified
 multi-valued,,,,unclassified
-Object-Oriented,,,,unclassified
 pull-tabbing,,,,unclassified
 right-associative,,,,unclassified
 Sabry,,,,unclassified
@@ -241,7 +248,6 @@ Datafun,,,,unclassified
 de'Liguoro,,,,unclassified
 ECOOP,,,,unclassified
 exi-elim,,,,unclassified
-existentials,,,,unclassified
 fcn(t,,,,unclassified
 flatMap,,,,unclassified
 for(e1,,,,unclassified
@@ -315,7 +321,6 @@ bagof,,,,unclassified
 Barenbaum,,,,unclassified
 before4,,,,unclassified
 C.R,,,,unclassified
-call-by-name,,,,unclassified
 callby-need,,,,unclassified
 case-expression,,,,unclassified
 case-of-known-constructor,,,,unclassified
@@ -427,7 +432,6 @@ Maraist,,,,unclassified
 Martin-Martin,,,,unclassified
 Ming-Ho,,,,unclassified
 multi-equation,,,,unclassified
-namespaces,,,,unclassified
 need2,,,,unclassified
 Neelakantan,,,,unclassified
 nested-loop,,,,unclassified
@@ -449,7 +453,6 @@ Ondej,,,,unclassified
 one/all,,,,unclassified
 one{fail,,,,unclassified
 one{SC,,,,unclassified
-OOPSLA,,,,unclassified
 op(v,,,,unclassified
 Optimales,,,,unclassified
 over-concrete,,,,unclassified
@@ -460,7 +463,6 @@ patx,,,,unclassified
 peculiar7,,,,unclassified
 Peemoller,,,,unclassified
 Peer-to-Peer,,,,unclassified
-PLDI,,,,unclassified
 Prentice-Hall,,,,unclassified
 Primops,,,,unclassified
 Prolog's,,,,unclassified

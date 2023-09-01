@@ -11,10 +11,11 @@ GitHub,,,,Institution
 Aarhus University,,,,Institution
 Ecole Polytechnique,,Institution,,Institution
 University of Edinburgh,,,,Institution
+ACM,,Association for Computing Machinery,,
 expression,,,,Common-term
 stack,,,,
 Boolean,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 unification,,,,
 polymorphism,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
@@ -46,6 +47,7 @@ Pretnar,,,,
 Scheme,,,,Common-term programming-language
 algebra,,,,
 API,A.P.I.,Application Programming Interface,,Common-term
+Call-by-Value,,(CBV),,Common-term evaluation
 effectful,,,,
 expressive,,,,Common-term
 higher-order function,,,,
@@ -58,6 +60,8 @@ Go,,,,
 IO,Eye-oh,,,
 lambda calculus,lam-duh calculus,,,theory
 memory management,,,,Common-term
+OOPSLA,oops-la,,,Conference
+SIGPLAN,,special interest group on programming languages,,
 syntactic,,,,Common-term
 abstraction,,,,Common-term
 abstractions,,,,
@@ -79,6 +83,7 @@ algebras,,,,
 Appel,,,,
 Async,,,,
 category,,,,
+compile-time,,,,Common-term
 conclusion,,,,
 concurrency,,,,Common-term
 congruence,,,,Common-term
@@ -107,6 +112,7 @@ syntax-directed,,,,
 tail call,,,,
 type substitution,,,,
 type-and-effect system,,,,
+type-level,,,,Common-term
 Why,,,,
 ef1,,,,unclassified
 ef2,,,,unclassified
@@ -125,7 +131,6 @@ if-then-else,,,,unclassified
 "Print(""Clicked",,,,unclassified
 addActionListener,,,,unclassified
 addSubscriber,,,,unclassified
-call-by-value,,,,unclassified
 CSafeIOException,,,,unclassified
 ftv,,,,unclassified
 func,,,,unclassified
@@ -153,13 +158,11 @@ non-standard,,,,unclassified
 nothrow,,,,unclassified
 ocaml/dune,,,,unclassified
 onMouseClick,,,,unclassified
-OOPSLA,,,,unclassified
 run_with_error_handler,,,,unclassified
 safeLogger,,,,unclassified
 sayHello,,,,unclassified
 ScopeGuard,,,,unclassified
 side-effects,,,,unclassified
-SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 StdOut,,,,unclassified
 T-App,,,,unclassified
@@ -232,7 +235,6 @@ Boruch-Gruszecki,,,,unclassified
 c.f,,,,unclassified
 CFileDataIO,,,,unclassified
 ChainSafe/lodestar,,,,unclassified
-compile-time,,,,unclassified
 Comput,,,,unclassified
 ConnManager,,,,unclassified
 ConnReq,,,,unclassified
@@ -370,7 +372,6 @@ Thielecke,,,,unclassified
 Throw(v,,,,unclassified
 TransactionOption,,,,unclassified
 Type-Driven,,,,unclassified
-type-level,,,,unclassified
 type-scheme,,,,unclassified
 TypeVar,,,,unclassified
 Uber,,,,unclassified

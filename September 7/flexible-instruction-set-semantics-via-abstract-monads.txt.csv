@@ -16,11 +16,13 @@ Stephanie Weirich,,,,Author
 Yannick Zakowski,,,,Author
 Yao Li,,,,Author
 semantics,,,,
+RISC-V,Risc Five,,,Computer-architecture
 Haskell,,,,Common-term programming-language
 instruction,,,,
+ACM,,Association for Computing Machinery,,
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 monad,Mow-nad,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 compiler,,,,Common-term
 register,,,,
 Sail,,,,
@@ -36,9 +38,12 @@ Wadler,,,,Name
 Armstrong,,,,
 functional programming,,,,
 GHC,,,,compiler tool
+POPL,pop-ill,Conference,,Common-term
 quantified,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 axioms,,,,
 DSL,,,,
+forall,,quantifier,,Common-term logic
 formalization,,,,Common-term
 HOL4,hol as in “hollow”,This is theorem proving software,,tool
 abstraction,,,,Common-term
@@ -82,6 +87,7 @@ modularity,,,,Common-term
 monolithic,,,,
 Multicore,,,,
 normalize,,computations,,theory
+PLDI,,Conference,,Common-term
 polymorphism,,,,Common-term
 protocol,,,,
 recursion,,,,Common-term
@@ -91,7 +97,6 @@ Semantic,,,,Common-term
 SMT solver,,Type of tool for solving SMT problems,,Tool
 stack,,,,
 syntactic,,,,Common-term
-RISC-V,,,,unclassified
 RiscvMachine,,,,unclassified
 Instruction-Set,,,,unclassified
 domain-specific,,,,unclassified
@@ -126,16 +131,13 @@ machine-code,,,,unclassified
 MachineWidth,,,,unclassified
 memory-mapped,,,,unclassified
 newPC,,,,unclassified
-POPL,,,,unclassified
 raiseException,,,,unclassified
 setRegister,,,,unclassified
-SIGPLAN,,,,unclassified
 ad-hoc,,,,unclassified
 appendLog,,,,unclassified
 Asanovic,,,,unclassified
 bitwidths,,,,unclassified
 DSLs,,,,unclassified
-forall,,,,unclassified
 Gruetter,,,,unclassified
 Islaris,,,,unclassified
 isMMIOAddr,,,,unclassified
@@ -365,7 +367,6 @@ parser/translator,,,,unclassified
 partial-execution,,,,unclassified
 performance-aware,,,,unclassified
 Pichon-Pharabod,,,,unclassified
-PLDI,,,,unclassified
 processorcorrectness,,,,unclassified
 proof-specific,,,,unclassified
 Ramakrishnan,,,,unclassified

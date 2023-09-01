@@ -11,9 +11,10 @@ Stephanie Weirich,,,,Author
 Tom Schrijvers,,,,Author
 CNRS,,Centre national de la recherche scientifique ,,Institution
 INRIA,,,,Institution
+ACM,,Association for Computing Machinery,,
 pattern matching,,,,
 pointer,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 LLVM,L.L.V.M.,,,
 integer,,,,Common-term
 OCaml,,,,Common-term programming-language
@@ -45,6 +46,7 @@ formalization,,,,Common-term
 induction,,,,Common-term
 monomorphic,,,,
 Peyton Jones,,,,Name
+SIGPLAN,,special interest group on programming languages,,
 stack,,,,
 algebra,,,,
 cast,,Gradual typing,,theory
@@ -59,6 +61,7 @@ compiled,,,,
 concurrency,,,,Common-term
 fn,,,,
 generic,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 let-bound,,,,Common-term
 Peterson,,,,
 Ramsey ,,,,
@@ -95,6 +98,7 @@ memory management,,,,Common-term
 meta-programming,,,,
 modular,,,,Common-term
 polymorphism,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 Pottier,,,,
 reduction,,,,Common-term
 runtime,,,,Common-term
@@ -154,7 +158,6 @@ lower-level,,,,unclassified
 pattern-matching,,,,unclassified
 scaffold.0,,,,unclassified
 Sestoft,,,,unclassified
-SIGPLAN,,,,unclassified
 Tchild,,,,unclassified
 Tparent,,,,unclassified
 UCBL,,,,unclassified
@@ -427,7 +430,6 @@ Piessens,,,,unclassified
 PLILP'90,,,,unclassified
 pointer's,,,,unclassified
 pointer-tagging,,,,unclassified
-POPL,,,,unclassified
 Post-Treatment,,,,unclassified
 Potentially-null,,,,unclassified
 Processings,,,,unclassified

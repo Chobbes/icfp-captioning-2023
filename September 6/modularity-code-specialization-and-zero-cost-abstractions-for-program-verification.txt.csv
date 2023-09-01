@@ -15,7 +15,8 @@ INRIA,,,,Institution
 GitHub,,,,Institution
 Microsoft Research,,Often “MSR”,,Institution
 API,A.P.I.,Application Programming Interface,,Common-term
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 generic,,,,
 modularity,,,,Common-term
 abstractions,,,,
@@ -43,14 +44,21 @@ Lean,,,,
 Protzenko,,,,
 Appel,,,,
 elaborator reflection,,,,
+Meta-F,,,,tool
+OpenSSL,,,,tool
+SIGPLAN,,special interest group on programming languages,,
 array,,,,Common-term
 AST ,A.S.T.,Abstract Syntax Tree,,
+callee,,,,Common-term
+codebase,,,,Common-term
 Cogent,Koe-jent?,,,
 combinator,,,,Common-term
 dependent,,,,Common-term
 heap,,,,
 Idris,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 polymorphism,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 stack,,,,
 context,,,,Common-term
 enumeration,,,,Common-term
@@ -58,9 +66,11 @@ fold,,,,Common-term
 functional programming,,,,
 Go,,,,
 toolchain,,,,
+type-level,,,,Common-term
 Ahman,,,,
 CertiKOS,,“Certified Kit Operating System”,,
 closures,,,,Common-term
+compile-time,,,,Common-term
 de Moura,,,,
 decidable,,,,
 erasure,,type erasure,,Common-term
@@ -76,6 +86,7 @@ boilerplate,,,,
 Brady,,,,
 compiled,,,,
 concurrent,,,,Common-term
+Coq's,“Coq”,,,Common-term programming-language theorem-prover
 dependently-typed,,,,types
 Dijkstra,,,,
 embeddings,,,,
@@ -104,12 +115,14 @@ allocations,,,,Common-term
 amortized,,amortized analyses,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 composable,,,,
+concat,,concatenation common function,,Function
 conclusion,,,,
 concurrency,,,,Common-term
 Dafny,,,,
 divergence,,,,Common-term
 Elimination,,,,
 expressiveness,,,,Common-term
+forall,,quantifier,,Common-term logic
 Hoare logic,,,,Common-term
 Idris 2,,,,
 immutable,,,,Common-term
@@ -126,6 +139,7 @@ metaprograms,,,,
 monomorphic,,,,
 Non-determinism,,,,Common-term
 optional,,,,
+PLDI,,Conference,,Common-term
 Plotkin,,Name,,name
 quantitative,,,,
 Redmond,,,,
@@ -185,23 +199,17 @@ update_multi_s,,,,unclassified
 callees,,,,unclassified
 eq_type,,,,unclassified
 inlined,,,,unclassified
-Meta-F,,,,unclassified
-OpenSSL,,,,unclassified
 real-world,,,,unclassified
 security-critical,,,,unclassified
-SIGPLAN,,,,unclassified
 whole-program,,,,unclassified
 AEAD,,,,unclassified
 block_index,,,,unclassified
-callee,,,,unclassified
-codebase,,,,unclassified
 Delignat-Lavaud,,,,unclassified
 Erbsen,,,,unclassified
 Fournet,,,,unclassified
 Hawblitzel,,,,unclassified
 mk_map,,,,unclassified
 mk_send,,,,unclassified
-POPL,,,,unclassified
 U8.t{length,,,,unclassified
 update_last,,,,unclassified
 USENIX,,,,unclassified
@@ -223,7 +231,6 @@ Parno,,,,unclassified
 SHA2,,,,unclassified
 split_at_last,,,,unclassified
 String.eq,,,,unclassified
-type-level,,,,unclassified
 uint32_t,,,,unclassified
 update_block,,,,unclassified
 vectorized,,,,unclassified
@@ -240,7 +247,6 @@ bi.state.v,,,,unclassified
 CAbstractStruct,,,,unclassified
 call-site,,,,unclassified
 chacha20_encrypt,,,,unclassified
-compile-time,,,,unclassified
 composability,,,,unclassified
 encode_point,,,,unclassified
 encode_point_64_lowstar,,,,unclassified
@@ -301,7 +307,6 @@ chacha20_encrypt_st,,,,unclassified
 Chlipala,,,,unclassified
 Choi,,,,unclassified
 code-rewriting,,,,unclassified
-Coq's,,,,unclassified
 cryptonite,,,,unclassified
 Ctlin,,,,unclassified
 Danel,,,,unclassified
@@ -446,7 +451,6 @@ co-authors,,,,unclassified
 codebases,,,,unclassified
 Commun,,,,unclassified
 computationally-irrelevant,,,,unclassified
-concat,,,,unclassified
 constant-time,,,,unclassified
 CoqPL,,,,unclassified
 correct-by-construction,,,,unclassified
@@ -495,7 +499,6 @@ find's,,,,unclassified
 Fine-Tuned,,,,unclassified
 finegrained,,,,unclassified
 fold-like,,,,unclassified
-forall,,,,unclassified
 frontend,,,,unclassified
 fsanitize=memory,,,,unclassified
 "functor"")-based",,,,unclassified
@@ -615,7 +618,6 @@ performance-critical,,,,unclassified
 Permutation-based,,,,unclassified
 Petcher,,,,unclassified
 PKC,,,,unclassified
-PLDI,,,,unclassified
 plugin,,,,unclassified
 pow2,,,,unclassified
 pragma,,,,unclassified

@@ -10,20 +10,23 @@ Klaus Ostermann,,,,Author
 Marek Materzok,,,,Author
 Philipp Schuster,,,,Author
 Sam Lindley,,,,Author
+Witold Charatonik,Vitold /ˈvʲitɔlt/ Haratonik,,,author
 Andreas Abel,,,,Author
 Jan Midtgaard,,,,researcher
 Mads Sig Ager,,,,researcher
 Pablo Nogueira,,,,researcher
 Ranjit Jhala,,,,Author
 Tom Schrijvers,,,,Author
+Tomasz Drab,Tomash /ˈtɔ̃maʃ/ Drab /drap/,,,author
 University of Edinburgh,,,,Institution
 reduction,,,,Common-term
+ACM,,Association for Computing Machinery,,
 effect handlers,,,,
 semantics,,,,
 context,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 expression,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 lemma,,,,Common-term
 theorem,,,,Common-term
 operational semantics,,,,
@@ -49,12 +52,16 @@ reduction relation,,,,
 syntactic,,,,Common-term
 induction,,,,Common-term
 lambda calculus,lam-duh calculus,,,theory
+redexes,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 erasure,,type erasure,,Common-term
 functional programming,,,,
 normalization by evaluation,,,,
 observational equivalence,,,,
 Plotkin,,Name,,name
+POPL,pop-ill,Conference,,Common-term
+Call-by-Value,,(CBV),,Common-term evaluation
 conclusion,,,,
 effectful,,,,
 OCaml,,,,Common-term programming-language
@@ -87,12 +94,14 @@ inductive,,,,Common-term
 Kiselyov,,,,
 Leroy,,,,Name
 Levy,,,,
+Martin-Lof,,,Martin-Lôf,
 match,,,,
 normalization,,computations,,theory
+OOPSLA,oops-la,,,Conference
 Peyton Jones,,,,Name
 relational,,,,
 subtyping,,,,Common-term
-Witold Charatonik,Vitold /ˈvʲitɔlt/ Haratonik,,,author
+well-formedness,,,,Common-term
 abstraction,,,,Common-term
 abstractions,,,,
 Agda,,Agda-style,,Common-term Programming-language
@@ -106,6 +115,7 @@ conjunction,,,,
 conservative,,,,theory
 context-sensitive,,,,Common-term parsing
 dependent,,,,Common-term
+domain theory,,,,Common-term
 Eff,,,,
 Elimination,,,,
 f.sieczkowski@hw.ac.uk,,,,email
@@ -113,6 +123,7 @@ Findler,,,,
 fold,,,,Common-term
 force,,,,Common-term evaluation
 homomorphism,,,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Koka,,,,Programming-language
 KU Leuven,,,,
 lambda calculi,,,,Common-term
@@ -129,6 +140,7 @@ monadic,Mow-nad-ick,,,
 NBE,normalization-by-evaluation,,,
 Nijmegen,,“Radboud University Nijmegen” A city in the Netherlands,,City
 normaliser,,computations,,theory
+PLDI,,Conference,,Common-term
 polymorphism,,,,Common-term
 precision,,Gradual typing,,theory
 reification,,,,Common-term
@@ -142,8 +154,8 @@ stuck term,,,,
 symbolic,,,,
 syntax-directed,,,,
 tail-recursive,,,,
-Tomasz Drab,Tomash /ˈtɔ̃maʃ/ Drab /drap/,,,author
 untyped lambda calculus,,,,Common-term
+well-formed,,,,Common-term
 nlDH,,,,unclassified
 fgDH,,,,unclassified
 weak-head,,,,unclassified
@@ -171,16 +183,12 @@ Comput,,,,unclassified
 context-capturing,,,,unclassified
 let-expression,,,,unclassified
 RB0E,,,,unclassified
-redexes,,,,unclassified
-SIGPLAN,,,,unclassified
 Takahashi,,,,unclassified
 Wrocaw,,,,unclassified
 Hillerstrom,,,,unclassified
 lift.v,,,,unclassified
-POPL,,,,unclassified
 al.'s,,,,unclassified
 Barendregt,,,,unclassified
-call-by-value,,,,unclassified
 Dagstuhl,,,,unclassified
 fCL,,,,unclassified
 Filinski,,,,unclassified
@@ -237,7 +245,6 @@ handle-expression,,,,unclassified
 Heriot-Watt,,,,unclassified
 Joachimski,,,,unclassified
 let-expressions,,,,unclassified
-Martin-Lof,,,,unclassified
 Materzok,,,,unclassified
 McLaughlin's,,,,unclassified
 MFPS,,,,unclassified
@@ -249,7 +256,6 @@ non-capturing,,,,unclassified
 non-expressibility,,,,unclassified
 normalization-by-evaluation,,,,unclassified
 North-Holland,,,,unclassified
-OOPSLA,,,,unclassified
 piece-by-piece,,,,unclassified
 Pretnar's,,,,unclassified
 program-ness,,,,unclassified
@@ -262,7 +268,6 @@ SEnv,,,,unclassified
 SFun,,,,unclassified
 Staton,,,,unclassified
 tail-calls,,,,unclassified
-well-formedness,,,,unclassified
 Wirsing,,,,unclassified
 0-deep,,,,unclassified
 0-level,,,,unclassified
@@ -396,7 +401,6 @@ outside-in,,,,unclassified
 owner/author(s,,,,unclassified
 PACMPL,,,,unclassified
 Passau,,,,unclassified
-PLDI,,,,unclassified
 power.5,,,,unclassified
 PPDP,,,,unclassified
 pseudocode,,,,unclassified

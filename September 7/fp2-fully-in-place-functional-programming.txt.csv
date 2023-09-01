@@ -15,10 +15,11 @@ University of Edinburgh,,,,Institution
 K ,,“K axiom”,,
 match,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
+ACM,,Association for Computing Machinery,,
 heap,,,,
 functional programming,,,,
 semantics,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 linear,,,,Common-term
 stack,,,,
 constructor,,,,Common-term
@@ -32,6 +33,7 @@ syntax,,,,Common-term
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 runtime,,,,Common-term
 tail-recursive,,,,
+well-formed,,,,Common-term
 theorem,,,,Common-term
 closure,,,,Common-term
 Pi, pie,dependent types,,theory
@@ -44,6 +46,7 @@ derive,,,,
 linear resource calculus,,,,
 nil,,,,
 reduction,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 de Moura,,,,
 garbage collection,,GC,,Common-term
 Xi,,,,
@@ -68,10 +71,12 @@ Haskell,,,,Common-term programming-language
 macro,,,,
 mutation,,,,
 Paterson,,,,
+POPL,pop-ill,Conference,,Common-term
 Pottier,,,,
 quicksort,,Common sorting algorithm,,Common-term algorithm sorting
 reuse analysis,,,,
 syntactic,,,,Common-term
+well-formedness,,,,Common-term
 algebraic datatype,,,,Common-term
 amortized,,amortized analyses,,Common-term
 applicative,,,,Common-term
@@ -85,6 +90,7 @@ Flanagan,,,,
 formalization,,,,Common-term
 garbage-collected,,,,
 Gibbons,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 induction,,,,Common-term
 linear types,,,,Common-term
 matching,,“pattern matching”,,Common-term
@@ -97,6 +103,7 @@ anton.lorenzen@ed.ac,,,,email
 array,,,,Common-term
 calculi,,,,
 category,,,,
+compile-time,,,,Common-term
 conclusion,,,,
 daan@microsoft.com,,,,email
 defunctionalization,,,,
@@ -119,6 +126,7 @@ morphism,,,,Common-term
 normalization,,computations,,theory
 paradigm,,,,Common-term
 Perceus algorithm,,,,
+PLDI,,Conference,,Common-term
 polymorphism,,,,Common-term
 quadratic,,,,Common-term
 Redmond,,,,
@@ -148,7 +156,6 @@ szipper,,,,unclassified
 tree<a,,,,unclassified
 reverse-acc,,,,unclassified
 Schorr-Waite,,,,unclassified
-SIGPLAN,,,,unclassified
 BinL,,,,unclassified
 Cik,,,,unclassified
 TRMReC,,,,unclassified
@@ -213,13 +220,11 @@ mimalloc,,,,unclassified
 Node(c,,,,unclassified
 NodeR,,,,unclassified
 partition<a,,,,unclassified
-POPL,,,,unclassified
 rbtree,,,,unclassified
 side-condition,,,,unclassified
 Smetsers,,,,unclassified
 split(pivot,,,,unclassified
 tctx,,,,unclassified
-well-formedness,,,,unclassified
 zig-zag,,,,unclassified
 apph,,,,unclassified
 bapp,,,,unclassified
@@ -338,7 +343,6 @@ Chargueraud,,,,unclassified
 Citeseer,,,,unclassified
 CJD,,,,unclassified
 Clean--a,,,,unclassified
-Compile-time,,,,unclassified
 Computerwetenschappen,,,,unclassified
 Conference-Volume,,,,unclassified
 Cons2(x,,,,unclassified
@@ -461,7 +465,6 @@ One-Hole,,,,unclassified
 owner/author(s,,,,unclassified
 parameter(s,,,,unclassified
 "pivot,hi",,,,unclassified
-PLDI,,,,unclassified
 pointer-tagging,,,,unclassified
 product-contexts,,,,unclassified
 program--but,,,,unclassified

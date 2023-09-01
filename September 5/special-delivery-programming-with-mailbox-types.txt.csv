@@ -15,9 +15,10 @@ Neel Krishnaswami,,,,Author
 Peter Thiemann,,,,Author
 Robbert Krebbers,,,,Author
 GitHub,,,,Institution
+ACM,,Association for Computing Machinery,,
 algorithmic,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 subtyping,,,,Common-term
 expression,,,,Common-term
 Gay ,,,,Name
@@ -38,6 +39,7 @@ bidirectional,,,,
 Honda,,,,
 contextual,,,,Common-term
 semantics,,,,
+typechecking,,,,Common-term
 syntax,,,,Common-term
 derivation,,,,
 expressiveness,,,,Common-term
@@ -54,6 +56,7 @@ axioms,,,,
 Go,,,,
 Java,,,,
 linear types,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 protocol,,,,
 Wadler,,,,Name
 AGERE!@SPLASH,,,,email
@@ -65,6 +68,7 @@ type checker,,,,Common-term
 well-typed,,,,Common-term
 alias,,,,
 calculi,,,,
+Call-by-Value,,(CBV),,Common-term evaluation
 conclusion,,,,
 de Moura,,,,
 Elimination,,,,
@@ -73,12 +77,15 @@ lambda calculus,lam-duh calculus,,,theory
 let-bound,,,,Common-term
 Levy,,,,
 McBride,,,,Name
+metatheoretical,,,,Common-term
 metatheory,,,,Common-term
 nondeterministic,,,,
 OCaml,,,,Common-term programming-language
+OOPSLA,oops-la,,,Conference
 polymorphism,,,,Common-term
 recursive,,,,Common-term
 Scala,,,,Common-term programming-language
+type-level,,,,Common-term
 unidirectional,,,,Common-term
 weakening,,,,Common-term
 Why,,,,
@@ -96,6 +103,7 @@ duncan.attard@glasgow.ac.uk,,,,email
 functional programming,,,,
 Haskell,,,,Common-term programming-language
 Id,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 integer,,,,Common-term
 IR ,I.R.,intermediate representation,,
 Kokke,,,,
@@ -107,6 +115,7 @@ model checking,,Automatic theorem proving,,technique tool
 modularity,,,,Common-term
 MSFP@FSCD,,,,email
 PLACES@ETAPS,,,,email
+PLDI,,Conference,,Common-term
 polymorphic,,,,Common-term
 Power,,,,
 quantifier,,,,Common-term
@@ -126,7 +135,6 @@ de'Liguoro,,,,unclassified
 Neykova,,,,unclassified
 Vasconcelos,,,,unclassified
 emptyFuture,,,,unclassified
-typechecking,,,,unclassified
 usage-annotated,,,,unclassified
 Put[5,,,,unclassified
 Nobuko,,,,unclassified
@@ -157,7 +165,6 @@ intToString,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
 LIPIcs,,,,unclassified
 master-worker,,,,unclassified
-POPL,,,,unclassified
 Session-Based,,,,unclassified
 Session-typed,,,,unclassified
 synthesisable,,,,unclassified
@@ -197,7 +204,6 @@ Bagherzadeh,,,,unclassified
 Bjorner,,,,unclassified
 Bollig,,,,unclassified
 Bracevac,,,,unclassified
-call-by-value,,,,unclassified
 Chaudhuri,,,,unclassified
 Christakis,,,,unclassified
 Ciccone,,,,unclassified
@@ -233,8 +239,6 @@ Kozen,,,,unclassified
 Kubo,,,,unclassified
 let-binding,,,,unclassified
 Makoto,,,,unclassified
-metatheoretical,,,,unclassified
-OOPSLA,,,,unclassified
 Ornela,,,,unclassified
 Osvald,,,,unclassified
 Parikh,,,,unclassified
@@ -286,7 +290,6 @@ Trinder,,,,unclassified
 TS-Const,,,,unclassified
 TS-New,,,,unclassified
 TS-Spawn,,,,unclassified
-type-level,,,,unclassified
 useAfterFree1,,,,unclassified
 2nd-class,,,,unclassified
 a?m,,,,unclassified
@@ -418,7 +421,6 @@ Pat1,,,,unclassified
 phil.trinder,,,,unclassified
 pi-Calculus,,,,unclassified
 PIDs,,,,unclassified
-PLDI,,,,unclassified
 Prepared(self,,,,unclassified
 print(intToString,,,,unclassified
 process-local,,,,unclassified

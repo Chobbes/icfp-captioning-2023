@@ -5,11 +5,12 @@ Mike Dodds,,,,Author
 Koen Claessen,,,,Author
 GitHub,,,,Institution
 Trigger,,,,
+ACM,,Association for Computing Machinery,,
 bisimulation,,,,Common-term equivalence
 runtime,,,,Common-term
 semantics,,,,
 compiler,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 compiled,,,,
 symbolic,,,,
 SMT ,,,,
@@ -18,7 +19,9 @@ array,,,,Common-term
 DSL,,,,
 Haskell,,,,Common-term programming-language
 reified,,,,
+SIGPLAN,,special interest group on programming languages,,
 Coq,“Coq”,,,Common-term programming-language theorem-prover
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Leroy,,,,Name
 cast,,Gradual typing,,theory
 CompCert,,A certified compiler,,
@@ -33,6 +36,7 @@ quantified,,,,Common-term
 Boolean,,,,
 expression,,,,Common-term
 extensionally,,,,
+forall,,quantifier,,Common-term logic
 Frama-C,,,,
 Prop,,,,
 toolchain,,,,
@@ -51,8 +55,11 @@ Lean,,,,
 miked@galois.com,,,,email
 ML,,,,Programming-language
 normalization,,computations,,theory
+object-oriented,,,,Common-term paradigm
 optional,,,,
 Pascal,,,,
+PLDI,,Conference,,Common-term
+POPL,pop-ill,Conference,,Common-term
 Power,,,,
 QuickCheck,,,,testing tool
 rdoc@amazon.com,,,,email
@@ -64,6 +71,8 @@ Semantic,,,,Common-term
 stack,,,,
 syntactic,,,,Common-term
 syntax,,,,Common-term
+well-formed,,,,Common-term
+well-formedness,,,,Common-term
 CopilotVerifier,,,,unclassified
 Goodloe,,,,unclassified
 s0_idx,,,,unclassified
@@ -78,7 +87,6 @@ s0_get,,,,unclassified
 safety-critical,,,,unclassified
 bitcode,,,,unclassified
 RTCA,,,,unclassified
-SIGPLAN,,,,unclassified
 structs,,,,unclassified
 bvSum,,,,unclassified
 bvUrem,,,,unclassified
@@ -115,7 +123,6 @@ Crucible's,,,,unclassified
 Cuoq,,,,unclassified
 D'Angelo,,,,unclassified
 domain-specific,,,,unclassified
-forall,,,,unclassified
 high-assurance,,,,unclassified
 higher-level,,,,unclassified
 https,,,,unclassified
@@ -228,7 +235,6 @@ Norrish,,,,unclassified
 Northridge,,,,unclassified
 notation-a,,,,unclassified
 Nuno,,,,unclassified
-object-oriented,,,,unclassified
 objectoriented,,,,unclassified
 Open-Source,,,,unclassified
 owner/author(s,,,,unclassified
@@ -240,8 +246,6 @@ Pesin,,,,unclassified
 Petcher,,,,unclassified
 Pialiud,,,,unclassified
 Pierre-Evariste,,,,unclassified
-PLDI,,,,unclassified
-POPL,,,,unclassified
 pre-existing,,,,unclassified
 prepends,,,,unclassified
 Pressburger,,,,unclassified
@@ -296,7 +300,6 @@ verifier's,,,,unclassified
 Virgile,,,,unclassified
 Weissenbacher,,,,unclassified
 Well-Clear,,,,unclassified
-Well-formedness,,,,unclassified
 Word8,,,,unclassified
 Word8s,,,,unclassified
 Yakobowski,,,,unclassified

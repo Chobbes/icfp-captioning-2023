@@ -24,8 +24,9 @@ session types,,,,
 Iris,,,,theorem-proving tool
 lemma,,,,Common-term
 ghost,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 recursive,,,,Common-term
+ACM,,Association for Computing Machinery,,
 concurrent,,,,Common-term
 recursion,,,,Common-term
 endpoint,,,,
@@ -43,6 +44,7 @@ concurrency,,,,Common-term
 API,A.P.I.,Application Programming Interface,,Common-term
 Honda,,,,
 modality,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 duality,,,,
 heap,,,,
 Boolean,,,,
@@ -108,12 +110,15 @@ lambda calculus,lam-duh calculus,,,theory
 linear Haskell,,,,
 mail@robbertkrebbers.nl,,,,email
 matching,,“pattern matching”,,Common-term
+meta-theory,,,"also ""metatheory""",Common-term
 metatheory,,,,Common-term
 monoids,,,,Common-term
 monotone,,,,Common-term
 nondeterminism,,,,
 nondeterministic,,,,
+OOPSLA,oops-la,,,Conference
 Pi, pie,dependent types,,theory
+PLDI,,Conference,,Common-term
 polymorphic,,,,Common-term
 polymorphism,,,,Common-term
 propositional,,,,Common-term
@@ -147,7 +152,6 @@ send_close,,,,unclassified
 Toninho,,,,unclassified
 Dardha,,,,unclassified
 new_imp,,,,unclassified
-POPL,,,,unclassified
 subprotocol,,,,unclassified
 forked-off,,,,unclassified
 HeapLang,,,,unclassified
@@ -311,7 +315,6 @@ Machine-checked,,,,unclassified
 Makoto,,,,unclassified
 Mechanised,,,,unclassified
 Mellies,,,,unclassified
-Meta-theory,,,,unclassified
 MSCS,,,,unclassified
 multi-party,,,,unclassified
 Munksgaard,,,,unclassified
@@ -324,12 +327,10 @@ non-blocking,,,,unclassified
 non-deterministically,,,,unclassified
 Non-structured,,,,unclassified
 oneshot,,,,unclassified
-OOPSLA,,,,unclassified
 owner/author(s,,,,unclassified
 p=p,,,,unclassified
 Paul-Andre,,,,unclassified
 Pfenning,,,,unclassified
-PLDI,,,,unclassified
 pointsto,,,,unclassified
 Poulsen,,,,unclassified
 predicates.2,,,,unclassified

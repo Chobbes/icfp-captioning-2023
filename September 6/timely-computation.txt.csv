@@ -5,7 +5,8 @@ Graham Hutton,,,,Author
 Wouter Swierstra,,,,Author
 category,,,,
 linear,,,,Common-term
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 Boolean,,,,
 discrete,,,,
 functor,,,,Common-term
@@ -27,6 +28,7 @@ Haskell,,,,Common-term programming-language
 IMP,Like the little demon “imp”,A simple “imperative” programming language,,
 refinement types,,,,
 Dependent types,,,,types
+SIGPLAN,,special interest group on programming languages,,
 universe,,dependent types,,theory
 abstractions,,,,
 Capretta,,,,
@@ -60,6 +62,7 @@ decidable,,,,
 Dybjer,,,,
 embeddings,,,,
 extensionally,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 instance inference,,,,
 iterations,,,,
 lambda calculi,,,,Common-term
@@ -77,6 +80,7 @@ symbolic,,,,
 theorem,,,,Common-term
 Turing,,,,
 type-checker,,,,Common-term
+type-level,,,,Common-term
 false,,,,unclassified
 exl,,,,unclassified
 semimodule,,,,unclassified
@@ -106,7 +110,6 @@ min-plus,,,,unclassified
 multi-bit,,,,unclassified
 Norell,,,,unclassified
 One-input,,,,unclassified
-SIGPLAN,,,,unclassified
 stable1,,,,unclassified
 Achim,,,,unclassified
 biproduct,,,,unclassified
@@ -249,7 +252,6 @@ TII,,,,unclassified
 time-varying,,,,unclassified
 TLCA,,,,unclassified
 transformations--simply,,,,unclassified
-type-level,,,,unclassified
 type-setting,,,,unclassified
 U:I,,,,unclassified
 uni-signals,,,,unclassified

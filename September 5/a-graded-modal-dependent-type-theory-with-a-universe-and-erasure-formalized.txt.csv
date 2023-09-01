@@ -12,9 +12,10 @@ Simon Peyton Jones,,,,Author
 University of Gothenburg,,,,Institution
 erasure,,type erasure,,Common-term
 context,,,,Common-term
+ACM,,Association for Computing Machinery,,
 formalization,,,,Common-term
 Id,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 theorem,,,,Common-term
 Abel,,,,Name
 dependent,,,,Common-term
@@ -44,7 +45,9 @@ linear types,,,,Common-term
 weakening,,,,Common-term
 Bernardy,,,,
 Dependent types,,,,types
+meta-theory,,,"also ""metatheory""",Common-term
 normalization,,computations,,theory
+well-formed,,,,Common-term
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 decidable,,,,
 syntax,,,,Common-term
@@ -77,8 +80,11 @@ heap,,,,
 Idris,,,,
 inductive,,,,Common-term
 polymorphic,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
+recursor,,,,Common-term
 axiom,,,,
 Brady,,,,
+Call-by-Name,,(CBN),,Common-term evaluation
 closure,,,,Common-term
 closures,,,,Common-term
 compiler,,,,Common-term
@@ -92,6 +98,7 @@ monotone,,,,Common-term
 operational semantics,,,,
 pattern matching,,,,
 polymorphism,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 untyped,,,,
 untyped lambda calculus,,,,Common-term
 algebra,,,,
@@ -99,13 +106,16 @@ algebras,,,,
 andreas.abel@gu.se,,,,email
 binder,like in bind,,,
 comonad,Koe-mow-nad,,,
+compile-time,,,,Common-term
 constraint solver,,,,
+Coq's,“Coq”,,,Common-term programming-language theorem-prover
 definitionally,,,,theory
 expressiveness,,,,Common-term
 extensional,,functions,,theory
 force,,,,Common-term evaluation
 Haskell,,,,Common-term programming-language
 Idris 2,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 inferring,,,,
 iterations,,,,
 linear Haskell,,,,
@@ -114,13 +124,16 @@ monadic,Mow-nad-ick,,,
 monotonicity,,Mathematical property,,Common-term
 multimodal,,,,
 nad@cse.gu.se,,,,email
+object-oriented,,,,Common-term paradigm
 oskar.eriksson@gu.se,,,,email
 predicative,,,,Common-term
 Proof-irrelevant,,,,Common-term
+redexes,,,,Common-term
 reduction relation,,,,
 reduction semantics,,,,
 runtime,,,,Common-term
 Scala,,,,Common-term programming-language
+simply-typed,,,,Common-term
 variable-binding,,,,Common-term
 Why,,,,
 prodrec,,,,unclassified
@@ -136,7 +149,6 @@ natrec-star,,,,unclassified
 WHNF,,,,unclassified
 LNCS,,,,unclassified
 subterms,,,,unclassified
-meta-theory,,,,unclassified
 https,,,,unclassified
 Tejiak,,,,unclassified
 Atkey's,,,,unclassified
@@ -155,16 +167,13 @@ Letouzey,,,,unclassified
 Mishra-Linger,,,,unclassified
 non-erased,,,,unclassified
 Pfenning,,,,unclassified
-POPL,,,,unclassified
 qubits,,,,unclassified
-recursor,,,,unclassified
 resource-free,,,,unclassified
 Scherer,,,,unclassified
 Stucki,,,,unclassified
 unitrec,,,,unclassified
 weakenings,,,,unclassified
 zero-product,,,,unclassified
-call-by-name,,,,unclassified
 Coquand,,,,unclassified
 Eqs,,,,unclassified
 fst0,,,,unclassified
@@ -191,7 +200,6 @@ Rijke,,,,unclassified
 semilattice,,,,unclassified
 semiring-like,,,,unclassified
 SEMIRINGS,,,,unclassified
-SIGPLAN,,,,unclassified
 star-based,,,,unclassified
 sub-distributive,,,,unclassified
 subterm,,,,unclassified
@@ -217,9 +225,7 @@ Boespflug,,,,unclassified
 Bruijn-style,,,,unclassified
 co)inductive,,,,unclassified
 co-domain,,,,unclassified
-compile-time,,,,unclassified
 Context-Dependent,,,,unclassified
-Coq's,,,,unclassified
 deconstructed,,,,unclassified
 design/feature,,,,unclassified
 ECOOP,,,,unclassified
@@ -273,7 +279,6 @@ non-zero,,,,unclassified
 "none-one-tons"").5",,,,unclassified
 Nuttin,,,,unclassified
 Nuyts,,,,unclassified
-Object-Oriented,,,,unclassified
 Ohman,,,,unclassified
 owner/author(s,,,,unclassified
 post-fixed,,,,unclassified
@@ -285,7 +290,6 @@ product/-type,,,,unclassified
 projections--including,,,,unclassified
 re-fit,,,,unclassified
 real-world,,,,unclassified
-redexes,,,,unclassified
 reference-counting,,,,unclassified
 reflexive-transitive,,,,unclassified
 relation--it,,,,unclassified
@@ -299,7 +303,6 @@ Selinger,,,,unclassified
 semimodule,,,,unclassified
 setting.10,,,,unclassified
 short-cuts,,,,unclassified
-simply-typed,,,,unclassified
 single-constructor,,,,unclassified
 snd0,,,,unclassified
 so2,,,,unclassified

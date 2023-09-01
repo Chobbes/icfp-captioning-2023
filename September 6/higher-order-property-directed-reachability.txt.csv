@@ -7,7 +7,8 @@ Amal Ahmed,,,,Author
 Shin-ya Katsumata,,,,Author
 K ,,“K axiom”,,
 higher-order,,,,Common-term
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 polymorphic,,,,Common-term
 fixpoint,,,,Common-term
 integer,,,,Common-term
@@ -23,6 +24,7 @@ inductive,,,,Common-term
 theorem,,,,Common-term
 induction,,,,Common-term
 lattice,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 abstraction,,,,Common-term
 expression,,,,Common-term
 recursive,,,,Common-term
@@ -30,9 +32,11 @@ formalization,,,,Common-term
 recursion schemes,,,,
 syntactic,,,,Common-term
 OCaml,,,,Common-term programming-language
+SIGPLAN,,special interest group on programming languages,,
 subtyping,,,,Common-term
 syntax,,,,Common-term
 transition system,,,,
+well-formed,,,,Common-term
 well-typed,,,,Common-term
 modal,,,,
 monotonic,,,,Common-term
@@ -46,13 +50,16 @@ CPS,C.P.S.,abbreviation for continuation-passing style ,,
 de Moura,,,,
 Dependent types,,,,types
 exponential,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 match,,,,
 normalized,,,,Common-term
 probabilistic,,,,Common-term
 reduction relation,,,,
 Semantic,,,,Common-term
+simply-typed,,,,Common-term
 SMT ,,,,
 Swamy,,,,
+well-formedness,,,,Common-term
 Z3,,Tool to automatically prove theorems,,Tool
 conjunction,,,,
 context,,,,Common-term
@@ -66,6 +73,7 @@ katsura@kb.is.s.u-tokyo.ac.jp,,,,email
 koba@is.s.u-tokyo.ac.jp,,,,email
 meta-language,,,,
 PEPM@POPL,,,,email
+PLDI,,Conference,,Common-term
 quantified,,,,Common-term
 quantifier,,,,Common-term
 recursion,,,,Common-term
@@ -101,7 +109,6 @@ Asada,,,,unclassified
 EraseLab,,,,unclassified
 Iwayama,,,,unclassified
 order-0,,,,unclassified
-POPL,,,,unclassified
 GFP,,,,unclassified
 HoCHC,,,,unclassified
 TRecS-style,,,,unclassified
@@ -122,7 +129,6 @@ Lattice-Theoretic,,,,unclassified
 LNCS,,,,unclassified
 order-1,,,,unclassified
 RS-AllL,,,,unclassified
-SIGPLAN,,,,unclassified
 Tr-Conflict,,,,unclassified
 a.k.a,,,,unclassified
 app3,,,,unclassified
@@ -168,7 +174,6 @@ RT-App,,,,unclassified
 RT-Conj,,,,unclassified
 Rybalchenko,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
-simply-typed,,,,unclassified
 SMTInterpol,,,,unclassified
 subderivation,,,,unclassified
 TACAS,,,,unclassified
@@ -180,7 +185,6 @@ Tr-Invalid,,,,unclassified
 Tr-Unfold,,,,unclassified
 unfoldings,,,,unclassified
 VMCAI,,,,unclassified
-well-formedness,,,,unclassified
 x>y,,,,unclassified
 29-April,,,,unclassified
 3We,,,,unclassified
@@ -310,7 +314,6 @@ PEPM,,,,unclassified
 Pichardie,,,,unclassified
 Pierre-Yves,,,,unclassified
 Piterman,,,,unclassified
-PLDI,,,,unclassified
 Podelski,,,,unclassified
 poset,,,,unclassified
 post-fixpoint,,,,unclassified

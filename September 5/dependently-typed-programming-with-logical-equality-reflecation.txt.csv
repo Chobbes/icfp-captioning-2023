@@ -16,9 +16,10 @@ Cornell University,,Institution,,Institution
 University of California,,,,Institution
 lemma,,,,Common-term
 reduction,,,,Common-term
+ACM,,Association for Computing Machinery,,
 Haskell,,,,Common-term programming-language
 context,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 reflection,,,,Common-term
 dependently-typed,,,,types
 succ,,,,
@@ -36,12 +37,18 @@ induction,,,,Common-term
 congruence,,,,Common-term
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 Agda,,Agda-style,,Common-term Programming-language
+forall,,quantifier,,Common-term logic
+foreach,,quantifier,,Common-term
+compile-time,,,,Common-term
 syntax,,,,Common-term
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Martin-Lof,,,Martin-Lôf,
 recursion,,,,Common-term
 untyped,,,,
+well-formedness,,,,Common-term
 Choudhury,,,,
 compiler,,,,Common-term
+concat,,concatenation common function,,Function
 decidable,,,,
 erasure,,type erasure,,Common-term
 propositional equality,,,,Common-term
@@ -64,6 +71,8 @@ pattern matching,,,,
 polymorphism,,,,Common-term
 quantitative,,,,
 Semantic,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
+type-level,,,,Common-term
 abstraction,,,,Common-term
 Capretta,,,,
 closure,,,,Common-term
@@ -82,6 +91,8 @@ Idris,,,,
 modal,,,,
 modalities,,,,Common-term
 normalization,,computations,,theory
+Nuprl,new pearl,,,Common-term proof-assistant tool
+POPL,pop-ill,Conference,,Common-term
 refinements,,,,
 SMT solver,,Type of tool for solving SMT problems,,Tool
 Swamy,,,,
@@ -92,23 +103,31 @@ Why,,,,
 Abel,,,,Name
 abstractions,,,,
 Brady,,,,
+Call-by-Name,,(CBN),,Common-term evaluation
+Call-by-Value,,(CBV),,Common-term evaluation
 Cardelli,,,,
 cast,,Gradual typing,,theory
 coinductive,,,,Common-term
 conclusion,,,,
 Elimination,,,,
 heterogeneous,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Kiselyov,,,,
 MLTT,,short for Martin-Lof Type Theory/dependent type,,theory
+PLDI,,Conference,,Common-term
 polymorphic,,,,Common-term
 predicative,,,,Common-term
 quantified,,,,Common-term
+recursor,,,,Common-term
 reduction semantics,,,,
 reflexivity,,,,Common-term
 reified,,,,
 SMT ,,,,
+UndecidableInstances,,Language pragma / extension for Haskell,,Haskell
+well-formed,,,,Common-term
 algorithmic,,,,Common-term
 Bernardy,,,,
+beta-equivalent,,,,Common-term
 capability,,,,
 Church-Rosser,,,,
 compiled,,,,
@@ -117,7 +136,9 @@ decidability,,,,
 definitionally,,,,theory
 Dijkstra monad ,/ˈdɑɪkstɹə/ DYKE-struh,,,
 divergence,,,,Common-term
+domain-theoretic,,,,Common-term
 ecosystem,,,,
+existentials,,quantification,,Common-term logic
 fold,,,,Common-term
 formalization,,,,Common-term
 Fraser,,,,
@@ -129,8 +150,11 @@ Idris 2,,,,
 lambda calculus,lam-duh calculus,,,theory
 lattice,,,,Common-term
 liuyiyun@seas.upenn.edu,,,,email
+lock-step,,,,Common-term
 mechanization,,,,
+metatheoretic,,,,Common-term
 monad,Mow-nad,,,Common-term
+object-oriented,,,,Common-term paradigm
 observational,,,,
 OCaml,,,,Common-term programming-language
 Peyton Jones,,,,Name
@@ -149,17 +173,11 @@ CSV,,,,unclassified
 A.B,,,,unclassified
 appendNilEq,,,,unclassified
 covalue,,,,unclassified
-forall,,,,unclassified
-foreach,,,,unclassified
 pifst,,,,unclassified
-compile-time,,,,unclassified
 indA,,,,unclassified
 relevance-moded,,,,unclassified
 Joinability,,,,unclassified
-Martin-Lof,,,,unclassified
-well-formedness,,,,unclassified
 badApp,,,,unclassified
-concat,,,,unclassified
 E-Reflect,,,,unclassified
 Weirich,,,,unclassified
 badEq,,,,unclassified
@@ -176,10 +194,8 @@ a{b/x,,,,unclassified
 CR-AbsPush,,,,unclassified
 E-AbsCong,,,,unclassified
 plusNZ,,,,unclassified
-SIGPLAN,,,,unclassified
 Sulzmann,,,,unclassified
 T-Ind,,,,unclassified
-type-level,,,,unclassified
 appendNilEqSing,,,,unclassified
 beta-equivalence,,,,unclassified
 DE's,,,,unclassified
@@ -202,11 +218,9 @@ HNil,,,,unclassified
 https,,,,unclassified
 inferencer,,,,unclassified
 Mishra-Linger,,,,unclassified
-Nuprl,,,,unclassified
 P-AppCong,,,,unclassified
 P-Reify,,,,unclassified
 P-Var,,,,unclassified
-POPL,,,,unclassified
 R-App,,,,unclassified
 Siles,,,,unclassified
 T-App,,,,unclassified
@@ -221,8 +235,6 @@ A{zero/x,,,,unclassified
 b/x,,,,unclassified
 backend,,,,unclassified
 B{a/x,,,,unclassified
-call-by-name,,,,unclassified
-call-by-value,,,,unclassified
 COLOG-88,,,,unclassified
 ConsF,,,,unclassified
 Coquand,,,,unclassified
@@ -244,10 +256,8 @@ NilF,,,,unclassified
 P-AppAbs,,,,unclassified
 P-Conv,,,,unclassified
 Pfenning,,,,unclassified
-PLDI,,,,unclassified
 post-conditions,,,,unclassified
 R-Conv,,,,unclassified
-recursor,,,,unclassified
 Scherer,,,,unclassified
 scrutinee,,,,unclassified
 subterms,,,,unclassified
@@ -258,7 +268,6 @@ T-Succ,,,,unclassified
 T-Zero,,,,unclassified
 today's,,,,unclassified
 Trellys,,,,unclassified
-UndecidableInstances,,,,unclassified
 Venanzio,,,,unclassified
 x:xs,,,,unclassified
 Xia,,,,unclassified
@@ -278,7 +287,6 @@ Anish,,,,unclassified
 Avezedo,,,,unclassified
 a{b,,,,unclassified
 backward-compatibility,,,,unclassified
-beta-equivalent,,,,unclassified
 Breitner,,,,unclassified
 call-byname,,,,unclassified
 Capretta's,,,,unclassified
@@ -295,7 +303,6 @@ DataFrames,,,,unclassified
 dependentlytyped,,,,unclassified
 design1,,,,unclassified
 Diatchki,,,,unclassified
-domain-theoretic,,,,unclassified
 E-ConvCong,,,,unclassified
 E-EqCong,,,,unclassified
 E-IndCong,,,,unclassified
@@ -318,7 +325,6 @@ ER-IndSucc,,,,unclassified
 ER-IndZero,,,,unclassified
 ER-Succ,,,,unclassified
 EReflect,,,,unclassified
-existentials,,,,unclassified
 explicit-but-irrelevant,,,,unclassified
 explicitlytyped,,,,unclassified
 extensionally-flavored,,,,unclassified
@@ -349,7 +355,6 @@ Li-yao,,,,unclassified
 LICS,,,,unclassified
 LIPIcs,,,,unclassified
 Livshits,,,,unclassified
-lock-step,,,,unclassified
 lp.ott,,,,unclassified
 lp_subst.v:typing_substc_nil,,,,unclassified
 lp_weak.v:typing_weakening,,,,unclassified
@@ -362,7 +367,6 @@ Malecha,,,,unclassified
 MAlonzo,,,,unclassified
 Martin-Lof's,,,,unclassified
 Mendler,,,,unclassified
-metatheoretic,,,,unclassified
 moded,,,,unclassified
 Moller,,,,unclassified
 MP-One,,,,unclassified
@@ -383,7 +387,6 @@ non-strictly-positive,,,,unclassified
 NON_TERMINATING,,,,unclassified
 North-Holland,,,,unclassified
 nvazou/thesis/main.pdf,,,,unclassified
-Object-Oriented,,,,unclassified
 Ohad,,,,unclassified
 operation11,,,,unclassified
 opt-in,,,,unclassified

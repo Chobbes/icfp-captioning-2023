@@ -5,8 +5,9 @@ Mohsen Ghaffari,,,,Author
 Koen Claessen,,,,Author
 Norman Ramsey,,,,Author
 IT University of Copenhagen,,,,Institution
+ACM,,Association for Computing Machinery,,
 probability,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 distribution,,,,
 mutation,,,,
 semantics,,,,
@@ -20,10 +21,12 @@ discrete,,,,
 Kleisli,,,,
 stochastic,Stow-kas-tick,,,Common-term statistics
 Property-based testing,,,,
+forall,,quantifier,,Common-term logic
 functional programming,,,,
 Bernoulli,,,,
 Boolean,,,,
 context,,,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 iterations,,,,
 ML,,,,Programming-language
 Dirac distribution,,,,
@@ -70,10 +73,12 @@ lambda-calculus,,,,Common-term
 mahv@itu.dk,,,,email
 mohg@itu.dk,,,,email
 paradigm,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 quantifier,,,,Common-term
 Ramsey ,,,,
 recursive,,,,Common-term
 sequential ,,,,
+SIGPLAN,,special interest group on programming languages,,
 symbolic,,,,
 tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 wasowski@itu.dk,,,,email
@@ -97,7 +102,6 @@ https,,,,unclassified
 Kruschke,,,,unclassified
 on-policy,,,,unclassified
 Bastani,,,,unclassified
-forAll,,,,unclassified
 Kishor,,,,unclassified
 RQ3,,,,unclassified
 Tappler,,,,unclassified
@@ -409,7 +413,6 @@ Ph.D,,,,unclassified
 pipe-lining,,,,unclassified
 PMLR,,,,unclassified
 point-wise,,,,unclassified
-POPL,,,,unclassified
 position-velocity,,,,unclassified
 PPO,,,,unclassified
 Pranger,,,,unclassified
@@ -461,7 +464,6 @@ Shimon,,,,unclassified
 Shing-Chi,,,,unclassified
 Shoham,,,,unclassified
 Shuang,,,,unclassified
-SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 Sikder,,,,unclassified
 Soyer,,,,unclassified

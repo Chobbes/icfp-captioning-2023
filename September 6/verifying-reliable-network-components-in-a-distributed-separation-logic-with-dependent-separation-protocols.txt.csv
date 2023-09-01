@@ -15,7 +15,8 @@ Simon Spies,,,,Author
 Aarhus University,,,,Institution
 protocol,,,,
 dependent,,,,Common-term
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 separation logic,,,,Common-term
 ghost,,,,
 API,A.P.I.,Application Programming Interface,,Common-term
@@ -36,10 +37,12 @@ conjunction,,,,
 context,,,,Common-term
 OCaml,,,,Common-term programming-language
 operational semantics,,,,
+POPL,pop-ill,Conference,,Common-term
 algebra,,,,
 formalization,,,,Common-term
 heap,,,,
 Prop,,,,
+SIGPLAN,,special interest group on programming languages,,
 bidirectional,,,,
 compiler,,,,Common-term
 consistency,,Gradual typing,,theory
@@ -88,7 +91,12 @@ memoization,,,,
 mjp.pereira@fct.unl.pt,,,,email
 modalities,,,,Common-term
 model checking,,Automatic theorem proving,,technique tool
+namespace,,,,Common-term
+namespaces,,,,Common-term
+object-oriented,,,,Common-term paradigm
+OOPSLA,oops-la,,,Conference
 Peyton Jones,,,,Name
+PLDI,,Conference,,Common-term
 Pol,,Subcategory of Meas whose objects are Borel spaces,,
 Pottier,,,,
 Power,,,,
@@ -105,6 +113,7 @@ subtyping,,,,Common-term
 symbolic,,,,
 tactic,,,,
 timany@cs.au.dk,,,,email
+type-checked,,,,Common-term
 VST,,Verified Software Toolchain,,theorem-proving tool
 Why,,,,
 Aneris,,,,unclassified
@@ -146,7 +155,6 @@ subprotocol,,,,unclassified
 CanConnect,,,,unclassified
 int_ser,,,,unclassified
 leader-only,,,,unclassified
-POPL,,,,unclassified
 rpc_process_spec,,,,unclassified
 serializers,,,,unclassified
 srv.ip,,,,unclassified
@@ -159,7 +167,6 @@ Nieto,,,,unclassified
 RC_Resources,,,,unclassified
 rpc_make_request,,,,unclassified
 server_skt,,,,unclassified
-SIGPLAN,,,,unclassified
 Unallocated({sa,,,,unclassified
 we.value,,,,unclassified
 accept_loop,,,,unclassified
@@ -317,7 +324,6 @@ viewshift,,,,unclassified
 VILLUM,,,,unclassified
 Vs-csq,,,,unclassified
 vx,,,,unclassified
-w.r.t,,,,unclassified
 we.key,,,,unclassified
 Xia,,,,unclassified
 Yishuai,,,,unclassified
@@ -443,8 +449,6 @@ multi-threaded,,,,unclassified
 Musuvathi,,,,unclassified
 Myreen,,,,unclassified
 Naghmeh,,,,unclassified
-namespace,,,,unclassified
-namespaces,,,,unclassified
 network--using,,,,unclassified
 network-agnostic,,,,unclassified
 network-level,,,,unclassified
@@ -453,11 +457,9 @@ non-distributed,,,,unclassified
 non-operative,,,,unclassified
 Norrish,,,,unclassified
 Nuno,,,,unclassified
-Object-Oriented,,,,unclassified
 Ohlenbusch,,,,unclassified
 omitted5,,,,unclassified
 once.1,,,,unclassified
-OOPSLA,,,,unclassified
 owner/author(s,,,,unclassified
 Panchekha,,,,unclassified
 parameterised,,,,unclassified
@@ -468,7 +470,6 @@ pattern--dubbed,,,,unclassified
 pattern--the,,,,unclassified
 pattern--which,,,,unclassified
 PDIS,,,,unclassified
-PLDI,,,,unclassified
 points-to-predicate,,,,unclassified
 post-condition,,,,unclassified
 proto-sendl,,,,unclassified
@@ -508,7 +509,6 @@ Timany,,,,unclassified
 time-insensitive,,,,unclassified
 transfer--safely,,,,unclassified
 transportindependent,,,,unclassified
-type-checked,,,,unclassified
 type-like,,,,unclassified
 UDP-based,,,,unclassified
 UDP-like,,,,unclassified

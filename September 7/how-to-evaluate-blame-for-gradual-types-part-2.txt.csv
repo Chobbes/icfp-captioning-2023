@@ -14,7 +14,8 @@ Carnegie Mellon University,,CMU,,Institution
 semantics,,,,
 untyped,,,,
 erasure,,type erasure,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
+ACM,,Association for Computing Machinery,,
 gradual types,,,,
 Racket,racket,Racket programming language,,
 Felleisen,,,,
@@ -22,6 +23,8 @@ context,,,,Common-term
 lattice,,,,Common-term
 mutation,,,,
 integer,,,,Common-term
+OOPSLA,oops-la,,,Conference
+POPL,pop-ill,Conference,,Common-term
 stack,,,,
 Findler,,,,
 JavaScript,,,,Common-term programming-language
@@ -47,6 +50,7 @@ distribution,,,,
 gradually typed language,,,,
 hash table,,,,
 syntactic,,,,Common-term
+type-check,,,,Common-term
 benjaminlgreenman@gmail,,,,email
 cast,,Gradual typing,,theory
 chrdimo@northwestern.edu,,,,email
@@ -64,6 +68,7 @@ Jim,,,,
 lukas.lazarek@eecs,,,,email
 matthias@ccs.neu.edu,,,,email
 modularity,,,,Common-term
+object-oriented,,,,Common-term paradigm
 optional,,,,
 PL,,,,
 Power,,,,
@@ -73,6 +78,7 @@ reflect,,,,
 Scheme,,,,Common-term programming-language
 synthetic,,,,
 theorem,,,,Common-term
+type-checked,,,,Common-term
 well-typed,,,,Common-term
 run-time,,,,unclassified
 Lazarek,,,,unclassified
@@ -84,8 +90,6 @@ ccoo,,,,unclassified
 TTrr,,,,unclassified
 PACMPL,,,,unclassified
 json-unpack,,,,unclassified
-OOPSLA,,,,unclassified
-POPL,,,,unclassified
 bbaa,,,,unclassified
 json-unpack-lib,,,,unclassified
 ssee,,,,unclassified
@@ -232,7 +236,6 @@ Transient-exceptions,,,,unclassified
 Transient-first-blame,,,,unclassified
 Transient-last,,,,unclassified
 ttyypp,,,,unclassified
-type-check,,,,unclassified
 type-interface,,,,unclassified
 UserInfo,,,,unclassified
 Weimer,,,,unclassified
@@ -344,7 +347,6 @@ non-generative,,,,unclassified
 non-trivial,,,,unclassified
 northwestern.edu,,,,unclassified
 npm,,,,unclassified
-object-oriented,,,,unclassified
 off-by-one,,,,unclassified
 open-source,,,,unclassified
 Open-World,,,,unclassified
@@ -399,7 +401,6 @@ ttyy,,,,unclassified
 type-)consistency,,,,unclassified
 type-able,,,,unclassified
 type-annotation,,,,unclassified
-type-checked,,,,unclassified
 type-error,,,,unclassified
 type-related,,,,unclassified
 typedef,,,,unclassified

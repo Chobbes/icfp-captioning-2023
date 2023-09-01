@@ -20,8 +20,9 @@ University of Nottingham,,,,Institution
 semantics,,,,
 compiler,,,,Common-term
 concurrent,,,,Common-term
+ACM,,Association for Computing Machinery,,
 expression,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 Eff,,,,
 bisimilarity,,Notion of equivalence between programs,,Common-term equivalence
 stack,,,,
@@ -29,6 +30,7 @@ concurrency,,,,Common-term
 Interp,,,,
 induction,,,,Common-term
 monad,Mow-nad,,,Common-term
+fmap,,functor map common function,,Function
 continuation,,,,
 bisimilar,,,,Common-term equivalence
 clause,,,,
@@ -42,6 +44,7 @@ effect handlers,,,,
 context,,,,Common-term
 equational,,,,Common-term
 recursive,,,,Common-term
+forall,,quantifier,,Common-term logic
 integer,,,,Common-term
 Agda,,Agda-style,,Common-term Programming-language
 coinductive,,,,Common-term
@@ -57,6 +60,7 @@ Semantic,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 datatype,,,,Common-term
 instruction,,,,
+well-formedness,,,,Common-term
 abstraction,,,,Common-term
 closures,,,,Common-term
 deriving,,,,
@@ -82,11 +86,13 @@ monoid,,,,Common-term
 nondeterministic,,,,
 pattern matching,,,,
 polymorphic,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 quantified,,,,Common-term
 reflection,,,,Common-term
 sequential ,,,,
 syntactic,,,,Common-term
 untyped lambda calculus,,,,Common-term
+well-formed,,,,Common-term
 Ahmed,,,,Name
 algebraic effects,,,,
 applicative,,,,Common-term
@@ -105,6 +111,7 @@ functional correspondence,,,,
 Go,,,,
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 meta-language,,,,
+meta-theory,,,"also ""metatheory""",Common-term
 ML,,,,Programming-language
 monadic interpreters,,,,
 operational semantics,,,,
@@ -112,6 +119,7 @@ partiality monad,,,,
 recursion,,,,Common-term
 reflect,,,,
 register,,,,
+SIGPLAN,,special interest group on programming languages,,
 small-step,,,,Common-term
 Small-step operational semantics,,,,
 Trigger,,,,
@@ -123,7 +131,6 @@ R)qc,,,,unclassified
 Expr,,,,unclassified
 interpSt,,,,unclassified
 PrintEff,,,,unclassified
-fmap,,,,unclassified
 ChanEff,,,,unclassified
 hanChan,,,,unclassified
 Zeroc,,,,unclassified
@@ -135,7 +142,6 @@ interpc,,,,unclassified
 PrintInt,,,,unclassified
 ReceiveInt,,,,unclassified
 SendInt,,,,unclassified
-forall,,,,unclassified
 non-deterministic,,,,unclassified
 non-terminating,,,,unclassified
 Effc,,,,unclassified
@@ -146,7 +152,6 @@ infChoice,,,,unclassified
 CTreeInf,,,,unclassified
 Hur,,,,unclassified
 right-biased,,,,unclassified
-well-formedness,,,,unclassified
 Xia,,,,unclassified
 Zdancewic,,,,unclassified
 al.'s,,,,unclassified
@@ -172,7 +177,6 @@ lower-level,,,,unclassified
 Mogelberg,,,,unclassified
 multi-stage,,,,unclassified
 near-semiring,,,,unclassified
-POPL,,,,unclassified
 Rasmus,,,,unclassified
 Rivas,,,,unclassified
 Vafeiadis,,,,unclassified
@@ -217,7 +221,6 @@ Li-yao,,,,unclassified
 Ludovic,,,,unclassified
 Malecha,,,,unclassified
 mechanising,,,,unclassified
-meta-theory,,,,unclassified
 MonadFail,,,,unclassified
 Myreen,,,,unclassified
 Nardelli,,,,unclassified
@@ -241,7 +244,6 @@ RelaxedMemory,,,,unclassified
 richly-featured,,,,unclassified
 Semantics-Directed,,,,unclassified
 Sigbjorn,,,,unclassified
-SIGPLAN,,,,unclassified
 snd,,,,unclassified
 specialises,,,,unclassified
 stackbased,,,,unclassified

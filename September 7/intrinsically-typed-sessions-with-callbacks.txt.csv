@@ -14,8 +14,9 @@ Wouter Swierstra,,,,Author
 Yannick Zakowski,,,,Author
 INRIA,,,,Institution
 session types,,,,
+ACM,,Association for Computing Machinery,,
 K ,,“K axiom”,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 callback,,,,
 protocol,,,,
 IO,Eye-oh,,,
@@ -42,12 +43,14 @@ concurrent,,,,Common-term
 context,,,,Common-term
 Java,,,,
 higher-order,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 Reynolds,,,,Name
 StateT,,,,Common-term
 abstraction,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 dependent,,,,Common-term
 endpoint,,,,
+object-oriented,,,,Common-term paradigm
 Scala,,,,Common-term programming-language
 untyped,,,,
 delegation,,,,
@@ -99,6 +102,7 @@ induction,,,,Common-term
 inductive,,,,Common-term
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 macro,,,,
+OOPSLA,oops-la,,,Conference
 Peyton Jones,,,,Name
 Power,,,,
 refinements,,,,
@@ -111,6 +115,8 @@ Swierstra,,,,
 thiemann@acm.org,,,,email
 toolchain,,,,
 type checker,,,,Common-term
+type-checked,,,,Common-term
+typechecking,,,,Common-term
 WGP@ICFP,,,,email
 suc,,,,unclassified
 RECV,,,,unclassified
@@ -161,7 +167,6 @@ ECOOP,,,,unclassified
 IntTreeF,,,,unclassified
 Miu,,,,unclassified
 Neykova,,,,unclassified
-POPL,,,,unclassified
 putStrLn,,,,unclassified
 Rumyana,,,,unclassified
 Session-Based,,,,unclassified
@@ -180,7 +185,6 @@ Informatik,,,,unclassified
 leafp,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
 LIPIcs,,,,unclassified
-object-oriented,,,,unclassified
 primClose,,,,unclassified
 Scalas,,,,unclassified
 addup-command,,,,unclassified
@@ -352,7 +356,6 @@ non-dependent,,,,unclassified
 non-empty,,,,unclassified
 non-monadic,,,,unclassified
 non-terminating,,,,unclassified
-OOPSLA,,,,unclassified
 OpenCert,,,,unclassified
 operator:7,,,,unclassified
 owner/author(s,,,,unclassified
@@ -393,8 +396,6 @@ Sung-Shik,,,,unclassified
 Text.putStrLn,,,,unclassified
 toN-fromN,,,,unclassified
 Tuosto,,,,unclassified
-type-checked,,,,unclassified
-Typechecking,,,,unclassified
 typerelated,,,,unclassified
 typestate,,,,unclassified
 values.3,,,,unclassified

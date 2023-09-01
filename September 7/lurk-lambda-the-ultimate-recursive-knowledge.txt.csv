@@ -12,14 +12,16 @@ Leonardo de Moura,,,,Author
 Mads Sig Ager,,,,researcher
 Sebastian Ullrich,,,,Author
 iterations,,,,
+ACM,,Association for Computing Machinery,,
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 recursive,,,,Common-term
 semantics,,,,
 compiler,,,,Common-term
 expression,,,,Common-term
 protocol,,,,
 reduction,,,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Lean,,,,
 recursion,,,,Common-term
 small-step,,,,Common-term
@@ -78,17 +80,28 @@ lambda-calculus,,,,Common-term
 Lean theorem prover,,,,
 namin@seas.harvard.edu,,,,email
 operational semantics,,,,
+POPL,pop-ill,Conference,,Common-term
+pre-computing,,,,Common-term
 recurrence,,,,
 redex,,,,
+redexes,,,,Common-term
 relational,,,,
+RISC-V,Risc Five,,,Computer-architecture
 rosario@ccny.cuny.edu,,,,email
 Rust,,,,Common-term programming-language
+Ryzen,,,,Hardware
 scalability,,,,
+SIGPLAN,,special interest group on programming languages,,
 SMT ,,,,
 stack,,,,
+Starknet,,,,Networking
+step-wise,,,,Common-term
 symbolic,,,,
 syntax-directed,,,,
+Threadripper,,,,Hardware
+type-check,,,,Common-term
 typechecker,,,,Common-term
+well-formedness,,,,Common-term
 Why,,,,
 R1CS,,,,unclassified
 zero-knowledge,,,,unclassified
@@ -266,8 +279,6 @@ performance-sensitive,,,,unclassified
 Phong,,,,unclassified
 Pietrzak,,,,unclassified
 Platzer,,,,unclassified
-POPL,,,,unclassified
-pre-computing,,,,unclassified
 Privacy-Preserving,,,,unclassified
 process3,,,,unclassified
 proving-system,,,,unclassified
@@ -278,35 +289,27 @@ re-executing,,,,unclassified
 real-world,,,,unclassified
 reasonably-sized,,,,unclassified
 Rechberger,,,,unclassified
-redexes,,,,unclassified
 Riad,,,,unclassified
-RISC-V,,,,unclassified
 RiscZero,,,,unclassified
-Ryzen,,,,unclassified
 Schofnegger,,,,unclassified
 SECD-machine,,,,unclassified
 self-evaluating,,,,unclassified
 Semantics-Directed,,,,unclassified
 side-effect,,,,unclassified
 SIGACT-SIGPLAN,,,,unclassified
-SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 SmartData,,,,unclassified
 software-engineering,,,,unclassified
 Somindu,,,,unclassified
-StarkNet,,,,unclassified
-step-wise,,,,unclassified
 sub-case,,,,unclassified
 sub-terms,,,,unclassified
 Super-Combinators,,,,unclassified
-Threadripper,,,,unclassified
 Time-Optimal,,,,unclassified
 Time/Space,,,,unclassified
 trade-offs,,,,unclassified
 Tsinghua,,,,unclassified
 type-certificate,,,,unclassified
 Type-Certificates,,,,unclassified
-type-check,,,,unclassified
 type-correctness,,,,unclassified
 type-tagged,,,,unclassified
 Tzialla,,,,unclassified
@@ -314,9 +317,7 @@ Ullrich,,,,unclassified
 under-utilized,,,,unclassified
 Vanishree,,,,unclassified
 Vesely,,,,unclassified
-w.r.t,,,,unclassified
 Wahby,,,,unclassified
-well-formedness,,,,unclassified
 write-once,,,,unclassified
 Y/N,,,,unclassified
 Yatima's,,,,unclassified

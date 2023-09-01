@@ -27,10 +27,11 @@ Roly Perera,,,,Author
 Stephanie Weirich,,,,Author
 University of Bristol,,,,Institution
 Imperial College London,,,,Institution
+ACM,,Association for Computing Machinery,,
 Semantic,,,,Common-term
 semantics,,,,
 K ,,“K axiom”,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 syntax,,,,Common-term
 bidirectional,,,,
 Haskell,,,,Common-term programming-language
@@ -39,13 +40,17 @@ Giarrusso ,,,,
 typeclass,,,,Common-term
 expression,,,,Common-term
 diff,,,,
+forall,,quantifier,,Common-term logic
 DSL,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
+SIGPLAN,,special interest group on programming languages,,
+concat,,concatenation common function,,Function
 Why,,,,
 category,,,,
 linear,,,,Common-term
 binder,like in bind,,,
 polymorphic,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 filter,,,,
 weakening,,,,Common-term
 context,,,,Common-term
@@ -59,6 +64,8 @@ pattern matching,,,,
 probabilistic,,,,Common-term
 expressive,,,,Common-term
 monoid,,,,Common-term
+PLDI,,Conference,,Common-term
+simply-typed,,,,Common-term
 typeclasses,,,,
 untyped,,,,
 abstraction,,,,Common-term
@@ -69,6 +76,7 @@ constructor,,,,Common-term
 contraction,,,,
 generic,,,,
 Gibbons,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 modular,,,,Common-term
 nil,,,,
 runtime,,,,Common-term
@@ -89,6 +97,7 @@ polymorphism,,,,Common-term
 staging,,,,
 syntactic,,,,Common-term
 Template Haskell ,,,,tool
+type-level,,,,Common-term
 Wadler,,,,Name
 Bernardy,,,,
 calculi,,,,
@@ -99,6 +108,7 @@ deriving,,,,
 destructor,,,,Common-term
 effect handlers,,,,
 equational,,,,Common-term
+fmap,,functor map common function,,Function
 heterogeneous,,,,
 Kripke,,“Kripke semantics”,,Name
 linear Haskell,,,,
@@ -122,6 +132,7 @@ array,,,,Common-term
 atomic,,,,
 Blelloch,,,,Name
 Boolean,,,,
+Call-by-Value,,(CBV),,Common-term evaluation
 case expression,,,,
 compiler,,,,Common-term
 conclusion,,,,
@@ -139,6 +150,7 @@ force,,,,Common-term evaluation
 GADT,Gad-it,Generalized algebraic data types,,Common-term
 Go,,,,
 Haskell@ICFP,,,,email
+host-language,,,,Common-term compilers
 Id,,,,
 induction,,,,Common-term
 instantiation,,,,
@@ -167,6 +179,7 @@ System F,,,,Common-term
 tg@(ECons,,,,email
 tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 Trigger,,,,
+type-theoretic,,,,Common-term
 Xi,,,,
 Unembedding,,,,unclassified
 HOAS,,,,unclassified
@@ -182,16 +195,13 @@ DSTLC,,,,unclassified
 Atkey,,,,unclassified
 PackDiffDelta,,,,unclassified
 USTLC,,,,unclassified
-forall,,,,unclassified
 mapSem,,,,unclassified
 Matsuda,,,,unclassified
 Bruijn,,,,unclassified
 EDSL,,,,unclassified
 first-order,,,,unclassified
 finally-tagless,,,,unclassified
-SIGPLAN,,,,unclassified
 PFun,,,,unclassified
-concat,,,,unclassified
 fst,,,,unclassified
 htr,,,,unclassified
 liftSO,,,,unclassified
@@ -219,7 +229,6 @@ IxZ,,,,unclassified
 liftSOn,,,,unclassified
 linesB,,,,unclassified
 parametricity,,,,unclassified
-POPL,,,,unclassified
 CTSFilter,,,,unclassified
 DSeq,,,,unclassified
 env1,,,,unclassified
@@ -268,9 +277,7 @@ mempty,,,,unclassified
 mkXs,,,,unclassified
 MyString,,,,unclassified
 OfLength,,,,unclassified
-PLDI,,,,unclassified
 Runciman,,,,unclassified
-simply-typed,,,,unclassified
 Spyratos,,,,unclassified
 transEnv,,,,unclassified
 tupling,,,,unclassified
@@ -343,7 +350,6 @@ runOpenN,,,,unclassified
 Sabry,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 toFuncU,,,,unclassified
-type-level,,,,unclassified
 UE.liftSOn,,,,unclassified
 unpairSem,,,,unclassified
 VECons,,,,unclassified
@@ -391,7 +397,6 @@ Ehrhard,,,,unclassified
 environment</title,,,,unclassified
 exEnv,,,,unclassified
 Extr,,,,unclassified
-fmap,,,,unclassified
 FOSSACS,,,,unclassified
 FPCA,,,,unclassified
 fromFunc,,,,unclassified
@@ -518,7 +523,6 @@ c.CTS,,,,unclassified
 Cache-Transfer,,,,unclassified
 cache-transferstyle,,,,unclassified
 Caires,,,,unclassified
-call-by-value,,,,unclassified
 cartesianRecreation,,,,unclassified
 Casati,,,,unclassified
 case--is,,,,unclassified
@@ -605,7 +609,6 @@ highperformance,,,,unclassified
 HOBiT's,,,,unclassified
 Holger,,,,unclassified
 Hongseok,,,,unclassified
-host-language,,,,unclassified
 https://pyro.ai,,,,unclassified
 ICDE,,,,unclassified
 ICDT,,,,unclassified
@@ -767,7 +770,6 @@ tupled,,,,unclassified
 TV</title,,,,unclassified
 Type-Based,,,,unclassified
 Type-directed,,,,unclassified
-type-theoretic,,,,unclassified
 Umeshwar,,,,unclassified
 unembeddeding,,,,unclassified
 unembedding's,,,,unclassified

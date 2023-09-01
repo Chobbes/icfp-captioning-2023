@@ -11,8 +11,9 @@ Shriram Krishnamurthi,,,,Author
 University of California,,,,Institution
 IT University of Copenhagen,,,,Institution
 monad,Mow-nad,,,Common-term
+ACM,,Association for Computing Machinery,,
 endpoint,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 higher-order,,,,Common-term
 IO,Eye-oh,,,
 protocol,,,,
@@ -26,16 +27,22 @@ expression,,,,Common-term
 effectful,,,,
 API,A.P.I.,Application Programming Interface,,Common-term
 freer monads,,,,
+type-level,,,,Common-term
 monadic,Mow-nad-ick,,,
 abstraction,,,,Common-term
+forall,,quantifier,,Common-term logic
 Honda,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 abstractions,,,,
 continuation,,,,
 session types,,,,
 constructor,,,,Common-term
 effect handler,,,,
+object-oriented,,,,Common-term paradigm
 paradigm,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 semantics,,,,
+SIGPLAN,,special interest group on programming languages,,
 compiled,,,,
 deadlock freedom,,,,
 functional programming,,,,
@@ -53,6 +60,7 @@ generic,,,,
 GHC,,,,compiler tool
 Glasgow Haskell Compiler,,,,compiler tool
 modularity,,,,Common-term
+OOPSLA,oops-la,,,Conference
 polymorphic,,,,Common-term
 Redmond,,,,
 applicative,,,,Common-term
@@ -105,7 +113,6 @@ priceOf,,,,unclassified
 primary-backup,,,,unclassified
 primarySt,,,,unclassified
 toLocTm,,,,unclassified
-type-level,,,,unclassified
 Weisenburger,,,,unclassified
 buyer2,,,,unclassified
 False,,,,unclassified
@@ -113,7 +120,6 @@ Lanese,,,,unclassified
 location-polymorphic,,,,unclassified
 mainChoreo,,,,unclassified
 cfg,,,,unclassified
-forall,,,,unclassified
 Haskell's,,,,unclassified
 locB,,,,unclassified
 scrutinee,,,,unclassified
@@ -130,14 +136,11 @@ mkDecision2,,,,unclassified
 mkHttpConfig,,,,unclassified
 ML5,,,,unclassified
 Nobuko,,,,unclassified
-Object-Oriented,,,,unclassified
-POPL,,,,unclassified
 Preda,,,,unclassified
 Qiu,,,,unclassified
 runNetwork,,,,unclassified
 Saverio,,,,unclassified
 ScalaLoci,,,,unclassified
-SIGPLAN,,,,unclassified
 two-buyer,,,,unclassified
 Yoshida,,,,unclassified
 bkup1,,,,unclassified
@@ -184,7 +187,6 @@ Lampson,,,,unclassified
 Mestanogullari,,,,unclassified
 mkDecision,,,,unclassified
 one-buyer,,,,unclassified
-OOPSLA,,,,unclassified
 Padovani,,,,unclassified
 Ravara,,,,unclassified
 readRequest,,,,unclassified

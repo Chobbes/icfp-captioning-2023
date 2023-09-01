@@ -15,7 +15,8 @@ Massachusetts Institute of Technology,,,,Institution
 fixpoint,,,,Common-term
 stack,,,,
 combinator,,,,Common-term
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 recursive,,,,Common-term
 modular,,,,Common-term
 filter,,,,
@@ -28,6 +29,7 @@ monotone,,,,Common-term
 precision,,Gradual typing,,theory
 WebAssembly,,,,Common-term programming-language
 monolithic,,,,
+SIGPLAN,,special interest group on programming languages,,
 derivation,,,,
 higher-order,,,,Common-term
 recursion,,,,Common-term
@@ -45,9 +47,12 @@ effectful,,,,
 generic,,,,
 K ,,“K axiom”,,
 meta-language,,,,
+object-oriented,,,,Common-term paradigm
+POPL,pop-ill,Conference,,Common-term
 context-sensitive,,,,Common-term parsing
 Hudak,,,,Name
 Id,,,,
+OOPSLA,oops-la,,,Conference
 reduction,,,,Common-term
 Boolean,,,,
 Control-flow analysis,,,,
@@ -59,6 +64,7 @@ monotonicity,,Mathematical property,,Common-term
 ND,(natural deduction),,,Common-term
 normalized,,,,Common-term
 Paterson,,,,
+PLDI,,Conference,,Common-term
 Plotkin,,Name,,name
 Scala,,,,Common-term programming-language
 Tarski,,,,
@@ -77,6 +83,7 @@ denotational semantics,,,,semantics
 derive,,,,
 desugaring,,,,Common-term
 distribution,,,,
+domain-theoretic,,,,Common-term
 Dominique Devriese,,,,
 Flanagan,,,,
 garbage collection,,GC,,Common-term
@@ -128,7 +135,6 @@ graph-shaped,,,,unclassified
 Erdweg,,,,unclassified
 resultcached,,,,unclassified
 rrors,,,,unclassified
-SIGPLAN,,,,unclassified
 Stratego,,,,unclassified
 eval(b,,,,unclassified
 fine-tuning,,,,unclassified
@@ -156,8 +162,6 @@ callInSCG,,,,unclassified
 constant-propagation,,,,unclassified
 erm,,,,unclassified
 fine-tune,,,,unclassified
-Object-Oriented,,,,unclassified
-POPL,,,,unclassified
 real-world,,,,unclassified
 Sagiv,,,,unclassified
 sizeSCG,,,,unclassified
@@ -185,7 +189,6 @@ isFunBody,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
 monotoneold,,,,unclassified
 "nv,Expr",,,,unclassified
-OOPSLA,,,,unclassified
 recordCallSite,,,,unclassified
 refactoring,,,,unclassified
 rror,,,,unclassified
@@ -228,7 +231,6 @@ Mauborgne,,,,unclassified
 MonotoneCache,,,,unclassified
 non-repeating,,,,unclassified
 params,,,,unclassified
-PLDI,,,,unclassified
 post-fixpoints,,,,unclassified
 Radhia,,,,unclassified
 recurrentCall,,,,unclassified
@@ -302,7 +304,6 @@ Demand-Driven,,,,unclassified
 destruc,,,,unclassified
 Devanbu,,,,unclassified
 diviter,,,,unclassified
-Domain-theoretic,,,,unclassified
 Dybvig,,,,unclassified
 Eelco,,,,unclassified
 Eichberg,,,,unclassified
@@ -478,7 +479,6 @@ Venet,,,,unclassified
 Vesal,,,,unclassified
 VMCAI,,,,unclassified
 Vojdani,,,,unclassified
-w.r.t,,,,unclassified
 WasmBench,,,,unclassified
 well-typedness,,,,unclassified
 while-loops,,,,unclassified

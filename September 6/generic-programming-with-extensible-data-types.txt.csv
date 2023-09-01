@@ -16,16 +16,19 @@ Stephanie Weirich,,,,Author
 Wouter Swierstra,,,,Author
 Universiteit Utrecht,,,,Institution
 University of Nottingham,,,,Institution
+ACM,,Association for Computing Machinery,,
 generic,,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 K ,,“K axiom”,,
 Agda,,Agda-style,,Common-term Programming-language
 constructor,,,,Common-term
 entailment,,,,
+SIGPLAN,,special interest group on programming languages,,
 functor,,,,Common-term
 functional programming,,,,
 syntax,,,,Common-term
 duality,,,,
+fmap,,functor map common function,,Function
 scoped,,,,Common-term
 dependent,,,,Common-term
 fold,,,,Common-term
@@ -36,6 +39,7 @@ expressiveness,,,,Common-term
 reflect,,,,
 algebraic effects,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
+POPL,pop-ill,Conference,,Common-term
 mechanization,,,,
 reify,,,,Common-term
 AST ,A.S.T.,Abstract Syntax Tree,,
@@ -66,6 +70,8 @@ ML,,,,Programming-language
 quantified,,,,Common-term
 session types,,,,
 syntactic,,,,Common-term
+type-level,,,,Common-term
+well-formed,,,,Common-term
 abstraction,,,,Common-term
 case expression,,,,
 conclusion,,,,
@@ -74,18 +80,22 @@ denotational semantics,,,,semantics
 effectful,,,,
 embeddings,,,,
 GAN,,generative adversarial network,,Common-term machine-learning
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 intersection types,,,,Common-term
 isomorphic,,,,Common-term
 Kiselyov,,,,
 Krishnaswami,,,,
 metaprogramming,,,,Common-term
 metatheory,,,,Common-term
+object-oriented,,,,Common-term paradigm
 operational semantics,,,,
 Peyton Jones,,,,Name
 Power,,,,
 predicative,,,,Common-term
 Pretnar,,,,
 subtyping,,,,Common-term
+typechecking,,,,Common-term
+well-formedness,,,,Common-term
 alexander-hubers@uiowa.edu,,,,email
 bidirectional,,,,
 Bird ,,,,
@@ -113,22 +123,21 @@ matching,,“pattern matching”,,Common-term
 monoids,,,,Common-term
 MSFP@ETAPS,,,,email
 OCaml,,,,Common-term programming-language
+PLDI,,Conference,,Common-term
 quantifier,,,,Common-term
 Semantic,,,,Common-term
+simply-typed,,,,Common-term
 Swierstra,,,,
 TyDe@ICFP,,,,email
 Vytiniotis,,,,
 Why,,,,
-SIGPLAN,,,,unclassified
 KEnv,,,,unclassified
 kinding,,,,unclassified
 label-generic,,,,unclassified
 p(i,,,,unclassified
 False,,,,unclassified
-fmap,,,,unclassified
 JKke,,,,unclassified
 non-commutative,,,,unclassified
-POPL,,,,unclassified
 oj,,,,unclassified
 rapply,,,,unclassified
 Leijen,,,,unclassified
@@ -171,7 +180,6 @@ n-l,,,,unclassified
 n-r,,,,unclassified
 Remy-style,,,,unclassified
 Reppy,,,,unclassified
-type-level,,,,unclassified
 type-transforming,,,,unclassified
 ad-hoc,,,,unclassified
 Blott,,,,unclassified
@@ -204,7 +212,6 @@ mixin,,,,unclassified
 n-refl,,,,unclassified
 nanopass,,,,unclassified
 non-trivial,,,,unclassified
-object-oriented,,,,unclassified
 p(k,,,,unclassified
 prjd,,,,unclassified
 r(j,,,,unclassified
@@ -218,13 +225,11 @@ t-sing,,,,unclassified
 t.t,,,,unclassified
 Tarmo,,,,unclassified
 Type-preserving,,,,unclassified
-Typechecking,,,,unclassified
 unlabel,,,,unclassified
 upd,,,,unclassified
 Ur's,,,,unclassified
 Ur/Web,,,,unclassified
 Uustalu,,,,unclassified
-Well-formedness,,,,unclassified
 WGP,,,,unclassified
 y.(case,,,,unclassified
 Acar,,,,unclassified
@@ -325,7 +330,6 @@ over-specified,,,,unclassified
 overconstrain,,,,unclassified
 owner/author(s,,,,unclassified
 pickedIn,,,,unclassified
-PLDI,,,,unclassified
 pointwise-application,,,,unclassified
 precomposes,,,,unclassified
 predicativity,,,,unclassified
@@ -347,7 +351,6 @@ section--and,,,,unclassified
 SF2,,,,unclassified
 Shin-Cheng,,,,unclassified
 Shu-Hung,,,,unclassified
-simply-typed,,,,unclassified
 statically-typed,,,,unclassified
 strings--without,,,,unclassified
 Sumii,,,,unclassified

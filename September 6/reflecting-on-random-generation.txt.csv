@@ -14,8 +14,9 @@ University of Pennsylvania,,,,Institution
 University of Bristol,,,,Institution
 GitHub,,,,Institution
 reflect,,,,
+ACM,,Association for Computing Machinery,,
 monadic,Mow-nad-ick,,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 QuickCheck,,,,testing tool
 Interp,,,,
 monad,Mow-nad,,,Common-term
@@ -24,12 +25,15 @@ mutation,,,,
 bidirectional,,,,
 distribution,,,,
 constructor,,,,Common-term
+fmap,,functor map common function,,Function
 integer,,,,Common-term
 Gen,,,,
+SIGPLAN,,special interest group on programming languages,,
 K ,,“K axiom”,,
 Kiselyov,,,,
 Power,,,,
 System F,,,,Common-term
+forall,,quantifier,,Common-term logic
 GI,,,,
 syntax,,,,Common-term
 API,A.P.I.,Application Programming Interface,,Common-term
@@ -38,6 +42,7 @@ divergence,,,,Common-term
 expression,,,,Common-term
 freer monads,,,,
 Id,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Ishii,,,,
 lemma,,,,Common-term
 probabilistic,,,,Common-term
@@ -69,12 +74,13 @@ free monad,free mow-nad,,,
 Gibbons,,,,
 Girard,,,,Name
 homomorphism,,,,Common-term
-lambda calculus,lam-duh calculus,,,theory
 modular,,,,Common-term
 PL,,,,
+PLDI,,Conference,,Common-term
 reflection,,,,Common-term
 Reynolds,,,,Name
 Scheme,,,,Common-term programming-language
+simply-typed lambda calculus,,,,Common-term
 well-typed,,,,Common-term
 algebras,,,,
 applicative,,,,Common-term
@@ -102,7 +108,9 @@ lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function
 laziness,,,,
 meng.wang@bristol.ac,,,,email
 normalize,,computations,,theory
+object-oriented,,,,Common-term paradigm
 OCaml,,,,Common-term programming-language
+OOPSLA,oops-la,,,Conference
 pattern matching,,,,
 polymorphic,,,,Common-term
 producer,,,,
@@ -125,7 +133,6 @@ profunctors,,,,unclassified
 IFH,,,,unclassified
 PMPs,,,,unclassified
 PartialArr,,,,unclassified
-fmap,,,,unclassified
 voidAnn,,,,unclassified
 example-based,,,,unclassified
 oneof,,,,unclassified
@@ -137,11 +144,9 @@ context-free,,,,unclassified
 dimap,,,,unclassified
 expr,,,,unclassified
 interpRreflect,,,,unclassified
-SIGPLAN,,,,unclassified
 interpRgenerate,,,,unclassified
 liftM2,,,,unclassified
 test-case,,,,unclassified
-forall,,,,unclassified
 ghci,,,,unclassified
 PMP,,,,unclassified
 Soremekun,,,,unclassified
@@ -203,14 +208,12 @@ PACKAGE.JSON,,,,unclassified
 Paka,,,,unclassified
 Paraskevopoulou,,,,unclassified
 Peleg,,,,unclassified
-PLDI,,,,unclassified
 probabilityOf,,,,unclassified
 QC.frequency,,,,unclassified
 QuickCheck's,,,,unclassified
 rKR,,,,unclassified
 Runciman,,,,unclassified
 side-effects,,,,unclassified
-simply-typed,,,,unclassified
 Smallcheck,,,,unclassified
 SmartCheck,,,,unclassified
 snd,,,,unclassified
@@ -368,13 +371,11 @@ Node.js,,,,unclassified
 non-terminals,,,,unclassified
 non-termination,,,,unclassified
 nonzero(factor,,,,unclassified
-Object-Oriented,,,,unclassified
 Odersky,,,,unclassified
 ofWeight,,,,unclassified
 Ohad,,,,unclassified
 one-another,,,,unclassified
 ones--in,,,,unclassified
-OOPSLA,,,,unclassified
 OOPSLA2,,,,unclassified
 original-date,,,,unclassified
 out-dir,,,,unclassified

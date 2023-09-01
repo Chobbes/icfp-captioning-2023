@@ -6,8 +6,9 @@ Kuang-Chen Lu,,,,Author
 Matthias Felleisen,,,,Author
 Brown University,,,,Institution
 Carnegie Mellon University,,CMU,,Institution
+ACM,,Association for Computing Machinery,,
 Racket,racket,Racket programming language,,
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 syntax,,,,Common-term
 syntactic,,,,Common-term
 semantics,,,,
@@ -24,14 +25,17 @@ aliasing,,,,
 expression,,,,Common-term
 instruction,,,,
 K ,,“K axiom”,,
+object-oriented,,,,Common-term paradigm
 conclusion,,,,
 datatype,,,,Common-term
 Felleisen,,,,
 Go,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 Krishnamurthi,,,,
 OCaml,,,,Common-term programming-language
 recursion,,,,Common-term
 reflect,,,,
+SIGPLAN,,special interest group on programming languages,,
 StackOverflow,,,,
 contextual,,,,Common-term
 Findler,,,,
@@ -44,6 +48,7 @@ match,,,,
 ML,,,,Programming-language
 Nystrom,,,,
 observational,,,,
+OOPSLA,oops-la,,,Conference
 recursive,,,,Common-term
 Rust,,,,Common-term programming-language
 shriram@brown.edu,,,,email
@@ -71,7 +76,6 @@ Commun,,,,unclassified
 get_x,,,,unclassified
 Lispy,,,,unclassified
 multi-armed,,,,unclassified
-object-oriented,,,,unclassified
 Politz,,,,unclassified
 Resnick,,,,unclassified
 Wilensky,,,,unclassified
@@ -89,7 +93,6 @@ Masnick,,,,unclassified
 MATLAB,,,,unclassified
 Pyret-only,,,,unclassified
 Shrestha,,,,unclassified
-SIGPLAN,,,,unclassified
 SPLASH-E,,,,unclassified
 Tshukudu's,,,,unclassified
 Whalley,,,,unclassified
@@ -189,7 +192,6 @@ Multiple-select,,,,unclassified
 my-account,,,,unclassified
 Nischal,,,,unclassified
 non-compositional,,,,unclassified
-OOPSLA,,,,unclassified
 Oppezzo,,,,unclassified
 out-dented,,,,unclassified
 overviewed,,,,unclassified

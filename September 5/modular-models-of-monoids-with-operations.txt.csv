@@ -20,7 +20,8 @@ equational,,,,Common-term
 monoid,,,,Common-term
 theorem,,,,Common-term
 K ,,“K axiom”,,
-ICFP,,,,Common-term
+ACM,,Association for Computing Machinery,,
+ICFP,,Conference,,Common-term
 algebras,,,,
 monad,Mow-nad,,,Common-term
 syntax,,,,Common-term
@@ -55,6 +56,7 @@ algebraic effects,,,,
 fibration,,,,Common-term
 graded monads,,,,
 isomorphic,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 denotational semantics,,,,semantics
 lattice,,,,Common-term
 fold,,,,Common-term
@@ -67,6 +69,7 @@ variable-binding,,,,Common-term
 coherence,,,,
 expression,,,,Common-term
 Gibbons,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 IO,Eye-oh,,,
 Katsumata,,,,
 Liang,,,,Name
@@ -86,6 +89,7 @@ MTL,,,,
 nondeterministic,,,,
 pointer,,,,Common-term
 Reynolds,,,,Name
+SIGPLAN,,special interest group on programming languages,,
 untyped,,,,
 Wadler,,,,Name
 applicative functor,,,,
@@ -150,7 +154,6 @@ Eqs(C,,,,unclassified
 Ghani,,,,unclassified
 initiality,,,,unclassified
 non-algebraic,,,,unclassified
-POPL,,,,unclassified
 coequalisers,,,,unclassified
 Endo(Set,,,,unclassified
 endofunctor,,,,unclassified
@@ -221,7 +224,6 @@ pushouts,,,,unclassified
 quotienting,,,,unclassified
 Rosicky,,,,unclassified
 set-indexed,,,,unclassified
-SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 SIGPLANSIGACT,,,,unclassified
 Staton,,,,unclassified

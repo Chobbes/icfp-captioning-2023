@@ -11,16 +11,19 @@ Meng Wang,,,,Author
 Tram Hoang,,,,Author
 University of Pennsylvania,,,,Institution
 University of Maryland,,Often UMD,,Institution
+ACM,,Association for Computing Machinery,,
 K ,,“K axiom”,,
 QuickCheck,,,,testing tool
 Haskell,,,,Common-term programming-language
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 Property-based testing,,,,
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 enumeration,,,,Common-term
 functional programming,,,,
+SIGPLAN,,special interest group on programming languages,,
 QuickChick,,,,testing tool
 Erlang,,,,Common-term programming-language
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 mutation,,,,
 OCaml,,,,Common-term programming-language
 Scala,,,,Common-term programming-language
@@ -32,6 +35,7 @@ syntax,,,,Common-term
 derive,,,,
 distribution,,,,
 Findler,,,,
+object-oriented,,,,Common-term paradigm
 probability,,,,Common-term
 well-typed,,,,Common-term
 conclusion,,,,
@@ -48,6 +52,7 @@ bcpierce@cis.upenn.edu,,,,email
 calculi,,,,
 compiler,,,,Common-term
 constructor,,,,Common-term
+Coq's,“Coq”,,,Common-term programming-language theorem-prover
 ecosystem,,,,
 filter,,,,
 force,,,,Common-term evaluation
@@ -61,6 +66,7 @@ lambda calculi,,,,Common-term
 lambda calculus,lam-duh calculus,,,theory
 leonidas@umd.edu,,,,email
 Non-determinism,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
 Prop,,,,
 recursive,,,,Common-term
 redex,,,,
@@ -77,7 +83,6 @@ type-based,,,,unclassified
 SmallCheck,,,,unclassified
 Lampropoulos,,,,unclassified
 fuzzer,,,,unclassified
-SIGPLAN,,,,unclassified
 STLC,,,,unclassified
 FuzzChick,,,,unclassified
 fuzzers,,,,unclassified
@@ -111,7 +116,6 @@ Kuncak,,,,unclassified
 Loscher,,,,unclassified
 Mann-Whitney,,,,unclassified
 Midtgaard,,,,unclassified
-Object-Oriented,,,,unclassified
 specification-based,,,,unclassified
 specification-driven,,,,unclassified
 Test-Case,,,,unclassified
@@ -161,7 +165,6 @@ Blockchain,,,,unclassified
 bug-fixes,,,,unclassified
 cfg,,,,unclassified
 code-coverage,,,,unclassified
-Coq's,,,,unclassified
 correct-by-construction,,,,unclassified
 crossword-puzzler's,,,,unclassified
 Dagstuhl,,,,unclassified
@@ -225,7 +228,6 @@ parse_results(results,,,,unclassified
 Patrik,,,,unclassified
 PBT-curious,,,,unclassified
 per-framework,,,,unclassified
-POPL,,,,unclassified
 print(overall_solved(df,,,,unclassified
 prop=prop,,,,unclassified
 property-based,,,,unclassified

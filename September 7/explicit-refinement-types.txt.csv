@@ -13,9 +13,10 @@ succ,,,,
 K ,,“K axiom”,,
 refinement types,,,,
 ghost,,,,
+ACM,,Association for Computing Machinery,,
 erasure,,type erasure,,Common-term
 dependent,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 Ret,,,,
 context,,,,Common-term
 well-typed,,,,Common-term
@@ -35,12 +36,14 @@ induction,,,,Common-term
 intersection types,,,,Common-term
 IR ,I.R.,intermediate representation,,
 refinements,,,,
+simply-typed,,,,Common-term
 Coq,“Coq”,,,Common-term programming-language theorem-prover
-lambda calculus,lam-duh calculus,,,theory
 quantified,,,,Common-term
+well-formed,,,,Common-term
 derivation,,,,
 monad,Mow-nad,,,Common-term
 propositional,,,,Common-term
+simply-typed lambda calculus,,,,Common-term
 category,,,,
 expression,,,,Common-term
 runtime,,,,Common-term
@@ -49,21 +52,29 @@ ATS ,,“Advanced Type System”,,Programming-language
 conjunction,,,,
 Dependent types,,,,types
 formalization,,,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 inductive,,,,Common-term
 quantifier,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 tactic,,,,
+well-formedness,,,,Common-term
 Curry-Howard,,,,
 Haskell,,,,Common-term programming-language
 Hoare logic,,,,Common-term
 injection,,,,
 Liquid Haskell,,,,Tool programming-language
+POPL,pop-ill,Conference,,Common-term
 Prop,,,,
 recursive,,,,Common-term
 Reynolds,,,,Name
 syntax,,,,Common-term
+type-theoretic,,,,Common-term
+typechecking,,,,Common-term
 binder,like in bind,,,
-call-by-push-value,,,,Common-term
+Call-by-Push-Value,,(CBPV),,Common-term evaluation
+Call-by-Value,,(CBV),,Common-term evaluation
 categorical semantics,,,,
+codebase,,,,Common-term
 coproduct,,,,
 datatype,,,,Common-term
 decidable,,,,
@@ -86,6 +97,7 @@ coherence,,,,
 Curry-Howard correspondence,,,,Common-term
 dependently-typed,,,,types
 fibration,,,,Common-term
+fmap,,functor map common function,,Function
 Gen,,,,
 Go,,,,
 IMP,Like the little demon “imp”,A simple “imperative” programming language,,
@@ -94,8 +106,10 @@ integer,,,,Common-term
 Katsumata,,,,
 Kleisli,,,,
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+lambda calculus,lam-duh calculus,,,theory
 linear,,,,Common-term
 logical relation,,,,Common-term
+Martin-Lof,,,Martin-Lôf,
 modalities,,,,Common-term
 Moggi,,,,Name
 polymorphism,,,,Common-term
@@ -116,9 +130,12 @@ congruence,,,,Common-term
 decidability,,,,
 derive,,,,
 desugaring,,,,Common-term
+domain-theoretic,,,,Common-term
 equational,,,,Common-term
 equational theory,,,,Common-term
+existentials,,quantification,,Common-term logic
 expressiveness,,,,Common-term
+forall,,quantifier,,Common-term logic
 functional programming,,,,
 functor,,,,Common-term
 Id,,,,
@@ -131,16 +148,23 @@ lambda-calculus,,,,Common-term
 linear-time,,,,Common-term
 mechanization,,,,
 meta-language,,,,
+meta-theory,,,"also ""metatheory""",Common-term
+metatheoretic,,,,Common-term
+metatheoretical,,,,Common-term
 metatheory,,,,Common-term
 ML-style,,Similar to ML programming language,,
 modal,,,,
+modus ponens,/ˈmoʊdəs ˈpoʊnɛnz/,,,Common-term
 monoid,,,,Common-term
 monotonicity,,Mathematical property,,Common-term
 nk480@cl.cam.ac.uk,,,,email
 NP-hard,,,,Common-term
+Nuprl,new pearl,,,Common-term proof-assistant tool
 OCaml,,,,Common-term programming-language
+OOPSLA,oops-la,,,Conference
 operational semantics,,,,
 Peano,,,,
+PLDI,,Conference,,Common-term
 propositional equality,,,,Common-term
 quadratic,,,,Common-term
 reflexivity,,,,Common-term
@@ -158,7 +182,6 @@ stlc,,,,unclassified
 prK,,,,unclassified
 natrec,,,,unclassified
 JK,,,,unclassified
-simply-typed,,,,unclassified
 Vec,,,,unclassified
 okK,,,,unclassified
 Vec.len,,,,unclassified
@@ -169,18 +192,11 @@ let-binding,,,,unclassified
 Mellies,,,,unclassified
 MJ||K,,,,unclassified
 set-theoretic,,,,unclassified
-SIGPLAN,,,,unclassified
-well-formedness,,,,unclassified
 Zeilberger,,,,unclassified
-POPL,,,,unclassified
-type-theoretic,,,,unclassified
-typechecking,,,,unclassified
 Vec.len_def,,,,unclassified
 Aczel,,,,unclassified
 Atkey,,,,unclassified
 Awodey,,,,unclassified
-call-by-value,,,,unclassified
-codebase,,,,unclassified
 Discr,,,,unclassified
 Gambino,,,,unclassified
 ill-typed,,,,unclassified
@@ -208,7 +224,6 @@ elementwise,,,,unclassified
 Eq-WF,,,,unclassified
 ETAPS,,,,unclassified
 Exists-WF,,,,unclassified
-fmap,,,,unclassified
 FOSSACS,,,,unclassified
 HasType.subst_stlc_commute,,,,unclassified
 Hongwei,,,,unclassified
@@ -231,7 +246,6 @@ Let-Set,,,,unclassified
 Let-Set-Pr,,,,unclassified
 LICS,,,,unclassified
 M(JK,,,,unclassified
-Martin-Lof,,,,unclassified
 Miquel,,,,unclassified
 MJK,,,,unclassified
 N.Vec,,,,unclassified
@@ -289,7 +303,6 @@ Danel,,,,unclassified
 Deduction---CADE-18,,,,unclassified
 destructure,,,,unclassified
 Dimitrios,,,,unclassified
-domain-theoretic,,,,unclassified
 dsimp,,,,unclassified
 early-stage,,,,unclassified
 easily-trusted,,,,unclassified
@@ -299,12 +312,10 @@ entailment-based,,,,unclassified
 equatiosn,,,,unclassified
 Escardo,,,,unclassified
 exceptions/partial,,,,unclassified
-existentials,,,,unclassified
 false,,,,unclassified
 False-WF,,,,unclassified
 fibrational,,,,unclassified
 Fn-WF,,,,unclassified
-forall,,,,unclassified
 foregrounding,,,,unclassified
 FroCoS,,,,unclassified
 fully-typed,,,,unclassified
@@ -347,9 +358,6 @@ logic-enriched,,,,unclassified
 Luo-style,,,,unclassified
 Matu,,,,unclassified
 McBride's,,,,unclassified
-meta-theory,,,,unclassified
-metatheoretic,,,,unclassified
-metatheoretical,,,,unclassified
 Milner's,,,,unclassified
 Moggi's,,,,unclassified
 mostly-automated,,,,unclassified
@@ -357,18 +365,14 @@ multi-sorted,,,,unclassified
 Mumbai,,,,unclassified
 Nats-WF,,,,unclassified
 NK,,,,unclassified
-Nuprl,,,,unclassified
 Obj.magic,,,,unclassified
 off-the-shelf,,,,unclassified
-OOPSLA,,,,unclassified
 Or-WF,,,,unclassified
 owner/author(s,,,,unclassified
 parametricity,,,,unclassified
 Paul-Andre,,,,unclassified
 Peyton-Jones,,,,unclassified
 Pfenning,,,,unclassified
-PLDI,,,,unclassified
-ponens,,,,unclassified
 post-conditions,,,,unclassified
 postconditions,,,,unclassified
 pre-conditions,,,,unclassified

@@ -10,11 +10,13 @@ Meng Wang,,,,Author
 Nicolas Wu,,,,Author
 Simon Peyton Jones,,,,Author
 Jane Street,,,,Institution
+compile-time,,,,Common-term
+ACM,,Association for Computing Machinery,,
 macro,,,,
 ref,,,,
 staging,,,,
 runtime,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 expression,,,,Common-term
 context,,,,Common-term
@@ -38,7 +40,10 @@ Racket,racket,Racket programming language,,
 Template Haskell ,,,,tool
 calculi,,,,
 induction,,,,Common-term
+type-check,,,,Common-term
+well-formed,,,,Common-term
 Scala,,,,Common-term programming-language
+SIGPLAN,,special interest group on programming languages,,
 dynamic semantics,,,,
 abstraction,,,,Common-term
 MetaML,,,,
@@ -50,7 +55,9 @@ syntactic,,,,Common-term
 contextual,,,,Common-term
 metaprogramming,,,,Common-term
 modal,,,,
+POPL,pop-ill,Conference,,Common-term
 semantics,,,,
+type-checked,,,,Common-term
 binder,like in bind,,,
 datatype,,,,Common-term
 expressive,,,,Common-term
@@ -61,10 +68,12 @@ Leroy,,,,Name
 match,,,,
 ML,,,,Programming-language
 operational semantics,,,,
+well-formedness,,,,Common-term
 array,,,,Common-term
 automata,,,,Common-term
 closure,,,,Common-term
 Go,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 macro system,,,,Common-term
 Moggi,,,,Name
 Scheme,,,,Common-term programming-language
@@ -107,10 +116,10 @@ System F,,,,Common-term
 transition system,,,,
 type checker,,,,Common-term
 Type-preservation,,,,
+typechecking,,,,Common-term
 unification,,,,
 weakening,,,,Common-term
 Why,,,,
-compile-time,,,,unclassified
 MacoCaml,,,,unclassified
 I.H,,,,unclassified
 mpower,,,,unclassified
@@ -126,14 +135,12 @@ level-annotated,,,,unclassified
 ev-qote,,,,unclassified
 MacroML,,,,unclassified
 printk,,,,unclassified
-type-check,,,,unclassified
 Calcagno,,,,unclassified
 ev-assign,,,,unclassified
 ev-ref,,,,unclassified
 ev-splice,,,,unclassified
 ev-spliceCode,,,,unclassified
 power5,,,,unclassified
-SIGPLAN,,,,unclassified
 st-def,,,,unclassified
 st-importC,,,,unclassified
 st-importR,,,,unclassified
@@ -208,14 +215,12 @@ m-struct,,,,unclassified
 p-mvar,,,,unclassified
 p-pmvar,,,,unclassified
 pmacro,,,,unclassified
-POPL,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 st-empty,,,,unclassified
 ST.fresh,,,,unclassified
 string_of_int,,,,unclassified
 Strymonas,,,,unclassified
 Stucki,,,,unclassified
-type-checked,,,,unclassified
 type-checking,,,,unclassified
 type-checks,,,,unclassified
 well-stagedness,,,,unclassified
@@ -240,7 +245,6 @@ v-importR,,,,unclassified
 v-struct,,,,unclassified
 Vaugon,,,,unclassified
 Walid,,,,unclassified
-Well-Formedness,,,,unclassified
 Aggelos,,,,unclassified
 Biboudis,,,,unclassified
 Binding-Time,,,,unclassified
@@ -441,7 +445,6 @@ Tobin-Hochstadt,,,,unclassified
 toplevel,,,,unclassified
 type-specialized,,,,unclassified
 type-specific,,,,unclassified
-typechecking,,,,unclassified
 typedirected,,,,unclassified
 v-def,,,,unclassified
 v-empty,,,,unclassified

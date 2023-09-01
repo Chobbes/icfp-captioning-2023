@@ -11,8 +11,9 @@ Peter Thiemann,,,,Author
 Stephanie Weirich,,,,Author
 Massachusetts Institute of Technology,,,,Institution
 Go,,,,
+ACM,,Association for Computing Machinery,,
 Haskell,,,,Common-term programming-language
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 API,A.P.I.,Application Programming Interface,,Common-term
 recursive,,,,Common-term
 expression,,,,Common-term
@@ -26,7 +27,9 @@ compiler,,,,Common-term
 denotational semantics,,,,semantics
 functional programming,,,,
 Peyton Jones,,,,Name
+SIGPLAN,,special interest group on programming languages,,
 abstraction,,,,Common-term
+forall,,quantifier,,Common-term logic
 Boolean,,,,
 concurrent,,,,Common-term
 lattice,,,,Common-term
@@ -62,6 +65,7 @@ traversal,,,,Common-term
 Why,,,,
 abstractions,,,,
 automata,,,,Common-term
+Call-by-Value,,(CBV),,Common-term evaluation
 conclusion,,,,
 conjunction,,,,
 constructor,,,,Common-term
@@ -70,6 +74,7 @@ dependent,,,,Common-term
 deriving,,,,
 discrete,,,,
 disentanglement,,,,
+domain theory,,,,Common-term
 Dominique Devriese,,,,
 effectful,,,,
 embeddings,,,,
@@ -90,12 +95,14 @@ ML,,,,Programming-language
 modular,,,,Common-term
 observational,,,,
 OCaml,,,,Common-term programming-language
+POPL,pop-ill,Conference,,Common-term
 referential transparency,,,,Common-term
 semantics,,,,
 Steele,,,,Name
 tail-recursive,,,,
 thread-safety,,,,
 Trigger,,,,
+type-level,,,,Common-term
 Vytiniotis,,,,
 Wadler,,,,Name
 RSet,,,,unclassified
@@ -133,10 +140,8 @@ M.fromList,,,,unclassified
 RB.get,,,,unclassified
 S.insert,,,,unclassified
 S.Set,,,,unclassified
-SIGPLAN,,,,unclassified
 AppF,,,,unclassified
 buildDenotation,,,,unclassified
-forall,,,,unclassified
 LamF,,,,unclassified
 LetRecF,,,,unclassified
 M.union,,,,unclassified
@@ -259,7 +264,6 @@ ASIAN'99,,,,unclassified
 back-translation,,,,unclassified
 Boehm,,,,unclassified
 Breitner,,,,unclassified
-call-by-value,,,,unclassified
 case-study,,,,unclassified
 code's,,,,unclassified
 code.2,,,,unclassified
@@ -341,7 +345,6 @@ openly-recursive,,,,unclassified
 owner/author(s,,,,unclassified
 PEDESTRIAN-STYLE,,,,unclassified
 plugins,,,,unclassified
-POPL,,,,unclassified
 RDB.get,,,,unclassified
 re-phrased,,,,unclassified
 re-phrases,,,,unclassified
@@ -379,7 +382,6 @@ System.IO.RecThunk,,,,unclassified
 Thiagarajan,,,,unclassified
 Timany,,,,unclassified
 todo-action,,,,unclassified
-type-level,,,,unclassified
 Type-safe,,,,unclassified
 Umut,,,,unclassified
 unsafePerformIO-powered,,,,unclassified

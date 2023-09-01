@@ -10,11 +10,12 @@ Ugo Dal Lago,,,,Author
 IT University of Copenhagen,,,,Institution
 lemma,,,,Common-term
 K ,,“K axiom”,,
+ACM,,Association for Computing Machinery,,
 Async,,,,
 modal,,,,
 heap,,,,
 induction,,,,Common-term
-ICFP,,,,Common-term
+ICFP,,Conference,,Common-term
 context,,,,Common-term
 GC,,garbage collector,,Common-term
 operational semantics,,,,
@@ -36,8 +37,10 @@ zip,,,,
 Fitch-style,,,,
 functional programming,,,,
 modality,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
 discrete,,,,
 Elimination,,,,
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
 linear,,,,Common-term
 runtime,,,,Common-term
 syntax,,,,Common-term
@@ -45,12 +48,14 @@ abstraction,,,,Common-term
 calculi,,,,
 concurrent,,,,Common-term
 Hudak,,,,Name
+POPL,pop-ill,Conference,,Common-term
 abstractions,,,,
 constructor,,,,Common-term
 dependent,,,,Common-term
 expression,,,,Common-term
 higher-order,,,,Common-term
 modular,,,,Common-term
+type-level,,,,Common-term
 adjoint,,,,theory
 Appel,,,,
 closure,,,,Common-term
@@ -91,6 +96,7 @@ Swamy,,,,
 symbolic,,,,
 syntactic,,,,Common-term
 thunk,,,,Common-term evaluation
+well-formed,,,,Common-term
 JK,,,,unclassified
 RaTT,,,,unclassified
 FRP,,,,unclassified
@@ -110,7 +116,6 @@ in2,,,,unclassified
 Graulund,,,,unclassified
 keyPressed,,,,unclassified
 scanAwait,,,,unclassified
-SIGPLAN,,,,unclassified
 switchf,,,,unclassified
 field1,,,,unclassified
 JFix,,,,unclassified
@@ -125,12 +130,10 @@ https,,,,unclassified
 Jeltsch,,,,unclassified
 JProd,,,,unclassified
 output-compute,,,,unclassified
-POPL,,,,unclassified
 Clouston,,,,unclassified
 floating-point,,,,unclassified
 Neelakantan,,,,unclassified
 time-dependent,,,,unclassified
-type-level,,,,unclassified
 Uldal,,,,unclassified
 Barenz,,,,unclassified
 buffered-push,,,,unclassified
