@@ -1,0 +1,364 @@
+Term,Pronunciation,Context / Example Usage,Notes,Tags
+Patrick Bahr,,,,Author
+IT University of Copenhagen,,,,Institution
+University of Edinburgh,,,,Institution
+heap,,,,
+modal,,,,
+induction,,,,Common-term
+recursive,,,,Common-term
+Haskell,,,,Common-term programming-language
+K ,,“K axiom”,,
+calculus,,Used to describe a core simple programming language,,Common-term
+Krishnaswami,,,,
+combinator,,,,Common-term
+ACM,,Association for Computing Machinery,,
+operational semantics,,,,
+context,,,,Common-term
+lemma,,,,Common-term
+calculi,,,,
+semantics,,,,
+recursion,,,,Common-term
+modality,,,,Common-term
+Fitch-style,,,,
+theorem,,,,Common-term
+logical relation,,,,Common-term
+syntax,,,,Common-term
+garbage collection,,GC,,Common-term
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+well-typed,,,,Common-term
+zip,,,,
+redex,,,,
+abstraction,,,,Common-term
+compiler,,,,Common-term
+IEEE,eye triple e,Institute of Electrical and Electronics Engineers,,
+integer,,,,Common-term
+metatheoretical,,,,Common-term
+API,A.P.I.,Application Programming Interface,,Common-term
+GHC,,,,compiler tool
+modalities,,,,Common-term
+syntactic,,,,Common-term
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+functional programming,,,,
+reduction,,,,Common-term
+closure,,,,Common-term
+SIGPLAN,,special interest group on programming languages,,
+abstractions,,,,
+Go,,,,
+Hudak,,,,Name
+subject reduction,,,,Common-term
+type checker,,,,Common-term
+type-check,,,,Common-term
+AST ,A.S.T.,Abstract Syntax Tree,,
+discrete,,,,
+ecosystem,,,,
+expressive,,,,Common-term
+higher-order,,,,Common-term
+Appel,,,,
+Call-by-Value,,(CBV),,Common-term evaluation
+congruence,,,,Common-term
+cons,kon-ss,,,
+denotational semantics,,,,semantics
+dependent,,,,Common-term
+derivation,,,,
+Elimination,,,,
+expression,,,,Common-term
+GC,,garbage collector,,Common-term
+inductive,,,,Common-term
+Kripke,,“Kripke semantics”,,Name
+linear,,,,Common-term
+nil,,,,
+Power,,,,
+runtime,,,,Common-term
+Trigger,,,,
+coinductive,,,,Common-term
+constructor,,,,Common-term
+Dependent types,,,,types
+GHC Haskell,,,,
+match,,,,
+metatheory,,,,Common-term
+Paterson,,,,
+pattern matching,,,,
+Peterson,,,,
+polymorphic,,,,Common-term
+POPL,pop-ill,Conference,,Common-term
+Semantic,,,,Common-term
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+type-checked,,,,Common-term
+typechecking,,,,Common-term
+well-formed,,,,Common-term
+adjoint,,,,theory
+allocations,,,,Common-term
+applicative,,,,Common-term
+bisimilarity,,Notion of equivalence between programs,,Common-term equivalence
+bisimulation,,,,Common-term equivalence
+Call-by-Name,,(CBN),,Common-term evaluation
+clause,,,,
+closures,,,,Common-term
+concurrency,,,,Common-term
+conjunction,,,,
+Curry-Howard,,,,
+derive,,,,
+direct style,,,,
+distribution,,,,
+domain theory,,,,Common-term
+equational,,,,Common-term
+expressiveness,,,,Common-term
+force,,,,Common-term evaluation
+Haskell Core,,,,
+Honda,,,,
+ICFP,,Conference,,Common-term
+instantiation,,,,
+JavaScript,,,,Common-term programming-language
+lambda calculi,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+lambda-calculus,,,,Common-term
+linear-time,,,,Common-term
+modularity,,,,Common-term
+monadic,Mow-nad-ick,,,
+OCaml,,,,Common-term programming-language
+paba@itu.dk,,,,email
+Property-based testing,,,,
+refinements,,,,
+reflect,,,,
+Scheme,,,,Common-term programming-language
+Small-step operational semantics,,,,
+step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
+symbolic,,,,
+synthetic,,,,
+weakening,,,,Common-term
+FRP,,,,unclassified
+inp,,,,unclassified
+K[adv,,,,unclassified
+RaTT,,,,unclassified
+x.t,,,,unclassified
+tick-free,,,,unclassified
+adv-free,,,,unclassified
+ballPos,,,,unclassified
+plugin,,,,unclassified
+constInt,,,,unclassified
+ballTrig,,,,unclassified
+d(t,,,,unclassified
+Haskell's,,,,unclassified
+arrowised,,,,unclassified
+padPos,,,,unclassified
+alterMap,,,,unclassified
+Mogelberg,,,,unclassified
+delay(K[adv,,,,unclassified
+delay(adv,,,,unclassified
+leakyConst,,,,unclassified
+leakyMap,,,,unclassified
+pong1,,,,unclassified
+switchTrans,,,,unclassified
+Clouston,,,,unclassified
+GHC's,,,,unclassified
+head(adv,,,,unclassified
+Krishnaswami's,,,,unclassified
+leakySums2,,,,unclassified
+tail(adv,,,,unclassified
+arrBox,,,,unclassified
+constBox,,,,unclassified
+K[x,,,,unclassified
+loopPre,,,,unclassified
+ObjAction,,,,unclassified
+objTrans,,,,unclassified
+scope-checking,,,,unclassified
+x.K[adv,,,,unclassified
+Yampa's,,,,unclassified
+Birkedal,,,,unclassified
+dswitchTrans,,,,unclassified
+eta-expansion,,,,unclassified
+in1,,,,unclassified
+in2,,,,unclassified
+Jeltsch,,,,unclassified
+optimisations,,,,unclassified
+type-checking,,,,unclassified
+ACM/IEEE,,,,unclassified
+adv(unbox(box(delay,,,,unclassified
+ballStep,,,,unclassified
+Claessen,,,,unclassified
+FRPNow,,,,unclassified
+fst,,,,unclassified
+leakySums1,,,,unclassified
+LICS,,,,unclassified
+Mannaa,,,,unclassified
+McAllester,,,,unclassified
+Nakano,,,,unclassified
+padStep,,,,unclassified
+Ploeg,,,,unclassified
+pong2,,,,unclassified
+Rattus's,,,,unclassified
+returnA,,,,unclassified
+rSwitch,,,,unclassified
+t)))(delay(adv(tail(adv,,,,unclassified
+3(POPL,,,,unclassified
+Abramsky,,,,unclassified
+big-step,,,,unclassified
+Borghuis,,,,unclassified
+Caspi,,,,unclassified
+Chaudhury,,,,unclassified
+continuous-time,,,,unclassified
+Cosserat,,,,unclassified
+delay(delay,,,,unclassified
+delay(let,,,,unclassified
+delay(x.adv,,,,unclassified
+delay(x.x,,,,unclassified
+delayInc,,,,unclassified
+dual-context,,,,unclassified
+Esterel,,,,unclassified
+eta-expansions,,,,unclassified
+Graulund,,,,unclassified
+Guatto,,,,unclassified
+GUIs,,,,unclassified
+Jarvi,,,,unclassified
+K[t,,,,unclassified
+Kavvos,,,,unclassified
+mechanised,,,,unclassified
+Pnueli,,,,unclassified
+pong3,,,,unclassified
+Pouzet,,,,unclassified
+r.n.n,,,,unclassified
+scanl,,,,unclassified
+Sculthorpe,,,,unclassified
+SIGPLAN-SIGACT,,,,unclassified
+Step-indexing,,,,unclassified
+subterm,,,,unclassified
+time-independent,,,,unclassified
+time-invariant,,,,unclassified
+time-varying,,,,unclassified
+v/v,,,,unclassified
+Veltri,,,,unclassified
+x.K,,,,unclassified
+x.let,,,,unclassified
+x.y,,,,unclassified
+Yampa-style,,,,unclassified
+3(ICFP,,,,unclassified
+addBall,,,,unclassified
+adjunctions,,,,unclassified
+adv(unbox,,,,unclassified
+advfree,,,,unclassified
+alloc,,,,unclassified
+ArrowLoop,,,,unclassified
+arXiv,,,,unclassified
+Author(s,,,,unclassified
+axiomatisation,,,,unclassified
+bare-bones,,,,unclassified
+Barenz,,,,unclassified
+Berlin/Heidelberg,,,,unclassified
+bottomScreenEdge,,,,unclassified
+box(box(unbox(unbox,,,,unclassified
+button:5,,,,unclassified
+calcNewVelocity,,,,unclassified
+Causality.v,,,,unclassified
+codata,,,,unclassified
+comonads,,,,unclassified
+customisation,,,,unclassified
+customise,,,,unclassified
+delay((adv,,,,unclassified
+delay(delay(adv(adv,,,,unclassified
+delay(head(adv,,,,unclassified
+discrete-time,,,,unclassified
+dual-context-style,,,,unclassified
+e-mail,,,,unclassified
+EACSL,,,,unclassified
+falling.2,,,,unclassified
+fplugin=Rattus.Plugin,,,,unclassified
+FSCD,,,,unclassified
+Funct,,,,unclassified
+FundamentalProperty.v,,,,unclassified
+GADTs,,,,unclassified
+Grathwohl,,,,unclassified
+Halbwachs,,,,unclassified
+Haskell-library/examples/game,,,,unclassified
+Heaps.v,,,,unclassified
+https://creativecommons.org,,,,unclassified
+Hudak's,,,,unclassified
+ill-typed,,,,unclassified
+initialises,,,,unclassified
+input-output,,,,unclassified
+JFP,,,,unclassified
+K[s,,,,unclassified
+K[y,,,,unclassified
+Library-Centric,,,,unclassified
+licenses/by/4.0,,,,unclassified
+LogicalRelation.v,,,,unclassified
+LogicalRelationAux.v,,,,unclassified
+LRI,,,,unclassified
+machine:6,,,,unclassified
+McCusker,,,,unclassified
+mechanisation,,,,unclassified
+mechanise,,,,unclassified
+Multi-tick,,,,unclassified
+Nakano's,,,,unclassified
+non-causal,,,,unclassified
+non-stable,,,,unclassified
+OOPSLA'06,,,,unclassified
+Panangaden,,,,unclassified
+ParisSud,,,,unclassified
+Pientka,,,,unclassified
+Pilaud,,,,unclassified
+PLPV,,,,unclassified
+plugin's,,,,unclassified
+Productivity.v,,,,unclassified
+proofcarrying,,,,unclassified
+r)(delay(adv(tail(adv,,,,unclassified
+r.acc.s,,,,unclassified
+r.s.let,,,,unclassified
+r.t,,,,unclassified
+r.x.delay(head(adv,,,,unclassified
+r.x.let,,,,unclassified
+r.x.x,,,,unclassified
+RaTT's,,,,unclassified
+Rattus.Stream,,,,unclassified
+Rattus.ToHaskell,,,,unclassified
+RawSyntax.v,,,,unclassified
+re-implement,,,,unclassified
+re-implementation,,,,unclassified
+README,,,,unclassified
+real-world,,,,unclassified
+realtime,,,,unclassified
+Reduction.v,,,,unclassified
+refactored,,,,unclassified
+refactoring,,,,unclassified
+removeBall,,,,unclassified
+resource-constrained,,,,unclassified
+runTransducer,,,,unclassified
+Schwinghammer,,,,unclassified
+scrutinee,,,,unclassified
+SIGACT-SIGPLAN,,,,unclassified
+single-player,,,,unclassified
+single-tick,,,,unclassified
+soundness/completeness,,,,unclassified
+stable(x,,,,unclassified
+StableInternal,,,,unclassified
+Stovring,,,,unclassified
+Streams.v,,,,unclassified
+StrNat,,,,unclassified
+Substitutions.v,,,,unclassified
+subterms,,,,unclassified
+Technische,,,,unclassified
+time-dependent,,,,unclassified
+token-free,,,,unclassified
+trade-offs,,,,unclassified
+triggerMap,,,,unclassified
+tupling,,,,unclassified
+TwentyThird,,,,unclassified
+type-preserving,,,,unclassified
+type:1,,,,unclassified
+Typing.v,,,,unclassified
+typings,,,,unclassified
+Ultrametric,,,,unclassified
+unbox(f,,,,unclassified
+Universiteit,,,,unclassified
+VectorSpace,,,,unclassified
+weakly/strictly,,,,unclassified
+Worlds.v,,,,unclassified
+x.adv,,,,unclassified
+x.box(unbox(f,,,,unclassified
+x.case,,,,unclassified
+x.delay(fix,,,,unclassified
+x.fix,,,,unclassified
+x.s,,,,unclassified
+y))(delay(box,,,,unclassified
+y.unbox,,,,unclassified
+y.unbox(adv,,,,unclassified
+zero-tick,,,,unclassified
