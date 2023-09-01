@@ -97,7 +97,7 @@ Semantic,,,,Common-term
 SMT solver,,Type of tool for solving SMT problems,,Tool
 stack,,,,
 syntactic,,,,Common-term
-RiscvMachine,,,,unclassified
+RISC-V Machine,,,,unclassified
 Instruction-Set,,,,unclassified
 domain-specific,,,,unclassified
 hs-to-coq,,,,unclassified
@@ -106,12 +106,9 @@ SourceType,,,,unclassified
 Int32,,,,unclassified
 type-class,,,,unclassified
 MachineInt,,,,unclassified
-rs1,,,,unclassified
 bitSlice,,,,unclassified
 CakeML,,,,unclassified
 MMIO,,,,unclassified
-mmio_load32,,,,unclassified
-rs2,,,,unclassified
 ACL2,,,,unclassified
 compiler-correctness,,,,unclassified
 endCycle,,,,unclassified
@@ -215,7 +212,6 @@ VirtualMemory,,,,unclassified
 weakest-precondition,,,,unclassified
 Xia,,,,unclassified
 2-thread,,,,unclassified
-"a,s",,,,unclassified
 Abrahamsson,,,,unclassified
 abstract)2,,,,unclassified
 always-failing,,,,unclassified
@@ -223,7 +219,6 @@ Andronick,,,,unclassified
 application-agnostic,,,,unclassified
 arbitrary-sized,,,,unclassified
 ARM's,,,,unclassified
-ARM(R,,,,unclassified
 ARMv6,,,,unclassified
 ARMv7,,,,unclassified
 ARMv8-A,,,,unclassified
@@ -269,8 +264,6 @@ early-return,,,,unclassified
 encode/decode,,,,unclassified
 end-to-end-verified,,,,unclassified
 exceptions/interrupts,,,,unclassified
-Eyad,,,,unclassified
-ferent,,,,unclassified
 flushTLB,,,,unclassified
 FMCAD,,,,unclassified
 formal-methods-oriented,,,,unclassified
@@ -280,8 +273,6 @@ four-byte,,,,unclassified
 freer-monad,,,,unclassified
 from-Haskell,,,,unclassified
 frontend,,,,unclassified
-funct3==funct3_BEQ,,,,unclassified
-funct3==funct3_SW,,,,unclassified
 Garage-Door,,,,unclassified
 generalpurpose,,,,unclassified
 getCSRField,,,,unclassified
@@ -312,7 +303,6 @@ imperative-looking,,,,unclassified
 industrial-strength,,,,unclassified
 Informatik,,,,unclassified
 input-language,,,,unclassified
-instance(s,,,,unclassified
 instruction-address-misaligned,,,,unclassified
 instruction-decode,,,,unclassified
 interpreter-style,,,,unclassified
@@ -352,16 +342,11 @@ moresignificant,,,,unclassified
 Multiply/Divide,,,,unclassified
 multisize,,,,unclassified
 Natarajan,,,,unclassified
-net/assets/softmul.pdf,,,,unclassified
 non-MIT,,,,unclassified
 nondeterminis,,,,unclassified
 Norrish,,,,unclassified
-opcode==opcode_BRANCH,,,,unclassified
-opcode==opcode_STORE,,,,unclassified
 open-source,,,,unclassified
 OpenTitan,,,,unclassified
-OState(S,,,,unclassified
-owner/author(s,,,,unclassified
 parameterizability,,,,unclassified
 parser/translator,,,,unclassified
 partial-execution,,,,unclassified
@@ -373,7 +358,6 @@ Ramakrishnan,,,,unclassified
 Real-World,,,,unclassified
 release/acquire,,,,unclassified
 remu,,,,unclassified
-rep=rep1&type=pdf,,,,unclassified
 RISC-V's,,,,unclassified
 Rizkallah,,,,unclassified
 Root-of-Trust,,,,unclassified
@@ -399,7 +383,6 @@ specification-reconciliation,,,,unclassified
 Spector-Zabusky,,,,unclassified
 Springer-Verlag,,,,unclassified
 Starostin,,,,unclassified
-State(S,,,,unclassified
 state-like,,,,unclassified
 state-monad,,,,unclassified
 state-ofthe-art,,,,unclassified
@@ -412,7 +395,6 @@ storeHalf,,,,unclassified
 TPHOLs,,,,unclassified
 trade-offs,,,,unclassified
 unsafeSetCSRField,,,,unclassified
-use-case-specific,,,,unclassified
 User-Level,,,,unclassified
 verification-motivated,,,,unclassified
 Verilog/VHDL,,,,unclassified
