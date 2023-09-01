@@ -1,170 +1,229 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Stephanie Weirich,,,,Author
+Yiyun Liu,,,,Author
+Simon Peyton Jones,,,,Author
+Andreas Abel,,,,Author
+Niki Vazou,,,,Author
+Ilya Sergey,,,,Author
+Jean-Philippe Bernardy,,,,Author
+Joachim Breitner,,,,Author
+Ranjit Jhala,,,,Author
+Robert Dockins,,,,Author
+Wouter Swierstra,,,,Author
+Yannick Zakowski,,,,Author
+University of Pennsylvania,,,,Institution
+Cornell University,,Institution,,Institution
+University of California,,,,Institution
 lemma,,,,Common-term
 reduction,,,,Common-term
 Haskell,,,,Common-term programming-language
 context,,,,Common-term
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 reflection,,,,Common-term
 dependently-typed,,,,types
 succ,,,,
-CSV,,,,unclassified
-Stephanie Weirich,,,,Author
 consistency,,Gradual typing,,theory
 type checker,,,,Common-term
-A.B,,,,unclassified
 reify,,,,Common-term
 runtime,,,,Common-term
-Yiyun Liu,,,,Author
 reduction relation,,,,
 logical relation,,,,Common-term
 dependent,,,,Common-term
 inductive,,,,Common-term
 reflect,,,,
-appendNilEq,,,,unclassified
 theorem,,,,Common-term
 induction,,,,Common-term
 congruence,,,,Common-term
-covalue,,,,unclassified
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 Agda,,Agda-style,,Common-term Programming-language
+syntax,,,,Common-term
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+recursion,,,,Common-term
+untyped,,,,
+Choudhury,,,,
+compiler,,,,Common-term
+decidable,,,,
+erasure,,type erasure,,Common-term
+propositional equality,,,,Common-term
+Dependent types,,,,types
+operational semantics,,,,
+expression,,,,Common-term
+expressive,,,,Common-term
+extensional,,functions,,theory
+Liquid Haskell,,,,Tool programming-language
+semantics,,,,
+functional programming,,,,
+judgement,,dependent types,,theory
+axiom,,,,
+calculus,,Used to describe a core simple programming language,,Common-term
+expressiveness,,,,Common-term
+GHC,,,,compiler tool
+headers,,,,
+nil,,,,
+pattern matching,,,,
+polymorphism,,,,Common-term
+quantitative,,,,
+Semantic,,,,Common-term
+abstraction,,,,Common-term
+Capretta,,,,
+closure,,,,Common-term
+derive,,,,
+equational,,,,Common-term
+fixpoint,,,,Common-term
+match,,,,
+recursive,,,,Common-term
+well-typed,,,,Common-term
+combinator,,,,Common-term
+constructor,,,,Common-term
+derivation,,,,
+extensionality,,,,Common-term
+Glasgow Haskell Compiler,,,,compiler tool
+Idris,,,,
+modal,,,,
+modalities,,,,Common-term
+normalization,,computations,,theory
+refinements,,,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+Swamy,,,,
+syntactic,,,,Common-term
+universe,,dependent types,,theory
+Vazou,,,,
+Why,,,,
+Abel,,,,Name
+abstractions,,,,
+Brady,,,,
+Cardelli,,,,
+cast,,Gradual typing,,theory
+coinductive,,,,Common-term
+conclusion,,,,
+Elimination,,,,
+heterogeneous,,,,
+Kiselyov,,,,
+MLTT,,short for Martin-Lof Type Theory/dependent type,,theory
+polymorphic,,,,Common-term
+predicative,,,,Common-term
+quantified,,,,Common-term
+reduction semantics,,,,
+reflexivity,,,,Common-term
+reified,,,,
+SMT ,,,,
+algorithmic,,,,Common-term
+Bernardy,,,,
+capability,,,,
+Church-Rosser,,,,
+compiled,,,,
+datatype,,,,Common-term
+decidability,,,,
+definitionally,,,,theory
+Dijkstra monad ,/ˈdɑɪkstɹə/ DYKE-struh,,,
+divergence,,,,Common-term
+ecosystem,,,,
+fold,,,,Common-term
+formalization,,,,Common-term
+Fraser,,,,
+functor,,,,Common-term
+generic,,,,
+higher-order,,,,Common-term
+Hsu,,,,
+Idris 2,,,,
+lambda calculus,lam-duh calculus,,,theory
+lattice,,,,Common-term
+liuyiyun@seas.upenn.edu,,,,email
+mechanization,,,,
+monad,Mow-nad,,,Common-term
+observational,,,,
+OCaml,,,,Common-term programming-language
+Peyton Jones,,,,Name
+propositional,,,,Common-term
+quantifier,,,,Common-term
+recursion schemes,,,,
+reifies,,,,
+step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
+sweirich@seas.upenn.edu,,,,email
+Swierstra,,,,
+symbolic,,,,
+System F,,,,Common-term
+Wadler,,,,Name
+weakening,,,,Common-term
+CSV,,,,unclassified
+A.B,,,,unclassified
+appendNilEq,,,,unclassified
+covalue,,,,unclassified
 forall,,,,unclassified
 foreach,,,,unclassified
 pifst,,,,unclassified
 compile-time,,,,unclassified
 indA,,,,unclassified
 relevance-moded,,,,unclassified
-syntax,,,,Common-term
 Joinability,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 Martin-Lof,,,,unclassified
-recursion,,,,Common-term
-untyped,,,,
 well-formedness,,,,unclassified
 badApp,,,,unclassified
-Choudhury,,,,
-compiler,,,,Common-term
 concat,,,,unclassified
-decidable,,,,
-erasure,,type erasure,,Common-term
-propositional equality,,,,Common-term
-Dependent types,,,,types
 E-Reflect,,,,unclassified
-operational semantics,,,,
 Weirich,,,,unclassified
 badEq,,,,unclassified
 Casinghino,,,,unclassified
 concatNil,,,,unclassified
-expression,,,,Common-term
-expressive,,,,Common-term
-extensional,,functions,,theory
-Liquid Haskell,,,,Tool programming-language
-semantics,,,,
 sizeList,,,,unclassified
-functional programming,,,,
-judgement,,dependent types,,theory
 R-AppAbs,,,,unclassified
 R-Ind,,,,unclassified
 T-Abs,,,,unclassified
 T-Conv,,,,unclassified
 T-Var,,,,unclassified
-University of Pennsylvania,,,,Institution
 A.a,,,,unclassified
-axiom,,,,
 a{b/x,,,,unclassified
-calculus,,Used to describe a core simple programming language,,Common-term
 CR-AbsPush,,,,unclassified
 E-AbsCong,,,,unclassified
-expressiveness,,,,Common-term
-GHC,,,,compiler tool
-headers,,,,
-nil,,,,
-pattern matching,,,,
 plusNZ,,,,unclassified
-polymorphism,,,,Common-term
-quantitative,,,,
-Semantic,,,,Common-term
 SIGPLAN,,,,unclassified
 Sulzmann,,,,unclassified
 T-Ind,,,,unclassified
 type-level,,,,unclassified
-abstraction,,,,Common-term
 appendNilEqSing,,,,unclassified
 beta-equivalence,,,,unclassified
-Capretta,,,,
-closure,,,,Common-term
 DE's,,,,unclassified
-derive,,,,
 E-AppCong,,,,unclassified
 E-PiCong,,,,unclassified
-equational,,,,Common-term
-fixpoint,,,,Common-term
 GHC's,,,,unclassified
 Haskell's,,,,unclassified
 ListF,,,,unclassified
-match,,,,
-recursive,,,,Common-term
 T-Pi,,,,unclassified
 T-Reify,,,,unclassified
-well-typed,,,,Common-term
 Atkey,,,,unclassified
-combinator,,,,Common-term
-constructor,,,,Common-term
 covalues,,,,unclassified
 CP-Nleq,,,,unclassified
 CR-Combine,,,,unclassified
 CT-Top,,,,unclassified
 DefEq,,,,unclassified
-derivation,,,,
 E-AppCongIrrel,,,,unclassified
-extensionality,,,,Common-term
-Glasgow Haskell Compiler,,,,compiler tool
 GTot,,,,unclassified
 HNil,,,,unclassified
 https,,,,unclassified
-Idris,,,,
 inferencer,,,,unclassified
 Mishra-Linger,,,,unclassified
-modal,,,,
-modalities,,,,Common-term
-normalization,,computations,,theory
 Nuprl,,,,unclassified
 P-AppCong,,,,unclassified
 P-Reify,,,,unclassified
 P-Var,,,,unclassified
 POPL,,,,unclassified
 R-App,,,,unclassified
-refinements,,,,
 Siles,,,,unclassified
-Simon Peyton Jones,,,,Author
-SMT solver,,Type of tool for solving SMT problems,,Tool
-Swamy,,,,
-syntactic,,,,Common-term
 T-App,,,,unclassified
 T-ConsTm,,,,unclassified
 T-TYPE,,,,unclassified
 type-in-type,,,,unclassified
-universe,,dependent types,,theory
-Vazou,,,,
 vreplicate,,,,unclassified
-Why,,,,
-Abel,,,,Name
-abstractions,,,,
 Amadio,,,,unclassified
-Andreas Abel,,,,Author
 A{succ,,,,unclassified
 A{y/x,,,,unclassified
 A{zero/x,,,,unclassified
 b/x,,,,unclassified
 backend,,,,unclassified
-Brady,,,,
 B{a/x,,,,unclassified
 call-by-name,,,,unclassified
 call-by-value,,,,unclassified
-Cardelli,,,,
-cast,,Gradual typing,,theory
-coinductive,,,,Common-term
 COLOG-88,,,,unclassified
-conclusion,,,,
 ConsF,,,,unclassified
 Coquand,,,,unclassified
 CP-Leq,,,,unclassified
@@ -172,38 +231,25 @@ CR-ConvCong,,,,unclassified
 CR-ConvRefl,,,,unclassified
 CT-Leq,,,,unclassified
 Dagstuhl,,,,unclassified
-Elimination,,,,
 explicitly-typed,,,,unclassified
 Grigori,,,,unclassified
 Herbelin,,,,unclassified
-heterogeneous,,,,
-https://doi.org/10,,,,unclassified
 indA0,,,,unclassified
 IndList,,,,unclassified
 InductiveList,,,,unclassified
 injectivity,,,,unclassified
-Kiselyov,,,,
-MLTT,,short for Martin-Lof Type Theory/dependent type,,theory
 Mode-Aware,,,,unclassified
 N.A,,,,unclassified
-Niki Vazou,,,,Author
 NilF,,,,unclassified
 P-AppAbs,,,,unclassified
 P-Conv,,,,unclassified
 Pfenning,,,,unclassified
 PLDI,,,,unclassified
-polymorphic,,,,Common-term
 post-conditions,,,,unclassified
-predicative,,,,Common-term
-quantified,,,,Common-term
 R-Conv,,,,unclassified
 recursor,,,,unclassified
-reduction semantics,,,,
-reflexivity,,,,Common-term
-reified,,,,
 Scherer,,,,unclassified
 scrutinee,,,,unclassified
-SMT ,,,,
 subterms,,,,unclassified
 T-Empty,,,,unclassified
 T-Eq,,,,unclassified
@@ -227,39 +273,28 @@ aBeta-IndZero,,,,unclassified
 ACM/IEEE,,,,unclassified
 addRows,,,,unclassified
 Agda's,,,,unclassified
-algorithmic,,,,Common-term
 Amorim,,,,unclassified
 Anish,,,,unclassified
 Avezedo,,,,unclassified
 a{b,,,,unclassified
 backward-compatibility,,,,unclassified
-Bernardy,,,,
 beta-equivalent,,,,unclassified
 Breitner,,,,unclassified
 call-byname,,,,unclassified
-capability,,,,
 Capretta's,,,,unclassified
 Chakravarty,,,,unclassified
 Chung-Kil,,,,unclassified
-Church-Rosser,,,,
 Cleaveland,,,,unclassified
 coinfective,,,,unclassified
-compiled,,,,
 consistency32,,,,unclassified
 conversion26,,,,unclassified
-Cornell University,,Institution,,Institution
 CR-Succ,,,,unclassified
 CRs-Refl,,,,unclassified
 CRs-Step,,,,unclassified
 DataFrames,,,,unclassified
-datatype,,,,Common-term
-decidability,,,,
-definitionally,,,,theory
 dependentlytyped,,,,unclassified
 design1,,,,unclassified
 Diatchki,,,,unclassified
-Dijkstra monad ,/ˈdɑɪkstɹə/ DYKE-struh,,,
-divergence,,,,Common-term
 domain-theoretic,,,,unclassified
 E-ConvCong,,,,unclassified
 E-EqCong,,,,unclassified
@@ -274,7 +309,6 @@ E-Sym,,,,unclassified
 E-Trans,,,,unclassified
 Eades,,,,unclassified
 ECOOP,,,,unclassified
-ecosystem,,,,
 eqality30,,,,unclassified
 equality28,,,,unclassified
 ER-App,,,,unclassified
@@ -290,47 +324,30 @@ explicitlytyped,,,,unclassified
 extensionally-flavored,,,,unclassified
 f:fs,,,,unclassified
 False,,,,unclassified
-fold,,,,Common-term
-formalization,,,,Common-term
-Fraser,,,,
 Funct,,,,unclassified
 functions37,,,,unclassified
-functor,,,,Common-term
-generic,,,,
 H.E,,,,unclassified
 Herbelin's,,,,unclassified
-higher-order,,,,Common-term
 HList,,,,unclassified
-Hsu,,,,
-https://goto.ucsd.edu,,,,unclassified
-https://repository,,,,unclassified
-https://www.haskell.org/ghc,,,,unclassified
 Hur,,,,unclassified
 I)rrelevant,,,,unclassified
 Iavor,,,,unclassified
-Idris 2,,,,
 Idris2-Table,,,,unclassified
-Ilya Sergey,,,,Author
 indB,,,,unclassified
 Informatik,,,,unclassified
 Intensionality,,,,unclassified
 J.C,,,,unclassified
-Jean-Philippe Bernardy,,,,Author
-Joachim Breitner,,,,Author
 judgement.3,,,,unclassified
 Kammar,,,,unclassified
 Keean,,,,unclassified
 Knoblock,,,,unclassified
 L)ogic,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
 Lammel,,,,unclassified
-lattice,,,,Common-term
 Leibniz-Zentrum,,,,unclassified
 length-indexed,,,,unclassified
 Li-yao,,,,unclassified
 LICS,,,,unclassified
 LIPIcs,,,,unclassified
-liuyiyun@seas.upenn.edu,,,,email
 Livshits,,,,unclassified
 lock-step,,,,unclassified
 lp.ott,,,,unclassified
@@ -344,12 +361,10 @@ Machine-checked,,,,unclassified
 Malecha,,,,unclassified
 MAlonzo,,,,unclassified
 Martin-Lof's,,,,unclassified
-mechanization,,,,
 Mendler,,,,unclassified
 metatheoretic,,,,unclassified
 moded,,,,unclassified
 Moller,,,,unclassified
-monad,Mow-nad,,,Common-term
 MP-One,,,,unclassified
 MP-Step,,,,unclassified
 N.b,,,,unclassified
@@ -369,8 +384,6 @@ NON_TERMINATING,,,,unclassified
 North-Holland,,,,unclassified
 nvazou/thesis/main.pdf,,,,unclassified
 Object-Oriented,,,,unclassified
-observational,,,,
-OCaml,,,,Common-term programming-language
 Ohad,,,,unclassified
 operation11,,,,unclassified
 opt-in,,,,unclassified
@@ -391,7 +404,6 @@ par.v:Join_Consistent,,,,unclassified
 per-definition,,,,unclassified
 performance-critical,,,,unclassified
 Peskine,,,,unclassified
-Peyton Jones,,,,Name
 pragma,,,,unclassified
 Prentice-Hall,,,,unclassified
 Preservation19,,,,unclassified
@@ -400,28 +412,22 @@ Progress-Semi,,,,unclassified
 progress.v:progress,,,,unclassified
 Progress36,,,,unclassified
 proofs--these,,,,unclassified
-propositional,,,,Common-term
 QTT,,,,unclassified
-quantifier,,,,Common-term
 R)elevant,,,,unclassified
 R-IndAlt,,,,unclassified
 R-IndSucc,,,,unclassified
 R-IndZero,,,,unclassified
 R-Succ,,,,unclassified
-Ranjit Jhala,,,,Author
 Ravitch,,,,unclassified
-recursion schemes,,,,
 regularity.v:defeq_regularity,,,,unclassified
 regularity.v:typing_regularity,,,,unclassified
 regularity10,,,,unclassified
 Regularity8,,,,unclassified
-reifies,,,,
 relation21,,,,unclassified
 relation24,,,,unclassified
 relations--an,,,,unclassified
 relevancemoded,,,,unclassified
 Resurrection7,,,,unclassified
-Robert Dockins,,,,Author
 Rs-Refl,,,,unclassified
 Rs-Step,,,,unclassified
 rule15,,,,unclassified
@@ -445,16 +451,11 @@ sn_proof.v:SN_subsumption,,,,unclassified
 sn_proof.v:SN_typing,,,,unclassified
 SNil,,,,unclassified
 special-purpose,,,,unclassified
-step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
 Steuwer,,,,unclassified
 StrniSa,,,,unclassified
 Substitution17,,,,unclassified
 Subsumption6,,,,unclassified
 Susmit,,,,unclassified
-sweirich@seas.upenn.edu,,,,email
-Swierstra,,,,
-symbolic,,,,
-System F,,,,Common-term
 table2,,,,unclassified
 terminate.2,,,,unclassified
 terms13,,,,unclassified
@@ -471,8 +472,6 @@ typing29,,,,unclassified
 typing9,,,,unclassified
 typing_unique.v:typing_unique,,,,unclassified
 Uniqe,,,,unclassified
-University of California,,,,Institution
-unknown,,Gradual typing,,theory
 unsafeCoerce,,,,unclassified
 Valuation)25,,,,unclassified
 Vikraman,,,,unclassified
@@ -480,17 +479,13 @@ VNil,,,,unclassified
 Voizard,,,,unclassified
 VWff-Cons,,,,unclassified
 VWff-Empty,,,,unclassified
-Wadler,,,,Name
-weakening,,,,Common-term
 Weakening16,,,,unclassified
 weakly-normalizing,,,,unclassified
 withTheorem,,,,unclassified
 work--we,,,,unclassified
-Wouter Swierstra,,,,Author
 x.a,,,,unclassified
 x:(xs,,,,unclassified
 x:l,,,,unclassified
-Yannick Zakowski,,,,Author
 z.reify,,,,unclassified
 Zdancewic,,,,unclassified
 zero-cost,,,,unclassified

@@ -1,49 +1,74 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-Pyret,,,,unclassified
-Racket,racket,Racket programming language,,
 Ethel Tshukudu,,,,Author
-ICFP,,,,unclassified
 Shriram Krishnamurthi,,,,Author
-syntax,,,,Common-term
 Kathi Fisler,,,,Author
-syntactic,,,,Common-term
 Kuang-Chen Lu,,,,Author
+Matthias Felleisen,,,,Author
+Brown University,,,,Institution
+Carnegie Mellon University,,CMU,,Institution
+Racket,racket,Racket programming language,,
+ICFP,,,,Common-term
+syntax,,,,Common-term
+syntactic,,,,Common-term
+semantics,,,,
+mutation,,,,
+refutation,,,,
+Java,,,,
+Semantic,,,,Common-term
+context,,,,Common-term
+Fisler,,,,
+Why,,,,
+functional programming,,,,
+higher-order,,,,Common-term
+aliasing,,,,
+expression,,,,Common-term
+instruction,,,,
+K ,,“K axiom”,,
+conclusion,,,,
+datatype,,,,Common-term
+Felleisen,,,,
+Go,,,,
+Krishnamurthi,,,,
+OCaml,,,,Common-term programming-language
+recursion,,,,Common-term
+reflect,,,,
+StackOverflow,,,,
+contextual,,,,Common-term
+Findler,,,,
+imperativity,,,,
+isomorphic,,,,Common-term
+iterations,,,,
+kathryn_fisler@brown.edu,,,,email
+kuang-chen_lu@brown.edu,,,,email
+match,,,,
+ML,,,,Programming-language
+Nystrom,,,,
+observational,,,,
+recursive,,,,Common-term
+Rust,,,,Common-term programming-language
+shriram@brown.edu,,,,email
+tshukudue@ub.ac.bw,,,,email
+Pyret,,,,unclassified
 Pyret-Python,,,,unclassified
 Racket-Pyret,,,,unclassified
-semantics,,,,
 Tshukudu,,,,unclassified
-mutation,,,,
 Weintrop,,,,unclassified
-refutation,,,,
 Scholtz,,,,unclassified
 transitioning,,,,unclassified
 Wiedenbeck,,,,unclassified
-Brown University,,,,Institution
-Java,,,,
 pattern-matching,,,,unclassified
-Semantic,,,,Common-term
 Block-Based,,,,unclassified
-context,,,,Common-term
 Cutts,,,,unclassified
-Fisler,,,,
 ICER,,,,unclassified
 Pyret's,,,,unclassified
 SIGCSE,,,,unclassified
-Why,,,,
 DefTwice,,,,unclassified
 for-loops,,,,unclassified
-functional programming,,,,
-higher-order,,,,Common-term
-https://doi.org/10,,,,unclassified
 Text-Based,,,,unclassified
-aliasing,,,,
 CaseList,,,,unclassified
 CaseStruct,,,,unclassified
 Commun,,,,unclassified
-expression,,,,Common-term
 get_x,,,,unclassified
-instruction,,,,
-K ,,“K axiom”,,
 Lispy,,,,unclassified
 multi-armed,,,,unclassified
 object-oriented,,,,unclassified
@@ -51,30 +76,21 @@ Politz,,,,unclassified
 Resnick,,,,unclassified
 Wilensky,,,,unclassified
 BadCond,,,,unclassified
-conclusion,,,,
-datatype,,,,Common-term
 DotField,,,,unclassified
 Eastmond,,,,unclassified
 f(n,,,,unclassified
-Felleisen,,,,
 Gentner,,,,unclassified
-Go,,,,
 Guth,,,,unclassified
 https,,,,unclassified
 Human-Computer,,,,unclassified
 Java's,,,,unclassified
 Kolling,,,,unclassified
-Krishnamurthi,,,,
 Masnick,,,,unclassified
 MATLAB,,,,unclassified
-OCaml,,,,Common-term programming-language
 Pyret-only,,,,unclassified
-recursion,,,,Common-term
-reflect,,,,
 Shrestha,,,,unclassified
 SIGPLAN,,,,unclassified
 SPLASH-E,,,,unclassified
-StackOverflow,,,,
 Tshukudu's,,,,unclassified
 Whalley,,,,unclassified
 word_double,,,,unclassified
@@ -97,12 +113,10 @@ Blocks-based,,,,unclassified
 Botta,,,,unclassified
 Brinto,,,,unclassified
 c^d,,,,unclassified
-Carnegie Mellon University,,CMU,,Institution
 Chitipothu,,,,unclassified
 co-authors,,,,unclassified
 college-level,,,,unclassified
 consider--such,,,,unclassified
-contextual,,,,Common-term
 conyour,,,,unclassified
 course's,,,,unclassified
 CS0,,,,unclassified
@@ -128,7 +142,6 @@ f(a,,,,unclassified
 Felienne,,,,unclassified
 female-presenting,,,,unclassified
 fident,,,,unclassified
-Findler,,,,
 first-to-last,,,,unclassified
 first/second/third,,,,unclassified
 FirstRest,,,,unclassified
@@ -147,23 +160,14 @@ Hauswirth,,,,unclassified
 Hermans,,,,unclassified
 Hewson,,,,unclassified
 Hirshfield,,,,unclassified
-http://pyret.org,,,,unclassified
-https://dcic-world.org,,,,unclassified
-https://htdp.org,,,,unclassified
-https://theses.gla.ac.uk/82984,,,,unclassified
 ICSE,,,,unclassified
 if-block,,,,unclassified
-imperativity,,,,
 ImpShadow,,,,unclassified
-isomorphic,,,,Common-term
-iterations,,,,
 ITiCSE,,,,unclassified
 Iveland,,,,unclassified
 Java/C#/C,,,,unclassified
 Junsong,,,,unclassified
-kathryn_fisler@brown.edu,,,,email
 kebab-cased,,,,unclassified
-kuang-chen_lu@brown.edu,,,,email
 langround,,,,unclassified
 Language-Independent,,,,unclassified
 languages--to,,,,unclassified
@@ -176,11 +180,8 @@ loop-exit-end,,,,unclassified
 Luxton-Reilly,,,,unclassified
 map(.c,,,,unclassified
 Marily,,,,unclassified
-match,,,,
 Matlen,,,,unclassified
-Matthias Felleisen,,,,Author
 Millner,,,,unclassified
-ML,,,,Programming-language
 Monroy-Hernandez,,,,unclassified
 mostly-functional,,,,unclassified
 Multi-arm,,,,unclassified
@@ -188,8 +189,6 @@ Multiple-select,,,,unclassified
 my-account,,,,unclassified
 Nischal,,,,unclassified
 non-compositional,,,,unclassified
-Nystrom,,,,
-observational,,,,
 OOPSLA,,,,unclassified
 Oppezzo,,,,unclassified
 out-dented,,,,unclassified
@@ -211,12 +210,9 @@ Pyret/Racket,,,,unclassified
 Python's,,,,unclassified
 Quanfeng,,,,unclassified
 RacketPyret,,,,unclassified
-recursive,,,,Common-term
 returns--cannot,,,,unclassified
-Rust,,,,Common-term programming-language
 seemingly1,,,,unclassified
 shown--does,,,,unclassified
-shriram@brown.edu,,,,email
 Siri,,,,unclassified
 Stata,,,,unclassified
 Struct1,,,,unclassified
@@ -229,7 +225,6 @@ Swidan,,,,unclassified
 SymStr,,,,unclassified
 TOCE,,,,unclassified
 top-down,,,,unclassified
-tshukudue@ub.ac.bw,,,,email
 ture,,,,unclassified
 twice-weekly,,,,unclassified
 type-checking,,,,unclassified

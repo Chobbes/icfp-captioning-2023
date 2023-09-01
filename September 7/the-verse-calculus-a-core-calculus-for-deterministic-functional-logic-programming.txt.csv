@@ -1,107 +1,191 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Koen Claessen,,,,Author
+Matthias Felleisen,,,,Author
+Joachim Breitner,,,,Author
+Lennart Augustsson,,,,Author
+Olin Shivers,,,,Author
+Ranjit Jhala,,,,Author
+Simon Peyton Jones,,,,Author
+Tim Sweeney,,,,Author
+Pablo Barenbaum,,,,researcher
+Giulio Guerrieri,,Author,,Author
+Magnus Madsen,,,,Author
+Olivier Danvy,,,,researcher
+Sebastian Erdweg,,,,Author
+Shriram Krishnamurthi,,,,Author
+Stephanie Weirich,,,,Author
+Ugo Dal Lago,,,,Author
+Cornell University,,Institution,,Institution
+Massachusetts Institute of Technology,,,,Institution
 expression,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 unification,,,,
 semantics,,,,
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 context,,,,Common-term
 lambda calculus,lam-duh calculus,,,theory
-Augustsson,,,,unclassified
 Steele,,,,Name
 reduction,,,,Common-term
-Ariola,,,,unclassified
 Peyton Jones,,,,Name
 syntax,,,,Common-term
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-Claessen,,,,unclassified
 functional programming,,,,
+Shivers,,,,
+desugaring,,,,Common-term
+heap,,,,
+higher-order,,,,Common-term
+normalization,,computations,,theory
+pattern matching,,,,
+redex,,,,
+backtracking,,,,Common-term
+Haskell,,,,Common-term programming-language
+recursion,,,,Common-term
+syntactic,,,,Common-term
+recursive,,,,Common-term
+small-step,,,,Common-term
+Elimination,,,,
+operational semantics,,,,
+Why,,,,
+denotational semantics,,,,semantics
+laziness,,,,
+array,,,,Common-term
+concurrent,,,,Common-term
+constructor,,,,Common-term
+desugar,,,,Common-term
+Felleisen,,,,
+integer,,,,Common-term
+K ,,“K axiom”,,
+reifies,,,,
+reify,,,,Common-term
+stack,,,,
+theorem,,,,Common-term
+abstraction,,,,Common-term
+defunctionalization,,,,
+match,,,,
+Non-determinism,,,,Common-term
+QuickCheck,,,,testing tool
+reduction relation,,,,
+relational,,,,
+untyped,,,,
+Boolean,,,,
+closure,,,,Common-term
+compiled,,,,
+compiler,,,,Common-term
+cons,kon-ss,,,
+conservative,,,,theory
+contextual,,,,Common-term
+equational,,,,Common-term
+expressive,,,,Common-term
+expressiveness,,,,Common-term
+fixpoint,,,,Common-term
+force,,,,Common-term evaluation
+Go,,,,
+Kiselyov,,,,
+Krishnaswami,,,,
+lemma,,,,Common-term
+Levy,,,,
+ML,,,,Programming-language
+quantified,,,,Common-term
+Reynolds,,,,Name
+Semantic,,,,Common-term
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+ANF,,,,
+CACM ,,,,
+calculi,,,,
+case expression,,,,
+Church-Rosser,,,,
+clause,,,,
+combinator,,,,Common-term
+concurrency,,,,Common-term
+continuation-passing style,,,,
+DSL,,,,
+duality,,,,
+dynamic semantics,,,,
+filter,,,,
+Findler,,,,
+formalization,,,,Common-term
+Id,,,,
+immutable,,,,Common-term
+IncA,,,,
+Java,,,,
+koen.claessen@epicgames.com,,,,email
+lambda calculi,,,,Common-term
+lambda-calculi,,,,Common-term
+lambda-calculus,,,,Common-term
+mail@joachim-breitner.de,,,,email
+matching,,“pattern matching”,,Common-term
+metatheory,,,,Common-term
+monad,Mow-nad,,,Common-term
+monotone,,,,Common-term
+nondeterministic,,,,
+olin.shivers@epicgames.com,,,,email
+probabilistic,,,,Common-term
+ranjit.jhala@epicgames.com,,,,email
+reification,,,,Common-term
+reified,,,,
+Scheme,,,,Common-term programming-language
+sequential ,,,,
+Shao,,,,
+Small-step operational semantics,,,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+steele@oracle.com,,,,email
+symbolic,,,,
+tim.sweeney@epicgames.com,,,,email
+Wadler,,,,Name
+Xi,,,,
+zip,,,,
+Augustsson,,,,unclassified
+Ariola,,,,unclassified
+Claessen,,,,unclassified
 Breitner,,,,unclassified
 Jhala,,,,unclassified
-Shivers,,,,
 Antoy,,,,unclassified
 non-deterministic,,,,unclassified
 eqn-elim,,,,unclassified
 hnf,,,,unclassified
 Datalog,,,,unclassified
-desugaring,,,,Common-term
-heap,,,,
-higher-order,,,,Common-term
-normalization,,computations,,theory
 var-swap,,,,unclassified
 call-by-need,,,,unclassified
 Lopez-Fraguas,,,,unclassified
-pattern matching,,,,
-redex,,,,
 seq-swap,,,,unclassified
-backtracking,,,,Common-term
-Haskell,,,,Common-term programming-language
 one{e,,,,unclassified
-recursion,,,,Common-term
 SIGPLAN,,,,unclassified
-syntactic,,,,Common-term
 Brael,,,,unclassified
 exi-swap,,,,unclassified
-recursive,,,,Common-term
-small-step,,,,Common-term
-Elimination,,,,
 fail-elim,,,,unclassified
 fvs,,,,unclassified
 Huch,,,,unclassified
 left-to-right,,,,unclassified
-operational semantics,,,,
 u-tup,,,,unclassified
-Why,,,,
 all-choice,,,,unclassified
 all{e,,,,unclassified
 Bernd,,,,unclassified
 Blom,,,,unclassified
 CRWL,,,,unclassified
-denotational semantics,,,,semantics
 EXI,,,,unclassified
 FLC,,,,unclassified
 fvs(v,,,,unclassified
-Koen Claessen,,,,Author
 Launchbury,,,,unclassified
-laziness,,,,
-Matthias Felleisen,,,,Author
 u-occurs,,,,unclassified
 all{i,,,,unclassified
 app-tup,,,,unclassified
-array,,,,Common-term
 Barendregt,,,,unclassified
 big-step,,,,unclassified
 call-by-value,,,,unclassified
-concurrent,,,,Common-term
-constructor,,,,Common-term
-desugar,,,,Common-term
 e{v/x,,,,unclassified
-Felleisen,,,,
 first-order,,,,unclassified
 for(x,,,,unclassified
 Goffin,,,,unclassified
 head-normal,,,,unclassified
-integer,,,,Common-term
-Joachim Breitner,,,,Author
-K ,,“K axiom”,,
-Lennart Augustsson,,,,Author
 letrec,,,,unclassified
 LNCS,,,,unclassified
-Olin Shivers,,,,Author
 one-choice,,,,unclassified
 POPL,,,,unclassified
-Ranjit Jhala,,,,Author
 redexes,,,,unclassified
-reifies,,,,
-reify,,,,Common-term
 Schmidt-Schau,,,,unclassified
-Simon Peyton Jones,,,,Author
-stack,,,,
-theorem,,,,Common-term
-Tim Sweeney,,,,Author
 u-lit,,,,unclassified
 u-var,,,,unclassified
 "a,b",,,,unclassified
-abstraction,,,,Common-term
 all{x,,,,unclassified
 app-add,,,,unclassified
 app-beta,,,,unclassified
@@ -110,7 +194,6 @@ call-time,,,,unclassified
 choice-free,,,,unclassified
 Clocksin,,,,unclassified
 ctx,,,,unclassified
-defunctionalization,,,,
 eqn-float,,,,unclassified
 even/odd,,,,unclassified
 exi-float,,,,unclassified
@@ -118,22 +201,16 @@ False,,,,unclassified
 gtk1,,,,unclassified
 hnf-swap,,,,unclassified
 Huet,,,,unclassified
-match,,,,
 Mellish,,,,unclassified
 multi-value,,,,unclassified
 multi-valued,,,,unclassified
-Non-determinism,,,,Common-term
 Object-Oriented,,,,unclassified
 pull-tabbing,,,,unclassified
-QuickCheck,,,,testing tool
-reduction relation,,,,
-relational,,,,
 right-associative,,,,unclassified
 Sabry,,,,unclassified
 Schauser,,,,unclassified
 set-functions,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
-untyped,,,,
 v/x,,,,unclassified
 val-elim,,,,unclassified
 VC's,,,,unclassified
@@ -150,39 +227,26 @@ as-yet-unevaluated,,,,unclassified
 Asperti,,,,unclassified
 Avgustinov,,,,unclassified
 Bembenek,,,,unclassified
-Boolean,,,,
 capture-avoiding,,,,unclassified
 Ceri,,,,unclassified
 Chakravarty,,,,unclassified
 choose-assoc,,,,unclassified
 choose-l,,,,unclassified
 choose-r,,,,unclassified
-closure,,,,Common-term
-compiled,,,,
-compiler,,,,Common-term
-cons,kon-ss,,,
-conservative,,,,theory
 consx,,,,unclassified
-contextual,,,,Common-term
 Curry's,,,,unclassified
 Dagstuhl,,,,unclassified
 Dagstuhl--Leibniz-Zentrum,,,,unclassified
 Datafun,,,,unclassified
 de'Liguoro,,,,unclassified
 ECOOP,,,,unclassified
-equational,,,,Common-term
 exi-elim,,,,unclassified
 existentials,,,,unclassified
-expressive,,,,Common-term
-expressiveness,,,,Common-term
 fcn(t,,,,unclassified
-fixpoint,,,,Common-term
 flatMap,,,,unclassified
 for(e1,,,,unclassified
-force,,,,Common-term evaluation
 Formulog,,,,unclassified
 fvs(e,,,,unclassified
-Go,,,,
 Gonzalez-Moreno,,,,unclassified
 gt3,,,,unclassified
 guaranteed-choice-free,,,,unclassified
@@ -190,13 +254,9 @@ Guerrini,,,,unclassified
 gx,,,,unclassified
 Hindley,,,,unclassified
 Informatik,,,,unclassified
-Kiselyov,,,,
 Korb,,,,unclassified
-Krishnaswami,,,,
 Kutzner,,,,unclassified
 left-hand-side,,,,unclassified
-lemma,,,,Common-term
-Levy,,,,
 LIPIcs,,,,unclassified
 local-propagation,,,,unclassified
 Lochbaum,,,,unclassified
@@ -204,7 +264,6 @@ M.T,,,,unclassified
 Machkasova,,,,unclassified
 mapf,,,,unclassified
 Milicich,,,,unclassified
-ML,,,,Programming-language
 Multiparadigm,,,,unclassified
 no-ops,,,,unclassified
 non-confluence,,,,unclassified
@@ -218,24 +277,19 @@ one{1,,,,unclassified
 one{i,,,,unclassified
 one{p(x,,,,unclassified
 one{v,,,,unclassified
-Pablo Barenbaum,,,,researcher
 Pacak,,,,unclassified
 Panangaden,,,,unclassified
 pattern-matching,,,,unclassified
 PPDP,,,,unclassified
-quantified,,,,Common-term
-Reynolds,,,,Name
 right-associated,,,,unclassified
 Rodriguez-Hortala,,,,unclassified
 Sanchez-Hernandez,,,,unclassified
 Saraswat,,,,unclassified
-Semantic,,,,Common-term
 seq-assoc,,,,unclassified
 Smolka,,,,unclassified
 split{e}f,,,,unclassified
 Springer-Verlag,,,,unclassified
 term-rewriting,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 u-fail,,,,unclassified
 User-defined,,,,unclassified
 x=x,,,,unclassified
@@ -254,7 +308,6 @@ all{SC,,,,unclassified
 all{v1,,,,unclassified
 all{x1,,,,unclassified
 "and""narrowing",,,,unclassified
-ANF,,,,
 APLAS,,,,unclassified
 arm-waving,,,,unclassified
 as-yetunknown,,,,unclassified
@@ -262,11 +315,8 @@ bagof,,,,unclassified
 Barenbaum,,,,unclassified
 before4,,,,unclassified
 C.R,,,,unclassified
-CACM ,,,,
-calculi,,,,
 call-by-name,,,,unclassified
 callby-need,,,,unclassified
-case expression,,,,
 case-expression,,,,unclassified
 case-of-known-constructor,,,,unclassified
 choice-consuming,,,,unclassified
@@ -274,32 +324,23 @@ choices--see,,,,unclassified
 choices14,,,,unclassified
 ChristianAlbrechts-Universitat,,,,unclassified
 Chung-chieh,,,,unclassified
-Church-Rosser,,,,
 class-based,,,,unclassified
-clause,,,,
 close(a,,,,unclassified
 closure12,,,,unclassified
 co-authors,,,,unclassified
-combinator,,,,Common-term
 Commun,,,,unclassified
 completeness.11,,,,unclassified
-concurrency,,,,Common-term
 Conference--Volume,,,,unclassified
 consf,,,,unclassified
 consider8,,,,unclassified
 Constructor-based,,,,unclassified
 context-free,,,,unclassified
-continuation-passing style,,,,
 control-structure,,,,unclassified
-Cornell University,,Institution,,Institution
 Correctes,,,,unclassified
 dans,,,,unclassified
 data-flow,,,,unclassified
 Dietmar,,,,unclassified
-DSL,,,,
-duality,,,,
 Duba,,,,unclassified
-dynamic semantics,,,,
 Ebberup,,,,unclassified
 epicgames.com,,,,unclassified
 eqnelim,,,,unclassified
@@ -317,8 +358,6 @@ fcn,,,,unclassified
 fcn88,,,,unclassified
 fencepost-error-prone,,,,unclassified
 Fermat's,,,,unclassified
-filter,,,,
-Findler,,,,
 findp,,,,unclassified
 first-come,,,,unclassified
 first-returned,,,,unclassified
@@ -331,7 +370,6 @@ flexible/rigid,,,,unclassified
 follows1,,,,unclassified
 for(i,,,,unclassified
 for(x1,,,,unclassified
-formalization,,,,Common-term
 for{e,,,,unclassified
 FoSSaCS'20,,,,unclassified
 FPCA,,,,unclassified
@@ -339,7 +377,6 @@ functional-logic,,,,unclassified
 functionallogic,,,,unclassified
 functions--identity,,,,unclassified
 Ganzinger,,,,unclassified
-Giulio Guerrieri,,Author,,Author
 Gmachine,,,,unclassified
 goal-directed,,,,unclassified
 Gottlob,,,,unclassified
@@ -356,30 +393,20 @@ Hortala,,,,unclassified
 Hortala-Gonzalez,,,,unclassified
 http,,,,unclassified
 https,,,,unclassified
-https://doi.org/10,,,,unclassified
-https://web.archive.org/web,,,,unclassified
 ICTAC,,,,unclassified
-Id,,,,
 if-then-else,,,,unclassified
 ill-typed,,,,unclassified
-immutable,,,,Common-term
-IncA,,,,
 individually-chosen,,,,unclassified
 inlining,,,,unclassified
 innermost-bound,,,,unclassified
 J.C,,,,unclassified
-Java,,,,
 Jean-Jacques,,,,unclassified
 Jouannaud,,,,unclassified
 KiCS,,,,unclassified
-koen.claessen@epicgames.com,,,,email
 Kohlbecker,,,,unclassified
 labeled-choose,,,,unclassified
 Lago,,,,unclassified
-lambda calculi,,,,Common-term
 Lambda-calcul,,,,unclassified
-lambda-calculi,,,,Common-term
-lambda-calculus,,,,Common-term
 lambda-lifting,,,,unclassified
 Launchbury's,,,,unclassified
 leftmost-outermost,,,,unclassified
@@ -394,18 +421,11 @@ LNAI,,,,unclassified
 logic-programming,,,,unclassified
 logically-complete,,,,unclassified
 Machine-Oriented,,,,unclassified
-Magnus Madsen,,,,Author
-mail@joachim-breitner.de,,,,email
 map(x,,,,unclassified
 mapz,,,,unclassified
 Maraist,,,,unclassified
 Martin-Martin,,,,unclassified
-Massachusetts Institute of Technology,,,,Institution
-matching,,“pattern matching”,,Common-term
-metatheory,,,,Common-term
 Ming-Ho,,,,unclassified
-monad,Mow-nad,,,Common-term
-monotone,,,,Common-term
 multi-equation,,,,unclassified
 namespaces,,,,unclassified
 need2,,,,unclassified
@@ -419,15 +439,12 @@ non-integer,,,,unclassified
 non-local,,,,unclassified
 non-strict,,,,unclassified
 Non-strictness,,,,unclassified
-nondeterministic,,,,
 normal-order,,,,unclassified
 not-entirely-satisfying,,,,unclassified
 numbers--which,,,,unclassified
 ObjectOriented,,,,unclassified
 Odersky,,,,unclassified
 Oege,,,,unclassified
-olin.shivers@epicgames.com,,,,email
-Olivier Danvy,,,,researcher
 Ondej,,,,unclassified
 one/all,,,,unclassified
 one{fail,,,,unclassified
@@ -446,39 +463,28 @@ Peer-to-Peer,,,,unclassified
 PLDI,,,,unclassified
 Prentice-Hall,,,,unclassified
 Primops,,,,unclassified
-probabilistic,,,,Common-term
 Prolog's,,,,unclassified
 property--it,,,,unclassified
 property--namely,,,,unclassified
 R-normal,,,,unclassified
-ranjit.jhala@epicgames.com,,,,email
 re-expressed,,,,unclassified
 reasonable-looking,,,,unclassified
 redexes--that,,,,unclassified
 reductions--that,,,,unclassified
-reification,,,,Common-term
-reified,,,,
 Rodriguez-Artalejo,,,,unclassified
 Rojemo,,,,unclassified
 RWTH,,,,unclassified
 s.t,,,,unclassified
 Sanches-Hernandez,,,,unclassified
 Scheidecker,,,,unclassified
-Scheme,,,,Common-term programming-language
-Sebastian Erdweg,,,,Author
 SECD,,,,unclassified
 Seipel,,,,unclassified
 semantics-preserving,,,,unclassified
-sequential ,,,,
-Shao,,,,
-Shriram Krishnamurthi,,,,Author
 SIGPLANSIGACT,,,,unclassified
 Simao,,,,unclassified
 simonpj,,,,unclassified
 simpler-choose,,,,unclassified
 single-steps,,,,unclassified
-Small-step operational semantics,,,,
-SMT solver,,Type of tool for solving SMT problems,,Tool
 SMT-Based,,,,unclassified
 somep,,,,unclassified
 split-choice,,,,unclassified
@@ -492,9 +498,7 @@ split{v}f,,,,unclassified
 split{y}f,,,,unclassified
 SpringerVerlag,,,,unclassified
 static-analysis,,,,unclassified
-steele@oracle.com,,,,email
 step--which,,,,unclassified
-Stephanie Weirich,,,,Author
 steps--so-called,,,,unclassified
 Stolz,,,,unclassified
 stuck--how,,,,unclassified
@@ -505,7 +509,6 @@ sub-language,,,,unclassified
 sub-relation,,,,unclassified
 subterms,,,,unclassified
 success/failure,,,,unclassified
-symbolic,,,,
 Tagless,,,,unclassified
 Tanca,,,,unclassified
 TERMGRAPH,,,,unclassified
@@ -513,24 +516,19 @@ test-case,,,,unclassified
 thenotoriously,,,,unclassified
 this9,,,,unclassified
 thunks6,,,,unclassified
-tim.sweeney@epicgames.com,,,,email
 tree-structured,,,,unclassified
 tutorial/tutorial.pdf,,,,unclassified
-Ugo Dal Lago,,,,Author
 uninstantiated,,,,unclassified
 value--we,,,,unclassified
 value10,,,,unclassified
 Volker,,,,unclassified
 Voronkov,,,,unclassified
-Wadler,,,,Name
 Weidenbach,,,,unclassified
 well-behaved-ness,,,,unclassified
 well-specified,,,,unclassified
 Wroclaw,,,,unclassified
 x-equation,,,,unclassified
 x=e,,,,unclassified
-Xi,,,,
 Y-combinators,,,,unclassified
 Zhong,,,,unclassified
-zip,,,,
 zu,,,,unclassified

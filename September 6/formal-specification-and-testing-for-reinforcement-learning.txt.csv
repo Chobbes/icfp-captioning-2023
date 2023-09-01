@@ -1,57 +1,111 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-probability,,,,Common-term
-ICFP,,,,unclassified
-distribution,,,,
-mutation,,,,
-Andrzej,,,,unclassified
 Einar Broch Johnsen,,,,Author
 Mahsa Varshosaz,,,,Author
 Mohsen Ghaffari,,,,Author
-Wsowski,,,,unclassified
+Koen Claessen,,,,Author
+Norman Ramsey,,,,Author
+IT University of Copenhagen,,,,Institution
+probability,,,,Common-term
+ICFP,,,,Common-term
+distribution,,,,
+mutation,,,,
 semantics,,,,
-a_t,,,,unclassified
-s_t,,,,unclassified
 generic,,,,
-pmf,,,,unclassified
 probabilistic,,,,Common-term
-State0,,,,unclassified
 Scala,,,,Common-term programming-language
 Semantic,,,,Common-term
+syntax,,,,Common-term
+derive,,,,
+discrete,,,,
+Kleisli,,,,
+stochastic,Stow-kas-tick,,,Common-term statistics
+Property-based testing,,,,
+functional programming,,,,
+Bernoulli,,,,
+Boolean,,,,
+context,,,,Common-term
+iterations,,,,
+ML,,,,Programming-language
+Dirac distribution,,,,
+K ,,“K axiom”,,
+monad,Mow-nad,,,Common-term
+reflect,,,,
+syntactic,,,,Common-term
+type checker,,,,Common-term
+applicative,,,,Common-term
+automata,,,,Common-term
+closure,,,,Common-term
+compiler,,,,Common-term
+deductive,,,,
+denotational semantics,,,,semantics
+formalization,,,,Common-term
+Go,,,,
+Liang,,,,Name
+match,,,,
+modular,,,,Common-term
+monadic,Mow-nad-ick,,,
+monolithic,,,,
+QuickCheck,,,,testing tool
+runtime,,,,Common-term
+theorem,,,,Common-term
+abstraction,,,,Common-term
+axioms,,,,
+cast,,Gradual typing,,theory
+composable,,,,
+conclusion,,,,
+concurrency,,,,Common-term
+consistency,,Gradual typing,,theory
+dependent,,,,Common-term
+deriving,,,,
+divergence,,,,Common-term
+einarj@ifi.uio.no,,,,email
+expression,,,,Common-term
+force,,,,Common-term evaluation
+Gen,,,,
+Haskell,,,,Common-term programming-language
+Java,,,,
+Jim,,,,
+lambda calculus,lam-duh calculus,,,theory
+lambda-calculus,,,,Common-term
+mahv@itu.dk,,,,email
+mohg@itu.dk,,,,email
+paradigm,,,,Common-term
+quantifier,,,,Common-term
+Ramsey ,,,,
+recursive,,,,Common-term
+sequential ,,,,
+symbolic,,,,
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+wasowski@itu.dk,,,,email
+Why,,,,
+Andrzej,,,,unclassified
+Wsowski,,,,unclassified
+a_t,,,,unclassified
+s_t,,,,unclassified
+pmf,,,,unclassified
+State0,,,,unclassified
 est1,,,,unclassified
 Jothimurugan,,,,unclassified
 q_t,,,,unclassified
 AAAI,,,,unclassified
 state-action,,,,unclassified
-syntax,,,,Common-term
-derive,,,,
-discrete,,,,
 gamma_t,,,,unclassified
 IEEE/ACM,,,,unclassified
-Kleisli,,,,
 mutators,,,,unclassified
-stochastic,Stow-kas-tick,,,Common-term statistics
 g_t,,,,unclassified
 https,,,,unclassified
-IT University of Copenhagen,,,,Institution
 Kruschke,,,,unclassified
 on-policy,,,,unclassified
-Property-based testing,,,,
 Bastani,,,,unclassified
 forAll,,,,unclassified
-functional programming,,,,
 Kishor,,,,unclassified
 RQ3,,,,unclassified
 Tappler,,,,unclassified
 Tbl,,,,unclassified
 agent.observe,,,,unclassified
 arXiv,,,,unclassified
-Bernoulli,,,,
-Boolean,,,,
-context,,,,Common-term
 est2,,,,unclassified
-iterations,,,,
 Konighofer,,,,unclassified
-ML,,,,Programming-language
 n-step,,,,unclassified
 off-policy,,,,unclassified
 os_t,,,,unclassified
@@ -63,13 +117,10 @@ a_tk,,,,unclassified
 Bansal,,,,unclassified
 Beygelzimer,,,,unclassified
 DeMillo,,,,unclassified
-Dirac distribution,,,,
 Eqs,,,,unclassified
 expectation]]bdl,,,,unclassified
 Junges,,,,unclassified
-K ,,“K axiom”,,
 MDP,,,,unclassified
-monad,Mow-nad,,,Common-term
 non-episodic,,,,unclassified
 non-trivial,,,,unclassified
 Oikarinen,,,,unclassified
@@ -77,7 +128,6 @@ Papadakis,,,,unclassified
 Platzer,,,,unclassified
 problem-specific,,,,unclassified
 Q-learning,,,,unclassified
-reflect,,,,
 RQ1,,,,unclassified
 Ruderman,,,,unclassified
 s_tk,,,,unclassified
@@ -87,8 +137,6 @@ ScalaCheck,,,,unclassified
 Search-Based,,,,unclassified
 SIGSOFT,,,,unclassified
 Suguman,,,,unclassified
-syntactic,,,,Common-term
-type checker,,,,Common-term
 Zheng,,,,unclassified
 1-step,,,,unclassified
 2-step,,,,unclassified
@@ -98,20 +146,14 @@ agent.discretize,,,,unclassified
 agent.step,,,,unclassified
 Alshiekh,,,,unclassified
 Amirloo,,,,unclassified
-applicative,,,,Common-term
-automata,,,,Common-term
 bottom-left,,,,unclassified
 CarState,,,,unclassified
 cdfEpsilon,,,,unclassified
 Chakraborty,,,,unclassified
 Claessen,,,,unclassified
-closure,,,,Common-term
-compiler,,,,Common-term
 Concolic,,,,unclassified
 Cyber-Physical,,,,unclassified
-deductive,,,,
 Deletang,,,,unclassified
-denotational semantics,,,,semantics
 Det(O,,,,unclassified
 domain-specific,,,,unclassified
 Double.MaxValue,,,,unclassified
@@ -119,7 +161,6 @@ Dutta,,,,unclassified
 enum,,,,unclassified
 expectation)]]bdl,,,,unclassified
 ExpectationU,,,,unclassified
-formalization,,,,Common-term
 g_tk,,,,unclassified
 g_tkk,,,,unclassified
 g_tt,,,,unclassified
@@ -127,9 +168,7 @@ gamma_tk,,,,unclassified
 gamma_tt,,,,unclassified
 Gen.choose,,,,unclassified
 Gen.choose[Double,,,,unclassified
-Go,,,,
 Hasanbeig,,,,unclassified
-https://doi.org/10,,,,unclassified
 ICSE,,,,unclassified
 ISSTA,,,,unclassified
 Jean-Francois,,,,unclassified
@@ -138,14 +177,9 @@ K-arm,,,,unclassified
 Kaelbling,,,,unclassified
 Kroening,,,,unclassified
 Kwiatkowska,,,,unclassified
-Liang,,,,Name
 List[Est,,,,unclassified
-match,,,,
 McElreath,,,,unclassified
 model-free,,,,unclassified
-modular,,,,Common-term
-monadic,Mow-nad-ick,,,
-monolithic,,,,
 Niranjan,,,,unclassified
 non-obvious,,,,unclassified
 Norvig,,,,unclassified
@@ -155,13 +189,11 @@ P.S,,,,unclassified
 pseudocode,,,,unclassified
 q_tt,,,,unclassified
 q_tt_value,,,,unclassified
-QuickCheck,,,,testing tool
 r_tt,,,,unclassified
 Randomized[(State,,,,unclassified
 Ranzato,,,,unclassified
 Romdhana,,,,unclassified
 Ruan,,,,unclassified
-runtime,,,,Common-term
 RxR,,,,unclassified
 sample(T,,,,unclassified
 SampleU,,,,unclassified
@@ -170,7 +202,6 @@ Shalizi,,,,unclassified
 SPECIFICATION-BASED,,,,unclassified
 Stryker4s,,,,unclassified
 TACAS,,,,unclassified
-theorem,,,,Common-term
 Tonella,,,,unclassified
 Topcu,,,,unclassified
 Tufano,,,,unclassified
@@ -185,7 +216,6 @@ Xiaowei,,,,unclassified
 Zolfagharian,,,,unclassified
 Abbeel,,,,unclassified
 Abdellatif,,,,unclassified
-abstraction,,,,Common-term
 ACM/IEEE,,,,unclassified
 Actor-critic,,,,unclassified
 agent.initialize,,,,unclassified
@@ -202,7 +232,6 @@ Ananya,,,,unclassified
 Arindam,,,,unclassified
 Artif,,,,unclassified
 available4,,,,unclassified
-axioms,,,,
 Bagherzadeh,,,,unclassified
 Bavota,,,,unclassified
 Bayes,,,,unclassified
@@ -215,7 +244,6 @@ blue--the,,,,unclassified
 Bristy,,,,unclassified
 Cano,,,,unclassified
 Car.step,,,,unclassified
-cast,,Gradual typing,,theory
 Ceccato,,,,unclassified
 Cengiz,,,,unclassified
 Chechik,,,,unclassified
@@ -223,12 +251,8 @@ choice--in,,,,unclassified
 chooseAction,,,,unclassified
 co-domains,,,,unclassified
 CoachNet,,,,unclassified
-composable,,,,
 Comput,,,,unclassified
-conclusion,,,,
-concurrency,,,,Common-term
 Connectionist,,,,unclassified
-consistency,,Gradual typing,,theory
 CUED/F-INFENF/TR,,,,unclassified
 CuriosityDriven,,,,unclassified
 cyber,,,,unclassified
@@ -239,8 +263,6 @@ Darko,,,,unclassified
 DeepMetis,,,,unclassified
 definitions--the,,,,unclassified
 Dehnert,,,,unclassified
-dependent,,,,Common-term
-deriving,,,,
 Dhariwal,,,,unclassified
 Dillig,,,,unclassified
 Dirac-distributed,,,,unclassified
@@ -249,10 +271,8 @@ discretized,,,,unclassified
 discretizes,,,,unclassified
 discretizing,,,,unclassified
 distribution--if,,,,unclassified
-divergence,,,,Common-term
 dynamic-programming-based,,,,unclassified
 Ehlers,,,,unclassified
-einarj@ifi.uio.no,,,,email
 Eloussi,,,,unclassified
 episodes).count,,,,unclassified
 equivalance,,,,unclassified
@@ -262,19 +282,16 @@ estimation--discrete,,,,unclassified
 ests,,,,unclassified
 ests.foldM,,,,unclassified
 example--checking,,,,unclassified
-expression,,,,Common-term
 Failure-inducing,,,,unclassified
 failures).cdf,,,,unclassified
 Feng,,,,unclassified
 FIGCPS,,,,unclassified
-force,,,,Common-term evaluation
 forward-moving,,,,unclassified
 frequentist,,,,unclassified
 Fukumizu,,,,unclassified
 fulla,,,,unclassified
 fully-formal,,,,unclassified
 game-based,,,,unclassified
-Gen,,,,
 Gen.oneOf,,,,unclassified
 Gen[CarState,,,,unclassified
 genCarState,,,,unclassified
@@ -287,16 +304,12 @@ Grau-Moya,,,,unclassified
 Gunel,,,,unclassified
 Hado,,,,unclassified
 Hariri,,,,unclassified
-Haskell,,,,Common-term programming-language
 Hellaby,,,,unclassified
 Henzinger,,,,unclassified
 Hernandez-Garcia,,,,unclassified
 Hierons,,,,unclassified
 highest-value,,,,unclassified
 Hong-Ning,,,,unclassified
-https://doi.org,,,,unclassified
-https://stryker-mutator.io,,,,unclassified
-https://typelevel.org/cats,,,,unclassified
 Humbatova,,,,unclassified
 ICLR,,,,unclassified
 ICMLT,,,,unclassified
@@ -309,14 +322,12 @@ Intell,,,,unclassified
 into-distribution,,,,unclassified
 Isil,,,,unclassified
 Jahangirova,,,,unclassified
-Java,,,,
 Jeeva,,,,unclassified
 Jeju,,,,unclassified
 Jia,,,,unclassified
 Jian,,,,unclassified
 Jianzhong,,,,unclassified
 Jie,,,,unclassified
-Jim,,,,
 Jinyi,,,,unclassified
 Joost-Pieter,,,,unclassified
 Jordi,,,,unclassified
@@ -328,13 +339,10 @@ Kintis,,,,unclassified
 Kleene-star-like,,,,unclassified
 Kleisli-composition,,,,unclassified
 Klimov,,,,unclassified
-Koen Claessen,,,,Author
 Kohli,,,,unclassified
 Konnov,,,,unclassified
 Krishnendu,,,,unclassified
 Kunesch,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
-lambda-calculus,,,,Common-term
 Lamyaa,,,,unclassified
 language--a,,,,unclassified
 Launchbury,,,,unclassified
@@ -352,7 +360,6 @@ LIPIcs,,,,unclassified
 Logically-Correct,,,,unclassified
 long-run,,,,unclassified
 Macbook,,,,unclassified
-mahv@itu.dk,,,,email
 Majumdar,,,,unclassified
 Majumder,,,,unclassified
 Manel,,,,unclassified
@@ -374,7 +381,6 @@ Ming-Yu,,,,unclassified
 Misailovic,,,,unclassified
 model-based,,,,unclassified
 Mohammadhosein,,,,unclassified
-mohg@itu.dk,,,,email
 Mojtaba,,,,unclassified
 Monte-Carlo,,,,unclassified
 Mousavi,,,,unclassified
@@ -389,7 +395,6 @@ Niekum,,,,unclassified
 non-compositional,,,,unclassified
 non-empty,,,,unclassified
 non-zero,,,,unclassified
-Norman Ramsey,,,,Author
 observableStates.contains,,,,unclassified
 off-model,,,,unclassified
 Oliveto,,,,unclassified
@@ -398,7 +403,6 @@ otherwise--the,,,,unclassified
 overflow/underflow,,,,unclassified
 owner/author(s,,,,unclassified
 Papernot,,,,unclassified
-paradigm,,,,Common-term
 Pascarella,,,,unclassified
 Peyman,,,,unclassified
 Ph.D,,,,unclassified
@@ -425,14 +429,11 @@ Qi,,,,unclassified
 Qin,,,,unclassified
 Qingzhou,,,,unclassified
 Quad-Core,,,,unclassified
-quantifier,,,,Common-term
 Radoslav,,,,unclassified
 Raedt,,,,unclassified
-Ramsey ,,,,
 randomisation,,,,unclassified
 "Randomized[(Q,State,Action",,,,unclassified
 re-run,,,,unclassified
-recursive,,,,Common-term
 regex,,,,unclassified
 region-of-practical,,,,unclassified
 reinforcement-learning,,,,unclassified
@@ -452,7 +453,6 @@ Scalabrino,,,,unclassified
 Scott-continuous,,,,unclassified
 Selvam,,,,unclassified
 semi-automatically,,,,unclassified
-sequential ,,,,
 Serban,,,,unclassified
 SETTA,,,,unclassified
 Shaohua,,,,unclassified
@@ -475,7 +475,6 @@ Stryker's,,,,unclassified
 sub-optimal,,,,unclassified
 Sutton-and-Barto-style,,,,unclassified
 Suvodeep,,,,unclassified
-symbolic,,,,
 symsim,,,,unclassified
 t+n,,,,unclassified
 TD-updates,,,,unclassified
@@ -487,12 +486,10 @@ Tiziana,,,,unclassified
 tradition--this,,,,unclassified
 Traon,,,,unclassified
 trials.take,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 Tsui-Wei,,,,unclassified
 Tuomas,,,,unclassified
 Tyukin,,,,unclassified
 Uesato,,,,unclassified
-unknown,,Gradual typing,,theory
 update--the,,,,unclassified
 update-until-termination,,,,unclassified
 Uraz,,,,unclassified
@@ -502,14 +499,12 @@ vf.chooseAction,,,,unclassified
 vice-versa,,,,unclassified
 Vizel,,,,unclassified
 Wasowski,,,,unclassified
-wasowski@itu.dk,,,,email
 Weidi,,,,unclassified
 Weimer,,,,unclassified
 Weng,,,,unclassified
 Wenhui,,,,unclassified
 Wenzhi,,,,unclassified
 Whiteson,,,,unclassified
-Why,,,,
 Wiering,,,,unclassified
 Wolski,,,,unclassified
 write-once-use-everywhere,,,,unclassified

@@ -1,4 +1,14 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Nicolas Wu,,,,Author
+Zhixuan Yang,,,,Author
+Tom Schrijvers,,,,Author
+Dylan McDermott,,,,Author
+Shin-ya Katsumata,,,,Author
+Cas van der Rest,,,,Author
+Pablo Nogueira,,,,researcher
+Simon Peyton Jones,,,,Author
+Wouter Swierstra,,,,Author
+Imperial College London,,,,Institution
 category,,,,
 modular,,,,Common-term
 Id,,,,
@@ -10,119 +20,162 @@ equational,,,,Common-term
 monoid,,,,Common-term
 theorem,,,,Common-term
 K ,,“K axiom”,,
-ALG(E,,,,unclassified
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 algebras,,,,
 monad,Mow-nad,,,Common-term
 syntax,,,,Common-term
-Mon(E,,,,unclassified
-Nicolas Wu,,,,Author
-coproducts,,,,unclassified
 scoped,,,,Common-term
-Zhixuan Yang,,,,Author
 homomorphism,,,,Common-term
 metalanguage,,,,
 Moggi,,,,Name
 modularity,,,,Common-term
 lemma,,,,Common-term
-SCP(E,,,,unclassified
 syntactic,,,,Common-term
-cocomplete,,,,unclassified
-Jaskelioff,,,,unclassified
 morphism,,,,Common-term
 semantics,,,,
-colimits,,,,unclassified
 context,,,,Common-term
-Mon/Eqs,,,,unclassified
 calculus,,Used to describe a core simple programming language,,Common-term
 effectful,,,,
 Plotkin,,Name,,name
 Power,,,,
 Semantic,,,,Common-term
-fibrations,,,,unclassified
 functional programming,,,,
+coproduct,,,,
+equational theory,,,,Common-term
+adjoint,,,,theory
+adjunction,,,,Common-term
+effect handlers,,,,
+monad transformer,,,,Common-term
+applicative,,,,Common-term
+axioms,,,,
+continuation,,,,
+Paterson,,,,
+abstraction,,,,Common-term
+algebraic effects,,,,
+fibration,,,,Common-term
+graded monads,,,,
+isomorphic,,,,Common-term
+denotational semantics,,,,semantics
+lattice,,,,Common-term
+fold,,,,Common-term
+Haskell,,,,Common-term programming-language
+higher-order,,,,Common-term
+McBride,,,,Name
+Pretnar,,,,
+sequential ,,,,
+variable-binding,,,,Common-term
+coherence,,,,
+expression,,,,Common-term
+Gibbons,,,,
+IO,Eye-oh,,,
+Katsumata,,,,
+Liang,,,,Name
+monoid-theory,,,,Common-term
+recursion,,,,Common-term
+automata,,,,Common-term
+axiom,,,,
+categorical semantics,,,,
+composable,,,,
+congruence,,,,Common-term
+constructor,,,,Common-term
+dependent,,,,Common-term
+Ishii,,,,
+Kiselyov,,,,
+match,,,,
+MTL,,,,
+nondeterministic,,,,
+pointer,,,,Common-term
+Reynolds,,,,Name
+untyped,,,,
+Wadler,,,,Name
+applicative functor,,,,
+asymptotic,,,,Common-term
+binding variables,,,,
+Elimination,,,,
+exponential,,,,
+free monad,free mow-nad,,,
+freer monads,,,,
+generic,,,,
+Hudak,,,,Name
+idempotent,,,,Common-term
+induction,,,,Common-term
+invertible,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+lambda calculus,lam-duh calculus,,,theory
+lambda-calculus,,,,Common-term
+metatheory,,,,Common-term
+monadic,Mow-nad-ick,,,
+n.wu@imperial.ac.uk,,,,email
+nondeterminism,,,,
+Peyton Jones,,,,Name
+polymorphism,,,,Common-term
+presheaf,,,,Common-term
+quantitative,,,,
+refinements,,,,
+reflect,,,,
+resumption monad,,,,
+s.yang20@imperial.ac.uk,,,,email
+staging,,,,
+Swierstra,,,,
+symbolic,,,,
+System F,,,,Common-term
+transfinite,,,,
+traversal,,,,Common-term
+ALG(E,,,,unclassified
+Mon(E,,,,unclassified
+coproducts,,,,unclassified
+SCP(E,,,,unclassified
+cocomplete,,,,unclassified
+Jaskelioff,,,,unclassified
+colimits,,,,unclassified
+Mon/Eqs,,,,unclassified
+fibrations,,,,unclassified
 inj2,,,,unclassified
 JK,,,,unclassified
-coproduct,,,,
 Eqs,,,,unclassified
 Grp,,,,unclassified
 SetFin,,,,unclassified
 Hur,,,,unclassified
 inj1,,,,unclassified
-equational theory,,,,Common-term
-adjoint,,,,theory
-adjunction,,,,Common-term
 applicatives,,,,unclassified
-effect handlers,,,,
 Endo(C,,,,unclassified
-monad transformer,,,,Common-term
 oplax,,,,unclassified
 Uustalu,,,,unclassified
-applicative,,,,Common-term
-axioms,,,,
-continuation,,,,
 endofunctors,,,,unclassified
-Paterson,,,,
-abstraction,,,,Common-term
-algebraic effects,,,,
 CAT-valued,,,,unclassified
 coreflection,,,,unclassified
 coreflector,,,,unclassified
 coslice,,,,unclassified
 Eqs(C,,,,unclassified
-fibration,,,,Common-term
 Ghani,,,,unclassified
-graded monads,,,,
 initiality,,,,unclassified
-isomorphic,,,,Common-term
 non-algebraic,,,,unclassified
 POPL,,,,unclassified
-Tom Schrijvers,,,,Author
 coequalisers,,,,unclassified
-denotational semantics,,,,semantics
 Endo(Set,,,,unclassified
 endofunctor,,,,unclassified
 fibrational,,,,unclassified
 https,,,,unclassified
-lattice,,,,Common-term
 Lawvere,,,,unclassified
 Mon/Eqs(E,,,,unclassified
 Tarmo,,,,unclassified
 coend,,,,unclassified
 Filinski,,,,unclassified
-fold,,,,Common-term
 Grothendieck,,,,unclassified
-Haskell,,,,Common-term programming-language
-higher-order,,,,Common-term
-Imperial College London,,,,Institution
 inj,,,,unclassified
 liftings,,,,unclassified
-McBride,,,,Name
 optimisation,,,,unclassified
-Pretnar,,,,
 Rivas,,,,unclassified
-sequential ,,,,
-variable-binding,,,,Common-term
 coequaliser,,,,unclassified
-coherence,,,,
 coreflective,,,,unclassified
 counit,,,,unclassified
-Dylan McDermott,,,,Author
 Eqs(E,,,,unclassified
-expression,,,,Common-term
 first-order,,,,unclassified
-Gibbons,,,,
-https://doi.org/10,,,,unclassified
-IO,Eye-oh,,,
 J-K,,,,unclassified
 Jii,,,,unclassified
-Katsumata,,,,
-Liang,,,,Name
 LICS,,,,unclassified
-monoid-theory,,,,Common-term
 multicategory,,,,unclassified
 quotiented,,,,unclassified
-recursion,,,,Common-term
 Second-Order,,,,unclassified
 Springer-Verlag,,,,unclassified
 Szamozvancev,,,,unclassified
@@ -131,20 +184,13 @@ ACM/IEEE,,,,unclassified
 ALG(Endo,,,,unclassified
 Andrzej,,,,unclassified
 Atkey,,,,unclassified
-automata,,,,Common-term
-axiom,,,,
 BLat)-Alg,,,,unclassified
-categorical semantics,,,,
 Cenciarelli,,,,unclassified
 Chung-Kil,,,,unclassified
 Co)end,,,,unclassified
 co-Yoneda,,,,unclassified
-composable,,,,
-congruence,,,,Common-term
-constructor,,,,Common-term
 coprojection,,,,unclassified
 coreflected,,,,unclassified
-dependent,,,,Common-term
 Donnacha,,,,unclassified
 E+Id,,,,unclassified
 Ec)-Alg,,,,unclassified
@@ -158,40 +204,30 @@ functors/natural,,,,unclassified
 Grp-Alg,,,,unclassified
 Hermida,,,,unclassified
 Hur's,,,,unclassified
-Ishii,,,,
 Jlet,,,,unclassified
-Kiselyov,,,,
 Kmett,,,,unclassified
 Kock,,,,unclassified
 Komendantskaya,,,,unclassified
 Lambek,,,,unclassified
 Loregian,,,,unclassified
 MacLane,,,,unclassified
-match,,,,
 Mokhov,,,,unclassified
 Mon-Alg,,,,unclassified
-MTL,,,,
-nondeterministic,,,,
 Parameterised,,,,unclassified
 Pieters,,,,unclassified
-pointer,,,,Common-term
 poset,,,,unclassified
 Poulsen,,,,unclassified
 pushouts,,,,unclassified
 quotienting,,,,unclassified
-Reynolds,,,,Name
 Rosicky,,,,unclassified
 set-indexed,,,,unclassified
-Shin-ya Katsumata,,,,Author
 SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 SIGPLANSIGACT,,,,unclassified
 Staton,,,,unclassified
 strict/strong,,,,unclassified
-untyped,,,,
 VAR(SetFin,,,,unclassified
 Voigtlander,,,,unclassified
-Wadler,,,,Name
 1-categorical,,,,unclassified
 2-categorical,,,,unclassified
 2-cells,,,,unclassified
@@ -202,20 +238,16 @@ Adjunctions,,,,unclassified
 aims/parts,,,,unclassified
 Alg(Free,,,,unclassified
 Anuj,,,,unclassified
-applicative functor,,,,
 applicative-algebraic,,,,unclassified
 applicative-computations,,,,unclassified
 Archiv,,,,unclassified
 arity,,,,unclassified
-asymptotic,,,,Common-term
 Audebaud,,,,unclassified
-binding variables,,,,
 Bioinformatics,,,,unclassified
 Birthe,,,,unclassified
 Breadth-First,,,,unclassified
 breadthfirst,,,,unclassified
 Carolinae,,,,unclassified
-Cas van der Rest,,,,Author
 CAT/C,,,,unclassified
 Categoriques,,,,unclassified
 Cayley's,,,,unclassified
@@ -241,25 +273,20 @@ EACSL,,,,unclassified
 edn,,,,unclassified
 Eilenberg,,,,unclassified
 Electr,,,,unclassified
-Elimination,,,,
 Engberg,,,,unclassified
 epimorphisms,,,,unclassified
 EPSRC,,,,unclassified
 ExId,,,,unclassified
-exponential,,,,
 FGrp,,,,unclassified
 forI,,,,unclassified
 Fosco,,,,unclassified
 FOSSACS,,,,unclassified
 FPCA,,,,unclassified
-free monad,free mow-nad,,,
-freer monads,,,,
 FSCD,,,,unclassified
 fuer,,,,unclassified
 functors/graded,,,,unclassified
 G-graded,,,,unclassified
 G.M,,,,unclassified
-generic,,,,
 Geometrie,,,,unclassified
 GoubaultLarrecq,,,,unclassified
 Gradel,,,,unclassified
@@ -268,23 +295,15 @@ Hasuo,,,,unclassified
 Heunen,,,,unclassified
 Hiromi,,,,unclassified
 hom-set,,,,unclassified
-https://doi.org,,,,unclassified
-Hudak,,,,Name
 ICALP'07,,,,unclassified
 Ichiro,,,,unclassified
-idempotent,,,,Common-term
 idJ,,,,unclassified
-induction,,,,Common-term
 Informatik,,,,unclassified
 initial-algebra,,,,unclassified
 "injMon,2",,,,unclassified
 internalised,,,,unclassified
-invertible,,,,
 J*K,,,,unclassified
 JIK,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-lambda calculus,lam-duh calculus,,,theory
-lambda-calculus,,,,Common-term
 Launchbury,,,,unclassified
 law2,,,,unclassified
 Lawvere-style,,,,unclassified
@@ -296,64 +315,43 @@ Makoto,,,,unclassified
 Mathematicae,,,,unclassified
 Matija,,,,unclassified
 metalanguages,,,,unclassified
-metatheory,,,,Common-term
 models/handlers,,,,unclassified
 Mogens,,,,unclassified
 Mon/Eqs(SetFin,,,,unclassified
-monadic,Mow-nad-ick,,,
 monoids/applicative,,,,unclassified
 multi-phased,,,,unclassified
 Multicategories,,,,unclassified
-n.wu@imperial.ac.uk,,,,email
 non-linear,,,,unclassified
 non-linearity,,,,unclassified
 non-standard,,,,unclassified
 non-strict,,,,unclassified
 non-trivial,,,,unclassified
-nondeterminism,,,,
 Ob(E,,,,unclassified
 owner/author(s,,,,unclassified
-Pablo Nogueira,,,,researcher
 Paulin-Mohring,,,,unclassified
 Paviotti,,,,unclassified
-Peyton Jones,,,,Name
 Phreilambud,,,,unclassified
-polymorphism,,,,Common-term
-presheaf,,,,Common-term
 Pultr,,,,unclassified
-quantitative,,,,
 RAIRO,,,,unclassified
 re-interpreting,,,,unclassified
 re-trying,,,,unclassified
-refinements,,,,
-reflect,,,,
-resumption monad,,,,
 Rohrl,,,,unclassified
-s.yang20@imperial.ac.uk,,,,email
 Satoshi,,,,unclassified
 SetD,,,,unclassified
 signature/context,,,,unclassified
 signatures/theories,,,,unclassified
-Simon Peyton Jones,,,,Author
 specialises,,,,unclassified
-staging,,,,
 sub-languages,,,,unclassified
 substitution/jumps,,,,unclassified
 subterms,,,,unclassified
 Swierczkowski,,,,unclassified
-Swierstra,,,,
-symbolic,,,,
-System F,,,,Common-term
 Techniques-Tutorial,,,,unclassified
 Topologie,,,,unclassified
-transfinite,,,,
-traversal,,,,Common-term
 Uffe,,,,unclassified
 unitor,,,,unclassified
 unitors,,,,unclassified
 variablebinding,,,,unclassified
 VII.1,,,,unclassified
 workaround,,,,unclassified
-Wouter Swierstra,,,,Author
 Wrocaw,,,,unclassified
 xSet,,,,unclassified

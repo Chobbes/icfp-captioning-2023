@@ -1,56 +1,170 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-API,A.P.I.,Application Programming Interface,,Common-term
-HACL,,,,unclassified
-ICFP,,,,unclassified
-generic,,,,
 Jonathan Protzenko,,,,Author
+Aymeric Fromherz,,,,Author
+Son Ho,,,,Author
+Adam Chlipala,,,,Author
+Andres Erbsen,,,,Author
+Derek Dreyer,,,,Author
+Gilles Barthe,,,,Author
+Kenji Maillard,ken-jee my-yar,,,Author
+Ilya Sergey,,,,Author
+Leonardo de Moura,,,,Author
+Robbert Krebbers,,,,Author
+Samuel Gruetter,,,,Author
+INRIA,,,,Institution
+GitHub,,,,Institution
+Microsoft Research,,Often “MSR”,,Institution
+API,A.P.I.,Application Programming Interface,,Common-term
+ICFP,,,,Common-term
+generic,,,,
 modularity,,,,Common-term
 abstractions,,,,
-upd,,,,unclassified
-Aymeric Fromherz,,,,Author
-Zero-Cost,,,,unclassified
-alloc,,,,unclassified
-i.k,,,,unclassified
 K ,,“K axiom”,,
 match,,,,
-Son Ho,,,,Author
-idx,,,,unclassified
-call-graph,,,,unclassified
 DSL,,,,
-mindex,,,,unclassified
-false,,,,unclassified
 tactic,,,,
-ckey,,,,unclassified
 ghost,,,,
 modular,,,,Common-term
-state_s,,,,unclassified
 compiler,,,,Common-term
 Id,,,,
 functor,,,,Common-term
 higher-order,,,,Common-term
+lemma,,,,Common-term
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+OCaml,,,,Common-term programming-language
+Swamy,,,,
+ML,,,,Programming-language
+Dependent types,,,,types
+pointer,,,,Common-term
+runtime,,,,Common-term
+abstraction,,,,Common-term
+instantiation,,,,
+Lean,,,,
+Protzenko,,,,
+Appel,,,,
+elaborator reflection,,,,
+array,,,,Common-term
+AST ,A.S.T.,Abstract Syntax Tree,,
+Cogent,Koe-jent?,,,
+combinator,,,,Common-term
+dependent,,,,Common-term
+heap,,,,
+Idris,,,,
+polymorphism,,,,Common-term
+stack,,,,
+context,,,,Common-term
+enumeration,,,,Common-term
+fold,,,,Common-term
+functional programming,,,,
+Go,,,,
+toolchain,,,,
+Ahman,,,,
+CertiKOS,,“Certified Kit Operating System”,,
+closures,,,,Common-term
+de Moura,,,,
+decidable,,,,
+erasure,,type erasure,,Common-term
+Haskell,,,,Common-term programming-language
+normalizer,,computations,,theory
+OS,operating system,,,
+protocol,,,,
+semantics,,,,
+SMT ,,,,
+Z3,,Tool to automatically prove theorems,,Tool
+Bedrock,,,,
+boilerplate,,,,
+Brady,,,,
+compiled,,,,
+concurrent,,,,Common-term
+dependently-typed,,,,types
+Dijkstra,,,,
+embeddings,,,,
+inductive,,,,Common-term
+Leroy,,,,Name
+meta-programming,,,,
+metaprogramming,,,,Common-term
+MLton,I assume “milton”,,,
+monomorphization,,,,
+polymorphic,,,,Common-term
+ref,,,,
+Rust,,,,Common-term programming-language
+separation logic,,,,Common-term
+Shao,,,,
+SML,,,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+syntactic,,,,Common-term
+syntax,,,,Common-term
+theorem,,,,Common-term
+traversal,,,,Common-term
+typeclasses,,,,
+well-typed,,,,Common-term
+Why,,,,
+algorithmic,,,,Common-term
+allocations,,,,Common-term
+amortized,,amortized analyses,,Common-term
+calculus,,Used to describe a core simple programming language,,Common-term
+composable,,,,
+conclusion,,,,
+concurrency,,,,Common-term
+Dafny,,,,
+divergence,,,,Common-term
+Elimination,,,,
+expressiveness,,,,Common-term
+Hoare logic,,,,Common-term
+Idris 2,,,,
+immutable,,,,Common-term
+instruction,,,,
+integer,,,,Common-term
+IO,Eye-oh,,,
+Isabelle/HOL,,,,
+Lean theorem prover,,,,
+linear types,,,,Common-term
+Mandate,,,,
+memory management,,,,Common-term
+metalanguage,,,,
+metaprograms,,,,
+monomorphic,,,,
+Non-determinism,,,,Common-term
+optional,,,,
+Plotkin,,Name,,name
+quantitative,,,,
+Redmond,,,,
+reduction,,,,Common-term
+refinement types,,,,
+refinements,,,,
+reflect,,,,
+reflection,,,,Common-term
+relational,,,,
+scalability,,,,
+type-checker,,,,Common-term
+typechecker,,,,Common-term
+VST,,Verified Software Toolchain,,theorem-proving tool
+Z3 SMT solver,,,,
+HACL,,,,unclassified
+upd,,,,unclassified
+Zero-Cost,,,,unclassified
+alloc,,,,unclassified
+i.k,,,,unclassified
+idx,,,,unclassified
+call-graph,,,,unclassified
+mindex,,,,unclassified
+false,,,,unclassified
+ckey,,,,unclassified
+state_s,,,,unclassified
 HPKE,,,,unclassified
 ifind,,,,unclassified
-lemma,,,,Common-term
 Blake2,,,,unclassified
-Coq,“Coq”,,,Common-term programming-language theorem-prover
 i.v,,,,unclassified
-OCaml,,,,Common-term programming-language
 recv,,,,unclassified
-Swamy,,,,
 run-time,,,,unclassified
 Bhargavan,,,,unclassified
-ML,,,,Programming-language
 Nikhil,,,,unclassified
 Polubelova,,,,unclassified
 Rastogi,,,,unclassified
 Aseem,,,,unclassified
-Dependent types,,,,types
 EverCrypt,,,,unclassified
-pointer,,,,Common-term
 Ramananandro,,,,unclassified
-runtime,,,,Common-term
 Zinzindohoue,,,,unclassified
-abstraction,,,,Common-term
 inlining,,,,unclassified
 mk_find,,,,unclassified
 Mouha,,,,unclassified
@@ -63,17 +177,12 @@ block_state,,,,unclassified
 e.t,,,,unclassified
 hpke_alg,,,,unclassified
 https,,,,unclassified
-instantiation,,,,
 KaRaMeL,,,,unclassified
 Karthikeyan,,,,unclassified
-Lean,,,,
 Pit-Claudel,,,,unclassified
-Protzenko,,,,
 update_multi,,,,unclassified
 update_multi_s,,,,unclassified
-Appel,,,,
 callees,,,,unclassified
-elaborator reflection,,,,
 eq_type,,,,unclassified
 inlined,,,,unclassified
 Meta-F,,,,unclassified
@@ -83,43 +192,27 @@ security-critical,,,,unclassified
 SIGPLAN,,,,unclassified
 whole-program,,,,unclassified
 AEAD,,,,unclassified
-array,,,,Common-term
-AST ,A.S.T.,Abstract Syntax Tree,,
 block_index,,,,unclassified
 callee,,,,unclassified
 codebase,,,,unclassified
-Cogent,Koe-jent?,,,
-combinator,,,,Common-term
 Delignat-Lavaud,,,,unclassified
-dependent,,,,Common-term
 Erbsen,,,,unclassified
 Fournet,,,,unclassified
 Hawblitzel,,,,unclassified
-heap,,,,
-Idris,,,,
 mk_map,,,,unclassified
 mk_send,,,,unclassified
-polymorphism,,,,Common-term
 POPL,,,,unclassified
-stack,,,,
 U8.t{length,,,,unclassified
 update_last,,,,unclassified
 USENIX,,,,unclassified
 while_body,,,,unclassified
 while_cond,,,,unclassified
-Adam Chlipala,,,,Author
 aead_encrypt,,,,unclassified
 as_seq,,,,unclassified
 Aumasson,,,,unclassified
 ChaCha20,,,,unclassified
-context,,,,Common-term
 deref,,,,unclassified
-enumeration,,,,Common-term
-fold,,,,Common-term
-functional programming,,,,
-Go,,,,
 Gueron,,,,unclassified
-INRIA,,,,Institution
 key.t,,,,unclassified
 Lammich,,,,unclassified
 mk_recv,,,,unclassified
@@ -130,7 +223,6 @@ Parno,,,,unclassified
 SHA2,,,,unclassified
 split_at_last,,,,unclassified
 String.eq,,,,unclassified
-toolchain,,,,
 type-level,,,,unclassified
 uint32_t,,,,unclassified
 update_block,,,,unclassified
@@ -139,7 +231,6 @@ xv,,,,unclassified
 AES-GCM,,,,unclassified
 aes_dec,,,,unclassified
 aes_enc,,,,unclassified
-Ahman,,,,
 arch_index,,,,unclassified
 Beurdouche,,,,unclassified
 bi.block_len,,,,unclassified
@@ -148,25 +239,18 @@ bi.state.s,,,,unclassified
 bi.state.v,,,,unclassified
 CAbstractStruct,,,,unclassified
 call-site,,,,unclassified
-CertiKOS,,“Certified Kit Operating System”,,
 chacha20_encrypt,,,,unclassified
-closures,,,,Common-term
 compile-time,,,,unclassified
 composability,,,,unclassified
-de Moura,,,,
-decidable,,,,
 encode_point,,,,unclassified
 encode_point_64_lowstar,,,,unclassified
 encode_point_64_vale,,,,unclassified
 EqType,,,,unclassified
-erasure,,type erasure,,Common-term
 fadd,,,,unclassified
 field_index,,,,unclassified
 Firefox,,,,unclassified
 Gerwin,,,,unclassified
-GitHub,,,,Institution
 hash1,,,,unclassified
-Haskell,,,,Common-term programming-language
 High-Assurance,,,,unclassified
 Hritcu,,,,unclassified
 irecv,,,,unclassified
@@ -181,38 +265,30 @@ max_input,,,,unclassified
 MD5,,,,unclassified
 meta-program,,,,unclassified
 mk_scalamult,,,,unclassified
-normalizer,,computations,,theory
-OS,operating system,,,
 out_len,,,,unclassified
 Pierre-Yves,,,,unclassified
 Pit-Claudel's,,,,unclassified
 post-conditions,,,,unclassified
-protocol,,,,
 s:seq,,,,unclassified
 scalarmult,,,,unclassified
 seL4,,,,unclassified
-semantics,,,,
 side-channel,,,,unclassified
-SMT ,,,,
 spec_is_incremental,,,,unclassified
 spec_s,,,,unclassified
 ss.footprint,,,,unclassified
 str_eqty,,,,unclassified
 total_len,,,,unclassified
 w:arch_index,,,,unclassified
-Z3,,Tool to automatically prove theorems,,Tool
 Abhishek,,,,unclassified
 aead_alg,,,,unclassified
 aead_decrypt,,,,unclassified
 alg:hpke_alg,,,,unclassified
-Andres Erbsen,,,,Author
 Ashay,,,,unclassified
 AVX,,,,unclassified
 AVX2,,,,unclassified
 a{m.k,,,,unclassified
 Bacelar,,,,unclassified
 Barbosa,,,,unclassified
-Bedrock,,,,
 Beringer,,,,unclassified
 bi.update_multi_s,,,,unclassified
 bi:block_index,,,,unclassified
@@ -220,28 +296,20 @@ Biffle,,,,unclassified
 bignum,,,,unclassified
 Bjorner,,,,unclassified
 block-sized,,,,unclassified
-boilerplate,,,,
-Brady,,,,
 Bugzilla,,,,unclassified
 chacha20_encrypt_st,,,,unclassified
 Chlipala,,,,unclassified
 Choi,,,,unclassified
 code-rewriting,,,,unclassified
-compiled,,,,
-concurrent,,,,Common-term
 Coq's,,,,unclassified
 cryptonite,,,,unclassified
 Ctlin,,,,unclassified
 Danel,,,,unclassified
-dependently-typed,,,,types
-Derek Dreyer,,,,Author
 Dictionary-passing,,,,unclassified
 Diffie-Hellman,,,,unclassified
-Dijkstra,,,,
 Donenfeld,,,,unclassified
 Dworkin,,,,unclassified
 E.eq,,,,unclassified
-embeddings,,,,
 encode_point_51,,,,unclassified
 EverParse,,,,unclassified
 extraction-time,,,,unclassified
@@ -250,7 +318,6 @@ frame_invariant,,,,unclassified
 Fromherz,,,,unclassified
 get_seen,,,,unclassified
 Giannarakis,,,,unclassified
-Gilles Barthe,,,,Author
 hash0,,,,unclassified
 Haskell's,,,,unclassified
 Haskell-crypto,,,,unclassified
@@ -261,12 +328,10 @@ hpke_sealBase,,,,unclassified
 Hricu,,,,unclassified
 i:field_index,,,,unclassified
 ill-typed,,,,unclassified
-inductive,,,,Common-term
 init_s,,,,unclassified
 input:seq,,,,unclassified
 Joonwon,,,,unclassified
 Kassios,,,,unclassified
-Kenji Maillard,ken-jee my-yar,,,Author
 key-value,,,,unclassified
 key.s,,,,unclassified
 Key.state_index,,,,unclassified
@@ -276,22 +341,16 @@ Krasnov,,,,unclassified
 Laporte,,,,unclassified
 lbuffer,,,,unclassified
 Leino,,,,unclassified
-Leroy,,,,Name
 Linux,,,,unclassified
 Lorch,,,,unclassified
 m.find,,,,unclassified
 MacQueen,,,,unclassified
 Markulf,,,,unclassified
-meta-programming,,,,
-metaprogramming,,,,Common-term
-Microsoft Research,,Often “MSR”,,Institution
 mk_aead_encrypt,,,,unclassified
 mk_dv,,,,unclassified
 mk_encode_point,,,,unclassified
 mkfind,,,,unclassified
-MLton,I assume “milton”,,,
 modifies-clause,,,,unclassified
-monomorphization,,,,
 MTac2,,,,unclassified
 Myreen,,,,unclassified
 Nagashima,,,,unclassified
@@ -301,38 +360,26 @@ off-the-shelf,,,,unclassified
 optional_key,,,,unclassified
 Paraskevopoulou,,,,unclassified
 Philipoom,,,,unclassified
-polymorphic,,,,Common-term
 pre-existing,,,,unclassified
 prenex,,,,unclassified
 prevlen:nat,,,,unclassified
 proof-to-code,,,,unclassified
 re-checked,,,,unclassified
-ref,,,,
 Rizkallah,,,,unclassified
 Ronghui,,,,unclassified
 Rossberg,,,,unclassified
-Rust,,,,Common-term programming-language
 Rustan,,,,unclassified
 s:state,,,,unclassified
 scalarmult_51,,,,unclassified
-separation logic,,,,Common-term
 SHA-3,,,,unclassified
 SHA1,,,,unclassified
 SHA3,,,,unclassified
-Shao,,,,
 SIGSAC,,,,unclassified
-SML,,,,
-SMT solver,,Type of tool for solving SMT problems,,Tool
 specializable,,,,unclassified
 ss.invariant,,,,unclassified
 ss.v,,,,unclassified
 structs,,,,unclassified
-syntactic,,,,Common-term
-syntax,,,,Common-term
-theorem,,,,Common-term
 Tiago,,,,unclassified
-traversal,,,,Common-term
-typeclasses,,,,
 update_last_s,,,,unclassified
 update_multi_is_a_fold,,,,unclassified
 user-provided,,,,unclassified
@@ -341,8 +388,6 @@ Verif,,,,unclassified
 Viega,,,,unclassified
 Voight,,,,unclassified
 Vranken,,,,unclassified
-well-typed,,,,Common-term
-Why,,,,
 x:i.k,,,,unclassified
 Xiongnan,,,,unclassified
 Yutaka,,,,unclassified
@@ -360,10 +405,7 @@ AES256_GCM,,,,unclassified
 aforementionned,,,,unclassified
 al.'s,,,,unclassified
 algorithm-specific,,,,unclassified
-algorithmic,,,,Common-term
-allocations,,,,Common-term
 allocations1,,,,unclassified
-amortized,,amortized analyses,,Common-term
 Andronick,,,,unclassified
 Arti,,,,unclassified
 as-is,,,,unclassified
@@ -390,7 +432,6 @@ C+AVX2,,,,unclassified
 c.dec,,,,unclassified
 c.enc,,,,unclassified
 CakeML,,,,unclassified
-calculus,,Used to describe a core simple programming language,,Common-term
 call-sites.2,,,,unclassified
 callgraph,,,,unclassified
 CertiCoq,,,,unclassified
@@ -404,11 +445,8 @@ client-facing,,,,unclassified
 co-authors,,,,unclassified
 codebases,,,,unclassified
 Commun,,,,unclassified
-composable,,,,
 computationally-irrelevant,,,,unclassified
 concat,,,,unclassified
-conclusion,,,,
-concurrency,,,,Common-term
 constant-time,,,,unclassified
 CoqPL,,,,unclassified
 correct-by-construction,,,,unclassified
@@ -426,13 +464,11 @@ Curve64Lowstar,,,,unclassified
 Curve64Vale,,,,unclassified
 CVE-ridden,,,,unclassified
 d:dv{d.pid,,,,unclassified
-Dafny,,,,
 data-oriented,,,,unclassified
 de-allocation,,,,unclassified
 Derrin,,,,unclassified
 dh_alg,,,,unclassified
 Dhammika,,,,unclassified
-divergence,,,,Common-term
 Dmitry,,,,unclassified
 draft-irtf-cfrg-hpke-02,,,,unclassified
 Drop-In,,,,unclassified
@@ -442,7 +478,6 @@ Dumitrescu,,,,unclassified
 dynlink,,,,unclassified
 e:eq_type,,,,unclassified
 ease-of-use,,,,unclassified
-Elimination,,,,
 Elkaduwe,,,,unclassified
 Elphinstone,,,,unclassified
 enc_t,,,,unclassified
@@ -450,7 +485,6 @@ encryption/decryption,,,,unclassified
 Engelhardt,,,,unclassified
 ESOP/ETAPS,,,,unclassified
 et.al,,,,unclassified
-expressiveness,,,,Common-term
 extendable-output,,,,unclassified
 F-ing,,,,unclassified
 fadd_t,,,,unclassified
@@ -492,30 +526,21 @@ High-Performance,,,,unclassified
 higher-level,,,,unclassified
 HighPerformance,,,,unclassified
 Hiil,,,,unclassified
-Hoare logic,,,,Common-term
 hpke_sealBase_t,,,,unclassified
-https://doi.org/10,,,,unclassified
 Huseyin,,,,unclassified
 Hyper-V,,,,unclassified
 i:mindex,,,,unclassified
 IACR,,,,unclassified
-Idris 2,,,,
 IJCAR,,,,unclassified
-Ilya Sergey,,,,Author
-immutable,,,,Common-term
 Imperative/HOL,,,,unclassified
 in-depth,,,,unclassified
 INDOCRYPT,,,,unclassified
 input_len,,,,unclassified
-instruction,,,,
 int).find,,,,unclassified
-integer,,,,Common-term
 Intel(R,,,,unclassified
 Internet-Draft,,,,unclassified
 intrinsics,,,,unclassified
-IO,Eye-oh,,,
 Ioannis,,,,unclassified
-Isabelle/HOL,,,,
 Ishtiaq,,,,unclassified
 J-P,,,,unclassified
 Jamner,,,,unclassified
@@ -533,29 +558,22 @@ Koutsos,,,,unclassified
 Kulatova,,,,unclassified
 l:loc,,,,unclassified
 language-based,,,,unclassified
-Lean theorem prover,,,,
 Lean3,,,,unclassified
 Lennart,,,,unclassified
-Leonardo de Moura,,,,Author
 Letouzey's,,,,unclassified
 Letouzey-style,,,,unclassified
 lightweight.3,,,,unclassified
-linear types,,,,Common-term
 loc_disjoint,,,,unclassified
 Low's,,,,unclassified
 Lowstar.Field64.fadd,,,,unclassified
 M-J,,,,unclassified
 malloc,,,,unclassified
-Mandate,,,,
 mavx,,,,unclassified
 mavx2,,,,unclassified
-memory management,,,,Common-term
 Merigoux,,,,unclassified
 message-authentication,,,,unclassified
 Meta.Interface.fst,,,,unclassified
 MetaF,,,,unclassified
-metalanguage,,,,
-metaprograms,,,,
 Microsoft's,,,,unclassified
 million-line,,,,unclassified
 miscompilation,,,,unclassified
@@ -564,7 +582,6 @@ mkf,,,,unclassified
 ML's,,,,unclassified
 ML-like,,,,unclassified
 modulo-arithmetic,,,,unclassified
-monomorphic,,,,
 monomorphized,,,,unclassified
 Morrisett,,,,unclassified
 Mozilla,,,,unclassified
@@ -577,7 +594,6 @@ native_compute,,,,unclassified
 natively-compiled,,,,unclassified
 no-key,,,,unclassified
 non-contiguous,,,,unclassified
-Non-determinism,,,,Common-term
 non-deterministic,,,,unclassified
 non-generic,,,,unclassified
 non-ghost,,,,unclassified
@@ -588,7 +604,6 @@ NSS,,,,unclassified
 Obj.magic,,,,unclassified
 OCaml's,,,,unclassified
 open-source,,,,unclassified
-optional,,,,
 optional_reveal,,,,unclassified
 out:seq,,,,unclassified
 owner/author(s,,,,unclassified
@@ -601,7 +616,6 @@ Permutation-based,,,,unclassified
 Petcher,,,,unclassified
 PKC,,,,unclassified
 PLDI,,,,unclassified
-Plotkin,,Name,,name
 plugin,,,,unclassified
 pow2,,,,unclassified
 pragma,,,,unclassified
@@ -616,7 +630,6 @@ prevlen:U64.t,,,,unclassified
 proof-oriented,,,,unclassified
 proof-producing,,,,unclassified
 Public-Key,,,,unclassified
-quantitative,,,,
 Rafal,,,,unclassified
 Ramana,,,,unclassified
 Raumer,,,,unclassified
@@ -626,26 +639,16 @@ re-checks,,,,unclassified
 re-hashing,,,,unclassified
 re-verification,,,,unclassified
 re-verifying,,,,unclassified
-Redmond,,,,
-reduction,,,,Common-term
-refinement types,,,,
-refinements,,,,
-reflect,,,,
-reflection,,,,Common-term
 Regis-Gianas,,,,unclassified
 reinit,,,,unclassified
-relational,,,,
 rewritings,,,,unclassified
-Robbert Krebbers,,,,Author
 Rodriguez-Henriquez,,,,unclassified
 running-time,,,,unclassified
 Rust's,,,,unclassified
 s:bi.state.s,,,,unclassified
 s:ss.s,,,,unclassified
 Samin,,,,unclassified
-Samuel Gruetter,,,,Author
 Savary,,,,unclassified
-scalability,,,,
 scalarmult_64_lowstar,,,,unclassified
 scalarmult_64_vale,,,,unclassified
 sealBase,,,,unclassified
@@ -689,9 +692,7 @@ TLS,,,,unclassified
 toolchains,,,,unclassified
 Trends(R,,,,unclassified
 Tuch,,,,unclassified
-type-checker,,,,Common-term
 type-theory-based,,,,unclassified
-typechecker,,,,Common-term
 typedef,,,,unclassified
 U8.t{len,,,,unclassified
 uint8_t,,,,unclassified
@@ -710,7 +711,6 @@ vectorization-agnostic,,,,unclassified
 verification-oriented,,,,unclassified
 Viorica,,,,unclassified
 virtualization,,,,unclassified
-VST,,Verified Software Toolchain,,theorem-proving tool
 Weng,,,,unclassified
 Why3,,,,unclassified
 widely-used,,,,unclassified
@@ -718,7 +718,6 @@ Wilcox-O'Hearn,,,,unclassified
 Winnerlein,,,,unclassified
 Winwood,,,,unclassified
 x:nat,,,,unclassified
-Z3 SMT solver,,,,
 zero-copy,,,,unclassified
 zero-overhead,,,,unclassified
 Ziliani,,,,unclassified

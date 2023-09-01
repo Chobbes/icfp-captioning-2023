@@ -1,25 +1,75 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-CopilotVerifier,,,,unclassified
+Robert Dockins,,,,Author
+Ivan Perez,,,,Author
+Mike Dodds,,,,Author
+Koen Claessen,,,,Author
+GitHub,,,,Institution
 Trigger,,,,
 bisimulation,,,,Common-term equivalence
 runtime,,,,Common-term
 semantics,,,,
-Goodloe,,,,unclassified
 compiler,,,,Common-term
-ICFP,,,,unclassified
-s0_idx,,,,unclassified
+ICFP,,,,Common-term
 compiled,,,,
-Robert Dockins,,,,Author
 symbolic,,,,
+SMT ,,,,
+LLVM,L.L.V.M.,,,
+array,,,,Common-term
+DSL,,,,
+Haskell,,,,Common-term programming-language
+reified,,,,
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+Leroy,,,,Name
+cast,,Gradual typing,,theory
+CompCert,,A certified compiler,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+theorem,,,,Common-term
+extensional,,functions,,theory
+functional programming,,,,
+integer,,,,Common-term
+match,,,,
+Property-based testing,,,,
+quantified,,,,Common-term
+Boolean,,,,
+expression,,,,Common-term
+extensionally,,,,
+Frama-C,,,,
+Prop,,,,
+toolchain,,,,
+a.goodloe@nasa.gov,,,,email
+abstraction,,,,Common-term
+combinator,,,,Common-term
+conjunction,,,,
+conservative,,,,theory
+context,,,,Common-term
+discrete,,,,
+formalization,,,,Common-term
+Go,,,,
+immutable,,,,Common-term
+ivan.perezdominguez@nasa.gov,,,,email
+Lean,,,,
+miked@galois.com,,,,email
+ML,,,,Programming-language
+normalization,,computations,,theory
+optional,,,,
+Pascal,,,,
+Power,,,,
+QuickCheck,,,,testing tool
+rdoc@amazon.com,,,,email
+reflect,,,,
+reification,,,,Common-term
+reify,,,,Common-term
+rscott@galois.com,,,,email
+Semantic,,,,Common-term
+stack,,,,
+syntactic,,,,Common-term
+syntax,,,,Common-term
+CopilotVerifier,,,,unclassified
+Goodloe,,,,unclassified
+s0_idx,,,,unclassified
 avgTemp,,,,unclassified
 heatoff,,,,unclassified
-Ivan Perez,,,,Author
-SMT ,,,,
 floating-point,,,,unclassified
-LLVM,L.L.V.M.,,,
-Mike Dodds,,,,Author
-GitHub,,,,Institution
-array,,,,Common-term
 What4,,,,unclassified
 BitVec,,,,unclassified
 Cofer,,,,unclassified
@@ -27,49 +77,33 @@ ctemp,,,,unclassified
 s0_get,,,,unclassified
 safety-critical,,,,unclassified
 bitcode,,,,unclassified
-DSL,,,,
-Haskell,,,,Common-term programming-language
-reified,,,,
 RTCA,,,,unclassified
 SIGPLAN,,,,unclassified
 structs,,,,unclassified
 bvSum,,,,unclassified
 bvUrem,,,,unclassified
 CopilotC99,,,,unclassified
-Coq,“Coq”,,,Common-term programming-language theorem-prover
 idx,,,,unclassified
 Int32,,,,unclassified
-Leroy,,,,Name
 Velus,,,,unclassified
 bvMul,,,,unclassified
-cast,,Gradual typing,,theory
-CompCert,,A certified compiler,,
 copilot-c99,,,,unclassified
 CopilotTheorem,,,,unclassified
 Havelund,,,,unclassified
 LTSes,,,,unclassified
-SMT solver,,Type of tool for solving SMT problems,,Tool
-theorem,,,,Common-term
 unsafeCast,,,,unclassified
 bv4,,,,unclassified
 bvadd,,,,unclassified
 CopilotVerifier's,,,,unclassified
-extensional,,functions,,theory
-functional programming,,,,
 GSN,,,,unclassified
-integer,,,,Common-term
 KBR,,,,unclassified
-match,,,,
 Niller,,,,unclassified
 notInt32Max,,,,unclassified
 Pnueli,,,,unclassified
 Pouzet,,,,unclassified
-Property-based testing,,,,
-quantified,,,,Common-term
 Alive2,,,,unclassified
 arg0,,,,unclassified
 backend,,,,unclassified
-Boolean,,,,
 Brun,,,,unclassified
 bv5,,,,unclassified
 CakeML,,,,unclassified
@@ -81,10 +115,7 @@ Crucible's,,,,unclassified
 Cuoq,,,,unclassified
 D'Angelo,,,,unclassified
 domain-specific,,,,unclassified
-expression,,,,Common-term
-extensionally,,,,
 forall,,,,unclassified
-Frama-C,,,,
 high-assurance,,,,unclassified
 higher-level,,,,unclassified
 https,,,,unclassified
@@ -94,7 +125,6 @@ lower-level,,,,unclassified
 Melquiond,,,,unclassified
 Obc,,,,unclassified
 off-the-shelf,,,,unclassified
-Prop,,,,
 Ramananandro,,,,unclassified
 Ravitch,,,,unclassified
 Ryabtsev,,,,unclassified
@@ -103,12 +133,9 @@ size_t,,,,unclassified
 stream-based,,,,unclassified
 streamAdd,,,,unclassified
 Strichman,,,,unclassified
-toolchain,,,,
 Upchurch,,,,unclassified
 Wegmann,,,,unclassified
-a.goodloe@nasa.gov,,,,email
 abort-early,,,,unclassified
-abstraction,,,,Common-term
 AFE,,,,unclassified
 AFE87,,,,unclassified
 Amundson,,,,unclassified
@@ -129,15 +156,11 @@ Citeseer,,,,unclassified
 Claessen,,,,unclassified
 Clight,,,,unclassified
 Colm,,,,unclassified
-combinator,,,,Common-term
 Commun,,,,unclassified
 CompCert's,,,,unclassified
 Comput,,,,unclassified
-conjunction,,,,
-conservative,,,,theory
 Consiglio,,,,unclassified
 constI32,,,,unclassified
-context,,,,Common-term
 control-flow,,,,unclassified
 Copilot-generated,,,,unclassified
 CPSs,,,,unclassified
@@ -149,7 +172,6 @@ DASC,,,,unclassified
 Dedden,,,,unclassified
 Diatchki,,,,unclassified
 Dimitra,,,,unclassified
-discrete,,,,
 Dockins,,,,unclassified
 Doron,,,,unclassified
 EDSL,,,,unclassified
@@ -160,32 +182,23 @@ first-order,,,,unclassified
 fixed-size,,,,unclassified
 Flocq,,,,unclassified
 Foltzer,,,,unclassified
-formalization,,,,Common-term
 FPrime,,,,unclassified
 fromIntegral,,,,unclassified
 Galois's,,,,unclassified
 Giannakopoulou,,,,unclassified
 Gilham,,,,unclassified
-Go,,,,
 Halbwachs,,,,unclassified
 Hoare-logic-style,,,,unclassified
-https://doi.org,,,,unclassified
-https://galois.com/blog/2020,,,,unclassified
-https://github,,,,unclassified
 Hur,,,,unclassified
 Iavor,,,,unclassified
 IEEE/AIAA,,,,unclassified
-immutable,,,,Common-term
 input-output,,,,unclassified
-ivan.perezdominguez@nasa.gov,,,,email
 Jeanmaire,,,,unclassified
 Juneyoung,,,,unclassified
 Kahsai,,,,unclassified
 Kalus,,,,unclassified
-Koen Claessen,,,,Author
 Kosmatov,,,,unclassified
 Kroening,,,,unclassified
-Lean,,,,
 length-1,,,,unclassified
 Lerda,,,,unclassified
 Lethin,,,,unclassified
@@ -199,8 +212,6 @@ Mebsout,,,,unclassified
 Mehrotra,,,,unclassified
 Meister,,,,unclassified
 memory-safe,,,,unclassified
-miked@galois.com,,,,email
-ML,,,,Programming-language
 Morisset,,,,unclassified
 Mountcastle,,,,unclassified
 multi-person,,,,unclassified
@@ -213,7 +224,6 @@ NFM,,,,unclassified
 Nhut,,,,unclassified
 non-exclusive,,,,unclassified
 non-trivial,,,,unclassified
-normalization,,computations,,theory
 Norrish,,,,unclassified
 Northridge,,,,unclassified
 notation-a,,,,unclassified
@@ -221,10 +231,8 @@ Nuno,,,,unclassified
 object-oriented,,,,unclassified
 objectoriented,,,,unclassified
 Open-Source,,,,unclassified
-optional,,,,
 owner/author(s,,,,unclassified
 paid-up,,,,unclassified
-Pascal,,,,
 Passiand,,,,unclassified
 Peled,,,,unclassified
 per-transition,,,,unclassified
@@ -234,25 +242,18 @@ Pialiud,,,,unclassified
 Pierre-Evariste,,,,unclassified
 PLDI,,,,unclassified
 POPL,,,,unclassified
-Power,,,,
 pre-existing,,,,unclassified
 prepends,,,,unclassified
 Pressburger,,,,unclassified
 Prevosto,,,,unclassified
-QuickCheck,,,,testing tool
 Ramana,,,,unclassified
 Rayadurgam,,,,unclassified
 RCTA/DO333,,,,unclassified
-rdoc@amazon.com,,,,email
-reflect,,,,
 Regehr,,,,unclassified
-reification,,,,Common-term
-reify,,,,Common-term
 requirements-driven,,,,unclassified
 Rieg,,,,unclassified
 RMOR,,,,unclassified
 Rozier,,,,unclassified
-rscott@galois.com,,,,email
 Run-Time,,,,unclassified
 s0_get(i,,,,unclassified
 s2n,,,,unclassified
@@ -260,7 +261,6 @@ Sandrine,,,,unclassified
 Sanjai,,,,unclassified
 Sankaranarayanan,,,,unclassified
 Sattigeri,,,,unclassified
-Semantic,,,,Common-term
 setpoint,,,,unclassified
 Signoles,,,,unclassified
 SIGSOFT,,,,unclassified
@@ -274,14 +274,11 @@ Softw,,,,unclassified
 Spima,,,,unclassified
 Springer-Verlag,,,,unclassified
 square-root,,,,unclassified
-stack,,,,
 standalone,,,,unclassified
 state--either,,,,unclassified
 Stefanescu,,,,unclassified
 stream's,,,,unclassified
 SV-COMP,,,,unclassified
-syntactic,,,,Common-term
-syntax,,,,Common-term
 Taejoon,,,,unclassified
 Tasiran,,,,unclassified
 Tellier,,,,unclassified
@@ -291,7 +288,6 @@ Tinelli,,,,unclassified
 trade-offs,,,,unclassified
 UAS,,,,unclassified
 uint8_t,,,,unclassified
-unknown,,Gradual typing,,theory
 unsafeCast.2,,,,unclassified
 user-configurable,,,,unclassified
 validation-based,,,,unclassified

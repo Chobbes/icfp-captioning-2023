@@ -1,42 +1,193 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-Unembedding,,,,unclassified
-HOAS,,,,unclassified
+Meng Wang,,,,Author
+Kazutaka Matsuda,,,,Author
+Nicolas Wu,,,,Author
+Samantha Frohlich,,,,Author
+Conal Elliott,,,,Author
+Matthias Felleisen,,,,Author
+Sam Lindley,,,,Author
+Simon Peyton Jones,,,,Author
+Adam Chlipala,,,,Author
+Alonzo Church,,,,researcher
+Amal Ahmed,,,,Author
+Arnaud Spiwack,,,,Author
+Damiano Mazza,,,,researcher
+Frank Pfenning,Frank “Fenning”,,,Author
+Ivan Perez,,,,Author
+James Cheney,,,,Author
+Jean-Philippe Bernardy,,,,Author
+Jeremy Yallop,,,,Author
+Klaus Ostermann,,,,Author
+Minh Nguyen,,,,Author
+Nate Foster,,Author,,Author
+Neel Krishnaswami,,,,Author
+Peter Thiemann,,,,Author
+Philipp Schuster,,,,Author
+Roly Perera,,,,Author
+Stephanie Weirich,,,,Author
+University of Bristol,,,,Institution
+Imperial College London,,,,Institution
 Semantic,,,,Common-term
 semantics,,,,
 K ,,“K axiom”,,
-ILC,,,,unclassified
-ECons,,,,unclassified
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 syntax,,,,Common-term
 bidirectional,,,,
-STLC,,,,unclassified
-Meng Wang,,,,Author
-EnvI,,,,unclassified
-Kazutaka Matsuda,,,,Author
-VEnv,,,,unclassified
 Haskell,,,,Common-term programming-language
-TEnv,,,,unclassified
 higher-order,,,,Common-term
-Nicolas Wu,,,,Author
-second-order,,,,unclassified
-HOBiT,,,,unclassified
-Samantha Frohlich,,,,Author
-DSTLC,,,,unclassified
-Atkey,,,,unclassified
 Giarrusso ,,,,
 typeclass,,,,Common-term
 expression,,,,Common-term
 diff,,,,
+DSL,,,,
+calculus,,Used to describe a core simple programming language,,Common-term
+Why,,,,
+category,,,,
+linear,,,,Common-term
+binder,like in bind,,,
+polymorphic,,,,Common-term
+filter,,,,
+weakening,,,,Common-term
+context,,,,Common-term
+functional programming,,,,
+presheaf,,,,Common-term
+applicative,,,,Common-term
+datatype,,,,Common-term
+functor,,,,Common-term
+Kiselyov,,,,
+pattern matching,,,,
+probabilistic,,,,Common-term
+expressive,,,,Common-term
+monoid,,,,Common-term
+typeclasses,,,,
+untyped,,,,
+abstraction,,,,Common-term
+abstractions,,,,
+algebra,,,,
+AST ,A.S.T.,Abstract Syntax Tree,,
+constructor,,,,Common-term
+contraction,,,,
+generic,,,,
+Gibbons,,,,
+modular,,,,Common-term
+nil,,,,
+runtime,,,,Common-term
+succ,,,,
+algebras,,,,
+cons,kon-ss,,,
+dependent,,,,Common-term
+expressiveness,,,,Common-term
+Flanagan,,,,
+formalization,,,,Common-term
+GHC,,,,compiler tool
+invertible,,,,
+isomorphic,,,,Common-term
+KL,K.L.,KL abstract machine,,
+matching,,“pattern matching”,,Common-term
+modularity,,,,Common-term
+polymorphism,,,,Common-term
+staging,,,,
+syntactic,,,,Common-term
+Template Haskell ,,,,tool
+Wadler,,,,Name
+Bernardy,,,,
+calculi,,,,
+combinator,,,,Common-term
+contextual,,,,Common-term
+decomposition,,,,
+deriving,,,,
+destructor,,,,Common-term
+effect handlers,,,,
+equational,,,,Common-term
+heterogeneous,,,,
+Kripke,,“Kripke semantics”,,Name
+linear Haskell,,,,
+match,,,,
+meta-programming,,,,
+ML,,,,Programming-language
+Moggi,,,,Name
+monad,Mow-nad,,,Common-term
+nondeterministic,,,,
+Peyton Jones,,,,Name
+ph@(PFun,,,,email
+Plotkin,,Name,,name
+quantified,,,,Common-term
+recursive,,,,Common-term
+Reynolds,,,,Name
+SMT solver,,Type of tool for solving SMT problems,,Tool
+Vytiniotis,,,,
+Yoneda,,Yoneda embedding / yoneda lemma,,
+API,A.P.I.,Application Programming Interface,,Common-term
+array,,,,Common-term
+atomic,,,,
+Blelloch,,,,Name
+Boolean,,,,
+case expression,,,,
+compiler,,,,Common-term
+conclusion,,,,
+consistency,,Gradual typing,,theory
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+CPU,,,,
+curried,,,,
+decidability,,,,
+derivative,,,,
+embeddings,,,,
+extensional,,functions,,theory
+FHPC@ICFP,,,,email
+force,,,,Common-term evaluation
+GADT,Gad-it,Generalized algebraic data types,,Common-term
+Go,,,,
+Haskell@ICFP,,,,email
+Id,,,,
+induction,,,,Common-term
+instantiation,,,,
+Java,,,,
+kztk@tohoku.ac.jp,,,,email
+lambda calculi,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+lambda-calculus,,,,Common-term
+Learning@NeurIPS,,,,email
+LIFO,,“last in first out”,,
+linear types,,,,Common-term
+memoization,,,,
+meng.wang@bristol.ac.uk,,,,email
+metaprogramming,,,,Common-term
+n.wu@imperial.ac.uk,,,,email
+Non-determinism,,,,Common-term
+p@(Pat,,,,email
+predicative,,,,Common-term
+reified,,,,
+reify,,,,Common-term
+relational,,,,
+Shao,,,,
+Steele,,,,Name
+stochastic,Stow-kas-tick,,,Common-term statistics
+System F,,,,Common-term
+tg@(ECons,,,,email
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+Trigger,,,,
+Xi,,,,
+Unembedding,,,,unclassified
+HOAS,,,,unclassified
+ILC,,,,unclassified
+ECons,,,,unclassified
+STLC,,,,unclassified
+EnvI,,,,unclassified
+VEnv,,,,unclassified
+TEnv,,,,unclassified
+second-order,,,,unclassified
+HOBiT,,,,unclassified
+DSTLC,,,,unclassified
+Atkey,,,,unclassified
 PackDiffDelta,,,,unclassified
 USTLC,,,,unclassified
 forall,,,,unclassified
 mapSem,,,,unclassified
 Matsuda,,,,unclassified
 Bruijn,,,,unclassified
-DSL,,,,
 EDSL,,,,unclassified
 first-order,,,,unclassified
-calculus,,Used to describe a core simple programming language,,Common-term
 finally-tagless,,,,unclassified
 SIGPLAN,,,,unclassified
 PFun,,,,unclassified
@@ -46,25 +197,20 @@ htr,,,,unclassified
 liftSO,,,,unclassified
 snd,,,,unclassified
 unpair,,,,unclassified
-Why,,,,
 Carette,,,,unclassified
-category,,,,
 DVar,,,,unclassified
 EFilter,,,,unclassified
 PackDiff,,,,unclassified
 STLChoas,,,,unclassified
 ENil,,,,unclassified
-linear,,,,Common-term
 LVEnv,,,,unclassified
 PHOAS,,,,unclassified
 runOpen,,,,unclassified
 toHOAS,,,,unclassified
-binder,like in bind,,,
 DEnv,,,,unclassified
 Func,,,,unclassified
 letSem,,,,unclassified
 ol1,,,,unclassified
-polymorphic,,,,Common-term
 round-tripping,,,,unclassified
 Acar,,,,unclassified
 DLam,,,,unclassified
@@ -78,46 +224,35 @@ CTSFilter,,,,unclassified
 DSeq,,,,unclassified
 env1,,,,unclassified
 env2,,,,unclassified
-filter,,,,
 host's,,,,unclassified
 newtype,,,,unclassified
 TermRep,,,,unclassified
-weakening,,,,Common-term
-context,,,,Common-term
 eHOBiT,,,,unclassified
-functional programming,,,,
 HaXML,,,,unclassified
 JK,,,,unclassified
 lookEnv,,,,unclassified
 ol0,,,,unclassified
 PBij,,,,unclassified
-presheaf,,,,Common-term
 runILC,,,,unclassified
 runOpenSTLC,,,,unclassified
 runSim,,,,unclassified
 sEval,,,,unclassified
 Sig2,,,,unclassified
 absPFunSem,,,,unclassified
-applicative,,,,Common-term
 appSem,,,,unclassified
 Bruijn-indexed,,,,unclassified
 Chlipala,,,,unclassified
 DApp,,,,unclassified
-datatype,,,,Common-term
 DFun,,,,unclassified
 fromHOAS,,,,unclassified
 FuncTerm,,,,unclassified
-functor,,,,Common-term
 FuncU,,,,unclassified
 Hegner,,,,unclassified
 ILChoas,,,,unclassified
-Kiselyov,,,,
 lamSem,,,,unclassified
 LensTerm,,,,unclassified
 McDonell,,,,unclassified
 OTHoas,,,,unclassified
-pattern matching,,,,
-probabilistic,,,,Common-term
 Umut,,,,unclassified
 unembedded,,,,unclassified
 value-level,,,,unclassified
@@ -127,12 +262,10 @@ bidirectionalization,,,,unclassified
 breakNLB,,,,unclassified
 CTSBool,,,,unclassified
 decompEnv,,,,unclassified
-expressive,,,,Common-term
 fromMaybe,,,,unclassified
 Hamana,,,,unclassified
 mempty,,,,unclassified
 mkXs,,,,unclassified
-monoid,,,,Common-term
 MyString,,,,unclassified
 OfLength,,,,unclassified
 PLDI,,,,unclassified
@@ -141,112 +274,80 @@ simply-typed,,,,unclassified
 Spyratos,,,,unclassified
 transEnv,,,,unclassified
 tupling,,,,unclassified
-typeclasses,,,,
-untyped,,,,
 Zhenjiang,,,,unclassified
-abstraction,,,,Common-term
-abstractions,,,,
-algebra,,,,
-AST ,A.S.T.,Abstract Syntax Tree,,
 Attr,,,,unclassified
 cache-transfer-style,,,,unclassified
 Comput,,,,unclassified
 consB,,,,unclassified
 consP,,,,unclassified
-constructor,,,,Common-term
-contraction,,,,
 CTSLiftPred,,,,unclassified
 dgEmpty,,,,unclassified
 ETAPS,,,,unclassified
 Fegaras,,,,unclassified
 FliPpr,,,,unclassified
 Funct,,,,unclassified
-generic,,,,
-Gibbons,,,,
 host-level,,,,unclassified
 letLens,,,,unclassified
 liftFO,,,,unclassified
 linear-typed,,,,unclassified
 mapEnv,,,,unclassified
 modifiables,,,,unclassified
-modular,,,,Common-term
-nil,,,,
 Pientka,,,,unclassified
 pretty-printers,,,,unclassified
 q1filter,,,,unclassified
 rearrPair,,,,unclassified
 runEnvI,,,,unclassified
 runSTLC,,,,unclassified
-runtime,,,,Common-term
 runUSTLC,,,,unclassified
-succ,,,,
 tagless,,,,unclassified
 tagless-final,,,,unclassified
 transArg,,,,unclassified
 transArgAtom,,,,unclassified
 UE.liftFO1,,,,unclassified
 unitSem,,,,unclassified
-University of Bristol,,,,Institution
 varP,,,,unclassified
 weakenBy,,,,unclassified
 well-behavedness,,,,unclassified
 Werk,,,,unclassified
 XML,,,,unclassified
 ADTree,,,,unclassified
-algebras,,,,
 args,,,,unclassified
 caInc,,,,unclassified
 checkEmpty,,,,unclassified
 cnv,,,,unclassified
 CodeM,,,,unclassified
-cons,kon-ss,,,
-dependent,,,,Common-term
 domain-specific,,,,unclassified
 DSLs,,,,unclassified
 Dunfield,,,,unclassified
 eCTS,,,,unclassified
 emptySem,,,,unclassified
 ex_g,,,,unclassified
-expressiveness,,,,Common-term
-Flanagan,,,,
-formalization,,,,Common-term
 fromFuncTerm,,,,unclassified
-GHC,,,,compiler tool
 Haskell's,,,,unclassified
 Huet,,,,unclassified
 incrementalization,,,,unclassified
-invertible,,,,
-isomorphic,,,,Common-term
 IxS,,,,unclassified
-KL,K.L.,KL abstract machine,,
 liftings,,,,unclassified
 liftP,,,,unclassified
 liftPred,,,,unclassified
 Lippmeier,,,,unclassified
-matching,,“pattern matching”,,Common-term
 MCode,,,,unclassified
 mkElem,,,,unclassified
-modularity,,,,Common-term
 Nadathur,,,,unclassified
 non-standard,,,,unclassified
 Obermeyer,,,,unclassified
 PairDelta,,,,unclassified
 Polakow,,,,unclassified
-polymorphism,,,,Common-term
 runLT,,,,unclassified
 runOpenN,,,,unclassified
 Sabry,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
-staging,,,,
-syntactic,,,,Common-term
-Template Haskell ,,,,tool
 toFuncU,,,,unclassified
 type-level,,,,unclassified
 UE.liftSOn,,,,unclassified
 unpairSem,,,,unclassified
 VECons,,,,unclassified
 Voigtlander,,,,unclassified
-Wadler,,,,Name
 "x,y",,,,unclassified
 1QU,,,,unclassified
 "a,b",,,,unclassified
@@ -259,7 +360,6 @@ applyADTree,,,,unclassified
 aTerm,,,,unclassified
 Babybel,,,,unclassified
 Bechir,,,,unclassified
-Bernardy,,,,
 Bodik,,,,unclassified
 Bolduc,,,,unclassified
 BS8,,,,unclassified
@@ -267,14 +367,10 @@ BString,,,,unclassified
 bTerm,,,,unclassified
 byAW,,,,unclassified
 c2pL,,,,unclassified
-calculi,,,,
 CodeDelta,,,,unclassified
 CodeP,,,,unclassified
-combinator,,,,Common-term
-Conal Elliott,,,,Author
 concatMap,,,,unclassified
 concatSem,,,,unclassified
-contextual,,,,Common-term
 cs1,,,,unclassified
 cs2,,,,unclassified
 CTSQ,,,,unclassified
@@ -284,20 +380,15 @@ DAttr,,,,unclassified
 dbs1,,,,unclassified
 dbs2,,,,unclassified
 DChild,,,,unclassified
-decomposition,,,,
-deriving,,,,
 Desharnais,,,,unclassified
-destructor,,,,Common-term
 DTag,,,,unclassified
 DText,,,,unclassified
 DTree,,,,unclassified
 dxs,,,,unclassified
 dys1,,,,unclassified
 dys2,,,,unclassified
-effect handlers,,,,
 Ehrhard,,,,unclassified
 environment</title,,,,unclassified
-equational,,,,Common-term
 exEnv,,,,unclassified
 Extr,,,,unclassified
 fmap,,,,unclassified
@@ -310,7 +401,6 @@ fTerm,,,,unclassified
 GADTs,,,,unclassified
 Haskell)'s,,,,unclassified
 hasTag,,,,unclassified
-heterogeneous,,,,
 HOAS-based,,,,unclassified
 Huot,,,,unclassified
 Hur,,,,unclassified
@@ -318,59 +408,40 @@ IDE's,,,,unclassified
 ifAttr,,,,unclassified
 ILCSeq,,,,unclassified
 Illustrated</title,,,,unclassified
-Imperial College London,,,,Institution
 inc-opt,,,,unclassified
 iterTr,,,,unclassified
 JKL,,,,unclassified
 Jout,,,,unclassified
 JSPS,,,,unclassified
 Krawiec,,,,unclassified
-Kripke,,“Kripke semantics”,,Name
 Ktari,,,,unclassified
 Lammel,,,,unclassified
 lastNL,,,,unclassified
 liftFOn,,,,unclassified
-linear Haskell,,,,
 Makoto,,,,unclassified
-match,,,,
-Matthias Felleisen,,,,Author
-meta-programming,,,,
 Miltner,,,,unclassified
-ML,,,,Programming-language
-Moggi,,,,Name
-monad,Mow-nad,,,Common-term
 monoidrespecting,,,,unclassified
 Morihata,,,,unclassified
 n2uL,,,,unclassified
 nilB,,,,unclassified
 nilP,,,,unclassified
 non-compositional,,,,unclassified
-nondeterministic,,,,
 ol2,,,,unclassified
 Pagani,,,,unclassified
 pairP,,,,unclassified
 pairSem,,,,unclassified
-Peyton Jones,,,,Name
 Pfenning,,,,unclassified
-ph@(PFun,,,,email
 Phan,,,,unclassified
-Plotkin,,Name,,name
 Publishers</publisher,,,,unclassified
-quantified,,,,Common-term
 Rajkumar,,,,unclassified
-recursive,,,,Common-term
 Regnier,,,,unclassified
 reverse-mode,,,,unclassified
 reversible/bidirectional,,,,unclassified
-Reynolds,,,,Name
 roundtripping,,,,unclassified
 runOpenAppLensN,,,,unclassified
 S.fromList,,,,unclassified
 S.unzip,,,,unclassified
-Sam Lindley,,,,Author
-Simon Peyton Jones,,,,Author
 singletonSem,,,,unclassified
-SMT solver,,Type of tool for solving SMT problems,,Tool
 stand-alone,,,,unclassified
 title>Advanced,,,,unclassified
 title>TCP/IP,,,,unclassified
@@ -387,10 +458,8 @@ unitP,,,,unclassified
 unnil,,,,unclassified
 user-friendly,,,,unclassified
 VENil,,,,unclassified
-Vytiniotis,,,,
 weakenManyDSTLC,,,,unclassified
 Xiong,,,,unclassified
-Yoneda,,Yoneda embedding / yoneda lemma,,
 1993]--essentially,,,,unclassified
 2AZ,,,,unclassified
 9We,,,,unclassified
@@ -405,7 +474,6 @@ A\nB\nC\n,,,,unclassified
 a])--which,,,,unclassified
 ab)use,,,,unclassified
 Abiteboul,,,,unclassified
-Adam Chlipala,,,,Author
 adas,,,,unclassified
 Addison-Wesley,,,,unclassified
 AddisonWesley,,,,unclassified
@@ -416,22 +484,16 @@ Ajeet,,,,unclassified
 Akimasa,,,,unclassified
 al.'s,,,,unclassified
 Alcino,,,,unclassified
-Alonzo Church,,,,researcher
-Amal Ahmed,,,,Author
 Andrzej,,,,unclassified
 Anuj,,,,unclassified
 Aoba-ku,,,,unclassified
-API,A.P.I.,Application Programming Interface,,Common-term
 appendEnv,,,,unclassified
 approach2,,,,unclassified
 Aramaki,,,,unclassified
-Arnaud Spiwack,,,,Author
-array,,,,Common-term
 Artif,,,,unclassified
 asn:{bn,,,,unclassified
 AST-level,,,,unclassified
 ASTs,,,,unclassified
-atomic,,,,
 Avaiable,,,,unclassified
 Availble,,,,unclassified
 Axelsen,,,,unclassified
@@ -446,10 +508,8 @@ backpropagator,,,,unclassified
 Belov,,,,unclassified
 Bernd,,,,unclassified
 bi-directional,,,,unclassified
-Blelloch,,,,Name
 Boehm,,,,unclassified
 Boespflug,,,,unclassified
-Boolean,,,,
 branch_n,,,,unclassified
 breakNLBstr,,,,unclassified
 Bruijn-index-like,,,,unclassified
@@ -461,7 +521,6 @@ Caires,,,,unclassified
 call-by-value,,,,unclassified
 cartesianRecreation,,,,unclassified
 Casati,,,,unclassified
-case expression,,,,
 case--is,,,,unclassified
 case-by-case,,,,unclassified
 Cases16,,,,unclassified
@@ -473,36 +532,26 @@ Chao-Hong,,,,unclassified
 Chung-chieh,,,,unclassified
 Chung-Kil,,,,unclassified
 CodeDiff,,,,unclassified
-compiler,,,,Common-term
 component-wise,,,,unclassified
 composition/decomposition,,,,unclassified
-conclusion,,,,
-consistency,,Gradual typing,,theory
 constP,,,,unclassified
 container3,,,,unclassified
 context-free,,,,unclassified
 contextual-typed,,,,unclassified
 contributions:1,,,,unclassified
-Coq,“Coq”,,,Common-term programming-language theorem-prover
-CPS,C.P.S.,abbreviation for continuation-passing style ,,
-CPU,,,,
 CTSBase,,,,unclassified
 CTSSeq,,,,unclassified
 Curien,,,,unclassified
-curried,,,,
-Damiano Mazza,,,,researcher
 Data.Sequence,,,,unclassified
 Data.Sequence.Seq,,,,unclassified
 DataKinds,,,,unclassified
 Dawar,,,,unclassified
 db1,,,,unclassified
 DDFP,,,,unclassified
-decidability,,,,
 deEmpty,,,,unclassified
 deeply-embedded,,,,unclassified
 deliminates,,,,unclassified
 Demystifying,,,,unclassified
-derivative,,,,
 Diffeologies,,,,unclassified
 Dimitrios,,,,unclassified
 Dongxi,,,,unclassified
@@ -515,15 +564,12 @@ EEnv,,,,unclassified
 Egyed,,,,unclassified
 Eijiro,,,,unclassified
 embedding-by-unembedding,,,,unclassified
-embeddings,,,,
 EPSRC,,,,unclassified
 Essertel,,,,unclassified
 existentially-quantified,,,,unclassified
 expressiveness--there,,,,unclassified
-extensional,,functions,,theory
 Faustyna,,,,unclassified
 Feifei,,,,unclassified
-FHPC@ICFP,,,,email
 Filinski,,,,unclassified
 finallytagless,,,,unclassified
 Fitzgibbon,,,,unclassified
@@ -531,19 +577,15 @@ Flaeno,,,,unclassified
 FO2,,,,unclassified
 foldl,,,,unclassified
 foldr,,,,unclassified
-force,,,,Common-term evaluation
-Frank Pfenning,Frank “Fenning”,,,Author
 Friis,,,,unclassified
 from-scratch,,,,unclassified
 fromList,,,,unclassified
 fstSem,,,,unclassified
 functions--a,,,,unclassified
 functor/monad,,,,unclassified
-GADT,Gad-it,Generalized algebraic data types,,Common-term
 Gener,,,,unclassified
 Ghandeharizadeh,,,,unclassified
 Glinz,,,,unclassified
-Go,,,,
 Gopalan,,,,unclassified
 Goubault-Larrecq,,,,unclassified
 Grelck,,,,unclassified
@@ -556,7 +598,6 @@ Haibo,,,,unclassified
 Haiyan,,,,unclassified
 Hans-Juergen,,,,unclassified
 Haritsa,,,,unclassified
-Haskell@ICFP,,,,email
 Hidaka,,,,unclassified
 high-performance,,,,unclassified
 "higher-order""-like",,,,unclassified
@@ -565,13 +606,10 @@ HOBiT's,,,,unclassified
 Holger,,,,unclassified
 Hongseok,,,,unclassified
 host-language,,,,unclassified
-https://doi.org,,,,unclassified
-https://doi.org/10,,,,unclassified
 https://pyro.ai,,,,unclassified
 ICDE,,,,unclassified
 ICDT,,,,unclassified
 ICSE,,,,unclassified
-Id,,,,
 IEEE-CS,,,,unclassified
 if2,,,,unclassified
 ILC/CTS,,,,unclassified
@@ -579,39 +617,24 @@ implementer's,,,,unclassified
 incrementalize,,,,unclassified
 incrementalized,,,,unclassified
 incrementalizing,,,,unclassified
-induction,,,,Common-term
 InR,,,,unclassified
-instantiation,,,,
 "Int,Char",,,,unclassified
 Intell,,,,unclassified
 inter-conversion,,,,unclassified
 interoperability,,,,unclassified
 Ioana,,,,unclassified
 ith,,,,unclassified
-Ivan Perez,,,,Author
-James Cheney,,,,Author
 Jankowiak,,,,unclassified
-Java,,,,
-Jean-Philippe Bernardy,,,,Author
-Jeremy Yallop,,,,Author
 Joakim,,,,unclassified
 KAKENHI,,,,unclassified
 Kanellakis,,,,unclassified
 Keean,,,,unclassified
 Keshav,,,,unclassified
-Klaus Ostermann,,,,Author
-kztk@tohoku.ac.jp,,,,email
 lam's,,,,unclassified
-lambda calculi,,,,Common-term
-lambda calculus,lam-duh calculus,,,theory
-lambda-calculus,,,,Common-term
 Language.Haskell.TH.Code,,,,unclassified
 Launchbury,,,,unclassified
-Learning@NeurIPS,,,,email
-LIFO,,“last in first out”,,
 liftFO2,,,,unclassified
 liftFO_0,,,,unclassified
-linear types,,,,Common-term
 linesB-case,,,,unclassified
 listSO,,,,unclassified
 MacBook,,,,unclassified
@@ -625,25 +648,17 @@ Matthijs,,,,unclassified
 Mazza,,,,unclassified
 mconcat,,,,unclassified
 Mehrotra,,,,unclassified
-memoization,,,,
-meng.wang@bristol.ac.uk,,,,email
-metaprogramming,,,,Common-term
-Minh Nguyen,,,,Author
 Miyagi,,,,unclassified
 modifiable-manipulate,,,,unclassified
 monoid-respecting,,,,unclassified
 Montrieux,,,,unclassified
 Morrisett,,,,unclassified
-n.wu@imperial.ac.uk,,,,email
 name-checking,,,,unclassified
-Nate Foster,,Author,,Author
 Necula,,,,unclassified
 "needlessly,12",,,,unclassified
-Neel Krishnaswami,,,,Author
 Nivat,,,,unclassified
 nodes--this,,,,unclassified
 non-binding,,,,unclassified
-Non-determinism,,,,Common-term
 non-HOAS,,,,unclassified
 non-injective,,,,unclassified
 non-local,,,,unclassified
@@ -660,7 +675,6 @@ Order-Based,,,,unclassified
 order;9,,,,unclassified
 owner/author(s,,,,unclassified
 P)HOAS,,,,unclassified
-p@(Pat,,,,email
 Palsberg,,,,unclassified
 paper.19,,,,unclassified
 partially-invertible,,,,unclassified
@@ -669,9 +683,7 @@ pattern-like,,,,unclassified
 pattern-matches,,,,unclassified
 PEPM,,,,unclassified
 performance--the,,,,unclassified
-Peter Thiemann,,,,Author
 Pezze,,,,unclassified
-Philipp Schuster,,,,Author
 Pierre-Louis,,,,unclassified
 pin-point,,,,unclassified
 pin-pointing,,,,unclassified
@@ -681,7 +693,6 @@ Point-free,,,,unclassified
 POPL's,,,,unclassified
 PPX,,,,unclassified
 pre-processor,,,,unclassified
-predicative,,,,Common-term
 proof-of-concept,,,,unclassified
 Proxy4,,,,unclassified
 publisher>Kluwer,,,,unclassified
@@ -691,13 +702,9 @@ R.E.A,,,,unclassified
 Rastislav,,,,unclassified
 Refactoring,,,,unclassified
 Regis-Gianas,,,,unclassified
-reified,,,,
-reify,,,,Common-term
-relational,,,,
 Rendel,,,,unclassified
 Reppy,,,,unclassified
 respectively--as,,,,unclassified
-Roly Perera,,,,Author
 Rompf,,,,unclassified
 runOpenILC,,,,unclassified
 S.delet'At,,,,unclassified
@@ -720,7 +727,6 @@ sequences13,,,,unclassified
 sequences15,,,,unclassified
 Shahram,,,,unclassified
 shallow-embedded,,,,unclassified
-Shao,,,,
 Sharad,,,,unclassified
 shift/reset,,,,unclassified
 Sign2,,,,unclassified
@@ -732,18 +738,14 @@ Soichiro,,,,unclassified
 Sparcl,,,,unclassified
 stat.ML,,,,unclassified
 Staton,,,,unclassified
-Steele,,,,Name
-Stephanie Weirich,,,,Author
 Stirewalt,,,,unclassified
 STLChaos,,,,unclassified
-stochastic,Stow-kas-tick,,,Common-term statistics
 Sulzmann,,,,unclassified
 sum-of-product,,,,unclassified
 Sumii,,,,unclassified
 sumtyped,,,,unclassified
 SW7,,,,unclassified
 Symb,,,,unclassified
-System F,,,,Common-term
 Takeichi,,,,unclassified
 Tarmo,,,,unclassified
 TConn,,,,unclassified
@@ -752,7 +754,6 @@ terms-in-context,,,,unclassified
 termsin-contexts,,,,unclassified
 Tetsuo,,,,unclassified
 TExp,,,,unclassified
-tg@(ECons,,,,email
 then/else-clause,,,,unclassified
 then/else-clauses,,,,unclassified
 Tiark,,,,unclassified
@@ -761,8 +762,6 @@ title>Data,,,,unclassified
 title>The,,,,unclassified
 TLCA,,,,unclassified
 toList,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
-Trigger,,,,
 Tsotras,,,,unclassified
 tupled,,,,unclassified
 TV</title,,,,unclassified
@@ -802,7 +801,6 @@ widely-adopted,,,,unclassified
 Wille,,,,unclassified
 workarounds,,,,unclassified
 WPTE,,,,unclassified
-Xi,,,,
 Xilun,,,,unclassified
 XMLs,,,,unclassified
 XMP,,,,unclassified

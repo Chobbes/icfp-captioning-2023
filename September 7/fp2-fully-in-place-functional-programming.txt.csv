@@ -1,78 +1,164 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-in-place,,,,unclassified
+Daan Leijen,,,,Author
+Anton Lorenzen,,,,Author
+Wouter Swierstra,,,,Author
+Leonardo de Moura,,,,Author
+Olivier Danvy,,,,researcher
+Edsko de Vries,,,,Author
+Koen Claessen,,,,Author
+Lars Birkedal,,,,Author
+Matthias Felleisen,,,,Author
+Sebastian Ullrich,,,,Author
+Microsoft Research,,Often “MSR”,,Institution
+Universiteit Utrecht,,,,Institution
+University of Edinburgh,,,,Institution
 K ,,“K axiom”,,
 match,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
 heap,,,,
 functional programming,,,,
 semantics,,,,
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 linear,,,,Common-term
 stack,,,,
 constructor,,,,Common-term
-Daan Leijen,,,,Author
 recursive,,,,Common-term
 context,,,,Common-term
-Anton Lorenzen,,,,Author
-dropru,,,,unclassified
 expression,,,,Common-term
-Wouter Swierstra,,,,Author
-FBIP,,,,unclassified
-FP2,,,,unclassified
 operational semantics,,,,
 cons,kon-ss,,,
 Koka,,,,Programming-language
-ctx,,,,unclassified
-list<a,,,,unclassified
-Leijen,,,,unclassified
 syntax,,,,Common-term
-xk,,,,unclassified
-alloc,,,,unclassified
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-Lorenzen,,,,unclassified
-Perceus,,,,unclassified
 runtime,,,,Common-term
 tail-recursive,,,,
-defunctionalized,,,,unclassified
 theorem,,,,Common-term
-tmap,,,,unclassified
 closure,,,,Common-term
 Pi, pie,dependent types,,theory
 separation logic,,,,Common-term
-"tree<k,v",,,,unclassified
 datatype,,,,Common-term
-Kz,,,,unclassified
-Aspinall,,,,unclassified
 recursion,,,,Common-term
-szipper,,,,unclassified
 traversal,,,,Common-term
-tree<a,,,,unclassified
 closures,,,,Common-term
 derive,,,,
 linear resource calculus,,,,
 nil,,,,
 reduction,,,,Common-term
+de Moura,,,,
+garbage collection,,GC,,Common-term
+Xi,,,,
+allocations,,,,Common-term
+compiled,,,,
+compiler,,,,Common-term
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+derivation,,,,
+derivative,,,,
+garbage-free ,,,,
+Go,,,,
+Hudak,,,,Name
+inductive,,,,Common-term
+McBride,,,,Name
+Reynolds,,,,Name
+Why,,,,
+combinator,,,,Common-term
+continuation,,,,
+Frame-limited,,,,Common-term
+generic,,,,
+Haskell,,,,Common-term programming-language
+macro,,,,
+mutation,,,,
+Paterson,,,,
+Pottier,,,,
+quicksort,,Common sorting algorithm,,Common-term algorithm sorting
+reuse analysis,,,,
+syntactic,,,,Common-term
+algebraic datatype,,,,Common-term
+amortized,,amortized analyses,,Common-term
+applicative,,,,Common-term
+axiom,,,,
+Bird ,,,,
+Boolean,,,,
+"Cons@ru(x,acc",,,,email
+deriving,,,,
+equational,,,,Common-term
+Flanagan,,,,
+formalization,,,,Common-term
+garbage-collected,,,,
+Gibbons,,,,
+induction,,,,Common-term
+linear types,,,,Common-term
+matching,,“pattern matching”,,Common-term
+Peyton Jones,,,,Name
+pointer,,,,Common-term
+Scheme,,,,Common-term programming-language
+abstraction,,,,Common-term
+alias,,,,
+anton.lorenzen@ed.ac,,,,email
+array,,,,Common-term
+calculi,,,,
+category,,,,
+conclusion,,,,
+daan@microsoft.com,,,,email
+defunctionalization,,,,
+dependent,,,,Common-term
+dynamic semantics,,,,
+expressive,,,,Common-term
+expressiveness,,,,Common-term
+fold,,,,Common-term
+FP,,functional programming,,
+functor,,,,Common-term
+garbage collector,,GC,,Common-term
+higher-order,,,,Common-term
+Hindley-Milner,,,,
+immutable,,,,Common-term
+iterations,,,,
+memory management,,,,Common-term
+monoid,,,,Common-term
+monoidal,,,,Common-term
+morphism,,,,Common-term
+normalization,,computations,,theory
+paradigm,,,,Common-term
+Perceus algorithm,,,,
+polymorphism,,,,Common-term
+quadratic,,,,Common-term
+Redmond,,,,
+Reference Counting With Frame Limited Reuse,,,,Title
+referential transparency,,,,Common-term
+relational,,,,
+Semantic,,,,Common-term
+w.s.swierstra@uu.nl,,,,email
+well-typed,,,,Common-term
+in-place,,,,unclassified
+dropru,,,,unclassified
+FBIP,,,,unclassified
+FP2,,,,unclassified
+ctx,,,,unclassified
+list<a,,,,unclassified
+Leijen,,,,unclassified
+xk,,,,unclassified
+alloc,,,,unclassified
+Lorenzen,,,,unclassified
+Perceus,,,,unclassified
+defunctionalized,,,,unclassified
+tmap,,,,unclassified
+"tree<k,v",,,,unclassified
+Kz,,,,unclassified
+Aspinall,,,,unclassified
+szipper,,,,unclassified
+tree<a,,,,unclassified
 reverse-acc,,,,unclassified
 Schorr-Waite,,,,unclassified
 SIGPLAN,,,,unclassified
 BinL,,,,unclassified
 Cik,,,,unclassified
-de Moura,,,,
-garbage collection,,GC,,Common-term
 TRMReC,,,,unclassified
 "tzipper<a,b",,,,unclassified
 vk,,,,unclassified
-Xi,,,,
 "accum<k,v",,,,unclassified
-allocations,,,,Common-term
 BinR,,,,unclassified
 c/c,,,,unclassified
-compiled,,,,
-compiler,,,,Common-term
 Cormen,,,,unclassified
-CPS,C.P.S.,abbreviation for continuation-passing style ,,
 de)allocation,,,,unclassified
-derivation,,,,
 dmatch,,,,unclassified
 doi:https://doi.org/10,,,,unclassified
 NodeL,,,,unclassified
@@ -87,38 +173,28 @@ app(y,,,,unclassified
 Cons(pivot,,,,unclassified
 datastructure,,,,unclassified
 dconruh,,,,unclassified
-derivative,,,,
 dom(H,,,,unclassified
 dom(S,,,,unclassified
 dropruh,,,,unclassified
 False,,,,unclassified
-garbage-free ,,,,
-Go,,,,
 Grieskamp,,,,unclassified
-Hudak,,,,Name
-inductive,,,,Common-term
 Jost,,,,unclassified
 list2,,,,unclassified
-McBride,,,,Name
 "Node(l,x,r",,,,unclassified
 Okasaki,,,,unclassified
 One(y,,,,unclassified
-Reynolds,,,,Name
 rng(H,,,,unclassified
 rng(S,,,,unclassified
 Schorr,,,,unclassified
 Sleator,,,,unclassified
 Tarjan,,,,unclassified
-Why,,,,
 zlookup,,,,unclassified
 Barendsen,,,,unclassified
 "Bin(l,r",,,,unclassified
 bmatch,,,,unclassified
 Claessen,,,,unclassified
-combinator,,,,Common-term
 "Cons(x,acc",,,,unclassified
 "Cons(x,xx",,,,unclassified
-continuation,,,,
 Danvy,,,,unclassified
 datastructures,,,,unclassified
 doi:https,,,,unclassified
@@ -127,55 +203,36 @@ E[e,,,,unclassified
 ectx,,,,unclassified
 first-order,,,,unclassified
 fn(r,,,,unclassified
-Frame-limited,,,,Common-term
 fv(e0,,,,unclassified
-generic,,,,
-Haskell,,,,Common-term programming-language
 Hofmann's,,,,unclassified
 Huet,,,,unclassified
 in-order,,,,unclassified
 list2<a,,,,unclassified
-macro,,,,
 map(f,,,,unclassified
-Microsoft Research,,Often “MSR”,,Institution
 mimalloc,,,,unclassified
-mutation,,,,
 Node(c,,,,unclassified
 NodeR,,,,unclassified
 partition<a,,,,unclassified
-Paterson,,,,
 POPL,,,,unclassified
-Pottier,,,,
-quicksort,,Common sorting algorithm,,Common-term algorithm sorting
 rbtree,,,,unclassified
-reuse analysis,,,,
 side-condition,,,,unclassified
 Smetsers,,,,unclassified
 split(pivot,,,,unclassified
-syntactic,,,,Common-term
 tctx,,,,unclassified
 well-formedness,,,,unclassified
 zig-zag,,,,unclassified
-algebraic datatype,,,,Common-term
-amortized,,amortized analyses,,Common-term
 apph,,,,unclassified
-applicative,,,,Common-term
-axiom,,,,
 bapp,,,,unclassified
 BCons(b,,,,unclassified
-Bird ,,,,
 Bloss,,,,unclassified
 bmatchs,,,,unclassified
-Boolean,,,,
 Brus,,,,unclassified
 Bruynooghe,,,,unclassified
 cons(Pair(z,,,,unclassified
 cons(x,,,,unclassified
-"Cons@ru(x,acc",,,,email
 CPS-transformation,,,,unclassified
 CPS-translation,,,,unclassified
 dcons,,,,unclassified
-deriving,,,,
 Didrich,,,,unclassified
 dlamh,,,,unclassified
 dmatchh,,,,unclassified
@@ -185,22 +242,16 @@ dom(H1,,,,unclassified
 dom(H2,,,,unclassified
 dup(x,,,,unclassified
 duph,,,,unclassified
-equational,,,,Common-term
 fbip(n,,,,unclassified
 fip(n,,,,unclassified
-Flanagan,,,,
 fn(l,,,,unclassified
-formalization,,,,Common-term
 ftree,,,,unclassified
 fv(v,,,,unclassified
 fv(x,,,,unclassified
-garbage-collected,,,,
-Gibbons,,,,
 H]x,,,,unclassified
 Hindley,,,,unclassified
 Huet's,,,,unclassified
 IFL,,,,unclassified
-induction,,,,Common-term
 is-node,,,,unclassified
 is-red(y,,,,unclassified
 k(Bin(l,,,,unclassified
@@ -208,10 +259,7 @@ k(Bin(l,,,,unclassified
 Laarhoven,,,,unclassified
 lamh,,,,unclassified
 Launchbury,,,,unclassified
-Leonardo de Moura,,,,Author
-linear types,,,,Common-term
 Madiot,,,,unclassified
-matching,,“pattern matching”,,Common-term
 Meertens,,,,unclassified
 Moine,,,,unclassified
 More(One(x,,,,unclassified
@@ -228,10 +276,7 @@ multiset,,,,unclassified
 NodeL(c,,,,unclassified
 NodeR(c,,,,unclassified
 non-unique,,,,unclassified
-Olivier Danvy,,,,researcher
-Peyton Jones,,,,Name
 Plasmeijer,,,,unclassified
-pointer,,,,Common-term
 pointer-reversal,,,,unclassified
 qsort,,,,unclassified
 quicksort'(lo,,,,unclassified
@@ -240,7 +285,6 @@ refcounts,,,,unclassified
 roots(H2,,,,unclassified
 roots(H3,,,,unclassified
 S]x,,,,unclassified
-Scheme,,,,Common-term programming-language
 SIGPLAN-SIGACT,,,,unclassified
 splay-leaf,,,,unclassified
 std::map,,,,unclassified
@@ -255,8 +299,6 @@ Ubuntu,,,,unclassified
 Unit(x,,,,unclassified
 Unit(y,,,,unclassified
 unit3,,,,unclassified
-Universiteit Utrecht,,,,Institution
-University of Edinburgh,,,,Institution
 yk,,,,unclassified
 zig-zig,,,,unclassified
 zp,,,,unclassified
@@ -265,19 +307,15 @@ zpp,,,,unclassified
 A-normal,,,,unclassified
 abitrary,,,,unclassified
 Abrahamson,,,,unclassified
-abstraction,,,,Common-term
 Aehlig,,,,unclassified
 Alexey,,,,unclassified
-alias,,,,
 alloc(2,,,,unclassified
 anamorphisms,,,,unclassified
 anons,,,,unclassified
-anton.lorenzen@ed.ac,,,,email
 append(lo,,,,unclassified
 append(xs,,,,unclassified
 Applicatifs,,,,unclassified
 arity,,,,unclassified
-array,,,,Common-term
 BCons(next,,,,unclassified
 BEmpty,,,,unclassified
 Bin(l,,,,unclassified
@@ -294,29 +332,23 @@ Birkedal,,,,unclassified
 bmatchh,,,,unclassified
 Braband,,,,unclassified
 C-Functional,,,,unclassified
-calculi,,,,
 capture-avoiding,,,,unclassified
 Castan,,,,unclassified
-category,,,,
 Chargueraud,,,,unclassified
 Citeseer,,,,unclassified
 CJD,,,,unclassified
 Clean--a,,,,unclassified
 Compile-time,,,,unclassified
 Computerwetenschappen,,,,unclassified
-conclusion,,,,
 Conference-Volume,,,,unclassified
 Cons2(x,,,,unclassified
 contructor,,,,unclassified
 d'Excideuil,,,,unclassified
-daan@microsoft.com,,,,email
 de)allocate,,,,unclassified
 decref(xs,,,,unclassified
 defbase,,,,unclassified
 deffun,,,,unclassified
 definition--yet,,,,unclassified
-defunctionalization,,,,
-dependent,,,,Common-term
 depth-first,,,,unclassified
 Deutsch-Schorr-Waite,,,,unclassified
 direct-style,,,,unclassified
@@ -326,49 +358,36 @@ dom(S1,,,,unclassified
 Duba,,,,unclassified
 dup(xx,,,,unclassified
 Durrieu,,,,unclassified
-dynamic semantics,,,,
-Edsko de Vries,,,,Author
 Eekelen,,,,unclassified
 elif,,,,unclassified
 Endre,,,,unclassified
 Episciences,,,,unclassified
 ETAPS,,,,unclassified
-expressive,,,,Common-term
-expressiveness,,,,Common-term
 f(e,,,,unclassified
 f(v,,,,unclassified
 Fett,,,,unclassified
 fip(1,,,,unclassified
 fixed-size,,,,unclassified
 fn(x,,,,unclassified
-fold,,,,Common-term
-FP,,functional programming,,
 Francophones,,,,unclassified
 fully-in-place,,,,unclassified
-functor,,,,Common-term
 Fundamenta,,,,unclassified
 fv(rng(H,,,,unclassified
 fv(rng(S,,,,unclassified
 fv(v1,,,,unclassified
 fv(v2,,,,unclassified
-garbage collector,,GC,,Common-term
 GC'd,,,,unclassified
 Gerke,,,,unclassified
 hand-written,,,,unclassified
 Heap-Space,,,,unclassified
-higher-order,,,,Common-term
 higherorder,,,,unclassified
-Hindley-Milner,,,,
 Hongseok,,,,unclassified
-https://koka-lang.github.io,,,,unclassified
 Hughes's,,,,unclassified
-immutable,,,,Common-term
 Informaticae,,,,unclassified
 integers1,,,,unclassified
 is-red,,,,unclassified
 is-red(^t,,,,unclassified
 is-unique(xs,,,,unclassified
-iterations,,,,
 J.R,,,,unclassified
 Jean-Marie,,,,unclassified
 JFLA,,,,unclassified
@@ -376,11 +395,9 @@ Journeees,,,,unclassified
 JW,,,,unclassified
 Katholieke,,,,unclassified
 keyword2,,,,unclassified
-Koen Claessen,,,,Author
 Koneny,,,,unclassified
 Langages,,,,unclassified
 langugage,,,,unclassified
-Lars Birkedal,,,,Author
 Lecussan,,,,unclassified
 left(t,,,,unclassified
 left-rotate(t,,,,unclassified
@@ -392,12 +409,8 @@ M-H,,,,unclassified
 Machine-Independent,,,,unclassified
 Malloc-Free,,,,unclassified
 mapT,,,,unclassified
-Matthias Felleisen,,,,Author
 Medard,,,,unclassified
-memory management,,,,Common-term
 mergesort,,,,unclassified
-monoid,,,,Common-term
-monoidal,,,,Common-term
 monomorphisation,,,,unclassified
 monomorphise,,,,unclassified
 Mooly,,,,unclassified
@@ -413,7 +426,6 @@ More(Triple(y,,,,unclassified
 More(Two(y,,,,unclassified
 More0,,,,unclassified
 More0(y,,,,unclassified
-morphism,,,,Common-term
 n)-times,,,,unclassified
 n+m,,,,unclassified
 Nil2(x,,,,unclassified
@@ -439,7 +451,6 @@ non-linear,,,,unclassified
 Non-Size-Increasing,,,,unclassified
 Non-Strict,,,,unclassified
 non-tail,,,,unclassified
-normalization,,computations,,theory
 O(1)-times,,,,unclassified
 O(log,,,,unclassified
 One(elem,,,,unclassified
@@ -448,18 +459,14 @@ one-bit,,,,unclassified
 one-element,,,,unclassified
 One-Hole,,,,unclassified
 owner/author(s,,,,unclassified
-paradigm,,,,Common-term
 parameter(s,,,,unclassified
-Perceus algorithm,,,,
 "pivot,hi",,,,unclassified
 PLDI,,,,unclassified
 pointer-tagging,,,,unclassified
-polymorphism,,,,Common-term
 product-contexts,,,,unclassified
 program--but,,,,unclassified
 Programms,,,,unclassified
 proporties,,,,unclassified
-quadratic,,,,Common-term
 "quicksort(lo),quicksort(hi",,,,unclassified
 quicksort(xs,,,,unclassified
 rb-insert-fixup,,,,unclassified
@@ -468,12 +475,8 @@ rebuild(z,,,,unclassified
 rebuild(zp,,,,unclassified
 "rebuild(zppp,right-rotate",,,,unclassified
 recurse4,,,,unclassified
-Redmond,,,,
 Reduction-Based,,,,unclassified
 Reduction-Free,,,,unclassified
-Reference Counting With Frame Limited Reuse,,,,Title
-referential transparency,,,,Common-term
-relational,,,,
 reverse(xs,,,,unclassified
 "reverse-acc(xs,Nil",,,,unclassified
 right-subtree,,,,unclassified
@@ -491,9 +494,7 @@ Sagiv,,,,unclassified
 Sasbachwalden,,,,unclassified
 Scherer,,,,unclassified
 SchorrWaite,,,,unclassified
-Sebastian Ullrich,,,,Author
 self-balancing,,,,unclassified
-Semantic,,,,Common-term
 set-black,,,,unclassified
 SIGACT-SIGPLAN,,,,unclassified
 singly-linked,,,,unclassified
@@ -539,8 +540,6 @@ two-element,,,,unclassified
 Type-Based,,,,unclassified
 uncons/snoc,,,,unclassified
 Universiteit,,,,unclassified
-w.s.swierstra@uu.nl,,,,email
-well-typed,,,,Common-term
 wher,,,,unclassified
 "x,y",,,,unclassified
 x.e,,,,unclassified

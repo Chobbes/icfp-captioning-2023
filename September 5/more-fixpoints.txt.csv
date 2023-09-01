@@ -1,37 +1,123 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Joachim Breitner,,,,Author
+Amin Timany,,,,Author
+Koen Claessen,,,,Author
+Conal Elliott,,,,Author
+Graham Hutton,,,,Author
+Ilya Sergey,,,,Author
+Lars Birkedal,,,,Author
+Lindsey Kuper,,,,Author
+Peter Thiemann,,,,Author
+Stephanie Weirich,,,,Author
+Massachusetts Institute of Technology,,,,Institution
 Go,,,,
-RSet,,,,unclassified
-RBool,,,,unclassified
 Haskell,,,,Common-term programming-language
-ICFP,,,,unclassified
-ghci,,,,unclassified
+ICFP,,,,Common-term
 API,A.P.I.,Application Programming Interface,,Common-term
 recursive,,,,Common-term
+expression,,,,Common-term
+Id,,,,
+IO,Eye-oh,,,
+recursion,,,,Common-term
+monotonic,,,,Common-term
+fixpoint,,,,Common-term
+AST ,A.S.T.,Abstract Syntax Tree,,
+compiler,,,,Common-term
+denotational semantics,,,,semantics
+functional programming,,,,
+Peyton Jones,,,,Name
+abstraction,,,,Common-term
+Boolean,,,,
+concurrent,,,,Common-term
+lattice,,,,Common-term
+monotonicity,,Mathematical property,,Common-term
+closure,,,,Common-term
+contextual,,,,Common-term
+K ,,“K axiom”,,
+laziness,,,,
+monad,Mow-nad,,,Common-term
+monadic,Mow-nad-ick,,,
+syntax,,,,Common-term
+concurrency,,,,Common-term
+higher-order,,,,Common-term
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Marlow,,,,
+QuickCheck,,,,testing tool
+syntactic,,,,Common-term
+theorem,,,,Common-term
+asymptotic,,,,Common-term
+coinductive,,,,Common-term
+conservative,,,,theory
+context,,,,Common-term
+generic,,,,
+GHC,,,,compiler tool
+isomorphic,,,,Common-term
+Krishnaswami,,,,
+modularity,,,,Common-term
+monotone,,,,Common-term
+Pottier,,,,
+register,,,,
+Semantic,,,,Common-term
+traversal,,,,Common-term
+Why,,,,
+abstractions,,,,
+automata,,,,Common-term
+conclusion,,,,
+conjunction,,,,
+constructor,,,,Common-term
+datatype,,,,Common-term
+dependent,,,,Common-term
+deriving,,,,
+discrete,,,,
+disentanglement,,,,
+Dominique Devriese,,,,
+effectful,,,,
+embeddings,,,,
+entanglement,,,,
+equational,,,,Common-term
+equational theory,,,,Common-term
+exponential,,,,
+FHPC@ICFP,,,,email
+Glasgow Haskell Compiler,,,,compiler tool
+heap,,,,
+IORef,Eye-oh ref,,,
+iterations,,,,
+lambda calculus,lam-duh calculus,,,theory
+linear,,,,Common-term
+logical relation,,,,Common-term
+mail@joachim-breitner.de,,,,email
+ML,,,,Programming-language
+modular,,,,Common-term
+observational,,,,
+OCaml,,,,Common-term programming-language
+referential transparency,,,,Common-term
+semantics,,,,
+Steele,,,,Name
+tail-recursive,,,,
+thread-safety,,,,
+Trigger,,,,
+Vytiniotis,,,,
+Wadler,,,,Name
+RSet,,,,unclassified
+RBool,,,,unclassified
+ghci,,,,unclassified
 MkRWE,,,,unclassified
 RS.get,,,,unclassified
 can_throw,,,,unclassified
 M.Map,,,,unclassified
 RDualBool,,,,unclassified
 env_bind,,,,unclassified
-expression,,,,Common-term
-Joachim Breitner,,,,Author
 Fixpoints,,,,unclassified
-Id,,,,
-IO,Eye-oh,,,
 False,,,,unclassified
 fromList,,,,unclassified
 LetRec,,,,unclassified
-recursion,,,,Common-term
 RS.insert,,,,unclassified
 mapp,,,,unclassified
-monotonic,,,,Common-term
 defCellInsert,,,,unclassified
 buildExpr,,,,unclassified
-fixpoint,,,,Common-term
 Hatafun,,,,unclassified
 todo,,,,unclassified
 unsafePerformIO,,,,unclassified
-AST ,A.S.T.,Abstract Syntax Tree,,
 CatchF,,,,unclassified
 Data.Set,,,,unclassified
 datafix,,,,unclassified
@@ -40,19 +126,14 @@ Haskell's,,,,unclassified
 new_e,,,,unclassified
 newCell,,,,unclassified
 canThrow,,,,unclassified
-compiler,,,,Common-term
 Defn,,,,unclassified
-denotational semantics,,,,semantics
 DepM,,,,unclassified
-functional programming,,,,
 knot-tying,,,,unclassified
 M.fromList,,,,unclassified
-Peyton Jones,,,,Name
 RB.get,,,,unclassified
 S.insert,,,,unclassified
 S.Set,,,,unclassified
 SIGPLAN,,,,unclassified
-abstraction,,,,Common-term
 AppF,,,,unclassified
 buildDenotation,,,,unclassified
 forall,,,,unclassified
@@ -64,16 +145,12 @@ rTrans1,,,,unclassified
 RTrue,,,,unclassified
 ThrowF,,,,unclassified
 VarF,,,,unclassified
-Boolean,,,,
 CInterrupted,,,,unclassified
-concurrent,,,,Common-term
 ExpF,,,,unclassified
 fixed-point,,,,unclassified
-lattice,,,,Common-term
 M.empty,,,,unclassified
 M.insert,,,,unclassified
 MkCell,,,,unclassified
-monotonicity,,Mathematical property,,Common-term
 RFalse,,,,unclassified
 S.fromList,,,,unclassified
 TF,,,,unclassified
@@ -81,42 +158,30 @@ TransferAlgebra,,,,unclassified
 transferFunctionAlg,,,,unclassified
 can_throw1,,,,unclassified
 can_throw2,,,,unclassified
-closure,,,,Common-term
-contextual,,,,Common-term
 data-flow,,,,unclassified
 Datafun,,,,unclassified
-K ,,“K axiom”,,
 knot-tied,,,,unclassified
-laziness,,,,
 LVars,,,,unclassified
 M.singleton,,,,unclassified
 MkRSet,,,,unclassified
 mlam,,,,unclassified
-monad,Mow-nad,,,Common-term
-monadic,Mow-nad-ick,,,
 MVar,,,,unclassified
 removeCatch,,,,unclassified
 rs1,,,,unclassified
 rs2,,,,unclassified
-syntax,,,,Common-term
 transferBody,,,,unclassified
 use-case,,,,unclassified
 use-cases,,,,unclassified
 Yihong,,,,unclassified
 analysis/transformation,,,,unclassified
 BoundedJoinSemiLattice,,,,unclassified
-concurrency,,,,Common-term
 datafixBindingGroup,,,,unclassified
 Datafun's,,,,unclassified
 Datalog,,,,unclassified
 Funct,,,,unclassified
 GHC's,,,,unclassified
 goBind,,,,unclassified
-higher-order,,,,Common-term
 JoinSemiLattice,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-Marlow,,,,
-QuickCheck,,,,testing tool
 RB.id,,,,unclassified
 RB.true,,,,unclassified
 re-analyze,,,,unclassified
@@ -128,21 +193,14 @@ runST,,,,unclassified
 S.toList,,,,unclassified
 Sabry,,,,unclassified
 setCell,,,,unclassified
-syntactic,,,,Common-term
-theorem,,,,Common-term
 transferredBind,,,,unclassified
 "v,e",,,,unclassified
 watchCell,,,,unclassified
-Amin Timany,,,,Author
 Arntzenius,,,,unclassified
-asymptotic,,,,Common-term
 bindsUnsafe,,,,unclassified
 Call-by-need,,,,unclassified
 Claessen,,,,unclassified
 CoCaml,,,,unclassified
-coinductive,,,,Common-term
-conservative,,,,theory
-context,,,,Common-term
 Data.Map,,,,unclassified
 e1Unsafe,,,,unclassified
 e2Unsafe,,,,unclassified
@@ -150,34 +208,24 @@ edge_graph,,,,unclassified
 eUnsafe,,,,unclassified
 expr,,,,unclassified
 extract_rhs,,,,unclassified
-generic,,,,
-GHC,,,,compiler tool
-https://doi.org,,,,unclassified
 is_done,,,,unclassified
 IsBase,,,,unclassified
-isomorphic,,,,Common-term
 Jeannin,,,,unclassified
 Kildall,,,,unclassified
-Koen Claessen,,,,Author
-Krishnaswami,,,,
 Lippmeier,,,,unclassified
 M.mapWithKey,,,,unclassified
 mapWithKey,,,,unclassified
-modularity,,,,Common-term
 MonadDatafix,,,,unclassified
-monotone,,,,Common-term
 newMVar,,,,unclassified
 Nievergelt,,,,unclassified
 non-termination,,,,unclassified
 point-wise,,,,unclassified
 Polakow,,,,unclassified
-Pottier,,,,
 Radul,,,,unclassified
 RB.not,,,,unclassified
 RDB,,,,unclassified
 readMVar,,,,unclassified
 refactoring,,,,unclassified
-register,,,,
 Reingold,,,,unclassified
 RS.delete,,,,unclassified
 RS.member,,,,unclassified
@@ -189,7 +237,6 @@ rTrans3,,,,unclassified
 Runciman,,,,unclassified
 runPar,,,,unclassified
 S.empty,,,,unclassified
-Semantic,,,,Common-term
 side-effects,,,,unclassified
 strict-language-using,,,,unclassified
 throw_a,,,,unclassified
@@ -199,20 +246,16 @@ transferA,,,,unclassified
 transferE,,,,unclassified
 transferF,,,,unclassified
 transferRHS,,,,unclassified
-traversal,,,,Common-term
 unlift,,,,unclassified
 "V,Exp",,,,unclassified
 vUnsafe,,,,unclassified
-Why,,,,
 zipWith,,,,unclassified
 "1,fromList",,,,unclassified
 "23],fromList",,,,unclassified
 Abramsky,,,,unclassified
-abstractions,,,,
 Acar,,,,unclassified
 Alexey,,,,unclassified
 ASIAN'99,,,,unclassified
-automata,,,,Common-term
 back-translation,,,,unclassified
 Boehm,,,,unclassified
 Breitner,,,,unclassified
@@ -220,11 +263,7 @@ call-by-value,,,,unclassified
 case-study,,,,unclassified
 code's,,,,unclassified
 code.2,,,,unclassified
-Conal Elliott,,,,Author
-conclusion,,,,
-conjunction,,,,
 constrained-based,,,,unclassified
-constructor,,,,Common-term
 Control.Concurrent.MVar,,,,unclassified
 Control.Monad,,,,unclassified
 CORE'S,,,,unclassified
@@ -238,48 +277,29 @@ Data.Recursive.Set,,,,unclassified
 Data.Set.Internal,,,,unclassified
 Datafix.Utils.SemiLattice,,,,unclassified
 datafixEq,,,,unclassified
-datatype,,,,Common-term
 dejafu,,,,unclassified
-dependent,,,,Common-term
-deriving,,,,
 Dimitrios,,,,unclassified
-discrete,,,,
-disentanglement,,,,
-Dominique Devriese,,,,
 "done""-flag",,,,unclassified
 "done""-flags",,,,unclassified
-effectful,,,,
 Eijiro,,,,unclassified
-embeddings,,,,
-entanglement,,,,
-equational,,,,Common-term
-equational theory,,,,Common-term
 evalDenotation,,,,unclassified
-exponential,,,,
-FHPC@ICFP,,,,email
 Finne,,,,unclassified
 Friedhelm,,,,unclassified
 Fundam,,,,unclassified
 Gavoille,,,,unclassified
-Glasgow Haskell Compiler,,,,compiler tool
-Graham Hutton,,,,Author
 Grelck,,,,unclassified
 Hans-Juergen,,,,unclassified
 Haskelllevel,,,,unclassified
-heap,,,,
 Heide,,,,unclassified
 Henglein,,,,unclassified
 high-performance,,,,unclassified
 HOAS,,,,unclassified
 https,,,,unclassified
 ICALP,,,,unclassified
-Ilya Sergey,,,,Author
 Informaticae,,,,unclassified
 inliner,,,,unclassified
 interleavings,,,,unclassified
 IO-thunks,,,,unclassified
-IORef,Eye-oh ref,,,
-iterations,,,,
 Jean-Baptiste,,,,unclassified
 Jost,,,,unclassified
 Jurg,,,,unclassified
@@ -290,32 +310,23 @@ Koopman,,,,unclassified
 Kozen,,,,unclassified
 Krogh-Jespersen,,,,unclassified
 Kuper,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
-Lars Birkedal,,,,Author
 lattice-based,,,,unclassified
 let-bindings,,,,unclassified
 LetRecs,,,,unclassified
 library.3,,,,unclassified
 library1,,,,unclassified
-Lindsey Kuper,,,,Author
-linear,,,,Common-term
 Lochbihler,,,,unclassified
 Lochem,,,,unclassified
-logical relation,,,,Common-term
 lower-level,,,,unclassified
 LVar,,,,unclassified
 M.keys,,,,unclassified
-mail@joachim-breitner.de,,,,email
 mapM,,,,unclassified
 mapMember,,,,unclassified
 mapSingleton,,,,unclassified
-Massachusetts Institute of Technology,,,,Institution
 mbind,,,,unclassified
 MFun,,,,unclassified
 MIT/CSAIL,,,,unclassified
-ML,,,,Programming-language
 modifyMVar,,,,unclassified
-modular,,,,Common-term
 Neelakantan,,,,unclassified
 NeverAbort,,,,unclassified
 newIORef,,,,unclassified
@@ -323,15 +334,12 @@ newtype,,,,unclassified
 non-bottom,,,,unclassified
 non-monotonic,,,,unclassified
 non-recursive,,,,unclassified
-observational,,,,
-OCaml,,,,Common-term programming-language
 Odersky,,,,unclassified
 onChange,,,,unclassified
 OOPSLA1,,,,unclassified
 openly-recursive,,,,unclassified
 owner/author(s,,,,unclassified
 PEDESTRIAN-STYLE,,,,unclassified
-Peter Thiemann,,,,Author
 plugins,,,,unclassified
 POPL,,,,unclassified
 RDB.get,,,,unclassified
@@ -343,7 +351,6 @@ readIORef,,,,unclassified
 rec-def,,,,unclassified
 recursively-definable,,,,unclassified
 reentrancy-safety,,,,unclassified
-referential transparency,,,,Common-term
 reflexive-transitive-closure,,,,unclassified
 reifyGraph,,,,unclassified
 rhs):binders,,,,unclassified
@@ -356,7 +363,6 @@ S.union,,,,unclassified
 S.unions,,,,unclassified
 Seidl,,,,unclassified
 self):transferredBind,,,,unclassified
-semantics,,,,
 semilattices,,,,unclassified
 Sergey,,,,unclassified
 Sigbjorn,,,,unclassified
@@ -365,19 +371,14 @@ snd,,,,unclassified
 solver's,,,,unclassified
 space-leaks,,,,unclassified
 Spirakis,,,,unclassified
-Steele,,,,Name
 Stefanesco,,,,unclassified
-Stephanie Weirich,,,,Author
 straight-forward,,,,unclassified
 Sumii,,,,unclassified
 swapMVar,,,,unclassified
 System.IO.RecThunk,,,,unclassified
-tail-recursive,,,,
 Thiagarajan,,,,unclassified
-thread-safety,,,,
 Timany,,,,unclassified
 todo-action,,,,unclassified
-Trigger,,,,
 type-level,,,,unclassified
 Type-safe,,,,unclassified
 Umut,,,,unclassified
@@ -387,7 +388,5 @@ user-provided,,,,unclassified
 "v,me",,,,unclassified
 "V,RBool",,,,unclassified
 v:vs,,,,unclassified
-Vytiniotis,,,,
-Wadler,,,,Name
 weight-balanced,,,,unclassified
 writeIORef,,,,unclassified

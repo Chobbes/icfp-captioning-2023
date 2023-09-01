@@ -1,22 +1,31 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Alex Hubers,,,,Author
+Daan Leijen,,,,Author
+Sam Lindley,,,,Author
+Adam Chlipala,,,,Author
+Giuseppe Castagna,,,,Author
+Fabian Ruch,,,,Author
+Graham Hutton,,,,Author
+James Cheney,,,,Author
+Nadia Polikarpova,,,,Author
+Neel Krishnaswami,,,,Author
+Olivier Danvy,,,,researcher
+Patrick Bahr,,,,Author
+Peter Thiemann,,,,Author
+Stephanie Weirich,,,,Author
+Wouter Swierstra,,,,Author
+Universiteit Utrecht,,,,Institution
+University of Nottingham,,,,Institution
 generic,,,,
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 K ,,“K axiom”,,
 Agda,,Agda-style,,Common-term Programming-language
 constructor,,,,Common-term
-Alex Hubers,,,,Author
 entailment,,,,
-SIGPLAN,,,,unclassified
-KEnv,,,,unclassified
-kinding,,,,unclassified
-label-generic,,,,unclassified
 functor,,,,Common-term
 functional programming,,,,
-p(i,,,,unclassified
 syntax,,,,Common-term
 duality,,,,
-False,,,,unclassified
-fmap,,,,unclassified
 scoped,,,,Common-term
 dependent,,,,Common-term
 fold,,,,Common-term
@@ -27,109 +36,154 @@ expressiveness,,,,Common-term
 reflect,,,,
 algebraic effects,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
-JKke,,,,unclassified
-non-commutative,,,,unclassified
-POPL,,,,unclassified
 mechanization,,,,
-oj,,,,unclassified
-rapply,,,,unclassified
 reify,,,,Common-term
 AST ,A.S.T.,Abstract Syntax Tree,,
 Boolean,,,,
 compiler,,,,Common-term
+Pottier,,,,
+semantics,,,,
+well-typed,,,,Common-term
+abstractions,,,,
+modular,,,,Common-term
+runtime,,,,Common-term
+Z3,,Tool to automatically prove theorems,,Tool
+combinator,,,,Common-term
+injection,,,,
+instantiation,,,,
+monad,Mow-nad,,,Common-term
+Plotkin,,Name,,name
+polymorphic,,,,Common-term
+row polymorphism,,,,
+System F,,,,Common-term
+theorem,,,,Common-term
+Wadler,,,,Name
+Elimination,,,,
+expressive,,,,Common-term
+formalization,,,,Common-term
+McBride,,,,Name
+ML,,,,Programming-language
+quantified,,,,Common-term
+session types,,,,
+syntactic,,,,Common-term
+abstraction,,,,Common-term
+case expression,,,,
+conclusion,,,,
+context,,,,Common-term
+denotational semantics,,,,semantics
+effectful,,,,
+embeddings,,,,
+GAN,,generative adversarial network,,Common-term machine-learning
+intersection types,,,,Common-term
+isomorphic,,,,Common-term
+Kiselyov,,,,
+Krishnaswami,,,,
+metaprogramming,,,,Common-term
+metatheory,,,,Common-term
+operational semantics,,,,
+Peyton Jones,,,,Name
+Power,,,,
+predicative,,,,Common-term
+Pretnar,,,,
+subtyping,,,,Common-term
+alexander-hubers@uiowa.edu,,,,email
+bidirectional,,,,
+Bird ,,,,
+calculi,,,,
+Cervesato,,,,
+Dependent types,,,,types
+dependently-typed,,,,types
+derivation,,,,
+derive,,,,
+desugaring,,,,Common-term
+Findler,,,,
+force,,,,Common-term evaluation
+garrett-morris@uiowa.edu,,,,email
+Gay ,,,,Name
+heterogeneous,,,,
+Hindley-Milner,,,,
+impredicative,,,,Common-term
+integer,,,,Common-term
+Koka,,,,Programming-language
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Levy,,,,
+linear,,,,Common-term
+match,,,,
+matching,,“pattern matching”,,Common-term
+monoids,,,,Common-term
+MSFP@ETAPS,,,,email
+OCaml,,,,Common-term programming-language
+quantifier,,,,Common-term
+Semantic,,,,Common-term
+Swierstra,,,,
+TyDe@ICFP,,,,email
+Vytiniotis,,,,
+Why,,,,
+SIGPLAN,,,,unclassified
+KEnv,,,,unclassified
+kinding,,,,unclassified
+label-generic,,,,unclassified
+p(i,,,,unclassified
+False,,,,unclassified
+fmap,,,,unclassified
+JKke,,,,unclassified
+non-commutative,,,,unclassified
+POPL,,,,unclassified
+oj,,,,unclassified
+rapply,,,,unclassified
 Leijen,,,,unclassified
 McKinna,,,,unclassified
 p(j,,,,unclassified
 PEnv,,,,unclassified
-Pottier,,,,
-semantics,,,,
 t-ana,,,,unclassified
 t-E,,,,unclassified
 t-I,,,,unclassified
 t-syn,,,,unclassified
-well-typed,,,,Common-term
-abstractions,,,,
 Berthomieu,,,,unclassified
 CasesB,,,,unclassified
 e-sing,,,,unclassified
 functoriality,,,,unclassified
 k-lift2,,,,unclassified
-modular,,,,Common-term
 prj,,,,unclassified
 reflectB,,,,unclassified
 reifyB,,,,unclassified
-runtime,,,,Common-term
 Sagazan,,,,unclassified
 Wand's,,,,unclassified
 Xf,,,,unclassified
-Z3,,Tool to automatically prove theorems,,Tool
-combinator,,,,Common-term
-Daan Leijen,,,,Author
 Dunfield,,,,unclassified
-injection,,,,
-instantiation,,,,
 k-lift1,,,,unclassified
 KH,,,,unclassified
-monad,Mow-nad,,,Common-term
 n-lift1,,,,unclassified
 n-lift2,,,,unclassified
 Oliveira,,,,unclassified
-Plotkin,,Name,,name
-polymorphic,,,,Common-term
 Remy's,,,,unclassified
-row polymorphism,,,,
-Sam Lindley,,,,Author
-System F,,,,Common-term
-theorem,,,,Common-term
 type-safe,,,,unclassified
 typings,,,,unclassified
-Wadler,,,,Name
-Adam Chlipala,,,,Author
 Chlipala,,,,unclassified
 Comput,,,,unclassified
 Diatchki,,,,unclassified
 Dybvig,,,,unclassified
-Elimination,,,,
-expressive,,,,Common-term
-formalization,,,,Common-term
-Giuseppe Castagna,,,,Author
 Hillerstrom,,,,unclassified
 Hubers,,,,unclassified
 lsuc,,,,unclassified
-McBride,,,,Name
-ML,,,,Programming-language
 Morrisett,,,,unclassified
 n-l,,,,unclassified
 n-r,,,,unclassified
-quantified,,,,Common-term
 Remy-style,,,,unclassified
 Reppy,,,,unclassified
-session types,,,,
-syntactic,,,,Common-term
 type-level,,,,unclassified
 type-transforming,,,,unclassified
-abstraction,,,,Common-term
 ad-hoc,,,,unclassified
 Blott,,,,unclassified
-case expression,,,,
-conclusion,,,,
-context,,,,Common-term
-denotational semantics,,,,semantics
 e-lift1,,,,unclassified
 e-lift2,,,,unclassified
 e-lift3,,,,unclassified
 e-row,,,,unclassified
-effectful,,,,
-embeddings,,,,
 EPTCS,,,,unclassified
-GAN,,generative adversarial network,,Common-term machine-learning
 Haskell's,,,,unclassified
-https://doi.org/10,,,,unclassified
 ifte,,,,unclassified
 inj,,,,unclassified
 injd,,,,unclassified
-intersection types,,,,Common-term
-isomorphic,,,,Common-term
 J_Kt,,,,unclassified
 JKk,,,,unclassified
 JKpe,,,,unclassified
@@ -138,36 +192,26 @@ k-crow,,,,unclassified
 k-row,,,,unclassified
 k-srow,,,,unclassified
 Kaposi,,,,unclassified
-Kiselyov,,,,
 Kk,,,,unclassified
-Krishnaswami,,,,
 l-labeled,,,,unclassified
 Lawall,,,,unclassified
 Leivant,,,,unclassified
 LICS,,,,unclassified
 M/M,,,,unclassified
 Makholm,,,,unclassified
-metaprogramming,,,,Common-term
-metatheory,,,,Common-term
 metavariables,,,,unclassified
 mixin,,,,unclassified
 n-refl,,,,unclassified
 nanopass,,,,unclassified
 non-trivial,,,,unclassified
 object-oriented,,,,unclassified
-operational semantics,,,,
 p(k,,,,unclassified
-Peyton Jones,,,,Name
-Power,,,,
-predicative,,,,Common-term
-Pretnar,,,,
 prjd,,,,unclassified
 r(j,,,,unclassified
 r.sel,,,,unclassified
 Rioux,,,,unclassified
 row-typed,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
-subtyping,,,,Common-term
 Sulzmann,,,,unclassified
 t-fold,,,,unclassified
 t-sing,,,,unclassified
@@ -185,19 +229,14 @@ WGP,,,,unclassified
 y.(case,,,,unclassified
 Acar,,,,unclassified
 Agda's,,,,unclassified
-alexander-hubers@uiowa.edu,,,,email
 Ambrus,,,,unclassified
 anaf,,,,unclassified
 Apoorv,,,,unclassified
-bidirectional,,,,
-Bird ,,,,
 c-emp,,,,unclassified
 c-pred,,,,unclassified
 c-tvar,,,,unclassified
 c-var,,,,unclassified
-calculi,,,,
 case--(a,,,,unclassified
-Cervesato,,,,
 Cheney's,,,,unclassified
 component-wise,,,,unclassified
 constructors--from,,,,unclassified
@@ -207,11 +246,6 @@ deconstruct,,,,unclassified
 deconstructing,,,,unclassified
 deconstruction,,,,unclassified
 deletedIn,,,,unclassified
-Dependent types,,,,types
-dependently-typed,,,,types
-derivation,,,,
-derive,,,,
-desugaring,,,,Common-term
 dimensions--say,,,,unclassified
 Dimitrios,,,,unclassified
 Dipanwita,,,,unclassified
@@ -224,28 +258,18 @@ e-sym,,,,unclassified
 e-trans,,,,unclassified
 Eijiro,,,,unclassified
 ETAPS,,,,unclassified
-Fabian Ruch,,,,Author
 field--points,,,,unclassified
-Findler,,,,
-force,,,,Common-term evaluation
 Funct,,,,unclassified
 GADTs,,,,unclassified
-garrett-morris@uiowa.edu,,,,email
-Gay ,,,,Name
-Graham Hutton,,,,Author
 Haskell--to,,,,unclassified
-heterogeneous,,,,
 higher-rank,,,,unclassified
 higherorder,,,,unclassified
-Hindley-Milner,,,,
 Hoc--Artifact,,,,unclassified
 https,,,,unclassified
 Iavor,,,,unclassified
 Iliano,,,,unclassified
-impredicative,,,,Common-term
 information--as,,,,unclassified
 input-side,,,,unclassified
-integer,,,,Common-term
 intrinsically-kinded,,,,unclassified
 intrinsically-typed,,,,unclassified
 intrinsicallykinded,,,,unclassified
@@ -257,7 +281,6 @@ J_Kke,,,,unclassified
 J_Kn,,,,unclassified
 J_Kp,,,,unclassified
 J_Kpe,,,,unclassified
-James Cheney,,,,Author
 JKe,,,,unclassified
 JKp,,,,unclassified
 k-d,,,,unclassified
@@ -273,55 +296,40 @@ kind-indexed,,,,unclassified
 kind-polymorphism,,,,unclassified
 kinded,,,,unclassified
 kindings,,,,unclassified
-Koka,,,,Programming-language
 labelgeneric,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 Lammel,,,,unclassified
 language--and,,,,unclassified
 left-most,,,,unclassified
 Leijen-style,,,,unclassified
 let-polymorphism,,,,unclassified
-Levy,,,,
 lift1,,,,unclassified
 lift2,,,,unclassified
 Lindley's,,,,unclassified
-linear,,,,Common-term
 Lippmeier,,,,unclassified
 list-of-functors,,,,unclassified
 lty,,,,unclassified
 Magalhaes,,,,unclassified
-match,,,,
-matching,,“pattern matching”,,Common-term
 Matija,,,,unclassified
-monoids,,,,Common-term
 Morris's,,,,unclassified
-MSFP@ETAPS,,,,email
 Mumbai,,,,unclassified
 n-ax,,,,unclassified
 n-trans,,,,unclassified
-Nadia Polikarpova,,,,Author
 necessary--we,,,,unclassified
-Neel Krishnaswami,,,,Author
 Neelakantan,,,,unclassified
 non-overlapping,,,,unclassified
 non-singleton,,,,unclassified
 ntrans,,,,unclassified
-OCaml,,,,Common-term programming-language
 Okasaki,,,,unclassified
-Olivier Danvy,,,,researcher
 out--but,,,,unclassified
 over-specified,,,,unclassified
 overconstrain,,,,unclassified
 owner/author(s,,,,unclassified
-Patrick Bahr,,,,Author
-Peter Thiemann,,,,Author
 pickedIn,,,,unclassified
 PLDI,,,,unclassified
 pointwise-application,,,,unclassified
 precomposes,,,,unclassified
 predicativity,,,,unclassified
 programmer-friendly,,,,unclassified
-quantifier,,,,Common-term
 r/g,,,,unclassified
 r/l,,,,unclassified
 Rajamani,,,,unclassified
@@ -336,16 +344,13 @@ Row-based,,,,unclassified
 rows--indeed,,,,unclassified
 Schupke,,,,unclassified
 section--and,,,,unclassified
-Semantic,,,,Common-term
 SF2,,,,unclassified
 Shin-Cheng,,,,unclassified
 Shu-Hung,,,,unclassified
 simply-typed,,,,unclassified
 statically-typed,,,,unclassified
-Stephanie Weirich,,,,Author
 strings--without,,,,unclassified
 Sumii,,,,unclassified
-Swierstra,,,,
 syng,,,,unclassified
 synt,,,,unclassified
 t-foldnc,,,,unclassified
@@ -353,23 +358,17 @@ t-var,,,,unclassified
 t.{True,,,,unclassified
 Tiark,,,,unclassified
 TLDI,,,,unclassified
-TyDe@ICFP,,,,email
 type--of,,,,unclassified
 type-based,,,,unclassified
 type-directed,,,,unclassified
 Umut,,,,unclassified
 unification-based,,,,unclassified
 universe-stratified,,,,unclassified
-Universiteit Utrecht,,,,Institution
-University of Nottingham,,,,Institution
 value--and,,,,unclassified
-Vytiniotis,,,,
 web-application,,,,unclassified
 well-kinded,,,,unclassified
 Wells's,,,,unclassified
-Why,,,,
 Wonseok,,,,unclassified
-Wouter Swierstra,,,,Author
 x-selection,,,,unclassified
 x/l,,,,unclassified
 Xuejing,,,,unclassified

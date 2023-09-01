@@ -1,30 +1,124 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-protocol,,,,
-dependent,,,,Common-term
-Aneris,,,,unclassified
-srv,,,,unclassified
-RCLib,,,,unclassified
-kvs,,,,unclassified
-ICFP,,,,unclassified
-separation logic,,,,Common-term
-ghost,,,,
-Actris,,,,unclassified
 Lars Birkedal,,,,Author
-Gondelman,,,,unclassified
-sbuf,,,,unclassified
 Amin Timany,,,,Author
 Jonas Kastberg Hinrichsen,,,,Author
-rbuf,,,,unclassified
+Derek Dreyer,,,,Author
+Robbert Krebbers,,,,Author
+Ralf Jung,,,,Author
+Joseph Tassarotti,,,,Author
+Yao Li,,,,Author
+Adam Chlipala,,,,Author
+Ilya Sergey,,,,Author
+Matthias Felleisen,,,,Author
+Ranjit Jhala,,,,Author
+Simon Spies,,,,Author
+Aarhus University,,,,Institution
+protocol,,,,
+dependent,,,,Common-term
+ICFP,,,,Common-term
+separation logic,,,,Common-term
+ghost,,,,
 API,A.P.I.,Application Programming Interface,,Common-term
 endpoint,,,,
 Iris,,,,theorem-proving tool
 modular,,,,Common-term
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+Id,,,,
+modality,,,,Common-term
+optional,,,,
+concurrency,,,,Common-term
+concurrent,,,,Common-term
+higher-order,,,,Common-term
+instantiation,,,,
+semantics,,,,
+theorem,,,,Common-term
+conjunction,,,,
+context,,,,Common-term
+OCaml,,,,Common-term programming-language
+operational semantics,,,,
+algebra,,,,
+formalization,,,,Common-term
+heap,,,,
+Prop,,,,
+bidirectional,,,,
+compiler,,,,Common-term
+consistency,,Gradual typing,,theory
+Hinrichsen,,,,
+Hoare,Like “horse”,,,Name
+K ,,“K axiom”,,
+modularity,,,,Common-term
+recursive,,,,Common-term
+session types,,,,
+Abel,,,,Name
+Isabelle,,,,
+quantified,,,,Common-term
+reflect,,,,
+abstraction,,,,Common-term
+algebras,,,,
+atomicity,,,,Common-term
+duality,,,,
+expressive,,,,Common-term
+Go,,,,
+Honda,,,,
+match,,,,
+Meta-level,,,,Common-term
+monotonic,,,,Common-term
+polymorphic,,,,Common-term
+toolchain,,,,
+Xi,,,,
+atomic,,,,
+binder,like in bind,,,
+birkedal@cs.au.dk,,,,email
+deadlock freedom,,,,
+delegation,,,,
+derive,,,,
+deriving,,,,
+distribution,,,,
+expression,,,,Common-term
+functional programming,,,,
+Gay ,,,,Name
+generic,,,,
+gondelman@cs.au.dk,,,,email
+Higher-order ghost state,,,,
+hinrichsen@cs.au.dk,,,,email
+Hoare logic,,,,Common-term
+induction,,,,Common-term
+mechanization,,,,
+memoization,,,,
+mjp.pereira@fct.unl.pt,,,,email
+modalities,,,,Common-term
+model checking,,Automatic theorem proving,,technique tool
+Peyton Jones,,,,Name
+Pol,,Subcategory of Meas whose objects are Borel spaces,,
+Pottier,,,,
+Power,,,,
+recursion,,,,Common-term
+refinements,,,,
+register,,,,
+Rust,,,,Common-term programming-language
+Semantic,,,,Common-term
+sequential ,,,,
+session typed,,,,
+shared-memory,,,,
+stack,,,,
+subtyping,,,,Common-term
+symbolic,,,,
+tactic,,,,
+timany@cs.au.dk,,,,email
+VST,,Verified Software Toolchain,,theorem-proving tool
+Why,,,,
+Aneris,,,,unclassified
+srv,,,,unclassified
+RCLib,,,,unclassified
+kvs,,,,unclassified
+Actris,,,,unclassified
+Gondelman,,,,unclassified
+sbuf,,,,unclassified
+rbuf,,,,unclassified
 serializer,,,,unclassified
 leader-followers,,,,unclassified
 ses_own,,,,unclassified
 ses_idx,,,,unclassified
-Coq,“Coq”,,,Common-term programming-language theorem-prover
-Id,,,,
 echo_prot,,,,unclassified
 iProp,,,,unclassified
 Obs(DB,,,,unclassified
@@ -34,54 +128,35 @@ S.qs,,,,unclassified
 SrvInit,,,,unclassified
 prot_ownl,,,,unclassified
 S.srv,,,,unclassified
-modality,,,,Common-term
 prot_ctx,,,,unclassified
 recv,,,,unclassified
 S.CanRequest,,,,unclassified
 AnerisLang,,,,unclassified
-Aarhus University,,,,Institution
 client-server,,,,unclassified
 FreePorts(ip,,,,unclassified
 key-value,,,,unclassified
 ldr,,,,unclassified
-optional,,,,
 S.rs,,,,unclassified
 chan_descr,,,,unclassified
-concurrency,,,,Common-term
-concurrent,,,,Common-term
-higher-order,,,,Common-term
-instantiation,,,,
 laters,,,,unclassified
 points-to,,,,unclassified
 rpc_prot,,,,unclassified
 saddr,,,,unclassified
-semantics,,,,
 subprotocol,,,,unclassified
-theorem,,,,Common-term
 CanConnect,,,,unclassified
-conjunction,,,,
-context,,,,Common-term
 int_ser,,,,unclassified
 leader-only,,,,unclassified
-OCaml,,,,Common-term programming-language
-operational semantics,,,,
 POPL,,,,unclassified
 rpc_process_spec,,,,unclassified
 serializers,,,,unclassified
 srv.ip,,,,unclassified
 str_ser,,,,unclassified
-algebra,,,,
 clt,,,,unclassified
-Derek Dreyer,,,,Author
-formalization,,,,Common-term
 FreeIp(ip,,,,unclassified
-heap,,,,
 Ht-accept,,,,unclassified
 Krogh-Jespersen,,,,unclassified
 Nieto,,,,unclassified
-Prop,,,,
 RC_Resources,,,,unclassified
-Robbert Krebbers,,,,Author
 rpc_make_request,,,,unclassified
 server_skt,,,,unclassified
 SIGPLAN,,,,unclassified
@@ -89,37 +164,27 @@ Unallocated({sa,,,,unclassified
 we.value,,,,unclassified
 accept_loop,,,,unclassified
 Aneris's,,,,unclassified
-bidirectional,,,,
 CanListen,,,,unclassified
 client_skt,,,,unclassified
-compiler,,,,Common-term
-consistency,,Gradual typing,,theory
 DBfl,,,,unclassified
 DBld,,,,unclassified
 GlobalInv,,,,unclassified
-Hinrichsen,,,,
-Hoare,Like “horse”,,,Name
 Ht-listen,,,,unclassified
 Ht-socket-interp-alloc,,,,unclassified
 Iris's,,,,unclassified
-K ,,“K axiom”,,
 leader-only-read-spec,,,,unclassified
 leader-only-write-spec,,,,unclassified
 leader-read-spec,,,,unclassified
 message-passing,,,,unclassified
-modularity,,,,Common-term
 non-blocking,,,,unclassified
-recursive,,,,Common-term
 rlk,,,,unclassified
 rpc_connect,,,,unclassified
 rpc_start,,,,unclassified
 RPC_UserParams,,,,unclassified
 serve_loop,,,,unclassified
-session types,,,,
 session-type,,,,unclassified
 slk,,,,unclassified
 write-spec,,,,unclassified
-Abel,,,,Name
 Badban,,,,unclassified
 Bizjak,,,,unclassified
 Chajed,,,,unclassified
@@ -137,7 +202,6 @@ Gregersen,,,,unclassified
 Ht-reliable-recv,,,,unclassified
 Ht-reliable-send,,,,unclassified
 ipsys,,,,unclassified
-Isabelle,,,,
 Jacques-Henri,,,,unclassified
 Lesani,,,,unclassified
 mechanised,,,,unclassified
@@ -150,12 +214,9 @@ pre-determined,,,,unclassified
 prot_ownr,,,,unclassified
 proto-alloc,,,,unclassified
 proto-recv-l,,,,unclassified
-quantified,,,,Common-term
-Ralf Jung,,,,Author
 RC-init-alloc,,,,unclassified
 RC_UserParams,,,,unclassified
 receivefrom,,,,unclassified
-reflect,,,,
 ReqData,,,,unclassified
 RPC_Resources,,,,unclassified
 S.srv.ip,,,,unclassified
@@ -167,27 +228,20 @@ src.ip,,,,unclassified
 Stenning's,,,,unclassified
 user-defined,,,,unclassified
 wait_on_read,,,,unclassified
-abstraction,,,,Common-term
 acknowledgement_message,,,,unclassified
-algebras,,,,
-atomicity,,,,Common-term
 Bengtson,,,,unclassified
 Beringer,,,,unclassified
 Castro-Perez,,,,unclassified
 Comput,,,,unclassified
 Conflict-Free,,,,unclassified
 CRDTs,,,,unclassified
-duality,,,,
 echo-server,,,,unclassified
 enqueueing,,,,unclassified
-expressive,,,,Common-term
 Fekete,,,,unclassified
 follower-read-spec,,,,unclassified
 FreeIp,,,,unclassified
-Go,,,,
 Guo,,,,unclassified
 Hawblitzel,,,,unclassified
-Honda,,,,
 Honore,,,,unclassified
 Ht-make-client-socket,,,,unclassified
 Ht-make-server-socket,,,,unclassified
@@ -206,7 +260,6 @@ initialises,,,,unclassified
 iProto,,,,unclassified
 is_lock,,,,unclassified
 Ivaki,,,,unclassified
-Joseph Tassarotti,,,,Author
 Kouzapas,,,,unclassified
 Lennart,,,,unclassified
 Li-yao,,,,unclassified
@@ -215,14 +268,11 @@ logDB,,,,unclassified
 LogMapConsistent,,,,unclassified
 Logs-agree,,,,unclassified
 Mansky,,,,unclassified
-match,,,,
 Matsushita,,,,unclassified
-Meta-level,,,,Common-term
 Mevel,,,,unclassified
 Miu,,,,unclassified
 mk_client_skt,,,,unclassified
 mk_server_skt,,,,unclassified
-monotonic,,,,Common-term
 Nobuko,,,,unclassified
 non-terminating,,,,unclassified
 Obs(DBld,,,,unclassified
@@ -231,7 +281,6 @@ Obs-update,,,,unclassified
 OCaml-like,,,,unclassified
 one-time-use,,,,unclassified
 Op-Based,,,,unclassified
-polymorphic,,,,Common-term
 proto--l,,,,unclassified
 proto-send-l,,,,unclassified
 protocol-preserving,,,,unclassified
@@ -261,7 +310,6 @@ Table-lookup,,,,unclassified
 Table-update,,,,unclassified
 Tatlock,,,,unclassified
 tbl,,,,unclassified
-toolchain,,,,
 try_recv,,,,unclassified
 Unallocated(1,,,,unclassified
 UP.srv,,,,unclassified
@@ -271,9 +319,7 @@ Vs-csq,,,,unclassified
 vx,,,,unclassified
 w.r.t,,,,unclassified
 we.key,,,,unclassified
-Xi,,,,
 Xia,,,,unclassified
-Yao Li,,,,Author
 Yishuai,,,,unclassified
 Yoshida,,,,unclassified
 Zdancewic,,,,unclassified
@@ -281,16 +327,12 @@ Zhou,,,,unclassified
 4-tuple,,,,unclassified
 4-way,,,,unclassified
 Actris's,,,,unclassified
-Adam Chlipala,,,,Author
 Adeqacy,,,,unclassified
 Araujo,,,,unclassified
 Assia,,,,unclassified
-atomic,,,,
 Bahareh,,,,unclassified
 Bergan,,,,unclassified
-binder,like in bind,,,
 Birkedal,,,,unclassified
-birkedal@cs.au.dk,,,,email
 brevity's,,,,unclassified
 Caires,,,,unclassified
 Cezary,,,,unclassified
@@ -307,18 +349,13 @@ crash-sensitive,,,,unclassified
 CRDT,,,,unclassified
 CRPIT,,,,unclassified
 Dagstuhl,,,,unclassified
-deadlock freedom,,,,
 Dehne,,,,unclassified
-delegation,,,,
 Demange,,,,unclassified
 Demers,,,,unclassified
-derive,,,,
-deriving,,,,
 deserialize,,,,unclassified
 deserializes,,,,unclassified
 Dillig,,,,unclassified
 Dimitrios,,,,unclassified
-distribution,,,,
 domain-specific,,,,unclassified
 dynamically-instantiated,,,,unclassified
 echoserver,,,,unclassified
@@ -328,7 +365,6 @@ encoding/decoding,,,,unclassified
 enqueus,,,,unclassified
 EuroSys,,,,unclassified
 exactly-once,,,,unclassified
-expression,,,,Common-term
 Fairbairn,,,,unclassified
 Fangyi,,,,unclassified
 fault-tolerance,,,,unclassified
@@ -340,19 +376,12 @@ Friso,,,,unclassified
 from/to,,,,unclassified
 fst,,,,unclassified
 Funct,,,,unclassified
-functional programming,,,,
 Gaher,,,,unclassified
-Gay ,,,,Name
-generic,,,,
 genericity,,,,unclassified
-gondelman@cs.au.dk,,,,email
 Gutkovas,,,,unclassified
 heap-allocated,,,,unclassified
 Hengchu,,,,unclassified
-Higher-order ghost state,,,,
-hinrichsen@cs.au.dk,,,,email
 Hoang-Hai,,,,unclassified
-Hoare logic,,,,Common-term
 Hoaretriples,,,,unclassified
 HOCAP-style,,,,unclassified
 HotOS,,,,unclassified
@@ -363,11 +392,8 @@ Ht-rpc-connect,,,,unclassified
 Ht-rpcconnect,,,,unclassified
 Ht-rpcreqest,,,,unclassified
 Htconnect,,,,unclassified
-http://iris-project.org,,,,unclassified
 https,,,,unclassified
-Ilya Sergey,,,,Author
 indentifier,,,,unclassified
-induction,,,,Common-term
 Informatik,,,,unclassified
 information/behaviours,,,,unclassified
 internalising,,,,unclassified
@@ -405,16 +431,10 @@ Madan,,,,unclassified
 Mahboubi,,,,unclassified
 Mansour,,,,unclassified
 Marit,,,,unclassified
-Matthias Felleisen,,,,Author
 McDirmid,,,,unclassified
-mechanization,,,,
-memoization,,,,
 message-directed,,,,unclassified
 middleware,,,,unclassified
-mjp.pereira@fct.unl.pt,,,,email
 ML-like,,,,unclassified
-modalities,,,,Common-term
-model checking,,Automatic theorem proving,,technique tool
 modular--each,,,,unclassified
 Morrisett,,,,unclassified
 multi-consensus,,,,unclassified
@@ -448,22 +468,14 @@ pattern--dubbed,,,,unclassified
 pattern--the,,,,unclassified
 pattern--which,,,,unclassified
 PDIS,,,,unclassified
-Peyton Jones,,,,Name
 PLDI,,,,unclassified
 points-to-predicate,,,,unclassified
-Pol,,Subcategory of Meas whose objects are Borel spaces,,
 post-condition,,,,unclassified
-Pottier,,,,
-Power,,,,
 proto-sendl,,,,unclassified
 PVS,,,,unclassified
 Ramunas,,,,unclassified
-Ranjit Jhala,,,,Author
 re)transmitting,,,,unclassified
 read-your-writes,,,,unclassified
-recursion,,,,Common-term
-refinements,,,,
-register,,,,
 Release-Acquire,,,,unclassified
 remniscent,,,,unclassified
 remote's,,,,unclassified
@@ -471,39 +483,28 @@ request-reply,,,,unclassified
 resource2,,,,unclassified
 retransmission/acknowledgement,,,,unclassified
 role-parametric,,,,unclassified
-Rust,,,,Common-term programming-language
 RustHornBelt,,,,unclassified
-Semantic,,,,Common-term
 sender's,,,,unclassified
-sequential ,,,,
 server-client,,,,unclassified
 server-side,,,,unclassified
 server/received,,,,unclassified
-session typed,,,,
 session-based,,,,unclassified
 session-type-inspired,,,,unclassified
 Setty,,,,unclassified
-shared-memory,,,,
-Simon Spies,,,,Author
 socket-based,,,,unclassified
 SOSP,,,,unclassified
 Spinelli,,,,unclassified
 Spreitzer,,,,unclassified
 Srinath,,,,unclassified
-stack,,,,
 statically-typed,,,,unclassified
 Stefanesco,,,,unclassified
 strlen,,,,unclassified
-subtyping,,,,Common-term
 Sung-Shik,,,,unclassified
 supertypes,,,,unclassified
-symbolic,,,,
-tactic,,,,
 TCP-based,,,,unclassified
 Tej,,,,unclassified
 Theimer,,,,unclassified
 Timany,,,,unclassified
-timany@cs.au.dk,,,,email
 time-insensitive,,,,unclassified
 transfer--safely,,,,unclassified
 transportindependent,,,,unclassified
@@ -519,10 +520,8 @@ Val)(qd,,,,unclassified
 Val)(rd,,,,unclassified
 Viktor,,,,unclassified
 Voinea,,,,unclassified
-VST,,Verified Software Toolchain,,theorem-proving tool
 Wansbrough,,,,unclassified
 WebSocket,,,,unclassified
-Why,,,,
 workflow,,,,unclassified
 Yingwei,,,,unclassified
 Yishay,,,,unclassified

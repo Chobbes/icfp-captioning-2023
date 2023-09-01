@@ -1,64 +1,130 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Rosario Gennaro,,,,Author
+Cameron Wong,,,,Author
+Nada Amin,,,,Author
+Daniel Rogozin,,,,Author
+John Burnham,,,,Author
+Matthias Felleisen,,,,Author
+Olivier Danvy,,,,researcher
+Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
+Jan Midtgaard,,,,researcher
+Leonardo de Moura,,,,Author
+Mads Sig Ager,,,,researcher
+Sebastian Ullrich,,,,Author
 iterations,,,,
 lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-ICFP,,,,unclassified
-R1CS,,,,unclassified
+ICFP,,,,Common-term
 recursive,,,,Common-term
+semantics,,,,
+compiler,,,,Common-term
+expression,,,,Common-term
+protocol,,,,
+reduction,,,,Common-term
+Lean,,,,
+recursion,,,,Common-term
+small-step,,,,Common-term
+theorem,,,,Common-term
+type-checker,,,,Common-term
+Boolean,,,,
+clause,,,,
+Felleisen,,,,
+Mishra,,,,
+Scheme,,,,Common-term programming-language
+Appel,,,,
+continuation,,,,
+deriving,,,,
+functional programming,,,,
+higher-order,,,,Common-term
+linear,,,,Common-term
+Plotkin,,Name,,name
+quadratic,,,,Common-term
+reflect,,,,
+runtime,,,,Common-term
+syntax,,,,Common-term
+acyclic,,,,Common-term
+applicative,,,,Common-term
+array,,,,Common-term
+atomic,,,,
+automata,,,,Common-term
+bypass,,,,
+calculus,,Used to describe a core simple programming language,,Common-term
+cast,,Gradual typing,,theory
+clwk@lurk-lab.com,,,,email
+concurrent,,,,Common-term
+conjunction,,,,
+consumer,,,,
+CPU,,,,
+cwong@g.harvard.edu,,,,email
+d.rogozin@ucl.ac,,,,email
+de Moura,,,,
+definitionally,,,,theory
+derivation,,,,
+derive,,,,
+divergence,,,,Common-term
+DSL,,,,
+evaluator,,,,
+expressiveness,,,,Common-term
+Findler,,,,
+fold,,,,Common-term
+francois@lurk-lab.com,,,,email
+Fraser,,,,
+Go,,,,
+heap,,,,
+instruction,,,,
+isomorphic,,,,Common-term
+john@lurk-lab.com,,,,email
+lambda calculus,lam-duh calculus,,,theory
+lambda-calculus,,,,Common-term
+Lean theorem prover,,,,
+namin@seas.harvard.edu,,,,email
+operational semantics,,,,
+recurrence,,,,
+redex,,,,
+relational,,,,
+rosario@ccny.cuny.edu,,,,email
+Rust,,,,Common-term programming-language
+scalability,,,,
+SMT ,,,,
+stack,,,,
+symbolic,,,,
+syntax-directed,,,,
+typechecker,,,,Common-term
+Why,,,,
+R1CS,,,,unclassified
 zero-knowledge,,,,unclassified
 backend,,,,unclassified
 Garillot,,,,unclassified
 Kunzang,,,,unclassified
-semantics,,,,
-compiler,,,,Common-term
 Chiesa,,,,unclassified
-expression,,,,Common-term
 IVC,,,,unclassified
-protocol,,,,
-reduction,,,,Common-term
 Rogozin,,,,unclassified
 CEK,,,,unclassified
 credit-data,,,,unclassified
 data-interface,,,,unclassified
 Kothapalli,,,,unclassified
 Lurk's,,,,unclassified
-Rosario Gennaro,,,,Author
 Tromer,,,,unclassified
 Ben-Sasson,,,,unclassified
 blockchain,,,,unclassified
 Boneh,,,,unclassified
-Cameron Wong,,,,Author
 False,,,,unclassified
-Lean,,,,
 letrec,,,,unclassified
 map-reduce,,,,unclassified
-Nada Amin,,,,Author
-recursion,,,,Common-term
 Setty,,,,unclassified
-small-step,,,,Common-term
-theorem,,,,Common-term
-type-checker,,,,Common-term
 zk-SNARKs,,,,unclassified
-Boolean,,,,
 Chhi'med,,,,unclassified
-clause,,,,
 collatz,,,,unclassified
 content-addressed,,,,unclassified
-Daniel Rogozin,,,,Author
 DSLs,,,,unclassified
 EUROCRYPT,,,,unclassified
-Felleisen,,,,
 function-hiding,,,,unclassified
 Garay,,,,unclassified
 https,,,,unclassified
-https://doi.org/10,,,,unclassified
-John Burnham,,,,Author
-Mishra,,,,
 Non-Interactive,,,,unclassified
 Ozdemir,,,,unclassified
 pattern-match,,,,unclassified
 Pratyush,,,,unclassified
 Proof-Carrying,,,,unclassified
-Scheme,,,,Common-term programming-language
 secretProof,,,,unclassified
 Snarkpack,,,,unclassified
 Srinath,,,,unclassified
@@ -68,7 +134,6 @@ zk-TC,,,,unclassified
 zk-TCs,,,,unclassified
 Abhiram,,,,unclassified
 ad-hoc,,,,unclassified
-Appel,,,,
 Aumasson,,,,unclassified
 Belles-Munoz,,,,unclassified
 Benarroch,,,,unclassified
@@ -78,44 +143,32 @@ Bunz,,,,unclassified
 Canetti,,,,unclassified
 collision-resistant,,,,unclassified
 Combinator-Based,,,,unclassified
-continuation,,,,
 credit-score-function,,,,unclassified
 cryptographically-secure,,,,unclassified
 Danvy,,,,unclassified
-deriving,,,,
 domain-specific,,,,unclassified
 Eberhardt,,,,unclassified
 ePrint,,,,unclassified
 Filecoin,,,,unclassified
 frontend,,,,unclassified
-functional programming,,,,
 Gailly,,,,unclassified
 Gluchowski,,,,unclassified
 Groth,,,,unclassified
 hash-consing,,,,unclassified
-higher-order,,,,Common-term
 human-readable,,,,unclassified
 Libert,,,,unclassified
 Lifecycle,,,,unclassified
-linear,,,,Common-term
 LISP-based,,,,unclassified
 Madars,,,,unclassified
-Matthias Felleisen,,,,Author
 my-program,,,,unclassified
 my-type,,,,unclassified
-Olivier Danvy,,,,researcher
 Pairing-Based,,,,unclassified
 PCD,,,,unclassified
-Plotkin,,Name,,name
 QSP,,,,unclassified
-quadratic,,,,Common-term
-reflect,,,,
-runtime,,,,Common-term
 secret-data,,,,unclassified
 secret-function,,,,unclassified
 Starkware,,,,unclassified
 sub-clauses,,,,unclassified
-syntax,,,,Common-term
 Type-checking,,,,unclassified
 validators,,,,unclassified
 Virza,,,,unclassified
@@ -127,110 +180,68 @@ ZKProof,,,,unclassified
 0x0ea21fab,,,,unclassified
 0x1aec2d8c,,,,unclassified
 4-week,,,,unclassified
-acyclic,,,,Common-term
 Anca,,,,unclassified
-applicative,,,,Common-term
 Arnab,,,,unclassified
-array,,,,Common-term
-atomic,,,,
 Aurelien,,,,unclassified
-automata,,,,Common-term
 backends,,,,unclassified
 Baylina,,,,unclassified
 blockchains,,,,unclassified
 book's,,,,unclassified
 BRICS,,,,unclassified
-bypass,,,,
-calculus,,Used to describe a core simple programming language,,Common-term
 Canteaut,,,,unclassified
-cast,,Gradual typing,,theory
 CESK,,,,unclassified
 Circom,,,,unclassified
-clwk@lurk-lab.com,,,,email
 code-data,,,,unclassified
 Coglio,,,,unclassified
 Commun,,,,unclassified
 compiler4,,,,unclassified
 Compiler8,,,,unclassified
-concurrent,,,,Common-term
-conjunction,,,,
-consumer,,,,
 contract's,,,,unclassified
 Coron,,,,unclassified
 CPSCom,,,,unclassified
-CPU,,,,
 Credit-Score,,,,unclassified
 Cryptocurrency,,,,unclassified
-cwong@g.harvard.edu,,,,email
 Cyber,,,,unclassified
-d.rogozin@ucl.ac,,,,email
-Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
-de Moura,,,,
-definitionally,,,,theory
 Defunctionalized,,,,unclassified
-derivation,,,,
-derive,,,,
-divergence,,,,Common-term
 Dmitry,,,,unclassified
 Dodis,,,,unclassified
 domain-separated,,,,unclassified
-DSL,,,,
 Ebberup,,,,unclassified
 Eiichi,,,,unclassified
 enginering,,,,unclassified
 Erathostenes,,,,unclassified
-evaluator,,,,
-expressiveness,,,,Common-term
 Eyal,,,,unclassified
 fault-tolerant,,,,unclassified
 Fermat's,,,,unclassified
 fermatsLast,,,,unclassified
 field-algebra-friendly,,,,unclassified
-Findler,,,,
 Fischlin,,,,unclassified
 Flatt,,,,unclassified
-fold,,,,Common-term
-francois@lurk-lab.com,,,,email
-Fraser,,,,
 Friedel,,,,unclassified
 Gafni,,,,unclassified
 Geforce,,,,unclassified
-Go,,,,
 GreenCom,,,,unclassified
 Gurkan,,,,unclassified
 hashconsed,,,,unclassified
-heap,,,,
-https://eprint.iacr.org/2021,,,,unclassified
-https://scroll.io/blog/zkEVM,,,,unclassified
-https://starkware.co/starknet,,,,unclassified
 ICALP,,,,unclassified
 inlining,,,,unclassified
-instruction,,,,
 Interoperability,,,,unclassified
 Ioanna,,,,unclassified
 Ishai,,,,unclassified
-isomorphic,,,,Common-term
 Iter./s,,,,unclassified
 iThings,,,,unclassified
 Ittay,,,,unclassified
-Jan Midtgaard,,,,researcher
 Jean-Philippe,,,,unclassified
 Jean-Sebastien,,,,unclassified
 Johansson,,,,unclassified
-john@lurk-lab.com,,,,email
 Jordi,,,,unclassified
 Kahat,,,,unclassified
 Khovratovich,,,,unclassified
 knowledge-hiding,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
-lambda-calculus,,,,Common-term
 languagebased,,,,unclassified
-Lean theorem prover,,,,
-Leonardo de Moura,,,,Author
 LFP,,,,unclassified
 Lisp-like,,,,unclassified
 Lurk1,,,,unclassified
-Mads Sig Ager,,,,researcher
 McCarthy's,,,,unclassified
 Meckler,,,,unclassified
 Merkle-inclusion,,,,unclassified
@@ -239,7 +250,6 @@ Monocopy,,,,unclassified
 Morais,,,,unclassified
 Moti,,,,unclassified
 Munoz-Tapia,,,,unclassified
-namin@seas.harvard.edu,,,,email
 Nitulescu,,,,unclassified
 NIZKs,,,,unclassified
 non-empty,,,,unclassified
@@ -249,7 +259,6 @@ Nth-term,,,,unclassified
 Nvidia,,,,unclassified
 Off-Chain,,,,unclassified
 open-sourced,,,,unclassified
-operational semantics,,,,
 owner/author(s,,,,unclassified
 Parno,,,,unclassified
 PCPs,,,,unclassified
@@ -269,19 +278,12 @@ re-executing,,,,unclassified
 real-world,,,,unclassified
 reasonably-sized,,,,unclassified
 Rechberger,,,,unclassified
-recurrence,,,,
-redex,,,,
 redexes,,,,unclassified
-relational,,,,
 Riad,,,,unclassified
 RISC-V,,,,unclassified
 RiscZero,,,,unclassified
-rosario@ccny.cuny.edu,,,,email
-Rust,,,,Common-term programming-language
 Ryzen,,,,unclassified
-scalability,,,,
 Schofnegger,,,,unclassified
-Sebastian Ullrich,,,,Author
 SECD-machine,,,,unclassified
 self-evaluating,,,,unclassified
 Semantics-Directed,,,,unclassified
@@ -290,17 +292,13 @@ SIGACT-SIGPLAN,,,,unclassified
 SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 SmartData,,,,unclassified
-SMT ,,,,
 software-engineering,,,,unclassified
 Somindu,,,,unclassified
-stack,,,,
 StarkNet,,,,unclassified
 step-wise,,,,unclassified
 sub-case,,,,unclassified
 sub-terms,,,,unclassified
 Super-Combinators,,,,unclassified
-symbolic,,,,
-syntax-directed,,,,
 Threadripper,,,,unclassified
 Time-Optimal,,,,unclassified
 Time/Space,,,,unclassified
@@ -311,7 +309,6 @@ Type-Certificates,,,,unclassified
 type-check,,,,unclassified
 type-correctness,,,,unclassified
 type-tagged,,,,unclassified
-typechecker,,,,Common-term
 Tzialla,,,,unclassified
 Ullrich,,,,unclassified
 under-utilized,,,,unclassified
@@ -320,7 +317,6 @@ Vesely,,,,unclassified
 w.r.t,,,,unclassified
 Wahby,,,,unclassified
 well-formedness,,,,unclassified
-Why,,,,
 write-once,,,,unclassified
 Y/N,,,,unclassified
 Yatima's,,,,unclassified

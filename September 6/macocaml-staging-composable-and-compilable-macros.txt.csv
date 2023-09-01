@@ -1,50 +1,129 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-compile-time,,,,unclassified
-MacoCaml,,,,unclassified
+Jeremy Yallop,,,,Author
+Leo White,,,,Author
+Ningning Xie,,,,Author
+Olivier Nicole,,,,Author
+Frank Pfenning,Frank “Fenning”,,,Author
+Giuseppe Castagna,,,,Author
+Matthias Felleisen,,,,Author
+Meng Wang,,,,Author
+Nicolas Wu,,,,Author
+Simon Peyton Jones,,,,Author
+Jane Street,,,,Institution
 macro,,,,
 ref,,,,
 staging,,,,
 runtime,,,,Common-term
-I.H,,,,unclassified
-ICFP,,,,unclassified
-mpower,,,,unclassified
+ICFP,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 expression,,,,Common-term
 context,,,,Common-term
 heap,,,,
 K ,,“K axiom”,,
 OCaml,,,,Common-term programming-language
-JK,,,,unclassified
 theorem,,,,Common-term
-Jeremy Yallop,,,,Author
 well-typed,,,,Common-term
-Leo White,,,,Author
 composable,,,,
-Ningning Xie,,,,Author
-Olivier Nicole,,,,Author
 compiler,,,,Common-term
 syntax,,,,Common-term
 compiled,,,,
-codeGen,,,,unclassified
 Id,,,,
 integer,,,,Common-term
 Kiselyov,,,,
-JSK,,,,unclassified
-expr,,,,unclassified
-Flatt,,,,unclassified
 lemma,,,,Common-term
-c-loc,,,,unclassified
 derivation,,,,
-JMK,,,,unclassified
-multi-stage,,,,unclassified
 Power,,,,
-level-annotated,,,,unclassified
 MetaOCaml,,,,
 Racket,racket,Racket programming language,,
 Template Haskell ,,,,tool
 calculi,,,,
-ev-qote,,,,unclassified
 induction,,,,Common-term
+Scala,,,,Common-term programming-language
+dynamic semantics,,,,
+abstraction,,,,Common-term
+MetaML,,,,
+closures,,,,Common-term
+functional programming,,,,
+modular,,,,Common-term
+subtyping,,,,Common-term
+syntactic,,,,Common-term
+contextual,,,,Common-term
+metaprogramming,,,,Common-term
+modal,,,,
+semantics,,,,
+binder,like in bind,,,
+datatype,,,,Common-term
+expressive,,,,Common-term
+generic,,,,
+Haskell,,,,Common-term programming-language
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+Leroy,,,,Name
+match,,,,
+ML,,,,Programming-language
+operational semantics,,,,
+array,,,,Common-term
+automata,,,,Common-term
+closure,,,,Common-term
+Go,,,,
+macro system,,,,Common-term
+Moggi,,,,Name
+Scheme,,,,Common-term programming-language
+Tarides,,,,
+Trigger,,,,
+untyped,,,,
+algebraic datatype,,,,Common-term
+alias,,,,
+applicative,,,,Common-term
+beta-reduction,,,,Common-term evaluation
+conclusion,,,,
+constructor,,,,Common-term
+continuation,,,,
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+Curry-Howard correspondence,,,,Common-term
+dependent,,,,Common-term
+erasure,,type erasure,,Common-term
+Findler,,,,
+fold,,,,Common-term
+force,,,,Common-term evaluation
+formalization,,,,Common-term
+functor,,,,Common-term
+GADT,Gad-it,Generalized algebraic data types,,Common-term
+higher-order,,,,Common-term
+immutable,,,,Common-term
+jeremy.yallop@cl.cam.ac.uk,,,,email
+Liang,,,,Name
+lwhite@janestreet.com,,,,email
+meta-programming,,,,
+modalities,,,,Common-term
+modality,,,,Common-term
+ningningxie@cs.toronto.edu,,,,email
+olivier@chnik.fr,,,,email
+pattern matching,,,,
+recursive,,,,Common-term
+reflection,,,,Common-term
+Staged Compilation with Two-Level Type Theory,,,,Title
+Steele,,,,Name
+System F,,,,Common-term
+transition system,,,,
+type checker,,,,Common-term
+Type-preservation,,,,
+unification,,,,
+weakening,,,,Common-term
+Why,,,,
+compile-time,,,,unclassified
+MacoCaml,,,,unclassified
+I.H,,,,unclassified
+mpower,,,,unclassified
+JK,,,,unclassified
+codeGen,,,,unclassified
+JSK,,,,unclassified
+expr,,,,unclassified
+Flatt,,,,unclassified
+c-loc,,,,unclassified
+JMK,,,,unclassified
+multi-stage,,,,unclassified
+level-annotated,,,,unclassified
+ev-qote,,,,unclassified
 MacroML,,,,unclassified
 printk,,,,unclassified
 type-check,,,,unclassified
@@ -54,14 +133,12 @@ ev-ref,,,,unclassified
 ev-splice,,,,unclassified
 ev-spliceCode,,,,unclassified
 power5,,,,unclassified
-Scala,,,,Common-term programming-language
 SIGPLAN,,,,unclassified
 st-def,,,,unclassified
 st-importC,,,,unclassified
 st-importR,,,,unclassified
 st-macro,,,,unclassified
 c-unit,,,,unclassified
-dynamic semantics,,,,
 ev-beta,,,,unclassified
 ev-deref,,,,unclassified
 ev-kvar,,,,unclassified
@@ -71,7 +148,6 @@ ev-st-def2,,,,unclassified
 ev-st-macro,,,,unclassified
 JM,,,,unclassified
 qote,,,,unclassified
-abstraction,,,,Common-term
 c-qote,,,,unclassified
 c-splice,,,,unclassified
 c-st-module,,,,unclassified
@@ -86,7 +162,6 @@ ev-st-type,,,,unclassified
 fresh_err,,,,unclassified
 Kameyama,,,,unclassified
 MacoCaml's,,,,unclassified
-MetaML,,,,
 printf,,,,unclassified
 see-button,,,,unclassified
 c-eq,,,,unclassified
@@ -94,22 +169,17 @@ c-lit,,,,unclassified
 c-st-def,,,,unclassified
 c-st-import,,,,unclassified
 c-var,,,,unclassified
-closures,,,,Common-term
 ev-abs,,,,unclassified
 ev-app1,,,,unclassified
 ev-assign1,,,,unclassified
 ev-deref1,,,,unclassified
 ev-pkvar,,,,unclassified
 ev-ref1,,,,unclassified
-functional programming,,,,
 GPCE,,,,unclassified
 J*K,,,,unclassified
-modular,,,,Common-term
 pkvar,,,,unclassified
 st-module,,,,unclassified
 ST.id,,,,unclassified
-subtyping,,,,Common-term
-syntactic,,,,Common-term
 TTH,,,,unclassified
 c-abs,,,,unclassified
 c-app,,,,unclassified
@@ -121,7 +191,6 @@ c-macro,,,,unclassified
 c-pkvar,,,,unclassified
 c-ref,,,,unclassified
 c-st-macro,,,,unclassified
-contextual,,,,Common-term
 Culpepper,,,,unclassified
 endK,,,,unclassified
 ev-assign2,,,,unclassified
@@ -136,13 +205,10 @@ Jimport,,,,unclassified
 m-mvar,,,,unclassified
 m-pmvar,,,,unclassified
 m-struct,,,,unclassified
-metaprogramming,,,,Common-term
-modal,,,,
 p-mvar,,,,unclassified
 p-pmvar,,,,unclassified
 pmacro,,,,unclassified
 POPL,,,,unclassified
-semantics,,,,
 SIGPLAN-SIGACT,,,,unclassified
 st-empty,,,,unclassified
 ST.fresh,,,,unclassified
@@ -154,29 +220,17 @@ type-checking,,,,unclassified
 type-checks,,,,unclassified
 well-stagedness,,,,unclassified
 Yukiyoshi,,,,unclassified
-binder,like in bind,,,
 bytecode,,,,unclassified
 c-m-mvar,,,,unclassified
 c-pmacro,,,,unclassified
 c-st-empty,,,,unclassified
-datatype,,,,Common-term
 ev-st-importC,,,,unclassified
-expressive,,,,Common-term
-generic,,,,
-Haskell,,,,Common-term programming-language
-https://doi.org/10,,,,unclassified
 i-struct,,,,unclassified
-Jane Street,,,,Institution
 Jstruct,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-Leroy,,,,Name
-match,,,,
-ML,,,,Programming-language
 mpower5,,,,unclassified
 mprintf,,,,unclassified
 mprintk,,,,unclassified
 Odersky,,,,unclassified
-operational semantics,,,,
 Rompf,,,,unclassified
 run-time,,,,unclassified
 st-type,,,,unclassified
@@ -188,8 +242,6 @@ Vaugon,,,,unclassified
 Walid,,,,unclassified
 Well-Formedness,,,,unclassified
 Aggelos,,,,unclassified
-array,,,,Common-term
-automata,,,,Common-term
 Biboudis,,,,unclassified
 Binding-Time,,,,unclassified
 Burmako,,,,unclassified
@@ -197,15 +249,12 @@ c-m-pmvar,,,,unclassified
 c-st-importC,,,,unclassified
 Camlp5,,,,unclassified
 Carette,,,,unclassified
-closure,,,,Common-term
 Comput,,,,unclassified
 Cross-stage,,,,unclassified
 Fischbach,,,,unclassified
 Flatt's,,,,unclassified
-Frank Pfenning,Frank “Fenning”,,,Author
 GADTs,,,,unclassified
 Ganz,,,,unclassified
-Go,,,,
 Gurtovoy,,,,unclassified
 heap-based,,,,unclassified
 ill-typed,,,,unclassified
@@ -217,11 +266,9 @@ LRT,,,,unclassified
 M.k,,,,unclassified
 M.public,,,,unclassified
 M.secret,,,,unclassified
-macro system,,,,Common-term
 merr,,,,unclassified
 MetaML-style,,,,unclassified
 MetaOCaml's,,,,unclassified
-Moggi,,,,Name
 Nanevski,,,,unclassified
 non-top-level,,,,unclassified
 OCaml's,,,,unclassified
@@ -232,17 +279,13 @@ Pfenning,,,,unclassified
 Pientka,,,,unclassified
 quotation-based,,,,unclassified
 Rauglaudre,,,,unclassified
-Scheme,,,,Common-term programming-language
 Side-effects,,,,unclassified
 ST.Lam,,,,unclassified
 ST.Var,,,,unclassified
 ST1,,,,unclassified
 ST2,,,,unclassified
-Tarides,,,,
 Tiark,,,,unclassified
-Trigger,,,,
 Type-Safe,,,,unclassified
-untyped,,,,
 value-based,,,,unclassified
 well-typedness,,,,unclassified
 x:Int,,,,unclassified
@@ -257,10 +300,7 @@ ad-hoc,,,,unclassified
 Ahrefs,,,,unclassified
 Aleksandar,,,,unclassified
 Aleksey,,,,unclassified
-algebraic datatype,,,,Common-term
-alias,,,,
 APLAS,,,,unclassified
-applicative,,,,Common-term
 apply.ml,,,,unclassified
 Apress,,,,unclassified
 ASTs,,,,unclassified
@@ -269,7 +309,6 @@ Automatique,,,,unclassified
 backend,,,,unclassified
 BEGIN_EG2,,,,unclassified
 Benaissa,,,,unclassified
-beta-reduction,,,,Common-term evaluation
 bitstring,,,,unclassified
 Boehm,,,,unclassified
 button.12,,,,unclassified
@@ -282,17 +321,11 @@ C-style,,,,unclassified
 Camlp4,,,,unclassified
 closure-converts,,,,unclassified
 Codish,,,,unclassified
-conclusion,,,,
-constructor,,,,Common-term
-continuation,,,,
 continuation-passing-style,,,,unclassified
-CPS,C.P.S.,abbreviation for continuation-passing style ,,
 ctypes,,,,unclassified
-Curry-Howard correspondence,,,,Common-term
 Darais,,,,unclassified
 define-syntax,,,,unclassified
 delayed32,,,,unclassified
-dependent,,,,Common-term
 document11,,,,unclassified
 DSLs,,,,unclassified
 Duba,,,,unclassified
@@ -306,7 +339,6 @@ eq-ref,,,,unclassified
 eq-refl,,,,unclassified
 eq-trans,,,,unclassified
 eq-tvar,,,,unclassified
-erasure,,type erasure,,Common-term
 evassign2,,,,unclassified
 evst-module1,,,,unclassified
 Expr.of_int,,,,unclassified
@@ -315,34 +347,23 @@ expressions.3,,,,unclassified
 Family/OCaml,,,,unclassified
 feature-rich,,,,unclassified
 Ferrante,,,,unclassified
-Findler,,,,
 fmt.ml,,,,unclassified
-fold,,,,Common-term
 follows5,,,,unclassified
 for-syntax,,,,unclassified
-force,,,,Common-term evaluation
-formalization,,,,Common-term
 framework.2,,,,unclassified
 Funct,,,,unclassified
-functor,,,,Common-term
-GADT,Gad-it,Generalized algebraic data types,,Common-term
 Gelineau,,,,unclassified
 gensym,,,,unclassified
-Giuseppe Castagna,,,,Author
 Hans-Juergen,,,,unclassified
 Haskell-style,,,,unclassified
 heap-allocated,,,,unclassified
-higher-order,,,,Common-term
 https,,,,unclassified
-https://github.com/LexiFi/lrt,,,,unclassified
 if-expressions,,,,unclassified
 Igarashi,,,,unclassified
-immutable,,,,Common-term
 Informatique,,,,unclassified
 inlining,,,,unclassified
 Institut,,,,unclassified
 J.K,,,,unclassified
-jeremy.yallop@cl.cam.ac.uk,,,,email
 Jianxin,,,,unclassified
 Jmodule,,,,unclassified
 Jsig,,,,unclassified
@@ -353,28 +374,21 @@ let-defined,,,,unclassified
 letrec,,,,unclassified
 level-indexed,,,,unclassified
 levels7,,,,unclassified
-Liang,,,,Name
 lift_string,,,,unclassified
 lineartime,,,,unclassified
 Liwen,,,,unclassified
 Loh,,,,unclassified
 loop-based,,,,unclassified
-lwhite@janestreet.com,,,,email
 M.Closure1.secret,,,,unclassified
 mac(r)o,,,,unclassified
 MacoCaml1,,,,unclassified
 Madhavapeddy,,,,unclassified
 Mager,,,,unclassified
-Matthias Felleisen,,,,Author
-Meng Wang,,,,Author
-meta-programming,,,,
 Meta.reify_bytecode,,,,unclassified
 microbenchmarks,,,,unclassified
 Mini-ML,,,,unclassified
 ML/OCaml,,,,unclassified
 mmvar,,,,unclassified
-modalities,,,,Common-term
-modality,,,,Common-term
 module-local,,,,unclassified
 Monnier,,,,unclassified
 mpair,,,,unclassified
@@ -382,14 +396,10 @@ mpower'(5,,,,unclassified
 mpower'(n,,,,unclassified
 mprintf.ml,,,,unclassified
 negative-leveled,,,,unclassified
-Nicolas Wu,,,,Author
-ningningxie@cs.toronto.edu,,,,email
 OCam(l,,,,unclassified
-olivier@chnik.fr,,,,email
 once9,,,,unclassified
 owner/author(s,,,,unclassified
 Palladinos,,,,unclassified
-pattern matching,,,,
 power5(2,,,,unclassified
 ppx,,,,unclassified
 ppx-based,,,,unclassified
@@ -403,9 +413,7 @@ printf.ml,,,,unclassified
 program.ml,,,,unclassified
 quasiquotes,,,,unclassified
 real-world,,,,unclassified
-recursive,,,,Common-term
 references6,,,,unclassified
-reflection,,,,Common-term
 regex,,,,unclassified
 regexes,,,,unclassified
 Sabry,,,,unclassified
@@ -414,19 +422,15 @@ scanf,,,,unclassified
 Scope-Safe,,,,unclassified
 see-button's,,,,unclassified
 Shaikhha,,,,unclassified
-Simon Peyton Jones,,,,Author
 Smaragdakis,,,,unclassified
 spliceCode,,,,unclassified
 ST.App,,,,unclassified
-Staged Compilation with Two-Level Type Theory,,,,Title
 statically-typed,,,,unclassified
-Steele,,,,Name
 structs,,,,unclassified
 sttype,,,,unclassified
 stx,,,,unclassified
 Sudo,,,,unclassified
 Sumii,,,,unclassified
-System F,,,,Common-term
 table-based,,,,unclassified
 Takahisa,,,,unclassified
 Temporal-Logic,,,,unclassified
@@ -435,14 +439,10 @@ term.ml,,,,unclassified
 three_and_four,,,,unclassified
 Tobin-Hochstadt,,,,unclassified
 toplevel,,,,unclassified
-transition system,,,,
-type checker,,,,Common-term
-Type-preservation,,,,
 type-specialized,,,,unclassified
 type-specific,,,,unclassified
 typechecking,,,,unclassified
 typedirected,,,,unclassified
-unification,,,,
 v-def,,,,unclassified
 v-empty,,,,unclassified
 v-macro,,,,unclassified
@@ -452,10 +452,8 @@ v-pmvar,,,,unclassified
 v-type,,,,unclassified
 Voizard,,,,unclassified
 Vouillon,,,,unclassified
-weakening,,,,Common-term
 well-scoped,,,,unclassified
 Wellstagedness,,,,unclassified
-Why,,,,
 write4,,,,unclassified
 Wyk,,,,unclassified
 x:Expr[Int,,,,unclassified

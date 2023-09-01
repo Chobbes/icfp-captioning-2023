@@ -1,61 +1,141 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-fixpoint,,,,Common-term
-stack,,,,
-big-step,,,,unclassified
-combinator,,,,Common-term
-SCG,,,,unclassified
-ICFP,,,,unclassified
-b(b,,,,unclassified
-recursive,,,,Common-term
-fib[1,,,,unclassified
-modular,,,,Common-term
-SCGs,,,,unclassified
-fib[0,,,,unclassified
-filter,,,,
-Expr,,,,unclassified
 Sebastian Erdweg,,,,Author
 Sven Keidel,,,,Author
+Olin Shivers,,,,Author
+Mira Mezini,,Author,,Author
+Graham Hutton,,,,Author
+Ilya Sergey,,,,Author
+Jan Midtgaard,,,,researcher
+Matthias Felleisen,,,,Author
+Peter Thiemann,,,,Author
+Shriram Krishnamurthi,,,,Author
+Stephanie Weirich,,,,Author
+Carnegie Mellon University,,CMU,,Institution
+Massachusetts Institute of Technology,,,,Institution
+fixpoint,,,,Common-term
+stack,,,,
+combinator,,,,Common-term
+ICFP,,,,Common-term
+recursive,,,,Common-term
+modular,,,,Common-term
+filter,,,,
+theorem,,,,Common-term
+expression,,,,Common-term
+semantics,,,,
+Scheme,,,,Common-term programming-language
+small-step,,,,Common-term
+monotone,,,,Common-term
+precision,,Gradual typing,,theory
+WebAssembly,,,,Common-term programming-language
+monolithic,,,,
+derivation,,,,
+higher-order,,,,Common-term
+recursion,,,,Common-term
+Shivers,,,,
+abstraction,,,,Common-term
+CFA,,,,
+context,,,,Common-term
+functional programming,,,,
+Haskell,,,,Common-term programming-language
+iterations,,,,
+atomic,,,,
+collecting semantics,,,,
+compiler,,,,Common-term
+effectful,,,,
+generic,,,,
+K ,,“K axiom”,,
+meta-language,,,,
+context-sensitive,,,,Common-term parsing
+Hudak,,,,Name
+Id,,,,
+reduction,,,,Common-term
+Boolean,,,,
+Control-flow analysis,,,,
+ES,,Explicit substitutions,,
+GHC,,,,compiler tool
+Java,,,,
+metatheory,,,,Common-term
+monotonicity,,Mathematical property,,Common-term
+ND,(natural deduction),,,Common-term
+normalized,,,,Common-term
+Paterson,,,,
+Plotkin,,Name,,name
+Scala,,,,Common-term programming-language
+Tarski,,,,
+TE,,Traffic engineering,,
+wasm,,,,
+0CFA,,,,
+algebra,,,,
+algorithmic,,,,Common-term
+bidirectional,,,,
+closure,,,,Common-term
+closures,,,,Common-term
+composable,,,,
+conclusion,,,,
+cons,kon-ss,,,
+denotational semantics,,,,semantics
+derive,,,,
+desugaring,,,,Common-term
+distribution,,,,
+Dominique Devriese,,,,
+Flanagan,,,,
+garbage collection,,GC,,Common-term
+garbage-free ,,,,
+GC,,garbage collector,,Common-term
+induction,,,,Common-term
+instruction,,,,
+JavaScript,,,,Common-term programming-language
+KL,K.L.,KL abstract machine,,
+lattice,,,,Common-term
+linear,,,,Common-term
+match,,,,
+meta-programming,,,,
+model checking,,Automatic theorem proving,,technique tool
+monadic,Mow-nad-ick,,,
+nil,,,,
+normalization,,computations,,theory
+operational semantics,,,,
+Peano,,,,
+Peyton Jones,,,,Name
+pointer,,,,Common-term
+Steele,,,,Name
+symbolic,,,,
+syntax,,,,Common-term
+topological,,,,Common-term
+transition system,,,,
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+zip,,,,
+big-step,,,,unclassified
+SCG,,,,unclassified
+b(b,,,,unclassified
+fib[1,,,,unclassified
+SCGs,,,,unclassified
+fib[0,,,,unclassified
+Expr,,,,unclassified
 CFG,,,,unclassified
 fixmonolithic,,,,unclassified
 stackWiden,,,,unclassified
 Combinator-Based,,,,unclassified
 Hombucher,,,,unclassified
 Keidel,,,,unclassified
-theorem,,,,Common-term
 control-flow,,,,unclassified
-expression,,,,Common-term
-semantics,,,,
 Cousot,,,,unclassified
 Darais,,,,unclassified
 callwidened,,,,unclassified
 fact(n,,,,unclassified
-Scheme,,,,Common-term programming-language
-small-step,,,,Common-term
-monotone,,,,Common-term
-precision,,Gradual typing,,theory
-WebAssembly,,,,Common-term programming-language
 Bourdoncle,,,,unclassified
 graph-shaped,,,,unclassified
-monolithic,,,,
 Erdweg,,,,unclassified
 resultcached,,,,unclassified
 rrors,,,,unclassified
 SIGPLAN,,,,unclassified
 Stratego,,,,unclassified
-derivation,,,,
 eval(b,,,,unclassified
 fine-tuning,,,,unclassified
-higher-order,,,,Common-term
-recursion,,,,Common-term
 resultnew,,,,unclassified
-Shivers,,,,
 strongly-connected,,,,unclassified
-abstraction,,,,Common-term
 Cache.update,,,,unclassified
-CFA,,,,
-context,,,,Common-term
 env1,,,,unclassified
-functional programming,,,,
 isFunctionBody,,,,unclassified
 resultwidened,,,,unclassified
 Cache.lookup,,,,unclassified
@@ -64,27 +144,18 @@ Comput,,,,unclassified
 dead-code,,,,unclassified
 dynamically-typed,,,,unclassified
 env2,,,,unclassified
-Haskell,,,,Common-term programming-language
 https,,,,unclassified
 if(n,,,,unclassified
-iterations,,,,
 monotonenew,,,,unclassified
 mult(m,,,,unclassified
 non-termination,,,,unclassified
 post-fixpoint,,,,unclassified
-atomic,,,,
 Bodden,,,,unclassified
 Bodin,,,,unclassified
 callInSCG,,,,unclassified
-collecting semantics,,,,
-compiler,,,,Common-term
 constant-propagation,,,,unclassified
-effectful,,,,
 erm,,,,unclassified
 fine-tune,,,,unclassified
-generic,,,,
-K ,,“K axiom”,,
-meta-language,,,,
 Object-Oriented,,,,unclassified
 POPL,,,,unclassified
 real-world,,,,unclassified
@@ -99,7 +170,6 @@ cache(call,,,,unclassified
 cache3,,,,unclassified
 callcached,,,,unclassified
 callsiteSensitive,,,,unclassified
-context-sensitive,,,,Common-term parsing
 Dagstuhl,,,,unclassified
 data-flow,,,,unclassified
 ECOOP,,,,unclassified
@@ -109,25 +179,20 @@ fine-tuned,,,,unclassified
 for(i,,,,unclassified
 for(j,,,,unclassified
 g(x,,,,unclassified
-Hudak,,,,Name
-Id,,,,
 Informatik,,,,unclassified
 inter-procedural,,,,unclassified
 isFunBody,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
 monotoneold,,,,unclassified
 "nv,Expr",,,,unclassified
-Olin Shivers,,,,Author
 OOPSLA,,,,unclassified
 recordCallSite,,,,unclassified
-reduction,,,,Common-term
 refactoring,,,,unclassified
 rror,,,,unclassified
 Scala-AM,,,,unclassified
 valnew,,,,unclassified
 Visser,,,,unclassified
 args,,,,unclassified
-Boolean,,,,
 bytecode,,,,unclassified
 Cache-Based,,,,unclassified
 cache1,,,,unclassified
@@ -137,18 +202,15 @@ Call-site,,,,unclassified
 callInCache,,,,unclassified
 callwidenend,,,,unclassified
 cloc,,,,unclassified
-Control-flow analysis,,,,
 ctx,,,,unclassified
 domain-specific,,,,unclassified
 "env,expr",,,,unclassified
-ES,,Explicit substitutions,,
 eval(fix,,,,unclassified
 fact(n-1,,,,unclassified
 fib(n,,,,unclassified
 field-sensitive,,,,unclassified
 funName,,,,unclassified
 Geser,,,,unclassified
-GHC,,,,compiler tool
 GlobalState,,,,unclassified
 "grown,resultwidened",,,,unclassified
 hand-written,,,,unclassified
@@ -157,29 +219,20 @@ if(m,,,,unclassified
 Interprocedural,,,,unclassified
 isApplication,,,,unclassified
 isBreakpoint,,,,unclassified
-Java,,,,
 JGU,,,,unclassified
 language-independent,,,,unclassified
 Lerch,,,,unclassified
 lfp(eval,,,,unclassified
 LIPIcs,,,,unclassified
 Mauborgne,,,,unclassified
-metatheory,,,,Common-term
-Mira Mezini,,Author,,Author
 MonotoneCache,,,,unclassified
-monotonicity,,Mathematical property,,Common-term
-ND,(natural deduction),,,Common-term
 non-repeating,,,,unclassified
-normalized,,,,Common-term
 params,,,,unclassified
-Paterson,,,,
 PLDI,,,,unclassified
-Plotkin,,Name,,name
 post-fixpoints,,,,unclassified
 Radhia,,,,unclassified
 recurrentCall,,,,unclassified
 reswidened,,,,unclassified
-Scala,,,,Common-term programming-language
 SCG.elem,,,,unclassified
 SCG.remove,,,,unclassified
 SCG.size,,,,unclassified
@@ -191,18 +244,12 @@ Stack.push,,,,unclassified
 stack[expr,,,,unclassified
 Streicher,,,,unclassified
 Symb,,,,unclassified
-Tarski,,,,
-TE,,Traffic engineering,,
 TermEnv,,,,unclassified
 valcached,,,,unclassified
-wasm,,,,
 WhileLoop,,,,unclassified
-0CFA,,,,
 "a,s",,,,unclassified
 Akademgorodok,,,,unclassified
-algebra,,,,
 algorithm4,,,,unclassified
-algorithmic,,,,Common-term
 algorithms1,,,,unclassified
 algorithms2,,,,unclassified
 algorithms3,,,,unclassified
@@ -213,7 +260,6 @@ AVSV,,,,unclassified
 bcall,,,,unclassified
 Benaissa,,,,unclassified
 BiDiIDESolver.java,,,,unclassified
-bidirectional,,,,
 Binaryen,,,,unclassified
 Bjorner,,,,unclassified
 Boehm,,,,unclassified
@@ -234,21 +280,15 @@ cache[call,,,,unclassified
 "call,monotonenew",,,,unclassified
 "call,resnew",,,,unclassified
 "call,stack,cache",,,,unclassified
-Carnegie Mellon University,,CMU,,Institution
 case-by-case,,,,unclassified
 CFG.addEdge,,,,unclassified
 CFG.get,,,,unclassified
 Client.send,,,,unclassified
-closure,,,,Common-term
-closures,,,,Common-term
 ClosureVal,,,,unclassified
 code)6,,,,unclassified
 codebases,,,,unclassified
 Coen,,,,unclassified
-composable,,,,
-conclusion,,,,
 configurability,,,,unclassified
-cons,kon-ss,,,
 "Constructor,T",,,,unclassified
 Context.lookup,,,,unclassified
 Context.update,,,,unclassified
@@ -259,15 +299,10 @@ cybersecurity,,,,unclassified
 Cytron,,,,unclassified
 dderiv,,,,unclassified
 Demand-Driven,,,,unclassified
-denotational semantics,,,,semantics
-derive,,,,
 destruc,,,,unclassified
-desugaring,,,,Common-term
 Devanbu,,,,unclassified
-distribution,,,,
 diviter,,,,unclassified
 Domain-theoretic,,,,unclassified
-Dominique Devriese,,,,
 Dybvig,,,,unclassified
 Eelco,,,,unclassified
 Eichberg,,,,unclassified
@@ -286,35 +321,27 @@ first-order,,,,unclassified
 firstorder,,,,unclassified
 fix_select,,,,unclassified
 Fixpoints,,,,unclassified
-Flanagan,,,,
 FloatVal,,,,unclassified
 flow-sensitive,,,,unclassified
 FlowTwist,,,,unclassified
 functions.5,,,,unclassified
 GammaCFA,,,,unclassified
-garbage collection,,GC,,Common-term
-garbage-free ,,,,
-GC,,garbage collector,,Common-term
 GenericSolver,,,,unclassified
 getCache,,,,unclassified
 getLabels,,,,unclassified
 getPredecessor,,,,unclassified
 Gianluca,,,,unclassified
 Gohman,,,,unclassified
-Graham Hutton,,,,Author
 Grobelnik,,,,unclassified
 Guannan,,,,unclassified
 Hai,,,,unclassified
 Hans-Juergen,,,,unclassified
 IDESolver.java,,,,unclassified
 ill-typed,,,,unclassified
-Ilya Sergey,,,,Author
-induction,,,,Common-term
 industry-standard,,,,unclassified
 Infastructure,,,,unclassified
 inlines,,,,unclassified
 inlining,,,,unclassified
-instruction,,,,
 interelse,,,,unclassified
 interprodcedural,,,,unclassified
 intra-procedural,,,,unclassified
@@ -324,11 +351,8 @@ isStrategyBody,,,,unclassified
 isTopmostCall,,,,unclassified
 isWhileLoop,,,,unclassified
 IW3C2,,,,unclassified
-Jan Midtgaard,,,,researcher
-JavaScript,,,,Common-term programming-language
 Jie,,,,unclassified
 Kalmer,,,,unclassified
-KL,K.L.,KL abstract machine,,
 Knoop,,,,unclassified
 Kohlbecker,,,,unclassified
 Kubler,,,,unclassified
@@ -336,12 +360,10 @@ Labich,,,,unclassified
 language-dependent,,,,unclassified
 Language-Independence,,,,unclassified
 language-specific,,,,unclassified
-lattice,,,,Common-term
 lattice-theoretical,,,,unclassified
 Lawall,,,,unclassified
 Leskovec,,,,unclassified
 Lhotak,,,,unclassified
-linear,,,,Common-term
 ListVal,,,,unclassified
 lla,,,,unclassified
 loc.7,,,,unclassified
@@ -349,16 +371,10 @@ LOMAPS,,,,unclassified
 Luttgen,,,,unclassified
 Map.fromList,,,,unclassified
 Margaret-Anne,,,,unclassified
-Massachusetts Institute of Technology,,,,Institution
-match,,,,
-Matthias Felleisen,,,,Author
 MaybeSorted,,,,unclassified
 memoizing,,,,unclassified
-meta-programming,,,,
-model checking,,Automatic theorem proving,,technique tool
 Mogens,,,,unclassified
 Moller,,,,unclassified
-monadic,Mow-nad-ick,,,
 Monat,,,,unclassified
 Morrisett,,,,unclassified
 "mult(m,n",,,,unclassified
@@ -369,16 +385,13 @@ Mycroft,,,,unclassified
 Najork,,,,unclassified
 Natural-Semantics-Based,,,,unclassified
 nextIteration,,,,unclassified
-nil,,,,
 NilOrCons,,,,unclassified
 non-standard,,,,unclassified
-normalization,,computations,,theory
 NumVal,,,,unclassified
 object-language,,,,unclassified
 occured,,,,unclassified
 open-recursive,,,,unclassified
 OperandStack,,,,unclassified
-operational semantics,,,,
 Orso,,,,unclassified
 overapproximates,,,,unclassified
 owner/author(s,,,,unclassified
@@ -386,13 +399,9 @@ P(String,,,,unclassified
 Pacak,,,,unclassified
 Palsberg,,,,unclassified
 ParallelPropertyStore,,,,unclassified
-Peano,,,,
-Peter Thiemann,,,,Author
-Peyton Jones,,,,Name
 Phuc,,,,unclassified
 Piessens,,,,unclassified
 PLILP'92,,,,unclassified
-pointer,,,,Common-term
 Pottosin,,,,unclassified
 Poulsen,,,,unclassified
 Pradel,,,,unclassified
@@ -427,7 +436,6 @@ Seidl,,,,unclassified
 SequentialPropertyStore,,,,unclassified
 Shing-Chi,,,,unclassified
 Shivers's,,,,unclassified
-Shriram Krishnamurthi,,,,Author
 SIGPLAN-SIGACT,,,,unclassified
 SIGPLANSIGACT,,,,unclassified
 SIGSOFT,,,,unclassified
@@ -447,16 +455,12 @@ Stack.incrementCallCount,,,,unclassified
 Stack.local,,,,unclassified
 Stack.size,,,,unclassified
 statically-typed,,,,unclassified
-Steele,,,,Name
-Stephanie Weirich,,,,Author
 Stievenart,,,,unclassified
 Stragego,,,,unclassified
 StratEnv,,,,unclassified
 stronglyconnected,,,,unclassified
 substrategies,,,,unclassified
 sulate,,,,unclassified
-symbolic,,,,
-syntax,,,,Common-term
 Szabo,,,,unclassified
 takl,,,,unclassified
 TAPSOFT'95,,,,unclassified
@@ -464,10 +468,7 @@ Tarski's,,,,unclassified
 Tiark,,,,unclassified
 Titzer,,,,unclassified
 Tomislav,,,,unclassified
-topological,,,,Common-term
 Trace-Based,,,,unclassified
-transition system,,,,
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 type-based,,,,unclassified
 Type-checking,,,,unclassified
 tz,,,,unclassified
@@ -492,5 +493,4 @@ Zakai,,,,unclassified
 Zenodo,,,,unclassified
 Zhendong,,,,unclassified
 Zine-El-Abidine,,,,unclassified
-zip,,,,
 Zufferey,,,,unclassified

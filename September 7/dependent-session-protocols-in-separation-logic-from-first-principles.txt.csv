@@ -1,153 +1,211 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Robbert Krebbers,,,,Author
+Jonas Kastberg Hinrichsen,,,,Author
+Jules Jacobs,,,,Author
+Derek Dreyer,,,,Author
+Lars Birkedal,,,,Author
+Ralf Jung,,,,Author
+Peter Thiemann,,,,Author
+Amin Timany,,,,Author
+Frank Pfenning,Frank “Fenning”,,,Author
+Amal Ahmed,,,,Author
+Joseph Tassarotti,,,,Author
+Stephanie Balzer,,,,Author
+Filip Sieczkowski,,,,Author
+Naoki Kobayashi,,,,Author
+Sam Lindley,,,,Author
+Radboud University Nijmegen,,,,Institution
+Aarhus University,,,,Institution
+Carnegie Mellon University,,CMU,,Institution
 protocol,,,,
 separation logic,,,,Common-term
 dependent,,,,Common-term
-recv,,,,unclassified
 session types,,,,
-tok,,,,unclassified
 Iris,,,,theorem-proving tool
 lemma,,,,Common-term
 ghost,,,,
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 recursive,,,,Common-term
-points-to,,,,unclassified
-Robbert Krebbers,,,,Author
-Actris,,,,unclassified
 concurrent,,,,Common-term
-Jonas Kastberg Hinrichsen,,,,Author
-recv1,,,,unclassified
 recursion,,,,Common-term
 endpoint,,,,
-Jules Jacobs,,,,Author
-send1,,,,unclassified
-subprotocols,,,,unclassified
 continuation,,,,
 induction,,,,Common-term
 Coq,“Coq”,,,Common-term programming-language theorem-prover
 Hinrichsen,,,,
-new1,,,,unclassified
-iProp,,,,unclassified
-Yoshida,,,,unclassified
 IMP,Like the little demon “imp”,A simple “imperative” programming language,,
 semantics,,,,
-sym_close,,,,unclassified
-False,,,,unclassified
 mechanization,,,,
-prot_sum,,,,unclassified
 higher-order,,,,Common-term
-Iris's,,,,unclassified
-Nobuko,,,,unclassified
 ref,,,,
-scl,,,,unclassified
-send_close,,,,unclassified
 subtyping,,,,Common-term
-Toninho,,,,unclassified
 concurrency,,,,Common-term
-Dardha,,,,unclassified
-new_imp,,,,unclassified
 API,A.P.I.,Application Programming Interface,,Common-term
-Derek Dreyer,,,,Author
 Honda,,,,
-Lars Birkedal,,,,Author
 modality,,,,Common-term
-POPL,,,,unclassified
-subprotocol,,,,unclassified
 duality,,,,
-forked-off,,,,unclassified
 heap,,,,
-HeapLang,,,,unclassified
-Vasconcelos,,,,unclassified
 Boolean,,,,
 calculus,,Used to describe a core simple programming language,,Common-term
 delegation,,,,
 Gay ,,,,Name
+Appel,,,,
+Haskell,,,,Common-term programming-language
+impredicative,,,,Common-term
+linear,,,,Common-term
+modalities,,,,Common-term
+constructor,,,,Common-term
+Go,,,,
+O'Hearn,,,,Name
+pointer,,,,Common-term
+abstraction,,,,Common-term
+atomic,,,,
+Higher-order ghost state,,,,
+Hoare,Like “horse”,,,Name
+instantiation,,,,
+Kokke,,,,
+match,,,,
+modular,,,,Common-term
+Rust,,,,Common-term programming-language
+Semantic,,,,Common-term
+shared-memory,,,,
+calculi,,,,
+consistency,,Gradual typing,,theory
+context,,,,Common-term
+deadlock freedom,,,,
+fixpoint,,,,Common-term
+Java,,,,
+ML,,,,Programming-language
+modal,,,,
+monadic,Mow-nad-ick,,,
+polarity,,,,
+Scala,,,,Common-term programming-language
+step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
+untyped,,,,
+Wadler,,,,Name
+Agda,,Agda-style,,Common-term Programming-language
+Ahmed,,,,Name
+allocations,,,,Common-term
+axiomatic,,,,
+bidirectional,,,,
+binder,like in bind,,,
+CACM ,,,,
+category,,,,
+closure,,,,Common-term
+combinator,,,,Common-term
+conjunction,,,,
+decidable,,,,
+derivation,,,,
+derive,,,,
+DSL,,,,
+Erlang,,,,Common-term programming-language
+functional programming,,,,
+garbage collector,,GC,,Common-term
+hinrichsen@cs.au.dk,,,,email
+inductive,,,,Common-term
+julesjacobs@gmail.com,,,,email
+lambda calculus,lam-duh calculus,,,theory
+linear Haskell,,,,
+mail@robbertkrebbers.nl,,,,email
+matching,,“pattern matching”,,Common-term
+metatheory,,,,Common-term
+monoids,,,,Common-term
+monotone,,,,Common-term
+nondeterminism,,,,
+nondeterministic,,,,
+Pi, pie,dependent types,,theory
+polymorphic,,,,Common-term
+polymorphism,,,,Common-term
+propositional,,,,Common-term
+quantified,,,,Common-term
+refinement types,,,,
+refinements,,,,
+Reynolds,,,,Name
+RustBelt,,,,
+SILL family ,,,,
+subject reduction,,,,Common-term
+tail-recursive,,,,
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+Why,,,,
+recv,,,,unclassified
+tok,,,,unclassified
+points-to,,,,unclassified
+Actris,,,,unclassified
+recv1,,,,unclassified
+send1,,,,unclassified
+subprotocols,,,,unclassified
+new1,,,,unclassified
+iProp,,,,unclassified
+Yoshida,,,,unclassified
+sym_close,,,,unclassified
+False,,,,unclassified
+prot_sum,,,,unclassified
+Iris's,,,,unclassified
+Nobuko,,,,unclassified
+scl,,,,unclassified
+send_close,,,,unclassified
+Toninho,,,,unclassified
+Dardha,,,,unclassified
+new_imp,,,,unclassified
+POPL,,,,unclassified
+subprotocol,,,,unclassified
+forked-off,,,,unclassified
+HeapLang,,,,unclassified
+Vasconcelos,,,,unclassified
 https,,,,unclassified
-https://doi.org/10,,,,unclassified
 Mostrous,,,,unclassified
-Ralf Jung,,,,Author
 send-close,,,,unclassified
 Actris's,,,,unclassified
-Appel,,,,
 chan_inv,,,,unclassified
 Craciun,,,,unclassified
 ECOOP,,,,unclassified
-Haskell,,,,Common-term programming-language
-impredicative,,,,Common-term
 Jacques-Henri,,,,unclassified
 Kohei,,,,unclassified
-linear,,,,Common-term
-modalities,,,,Common-term
 multi-shot,,,,unclassified
-Peter Thiemann,,,,Author
 prog_add,,,,unclassified
 Scalas,,,,unclassified
 Castro-Perez,,,,unclassified
-constructor,,,,Common-term
-Go,,,,
 Ht-inv-open-close,,,,unclassified
 minimalistic,,,,unclassified
-O'Hearn,,,,Name
 Padovani,,,,unclassified
-pointer,,,,Common-term
 PPDP,,,,unclassified
 prot_add,,,,unclassified
-Radboud University Nijmegen,,,,Institution
 recv_prot,,,,unclassified
 Session-Typed,,,,unclassified
 Svendsen,,,,unclassified
 Thiemann,,,,unclassified
 Vasco,,,,unclassified
-abstraction,,,,Common-term
-Amin Timany,,,,Author
-atomic,,,,
 Bengtson,,,,unclassified
 Bocchi,,,,unclassified
 Comput,,,,unclassified
 Costea,,,,unclassified
 end_inv,,,,unclassified
-Frank Pfenning,Frank “Fenning”,,,Author
-Higher-order ghost state,,,,
-Hoare,Like “horse”,,,Name
 Ht-ghost-alloc,,,,unclassified
 Ht-inv-alloc,,,,unclassified
-instantiation,,,,
 is_chan,,,,unclassified
 Jan-Oliver,,,,unclassified
 JFP,,,,unclassified
-Kokke,,,,
 LMCS,,,,unclassified
-match,,,,
 message-passing,,,,unclassified
-modular,,,,Common-term
 multi-binders,,,,unclassified
 Nakano,,,,unclassified
 Ornela,,,,unclassified
 points-tos,,,,unclassified
 prot_add_rec,,,,unclassified
 run-time,,,,unclassified
-Rust,,,,Common-term programming-language
 Saffrich,,,,unclassified
-Semantic,,,,Common-term
-shared-memory,,,,
 step-indexing,,,,unclassified
 use-after-free,,,,unclassified
-Aarhus University,,,,Institution
 Actris-style,,,,unclassified
-Amal Ahmed,,,,Author
 Andreea,,,,unclassified
 bi-directional,,,,unclassified
 Birkedal,,,,unclassified
 Bizjak,,,,unclassified
 Caires,,,,unclassified
-calculi,,,,
 Ciccone,,,,unclassified
 client-server,,,,unclassified
-consistency,,Gradual typing,,theory
-context,,,,Common-term
-deadlock freedom,,,,
 double-free,,,,unclassified
 Expr,,,,unclassified
-fixpoint,,,,Common-term
 FOSSACS,,,,unclassified
 Giachino,,,,unclassified
 Gondelman,,,,unclassified
@@ -164,23 +222,17 @@ Ht-later-timeless,,,,unclassified
 Ht-load,,,,unclassified
 Ht-store,,,,unclassified
 Intrinsically-Typed,,,,unclassified
-Java,,,,
-Joseph Tassarotti,,,,Author
 Krebbers,,,,unclassified
 laters,,,,unclassified
 linked-list,,,,unclassified
 Lozes,,,,unclassified
 McAllester,,,,unclassified
 Mevel,,,,unclassified
-ML,,,,Programming-language
-modal,,,,
-monadic,Mow-nad-ick,,,
 new_spec,,,,unclassified
 Niehren,,,,unclassified
 non-recursive,,,,unclassified
 non-trivial,,,,unclassified
 Owicki,,,,unclassified
-polarity,,,,
 prog_add_rec,,,,unclassified
 prog_single,,,,unclassified
 Pucella,,,,unclassified
@@ -188,34 +240,20 @@ recv_spec,,,,unclassified
 Rouvoet,,,,unclassified
 Rutten,,,,unclassified
 Sangiorgi,,,,unclassified
-Scala,,,,Common-term programming-language
 send_spec,,,,unclassified
 Session-Based,,,,unclassified
 Session-Type,,,,unclassified
 single-buffer,,,,unclassified
-step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
-Stephanie Balzer,,,,Author
 subprot,,,,unclassified
 Thudichum,,,,unclassified
 Tok-excl,,,,unclassified
-untyped,,,,
-Wadler,,,,Name
 Zhou,,,,unclassified
 2-symbols,,,,unclassified
-Agda,,Agda-style,,Common-term Programming-language
-Ahmed,,,,Name
-allocations,,,,Common-term
 APLAS,,,,unclassified
 Arjen,,,,unclassified
 assert(!(recv1,,,,unclassified
-axiomatic,,,,
 base.v,,,,unclassified
-bidirectional,,,,
-binder,like in bind,,,
 Bracht,,,,unclassified
-CACM ,,,,
-Carnegie Mellon University,,CMU,,Institution
-category,,,,
 channel-point-to,,,,unclassified
 channel-points-to,,,,unclassified
 channels--that,,,,unclassified
@@ -226,38 +264,26 @@ close_prot,,,,unclassified
 close_prot_dual,,,,unclassified
 close_spec,,,,unclassified
 closing--we,,,,unclassified
-closure,,,,Common-term
-combinator,,,,Common-term
 Communication-Based,,,,unclassified
 compare-and-swap,,,,unclassified
-conjunction,,,,
 Contract-Obedient,,,,unclassified
 CPV,,,,unclassified
 data-dependent,,,,unclassified
 Deadlock-free,,,,unclassified
-decidable,,,,
-derivation,,,,
-derive,,,,
 design--from,,,,unclassified
 Design-by-Contract,,,,unclassified
 double-free--it,,,,unclassified
-DSL,,,,
 dual_dual,,,,unclassified
 Eelco,,,,unclassified
 EMTST,,,,unclassified
 end-tag,,,,unclassified
 end/?end,,,,unclassified
-Erlang,,,,Common-term programming-language
 Fangyi,,,,unclassified
-Filip Sieczkowski,,,,Author
 first-order,,,,unclassified
 fixpoints,,,,unclassified
 Friis,,,,unclassified
-functional programming,,,,
-garbage collector,,GC,,Common-term
 Gheri,,,,unclassified
 higher-level,,,,unclassified
-hinrichsen@cs.au.dk,,,,email
 Hoare-triples,,,,unclassified
 Hongseok,,,,unclassified
 Ht-inv-openclose,,,,unclassified
@@ -266,7 +292,6 @@ Ht-val,,,,unclassified
 ICECCS,,,,unclassified
 imp.v,,,,unclassified
 impredicativity,,,,unclassified
-inductive,,,,Common-term
 inductively-defined,,,,unclassified
 Iris--with,,,,unclassified
 is_chan0,,,,unclassified
@@ -275,30 +300,21 @@ is_chan0_is_chan,,,,unclassified
 is_chan_imp,,,,unclassified
 Jagadeesan,,,,unclassified
 JCSS,,,,unclassified
-julesjacobs@gmail.com,,,,email
 Kubo,,,,unclassified
 Label-dependent,,,,unclassified
 Lahav,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
 lambdacalculus,,,,unclassified
 Laumann,,,,unclassified
 LICS,,,,unclassified
-linear Haskell,,,,
 Louwrink,,,,unclassified
 Machine-checked,,,,unclassified
-mail@robbertkrebbers.nl,,,,email
 Makoto,,,,unclassified
-matching,,“pattern matching”,,Common-term
 Mechanised,,,,unclassified
 Mellies,,,,unclassified
 Meta-theory,,,,unclassified
-metatheory,,,,Common-term
-monoids,,,,Common-term
-monotone,,,,Common-term
 MSCS,,,,unclassified
 multi-party,,,,unclassified
 Munksgaard,,,,unclassified
-Naoki Kobayashi,,,,Author
 "new1,send1",,,,unclassified
 new1_spec,,,,unclassified
 new1_spec0,,,,unclassified
@@ -307,19 +323,14 @@ Neykova,,,,unclassified
 non-blocking,,,,unclassified
 non-deterministically,,,,unclassified
 Non-structured,,,,unclassified
-nondeterminism,,,,
-nondeterministic,,,,
 oneshot,,,,unclassified
 OOPSLA,,,,unclassified
 owner/author(s,,,,unclassified
 p=p,,,,unclassified
 Paul-Andre,,,,unclassified
 Pfenning,,,,unclassified
-Pi, pie,dependent types,,theory
 PLDI,,,,unclassified
 pointsto,,,,unclassified
-polymorphic,,,,Common-term
-polymorphism,,,,Common-term
 Poulsen,,,,unclassified
 predicates.2,,,,unclassified
 prog_add_rec_spec,,,,unclassified
@@ -329,11 +340,9 @@ prog_imp_spec,,,,unclassified
 Proof-Carrying,,,,unclassified
 proof.3,,,,unclassified
 proofs--including,,,,unclassified
-propositional,,,,Common-term
 prot_single,,,,unclassified
 psingle,,,,unclassified
 Qin,,,,unclassified
-quantified,,,,Common-term
 re-establishes,,,,unclassified
 recv1_spec,,,,unclassified
 recv1_spec0,,,,unclassified
@@ -341,17 +350,12 @@ recv_imp,,,,unclassified
 recv_imp_spec,,,,unclassified
 recv_prot_dual,,,,unclassified
 ref(0,,,,unclassified
-refinement types,,,,
-refinements,,,,
 Release-Acquire,,,,unclassified
 release/acquire,,,,unclassified
-Reynolds,,,,Name
 Riely,,,,unclassified
 Rumyana,,,,unclassified
 Ruofei,,,,unclassified
-RustBelt,,,,
 safely--i.e,,,,unclassified
-Sam Lindley,,,,Author
 Schwinghammer,,,,unclassified
 send-receive,,,,unclassified
 send1_spec,,,,unclassified
@@ -364,13 +368,11 @@ send_prot,,,,unclassified
 send_prot_dual,,,,unclassified
 session.v,,,,unclassified
 Shengchao,,,,unclassified
-SILL family ,,,,
 single-binders,,,,unclassified
 Smolka,,,,unclassified
 spin-loop,,,,unclassified
 store/load,,,,unclassified
 sub.v,,,,unclassified
-subject reduction,,,,Common-term
 subprot_frame_recv,,,,unclassified
 subprot_frame_send,,,,unclassified
 subprot_is_chan,,,,unclassified
@@ -381,11 +383,9 @@ Swasey,,,,unclassified
 sym_close.v,,,,unclassified
 sym_close_spec,,,,unclassified
 TACAS,,,,unclassified
-tail-recursive,,,,
 Tassarotti,,,,unclassified
 Termination-Preserving,,,,unclassified
 Tibor,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 Tuosto,,,,unclassified
 two-buffer,,,,unclassified
 type-based,,,,unclassified
@@ -402,5 +402,4 @@ wait_prot,,,,unclassified
 wait_prot_dual,,,,unclassified
 wait_spec,,,,unclassified
 Wei-Ngan,,,,unclassified
-Why,,,,
 Zenodo,,,,unclassified

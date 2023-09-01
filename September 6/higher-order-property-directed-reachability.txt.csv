@@ -1,44 +1,99 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-K ,,“K axiom”,,
-HoPDR,,,,unclassified
-higher-order,,,,Common-term
-HFL(Z,,,,unclassified
-JK,,,,unclassified
 Naoki Kobayashi,,,,Author
-PDR,,,,unclassified
-ICFP,,,,unclassified
+Ryosuke Sato,,,,Author
+Hiroyuki Katsura,,,,Author
+Ranjit Jhala,,,,Author
+Amal Ahmed,,,,Author
+Shin-ya Katsumata,,,,Author
+K ,,“K axiom”,,
+higher-order,,,,Common-term
+ICFP,,,,Common-term
 polymorphic,,,,Common-term
 fixpoint,,,,Common-term
 integer,,,,Common-term
 intersection types,,,,Common-term
-Ryosuke Sato,,,,Author
+derivation,,,,
+model checking,,Automatic theorem proving,,technique tool
+refinement types,,,,
+linear,,,,Common-term
+reduction,,,,Common-term
+semantics,,,,
+lemma,,,,Common-term
+inductive,,,,Common-term
+theorem,,,,Common-term
+induction,,,,Common-term
+lattice,,,,Common-term
+abstraction,,,,Common-term
+expression,,,,Common-term
+recursive,,,,Common-term
+formalization,,,,Common-term
+recursion schemes,,,,
+syntactic,,,,Common-term
+OCaml,,,,Common-term programming-language
+subtyping,,,,Common-term
+syntax,,,,Common-term
+transition system,,,,
+well-typed,,,,Common-term
+modal,,,,
+monotonic,,,,Common-term
+succ,,,,
+Zhu,,,,
+calculus,,Used to describe a core simple programming language,,Common-term
+call/cc,,Call with current continuation,,Common-term
+clause,,,,
+conclusion,,,,
+CPS,C.P.S.,abbreviation for continuation-passing style ,,
+de Moura,,,,
+Dependent types,,,,types
+exponential,,,,
+match,,,,
+normalized,,,,Common-term
+probabilistic,,,,Common-term
+reduction relation,,,,
+Semantic,,,,Common-term
+SMT ,,,,
+Swamy,,,,
+Z3,,Tool to automatically prove theorems,,Tool
+conjunction,,,,
+context,,,,Common-term
+CPU,,,,
+dependent,,,,Common-term
+expressive,,,,Common-term
+generic,,,,
+inferring,,,,
+instantiation,,,,
+katsura@kb.is.s.u-tokyo.ac.jp,,,,email
+koba@is.s.u-tokyo.ac.jp,,,,email
+meta-language,,,,
+PEPM@POPL,,,,email
+quantified,,,,Common-term
+quantifier,,,,Common-term
+recursion,,,,Common-term
+rsato@is.s.u-tokyo.ac.jp,,,,email
+SAT,,Type of problem,,term
+scalability,,,,
+SMT solver,,Type of tool for solving SMT problems,,Tool
+subject reduction,,,,Common-term
+Why,,,,
+HoPDR,,,,unclassified
+HFL(Z,,,,unclassified
+JK,,,,unclassified
+PDR,,,,unclassified
 PDRHFL,,,,unclassified
 CHCs,,,,unclassified
-derivation,,,,
-Hiroyuki Katsura,,,,Author
-model checking,,Automatic theorem proving,,technique tool
 Property-Directed,,,,unclassified
 Bjorner,,,,unclassified
 ReTHFL,,,,unclassified
 Unno,,,,unclassified
 MoCHi,,,,unclassified
-refinement types,,,,
-linear,,,,Common-term
-reduction,,,,Common-term
 first-order,,,,unclassified
 Katsura,,,,unclassified
 TRecS,,,,unclassified
 Cathcart,,,,unclassified
 false,,,,unclassified
-semantics,,,,
 IntK,,,,unclassified
-lemma,,,,Common-term
 CHC,,,,unclassified
-inductive,,,,Common-term
 Terauchi,,,,unclassified
-theorem,,,,Common-term
-induction,,,,Common-term
-lattice,,,,Common-term
 PaHFL,,,,unclassified
 recursion-free,,,,unclassified
 relcomp,,,,unclassified
@@ -47,20 +102,14 @@ EraseLab,,,,unclassified
 Iwayama,,,,unclassified
 order-0,,,,unclassified
 POPL,,,,unclassified
-abstraction,,,,Common-term
-expression,,,,Common-term
 GFP,,,,unclassified
 HoCHC,,,,unclassified
-recursive,,,,Common-term
 TRecS-style,,,,unclassified
 Tsukada,,,,unclassified
 backend,,,,unclassified
 dom(K,,,,unclassified
-formalization,,,,Common-term
 JKK,,,,unclassified
 LT-OpPDR,,,,unclassified
-recursion schemes,,,,
-syntactic,,,,Common-term
 underapproximation,,,,unclassified
 Viswanathan,,,,unclassified
 CEGAR,,,,unclassified
@@ -71,15 +120,10 @@ https,,,,unclassified
 Int*)Int,,,,unclassified
 Lattice-Theoretic,,,,unclassified
 LNCS,,,,unclassified
-OCaml,,,,Common-term programming-language
 order-1,,,,unclassified
 RS-AllL,,,,unclassified
 SIGPLAN,,,,unclassified
-subtyping,,,,Common-term
-syntax,,,,Common-term
 Tr-Conflict,,,,unclassified
-transition system,,,,
-well-typed,,,,Common-term
 a.k.a,,,,unclassified
 app3,,,,unclassified
 dom(1,,,,unclassified
@@ -87,31 +131,18 @@ ETAPS,,,,unclassified
 IC3,,,,unclassified
 InferConflict,,,,unclassified
 K(JK,,,,unclassified
-modal,,,,
-monotonic,,,,Common-term
 Nikolaj,,,,unclassified
 non-linear,,,,unclassified
 non-polymorphic,,,,unclassified
 Pavlinovic,,,,unclassified
-Ranjit Jhala,,,,Author
 RT-Top,,,,unclassified
-succ,,,,
 Suenaga,,,,unclassified
 Terauchi's,,,,unclassified
 Tr-Decide,,,,unclassified
 Tr-Valid,,,,unclassified
-Zhu,,,,
 Amarasinghe,,,,unclassified
 assert(i,,,,unclassified
 Atsushi,,,,unclassified
-calculus,,Used to describe a core simple programming language,,Common-term
-call/cc,,Call with current continuation,,Common-term
-clause,,,,
-conclusion,,,,
-CPS,C.P.S.,abbreviation for continuation-passing style ,,
-de Moura,,,,
-Dependent types,,,,types
-exponential,,,,
 FIV,,,,unclassified
 FMCAD,,,,unclassified
 Gulwani,,,,unclassified
@@ -126,27 +157,20 @@ Kohei,,,,unclassified
 lefthand,,,,unclassified
 LICS,,,,unclassified
 LT-PDR,,,,unclassified
-match,,,,
 Model-Checking,,,,unclassified
 Naoki,,,,unclassified
 nonhigher-order,,,,unclassified
-normalized,,,,Common-term
 O0-Candidate,,,,unclassified
 O0-Init,,,,unclassified
-probabilistic,,,,Common-term
 recursionfree,,,,unclassified
-reduction relation,,,,
 RS-Fun,,,,unclassified
 RT-App,,,,unclassified
 RT-Conj,,,,unclassified
 Rybalchenko,,,,unclassified
-Semantic,,,,Common-term
 SIGPLAN-SIGACT,,,,unclassified
 simply-typed,,,,unclassified
-SMT ,,,,
 SMTInterpol,,,,unclassified
 subderivation,,,,unclassified
-Swamy,,,,
 TACAS,,,,unclassified
 Tachio,,,,unclassified
 Tobita,,,,unclassified
@@ -155,15 +179,12 @@ Tr-Init,,,,unclassified
 Tr-Invalid,,,,unclassified
 Tr-Unfold,,,,unclassified
 unfoldings,,,,unclassified
-unknown,,Gradual typing,,theory
 VMCAI,,,,unclassified
 well-formedness,,,,unclassified
 x>y,,,,unclassified
-Z3,,Tool to automatically prove theorems,,Tool
 29-April,,,,unclassified
 3We,,,,unclassified
 4We,,,,unclassified
-Amal Ahmed,,,,Author
 angelic/demonic,,,,unclassified
 APLAS,,,,unclassified
 arithmetic.3,,,,unclassified
@@ -181,13 +202,9 @@ Bunkyo-ku,,,,unclassified
 C-component,,,,unclassified
 Cimatti,,,,unclassified
 Computer-Aided,,,,unclassified
-conjunction,,,,
-context,,,,Common-term
 Cousot,,,,unclassified
-CPU,,,,
 Delignat-Lavaud,,,,unclassified
 denotedOoften,,,,unclassified
-dependent,,,,Common-term
 Dietsch,,,,unclassified
 dom(0,,,,unclassified
 dom(2,,,,unclassified
@@ -195,7 +212,6 @@ else-clause,,,,unclassified
 equi-expressive,,,,unclassified
 Ermis,,,,unclassified
 Evren,,,,unclassified
-expressive,,,,Common-term
 EXPTIME,,,,unclassified
 f(x)+sum,,,,unclassified
 false)e,,,,unclassified
@@ -207,7 +223,6 @@ Fournet,,,,unclassified
 functions/predicates,,,,unclassified
 G)PDR,,,,unclassified
 Ganesh,,,,unclassified
-generic,,,,
 Giacobazzi,,,,unclassified
 Gopalakrishnan,,,,unclassified
 Hasuo,,,,unclassified
@@ -223,8 +238,6 @@ Hritcu,,,,unclassified
 ICE-Based,,,,unclassified
 Ichiro,,,,unclassified
 inference-based,,,,unclassified
-inferring,,,,
-instantiation,,,,
 Int(Int,,,,unclassified
 Int*)(Int*)Int,,,,unclassified
 integers1,,,,unclassified
@@ -245,11 +258,9 @@ KAKENHI,,,,unclassified
 Kaminski,,,,unclassified
 Karthikeyan,,,,unclassified
 Katoen,,,,unclassified
-katsura@kb.is.s.u-tokyo.ac.jp,,,,email
 Kazuyuki,,,,unclassified
 Kento,,,,unclassified
 KJK,,,,unclassified
-koba@is.s.u-tokyo.ac.jp,,,,email
 Kohlweiss,,,,unclassified
 Krystof,,,,unclassified
 Lahiri,,,,unclassified
@@ -263,7 +274,6 @@ max(ord,,,,unclassified
 Mayuko,,,,unclassified
 MDPs,,,,unclassified
 Mendonca,,,,unclassified
-meta-language,,,,
 meta-variable,,,,unclassified
 Mihaela,,,,unclassified
 Mishchenko,,,,unclassified
@@ -297,7 +307,6 @@ Pawel,,,,unclassified
 PDR-based,,,,unclassified
 PDR/GPDR,,,,unclassified
 PEPM,,,,unclassified
-PEPM@POPL,,,,email
 Pichardie,,,,unclassified
 Pierre-Yves,,,,unclassified
 Piterman,,,,unclassified
@@ -309,15 +318,12 @@ Potapov,,,,unclassified
 PPDP,,,,unclassified
 PrIC3,,,,unclassified
 Qadeer,,,,unclassified
-quantified,,,,Common-term
-quantifier,,,,Common-term
 quantifier-free,,,,unclassified
 Radhia,,,,unclassified
 Ramakrishnan,,,,unclassified
 Ramarathnam,,,,unclassified
 Random.bool,,,,unclassified
 Rastogi,,,,unclassified
-recursion,,,,Common-term
 refinement-type,,,,unclassified
 Rehof,,,,unclassified
 relation1,,,,unclassified
@@ -326,7 +332,6 @@ RS-IFun,,,,unclassified
 RS-IT,,,,unclassified
 RS-Prop,,,,unclassified
 RS-Tr,,,,unclassified
-rsato@is.s.u-tokyo.ac.jp,,,,email
 RT-Abs,,,,unclassified
 RT-All,,,,unclassified
 RT-Def,,,,unclassified
@@ -339,21 +344,17 @@ RT-Sub,,,,unclassified
 RT-Var,,,,unclassified
 Rupak,,,,unclassified
 Ryota,,,,unclassified
-SAT,,Type of problem,,term
 SAT-Based,,,,unclassified
 Saurabh,,,,unclassified
-scalability,,,,
 Sebastiani,,,,unclassified
 semi-automated,,,,unclassified
 Shaz,,,,unclassified
-Shin-ya Katsumata,,,,Author
 Shoham,,,,unclassified
 Shuvendu,,,,unclassified
 Sighireanu,,,,unclassified
 simplification4,,,,unclassified
 Slobodova,,,,unclassified
 Smolka,,,,unclassified
-SMT solver,,Type of tool for solving SMT problems,,Tool
 Srivastava,,,,unclassified
 ST()K,,,,unclassified
 ST-Abs,,,,unclassified
@@ -371,7 +372,6 @@ ST-Top,,,,unclassified
 ST-Var,,,,unclassified
 sub-derivations,,,,unclassified
 subderivations,,,,unclassified
-subject reduction,,,,Common-term
 subprocedures,,,,unclassified
 suchOthat,,,,unclassified
 Sumit,,,,unclassified
@@ -397,7 +397,6 @@ validityOof,,,,unclassified
 Venkatesan,,,,unclassified
 Viswanathan's,,,,unclassified
 Vizel,,,,unclassified
-Why,,,,
 Wies,,,,unclassified
 Xeon,,,,unclassified
 Yakir,,,,unclassified

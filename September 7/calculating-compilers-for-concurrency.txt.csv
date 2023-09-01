@@ -1,156 +1,186 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-CTree,,,,unclassified
+Graham Hutton,,,,Author
+Patrick Bahr,,,,Author
+Yannick Zakowski,,,,Author
+Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
+Jan Midtgaard,,,,researcher
+Mads Sig Ager,,,,researcher
+Olivier Danvy,,,,researcher
+Adam Chlipala,,,,Author
+Amal Ahmed,,,,Author
+Derek Dreyer,,,,Author
+Irene Yoon,,,,Author
+Koen Claessen,,,,Author
+Lars Birkedal,,,,Author
+Nils Anders Danielsson,,,,Author
+Simon Peyton Jones,,,,Author
+Tom Schrijvers,,,,Author
+IT University of Copenhagen,,,,Institution
+University of Nottingham,,,,Institution
 semantics,,,,
 compiler,,,,Common-term
-CTreec,,,,unclassified
-codensity,,,,unclassified
-R)q,,,,unclassified
 concurrent,,,,Common-term
-R)qc,,,,unclassified
-Expr,,,,unclassified
 expression,,,,Common-term
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 Eff,,,,
 bisimilarity,,Notion of equivalence between programs,,Common-term equivalence
 stack,,,,
-interpSt,,,,unclassified
 concurrency,,,,Common-term
 Interp,,,,
 induction,,,,Common-term
-Graham Hutton,,,,Author
 monad,Mow-nad,,,Common-term
-Patrick Bahr,,,,Author
-PrintEff,,,,unclassified
-fmap,,,,unclassified
-ChanEff,,,,unclassified
 continuation,,,,
 bisimilar,,,,Common-term equivalence
 clause,,,,
 congruence,,,,Common-term
-hanChan,,,,unclassified
 lambda calculus,lam-duh calculus,,,theory
-Zeroc,,,,unclassified
-ISNUM,,,,unclassified
 monadic,Mow-nad-ick,,,
 syntax,,,,Common-term
-CommEff,,,,unclassified
 constructor,,,,Common-term
 effect handler,,,,
 effect handlers,,,,
-NewChan,,,,unclassified
-non-termination,,,,unclassified
 context,,,,Common-term
-interpc,,,,unclassified
-PrintInt,,,,unclassified
 equational,,,,Common-term
-ReceiveInt,,,,unclassified
 recursive,,,,Common-term
-SendInt,,,,unclassified
-forall,,,,unclassified
 integer,,,,Common-term
-non-deterministic,,,,unclassified
-non-terminating,,,,unclassified
 Agda,,Agda-style,,Common-term Programming-language
 coinductive,,,,Common-term
 continuation-passing style,,,,
-Effc,,,,unclassified
 effectful,,,,
 functional programming,,,,
-NoEff,,,,unclassified
 Non-determinism,,,,Common-term
 step-indexed,,“step-indexed logical relations” “step-indexed logics” “step-indexed reasoning”,,Common-term
-channel-based,,,,unclassified
 Haskell,,,,Common-term programming-language
 higher-order,,,,Common-term
-HOCC,,,,unclassified
 inductive,,,,Common-term
-infChoice,,,,unclassified
 Semantic,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
-CTreeInf,,,,unclassified
 datatype,,,,Common-term
-Hur,,,,unclassified
 instruction,,,,
-right-biased,,,,unclassified
-well-formedness,,,,unclassified
-Xia,,,,unclassified
-Yannick Zakowski,,,,Author
-Zdancewic,,,,unclassified
 abstraction,,,,Common-term
-al.'s,,,,unclassified
-Bruijn,,,,unclassified
-Chung-Kil,,,,unclassified
 closures,,,,Common-term
-codata,,,,unclassified
-coinduction,,,,unclassified
-correct-by-construction,,,,unclassified
 deriving,,,,
-Haskell's,,,,unclassified
-ISCLO,,,,unclassified
 Ishii,,,,
 Kiselyov,,,,
 Leroy,,,,Name
 Ret,,,,
 Reynolds,,,,Name
 transition system,,,,
-Vezzosi,,,,unclassified
-Bizjak,,,,unclassified
-brD,,,,unclassified
-CakeML,,,,unclassified
 Capretta,,,,
-co-)induction,,,,unclassified
-coinductively,,,,unclassified
-CoinEff,,,,unclassified
 CompCert,,A certified compiler,,
 compiled,,,,
 contextual,,,,Common-term
 Coq,“Coq”,,,Common-term programming-language theorem-prover
-Dariusz Biernacki,Dariush /ˈdarʲjuʃ/ Biernacki,,,Author
-DeepSpec,,,,unclassified
 derivation,,,,
 expressive,,,,Common-term
-False,,,,unclassified
-forkIO,,,,unclassified
 freer monad,,,,
 Gibbons,,,,
 idempotent,,,,Common-term
-IT University of Copenhagen,,,,Institution
-Jan Midtgaard,,,,researcher
 K ,,“K axiom”,,
-Kristensen,,,,unclassified
-lower-level,,,,unclassified
-Mads Sig Ager,,,,researcher
 modular,,,,Common-term
-Mogelberg,,,,unclassified
 monoid,,,,Common-term
-multi-stage,,,,unclassified
-near-semiring,,,,unclassified
 nondeterministic,,,,
-Olivier Danvy,,,,researcher
 pattern matching,,,,
 polymorphic,,,,Common-term
-POPL,,,,unclassified
 quantified,,,,Common-term
-Rasmus,,,,unclassified
 reflection,,,,Common-term
-Rivas,,,,unclassified
 sequential ,,,,
 syntactic,,,,Common-term
-University of Nottingham,,,,Institution
 untyped lambda calculus,,,,Common-term
+Ahmed,,,,Name
+algebraic effects,,,,
+applicative,,,,Common-term
+asymptotic,,,,Common-term
+bisimulation,,,,Common-term equivalence
+code continuation,,,,
+conclusion,,,,
+Danielsson,,,,
+defunctionalization,,,,
+dependent,,,,Common-term
+derive,,,,
+equational theory,,,,Common-term
+free monad,free mow-nad,,,
+freer monads,,,,
+functional correspondence,,,,
+Go,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+meta-language,,,,
+ML,,,,Programming-language
+monadic interpreters,,,,
+operational semantics,,,,
+partiality monad,,,,
+recursion,,,,Common-term
+reflect,,,,
+register,,,,
+small-step,,,,Common-term
+Small-step operational semantics,,,,
+Trigger,,,,
+CTree,,,,unclassified
+CTreec,,,,unclassified
+codensity,,,,unclassified
+R)q,,,,unclassified
+R)qc,,,,unclassified
+Expr,,,,unclassified
+interpSt,,,,unclassified
+PrintEff,,,,unclassified
+fmap,,,,unclassified
+ChanEff,,,,unclassified
+hanChan,,,,unclassified
+Zeroc,,,,unclassified
+ISNUM,,,,unclassified
+CommEff,,,,unclassified
+NewChan,,,,unclassified
+non-termination,,,,unclassified
+interpc,,,,unclassified
+PrintInt,,,,unclassified
+ReceiveInt,,,,unclassified
+SendInt,,,,unclassified
+forall,,,,unclassified
+non-deterministic,,,,unclassified
+non-terminating,,,,unclassified
+Effc,,,,unclassified
+NoEff,,,,unclassified
+channel-based,,,,unclassified
+HOCC,,,,unclassified
+infChoice,,,,unclassified
+CTreeInf,,,,unclassified
+Hur,,,,unclassified
+right-biased,,,,unclassified
+well-formedness,,,,unclassified
+Xia,,,,unclassified
+Zdancewic,,,,unclassified
+al.'s,,,,unclassified
+Bruijn,,,,unclassified
+Chung-Kil,,,,unclassified
+codata,,,,unclassified
+coinduction,,,,unclassified
+correct-by-construction,,,,unclassified
+Haskell's,,,,unclassified
+ISCLO,,,,unclassified
+Vezzosi,,,,unclassified
+Bizjak,,,,unclassified
+brD,,,,unclassified
+CakeML,,,,unclassified
+co-)induction,,,,unclassified
+coinductively,,,,unclassified
+CoinEff,,,,unclassified
+DeepSpec,,,,unclassified
+False,,,,unclassified
+forkIO,,,,unclassified
+Kristensen,,,,unclassified
+lower-level,,,,unclassified
+Mogelberg,,,,unclassified
+multi-stage,,,,unclassified
+near-semiring,,,,unclassified
+POPL,,,,unclassified
+Rasmus,,,,unclassified
+Rivas,,,,unclassified
 Vafeiadis,,,,unclassified
 Veltri,,,,unclassified
 Viktor,,,,unclassified
 Voigtlander,,,,unclassified
 ad-hoc,,,,unclassified
-Adam Chlipala,,,,Author
-Ahmed,,,,Name
-algebraic effects,,,,
-Amal Ahmed,,,,Author
-applicative,,,,Common-term
 arity,,,,unclassified
-asymptotic,,,,Common-term
-bisimulation,,,,Common-term equivalence
 BRICS,,,,unclassified
 c=cn,,,,unclassified
 Capretta's,,,,unclassified
@@ -162,66 +192,43 @@ Claessen's,,,,unclassified
 Clouston,,,,unclassified
 co)-induction,,,,unclassified
 co-recursively,,,,unclassified
-code continuation,,,,
 Commun,,,,unclassified
 CompCertTSO,,,,unclassified
 compositionality,,,,unclassified
-conclusion,,,,
 correct-byconstruction,,,,unclassified
-Danielsson,,,,
-defunctionalization,,,,
-dependent,,,,Common-term
-Derek Dreyer,,,,Author
-derive,,,,
-equational theory,,,,Common-term
 equational-style,,,,unclassified
 exec::Code,,,,unclassified
 Exequiel,,,,unclassified
 Finne,,,,unclassified
 formalises,,,,unclassified
-free monad,free mow-nad,,,
-freer monads,,,,
-functional correspondence,,,,
-Go,,,,
 Grathwohl,,,,unclassified
 Henrio,,,,unclassified
 Hiromi,,,,unclassified
 https,,,,unclassified
-https://deepspec.org,,,,unclassified
 interdefinable,,,,unclassified
 interp-fmap,,,,unclassified
-Irene Yoon,,,,Author
 Jagannathan,,,,unclassified
 Jaskelioff,,,,unclassified
 Jeehoon,,,,unclassified
-Koen Claessen,,,,Author
 Lahav,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-Lars Birkedal,,,,Author
 Laters,,,,unclassified
 left-side,,,,unclassified
 Li-yao,,,,unclassified
 Ludovic,,,,unclassified
 Malecha,,,,unclassified
 mechanising,,,,unclassified
-meta-language,,,,
 meta-theory,,,,unclassified
-ML,,,,Programming-language
 MonadFail,,,,unclassified
-monadic interpreters,,,,
 Myreen,,,,unclassified
 Nardelli,,,,unclassified
-Nils Anders Danielsson,,,,Author
 non-exhaustive,,,,unclassified
 non-numeric,,,,unclassified
 non-trivial,,,,unclassified
 Norrish,,,,unclassified
-operational semantics,,,,
 Optimisation,,,,unclassified
 owner/author(s,,,,unclassified
 p::CTree,,,,unclassified
 parameterise,,,,unclassified
-partiality monad,,,,
 R)q-assoc,,,,unclassified
 R)q-bind,,,,unclassified
 R)q-comm,,,,unclassified
@@ -229,25 +236,17 @@ R)q-fmap,,,,unclassified
 R)q-return,,,,unclassified
 Ramana,,,,unclassified
 Ranald,,,,unclassified
-recursion,,,,Common-term
-reflect,,,,
-register,,,,
 Relaxed-Memory,,,,unclassified
 RelaxedMemory,,,,unclassified
 richly-featured,,,,unclassified
 Semantics-Directed,,,,unclassified
 Sigbjorn,,,,unclassified
 SIGPLAN,,,,unclassified
-Simon Peyton Jones,,,,Author
-small-step,,,,Common-term
-Small-step operational semantics,,,,
 snd,,,,unclassified
 specialises,,,,unclassified
 stackbased,,,,unclassified
 step-counting,,,,unclassified
 step-indexing,,,,unclassified
-Tom Schrijvers,,,,Author
-Trigger,,,,
 "v,w",,,,unclassified
 Venanzio,,,,unclassified
 Wand's,,,,unclassified

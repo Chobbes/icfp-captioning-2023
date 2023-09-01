@@ -1,30 +1,33 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-expression,,,,Common-term
-stack,,,,
-Boolean,,,,
-ICFP,,,,unclassified
-ef1,,,,unclassified
-unification,,,,
-ef2,,,,unclassified
-Brachthauser,,,,unclassified
-polymorphism,,,,Common-term
-calculus,,Used to describe a core simple programming language,,Common-term
 Magnus Madsen,,,,Author
 Philipp Schuster,,,,Author
 Matthew Lutze,,,,Author
+Sam Lindley,,,,Author
+Daan Leijen,,,,Author
+Edsko de Vries,,,,Author
+Klaus Ostermann,,,,Author
+Matthias Felleisen,,,,Author
+GitHub,,,,Institution
+Aarhus University,,,,Institution
+Ecole Polytechnique,,Institution,,Institution
+University of Edinburgh,,,,Institution
+expression,,,,Common-term
+stack,,,,
+Boolean,,,,
+ICFP,,,,Common-term
+unification,,,,
+polymorphism,,,,Common-term
+calculus,,Used to describe a core simple programming language,,Common-term
 well-typed,,,,Common-term
 universe,,dependent types,,theory
 context,,,,Common-term
 K ,,“K axiom”,,
-onMousePressed,,,,unclassified
 theorem,,,,Common-term
 polymorphic,,,,Common-term
 Eff,,,,
 reduction,,,,Common-term
-sub-effecting,,,,unclassified
 algebraic effects,,,,
 compiler,,,,Common-term
-GitHub,,,,Institution
 register,,,,
 runtime,,,,Common-term
 symbolic,,,,
@@ -33,62 +36,116 @@ higher-order,,,,Common-term
 Hindley-Milner,,,,
 Java,,,,
 operational semantics,,,,
-real-world,,,,unclassified
-RunWithErrorHandler,,,,unclassified
 semantics,,,,
 syntax,,,,Common-term
 Algorithm W,,,,
+Pol,,Subcategory of Meas whose objects are Borel spaces,,
+Gifford,,,,
+Lucassen,,,,
+Pretnar,,,,
+Scheme,,,,Common-term programming-language
+algebra,,,,
+API,A.P.I.,Application Programming Interface,,Common-term
+effectful,,,,
+expressive,,,,Common-term
+higher-order function,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+lemma,,,,Common-term
+relational,,,,
+Deadlock,,,,
+Elimination,,,,
+Go,,,,
+IO,Eye-oh,,,
+lambda calculus,lam-duh calculus,,,theory
+memory management,,,,Common-term
+syntactic,,,,Common-term
+abstraction,,,,Common-term
+abstractions,,,,
+fn,,,,
+formalization,,,,Common-term
+functional programming,,,,
+Gen,,,,
+Leroy,,,,Name
+Levy,,,,
+McBride,,,,Name
+modifier,,,,
+OCaml,,,,Common-term programming-language
+pattern matching,,,,
+Pottier,,,,
+Power,,,,
+recursion,,,,Common-term
+Scala,,,,Common-term programming-language
+algebras,,,,
+Appel,,,,
+Async,,,,
+category,,,,
+conclusion,,,,
+concurrency,,,,Common-term
+congruence,,,,Common-term
+derivation,,,,
+destructor,,,,Common-term
+effect handlers,,,,
+equational,,,,Common-term
+Felleisen,,,,
+Haskell,,,,Common-term programming-language
+induction,,,,Common-term
+iterator,,,,Common-term
+judgement,,dependent types,,theory
+Koka,,,,Programming-language
+let-bound,,,,Common-term
+magnusm@cs.au.dk,,,,email
+match,,,,
+ML,,,,Programming-language
+mlutze@cs.au.dk,,,,email
+modularity,,,,Common-term
+monomorphization,,,,
+quantified,,,,Common-term
+recursive,,,,Common-term
+reflection,,,,Common-term
+Steele,,,,Name
+syntax-directed,,,,
+tail call,,,,
+type substitution,,,,
+type-and-effect system,,,,
+Why,,,,
+ef1,,,,unclassified
+ef2,,,,unclassified
+Brachthauser,,,,unclassified
+onMousePressed,,,,unclassified
+sub-effecting,,,,unclassified
+real-world,,,,unclassified
+RunWithErrorHandler,,,,unclassified
 EventBus,,,,unclassified
 handle_error_no_raise,,,,unclassified
-Pol,,Subcategory of Meas whose objects are Borel spaces,,
 println,,,,unclassified
 without-frame,,,,unclassified
 at_exit,,,,unclassified
 doRead,,,,unclassified
-Gifford,,,,
 if-then-else,,,,unclassified
-Lucassen,,,,
-Pretnar,,,,
 "Print(""Clicked",,,,unclassified
-Scheme,,,,Common-term programming-language
-Aarhus University,,,,Institution
 addActionListener,,,,unclassified
 addSubscriber,,,,unclassified
-algebra,,,,
-API,A.P.I.,Application Programming Interface,,Common-term
 call-by-value,,,,unclassified
 CSafeIOException,,,,unclassified
-effectful,,,,
-expressive,,,,Common-term
 ftv,,,,unclassified
 func,,,,unclassified
-higher-order function,,,,
 Int32,,,,unclassified
 JVM,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-lemma,,,,Common-term
 open-source,,,,unclassified
 region-based,,,,unclassified
-relational,,,,
 RunTransaction,,,,unclassified
 SVE,,,,unclassified
 T-Eq,,,,unclassified
 term-level,,,,unclassified
 amule-project/amule,,,,unclassified
-Deadlock,,,,
 effect-polymorphic,,,,unclassified
-Elimination,,,,
 false,,,,unclassified
 ForEachConnReq,,,,unclassified
-Go,,,,
 Hillerstrom,,,,unclassified
 Hindley,,,,unclassified
-IO,Eye-oh,,,
 Kammar,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
 Leijen,,,,unclassified
 let-frame,,,,unclassified
-memory management,,,,Common-term
 most-general,,,,unclassified
 Nipkow,,,,unclassified
 non-null,,,,unclassified
@@ -99,22 +156,18 @@ onMouseClick,,,,unclassified
 OOPSLA,,,,unclassified
 run_with_error_handler,,,,unclassified
 safeLogger,,,,unclassified
-Sam Lindley,,,,Author
 sayHello,,,,unclassified
 ScopeGuard,,,,unclassified
 side-effects,,,,unclassified
 SIGPLAN,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 StdOut,,,,unclassified
-syntactic,,,,Common-term
 T-App,,,,unclassified
 T-Do,,,,unclassified
 T-Ite,,,,unclassified
 T-Let,,,,unclassified
 typeOf,,,,unclassified
 without-frames,,,,unclassified
-abstraction,,,,Common-term
-abstractions,,,,
 Baader,,,,unclassified
 Boudet,,,,unclassified
 Buttner,,,,unclassified
@@ -123,45 +176,28 @@ ClassLoad,,,,unclassified
 connmgr/connmanager.go,,,,unclassified
 CSafeIOExceptions,,,,unclassified
 D.d,,,,unclassified
-Daan Leijen,,,,Author
 decred/dcrd,,,,unclassified
 enum,,,,unclassified
 ExnWithBacktrace,,,,unclassified
-fn,,,,
-formalization,,,,Common-term
 Fournet,,,,unclassified
-functional programming,,,,
 functional-first,,,,unclassified
 fvs,,,,unclassified
-Gen,,,,
 googleapis/google-cloud-go,,,,unclassified
 heavyai/heavydb,,,,unclassified
 higher-kinded,,,,unclassified
 hof,,,,unclassified
 https,,,,unclassified
-https://flix.dev,,,,unclassified
-https://github.com/flix/flix,,,,unclassified
 include/event2/event.h,,,,unclassified
-Leroy,,,,Name
-Levy,,,,
 listener's,,,,unclassified
 Lowenheim,,,,unclassified
 Matija,,,,unclassified
-McBride,,,,Name
-modifier,,,,
 nonThrowing,,,,unclassified
-OCaml,,,,Common-term programming-language
 OutputStream,,,,unclassified
-pattern matching,,,,
 Pessaux,,,,unclassified
-Pottier,,,,
-Power,,,,
 pushToDownstream,,,,unclassified
 recoverWith,,,,unclassified
-recursion,,,,Common-term
 requestFromUpstream,,,,unclassified
 Rudeanu,,,,unclassified
-Scala,,,,Common-term programming-language
 screenshot,,,,unclassified
 signatureOf,,,,unclassified
 Simonis,,,,unclassified
@@ -184,10 +220,7 @@ actor-framework,,,,unclassified
 Addison-Wesley,,,,unclassified
 akka/akka,,,,unclassified
 Aleksander,,,,unclassified
-algebras,,,,
-Appel,,,,
 arangodb/arangodb,,,,unclassified
-Async,,,,
 atExit,,,,unclassified
 Auflosungsproblem,,,,unclassified
 B.b,,,,unclassified
@@ -197,14 +230,10 @@ Beightol,,,,unclassified
 blockchain-based,,,,unclassified
 Boruch-Gruszecki,,,,unclassified
 c.f,,,,unclassified
-category,,,,
 CFileDataIO,,,,unclassified
 ChainSafe/lodestar,,,,unclassified
 compile-time,,,,unclassified
 Comput,,,,unclassified
-conclusion,,,,
-concurrency,,,,Common-term
-congruence,,,,Common-term
 ConnManager,,,,unclassified
 ConnReq,,,,unclassified
 "Console,Throw",,,,unclassified
@@ -217,19 +246,13 @@ dart-lang/sdk,,,,unclassified
 Datalog,,,,unclassified
 Decred,,,,unclassified
 def-bound,,,,unclassified
-derivation,,,,
-destructor,,,,Common-term
 DFG,,,,unclassified
 do-expressions,,,,unclassified
-Ecole Polytechnique,,Institution,,Institution
 ED2K,,,,unclassified
 edenhill/librdkafka,,,,unclassified
-Edsko de Vries,,,,Author
-effect handlers,,,,
 effect-annotated,,,,unclassified
 EffectVar,,,,unclassified
 Encoder.java,,,,unclassified
-equational,,,,Common-term
 equivalence--because,,,,unclassified
 event-based,,,,unclassified
 EVENT2_EXPORT_SYMBOL,,,,unclassified
@@ -240,7 +263,6 @@ EventBus[ef,,,,unclassified
 Execption,,,,unclassified
 Exn_with_backtrace,,,,unclassified
 facebookincubator/antlir,,,,unclassified
-Felleisen,,,,
 Fiber[Unit,,,,unclassified
 file-sharing,,,,unclassified
 finalizers,,,,unclassified
@@ -259,33 +281,24 @@ GUI-building,,,,unclassified
 handleErrorNoRaise,,,,unclassified
 Hankin,,,,unclassified
 Hanne,,,,unclassified
-Haskell,,,,Common-term programming-language
 Hayo,,,,unclassified
 https://api.flix.dev,,,,unclassified
 https://doc.flix.dev,,,,unclassified
-https://doi.org/10,,,,unclassified
-https://github.com/ocaml/dune,,,,unclassified
 implementation--a,,,,unclassified
-induction,,,,Common-term
 inlining,,,,unclassified
 Int64,,,,unclassified
 IOException,,,,unclassified
-iterator,,,,Common-term
 janestreet/async_unix,,,,unclassified
 janestreet/bonsai,,,,unclassified
 JNDI,,,,unclassified
 Jouannaud,,,,unclassified
-judgement,,dependent types,,theory
 JuliaIO/EzXML.jl,,,,unclassified
 Klassenkalkul,,,,unclassified
-Klaus Ostermann,,,,Author
-Koka,,,,Programming-language
 l(e,,,,unclassified
 language5,,,,unclassified
 language6,,,,unclassified
 language:scala,,,,unclassified
 let-binding,,,,unclassified
-let-bound,,,,Common-term
 let-frames,,,,unclassified
 let-generalization,,,,unclassified
 libevent,,,,unclassified
@@ -297,18 +310,11 @@ Log4j2,,,,unclassified
 LogBack,,,,unclassified
 logischen,,,,unclassified
 long-running,,,,unclassified
-magnusm@cs.au.dk,,,,email
-match,,,,
-Matthias Felleisen,,,,Author
 memo.mli,,,,unclassified
 mkButton,,,,unclassified
 mkEventBus,,,,unclassified
 mkGui,,,,unclassified
-ML,,,,Programming-language
 mldbai/mldb,,,,unclassified
-mlutze@cs.au.dk,,,,email
-modularity,,,,Common-term
-monomorphization,,,,
 MouseEvent,,,,unclassified
 neurolabs/henplus,,,,unclassified
 ninedraft/huffy,,,,unclassified
@@ -329,13 +335,10 @@ Plasmeijer,,,,unclassified
 processbased,,,,unclassified
 publish-subscribe,,,,unclassified
 qos-ch/logback,,,,unclassified
-quantified,,,,Common-term
 rd_kafka_destroy,,,,unclassified
 re-locked,,,,unclassified
 re-motion/TypePipe,,,,unclassified
 readLine,,,,unclassified
-recursive,,,,Common-term
-reflection,,,,Common-term
 richfitz/thor,,,,unclassified
 Rinus,,,,unclassified
 row-typed,,,,unclassified
@@ -354,23 +357,18 @@ SizeT,,,,unclassified
 Skalka,,,,unclassified
 statically-checked,,,,unclassified
 std::terminate,,,,unclassified
-Steele,,,,Name
 sub-expressions,,,,unclassified
 SubscriberManagement,,,,unclassified
 SubscriberManagement.scala,,,,unclassified
-syntax-directed,,,,
 T-App-Eff,,,,unclassified
 T-Done,,,,unclassified
 T-Forbid,,,,unclassified
 T-Machine,,,,unclassified
 T-Push,,,,unclassified
 t.Parallel,,,,unclassified
-tail call,,,,
 Thielecke,,,,unclassified
 Throw(v,,,,unclassified
 TransactionOption,,,,unclassified
-type substitution,,,,
-type-and-effect system,,,,
 Type-Driven,,,,unclassified
 type-level,,,,unclassified
 type-scheme,,,,unclassified
@@ -379,14 +377,11 @@ Uber,,,,unclassified
 unconditional4,,,,unclassified
 uNetworking/uWebSockets,,,,unclassified
 unify--not,,,,unclassified
-University of Edinburgh,,,,Institution
-unknown,,Gradual typing,,theory
 unsubscribe,,,,unclassified
 Urusula,,,,unclassified
 user-definable,,,,unclassified
 VSCode,,,,unclassified
 vulnerability2,,,,unclassified
-Why,,,,
 without-construct,,,,unclassified
 without-expression,,,,unclassified
 xfclose_check,,,,unclassified

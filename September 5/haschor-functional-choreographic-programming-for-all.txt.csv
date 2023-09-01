@@ -1,47 +1,105 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-HasChor,,,,unclassified
-Choreo,,,,unclassified
+Gan Shen,,,,Author
+Lindsey Kuper,,,,Author
+Shun Kashiwa,,,,Author
+Adam Chlipala,,,,Author
+Einar Broch Johnsen,,,,Author
+Giuseppe Castagna,,,,Author
+Jeremy Yallop,,,,Author
+Sam Lindley,,,,Author
+Shriram Krishnamurthi,,,,Author
+University of California,,,,Institution
+IT University of Copenhagen,,,,Institution
 monad,Mow-nad,,,Common-term
 endpoint,,,,
-ICFP,,,,unclassified
-backend,,,,unclassified
+ICFP,,,,Common-term
 higher-order,,,,Common-term
+IO,Eye-oh,,,
+protocol,,,,
+Haskell,,,,Common-term programming-language
+polymorphism,,,,Common-term
+freer monad,,,,
+IORef,Eye-oh ref,,,
+K ,,“K axiom”,,
+Eff,,,,
+expression,,,,Common-term
+effectful,,,,
+API,A.P.I.,Application Programming Interface,,Common-term
+freer monads,,,,
+monadic,Mow-nad-ick,,,
+abstraction,,,,Common-term
+Honda,,,,
+abstractions,,,,
+continuation,,,,
+session types,,,,
+constructor,,,,Common-term
+effect handler,,,,
+paradigm,,,,Common-term
+semantics,,,,
+compiled,,,,
+deadlock freedom,,,,
+functional programming,,,,
+Ishii,,,,
+Java,,,,
+Kiselyov,,,,
+Pascal,,,,
+alias,,,,
+compiler,,,,Common-term
+context,,,,Common-term
+Deadlock,,,,
+DSL,,,,
+ecosystem,,,,
+generic,,,,
+GHC,,,,compiler tool
+Glasgow Haskell Compiler,,,,compiler tool
+modularity,,,,Common-term
+polymorphic,,,,Common-term
+Redmond,,,,
+applicative,,,,Common-term
+boilerplate,,,,
+conclusion,,,,
+concurrent,,,,Common-term
+consistency,,Gradual typing,,theory
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+datatype,,,,Common-term
+decidable,,,,
+functor,,,,Common-term
+Gay ,,,,Name
+JavaScript,,,,Common-term programming-language
+Kleisli,,,,
+Krishnamurthi,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+match,,,,
+optional,,,,
+Power,,,,
+reflect,,,,
+Semantic,,,,Common-term
+Wadler,,,,Name
+well-typed,,,,Common-term
+HasChor,,,,unclassified
+Choreo,,,,unclassified
+backend,,,,unclassified
 key-value,,,,unclassified
 kvs,,,,unclassified
 Montesi,,,,unclassified
 HasChor's,,,,unclassified
-IO,Eye-oh,,,
 recv,,,,unclassified
-protocol,,,,
-Haskell,,,,Common-term programming-language
-Gan Shen,,,,Author
-Lindsey Kuper,,,,Author
-polymorphism,,,,Common-term
-Shun Kashiwa,,,,Author
-freer monad,,,,
 Giallorenzo,,,,unclassified
-IORef,Eye-oh ref,,,
 ChoreoSig,,,,unclassified
 Fabrizio,,,,unclassified
 handleRequest,,,,unclassified
 HTTP,,,,unclassified
 Cruz-Filipe,,,,unclassified
-K ,,“K axiom”,,
 ReplicationStrategy,,,,unclassified
 doBackup,,,,unclassified
-Eff,,,,
-expression,,,,Common-term
 LocTm,,,,unclassified
 multitier,,,,unclassified
 runChoreo,,,,unclassified
 runChoreography,,,,unclassified
 toFreer,,,,unclassified
-effectful,,,,
 interpFreer,,,,unclassified
 primaryBackup,,,,unclassified
-API,A.P.I.,Application Programming Interface,,Common-term
 client-server,,,,unclassified
-freer monads,,,,
 NetworkSig,,,,unclassified
 priceOf,,,,unclassified
 primary-backup,,,,unclassified
@@ -54,65 +112,47 @@ False,,,,unclassified
 Lanese,,,,unclassified
 location-polymorphic,,,,unclassified
 mainChoreo,,,,unclassified
-monadic,Mow-nad-ick,,,
-abstraction,,,,Common-term
 cfg,,,,unclassified
 forall,,,,unclassified
 Haskell's,,,,unclassified
-Honda,,,,
 locB,,,,unclassified
 scrutinee,,,,unclassified
-University of California,,,,Institution
-abstractions,,,,
 backends,,,,unclassified
 config,,,,unclassified
-continuation,,,,
 deliveryDate,,,,unclassified
 https,,,,unclassified
-session types,,,,
 BCast,,,,unclassified
 bkupSt,,,,unclassified
-constructor,,,,Common-term
 Dalla,,,,unclassified
 double-backup,,,,unclassified
-effect handler,,,,
 mkDecision1,,,,unclassified
 mkDecision2,,,,unclassified
 mkHttpConfig,,,,unclassified
 ML5,,,,unclassified
 Nobuko,,,,unclassified
 Object-Oriented,,,,unclassified
-paradigm,,,,Common-term
 POPL,,,,unclassified
 Preda,,,,unclassified
 Qiu,,,,unclassified
 runNetwork,,,,unclassified
 Saverio,,,,unclassified
 ScalaLoci,,,,unclassified
-semantics,,,,
 SIGPLAN,,,,unclassified
 two-buyer,,,,unclassified
 Yoshida,,,,unclassified
 bkup1,,,,unclassified
 bkup2,,,,unclassified
 book's,,,,unclassified
-compiled,,,,
-deadlock freedom,,,,
 Denielou,,,,unclassified
 doubleBackup,,,,unclassified
-functional programming,,,,
 Gianluigi,,,,unclassified
 Graversen,,,,unclassified
 Hafner,,,,unclassified
 Haskellers,,,,unclassified
 higherorder,,,,unclassified
-Ishii,,,,
-Java,,,,
-Kiselyov,,,,
 Kohei,,,,unclassified
 LocTy,,,,unclassified
 Mendling,,,,unclassified
-Pascal,,,,
 Peressotti,,,,unclassified
 Pierre-Malo,,,,unclassified
 Prunet,,,,unclassified
@@ -122,7 +162,6 @@ sender's,,,,unclassified
 term-level,,,,unclassified
 Zavattaro,,,,unclassified
 AIOCJ,,,,unclassified
-alias,,,,
 alice.some-school.edu,,,,unclassified
 Alsberg,,,,unclassified
 backup1St,,,,unclassified
@@ -130,59 +169,42 @@ backup2St,,,,unclassified
 Basu,,,,unclassified
 Bultan,,,,unclassified
 Chlipala,,,,unclassified
-compiler,,,,Common-term
 Comput,,,,unclassified
-context,,,,Common-term
 cutting-edge,,,,unclassified
 Dagstuhl,,,,unclassified
-Deadlock,,,,
 Diffie,,,,unclassified
 Domain-Specific,,,,unclassified
-DSL,,,,
-ecosystem,,,,
 Gabbrielli,,,,unclassified
-generic,,,,
 getArgs,,,,unclassified
-GHC,,,,compiler tool
 github.com/gshen42/HasChor,,,,unclassified
-Glasgow Haskell Compiler,,,,compiler tool
 Hadoop,,,,unclassified
-https://doi.org,,,,unclassified
-https://www.w3,,,,unclassified
 Huttel,,,,unclassified
 IN-MEMORY,,,,unclassified
 Lampson,,,,unclassified
 Mestanogullari,,,,unclassified
 mkDecision,,,,unclassified
-modularity,,,,Common-term
 one-buyer,,,,unclassified
 OOPSLA,,,,unclassified
 Padovani,,,,unclassified
-polymorphic,,,,Common-term
 Ravara,,,,unclassified
 readRequest,,,,unclassified
-Redmond,,,,
 Renesse,,,,unclassified
 seller's,,,,unclassified
 Shvachko,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
 sub-choreography,,,,unclassified
 swappable,,,,unclassified
-unknown,,Gradual typing,,theory
 Ur/Web,,,,unclassified
 Vasco,,,,unclassified
 Vasconcelos,,,,unclassified
 3We,,,,unclassified
 4We,,,,unclassified
 7We,,,,unclassified
-Adam Chlipala,,,,Author
 Andrzej,,,,unclassified
-applicative,,,,Common-term
 as-yet-unspecified,,,,unclassified
 author(s,,,,unclassified
 Bhargavan,,,,unclassified
 big-cloud-service.com,,,,unclassified
-boilerplate,,,,
 Bonsangue,,,,unclassified
 book-selling,,,,unclassified
 bookstore.haskell.org,,,,unclassified
@@ -199,35 +221,25 @@ command-line,,,,unclassified
 Communication-Centered,,,,unclassified
 Communication-Centred,,,,unclassified
 computation.6,,,,unclassified
-conclusion,,,,
-concurrent,,,,Common-term
-consistency,,Gradual typing,,theory
-Coq,“Coq”,,,Common-term programming-language theorem-prover
 DataKinds,,,,unclassified
-datatype,,,,Common-term
 de)serialization,,,,unclassified
 Deadlock-Freedom-by-Design,,,,unclassified
-decidable,,,,
 Deepak,,,,unclassified
 developer-friendly,,,,unclassified
 Diffie-Hellman,,,,unclassified
 ECOOP,,,,unclassified
 efficiency/easeof-use,,,,unclassified
-Einar Broch Johnsen,,,,Author
 End-Point,,,,unclassified
 EPTCS,,,,unclassified
 ESORICS,,,,unclassified
 fault-tolerant,,,,unclassified
 Fournet,,,,unclassified
 fully-realized,,,,unclassified
-functor,,,,Common-term
 GADTs,,,,unclassified
 Gallesio,,,,unclassified
-Gay ,,,,Name
 Gesbert,,,,unclassified
 GHC.TypeLits,,,,unclassified
 Giachino,,,,unclassified
-Giuseppe Castagna,,,,Author
 Guidi,,,,unclassified
 Hairong,,,,unclassified
 Haskell-based,,,,unclassified
@@ -238,24 +250,14 @@ Hopjs,,,,unclassified
 hostname,,,,unclassified
 hostnames,,,,unclassified
 HTTP-based,,,,unclassified
-http://arxiv.org,,,,unclassified
-https://doi,,,,unclassified
-https://doi.org/10,,,,unclassified
-https://www,,,,unclassified
 ICSE,,,,unclassified
 ICTAC,,,,unclassified
 Informatik,,,,unclassified
 inmemory,,,,unclassified
 Inter-organizational,,,,unclassified
-IT University of Copenhagen,,,,Institution
 Jajodia,,,,unclassified
-JavaScript,,,,Common-term programming-language
-Jeremy Yallop,,,,Author
 Karthikeyan,,,,unclassified
-Kleisli,,,,
-Krishnamurthi,,,,
 Kuang,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 Leibniz-Zentrum,,,,unclassified
 LIPIcs,,,,unclassified
 locall,,,,unclassified
@@ -270,7 +272,6 @@ Map.empty,,,,unclassified
 Map.insert,,,,unclassified
 Map.lookup,,,,unclassified
 Mascardi,,,,unclassified
-match,,,,
 Meersman,,,,unclassified
 Mirko,,,,unclassified
 modifyIORef,,,,unclassified
@@ -284,7 +285,6 @@ Neykova,,,,unclassified
 no-op,,,,unclassified
 non-choreographic,,,,unclassified
 non-distributed,,,,unclassified
-optional,,,,
 org/TR/ws-cdl-10,,,,unclassified
 org/TR/ws-cdl-10-primer,,,,unclassified
 owner/author(s,,,,unclassified
@@ -293,7 +293,6 @@ patternmatch,,,,unclassified
 pen-and-paper,,,,unclassified
 Ph.D,,,,unclassified
 PolyChor,,,,unclassified
-Power,,,,
 Process-Oriented,,,,unclassified
 processpolymorphic,,,,unclassified
 programmer-friendly,,,,unclassified
@@ -303,19 +302,15 @@ readIORef,,,,unclassified
 recently-proposed,,,,unclassified
 refactor,,,,unclassified
 refactored,,,,unclassified
-reflect,,,,
 replication.5,,,,unclassified
 Roever,,,,unclassified
 Rumyana,,,,unclassified
-Sam Lindley,,,,Author
 Samik,,,,unclassified
 scrutinees,,,,unclassified
 SEFM,,,,unclassified
 Seidl,,,,unclassified
-Semantic,,,,Common-term
 server's,,,,unclassified
 server-side,,,,unclassified
-Shriram Krishnamurthi,,,,Author
 signature:7,,,,unclassified
 SIGPLANSIGACT,,,,unclassified
 single-buyer,,,,unclassified
@@ -334,8 +329,6 @@ update.4,,,,unclassified
 USENIX,,,,unclassified
 user-supplied,,,,unclassified
 Vieira,,,,unclassified
-Wadler,,,,Name
-well-typed,,,,Common-term
 WGP,,,,unclassified
 whole-program,,,,unclassified
 Willem-Paul,,,,unclassified

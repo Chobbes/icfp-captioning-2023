@@ -1,17 +1,17 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Giuseppe Castagna,,,,Author
+Adam Chlipala,,,,Author
+Matthew Lutze,,,,Author
+Peter Thiemann,,,,Author
+CNRS,,Centre national de la recherche scientifique ,,Institution
 subtyping,,,,Common-term
 K ,,“K axiom”,,
-structs,,,,unclassified
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 expression,,,,Common-term
 ref,,,,
-Giuseppe Castagna,,,,Author
 lemma,,,,Common-term
 Elixir,,,,Common-term programming-language
-readonly,,,,unclassified
 integer,,,,Common-term
-K-step,,,,unclassified
-key-types,,,,unclassified
 Semantic,,,,Common-term
 syntax,,,,Common-term
 match,,,,
@@ -20,45 +20,105 @@ optional,,,,
 semantics,,,,
 theorem,,,,Common-term
 Boolean,,,,
-set-theoretic,,,,unclassified
 decomposition,,,,
 induction,,,,Common-term
-Pfin,,,,unclassified
 Erlang,,,,Common-term programming-language
 pattern matching,,,,
 syntactic,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
+clause,,,,
+JavaScript,,,,Common-term programming-language
+matching,,“pattern matching”,,Common-term
+generic,,,,
+Go,,,,
+Hoare,Like “horse”,,,Name
+mutation,,,,
+Scala,,,,Common-term programming-language
+immutable,,,,Common-term
+OCaml,,,,Common-term programming-language
+Rust,,,,Common-term programming-language
+Cardelli,,,,
+intersection types,,,,Common-term
+Why,,,,
+Algol,,,,
+derivation,,,,
+inductive,,,,Common-term
+polymorphic,,,,Common-term
+polymorphism,,,,Common-term
+reduction,,,,Common-term
+well-typed,,,,Common-term
+constructor,,,,Common-term
+context,,,,Common-term
+derive,,,,
+functional programming,,,,
+Pottier,,,,
+recursive,,,,Common-term
+row polymorphism,,,,
+abstractions,,,,
+algorithmic,,,,Common-term
+backtrack,,,,Common-term
+backtracking,,,,Common-term
+Dependent types,,,,types
+extensional,,functions,,theory
+ML,,,,Programming-language
+operational semantics,,,,
+runtime,,,,Common-term
+type-checker,,,,Common-term
+array,,,,Common-term
+automata,,,,Common-term
+compiler,,,,Common-term
+conclusion,,,,
+concurrency,,,,Common-term
+conjunction,,,,
+decidability,,,,
+decidable,,,,
+dependent,,,,Common-term
+dynamic semantics,,,,
+Elimination,,,,
+expressiveness,,,,Common-term
+formalization,,,,Common-term
+gradually typed language,,,,
+Haskell,,,,Common-term programming-language
+Hindley-Milner,,,,
+instantiation,,,,
+IRIF,,,,Lab
+Java,,,,
+lambda-calculus,,,,Common-term
+lattice,,,,Common-term
+meta-programming,,,,
+metaprogramming,,,,Common-term
+metaprograms,,,,
+modularity,,,,Common-term
+recursion,,,,Common-term
+reduction semantics,,,,
+relational,,,,
+type checker,,,,Common-term
+untyped,,,,
+weak reduction,,,,
+structs,,,,unclassified
+readonly,,,,unclassified
+K-step,,,,unclassified
+key-types,,,,unclassified
+set-theoretic,,,,unclassified
+Pfin,,,,unclassified
 Castagna,,,,unclassified
 struct-like,,,,unclassified
-clause,,,,
 JK,,,,unclassified
-JavaScript,,,,Common-term programming-language
 CDuce,,,,unclassified
 def(R,,,,unclassified
 DxD,,,,unclassified
 false,,,,unclassified
 map-like,,,,unclassified
-matching,,“pattern matching”,,Common-term
 x.e,,,,unclassified
-generic,,,,
-Go,,,,
-Hoare,Like “horse”,,,Name
 key-type,,,,unclassified
-mutation,,,,
 run-time,,,,unclassified
-Scala,,,,Common-term programming-language
-immutable,,,,Common-term
 JSON,,,,unclassified
 Lua,,,,unclassified
 map-deletion,,,,unclassified
-OCaml,,,,Common-term programming-language
-Rust,,,,Common-term programming-language
 arity,,,,unclassified
 backtracking-free,,,,unclassified
-Cardelli,,,,
 component-wise,,,,unclassified
 contractivity,,,,unclassified
-intersection types,,,,Common-term
 keyexp,,,,unclassified
 KxJ,,,,unclassified
 map-selection,,,,unclassified
@@ -66,31 +126,19 @@ non-empty,,,,unclassified
 POPL,,,,unclassified
 read-and-write,,,,unclassified
 read-only,,,,unclassified
-Why,,,,
-Algol,,,,
 Benzaken,,,,unclassified
-derivation,,,,
 DxPfin,,,,unclassified
-inductive,,,,Common-term
 Jref,,,,unclassified
 loc(JK,,,,unclassified
 M-Sel,,,,unclassified
-polymorphic,,,,Common-term
-polymorphism,,,,Common-term
-reduction,,,,Common-term
 SIGPLAN,,,,unclassified
 type-checks,,,,unclassified
-well-typed,,,,Common-term
 cofinite,,,,unclassified
 coinduction,,,,unclassified
-constructor,,,,Common-term
-context,,,,Common-term
 D)xPfin,,,,unclassified
-derive,,,,
 E(ref,,,,unclassified
 Erlang's,,,,unclassified
 Erlang-style,,,,unclassified
-functional programming,,,,
 IntBool,,,,unclassified
 J.K,,,,unclassified
 L_T,,,,unclassified
@@ -99,35 +147,24 @@ loc(Int,,,,unclassified
 M-Del,,,,unclassified
 map-update,,,,unclassified
 not(R,,,,unclassified
-Pottier,,,,
-recursive,,,,Common-term
 reductum,,,,unclassified
-row polymorphism,,,,
 Typespec,,,,unclassified
 user-defined,,,,unclassified
 Zhiwu,,,,unclassified
 1loc,,,,unclassified
-abstractions,,,,
-algorithmic,,,,Common-term
-backtrack,,,,Common-term
-backtracking,,,,Common-term
 betwo,,,,unclassified
 Blog,,,,unclassified
 Bonnaire-Sergeant,,,,unclassified
 C.A.R,,,,unclassified
 Clojure,,,,unclassified
-CNRS,,Centre national de la recherche scientifique ,,Institution
 coinductively,,,,unclassified
 data-structures,,,,unclassified
-Dependent types,,,,types
 deref,,,,unclassified
 Duboc,,,,unclassified
 E(loc,,,,unclassified
 Elixir's,,,,unclassified
-extensional,,functions,,theory
 falafels,,,,unclassified
 https,,,,unclassified
-https://doi.org/10,,,,unclassified
 ill-typed,,,,unclassified
 J*K,,,,unclassified
 J0K,,,,unclassified
@@ -137,13 +174,10 @@ libraries/classes,,,,unclassified
 loc(IntBool,,,,unclassified
 map/struct,,,,unclassified
 Mickael,,,,unclassified
-ML,,,,Programming-language
 multi-field,,,,unclassified
 Nardelli,,,,unclassified
 number|string,,,,unclassified
-operational semantics,,,,
 row-variables,,,,unclassified
-runtime,,,,Common-term
 Sagonas,,,,unclassified
 second-order,,,,unclassified
 set-theoretically,,,,unclassified
@@ -152,7 +186,6 @@ Statically-Typed,,,,unclassified
 Stringnil,,,,unclassified
 subterms,,,,unclassified
 type-check,,,,unclassified
-type-checker,,,,Common-term
 Type-Level,,,,unclassified
 Typespec's,,,,unclassified
 Typespecs,,,,unclassified
@@ -166,19 +199,16 @@ xPfin,,,,unclassified
 a.k.a,,,,unclassified
 ACM-SIGPLAN,,,,unclassified
 ad-hoc,,,,unclassified
-Adam Chlipala,,,,Author
 adapte,,,,unclassified
 algorithm--obtained,,,,unclassified
 any.8,,,,unclassified
 APLAS,,,,unclassified
 application/json,,,,unclassified
 arguments--is,,,,unclassified
-array,,,,Common-term
 Artem,,,,unclassified
 as-patterns,,,,unclassified
 atoms--cf,,,,unclassified
 atoms--ranged,,,,unclassified
-automata,,,,Common-term
 B+DxD+Pfin,,,,unclassified
 Belyakova,,,,unclassified
 Bool}}--which,,,,unclassified
@@ -192,11 +222,7 @@ cell0,,,,unclassified
 "cellIntBool,IntBool",,,,unclassified
 Chlipala,,,,unclassified
 colon-prefixed,,,,unclassified
-compiler,,,,Common-term
 complement.2,,,,unclassified
-conclusion,,,,
-concurrency,,,,Common-term
-conjunction,,,,
 Constraint-Based,,,,unclassified
 contents--while,,,,unclassified
 contravariantly,,,,unclassified
@@ -209,18 +235,12 @@ D)xP,,,,unclassified
 D--which,,,,unclassified
 data-interchange,,,,unclassified
 DE(ref,,,,unclassified
-decidability,,,,
-decidable,,,,
-dependent,,,,Common-term
 DJK,,,,unclassified
 dom(R,,,,unclassified
 Dref,,,,unclassified
 DxP,,,,unclassified
-dynamic semantics,,,,
 dynamically-typed,,,,unclassified
-Elimination,,,,
 errors--but,,,,unclassified
-expressiveness,,,,Common-term
 f(x,,,,unclassified
 face-value,,,,unclassified
 fetch!(e1,,,,unclassified
@@ -228,26 +248,16 @@ fetch!(r,,,,unclassified
 Flow's,,,,unclassified
 follows:12,,,,unclassified
 foo(x,,,,unclassified
-formalization,,,,Common-term
 former--as,,,,unclassified
 formulaN,,,,unclassified
 Frisch's,,,,unclassified
 function--while,,,,unclassified
 functions14,,,,unclassified
 funcwhile,,,,unclassified
-gradually typed language,,,,
 hand-side,,,,unclassified
-Haskell,,,,Common-term programming-language
 her/his,,,,unclassified
 highly-optimized,,,,unclassified
-Hindley-Milner,,,,
 HTTP,,,,unclassified
-https://docs.julialang.org,,,,unclassified
-https://docs.scala-lang.org,,,,unclassified
-https://go.dev/ref/spec,,,,unclassified
-https://luau-lang.org,,,,unclassified
-https://ocaml.org/docs,,,,unclassified
-https://www.lua.org/manual,,,,unclassified
 Hyeonseung,,,,unclassified
 ICALP,,,,unclassified
 ICALP-PPDP,,,,unclassified
@@ -256,21 +266,16 @@ Implementation-wise,,,,unclassified
 input--a,,,,unclassified
 input--i.e,,,,unclassified
 input--needs,,,,unclassified
-instantiation,,,,
 IntxInt,,,,unclassified
 Int}}--since,,,,unclassified
-IRIF,,,,Lab
 is--by,,,,unclassified
 J1loc,,,,unclassified
-Java,,,,
 JavaScript's,,,,unclassified
 JVM,,,,unclassified
 keyexp)--while,,,,unclassified
 L_D,,,,unclassified
 labels.13,,,,unclassified
-lambda-calculus,,,,Common-term
 langage,,,,unclassified
-lattice,,,,Common-term
 left-to-right,,,,unclassified
 leftmost-outermost,,,,unclassified
 Lenglet,,,,unclassified
@@ -290,14 +295,9 @@ maps-like,,,,unclassified
 maps/dictionaries/hashes,,,,unclassified
 mapselection,,,,unclassified
 mapupdate,,,,unclassified
-Matthew Lutze,,,,Author
-meta-programming,,,,
 meta-theoretic,,,,unclassified
 meta-theoretically,,,,unclassified
-metaprogramming,,,,Common-term
-metaprograms,,,,
 metatheoretic,,,,unclassified
-modularity,,,,Common-term
 mutability--i.e,,,,unclassified
 mutatable,,,,unclassified
 nilInt,,,,unclassified
@@ -326,7 +326,6 @@ Padovani,,,,unclassified
 parentheses--e.g,,,,unclassified
 Pcofin,,,,unclassified
 Pelenitsyn,,,,unclassified
-Peter Thiemann,,,,Author
 Peyrot,,,,unclassified
 PHP,,,,unclassified
 PLDI,,,,unclassified
@@ -351,10 +350,7 @@ records-as-structs,,,,unclassified
 records.5,,,,unclassified
 records/structs,,,,unclassified
 records;6,,,,unclassified
-recursion,,,,Common-term
 reducendum,,,,unclassified
-reduction semantics,,,,
-relational,,,,
 representationO,,,,unclassified
 Roblox,,,,unclassified
 S(function,,,,unclassified
@@ -382,7 +378,6 @@ Telecom,,,,unclassified
 theNcase,,,,unclassified
 Theorie,,,,unclassified
 Tobin-Hochstadt,,,,unclassified
-type checker,,,,Common-term
 type--while,,,,unclassified
 Type-Cases,,,,unclassified
 type-error,,,,unclassified
@@ -391,14 +386,11 @@ type-systems,,,,unclassified
 type-theoretic,,,,unclassified
 typechecking,,,,unclassified
 types--which,,,,unclassified
-unknown,,Gradual typing,,theory
-untyped,,,,
 use-cases,,,,unclassified
 values--just,,,,unclassified
 Varacca,,,,unclassified
 viceversa,,,,unclassified
 w.r.t,,,,unclassified
-weak reduction,,,,
 Wei-Ngan,,,,unclassified
 well-given,,,,unclassified
 wild-card,,,,unclassified

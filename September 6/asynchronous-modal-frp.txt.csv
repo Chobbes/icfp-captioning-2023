@@ -1,193 +1,201 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-JK,,,,unclassified
+Patrick Bahr,,,,Author
+Koen Claessen,,,,Author
+Conal Elliott,,,,Author
+Frank Pfenning,Frank “Fenning”,,,Author
+Ivan Perez,,,,Author
+Lars Birkedal,,,,Author
+Neel Krishnaswami,,,,Author
+Ugo Dal Lago,,,,Author
+IT University of Copenhagen,,,,Institution
 lemma,,,,Common-term
 K ,,“K axiom”,,
-RaTT,,,,unclassified
 Async,,,,
 modal,,,,
 heap,,,,
 induction,,,,Common-term
-ICFP,,,,unclassified
-FRP,,,,unclassified
+ICFP,,,,Common-term
 context,,,,Common-term
-dfix,,,,unclassified
 GC,,garbage collector,,Common-term
-Mogelberg,,,,unclassified
 operational semantics,,,,
 semantics,,,,
-Ejlers,,,,unclassified
-Patrick Bahr,,,,Author
-Rasmus,,,,unclassified
 combinator,,,,Common-term
 theorem,,,,Common-term
-suc,,,,unclassified
-J(Sig,,,,unclassified
 recursive,,,,Common-term
-toggleSig,,,,unclassified
 well-typed,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
 Krishnaswami,,,,
 logical relation,,,,Common-term
-recNat,,,,unclassified
-sigAwait,,,,unclassified
 derivative,,,,
 garbage collection,,GC,,Common-term
-tick-free,,,,unclassified
 Haskell,,,,Common-term programming-language
-in1,,,,unclassified
-domp,,,,unclassified
-in2,,,,unclassified
 Kripke,,“Kripke semantics”,,Name
 reduction,,,,Common-term
 recursion,,,,Common-term
 zip,,,,
 Fitch-style,,,,
 functional programming,,,,
+modality,,,,Common-term
+discrete,,,,
+Elimination,,,,
+linear,,,,Common-term
+runtime,,,,Common-term
+syntax,,,,Common-term
+abstraction,,,,Common-term
+calculi,,,,
+concurrent,,,,Common-term
+Hudak,,,,Name
+abstractions,,,,
+constructor,,,,Common-term
+dependent,,,,Common-term
+expression,,,,Common-term
+higher-order,,,,Common-term
+modular,,,,Common-term
+adjoint,,,,theory
+Appel,,,,
+closure,,,,Common-term
+derivation,,,,
+linear-time,,,,Common-term
+metatheory,,,,Common-term
+modalities,,,,Common-term
+pattern matching,,,,
+quantified,,,,Common-term
+Semantic,,,,Common-term
+Trigger,,,,
+allocations,,,,Common-term
+applicative,,,,Common-term
+applicative functor,,,,
+async/await,,,,
+axiom,,,,
+categorical semantics,,,,
+closures,,,,Common-term
+conclusion,,,,
+concurrency,,,,Common-term
+Curry-Howard correspondence,,,,Common-term
+decomposition,,,,
+denotational semantics,,,,semantics
+derive,,,,
+expressiveness,,,,Common-term
+filter,,,,
+judgement,,dependent types,,theory
+lambda calculi,,,,Common-term
+linear types,,,,Common-term
+mogel@itu.dk,,,,email
+monadic,Mow-nad-ick,,,
+monotonicity,,Mathematical property,,Common-term
+multiLisp,,,,
+paba@itu.dk,,,,email
+Peterson,,,,
+pointer,,,,Common-term
+Swamy,,,,
+symbolic,,,,
+syntactic,,,,Common-term
+thunk,,,,Common-term evaluation
+JK,,,,unclassified
+RaTT,,,,unclassified
+FRP,,,,unclassified
+dfix,,,,unclassified
+Mogelberg,,,,unclassified
+Ejlers,,,,unclassified
+Rasmus,,,,unclassified
+suc,,,,unclassified
+J(Sig,,,,unclassified
+toggleSig,,,,unclassified
+recNat,,,,unclassified
+sigAwait,,,,unclassified
+tick-free,,,,unclassified
+in1,,,,unclassified
+domp,,,,unclassified
+in2,,,,unclassified
 Graulund,,,,unclassified
 keyPressed,,,,unclassified
-modality,,,,Common-term
 scanAwait,,,,unclassified
 SIGPLAN,,,,unclassified
 switchf,,,,unclassified
-discrete,,,,
-Elimination,,,,
 field1,,,,unclassified
 JFix,,,,unclassified
 JNatK,,,,unclassified
 JSig,,,,unclassified
-linear,,,,Common-term
 mouseCoord,,,,unclassified
 push-only,,,,unclassified
-runtime,,,,Common-term
-syntax,,,,Common-term
 waittoggle,,,,unclassified
-abstraction,,,,Common-term
 alloc,,,,unclassified
 buffered-only,,,,unclassified
-calculi,,,,
-concurrent,,,,Common-term
 https,,,,unclassified
-Hudak,,,,Name
-IT University of Copenhagen,,,,Institution
 Jeltsch,,,,unclassified
 JProd,,,,unclassified
 output-compute,,,,unclassified
 POPL,,,,unclassified
-abstractions,,,,
 Clouston,,,,unclassified
-constructor,,,,Common-term
-dependent,,,,Common-term
-expression,,,,Common-term
 floating-point,,,,unclassified
-higher-order,,,,Common-term
-modular,,,,Common-term
 Neelakantan,,,,unclassified
 time-dependent,,,,unclassified
 type-level,,,,unclassified
 Uldal,,,,unclassified
-adjoint,,,,theory
-Appel,,,,
 Barenz,,,,unclassified
 buffered-push,,,,unclassified
 Caspi,,,,unclassified
-closure,,,,Common-term
 Cosserat,,,,unclassified
-derivation,,,,
 ESTEREL,,,,unclassified
 field2,,,,unclassified
 floating-point-valued,,,,unclassified
 FRPNow,,,,unclassified
-Koen Claessen,,,,Author
-linear-time,,,,Common-term
 McAllester,,,,unclassified
-metatheory,,,,Common-term
-modalities,,,,Common-term
 Nakano,,,,unclassified
 optimisation,,,,unclassified
 output-end,,,,unclassified
 output-skip,,,,unclassified
-pattern matching,,,,
 Ploeg,,,,unclassified
 Pnueli,,,,unclassified
 Pouzet,,,,unclassified
-quantified,,,,Common-term
 Ranald,,,,unclassified
 run-time,,,,unclassified
-Semantic,,,,Common-term
 SIGPLAN-SIGACT,,,,unclassified
 suc+1,,,,unclassified
 time-varying,,,,unclassified
-Trigger,,,,
 two-heap,,,,unclassified
 waitsample,,,,unclassified
 waitup,,,,unclassified
 ACM/IEEE,,,,unclassified
 adv(wait,,,,unclassified
-allocations,,,,Common-term
-applicative,,,,Common-term
-applicative functor,,,,
-async/await,,,,
 asynchronicity,,,,unclassified
 Atze,,,,unclassified
-axiom,,,,
 Baier,,,,unclassified
 Bassel,,,,unclassified
 big-step,,,,unclassified
 Birkedal,,,,unclassified
 box(read,,,,unclassified
 box(wait,,,,unclassified
-categorical semantics,,,,
 Claessen,,,,unclassified
-closures,,,,Common-term
 comultiplication,,,,unclassified
-Conal Elliott,,,,Author
-conclusion,,,,
-concurrency,,,,Common-term
 counit,,,,unclassified
 CSL-LICS,,,,unclassified
-Curry-Howard correspondence,,,,Common-term
-decomposition,,,,
 delaycl,,,,unclassified
 delaycl(tick,,,,unclassified
 delaycl(wait,,,,unclassified
 delaycl(xs,,,,unclassified
-denotational semantics,,,,semantics
-derive,,,,
 Dmitrij,,,,unclassified
 dt.der,,,,unclassified
 dt.integral,,,,unclassified
 EACSL,,,,unclassified
 Expr,,,,unclassified
-expressiveness,,,,Common-term
-filter,,,,
 FoSSaCS,,,,unclassified
-Frank Pfenning,Frank “Fenning”,,,Author
 GUIs,,,,unclassified
 Halbwachs,,,,unclassified
 inducTo,,,,unclassified
 initialises,,,,unclassified
 internalise,,,,unclassified
-Ivan Perez,,,,Author
 J*K,,,,unclassified
 J1K,,,,unclassified
-judgement,,dependent types,,theory
 KeyCode,,,,unclassified
 Krishnaswami's,,,,unclassified
-lambda calculi,,,,Common-term
-Lars Birkedal,,,,Author
 let-binding,,,,unclassified
 LICS,,,,unclassified
-linear types,,,,Common-term
 LRI,,,,unclassified
 Mannaa,,,,unclassified
 Maybe(Char,,,,unclassified
-mogel@itu.dk,,,,email
-monadic,Mow-nad-ick,,,
-monotonicity,,Mathematical property,,Common-term
 mouseClick,,,,unclassified
 MuliLisp,,,,unclassified
-multiLisp,,,,
-Neel Krishnaswami,,,,Author
 Nikhil,,,,unclassified
 non-causal,,,,unclassified
 non-deterministic,,,,unclassified
@@ -195,16 +203,13 @@ non-empty,,,,unclassified
 non-standard,,,,unclassified
 non-zero,,,,unclassified
 owner/author(s,,,,unclassified
-paba@itu.dk,,,,email
 Panangaden,,,,unclassified
 parameterised,,,,unclassified
 Paris-Sud,,,,unclassified
-Peterson,,,,
 Pfenning,,,,unclassified
 Pientka,,,,unclassified
 Pilaud,,,,unclassified
 PLPV,,,,unclassified
-pointer,,,,Common-term
 Proof-carrying,,,,unclassified
 readFile,,,,unclassified
 readsample,,,,unclassified
@@ -215,15 +220,10 @@ single-heap,,,,unclassified
 step-indexing,,,,unclassified
 subclocks,,,,unclassified
 suc(suc,,,,unclassified
-Swamy,,,,
-symbolic,,,,
 synchronises,,,,unclassified
-syntactic,,,,Common-term
 Szamozvancev,,,,unclassified
-thunk,,,,Common-term evaluation
 time-leaks,,,,unclassified
 transitioning,,,,unclassified
-Ugo Dal Lago,,,,Author
 Ultrametric,,,,unclassified
 unfoldings,,,,unclassified
 value(s,,,,unclassified

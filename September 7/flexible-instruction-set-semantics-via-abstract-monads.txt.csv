@@ -1,45 +1,112 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-semantics,,,,
-RISC-V,,,,unclassified
-Haskell,,,,Common-term programming-language
-instruction,,,,
-Coq,“Coq”,,,Common-term programming-language theorem-prover
-monad,Mow-nad,,,Common-term
-ICFP,,,,unclassified
-compiler,,,,Common-term
-register,,,,
-RiscvMachine,,,,unclassified
 Samuel Gruetter,,,,Author
 Adam Chlipala,,,,Author
 Andres Erbsen,,,,Author
-Instruction-Set,,,,unclassified
-Sail,,,,
 Thomas Bourgeat,,,,Author
 Andy Wright,,,,Author
 Ian Clester,,,,Author
 Pratap Singh,,,,Author
+Derek Dreyer,,,,Author
+Joachim Breitner,,,,Author
+Koen Claessen,,,,Author
+Leonardo de Moura,,,,Author
+Neel Krishnaswami,,,,Author
+Shriram Krishnamurthi,,,,Author
+Stephanie Weirich,,,,Author
+Yannick Zakowski,,,,Author
+Yao Li,,,,Author
+semantics,,,,
+Haskell,,,,Common-term programming-language
+instruction,,,,
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+monad,Mow-nad,,,Common-term
+ICFP,,,,Common-term
+compiler,,,,Common-term
+register,,,,
+Sail,,,,
+theorem,,,,Common-term
+I/O,“eye-oh”,,,
+nondeterminism,,,,
+integer,,,,Common-term
+monadic,Mow-nad-ick,,,
+Verilog,,,,Programming-language
+instantiation,,,,
+model checking,,Automatic theorem proving,,technique tool
+Wadler,,,,Name
+Armstrong,,,,
+functional programming,,,,
+GHC,,,,compiler tool
+quantified,,,,Common-term
+axioms,,,,
+DSL,,,,
+formalization,,,,Common-term
+HOL4,hol as in “hollow”,This is theorem proving software,,tool
+abstraction,,,,Common-term
+category,,,,
+constructor,,,,Common-term
+ecosystem,,,,
+freer monads,,,,
+Ishii,,,,
+Kiselyov,,,,
+Liang,,,,Name
+monad transformer,,,,Common-term
+nondeterministic,,,,
+normalization,,computations,,theory
+Prop,,,,
+recursive,,,,Common-term
+symbolic,,,,
+syntax,,,,Common-term
+Why,,,,
+algebraic datatype,,,,Common-term
+alias,,,,
+AST ,A.S.T.,Abstract Syntax Tree,,
+axiomatic,,,,
+backtracking,,,,Common-term
+conclusion,,,,
+context,,,,Common-term
+CPU,,,,
+datatype,,,,Common-term
+dependent,,,,Common-term
+Dependent types,,,,types
+enumeration,,,,Common-term
+generic,,,,
+higher-order,,,,Common-term
+Hudak,,,,Name
+inductive,,,,Common-term
+Java,,,,
+Jim,,,,
+Maranget,,,,
+matching,,“pattern matching”,,Common-term
+modular,,,,Common-term
+modularity,,,,Common-term
+monolithic,,,,
+Multicore,,,,
+normalize,,computations,,theory
+polymorphism,,,,Common-term
+protocol,,,,
+recursion,,,,Common-term
+relational,,,,
+runtime,,,,Common-term
+Semantic,,,,Common-term
+SMT solver,,Type of tool for solving SMT problems,,Tool
+stack,,,,
+syntactic,,,,Common-term
+RISC-V,,,,unclassified
+RiscvMachine,,,,unclassified
+Instruction-Set,,,,unclassified
 domain-specific,,,,unclassified
 hs-to-coq,,,,unclassified
 OStateND,,,,unclassified
 SourceType,,,,unclassified
-theorem,,,,Common-term
 Int32,,,,unclassified
 type-class,,,,unclassified
-I/O,“eye-oh”,,,
 MachineInt,,,,unclassified
-nondeterminism,,,,
 rs1,,,,unclassified
 bitSlice,,,,unclassified
-integer,,,,Common-term
-monadic,Mow-nad-ick,,,
-Verilog,,,,Programming-language
 CakeML,,,,unclassified
-instantiation,,,,
 MMIO,,,,unclassified
 mmio_load32,,,,unclassified
-model checking,,Automatic theorem proving,,technique tool
 rs2,,,,unclassified
-Wadler,,,,Name
 ACL2,,,,unclassified
 compiler-correctness,,,,unclassified
 endCycle,,,,unclassified
@@ -48,13 +115,10 @@ mcomp_sat,,,,unclassified
 model-checking,,,,unclassified
 Myreen,,,,unclassified
 riscv-formal,,,,unclassified
-Armstrong,,,,
 Erbsen,,,,unclassified
 Flur,,,,unclassified
 formal-methods,,,,unclassified
-functional programming,,,,
 getRegister,,,,unclassified
-GHC,,,,compiler tool
 Haskell's,,,,unclassified
 Int64,,,,unclassified
 Linux,,,,unclassified
@@ -63,21 +127,16 @@ MachineWidth,,,,unclassified
 memory-mapped,,,,unclassified
 newPC,,,,unclassified
 POPL,,,,unclassified
-quantified,,,,Common-term
 raiseException,,,,unclassified
 setRegister,,,,unclassified
 SIGPLAN,,,,unclassified
 ad-hoc,,,,unclassified
 appendLog,,,,unclassified
 Asanovic,,,,unclassified
-axioms,,,,
 bitwidths,,,,unclassified
-DSL,,,,
 DSLs,,,,unclassified
 forall,,,,unclassified
-formalization,,,,Common-term
 Gruetter,,,,unclassified
-HOL4,hol as in “hollow”,This is theorem proving software,,tool
 Islaris,,,,unclassified
 isMMIOAddr,,,,unclassified
 JALR,,,,unclassified
@@ -94,7 +153,6 @@ Shaked,,,,unclassified
 simm12,,,,unclassified
 stobj,,,,unclassified
 storeWord,,,,unclassified
-abstraction,,,,Common-term
 Alkassar,,,,unclassified
 ARMv8,,,,unclassified
 ASL,,,,unclassified
@@ -104,17 +162,13 @@ bitwidth,,,,unclassified
 Bjesse,,,,unclassified
 Blott,,,,unclassified
 Breitner,,,,unclassified
-category,,,,
 checkReservation,,,,unclassified
 Clash's,,,,unclassified
 clearReservation,,,,unclassified
-constructor,,,,Common-term
 CSRField,,,,unclassified
 Dagstuhl,,,,unclassified
-ecosystem,,,,
 Floating-Point,,,,unclassified
 FPRegister,,,,unclassified
-freer monads,,,,
 fromImm,,,,unclassified
 fromIntegral,,,,unclassified
 getFPRegister,,,,unclassified
@@ -122,31 +176,23 @@ getPC,,,,unclassified
 InstructionI,,,,unclassified
 Int16,,,,unclassified
 Int8,,,,unclassified
-Ishii,,,,
 ITP,,,,unclassified
 Kanabar,,,,unclassified
 Kiam,,,,unclassified
-Kiselyov,,,,
 Kokologiannakis,,,,unclassified
 Krste,,,,unclassified
-Liang,,,,Name
 Loow,,,,unclassified
 makeReservation,,,,unclassified
-monad transformer,,,,Common-term
 Nikhil,,,,unclassified
 non-RISC-V-compliant,,,,unclassified
-nondeterministic,,,,
-normalization,,computations,,theory
 oimm12,,,,unclassified
 OState,,,,unclassified
 Prashanth,,,,unclassified
 PrivMode,,,,unclassified
-Prop,,,,
 Pulte,,,,unclassified
 QEMU,,,,unclassified
 raiseExceptionWithInfo,,,,unclassified
 Ramana,,,,unclassified
-recursive,,,,Common-term
 riscv-tests,,,,unclassified
 Rishiyur,,,,unclassified
 Sail's,,,,unclassified
@@ -158,8 +204,6 @@ Shilpi,,,,unclassified
 SMT-based,,,,unclassified
 source-language,,,,unclassified
 standard-library,,,,unclassified
-symbolic,,,,
-syntax,,,,Common-term
 two-layer,,,,unclassified
 Use-case,,,,unclassified
 Vafeiadis,,,,unclassified
@@ -167,14 +211,11 @@ VeriSoft,,,,unclassified
 virtual-memory,,,,unclassified
 VirtualMemory,,,,unclassified
 weakest-precondition,,,,unclassified
-Why,,,,
 Xia,,,,unclassified
 2-thread,,,,unclassified
 "a,s",,,,unclassified
 Abrahamsson,,,,unclassified
 abstract)2,,,,unclassified
-algebraic datatype,,,,Common-term
-alias,,,,
 always-failing,,,,unclassified
 Andronick,,,,unclassified
 application-agnostic,,,,unclassified
@@ -185,11 +226,8 @@ ARMv6,,,,unclassified
 ARMv7,,,,unclassified
 ARMv8-A,,,,unclassified
 Artem,,,,unclassified
-AST ,A.S.T.,Abstract Syntax Tree,,
 auto-generated,,,,unclassified
-axiomatic,,,,
 backend,,,,unclassified
-backtracking,,,,Common-term
 Bedrock2,,,,unclassified
 Bedrock2ToCava.v,,,,unclassified
 Beringer,,,,unclassified
@@ -208,34 +246,26 @@ compilercorrectness,,,,unclassified
 complete-enough,,,,unclassified
 composability,,,,unclassified
 Computer-Aided,,,,unclassified
-conclusion,,,,
 constraint-solving,,,,unclassified
-context,,,,Common-term
 continuation-passing-style,,,,unclassified
 control-flow,,,,unclassified
 control-flow-like,,,,unclassified
 control/data/addr,,,,unclassified
 copy-on-write,,,,unclassified
-CPU,,,,
 CSR-file,,,,unclassified
 cycle's,,,,unclassified
 DATA-AVAILABILITY,,,,unclassified
-datatype,,,,Common-term
 DDR4,,,,unclassified
 decodeI,,,,unclassified
 Deepak,,,,unclassified
 dependency-bookkeeping,,,,unclassified
-dependent,,,,Common-term
-Dependent types,,,,types
 depth-first,,,,unclassified
-Derek Dreyer,,,,Author
 difverification,,,,unclassified
 distributed-systems,,,,unclassified
 early-exit,,,,unclassified
 early-return,,,,unclassified
 encode/decode,,,,unclassified
 end-to-end-verified,,,,unclassified
-enumeration,,,,Common-term
 exceptions/interrupts,,,,unclassified
 Eyad,,,,unclassified
 ferent,,,,unclassified
@@ -252,7 +282,6 @@ funct3==funct3_BEQ,,,,unclassified
 funct3==funct3_SW,,,,unclassified
 Garage-Door,,,,unclassified
 generalpurpose,,,,unclassified
-generic,,,,
 getCSRField,,,,unclassified
 getPlatform,,,,unclassified
 getPrivMode,,,,unclassified
@@ -266,23 +295,18 @@ Haskell-level,,,,unclassified
 Haskell-like,,,,unclassified
 Haskell-to-hardware,,,,unclassified
 high-level-language,,,,unclassified
-higher-order,,,,Common-term
 highest-profile,,,,unclassified
 Hillebrand,,,,unclassified
 Hiromi,,,,unclassified
 Hoare-logic-style,,,,unclassified
 Hrutvik,,,,unclassified
 hs-to-coq's,,,,unclassified
-https://clash-lang.org,,,,unclassified
-https://samuelgruetter,,,,unclassified
-Hudak,,,,Name
 human-readable,,,,unclassified
 Hur,,,,unclassified
 I-immediate,,,,unclassified
 I-type,,,,unclassified
 immediates,,,,unclassified
 imperative-looking,,,,unclassified
-inductive,,,,Common-term
 industrial-strength,,,,unclassified
 Informatik,,,,unclassified
 input-language,,,,unclassified
@@ -293,12 +317,8 @@ interpreter-style,,,,unclassified
 invalid-instruction,,,,unclassified
 ISA-semantics,,,,unclassified
 iset,,,,unclassified
-Java,,,,
-Jim,,,,
-Joachim Breitner,,,,Author
 Joonwon,,,,unclassified
 jump-and-link-register,,,,unclassified
-Koen Claessen,,,,Author
 L3-based,,,,unclassified
 language-translation,,,,unclassified
 learnability,,,,unclassified
@@ -307,7 +327,6 @@ Leeuwen,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
 Leinenbach,,,,unclassified
 Lennart,,,,unclassified
-Leonardo de Moura,,,,Author
 Lepigre,,,,unclassified
 Li-yao,,,,unclassified
 LIPIcs,,,,unclassified
@@ -319,8 +338,6 @@ Machine-language,,,,unclassified
 machine-width-independent,,,,unclassified
 Machine.hs,,,,unclassified
 Malecha,,,,unclassified
-Maranget,,,,
-matching,,“pattern matching”,,Common-term
 memorymodel,,,,unclassified
 metatheorems,,,,unclassified
 Michalis,,,,unclassified
@@ -328,20 +345,14 @@ Minimal32,,,,unclassified
 mixed-size,,,,unclassified
 model-check,,,,unclassified
 model-checked,,,,unclassified
-modular,,,,Common-term
-modularity,,,,Common-term
 monad-transformer,,,,unclassified
-monolithic,,,,
 moresignificant,,,,unclassified
-Multicore,,,,
 Multiply/Divide,,,,unclassified
 multisize,,,,unclassified
 Natarajan,,,,unclassified
-Neel Krishnaswami,,,,Author
 net/assets/softmul.pdf,,,,unclassified
 non-MIT,,,,unclassified
 nondeterminis,,,,unclassified
-normalize,,computations,,theory
 Norrish,,,,unclassified
 opcode==opcode_BRANCH,,,,unclassified
 opcode==opcode_STORE,,,,unclassified
@@ -355,21 +366,16 @@ partial-execution,,,,unclassified
 performance-aware,,,,unclassified
 Pichon-Pharabod,,,,unclassified
 PLDI,,,,unclassified
-polymorphism,,,,Common-term
 processorcorrectness,,,,unclassified
 proof-specific,,,,unclassified
-protocol,,,,
 Ramakrishnan,,,,unclassified
 Real-World,,,,unclassified
-recursion,,,,Common-term
-relational,,,,
 release/acquire,,,,unclassified
 remu,,,,unclassified
 rep=rep1&type=pdf,,,,unclassified
 RISC-V's,,,,unclassified
 Rizkallah,,,,unclassified
 Root-of-Trust,,,,unclassified
-runtime,,,,Common-term
 RV32I,,,,unclassified
 rv64mi,,,,unclassified
 rv64si,,,,unclassified
@@ -380,9 +386,7 @@ Sail-specific,,,,unclassified
 Satnam,,,,unclassified
 Schirmer,,,,unclassified
 self-modifying,,,,unclassified
-Semantic,,,,Common-term
 setPrivMode,,,,unclassified
-Shriram Krishnamurthi,,,,Author
 sign-extended,,,,unclassified
 signExtend,,,,unclassified
 SIGPLAN-SIGACT,,,,unclassified
@@ -390,11 +394,9 @@ SIGPLANSIGACT,,,,unclassified
 simplest-possible,,,,unclassified
 simplified3,,,,unclassified
 single-cycle,,,,unclassified
-SMT solver,,Type of tool for solving SMT problems,,Tool
 specification-reconciliation,,,,unclassified
 Spector-Zabusky,,,,unclassified
 Springer-Verlag,,,,unclassified
-stack,,,,
 Starostin,,,,unclassified
 State(S,,,,unclassified
 state-like,,,,unclassified
@@ -402,12 +404,10 @@ state-monad,,,,unclassified
 state-ofthe-art,,,,unclassified
 state-threading,,,,unclassified
 state-update,,,,unclassified
-Stephanie Weirich,,,,Author
 store-word,,,,unclassified
 storeByte,,,,unclassified
 storeDouble,,,,unclassified
 storeHalf,,,,unclassified
-syntactic,,,,Common-term
 TPHOLs,,,,unclassified
 trade-offs,,,,unclassified
 unsafeSetCSRField,,,,unclassified
@@ -423,8 +423,6 @@ wall-clock,,,,unclassified
 Wassell,,,,unclassified
 Wiegley,,,,unclassified
 work's,,,,unclassified
-Yannick Zakowski,,,,Author
-Yao Li,,,,Author
 Yosys,,,,unclassified
 Zam,,,,unclassified
 Zdancewic,,,,unclassified

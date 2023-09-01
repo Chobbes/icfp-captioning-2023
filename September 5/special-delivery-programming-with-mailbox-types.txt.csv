@@ -1,57 +1,140 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
+Simon Fowler,,,,Author
+Phil Trinder,,,,Author
+Duncan Paul Attard,,,,Author
+Franciszek Sowul,,,,Author
+Sam Lindley,,,,Author
+Einar Broch Johnsen,,,,Author
+Mira Mezini,,Author,,Author
+Sebastian Erdweg,,,,Author
+Amal Ahmed,,,,Author
+Giuseppe Castagna,,,,Author
+Matthias Krebs,,Author,,Author
+Naoki Kobayashi,,,,Author
+Neel Krishnaswami,,,,Author
+Peter Thiemann,,,,Author
+Robbert Krebbers,,,,Author
+GitHub,,,,Institution
 algorithmic,,,,Common-term
 calculus,,Used to describe a core simple programming language,,Common-term
-Padovani,,,,unclassified
-ICFP,,,,unclassified
+ICFP,,,,Common-term
 subtyping,,,,Common-term
 expression,,,,Common-term
 Gay ,,,,Name
-Simon Fowler,,,,Author
 concurrent,,,,Common-term
 runtime,,,,Common-term
 aliasing,,,,
-Phil Trinder,,,,Author
 session types,,,,
-Duncan Paul Attard,,,,Author
-Franciszek Sowul,,,,Author
 capability,,,,
-Yoshida,,,,unclassified
 Erlang,,,,Common-term programming-language
 stack,,,,
 context,,,,Common-term
-de'Liguoro,,,,unclassified
 co-contextual,,,,
 continuation,,,,
-Neykova,,,,unclassified
 quasi-linear,,,,Common-term
 linear,,,,Common-term
-Vasconcelos,,,,unclassified
 syntactic,,,,Common-term
 bidirectional,,,,
-emptyFuture,,,,unclassified
 Honda,,,,
 contextual,,,,Common-term
 semantics,,,,
-typechecking,,,,unclassified
 syntax,,,,Common-term
-usage-annotated,,,,unclassified
 derivation,,,,
 expressiveness,,,,Common-term
-Put[5,,,,unclassified
 Elixir,,,,Common-term programming-language
 judgement,,dependent types,,theory
-Nobuko,,,,unclassified
-Vasco,,,,unclassified
 concurrency,,,,Common-term
-ECOOP,,,,unclassified
-fullFuture(self,,,,unclassified
 K ,,“K axiom”,,
 sequential ,,,,
 theorem,,,,Common-term
 typechecker,,,,Common-term
+derivative,,,,
+reduction,,,,Common-term
+axioms,,,,
+Go,,,,
+Java,,,,
+linear types,,,,Common-term
+protocol,,,,
+Wadler,,,,Name
+AGERE!@SPLASH,,,,email
+automata,,,,Common-term
+clause,,,,
+operational semantics,,,,
+scoped,,,,Common-term
+type checker,,,,Common-term
+well-typed,,,,Common-term
+alias,,,,
+calculi,,,,
+conclusion,,,,
+de Moura,,,,
+Elimination,,,,
+higher-order,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+let-bound,,,,Common-term
+Levy,,,,
+McBride,,,,Name
+metatheory,,,,Common-term
+nondeterministic,,,,
+OCaml,,,,Common-term programming-language
+polymorphism,,,,Common-term
+recursive,,,,Common-term
+Scala,,,,Common-term programming-language
+unidirectional,,,,Common-term
+weakening,,,,Common-term
+Why,,,,
+Z3,,Tool to automatically prove theorems,,Tool
+Ahmed,,,,Name
+algebra,,,,
+Boolean,,,,
+compiled,,,,
+congruence,,,,Common-term
+conservative,,,,theory
+decidable,,,,
+dependent,,,,Common-term
+desugaring,,,,Common-term
+duncan.attard@glasgow.ac.uk,,,,email
+functional programming,,,,
+Haskell,,,,Common-term programming-language
+Id,,,,
+integer,,,,Common-term
+IR ,I.R.,intermediate representation,,
+Kokke,,,,
+Krishnaswami,,,,
+matching,,“pattern matching”,,Common-term
+memory management,,,,Common-term
+ML,,,,Programming-language
+model checking,,Automatic theorem proving,,technique tool
+modularity,,,,Common-term
+MSFP@FSCD,,,,email
+PLACES@ETAPS,,,,email
+polymorphic,,,,Common-term
+Power,,,,
+quantifier,,,,Common-term
+reduction relation,,,,
+register,,,,
+Rust,,,,Common-term programming-language
+SCALA@ECOOP,,,,email
+scalability,,,,
+Semantic,,,,Common-term
+simon.fowler@glasgow.ac.uk,,,,email
+simon.gay@glasgow.ac.uk,,,,email
+SMT solver,,Type of tool for solving SMT problems,,Tool
+syntax-directed,,,,
+Padovani,,,,unclassified
+Yoshida,,,,unclassified
+de'Liguoro,,,,unclassified
+Neykova,,,,unclassified
+Vasconcelos,,,,unclassified
+emptyFuture,,,,unclassified
+typechecking,,,,unclassified
+usage-annotated,,,,unclassified
+Put[5,,,,unclassified
+Nobuko,,,,unclassified
+Vasco,,,,unclassified
+ECOOP,,,,unclassified
+fullFuture(self,,,,unclassified
 channel-based,,,,unclassified
 Comput,,,,unclassified
-derivative,,,,
 Ennals,,,,unclassified
 Francalanza,,,,unclassified
 FullFuture,,,,unclassified
@@ -60,40 +143,30 @@ Kohei,,,,unclassified
 Mostrous,,,,unclassified
 multiset,,,,unclassified
 Presburger,,,,unclassified
-reduction,,,,Common-term
 Tabone,,,,unclassified
 unr,,,,unclassified
-axioms,,,,
 communication-centric,,,,unclassified
 Crafa,,,,unclassified
 Dagstuhl,,,,unclassified
 dom(1,,,,unclassified
 EPTCS,,,,unclassified
 Get[s,,,,unclassified
-Go,,,,
 https,,,,unclassified
 Informatik,,,,unclassified
 intToString,,,,unclassified
-Java,,,,
 Leibniz-Zentrum,,,,unclassified
-linear types,,,,Common-term
 LIPIcs,,,,unclassified
 master-worker,,,,unclassified
 POPL,,,,unclassified
-protocol,,,,
 Session-Based,,,,unclassified
 Session-typed,,,,unclassified
 synthesisable,,,,unclassified
 T-Sub,,,,unclassified
 Tbl,,,,unclassified
 use-after-free,,,,unclassified
-Wadler,,,,Name
 Zeilberger,,,,unclassified
 actor-based,,,,unclassified
-AGERE!@SPLASH,,,,email
-automata,,,,Common-term
 Brzozowski,,,,unclassified
-clause,,,,
 ClientSend,,,,unclassified
 Context-Free,,,,unclassified
 dom(2,,,,unclassified
@@ -107,40 +180,31 @@ Get[self,,,,unclassified
 inter-process,,,,unclassified
 Kuci,,,,unclassified
 Msg[1,,,,unclassified
-operational semantics,,,,
 Rumyana,,,,unclassified
 Sagonas,,,,unclassified
-Sam Lindley,,,,Author
-scoped,,,,Common-term
 self-deadlocks,,,,unclassified
 T-New,,,,unclassified
 T-Spawn,,,,unclassified
 TC-Thread,,,,unclassified
 Thudichum,,,,unclassified
 TS-App,,,,unclassified
-type checker,,,,Common-term
 type-checking,,,,unclassified
 Typestate-Oriented,,,,unclassified
 useAfterFree2,,,,unclassified
 useAfterFree3,,,,unclassified
-well-typed,,,,Common-term
-alias,,,,
 Amadio,,,,unclassified
 Bagherzadeh,,,,unclassified
 Bjorner,,,,unclassified
 Bollig,,,,unclassified
 Bracevac,,,,unclassified
-calculi,,,,
 call-by-value,,,,unclassified
 Chaudhuri,,,,unclassified
 Christakis,,,,unclassified
 Ciccone,,,,unclassified
 ClientRecv,,,,unclassified
 closed-form,,,,unclassified
-conclusion,,,,
 correct-by-construction,,,,unclassified
 Dardha,,,,unclassified
-de Moura,,,,
 Denielou,,,,unclassified
 DGs,,,,unclassified
 Dunfield,,,,unclassified
@@ -152,8 +216,6 @@ E-Recv,,,,unclassified
 E-Send,,,,unclassified
 E-Spawn,,,,unclassified
 Edlira,,,,unclassified
-Einar Broch Johnsen,,,,Author
-Elimination,,,,
 emptyFuture(self,,,,unclassified
 engaged(self,,,,unclassified
 envs,,,,unclassified
@@ -163,25 +225,15 @@ full_future,,,,unclassified
 Funct,,,,unclassified
 Get[ClientSend,,,,unclassified
 Gonthier,,,,unclassified
-higher-order,,,,Common-term
-https://doi.org/10,,,,unclassified
 Huttel,,,,unclassified
 initialises,,,,unclassified
 J1K,,,,unclassified
 Kamburjan,,,,unclassified
 Kozen,,,,unclassified
 Kubo,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
 let-binding,,,,unclassified
-let-bound,,,,Common-term
-Levy,,,,
 Makoto,,,,unclassified
-McBride,,,,Name
 metatheoretical,,,,unclassified
-metatheory,,,,Common-term
-Mira Mezini,,Author,,Author
-nondeterministic,,,,
-OCaml,,,,Common-term programming-language
 OOPSLA,,,,unclassified
 Ornela,,,,unclassified
 Osvald,,,,unclassified
@@ -189,20 +241,16 @@ Parikh,,,,unclassified
 Peer-to-peer,,,,unclassified
 Pierre-Malo,,,,unclassified
 PNF,,,,unclassified
-polymorphism,,,,Common-term
 Prepare(PartNum,,,,unclassified
 print(intToString(result,,,,unclassified
 Rajan,,,,unclassified
 re-binding,,,,unclassified
 real-world,,,,unclassified
-recursive,,,,Common-term
 Reply[Int,,,,unclassified
 Reply[r,,,,unclassified
 Reply[result,,,,unclassified
 Rouvoet,,,,unclassified
-Scala,,,,Common-term programming-language
 Scalas,,,,unclassified
-Sebastian Erdweg,,,,Author
 side-effecting,,,,unclassified
 single-reader,,,,unclassified
 Spanier,,,,unclassified
@@ -239,19 +287,12 @@ TS-Const,,,,unclassified
 TS-New,,,,unclassified
 TS-Spawn,,,,unclassified
 type-level,,,,unclassified
-unidirectional,,,,Common-term
 useAfterFree1,,,,unclassified
-weakening,,,,Common-term
-Why,,,,
-Z3,,Tool to automatically prove theorems,,Tool
 2nd-class,,,,unclassified
 a?m,,,,unclassified
 AccountF,,,,unclassified
 Actyx,,,,unclassified
-Ahmed,,,,Name
 Alayon,,,,unclassified
-algebra,,,,
-Amal Ahmed,,,,Author
 Andreia,,,,unclassified
 Arjen,,,,unclassified
 Aronis,,,,unclassified
@@ -260,7 +301,6 @@ Behaviourally-typed,,,,unclassified
 Bejleri,,,,unclassified
 Benussi,,,,unclassified
 Bisimulations,,,,unclassified
-Boolean,,,,
 bottom-up,,,,unclassified
 Boudeville,,,,unclassified
 Bravetti,,,,unclassified
@@ -274,20 +314,13 @@ co-)effect,,,,unclassified
 co-de,,,,unclassified
 coinductively,,,,unclassified
 Communication-Based,,,,unclassified
-compiled,,,,
-congruence,,,,Common-term
 conguard,,,,unclassified
-conservative,,,,theory
 cs.PL,,,,unclassified
 currentlyevaluating,,,,unclassified
 Deadlock-Free,,,,unclassified
-decidable,,,,
 Deliver(robot,,,,unclassified
 Delivered(self,,,,unclassified
-dependent,,,,Common-term
-desugaring,,,,Common-term
 domain-specific,,,,unclassified
-duncan.attard@glasgow.ac.uk,,,,email
 E-Nu,,,,unclassified
 E-Par,,,,unclassified
 E-Struct,,,,unclassified
@@ -307,36 +340,27 @@ Fluet,,,,unclassified
 Fork-join,,,,unclassified
 FoSSaCS,,,,unclassified
 fully-defined,,,,unclassified
-functional programming,,,,
 Fundam,,,,unclassified
 Gesbert,,,,unclassified
 Get[user,,,,unclassified
 Giachino,,,,unclassified
 Gianluigi,,,,unclassified
-GitHub,,,,Institution
-Giuseppe Castagna,,,,Author
 given(self,,,,unclassified
 glasgow.ac.uk,,,,unclassified
 GoIn,,,,unclassified
 GoOut,,,,unclassified
 Habermehl,,,,unclassified
-Haskell,,,,Common-term programming-language
 Hayo,,,,unclassified
 Hridesh,,,,unclassified
-http://noamz.org/papers,,,,unclassified
-https://www.actyx.com,,,,unclassified
 ICALP,,,,unclassified
 ICFEM,,,,unclassified
-Id,,,,
 Ilaria,,,,unclassified
 Informaticae,,,,unclassified
 Int.!Int.?Bool.End,,,,unclassified
 Int.?Int.!Bool.End,,,,unclassified
-integer,,,,Common-term
 Interaction-based,,,,unclassified
 intrinsically-typed,,,,unclassified
 "io:fwrite(""~w~n",,,,unclassified
-IR ,I.R.,intermediate representation,,
 J0K,,,,unclassified
 Janusz,,,,unclassified
 Java's,,,,unclassified
@@ -347,8 +371,6 @@ K-Fork,,,,unclassified
 Kaku,,,,unclassified
 KFork,,,,unclassified
 Kleene,,,,unclassified
-Kokke,,,,
-Krishnaswami,,,,
 Lanese,,,,unclassified
 let-bind,,,,unclassified
 let-binder,,,,unclassified
@@ -368,28 +390,19 @@ mailbox-oriented,,,,unclassified
 many-sender,,,,unclassified
 many-writer,,,,unclassified
 Mascardi,,,,unclassified
-matching,,“pattern matching”,,Common-term
-Matthias Krebs,,Author,,Author
 max(1,,,,unclassified
 Mehdi,,,,unclassified
-memory management,,,,Common-term
 Mendonca,,,,unclassified
 message-passing,,,,unclassified
 meta-function,,,,unclassified
 micro-benchmarks,,,,unclassified
-ML,,,,Programming-language
-model checking,,Automatic theorem proving,,technique tool
-modularity,,,,Common-term
 Monmege,,,,unclassified
 Montesi,,,,unclassified
 Mordido,,,,unclassified
 Morrisett,,,,unclassified
-MSFP@FSCD,,,,email
 multiple-writer,,,,unclassified
 multisets,,,,unclassified
 Mycroft,,,,unclassified
-Naoki Kobayashi,,,,Author
-Neel Krishnaswami,,,,Author
 Nikolaj,,,,unclassified
 non-empty,,,,unclassified
 non-linear,,,,unclassified
@@ -402,57 +415,41 @@ Parikh's,,,,unclassified
 PartTaken,,,,unclassified
 Pat's,,,,unclassified
 Pat1,,,,unclassified
-Peter Thiemann,,,,Author
 phil.trinder,,,,unclassified
 pi-Calculus,,,,unclassified
 PIDs,,,,unclassified
-PLACES@ETAPS,,,,email
 PLDI,,,,unclassified
-polymorphic,,,,Common-term
-Power,,,,
 Prepared(self,,,,unclassified
 print(intToString,,,,unclassified
 process-local,,,,unclassified
 protocol-induced,,,,unclassified
 Put[Int,,,,unclassified
 pv(P,,,,unclassified
-quantifier,,,,Common-term
 quantifier-free,,,,unclassified
 quasi-linearity,,,,unclassified
 quasilinearity,,,,unclassified
 Ravara,,,,unclassified
-reduction relation,,,,
-register,,,,
 Reply[value,,,,unclassified
 Request-reply,,,,unclassified
 righthand-side,,,,unclassified
-Robbert Krebbers,,,,Author
 Rohit,,,,unclassified
 Rompf,,,,unclassified
 runtimes,,,,unclassified
-Rust,,,,Common-term programming-language
 Sangiorgi,,,,unclassified
-SCALA@ECOOP,,,,email
-scalability,,,,
 Self-deadlock,,,,unclassified
 self?Get(sender,,,,unclassified
 self?Put,,,,unclassified
-Semantic,,,,Common-term
 Semigroups,,,,unclassified
 semilinear,,,,unclassified
 sessiontyped,,,,unclassified
 set-of-multisets,,,,unclassified
-simon.fowler@glasgow.ac.uk,,,,email
-simon.gay@glasgow.ac.uk,,,,email
 single-receiver,,,,unclassified
-SMT solver,,Type of tool for solving SMT problems,,Tool
 spawn(future,,,,unclassified
 sub-environments,,,,unclassified
 subderivation,,,,unclassified
 subderivations,,,,unclassified
 subterms,,,,unclassified
 supertype,,,,unclassified
-syntax-directed,,,,
 T-Subs,,,,unclassified
 TableIdle,,,,unclassified
 TACAS,,,,unclassified

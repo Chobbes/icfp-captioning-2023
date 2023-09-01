@@ -1,65 +1,141 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-pattern matching,,,,
-pointer,,,,Common-term
-ICFP,,,,unclassified
-Word64,,,,unclassified
-Bit-Stealing,,,,unclassified
-LLVM,L.L.V.M.,,,
-subterm,,,,unclassified
-integer,,,,Common-term
-ribbit,,,,unclassified
-OCaml,,,,Common-term programming-language
-Rust,,,,Common-term programming-language
 Gabriel Radanne,,,,Author
 Laure Gonnord,,,,Author
+Norman Ramsey,,,,Author
+Jeremy Yallop,,,,Author
+Jesper Cockx,,,,Author
+Lennart Augustsson,,,,Author
+Matthias Felleisen,,,,Author
+Simon Peyton Jones,,,,Author
+Stephanie Weirich,,,,Author
+Tom Schrijvers,,,,Author
+CNRS,,Centre national de la recherche scientifique ,,Institution
+INRIA,,,,Institution
+pattern matching,,,,
+pointer,,,,Common-term
+ICFP,,,,Common-term
+LLVM,L.L.V.M.,,,
+integer,,,,Common-term
+OCaml,,,,Common-term programming-language
+Rust,,,,Common-term programming-language
+Id,,,,
+constructor,,,,Common-term
+matching,,“pattern matching”,,Common-term
+Maranget,,,,
+match,,,,
+recursive,,,,Common-term
+functional programming,,,,
+coherence,,,,
+cons,kon-ss,,,
+K ,,“K axiom”,,
+array,,,,Common-term
+IR ,I.R.,intermediate representation,,
+compiler,,,,Common-term
+Haskell,,,,Common-term programming-language
+Leroy,,,,Name
+ML,,,,Programming-language
+nil,,,,
+polymorphic,,,,Common-term
+Scheme,,,,Common-term programming-language
+semantics,,,,
+DSL,,,,
+expression,,,,Common-term
+expressive,,,,Common-term
+formalization,,,,Common-term
+induction,,,,Common-term
+monomorphic,,,,
+Peyton Jones,,,,Name
+stack,,,,
+algebra,,,,
+cast,,Gradual typing,,theory
+context,,,,Common-term
+immutable,,,,Common-term
+Java,,,,
+JavaScript,,,,Common-term programming-language
+Scala,,,,Common-term programming-language
+sequential ,,,,
+Boolean,,,,
+compiled,,,,
+concurrency,,,,Common-term
+fn,,,,
+generic,,,,
+let-bound,,,,Common-term
+Peterson,,,,
+Ramsey ,,,,
+reflect,,,,
+relational,,,,
+theorem,,,,Common-term
+Wadler,,,,Name
+well-typed,,,,Common-term
+abstraction,,,,Common-term
+abstractions,,,,
+applicative,,,,Common-term
+conclusion,,,,
+conjunction,,,,
+continuation-passing style,,,,
+CPU,,,,
+dependent,,,,Common-term
+destructor,,,,Common-term
+Dominique Devriese,,,,
+Elimination,,,,
+exponential,,,,
+Felleisen,,,,
+filter,,,,
+force,,,,Common-term evaluation
+gabriel.radanne@inria.fr,,,,email
+garbage-collected,,,,
+GHC Haskell,,,,
+Hudak,,,,Name
+inductive,,,,Common-term
+instruction,,,,
+laure.gonnord@grenoble-inp.fr,,,,email
+laziness,,,,
+Le Fessant,,,,
+memory management,,,,Common-term
+meta-programming,,,,
+modular,,,,Common-term
+polymorphism,,,,Common-term
+Pottier,,,,
+reduction,,,,Common-term
+runtime,,,,Common-term
+symbolic,,,,
+syntax,,,,Common-term
+thais.baudon@ens-lyon.fr,,,,email
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+untyped,,,,
+Vytiniotis,,,,
+Word64,,,,unclassified
+Bit-Stealing,,,,unclassified
+subterm,,,,unclassified
+ribbit,,,,unclassified
 Baudon,,,,unclassified
 pat2mem,,,,unclassified
 Word63,,,,unclassified
-Id,,,,
 subterms,,,,unclassified
-constructor,,,,Common-term
 ty2val,,,,unclassified
-matching,,“pattern matching”,,Common-term
 val2mem,,,,unclassified
 ADTs,,,,unclassified
-Maranget,,,,
-match,,,,
 Ptr,,,,unclassified
 bitword,,,,unclassified
-recursive,,,,Common-term
 Word32,,,,unclassified
 Zarith,,,,unclassified
-functional programming,,,,
-coherence,,,,
 Linux,,,,unclassified
 "weaveb,id",,,,unclassified
-cons,kon-ss,,,
-K ,,“K axiom”,,
 provs,,,,unclassified
 structs,,,,unclassified
 ty2pat,,,,unclassified
-array,,,,Common-term
-IR ,I.R.,intermediate representation,,
 scaffoldb,,,,unclassified
-compiler,,,,Common-term
-Haskell,,,,Common-term programming-language
 Int32,,,,unclassified
 jsval,,,,unclassified
 RBTs,,,,unclassified
 Switch(b,,,,unclassified
 double-precision,,,,unclassified
 inlining,,,,unclassified
-Leroy,,,,Name
-ML,,,,Programming-language
 NaN-boxing,,,,unclassified
-nil,,,,
-polymorphic,,,,Common-term
 prov0,,,,unclassified
 Int8,,,,unclassified
 prov1,,,,unclassified
 Ptr64,,,,unclassified
-Scheme,,,,Common-term programming-language
-semantics,,,,
 sequentialization,,,,unclassified
 Small(Int63,,,,unclassified
 Word8,,,,unclassified
@@ -68,27 +144,17 @@ bitwords,,,,unclassified
 bLarge,,,,unclassified
 bSmall,,,,unclassified
 Burstall,,,,unclassified
-CNRS,,Centre national de la recherche scientifique ,,Institution
 discriminants,,,,unclassified
-DSL,,,,
 EnsL,,,,unclassified
 enum,,,,unclassified
-expression,,,,Common-term
-expressive,,,,Common-term
-formalization,,,,Common-term
 GADTs,,,,unclassified
-induction,,,,Common-term
-INRIA,,,,Institution
 Int64,,,,unclassified
 Large(Int128,,,,unclassified
 lower-level,,,,unclassified
-monomorphic,,,,
 pattern-matching,,,,unclassified
-Peyton Jones,,,,Name
 scaffold.0,,,,unclassified
 Sestoft,,,,unclassified
 SIGPLAN,,,,unclassified
-stack,,,,
 Tchild,,,,unclassified
 Tparent,,,,unclassified
 UCBL,,,,unclassified
@@ -97,18 +163,11 @@ wildcards,,,,unclassified
 Word24,,,,unclassified
 0xa,,,,unclassified
 2small,,,,unclassified
-algebra,,,,
 BindVars,,,,unclassified
-cast,,Gradual typing,,theory
 Cons.0,,,,unclassified
-context,,,,Common-term
 False,,,,unclassified
-https://doi.org/10,,,,unclassified
 i.Small,,,,unclassified
-immutable,,,,Common-term
 Int63,,,,unclassified
-Java,,,,
-JavaScript,,,,Common-term programming-language
 JavaScriptCore,,,,unclassified
 Koparkar,,,,unclassified
 Kosarev,,,,unclassified
@@ -117,8 +176,6 @@ memsize,,,,unclassified
 multi-discriminant,,,,unclassified
 non-trivial,,,,unclassified
 Rustonomicon,,,,unclassified
-Scala,,,,Common-term programming-language
-sequential ,,,,
 SoA,,,,unclassified
 SplitValidity,,,,unclassified
 WeaveBud,,,,unclassified
@@ -136,12 +193,9 @@ bbad,,,,unclassified
 bdouble,,,,unclassified
 BigInt,,,,unclassified
 bit-wide,,,,unclassified
-Boolean,,,,
 Boolean(True,,,,unclassified
 btup,,,,unclassified
-compiled,,,,
 Conchon,,,,unclassified
-concurrency,,,,Common-term
 Cons.1,,,,unclassified
 deconstruct,,,,unclassified
 disjunction-free,,,,unclassified
@@ -155,9 +209,7 @@ fillbitword,,,,unclassified
 fillbitword(b,,,,unclassified
 Filliatre,,,,unclassified
 floating-point,,,,unclassified
-fn,,,,
 Funct,,,,unclassified
-generic,,,,
 GMP::BigInt,,,,unclassified
 hash-consing,,,,unclassified
 i.Large,,,,unclassified
@@ -170,22 +222,16 @@ Large(u1,,,,unclassified
 Large(u2,,,,unclassified
 Launchbury,,,,unclassified
 LCIS,,,,unclassified
-let-bound,,,,Common-term
 Madhavapeddy,,,,unclassified
 n.v,,,,unclassified
 NaNs,,,,unclassified
 Node{c,,,,unclassified
 Non-Nested,,,,unclassified
 non-redundant,,,,unclassified
-Norman Ramsey,,,,Author
-Peterson,,,,
 provs0,,,,unclassified
 provs1,,,,unclassified
 provs2,,,,unclassified
 r:Empty,,,,unclassified
-Ramsey ,,,,
-reflect,,,,
-relational,,,,
 Rust-like,,,,unclassified
 s.t,,,,unclassified
 Sabry,,,,unclassified
@@ -197,20 +243,16 @@ standalone,,,,unclassified
 subvalue,,,,unclassified
 subvalues,,,,unclassified
 Syme,,,,unclassified
-theorem,,,,Common-term
 Torvalds,,,,unclassified
 Tuerk,,,,unclassified
 UGA,,,,unclassified
-unknown,,Gradual typing,,theory
 val2mem(focus,,,,unclassified
-Wadler,,,,Name
 "weave,id",,,,unclassified
 "weaveb.,id",,,,unclassified
 WeaveBudWildcard,,,,unclassified
 WeaveLeaf,,,,unclassified
 WeaveStructAny,,,,unclassified
 WEBKIT-LIKE,,,,unclassified
-well-typed,,,,Common-term
 Word56,,,,unclassified
 WordValidity,,,,unclassified
 Zarith::Integer,,,,unclassified
@@ -219,12 +261,9 @@ Zarith::Integer,,,,unclassified
 64bits,,,,unclassified
 8>(i.Large,,,,unclassified
 A-normal,,,,unclassified
-abstraction,,,,Common-term
-abstractions,,,,
 analo,,,,unclassified
 andoa,,,,unclassified
 APLAS,,,,unclassified
-applicative,,,,Common-term
 arXiv,,,,unclassified
 as-is,,,,unclassified
 "b,b",,,,unclassified
@@ -255,51 +294,36 @@ Chakravarty,,,,unclassified
 Cockx,,,,unclassified
 codegen-wise,,,,unclassified
 Coen,,,,unclassified
-conclusion,,,,
-conjunction,,,,
 Cons(Int32,,,,unclassified
 Cons.1.Cons.0,,,,unclassified
 Cons.1.Cons.1,,,,unclassified
 Cons.1.Nil,,,,unclassified
 constructors/destructors,,,,unclassified
-continuation-passing style,,,,
 counter-examples,,,,unclassified
-CPU,,,,
 cross-validate,,,,unclassified
 Dargent,,,,unclassified
-dependent,,,,Common-term
 Deransart,,,,unclassified
 deref,,,,unclassified
 derefencing,,,,unclassified
-destructor,,,,Common-term
 Dimitrios,,,,unclassified
 discrimsion,,,,unclassified
 Doligez,,,,unclassified
 dom(b,,,,unclassified
-Dominique Devriese,,,,
 dual-view,,,,unclassified
 ECMAScript,,,,unclassified
 Eijiro,,,,unclassified
-Elimination,,,,
 end.3,,,,unclassified
 enums,,,,unclassified
 EPTCS,,,,unclassified
 Erdi,,,,unclassified
-exponential,,,,
 Family/OCaml,,,,unclassified
-Felleisen,,,,
 fillbitword([0,,,,unclassified
-filter,,,,
 fine-tune,,,,unclassified
 fixed-width,,,,unclassified
-force,,,,Common-term evaluation
 FPCA,,,,unclassified
 Fullfledged,,,,unclassified
-gabriel.radanne@inria.fr,,,,email
-garbage-collected,,,,
 Georgios,,,,unclassified
 Gergo,,,,unclassified
-GHC Haskell,,,,
 GMP's,,,,unclassified
 GNU/Linux,,,,unclassified
 gously,,,,unclassified
@@ -308,17 +332,14 @@ hand-tweaked,,,,unclassified
 high-performance,,,,unclassified
 highlevel,,,,unclassified
 https,,,,unclassified
-Hudak,,,,Name
 IBigICmp(u1,,,,unclassified
 IBigICmp(u2,,,,unclassified
 ICmp(u1,,,,unclassified
 immediates,,,,unclassified
 in-place,,,,unclassified
 inant,,,,unclassified
-inductive,,,,Common-term
 industry-ready,,,,unclassified
 instanciated,,,,unclassified
-instruction,,,,
 Int1,,,,unclassified
 Integer(Int32,,,,unclassified
 inttoptr,,,,unclassified
@@ -326,8 +347,6 @@ IR's,,,,unclassified
 ITP,,,,unclassified
 Jaakko,,,,unclassified
 Jarvi,,,,unclassified
-Jeremy Yallop,,,,Author
-Jesper Cockx,,,,Author
 Jouannaud,,,,unclassified
 kinding,,,,unclassified
 l:Empty,,,,unclassified
@@ -340,14 +359,10 @@ Large(2,,,,unclassified
 Large(GMP::BigInt,,,,unclassified
 Large(Word128,,,,unclassified
 large-small,,,,unclassified
-laure.gonnord@grenoble-inp.fr,,,,email
 layout-related,,,,unclassified
-laziness,,,,
-Le Fessant,,,,
 Left(Int128,,,,unclassified
 Left.0,,,,unclassified
 Left.1,,,,unclassified
-Lennart Augustsson,,,,Author
 Lepigre,,,,unclassified
 leq,,,,unclassified
 leq(v1:Zarith,,,,unclassified
@@ -361,15 +376,11 @@ MacQueen,,,,unclassified
 Maluszynski,,,,unclassified
 Margetson,,,,unclassified
 match-compilation,,,,unclassified
-Matthias Felleisen,,,,Author
-memory management,,,,Common-term
 memory-specific,,,,unclassified
 memory-to-tree,,,,unclassified
-meta-programming,,,,
 Milind,,,,unclassified
 min(I,,,,unclassified
 miniKanren,,,,unclassified
-modular,,,,Common-term
 Myreen,,,,unclassified
 n.c,,,,unclassified
 n.l,,,,unclassified
@@ -416,11 +427,9 @@ Piessens,,,,unclassified
 PLILP'90,,,,unclassified
 pointer's,,,,unclassified
 pointer-tagging,,,,unclassified
-polymorphism,,,,Common-term
 POPL,,,,unclassified
 Post-Treatment,,,,unclassified
 Potentially-null,,,,unclassified
-Pottier,,,,
 Processings,,,,unclassified
 prov-1,,,,unclassified
 provs-1,,,,unclassified
@@ -429,7 +438,6 @@ Ptr48,,,,unclassified
 r:RBT,,,,unclassified
 Rainey,,,,unclassified
 Ramana,,,,unclassified
-reduction,,,,Common-term
 Reppy,,,,unclassified
 ribbit1,,,,unclassified
 ribbit4,,,,unclassified
@@ -438,7 +446,6 @@ Right.0,,,,unclassified
 Right.1,,,,unclassified
 Rizkallah,,,,unclassified
 Roover,,,,unclassified
-runtime,,,,Common-term
 rustc,,,,unclassified
 Sannella,,,,unclassified
 scaffoldb.b,,,,unclassified
@@ -447,7 +454,6 @@ Scherer,,,,unclassified
 self-balancing,,,,unclassified
 shape-polymorphic,,,,unclassified
 SIGPLANSIGACT,,,,unclassified
-Simon Peyton Jones,,,,Author
 Small(42,,,,unclassified
 Small(i63,,,,unclassified
 small-large,,,,unclassified
@@ -455,7 +461,6 @@ small-small,,,,unclassified
 Some(value,,,,unclassified
 source-to-memory,,,,unclassified
 split-free,,,,unclassified
-Stephanie Weirich,,,,Author
 Stroustrup,,,,unclassified
 struct-of-array,,,,unclassified
 sub-expressions,,,,unclassified
@@ -469,29 +474,22 @@ Sumii,,,,unclassified
 super-optimization,,,,unclassified
 supercompilation,,,,unclassified
 Sylvain,,,,unclassified
-symbolic,,,,
-syntax,,,,Common-term
-thais.baudon@ens-lyon.fr,,,,email
 Tid+1,,,,unclassified
 Tilevich,,,,unclassified
-Tom Schrijvers,,,,Author
 tree-like,,,,unclassified
 Tree-Traversals,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
 tuple-like,,,,unclassified
 two-by-two,,,,unclassified
 two-tiered,,,,unclassified
 Type-safe,,,,unclassified
 Type-Specific,,,,unclassified
 unambigous,,,,unclassified
-untyped,,,,
 user-defined,,,,unclassified
 user-provided,,,,unclassified
 v2:Zarith,,,,unclassified
 val2mem(42,,,,unclassified
 vertion,,,,unclassified
 Vollmer,,,,unclassified
-Vytiniotis,,,,
 "weave,0",,,,unclassified
 WeaveAtom,,,,unclassified
 weaveb,,,,unclassified

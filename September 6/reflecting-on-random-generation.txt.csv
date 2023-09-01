@@ -1,32 +1,133 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-lmap,,,,unclassified
+Meng Wang,,,,Author
+Harrison Goldstein,,,,Author
+Samantha Frohlich,,,,Author
+Koen Claessen,,,,Author
+Daan Leijen,,,,Author
+Jessica Shi,,,,Author
+Leonidas Lampropoulos,,,,Author
+Nadia Polikarpova,,,,Author
+Paulette Koronkevich,,,,Author
+Ranjit Jhala,,,,Author
+Zheng Guo,,,,Author
+University of Pennsylvania,,,,Institution
+University of Bristol,,,,Institution
+GitHub,,,,Institution
 reflect,,,,
 monadic,Mow-nad-ick,,,
-ICFP,,,,unclassified
-interpR,,,,unclassified
+ICFP,,,,Common-term
 QuickCheck,,,,testing tool
 Interp,,,,
-Meng Wang,,,,Author
-grammar-based,,,,unclassified
-Harrison Goldstein,,,,Author
 monad,Mow-nad,,,Common-term
-profunctor,,,,unclassified
-Samantha Frohlich,,,,Author
 Haskell,,,,Common-term programming-language
 mutation,,,,
-JSON,,,,unclassified
-profunctors,,,,unclassified
 bidirectional,,,,
 distribution,,,,
+constructor,,,,Common-term
+integer,,,,Common-term
+Gen,,,,
+K ,,“K axiom”,,
+Kiselyov,,,,
+Power,,,,
+System F,,,,Common-term
+GI,,,,
+syntax,,,,Common-term
+API,A.P.I.,Application Programming Interface,,Common-term
+combinator,,,,Common-term
+divergence,,,,Common-term
+expression,,,,Common-term
+freer monads,,,,
+Id,,,,
+Ishii,,,,
+lemma,,,,Common-term
+probabilistic,,,,Common-term
+reduction,,,,Common-term
+abstractions,,,,
+enumeration,,,,Common-term
+enumerator,,,,Common-term
+expressive,,,,Common-term
+functional programming,,,,
+induction,,,,Common-term
+probability,,,,Common-term
+Property-based testing,,,,
+theorem,,,,Common-term
+abstraction,,,,Common-term
+context,,,,Common-term
+datatype,,,,Common-term
+derive,,,,
+exponential,,,,
+freer monad,,,,
+generic,,,,
+Go,,,,
+match,,,,
+Moggi,,,,Name
+context-sensitive,,,,Common-term parsing
+effectful,,,,
+expressiveness,,,,Common-term
+filter,,,,
+free monad,free mow-nad,,,
+Gibbons,,,,
+Girard,,,,Name
+homomorphism,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+modular,,,,Common-term
+PL,,,,
+reflection,,,,Common-term
+Reynolds,,,,Name
+Scheme,,,,Common-term programming-language
+well-typed,,,,Common-term
+algebras,,,,
+applicative,,,,Common-term
+AST ,A.S.T.,Abstract Syntax Tree,,
+bcpierce@cis.upenn.edu,,,,email
+category,,,,
+compiler,,,,Common-term
+composable,,,,
+conclusion,,,,
+definitionally,,,,theory
+deriving,,,,
+Dijkstra,,,,
+direct style,,,,
+ecosystem,,,,
+fold,,,,Common-term
+functor,,,,Common-term
+GHC,,,,compiler tool
+hgo@seas.upenn.edu,,,,email
+higher-order,,,,Common-term
+inductive,,,,Common-term
+IO,Eye-oh,,,
+isomorphic,,,,Common-term
+KL,K.L.,KL abstract machine,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+laziness,,,,
+meng.wang@bristol.ac,,,,email
+normalize,,computations,,theory
+OCaml,,,,Common-term programming-language
+pattern matching,,,,
+polymorphic,,,,Common-term
+producer,,,,
+recursion,,,,Common-term
+reified,,,,
+reifies,,,,
+stack,,,,
+syntactic,,,,Common-term
+tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
+Trigger,,,,
+Vera,,,,
+Wadler,,,,Name
+Why,,,,
+lmap,,,,unclassified
+interpR,,,,unclassified
+grammar-based,,,,unclassified
+profunctor,,,,unclassified
+JSON,,,,unclassified
+profunctors,,,,unclassified
 IFH,,,,unclassified
 PMPs,,,,unclassified
-constructor,,,,Common-term
 PartialArr,,,,unclassified
 fmap,,,,unclassified
-integer,,,,Common-term
 voidAnn,,,,unclassified
 example-based,,,,unclassified
-Gen,,,,
 oneof,,,,unclassified
 Xia,,,,unclassified
 Biparser,,,,unclassified
@@ -38,71 +139,36 @@ expr,,,,unclassified
 interpRreflect,,,,unclassified
 SIGPLAN,,,,unclassified
 interpRgenerate,,,,unclassified
-K ,,“K axiom”,,
-Kiselyov,,,,
 liftM2,,,,unclassified
-Power,,,,
-System F,,,,Common-term
 test-case,,,,unclassified
 forall,,,,unclassified
 ghci,,,,unclassified
-GI,,,,
 PMP,,,,unclassified
 Soremekun,,,,unclassified
-syntax,,,,Common-term
 withHashcode,,,,unclassified
-API,A.P.I.,Application Programming Interface,,Common-term
-combinator,,,,Common-term
-divergence,,,,Common-term
-expression,,,,Common-term
-freer monads,,,,
 fuzzer,,,,unclassified
 genericShrink,,,,unclassified
 Godefroid,,,,unclassified
 hashcode,,,,unclassified
-Id,,,,
-Ishii,,,,
 leanBST,,,,unclassified
-lemma,,,,Common-term
-probabilistic,,,,Common-term
-reduction,,,,Common-term
 rmap,,,,unclassified
 STLC,,,,unclassified
-University of Pennsylvania,,,,Institution
-abstractions,,,,
 BSTs,,,,unclassified
-enumeration,,,,Common-term
-enumerator,,,,Common-term
-expressive,,,,Common-term
 Fioraldi,,,,unclassified
-functional programming,,,,
 GetSize,,,,unclassified
 Hypothesis's,,,,unclassified
-induction,,,,Common-term
 LeanCheck,,,,unclassified
 Mul,,,,unclassified
-probability,,,,Common-term
-Property-based testing,,,,
 shortlex,,,,unclassified
 suchThat,,,,unclassified
-theorem,,,,Common-term
-University of Bristol,,,,Institution
 user-provided,,,,unclassified
-abstraction,,,,Common-term
 bitstring,,,,unclassified
 bound5,,,,unclassified
 Braquehais,,,,unclassified
 ChooseInteger,,,,unclassified
-context,,,,Common-term
-datatype,,,,Common-term
-derive,,,,
 domain-specific,,,,unclassified
-exponential,,,,
-freer monad,,,,
 fuzzers,,,,unclassified
-generic,,,,
 genWithWeights,,,,unclassified
-Go,,,,
 HCI,,,,unclassified
 HypoFuzz,,,,unclassified
 Hypothesis-style,,,,unclassified
@@ -110,8 +176,6 @@ IH,,,,unclassified
 IHR,,,,unclassified
 Jensen-Shannon,,,,unclassified
 JrKR,,,,unclassified
-match,,,,
-Moggi,,,,Name
 PartialProf,,,,unclassified
 sub-generator,,,,unclassified
 Zalewski,,,,unclassified
@@ -121,45 +185,30 @@ bitstrings,,,,unclassified
 Chasins,,,,unclassified
 cibior,,,,unclassified
 Claessen,,,,unclassified
-context-sensitive,,,,Common-term parsing
 devDependencies,,,,unclassified
 Duregard,,,,unclassified
-effectful,,,,
-expressiveness,,,,Common-term
-filter,,,,
-free monad,free mow-nad,,,
-Gibbons,,,,
-Girard,,,,Name
 Grammar-Aware,,,,unclassified
 Haskell's,,,,unclassified
-homomorphism,,,,Common-term
 https,,,,unclassified
 IEEE/ACM,,,,unclassified
 Kmett,,,,unclassified
-Koen Claessen,,,,Author
 Kullback,,,,unclassified
-lambda calculus,lam-duh calculus,,,theory
 lbls,,,,unclassified
 Leibler,,,,unclassified
 Magalhaes,,,,unclassified
 maybeToList,,,,unclassified
 Micha,,,,unclassified
-modular,,,,Common-term
 optimisticTypeOf,,,,unclassified
 PACKAGE.JSON,,,,unclassified
 Paka,,,,unclassified
 Paraskevopoulou,,,,unclassified
 Peleg,,,,unclassified
-PL,,,,
 PLDI,,,,unclassified
 probabilityOf,,,,unclassified
 QC.frequency,,,,unclassified
 QuickCheck's,,,,unclassified
-reflection,,,,Common-term
-Reynolds,,,,Name
 rKR,,,,unclassified
 Runciman,,,,unclassified
-Scheme,,,,Common-term programming-language
 side-effects,,,,unclassified
 simply-typed,,,,unclassified
 Smallcheck,,,,unclassified
@@ -178,24 +227,19 @@ url,,,,unclassified
 USENIX,,,,unclassified
 VALIDITY-PRESERVING,,,,unclassified
 Veggalam,,,,unclassified
-well-typed,,,,Common-term
 Zeller,,,,unclassified
 zeroDraws,,,,unclassified
 1--where,,,,unclassified
 a--after,,,,unclassified
 Ahmad-Reza,,,,unclassified
-algebras,,,,
-applicative,,,,Common-term
 artifact2,,,,unclassified
 Askoxylakis,,,,unclassified
 AspectOriented,,,,unclassified
-AST ,A.S.T.,Abstract Syntax Tree,,
 Atze,,,,unclassified
 available--without,,,,unclassified
 babel-cli,,,,unclassified
 babel-core,,,,unclassified
 babel-preset-es2015,,,,unclassified
-bcpierce@cis.upenn.edu,,,,email
 better-communicates,,,,unclassified
 bigenerator,,,,unclassified
 bigenerators,,,,unclassified
@@ -206,32 +250,23 @@ Branch._2,,,,unclassified
 bsts(draw,,,,unclassified
 bug-finding,,,,unclassified
 Carolinae,,,,unclassified
-category,,,,
 choices;9,,,,unclassified
 code--but,,,,unclassified
 codebase8,,,,unclassified
 comaps,,,,unclassified
 Commentationes,,,,unclassified
 Commun,,,,unclassified
-compiler,,,,Common-term
-composable,,,,
 Computer-Human,,,,unclassified
 concatMap,,,,unclassified
 concatMapT,,,,unclassified
 concatT,,,,unclassified
-conclusion,,,,
 cons0,,,,unclassified
 consistant,,,,unclassified
 constructively--this,,,,unclassified
 coverage-guided,,,,unclassified
-Daan Leijen,,,,Author
 Dagstuhl,,,,unclassified
 Dagstuhl-Leibniz-Zentrum,,,,unclassified
 debugging--shrinking,,,,unclassified
-definitionally,,,,theory
-deriving,,,,
-Dijkstra,,,,
-direct style,,,,
 divergence7,,,,unclassified
 divide-by-zero,,,,unclassified
 Doshi,,,,unclassified
@@ -240,7 +275,6 @@ draw(bsts(x,,,,unclassified
 draw(st.integers(min_value=0,,,,unclassified
 draw(st.integers(min_value=lo,,,,unclassified
 ECOOP,,,,unclassified
-ecosystem,,,,
 Eifeldt,,,,unclassified
 Eline,,,,unclassified
 England-Elbro,,,,unclassified
@@ -251,22 +285,18 @@ event-place,,,,unclassified
 examples--the,,,,unclassified
 False,,,,unclassified
 fK,,,,unclassified
-fold,,,,Common-term
 foldl,,,,unclassified
 Frassetto,,,,unclassified
 free-monad-like,,,,unclassified
 fromEnum,,,,unclassified
 function-like,,,,unclassified
 functions--a,,,,unclassified
-functor,,,,Common-term
 fuzzing-style,,,,unclassified
 general--these,,,,unclassified
 generator-based,,,,unclassified
 generators--overlap--which,,,,unclassified
 Ghahramani,,,,unclassified
-GHC,,,,compiler tool
 GHC's,,,,unclassified
-GitHub,,,,Institution
 Gramatron,,,,unclassified
 grammar--is,,,,unclassified
 Greybox,,,,unclassified
@@ -276,15 +306,10 @@ Havrikov,,,,unclassified
 Heiko,,,,unclassified
 Henzinger,,,,unclassified
 Heuse,,,,unclassified
-hgo@seas.upenn.edu,,,,email
-higher-order,,,,Common-term
 Hiromi,,,,unclassified
 Holz,,,,unclassified
 Hoogle,,,,unclassified
-https://dl.acm.org/doi/10,,,,unclassified
 https://example.com,,,,unclassified
-https://github.com/google/AFL,,,,unclassified
-https://hedgehog.qa,,,,unclassified
 humancomputer,,,,unclassified
 HypoFuzz-style,,,,unclassified
 Hypothesis-inspired,,,,unclassified
@@ -293,21 +318,17 @@ IFH's,,,,unclassified
 IFH-style,,,,unclassified
 IFuzzer,,,,unclassified
 incorrectly--the,,,,unclassified
-inductive,,,,Common-term
 Informatik,,,,unclassified
 internaliseMaybe,,,,unclassified
 intractably6,,,,unclassified
-IO,Eye-oh,,,
 Ioannidis,,,,unclassified
 Ioannis,,,,unclassified
-isomorphic,,,,Common-term
 ISSTA,,,,unclassified
 J*K,,,,unclassified
 J*KR,,,,unclassified
 Jauernig,,,,unclassified
 JBind,,,,unclassified
 Jean-Yves,,,,unclassified
-Jessica Shi,,,,Author
 Jeuring,,,,unclassified
 Jf,,,,unclassified
 Jii,,,,unclassified
@@ -320,15 +341,11 @@ Kambhatla,,,,unclassified
 Kammar,,,,unclassified
 Katsikas,,,,unclassified
 Kiezun,,,,unclassified
-KL,K.L.,KL abstract machine,,
 Koubek,,,,unclassified
 Kullback-Leiber,,,,unclassified
 labels.1,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
-laziness,,,,
 Learn&fuzz,,,,unclassified
 Leijen,,,,unclassified
-Leonidas Lampropoulos,,,,Author
 lesser-known,,,,unclassified
 Li-yao,,,,unclassified
 liftMi,,,,unclassified
@@ -341,11 +358,9 @@ Matela,,,,unclassified
 Mathematicae,,,,unclassified
 max_value=3,,,,unclassified
 max_value=hi,,,,unclassified
-meng.wang@bristol.ac,,,,email
 minifiers,,,,unclassified
 monad's,,,,unclassified
 mutators,,,,unclassified
-Nadia Polikarpova,,,,Author
 newtype,,,,unclassified
 no-op,,,,unclassified
 Node(x,,,,unclassified
@@ -353,9 +368,7 @@ Node.js,,,,unclassified
 non-terminals,,,,unclassified
 non-termination,,,,unclassified
 nonzero(factor,,,,unclassified
-normalize,,computations,,theory
 Object-Oriented,,,,unclassified
-OCaml,,,,Common-term programming-language
 Odersky,,,,unclassified
 ofWeight,,,,unclassified
 Ohad,,,,unclassified
@@ -369,8 +382,6 @@ owner/author(s,,,,unclassified
 parsing-as-generation,,,,unclassified
 PartialProfunctor,,,,unclassified
 Patrik,,,,unclassified
-pattern matching,,,,
-Paulette Koronkevich,,,,Author
 PBT--focused,,,,unclassified
 pCFG,,,,unclassified
 pCFGs,,,,unclassified
@@ -379,13 +390,11 @@ Ph.D,,,,unclassified
 PLClub,,,,unclassified
 PMP3,,,,unclassified
 PMPs:3,,,,unclassified
-polymorphic,,,,Common-term
 post-composition,,,,unclassified
 Prashast,,,,unclassified
 pre-composition,,,,unclassified
 precondition-satisfying,,,,unclassified
 process--parse,,,,unclassified
-producer,,,,
 Programmation,,,,unclassified
 pruned--there,,,,unclassified
 pruneing,,,,unclassified
@@ -394,7 +403,6 @@ QC.generate,,,,unclassified
 QuickCheck-style,,,,unclassified
 R-interpretation,,,,unclassified
 Rajamani,,,,unclassified
-Ranjit Jhala,,,,Author
 Rawat,,,,unclassified
 re-bracket,,,,unclassified
 re-focusing,,,,unclassified
@@ -404,10 +412,7 @@ re-synthesized--if,,,,unclassified
 re-weight,,,,unclassified
 re-weighted,,,,unclassified
 ReaderT,,,,unclassified
-recursion,,,,Common-term
 reflective-generators,,,,unclassified
-reified,,,,
-reifies,,,,
 Reiterman,,,,unclassified
 reweighting,,,,unclassified
 Rishabh,,,,unclassified
@@ -427,14 +432,12 @@ Spandan,,,,unclassified
 src/server.js,,,,unclassified
 SSGIP,,,,unclassified
 st.composite,,,,unclassified
-stack,,,,
 standard-deviation,,,,unclassified
 structure-preserving,,,,unclassified
 sub-parts,,,,unclassified
 sub-tree,,,,unclassified
 subgenerators,,,,unclassified
 Superion,,,,unclassified
-syntactic,,,,Common-term
 synthesis-aided,,,,unclassified
 Tagless,,,,unclassified
 take-away,,,,unclassified
@@ -443,8 +446,6 @@ Teuchert,,,,unclassified
 time-outs,,,,unclassified
 together--in,,,,unclassified
 transitioning,,,,unclassified
-tries,"Sometimes tries sometimes trees, I think",Prefix tree data structure,,
-Trigger,,,,
 type-agnostic,,,,unclassified
 type-based,,,,unclassified
 type-class,,,,unclassified
@@ -457,17 +458,13 @@ user-comprehensible,,,,unclassified
 valid--here,,,,unclassified
 value--but,,,,unclassified
 values--a,,,,unclassified
-Vera,,,,
-Wadler,,,,Name
 weak-complete,,,,unclassified
 weights--it,,,,unclassified
 whitebox,,,,unclassified
-Why,,,,
 withChecksum,,,,unclassified
 WORKFLOW,,,,unclassified
 WriterT,,,,unclassified
 xK,,,,unclassified
-Zheng Guo,,,,Author
 zipWith,,,,unclassified
 Ziteng,,,,unclassified
 Zoubin,,,,unclassified

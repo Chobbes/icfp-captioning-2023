@@ -1,21 +1,82 @@
 Term,Pronunciation,Context / Example Usage,Notes,Tags
-K ,,“K axiom”,,
-QuickCheck,,,,testing tool
-LeanCheck,,,,unclassified
-Haskell,,,,Common-term programming-language
 Leonidas Lampropoulos,,,,Author
-type-based,,,,unclassified
-ICFP,,,,unclassified
-Property-based testing,,,,
-SmallCheck,,,,unclassified
-Lampropoulos,,,,unclassified
-Coq,“Coq”,,,Common-term programming-language theorem-prover
-fuzzer,,,,unclassified
-enumeration,,,,Common-term
 Harrison Goldstein,,,,Author
 Alperen Keles,,,,Author
 Jessica Shi,,,,Author
+Koen Claessen,,,,Author
+Anton Trunov,,,,Author
+Ilya Sergey,,,,Author
+Jan Midtgaard,,,,researcher
+Meng Wang,,,,Author
+Tram Hoang,,,,Author
+University of Pennsylvania,,,,Institution
+University of Maryland,,Often UMD,,Institution
+K ,,“K axiom”,,
+QuickCheck,,,,testing tool
+Haskell,,,,Common-term programming-language
+ICFP,,,,Common-term
+Property-based testing,,,,
+Coq,“Coq”,,,Common-term programming-language theorem-prover
+enumeration,,,,Common-term
 functional programming,,,,
+QuickChick,,,,testing tool
+Erlang,,,,Common-term programming-language
+mutation,,,,
+OCaml,,,,Common-term programming-language
+Scala,,,,Common-term programming-language
+enumerator,,,,Common-term
+inductive,,,,Common-term
+Isabelle,,,,
+noninterference,,,,Common-term
+syntax,,,,Common-term
+derive,,,,
+distribution,,,,
+Findler,,,,
+probability,,,,Common-term
+well-typed,,,,Common-term
+conclusion,,,,
+deriving,,,,
+lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
+paradigm,,,,Common-term
+Semantic,,,,Common-term
+subtyping,,,,Common-term
+System F,,,,Common-term
+Vytiniotis,,,,
+Agda,,Agda-style,,Common-term Programming-language
+akeles@umd.edu,,,,email
+bcpierce@cis.upenn.edu,,,,email
+calculi,,,,
+compiler,,,,Common-term
+constructor,,,,Common-term
+ecosystem,,,,
+filter,,,,
+force,,,,Common-term evaluation
+generic,,,,
+Go,,,,
+hgo@seas.upenn.edu,,,,email
+higher-order,,,,Common-term
+injection,,,,
+jwshi@seas.upenn.edu,,,,email
+lambda calculi,,,,Common-term
+lambda calculus,lam-duh calculus,,,theory
+leonidas@umd.edu,,,,email
+Non-determinism,,,,Common-term
+Prop,,,,
+recursive,,,,Common-term
+redex,,,,
+reduction,,,,Common-term
+reflect,,,,
+Scheme,,,,Common-term programming-language
+symbolic,,,,
+type substitution,,,,
+typeclass,,,,Common-term
+weakening,,,,Common-term
+Why,,,,
+LeanCheck,,,,unclassified
+type-based,,,,unclassified
+SmallCheck,,,,unclassified
+Lampropoulos,,,,unclassified
+fuzzer,,,,unclassified
 SIGPLAN,,,,unclassified
 STLC,,,,unclassified
 FuzzChick,,,,unclassified
@@ -23,40 +84,24 @@ fuzzers,,,,unclassified
 bug-finding,,,,unclassified
 Sagonas,,,,unclassified
 Hritcu,,,,unclassified
-QuickChick,,,,testing tool
 type-driven,,,,unclassified
-University of Pennsylvania,,,,Institution
 Mista,,,,unclassified
 Bulwahn,,,,unclassified
-Erlang,,,,Common-term programming-language
 Etna's,,,,unclassified
-Koen Claessen,,,,Author
 MacIver,,,,unclassified
-mutation,,,,
-OCaml,,,,Common-term programming-language
 Paka,,,,unclassified
 precondition-driven,,,,unclassified
-Scala,,,,Common-term programming-language
-enumerator,,,,Common-term
-inductive,,,,Common-term
-Isabelle,,,,
 isBST,,,,unclassified
 Jupyter,,,,unclassified
 Kuraj,,,,unclassified
-noninterference,,,,Common-term
 Papadakis,,,,unclassified
 Paraskevopoulou,,,,unclassified
 Plotly,,,,unclassified
 Runciman,,,,unclassified
-syntax,,,,Common-term
-University of Maryland,,Often UMD,,Institution
 Braquehais,,,,unclassified
 BSTs,,,,unclassified
 Cruanes,,,,unclassified
-derive,,,,
-distribution,,,,
 Duregard,,,,unclassified
-Findler,,,,
 generic-random,,,,unclassified
 Hazimeh,,,,unclassified
 https,,,,unclassified
@@ -67,19 +112,15 @@ Loscher,,,,unclassified
 Mann-Whitney,,,,unclassified
 Midtgaard,,,,unclassified
 Object-Oriented,,,,unclassified
-probability,,,,Common-term
 specification-based,,,,unclassified
 specification-driven,,,,unclassified
 Test-Case,,,,unclassified
-well-typed,,,,Common-term
 Wongsuphasawat,,,,unclassified
 Xia,,,,unclassified
 Amorim,,,,unclassified
 Andoni,,,,unclassified
 Azevedo,,,,unclassified
 Claessen,,,,unclassified
-conclusion,,,,
-deriving,,,,
 Dimitrios,,,,unclassified
 Dolan-Gavitt,,,,unclassified
 Fetscher,,,,unclassified
@@ -87,17 +128,14 @@ FIXREVERTER,,,,unclassified
 FSUB,,,,unclassified
 FuzzChick's,,,,unclassified
 Gopinath,,,,unclassified
-https://doi.org/10,,,,unclassified
 inter-language,,,,unclassified
 Jia,,,,unclassified
 JSON,,,,unclassified
 Kanit,,,,unclassified
-lambda,lam-duh,Used to refer to anonymous functions “we have a lambda function here”,theory,
 LAVA's,,,,unclassified
 Locher,,,,unclassified
 Micha,,,,unclassified
 Padhye,,,,unclassified
-paradigm,,,,Common-term
 Ph.D,,,,unclassified
 prop_InsertValid,,,,unclassified
 property's,,,,unclassified
@@ -105,35 +143,24 @@ QuviQ,,,,unclassified
 Satyanarayan,,,,unclassified
 ScalaCheck,,,,unclassified
 SciFe,,,,unclassified
-Semantic,,,,Common-term
 Shiyi,,,,unclassified
 SIGSOFT,,,,unclassified
 Spector-Zabusky,,,,unclassified
-subtyping,,,,Common-term
-System F,,,,Common-term
 tree-first,,,,unclassified
 tree-last,,,,unclassified
 USENIX,,,,unclassified
 Vega-Lite,,,,unclassified
 Viktor,,,,unclassified
-Vytiniotis,,,,
 AFL-style,,,,unclassified
-Agda,,Agda-style,,Common-term Programming-language
-akeles@umd.edu,,,,email
-Anton Trunov,,,,Author
 Anushka,,,,unclassified
 backend,,,,unclassified
-bcpierce@cis.upenn.edu,,,,email
 benchtool.Analysis,,,,unclassified
 benchtool.Haskell,,,,unclassified
 benchtool.Types,,,,unclassified
 Blockchain,,,,unclassified
 bug-fixes,,,,unclassified
-calculi,,,,
 cfg,,,,unclassified
 code-coverage,,,,unclassified
-compiler,,,,Common-term
-constructor,,,,Common-term
 Coq's,,,,unclassified
 correct-by-construction,,,,unclassified
 crossword-puzzler's,,,,unclassified
@@ -145,57 +172,38 @@ DeBruijn,,,,unclassified
 documented4,,,,unclassified
 DraGEN,,,,unclassified
 Dumitru,,,,unclassified
-ecosystem,,,,
 Effect-Driven,,,,unclassified
 Eline,,,,unclassified
 entrypoint,,,,unclassified
 feedback-based,,,,unclassified
-filter,,,,
 First-Order,,,,unclassified
 fit-for-purpose,,,,unclassified
-force,,,,Common-term evaluation
 forward-ported,,,,unclassified
 Gallois-Wong,,,,unclassified
 generate-and-filter,,,,unclassified
-generic,,,,
 GitHub2,,,,unclassified
-Go,,,,
 Groce,,,,unclassified
 Ground-Truth,,,,unclassified
 Hanne,,,,unclassified
 Haskell's,,,,unclassified
 Haskell(results,,,,unclassified
 head-to-head,,,,unclassified
-hgo@seas.upenn.edu,,,,email
 high-effort,,,,unclassified
-higher-order,,,,Common-term
-https://hypothesis.works,,,,unclassified
-https://jupyter.org,,,,unclassified
-https://pandas.pydata.org,,,,unclassified
-https://plotly.com,,,,unclassified
-https://scalacheck.org,,,,unclassified
 Hulin,,,,unclassified
 human-computer,,,,unclassified
-Ilya Sergey,,,,Author
 Informatik,,,,unclassified
-injection,,,,
 insert_becomes_singleton,,,,unclassified
 Int)s,,,,unclassified
 intra-language,,,,unclassified
-Jan Midtgaard,,,,researcher
 Justesen,,,,unclassified
-jwshi@seas.upenn.edu,,,,email
 Kasting,,,,unclassified
 key-value,,,,unclassified
 Khurshid,,,,unclassified
 Kirda,,,,unclassified
 Koushik,,,,unclassified
-lambda calculi,,,,Common-term
-lambda calculus,lam-duh calculus,,,theory
 language-specific,,,,unclassified
 LeanCheck's,,,,unclassified
 Leibniz-Zentrum,,,,unclassified
-leonidas@umd.edu,,,,email
 Li-yao,,,,unclassified
 LIPIcs,,,,unclassified
 Low-Code,,,,unclassified
@@ -204,13 +212,11 @@ Magma's,,,,unclassified
 Mambretti,,,,unclassified
 Marinov,,,,unclassified
 Matela,,,,unclassified
-Meng Wang,,,,Author
 multi-framework,,,,unclassified
 multi-strategy,,,,unclassified
 mutant-property,,,,unclassified
 mutant-specific,,,,unclassified
 mutation-testing,,,,unclassified
-Non-determinism,,,,Common-term
 Nygaard,,,,unclassified
 Ouk,,,,unclassified
 owner/author(s,,,,unclassified
@@ -221,7 +227,6 @@ PBT-curious,,,,unclassified
 per-framework,,,,unclassified
 POPL,,,,unclassified
 print(overall_solved(df,,,,unclassified
-Prop,,,,
 prop=prop,,,,unclassified
 property-based,,,,unclassified
 QCheck,,,,unclassified
@@ -230,16 +235,11 @@ QuickChecking,,,,unclassified
 QuickChick's,,,,unclassified
 QuickCover,,,,unclassified
 RBTs,,,,unclassified
-recursive,,,,Common-term
-redex,,,,
-reduction,,,,Common-term
-reflect,,,,
 Regehr,,,,unclassified
 Ruef,,,,unclassified
 run_trial,,,,unclassified
 run_trial(cfg,,,,unclassified
 Sarfraz,,,,unclassified
-Scheme,,,,Common-term programming-language
 selfbalancing,,,,unclassified
 SIGSAC,,,,unclassified
 single-framework,,,,unclassified
@@ -249,7 +249,6 @@ sourcing,,,,unclassified
 Specification-derived,,,,unclassified
 strategy/workload,,,,unclassified
 strategy=strategy,,,,unclassified
-symbolic,,,,
 tests3,,,,unclassified
 timeout=timeout,,,,unclassified
 tool.all_mutants(workload,,,,unclassified
@@ -257,19 +256,14 @@ tool.all_properties(workload,,,,unclassified
 tool.all_strategies(workload,,,,unclassified
 tool.all_workloads,,,,unclassified
 tool.apply_mutant(workload,,,,unclassified
-Tram Hoang,,,,Author
 Traon,,,,unclassified
 Tree)s,,,,unclassified
 TrialConfig,,,,unclassified
 TrialConfig(workload=workload,,,,unclassified
 trials=10,,,,unclassified
-type substitution,,,,
 Type-System,,,,unclassified
 typebased,,,,unclassified
-typeclass,,,,Common-term
-weakening,,,,Common-term
 well-crafted,,,,unclassified
-Why,,,,
 within=timeout,,,,unclassified
 workload.name,,,,unclassified
 Xuejun,,,,unclassified
