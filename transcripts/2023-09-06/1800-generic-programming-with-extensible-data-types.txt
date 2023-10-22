@@ -1,0 +1,220 @@
+>> All right, I think at this point, we can kick off this afternoon's session on types. And our first talk is going to be Alex Hubers. 
+On generic programming on extensionable data types. 
+>> Okay, everyone, hello, everyone, thank you for coming, my name is Alex Hubers, and going to be presenting joint work with Garrett Morris, at the University of Iowa. 
+And native SOC is generic programming with extensible data types. And if you don't know what that means, that's confusing, that's okay, I will explain it to you in the talk, and so I'm going to call it the ad hoc expression problem. 
+And it's going to be ad hoc in that we're going to be looking at... AST, and simplify it from how the expression is problem is usually formulated to consider AST with nothing too complicated right now, just the true and false constant. 
+And that's the case. 
+Let's consider the behaviors, imagine defining the E type class over this data type. 
+
+
+And we define it aspected, and know T = T, and F = F, and we use this. 
+Equalitying case, and don't feel like specifying F doesn't equal T and T doesn't equal F. 
+And now we're going to extend the data type aspected for the expression problem, and consider adding named variables. 
+And let's look at the defaulting behavior, for the original case, F = T, did save us some work, we didn't have to write out the specification, for the case extension it doesn't work. 
+The situation where the default behavior is telling us X does not equal X and identified the equation doing two things for us, correctly defaulting the known and unspecified case and is incorrectly giving behavior to any case extensions. 
+
+
+And so one of the questions we'll be asking in the talk, can we extend data types in this manner that retains the correct behavior, and fixes the incorrect. 
+
+
+And we'll be continuing our dissection of equality comparison here to start to illustrate that. 
+
+
+And so, as a means of problem-solving, let's imagine what the right solution looks like, and modular world, everything fully extensible, and structural typing and err error messaging never a problem somehow. 
+
+
+We would probably define our cases independently, for example, define T independently, and with the cases we define the behaviors, and here we have the T case, and know T = T, as it's the only equation necessary, and same for the F case, F = F, and same for the V case, we know VX equals... if the underlying strings are the same, and further more, let's suppose illustration, we have way of combining these case, common in the paper, where you infix the plus operator, and this is setup of cases and let's look at behavior, in our perfect world, unspecified behavior remains correct. 
+ I didn't give an equation for f equals t, but it does come out back false. 
+ Are we fixed or variable case. You know no extra say is equal to x, but it is subtlety here is we have not overgeneralize this, this function and. So we're not defaulting false to literally everything, and so in other words, nonwill have. 
+So you have to provide a solution, how we are going to get there is the question. 
+
+
+And so we want to do it safely, and without recompilation of the existing code, and this is expression of the problem stated originally, and want to do without encodings we're interested in first class ergonomic solution, and don't want to use too advance machinery these are restrictions we're giving ourself that interest us, and machinery we found fit the ticket is called road types, and going to step aside and explain at least importance of road type for the purpose of this talk right now. 
+For the purpose of this talk, I really want to highlight what road types obviate and that is the duality between variants or algebraic data types and records and. To make that point clear, let's talk about what do algebraic data types consist of right, and we have the list of labels which names cop instructors and list of types, and types of the constructor input, and consider the dual, records, what do records consist of. 
+Names of destructors and types of destructor output in other words both of the declarations we have labels mapped to types, and that's what we abstract commonalty between the two of them, and we call this mapping a row. 
+So for the X array data type, and T to the unit type, and F to the unit type and V to string. And going to abbreviate this type, going to use quite a bit, and curly braces, to denote rows, and that's the abstraction and how we rayify it back to the actual data. 
+Rows themselves are not types, we use type operators sigma and pi to reconstruct the data. 
+Sigma reconstructs the algebraic datatype this you know segment expert is isomorphic to the usual Haskell time that you're looking at. And pi is going to construct a record, and to the TF and V destructors and here I'm over loading syntax a bit, usually you see curly braces it will refer to rows. 
+And so let's go back to those are the cases, and let's again consider the behaviors. 
+So we're considering the equality comparison of two variants, really thinking of Eq type class of E Expr and what changed here, now using rows to represents data type, and not the initial declaration, so we need the sigma here, and sigma constructs the variant from the row. 
+ And to reiterate the sigma expert isjust isomorphic to what we originally saw. So that's very good. You stay that's great O. K. I follow but this doesn't make any sense, and Eq is type to have class, for a row, and this is clearly ill defined behavior, eQ question mark you ask. 
+Let's try and imagine what we think this should be, right?
+Pretty common to view type classes as evidence, where elaborating to evidence, and in this case, the E type class stands for evidence, we get to equate type A, and we can think about Eq, and instead of type operator, and EqA takes the type, and gives back the Boolean comparator. 
+And so example, Eq of unit type, gives you unit to unit, to Bool and Eq string gives string, to string to Bool and so consider the single ton case, consider the row with single label and single type, seems rather intuitive to just map Eq over to the types and side there, which is sort of like saying, if I know T label unit, then I know Eq complied to that will be the comparetore at that type, and further if you extend this to all the row components do what we did before to all of them, and end up basically, we know how to handle every case. 
+Or we know the compareitors for every case. 
+
+
+And so in other words we're going to think of where we originally had Eq Expr and think of that instead of record of instantation, where pi is constructing record from the row, and row is Expr, and pi Expr is the record of instantation of what we saw. 
+ So where does this leave us, we have the function, and function is saying, we have the cases, can I produce Eq for the same cases but for variant, basically what we're saying, and this is an interesting question with interesting answer in 2019. 
+Something more or less fudging around with the calculi but could answer with paper called abstracting extensible data types, with Rose. "
+". 
+You might ask as audience, firstly what is novel here. And you also might ask, as audience here, this is not the ad hoc expression problem thingy, I don't see anything about mod lairty, in fact I see 3 cases I would say hold your horses, and we'll consider in POPL in Rose language, we can do some extensible by looking at row polymorphism to say we're going to quantify over all rows R, and have qualified type, that gives what we call the containment predicate, and so they are qualify types, that type classes but the generalized pass to the containment predicate, what is it saying, quantifies all rows such that contain expr, and so all subset have the label type associations. 
+
+
+Unfortunately not particularly interesting, and so operate on variants, actually didn't mean much at all. 
+Any of the variance, with less, interject into R anyway. 
+
+
+And further, if you notice we Expr only appearing in the qualification, so not really clear what it's doing for us, seems to be inhibiting us for no good reason, a very natural question to ask following that then is... what about unbounded r?
+Can I write this equation, or sorry, write this term... for any arbitrary r without knowing anything about the rules. 
+And in the previous work you could not, and the contribution of this work, language we call R-omega yes, you can. 
+And that's one of the things we'll be getting back to later in the talk, and we're going to call this generic programming with rose. 
+And rose thinking of signifying data and talking about without respect to labels, here we don't know any information about the label, and in particular, this is already a talk about duality, and going to consider two directions to illustrate... so we're going to consider at first reflecting records and consider the opposite after that. 
+
+
+And so what do I mean by "reflecting records". 
+And so imagine we have a record of eliminators, and by eliminator, I mean this. 
+Over the cases of sigma Expr. 
+And so all I'm trying to say is Expr has cases, right and I want to be able to handle every case in there, and eliminate it to the type A. 
+There is some funny business here, which is that in our omega, you can lift type constructors to row kind, and this arrow is actually trickery. 
+And if I rea-arrange here, and back to prefix notation, and unfold Expr and one step of computation, and see partially applied arrow, and have finished applying, and have this, and what I'm talking about record of eliminator, and T case, know how to eliminate it, and F, and V case, and so forth, the claim is that is sufficient information to be able to construct a variant constructed along the same case, should be able to produce a variant eliminator. 
+
+
+So for example, one sort of record of behaviors might be the truthy record, that says T label maps to the constant true function, and F label maps to the constant false function, and V label maps to the check the string length is nonempty. 
+
+
+And here I indicate this triangle bit is the term level association of labels to terms. 
+And so, under this definition, you would expect that the variant constructed at T is going to be true, and the... when constructed by F going to be false when you truthy over it. 
+And V variable X is going to be true, because X is non-empty. 
+
+
+Okay, so that's the idea behind the type signature, and the next question Obviously how do you populate it?
+And we're going to take this kind of piece by piece. 
+So to begin with we have our inputs, D: Record of eliminators and V, variant we want to now eliminate. 
+
+
+And question mark: Which is eliminating to A, so produce term at type A. 
+And now, we are still in this world where we know all the cases sort of for illustration. 
+And so you know, in any functional language you will write this function by preceding case analysis, and eventually want to do away with that. 
+But that's going to illustrate the logic we're going to generallyize, and so proceeding by case analysis in R-omega. 
+And have case helper, and this is not primitive, it's derivable, and it says, if V constructed by T eliminate this body. 
+So that handles the T case, and here handles the F case, and here handle the V case. 
+
+
+As is common, we need a way to compose these different handlers, and going to do with the construct the branching combinator, the upside down triangle, and let's look at that now. 
+Looking at the type signature of the branching combinator, first thing you see the presence of another qualified type, R-omega have two predicates with qualified type language, and containment, and saw before. 
+This is combination, this is saying for row variables, row 1, 2, 3. 
+We know two things, we know the operation is well defined, row 1 + row 2 + row 3. 
+And we know row 1 + row 2 = row 3. 
+And further branching, combinator is saying: If I know that rows 1, and 2 combine to row 3... and I know I have these eliminators for each side, then I should be able to eliminate the whole. 
+I should be able to eliminate row three. 
+In other words, you can think of branching as concatenation of varying eliminators and in fact completely more or less tool of concatenati o, n and coming back here, you see the illustration, this line, singleton case, and this handledals T case and this the F case, and branching should be able handle both cases and this here handles the V case, and branching should give us the totality of the cases. 
+And next question is: We have question marks here. 
+What should be inside here?
+Well, our strategy is very simple, D is the record that tells us the behavior at that label. 
+
+
+And so we have another... not a primitive. 
+Derivable the cell, and stands for T labeled it is thing in D and going to apply to X, that type unit and get back something at type A, and by nature of this setup, this logic is uniform for all the cases right, in each case, whether TF or V, we're going to look for TFV thing in the record, and then apply to the value we have. 
+
+
+And now again, you say, "okay, there is probably a point here somewhere, this seems more like elaborate setup. 
+" Yes, there is, we will get to it right now. 
+
+
+As I stated we're going to consider now when we have no information about the labels. 
+And now changed the types to ensure reflect the row variable R, and let's look at logic that we wrote. 
+Namely, we have none of it left. 
+We have D, V, and nothing else, because relying so much on case distinction. 
+But you can ask the question, just looking at this code, why would we need this?
+In particular, can we not analyze, you know, if all the logic is routine between the 3 of them, if it conforms, why do we need to actually handle all 3 cases separately?
+And that's the genesis of what we call the ana combinator, to say what Ana does it really does exactly this. 
+Ana primitive as a label generic case distinction. And so using first class labels... yeah, first class labels, to analyze the contents. 
+
+
+And so suppose we have arbitrary roar component, and so labeled R, and so we know how to use the combinator, so consider how to actually type it and make it happen. 
+
+
+So within the body of ana we want to be able to label analyzing the variant, V, and so L and X here should give the components of the row at that point. 
+
+
+So here L should be first class label, where this machinery makes the type from the label; and X has type U, the thing that also in the row component. 
+
+
+And given those two things, we have obligation to return A, because in the individual case we need the return A, so the whole case we return A. 
+
+
+And so, in general, for the body, or typing ana what we are really saying for F, the body, if I no he for each L labeling U and R, if I know how to you know uniformally destruct each component, I then uniformally know how I can destruct the whole. 
+And that's part 1. 
+And I think we can sneak in the dual, and call er there. 
+So dually, if I can reflect the record of eliminators in the variant eliminator, I should be able to reify a variant linear into record of eliminators, and all I done is swap these two around, and let's repeat the same exercise as before, so we know we use the syn combinator, and complete dual to ana and have F which eliminates the variant sigma R and syn dual to ana should have obligation to construct a record, saying, if I construct a record from each of the labels just knowing those, I can make the bigger one, and builds pi r, a, from label L and row R, how do we go about building this term. 
+Again, we know, in particular, in the body of syn we have l labeling U arrow a, contained in r arrow a, and remember this is row variable, so lifting of the arrow type constructor, and more or less we know both of these things, we know L labeling U arrow A... and L labeling U is in R. 
+And trying to build something in this type, so the body we syn we have obligation to construct a term type U arrow A and one of the same things, we Obviously get the label so we know what to construct, and here we have to recall, we are constructing a record, right. 
+Constructing a function, and obligation to build a function, and so building function you presume term input type, which in this case, is X, at type U, and finally we have obligation to construct term at type A, and how do we do this. 
+Here is the general strategy, and going to want to build the variant, singleton variant at type, sigma LU. 
+And inject is into the sigma R and use F to destruct it. 
+And this is precisely what that looks like. 
+And con is the drivable term as well, and says, construct the single ton, and label L and term X, and injects sigma R, into the qualified types that allow us to do that and F destructs it. 
+In general, in the case, when we look at type of derivation of syn what we're saying, is if I can uniformly construct each component, given just the label, I should be able to uniformly construct the whole. 
+And started... I led with this example, equating variance, and I'm not going to have time, and skip ahead to the advertisement for the rest of the paper, spoiler alert, are you able to type the thing I said at the start, it is possible. 
+
+
+So in the paper, we also... I presented sort of small fragment, and also found we had lift to higher order rows, rows that contain type constructors and the like, and that permitted us to do very interesting things, writing type transforming map for example, if the insights transfer from U to T, then you should be able to... yeah. 
+The point is, it got complicated. 
+And you need to do all this business. 
+And that allows us to lift things, not just the eg type class, but the interesting type class, the functor type class, and finally the last contribution of the paper, and denotational semantics into Agda gives a, a proof of type-safe safety. And that's the gist. 
+Okay, questions?
+
+
+>> Any questions?
+The microphone is over there. 
+And remember to state your name and affiliation. 
+>> . 
+I was wondering if you can say a bit about runtime. 
+And if you have the function to make record, and initialize each field, and how does it know what fields are there in the record in the first place. 
+
+
+>> He's not coming in. 
+>> Try again, maybe closer to the mic. 
+>> This is better. 
+>> So I was wondering if you can talk a little bit about runtime evidence being passed for the rows. 
+In particular, for example, you gave an example of making a record out of some of initializers essentially, which are syn type, and that tells us how to make each field, how do you know what fields to make in the first place, how do you compile polymorphic function like that. 
+The row needs some representation right. 
+>> Yeah, if I understand correctly, you are wondering where are the labels going. 
+
+
+>> Yeah, how big tuple are you going to be making. 
+>> The short answer is in our runtime semantics, and denotaion we erase the labels and all the information really contained in the predicates, and interpretation of the predicates. 
+
+
+And so, in particular, we consider the predicates, give you this index mapping between different rows, and rows get rid of label and is now just index, and the predicates, the interpretation of those will house the information and tells you where things go. 
+Sort of the idea. 
+
+
+
+
+>> Okay, B from Chalmers. 
+You seem to have... role for R, and sigma R and PiR, and I wonder if it's sigma of int or sigma of Char or sigma of something, what what happens if you apply sigma to something that is not a row. 
+>> Good question, in our development, we restricted to things that were row kind star, and so rows indexed also by kind, and the formation of variance and records, requires they have kind star, and thing contained in the row is kind star. 
+>> So for all there is restrictions, the R is actually... 
+>> Yeah, so let me back that up. 
+
+
+I omitted the types, correct to observe, I omitted the types on kind annotation for R, really just to save space, so here doing implicit quantification, so for all R, row kind, housing kind star. 
+
+
+Yeah. 
+
+
+>> Hello, Ethan Smith, Google. 
+We kind of at the start of the talk elauded to type class stuff we're going to compose, individual case type classes into the larger ones and this reflect combinator looks right to implicitly, constructing the dictionary, have you given thought to what that would look like and how they would fit into the system. 
+>> Into what. 
+>> Creating type classes for instances of individual cases sorry very tall. 
+Should I get closer. 
+And now coming in. 
+So reflect, we have dictionary of eliminators that looks right for implicit construction, and individual cases do you have thought concretely what that looks like, and fit into the label generic programming we're doing. 
+>> What. 
+>> You're fine. 
+>> Not being clear. 
+>> Saying unary to binary. 
+>> So expression example, I have two falses that equal each other, and I can combine those, imagine can we automatically combine those in the compiler, and fill in the row of eliminators for the user, because we know how to do that from some kind of set of ground instances. 
+>> Oh, yeah, sure. 
+
+
+[Laughter] let's try it. 
+
+
+>> All right, fair enough. 
+
+
+>> I think we should thank the speaker. 

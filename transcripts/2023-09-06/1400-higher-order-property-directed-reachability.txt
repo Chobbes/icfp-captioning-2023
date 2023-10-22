@@ -1,0 +1,312 @@
+          >> TAHINA: And now we have . . . sorry.  Yes, one second.  One second,
+     yes.
+          And now we have Hiroyuki Katsura from the University of Tokyo who is
+     going to tell us about Higher-Order Property-Directed Reachability.
+          And once again, online please post on the Discord thread.
+          I'm going to revive it.  And mute myself.
+          >> HIROYUKI: Hi.  I'm Hiroyuki Katsura from the University of Tokyo in
+     Japan.  Today I'm going to talk about Higher-Order Property-Directed
+     Reachability.  This is a joint work with Naoki Kobayashi and Ryosuke Sato.
+          First of all, PDR, or property-directed reachability, is one of the
+     most successful methods in the context of first-order program verification.
+     We are going to consider automated higher order program verification as
+     it's still not satisfactory, so this situation gave rise to the forming
+     questions.
+          What could PDR, what happens if it's applied to the higher order
+                                                                                00010
+     program verification.  If it's possible, does it work effectively?
+          So answer these questions, we formalized our method for nu-HFL(Z)
+     which is the higher order logic by using other types.
+          We also implemented preliminary solver based on the proposed method,
+     and we also -- our work with previous existing solvers.
+          Finally, we compared our work with other methods by redefining their
+     methods in HoPDR style, but we don't dig into the detail of this comparison
+     in this talk, so if you are interested, please refer to our paper.
+          First of all, we want to talk about our motivation of this research.
+     We consider automated higher-order program verification.  In fact, in
+     recent years, various approaches to automated higher-order program
+     verifications have been proposed, including HORS model checking or
+     refinement-type inferences or logic-based program verification.
+          However, we think that they are not satisfactory in terms of
+     efficiency or expressiveness of the background-type system, so this is the
+     motivation for considering yet another probe like HoPDR.
+          Then what is nu-HFL(Z) and why we target nu-HFL(Z) when we formalize
+     HoPDR?  Nu-HFL(Z) is a higher-order logic with greatest fix points and
+     integers.  It can capture properties of higher-order programs very
+     naturally and uniformly.
+          Consider the following situation.  Given a program in some language
+     and given also you are given a specification, like lack of assertion
+     failures or uncaught exceptions or whatever, and now you have to write
+     verifier for this program.
+          If you use nu-HFL(Z) framework, then you can just reduce the program
+     to the validity checking of the nu-HFL(Z) formula and then use the
+     off-the-shelf nu-HFL(Z) solver to check if the orange program is valid or
+     not.
+          In fact, this is the situation in the first-order context.  CHC
+     solving or checking is used for verifying first-order program verification
+     widely.
+          So solve such checking of CHC, PDR or spacer, which is the extended
+     version of PDR.
+          In this sense, extending is reasonable.
+          And so now we want to look at how it is applied to program
+     verification now.
+          This program, sum function takes an integer X and -- summation from 1
+     to X and binary plus the result to the continuation function K.
+          In the main function, it takes an integer and passes that integer
+     through the sum function and finally checks if the result, R, is greater
+     than or equal to it.  Does this program never fails or in other words does
+     this assertion never fails?  This is an instance of safety property program
+     of functional programs, and this kind of program is reduced to the checking
+     program by the reduction of -- and others in the [indiscernible].
+          And actually we don't dig into the details of the syntax, but
+     basically nu-HFL(Z) formula is comprised of a top formula and fixed point
+     equation like this.
+          And this function, some function is actually a higher-order recursive
+     function, and it is reduced to the higher-order predicate that is defined
+     by greatest fix point, and if you look at the body of the program and
+                                                                                00011
+     higher-order predicate, then you may notice the cross-correspondence
+     between them.
+          And from this you understand the reduction does not lose any
+     information, so that's why we think this is nu-HFL(Z) can capture
+     properties of higher-order programs.
+          And then the main function is the formula of nu-HFL(Z), and now what
+     we want to do here is to solve this validity checking problem automatically
+     and efficiently, and this is what our work tries to do.
+          Then before we talk about how to solve this validity-checking program
+     by utilizing HoPDR, we want to talk about the first order.
+          PDR takes a transitional system like this, good states and bad states
+     and step function and checks if the bad state is reachable or not from
+     initial state.
+          So if there is a example from initial state to bad state, then we can
+     say it's reachable, but if you want to prove unreachability of the program,
+     then you have to infinitely expand the condition due to the existence of
+     integers.
+          So to saturate infinite steps, we have to invent some good inductive
+     invariant, which satisfies these conditions.
+          First is inductive invariant is invariant to the cost condition, and
+     inductive invariant also does not violate the safety condition.
+          So if you can find this kind of state set, we can say the original
+     program is varied, but how do we do it is the problem.
+          To do so, in the PDR we rephrased the original program like this.
+     Instead of thinking that expanding initial state infinite times, we
+     consider -- then we over and under-proximate the state sets like this.
+          And actually, this Ci represents the under-approximation of expanding
+     bad states for K minus I times, and RI is the over-presence of -- in I
+     steps from initial states.
+          And by repeatedly refining these configurations, PDR hopes to find an
+     inductive variant in finite steps.
+          And in the context of first-order PDR, CI is representative of the
+     model and RI is representative as the first order formula.  Now we want to
+     consider higher-order.
+          How to handle higher-order predicates in these states?  This is the
+     problem.
+          And our key idea for HoPDR is to use refinement types for expressing
+     approximations.  So in the higher-order setting we consider predicates and
+     CI which is a recursion-free formula as the example so that we can handle
+     higher-order predicate naturally.
+          If these types and formulas extended version of state sets, so if you
+     express these configuration in this way, then you can naturally extend PDR
+     setting to the higher-order states.
+          So, to explain this higher-order property-directed reachability, we
+     want to talk about our refinement system.
+          Our refinement type system is if an extension of the refinement type
+     system proposed by Cathcart Burn and others.
+          It contains intersection and polymorphic types.
+          And intuitively, refinement types give over-proximates of formulas,
+     and in this sense we are seeing higher-order, this kind of -- -- can you
+                                                                                00012
+     hear me okay?
+          This kind of refinement that is considered to be higher-order
+     extension of state sets.  And this is the syntax for refinement type.
+          And this guy is the type of -- -- such that implies, right?  So the
+     formula has the following refinement types, like this.
+          This is the syntax for the predicate that takes an integer, and this
+     importantly in this -- oh, sorry?
+          Oh, can you hear me?
+          So let's talk about this refinement tape for the predicate that takes
+     an integer.  In this, in our setting, tau can depend on X, which is this
+     integer variable, so we can write this kind of refinement type for this
+     formula.
+          And then this is the syntax for higher-order predicate, and in this
+     system we can write the position of argument, okay?  This is the syntax for
+     polymorphic type.
+          Then if you ignore this higher-order part, then you obtain, we obtain,
+     we can say that this refinement type is equivalent to the approximation of
+     the PDR setting, original PDR setting.  Because if you translate this
+     reachable sets in the original PDR, it can be -- -- following refinement
+     type.
+          Then by utilizing this refinement-type system, we formalize
+     higher-order property-directed reachability.
+          First of all now instead of thinking of the system, we consider
+     validity checking of the formula where it is represented as this.
+          For example, this is an example nu-HFL(Z) formula.  Now the goal of
+     HoPDR is the gamma like this such that these two conditions hold.  And we
+     call that the first-order setting of PDR.  This condition can be considered
+     as the higher-order extension of this one, which is the first condition for
+     inductive variant, and this one is the higher-order extension of this
+     condition, and so this condition says that for each type assignment and the
+     type of environment gamma, we can assign that type to the body of the --
+     under the assumption of environment, gamma, and probably this is -- we can
+     understand analogy to the typing of the function in functional program
+     literature.
+          And secondly, this function says gamma is strong enough to prove the
+     validity of the top-level formula.
+          So if you can find this type of environment, then we can say the
+     original problem is -- --
+          And so then to find this kind of environment, HoPDR tries to refine
+     and rely configuration of the form of this as we did in PDR.
+          So this is the higher-order extended version.  So gamma I is
+     represents the higher-order and over-approximation of fixed point
+     with -- -- of fixed points.
+          And secondly, the CI represents the under-approximation of the example
+     with holding of fix point.
+          Then we want to find this type of environment, gamma by re-writing
+     these configurations using these transition rules.  These rules is actually
+     a higher-order extension of the original HoPDR proposed by Hoder and
+     Bjorner.
+          You don't have to understand the detail of these really self, but
+                                                                                00013
+     basically each rule says that given the configuration like this, then if
+     these assumption are satisfied, then we can obtain another defined version
+     of configuration, okay?
+          Then we want to see how these rules are applied to a learning example.
+     So we will consider this example.  This is an example of nu-HFL(Z) formula,
+     and this one, top-level formula, says M is greater than 1bly implies FM
+     where FM is defined as the fix point equation that satisfies this equation
+     holds.
+          Then this instance is actually varied, because if you consider the
+     effects with X is greater than O, then from the top-level formula we obtain
+     this formula, which is true, and also from the fixed point equation we
+     obtain this formula.  This is also true.
+          So in this sense, we can say M is greater than O is a candidate for
+     inductive invariant, but now how to find this M is greater than zero
+     automatically is the issue for HoPDR, so let's see how HoPDR finds this by
+     applying the rules and re-writing configuration one by one.
+          First of all, HoPDR starts with -- this introduces the strongest type
+     of environment of sequence of approximation.
+          Unfortunately strongest type of environment is not invariant, so the
+     HoPDR thinks that we have to collect more information from fixed point
+     equation, so we unfold one the fixed point by utilizing unfold, and by
+     utilizing unfold formula, we introduce the weakest type of environment to
+     the approximation sequence.
+          Then this weakest type environment is not strong enough to prove the
+     validity of the top level formula, so now we obtain -- -- example to this
+     type of environment, the formula to this environment.
+          And then we are going to check if this example is -- or not.
+          And you don't have to understand this derivation itself, but this
+     example, it can be refuted by utilizing the previous type of environment,
+     top of gamma.
+          And by finding this type of environment, by using procedure that we
+     introduced, we can apply conflict rule like this.  And by utilizing this
+     type of environment, we can say this content example 5 can be derived, so
+     we introduce this type of environments to the sequence of the current
+     approximation, and now that series of approximation is refined.
+          But unfortunately this gamma 1 is still not an inductive invariant, so
+     we continue to unfold fixed point again, and we obtain another candidate.
+          And on this time, we have more informations than before, and if this
+     is not enough, then we obtain this type of environment by utilizing this
+     conflict rule.
+          And fortunately this is an inductive invariant, so we can conclude by
+     utilizing this type of environment, this original program is valid.
+          This is how HoPDR finds an inductive invariant, by repeatedly
+     re-writing configurations, but how about invalid case?
+          Now we modify this part here, so now this instance is invalid because
+     if you unfold this fixed point twice, then you obtain zero not equal to
+     zero, which is obviously false.
+          So for this instance, actually the initial procedure for proving,
+     disproving this instance is the same as the previous valid case up to this
+     part.  But for this part, actually after the second candidate this formula
+                                                                                00014
+     it could not be proved under the type of environment gamma 1, unlike the
+     other case.
+          So we obtain another context example by expanding the fix point of the
+     example like this, and by applying decide loop.  Then we expand again, and
+     now the length of the example sequence is equal to the length of the type
+     of environment, so we can say this instance is invalid.
+          Okay?
+          So this is how HoPDR repeated three re-writes the configurations and
+     obtain example or inductive invariant.
+          So far we explained our procedure by utilizing first order formula,
+     but actually for the simplicity program, but actually in the paper there is
+     an example for higher-order formulas, and also probably you may wonder how
+     to find a good type of environment gamma prime at conflict inference, and
+     actually this is another important issue for HoPDR, and it is explained
+     also in our paper.
+          Also, there are some properties that are required for refinement-type
+     systems to make the HoPDR work effectively, and there are also technical
+     details for making the whole procedure.
+          So if you are interested, please check our paper for the detail.
+          Finally, we are going to talk about the experimenter result.  First we
+     talked about how it's formalized, and based on this we implemented a
+     preliminary -- based on the proposed approach.
+          We also take benchmark set from safety property program of
+     higher-order function programs, and we conducted on the experiment, like
+     this, and unfortunately PDRHFL or HoPDR does not outperform other
+     existing -- -- but we think there are some promising results.
+          First of all, PDRHFL could solve problems that ReTHFL could not.
+     That's the state-of-the-art.
+          Another thing is PDRHFL tends to solve unsafe instances faster than
+     before previous methods.
+          And finally, virtually combined solver, PDRHFL plus ReTHFL is the
+     best, and from this experiment results we think this solver is
+     complementary to the previous method.
+          Finally, we want to talk about our related work.  First of all, there
+     are some existing nu-HFL(Z) solvers like based on predicate -- but we think
+     our solver is complementary to their solver.
+          And another thing probably you may wonder is that PDR, HoPDR is the
+     higher order extension of PDR, and from the compiler we conducted in the
+     paper, we confirmed that PDR for linear CHC is obtained by a special case
+     of HoPDR.  So in this sense, our procedure, HoPDR, is the higher-order
+     extension of PDR.
+          And finally, our procedure is also applicable to full HFLZ validity
+     checking as a building block of the solver, and it can handle arbitrary
+     properties, so in that sense this uniform approach can obtain more wider
+     properties can be handled in this framework.
+          So this is HoPDR, and finally we want to conclude, we formalized HoPDR
+     using polymorphic refinement intersection types for nu-HFL(Z) validity
+     checking, and we implemented a preliminary solver based on the proposed
+     method and evaluated our work with the benchmarks and compared our work
+                                                                                00015
+     with previous methods, and we consider that our solver is complementary to
+     their solvers.
+          Finally, we compared our work with other higher-order program
+     verification methods so that we can see how different it is, and so if you
+     are interested in this part, then you can refer to our paper.
+          That's it.  Thank you for listening, and yeah, I'm happy to take some
+     questions.
+          >> TAHINA: Could the third speaker please come forward.
+          You can line up for questions.  Once again, please tell us your name
+     and affiliation, and eat the mic.  You can also ask your questions on the
+     Discord thread.
+          Did you have a question?  Sorry.
+          Yes, okay, thank you.  Do you have a question?  Okay.
+          Then I do have a question, so if you could go back two or three slides
+     before, please.
+          >> HIROYUKI: This one?
+          >> TAHINA: Yes, you mean -- what kind of program is that?  Yes, what
+     kind of programs?
+          >> HIROYUKI: Basically this problem is firstly -- -- solving unsafe
+     instances, and secondly -- -- in terms of the background-type system, and
+     there are some instances that cannot be handled in the framework of ReTHFL.
+     Our system contains other types and in this sense expressiveness is greater
+     than zero.
+          In such instances it can solve our solver, but their solver cannot
+     solve.
+          >> TAHINA: Okay, thank you.
+          Yes, if you can stay on this slide maybe.
+          Do you have one idea why PDRHFL alone platform is worse than the other
+     solvers that you --
+          >> HIROYUKI: Basically the type system itself is a bit difficult
+     compared to the other solvers.  This is one reason.  And another reason is
+     probably other methods use a program to the background like
+     well-implemented solver, and their solvers are good at finding fix points,
+     but we have to handle such kind of fix point solving in this framework, and
+     so in this sense we have to implement more to efficiently find fix points
+     in this framework, so this is the second reason.
+          >> TAHINA: Thank you.
+          Any further questions?  Let me see if there are any questions in
+     Discord.
+          Any further questions?
+          I think if there are no further questions than this, thank you to the
+     speaker again.  Thank you again.

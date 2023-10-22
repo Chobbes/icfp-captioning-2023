@@ -1,0 +1,115 @@
+>>   The correct title is can I give a talk despite a nine-hour jet lag.  Yes, I will prove that I can.  
+
+We write verified software and hardware and compose these things together in a whole end-to-end verified system.  To do this one important part is really this instruction set architecture which really is the interface between software and hardware.  An important question is which instructions do you pick?
+
+Previous have used variations of our simplifications.  Now, recently, in the landscape has appeared RISC-V.  It is an open standard.  I was surprised when I learned that this is a big deal in the sense, that do not publish the standard for openly, so you have to pay licence fees to know the specification.  With V the specification is open and governed by some neutral body that maintains this standard.  This is the optimal vehicle to do the research.  There is plenty of open source implementations and commercial implementations and the tooling eco system has also been adopted, many big useful tools have been imported to RISC-V.  Google has announced that Andre will support it.  
+
+The goal that we have is to create a flexible RISC-V specification that supports many different use cases such as testing and simulation, model checking but also formal verification in interactive proof assistant.  
+
+Our approach was to rely on existing languages and tools instead of re-inventing new languages and tool.  So differently what we want is a form of semantics for a real-world instruction set that supports a wide variety of different uses at reasonable effort.  The claim that I want to make here and I people might appreciate is that this can be achieved with general purpose functional language using as key ingredients monads and type classes.  Compared to other past efforts, they are not as flexible as ours or rely on DSLs, and their main alternative is the DSL which has been chosen as the formal RISC-V specification.  
+
+Our our general purpose language we chose Haskell and we use it in the main vehicle for getting this flexibility is type cast that we call Riscvmachine.  It has the vocabulary that we need to express the specification of individual risk five instructions and then each of these white boxes is different type cast and we also have a change of lifting and extending type casts.  
+
+A little more detail about this machine.  It takes two parameters.  The first one is P which must be a monad, but this one can be a different one for each instance as in for each use case.  Then it takes a T, which is the type for integers that appear in register and it will be with 32 or 64 depending on machine.  This is the list of primitives that we need to express the specification of RISCV instructions.  You can see they are about setting and getting registries, they are loading and storing 1, 2, 4 or 8 bytes from memory.  
+
+We made a somewhat unusual choice but I think one that we like which is we only distinguish two types of integers.  The first one is signed and unsigned integer of a certain number of bits and the second one is an integer in the machine's bitwidth.  For the first one we recalled that the machine, which is means some integer inside the machine, of any bitwidth and it turns out that in this specification 64 bit has to be enough.  For efficiently simulating this will be very convenient.  The second kind we use in that appears in the type class and this is in contrast to other approaches which say you have to use dependent types to track exactly the bidwidth of each integer and we chose not to do that.  I think even though or because one of our co-authors wrote this whole book about dependent types in coq.  A little overview of it is written.  We have decoder, which defines first ADTs for instructions, with some fields and you can see the immediate values.  You get 64 even though only 12 bits are offsetting for instance.  Then we have a decode function which takes an instruction set, which extensions are active and then it takes an instruction which is just a 32 bits, but it represented using 64 bits.  Then first we extract, name a few relevant bit fields and then we check the values of these bit fields and depending on the values, we create instructions such as store word or branch on equality.  
+
+Then the other important part of the specification is the execute function.  For each instruction we define what happens if you execute it and as you can see, we expressed it in terms of the primitive that we showed before.  So get register, PC, and all these primitives.  It is another help function and expressed in terms of the primitives that I showed you.  We tried really to make this, if you look hard enough corresponding to the official aspect.  
+
+We aim to provide or cater to two different types of users of this spec.  The first more casually users don't need to know Haskell.  They can just read this as a funky version of English and just kind of see what is hopefully what it does, whereas more seasoned Haskell users will certainly want to know that the signature of execute has this type and they can dig into more detail and those understand why there is two and everything of that.  
+
+Now I want to go through a few different use cases and for each of them show you how we substantiated this machine type class with an instance tailored for that use case and these are the use cases that I will go through.  I will start with testing and simulation.  It is fairly standard.  We have the monad with the I/Omonad and we use the references and arrays and we run 100 k instructions per second and boot Linux and we run small tests for each instruction and maybe the image is going to come back.  We are starting with a simple instance and using lifting we can add as additional features such as exceptions or memory map IO by listing the operations that don't change and adding one more operation that uses the capability of the monad.  
+
+For this we use a called a hs-to-coq.  It takes - we feed most of the Haskell sources into it, but what we really want is we really want to control the kind of spec that we get.  We do have to use a feature of HS-to-coq that is called edit files.  These allow us to map certain definitions from Haskell to something in coq that we can freely choose.  For instance, for the machine, which is a 64 bit in Haskell.  We chose that in Coq it would be more convenient to use unbounded Z, and since we know that in the specification in Haskell, we don't rely on any wrapping but properly masked all the users.  This is actually semantics for serving.  This we create a risk 5 coq and it turns out that there is also some other Haskell sources which would need so much configuration and tweaks to tell what result we actually want to get.  It is easier than writing a super advance that is special cases or all these cases.  It is a pragmatic approach.  
+
+Then the cool thing is that this coq specification, we were able to use it as the interface between our bedrock 2 verified compiler and processer.  As far as I know we are actually the only ones who did both sides for the industrial instruction set architecture.  We can use the whole thing end-to-end and have resulting in an end-to-end theorem that only mentions the top level, high level of behaviour, and the hardware description shows semantics.  
+
+In coq the question arises which monad should we pick?
+
+The first one was nondeterministic State monad with errors, and you can give this type.  This is an answer type, new state and arrow prop means think of it as adding a set but non-determinism.  This type may make sense.  You can define a bind on this type.  All development, including the compiler is based on weakest preconditions.  We need something to say when did the computation satisfy a POS condition ... you can write this with a lot of quantifiers and it worked, but it was just pretty cumbersome overall.  Basically, the problem is that each bank creates an or here an exists and most of these ors and exists are what I call fake in the sense that only one side is possible.  Most operations are successful and can't fail on the first thing, and also it is often fake in the sense of just only one value that is possible rather than many of them.  In order to keep this manageable, we needed to add some kind of creation and inversion for all operations and it worked but was cumbersome.  Then the question is given that all we need or want is weakest break conditions, can't we define this more directly?
+
+It turns out that, yes.  The second approach which we tried and much better is based on the free monad.  The first step is to write the RISC-V machine instance which is a very dumb instance.  It is one for each primitive and we also have a free monad which materialises, and after using this trivial instance, we can add an interpretation function that goes from this AST to a signature which looks like weakest preconditions, maybe you like the argument or the swap, but I like this to be the initial State, this condition and then a prop that tells me whether the position holds.  
+
+The next application is some experiment.  We are following algorithm called HMC presented at ASWAS and this allows to enumerate all weak memory graphs and we implemented that algorithm as a type plus instance of our [indistinct] and then we can take the litmus test which basically execute like two little, two or three instruction programmes in parallel and then use the official RISC-V memory that is specified in Alloy, and these functions query the analyser to know which executions are possible and then at the end we can output the condition of interest that was indicated in the litmus test can or cannot happen.  
+
+Finally, another application is model checking, specification against another RISC-V specification, but this time working in vary log.  The question-- Verilog.  It is high level, definition of what happens in one RISC-V cycle or Verilog, and we're using this tool calmed clash which can translate Haskell to Verilog and it is cool to have the author in the audience, very cool.  We wrote clash specific instance for our type class making sure that all the data types are very obviously small and very obviously finite so that the clash can generate a circuit for it.  Then this worked, these are checkers to check that these are equivalent.  As you can see, it is really tiny.  It is just like one value which is the address, one which is the value that was stored and then it is indicating which of the four bites are actually affected, some kind of mask.  Because it is only one cycle we can do that and we don't need to model a full memory or anything like that.  There was one snippet causing problem.  We rewrote this many times, but what we're doing here is we have different extensions and we collect all the possible coding results into a list and we know that this list of results is always of size 1 or maybe 0 if something went wrong, but we expect it to be of size 1.  We only did it for the I instruction set, so basically all these ifs should can schedule out and we should get to the head of the first - we were only interested in the first element, and we tried to feed this into clash, but it does have to do some normalisation in order to create a circuit and it just ran forever on that problem, so this is the point where we needed to use pragmatic engineering solution which was to simply feed this through a little set script and delete out the offending lines.  Sometimes you have to be an engineer.  Some are related work.  Sail is a domain specific language and if you make domain specific language, you can put a lot of super handy little features into it that make your life much easier.  For instance, they have open variant types that they can scatter over several, and also the definitions can be scattered across several files.  They have type checkers.  Here is numbers adding up to 32 and it will catch some errors in our case will not be calling.  It is also pretty flexible in the sense that each instruction is almost - it is usually in its own file and then own level of the mic file you can have variables which tell you which instructions you're interested in.  You can mix and match the instructions for your customer specification.  This file is huge and no-one wants to have such a huge unreadable time, and this is actually maybe the claim is, sure, the sail people are not interested in using coq very much.  Could probably have more engineering efforts to get it done, but it's also something to be said about our approach, the point is that we rely on the existing work of people, because I mean, Stephanie is working here and she has done all the work of getting the coq to work, out put possible.  Instead of redoing that work we can rely on that work.  
+
+To conclude, abstract monads and typeclasses write ISA spec.  You can reuse existing language and translators.  The shallow embedding that we're using means that we do not to reinvent and maintain a whole language but use all of Haskell and get a fast-enough interpreter for free, but there are drawbacks.  An important one that hour type class instance cannot intercept or customise the means of ... like a clash or Hs-to-coq can because they eat the Haskell syntax.  We tried to write a few custom translators instead of justice type class instances, but that was pretty gnarly because you will have to deal with it unless your target language is just really following closely what Haskell does.  This has been in use for more than five years.  We're still using it.  It still works.  It works.  It works for us, let's put it that way.  That's it.  
+
+We have Haskell source here and the coq is here.  I'm happy to take questions.  
+
+>>  ... translating to coq and more common approach will be another way around [indistinct] can you contrast [indistinct] can you contrast these approaches?
+
+>>  I think it was almost called political in the sense that Haskell we thought would be general purpose and unbiased enough to be able to serve as specification that many people can use, whereas using coq as the reference thing, you have to use coq and you can't use Isabel, or maybe you can, but they're in a second class and coq is first class.  This whole project started when we were trying to become the golden model, blessed by RISC-V so there were considerations like that.  Other than that, yeah, I think starting with coq and doing exporting to Haskell was might work even better.
+
+>>   [Indistinct] 
+
+>>  It goes through blue spec and then blue spec...
+ >>   [Indistinct] what did you get from - what was the Verilog that you got from the clash compared to what you get through Kam i?
+
+>>  I'm not the one who looked at it, so I can't tell.
+
+>>...
+ >>   Yes, that's important, yeah.
+
+>>   [Indistinct] I tried to get some idea how your spec is between your work and sail, because sail has a few megabites generated, of a coq spec, and I assume yours is much smaller; is that right?
+
+>>  Yes.  Ours is maybe a little less detailed.  We did do virtual memory but not in coq.
+
+>>   You can also put Linux, right?
+
+>>  That's in Haskell but not in coq.
+
+>>   That's right, but Haskell and the coq spec are roughly equivalent, right?
+
+It's modelling the same subset of the machines?
+
+>>  No, I think the control ... I think we simplified that in coq.  We do have proofs, but some simplifications.  We don't do virtual memory in coq.  It is a little simpler, but from looking at the coq output from sail, not all is necessary complexity.
+
+>>   There is no virtual memory user common mode, TOB. ...
+ >>   Ryan Scott.  It struck knee that despite the fact RISC-V were in the name, many were very general and without knowing more, it seemed like it could also apply to other instructions like X 86 and arm and so on.  Would this be a suitable approach to generalise to other ISAs and what challenges would arise?
+
+>>  Good question.  I simply don't nope because we didn't try.  People tell me that arm and X 86 are much more complex.  I don't know what kind of stuff would come up, but certainly instead of calling it RISC-V machine I will call it machine and tweak the primitives a little bit and do the work, to be tried out.
+
+>>   Thank you.
+
+>>   ... I was looking at that type class you had and set register, load, word, these are all things part of the architectural state of the machine, but then I saw commit further down the line.  That's actually sounds more like micro architectural detail.  I wasn't sure my knowledge is not complete but that may be my misconception, how much of the type class is read off from the architectural state by the specification itself and how much more incidental.
+
+>>   I think there is a thing of to be said if you run into an exception or something, then the state that your previous instructions have modified actually doesn't get - is discarded and I think it is related to that.
+
+>>   It is then.
+
+>>   Yes, it is not the commit in the sense of, I don't know, pipeline implementation detail or something.
+
+>>   Great.  Thank you.
+
+>>   Neil ... since we have two machine checkable formalisation of RISC-V sail and yours, have you tried doing any differential testing to checkout bugs in either one?
+
+>>  Yeah.  That's a question that has to be asked.  No.  We haven't even tried.  It is maybe a bit of a problem of academia.  It is not academically rewarding to do the work, so if you're a student and not signing up for this, but it would be very interesting to do and to see if it works and see whether it reveals differences.
+
+>>   ... RISC-V is two documents, privileged and unprivileged execution.  I was wondering, in this work did you look at whether you can by consent escalate from user to machine or from user to super user kind of thing, is that part of the spec?
+
+>>  Yes.  We set privilege and the control and starter, instructions, we did model that stuff in Haskell certainly, and in coq a little subset just good enough for one project, but we do have, like, machine mode, user mode, whatever it is, three or four levels are, and corresponding [indistinct] yeah.
+
+>>   [Indistinct] 
+
+>>  When you're creating an SCQ, doing the first part, do I do add, do I do jump correctly, that is fairly easily but making sure that you don't violate the other one is the hard thing to do.
+
+>>   For concrete programme we can prove that we didn't do it, but we could prove that privileged levels remain the same or even for programmes that only contain these instructions, we could prove theorems like that.
+
+>>   ... this is a minor comment not as interesting as any of those questions, but I noticed that you said since you're using an embedded in Haskell you're not able to over load ... I believe you can override ... with the rebindable syntax extension and so what happens there is that if the notation gets translated to a function call or hold, and I believe it is valid to that.  I hope that's helpful.
+
+>>   Thank you.  Good to know, yeah.  More importantly, does it support LEKT?
+
+>>  I don't think it does.
+
+>>   That is pretty important.   
+
+>>  The semantics to coq, how general purpose?
+
+If I'm writing compiler from C to generate RISC-V can I use compiler...
+ >>   Probably.  I mean, I wrote one compiler which goes from a C like language to coq and then probably understanding too I would assume.  You have one compiler, yeah.
+
+>>   Can you use it for the proofs?
+
+>>  Yes.  Verified, yeah.  All verified, yeah.  

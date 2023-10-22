@@ -1,0 +1,191 @@
+>> I should say now Wouter coming on, late evening. 
+
+
+-- 
+>> Can I start Patrick. 
+Are you good. 
+Looks like still trying to get the Zoom... the screen. 
+Is the screen sharing on, we still only see your face. 
+
+
+>> Let me double check. 
+I can stop it if you want. 
+
+
+>> Now we got it up. 
+>> Yes, it did work. 
+Good. 
+>> Well, actually for a split second. 
+Okay. 
+Clear to go. 
+
+
+>> Ah good! Thank you. 
+Hello Seattle this is Wouter calling, and thanks the organizers putting together a great program, and inviting me to talk about my JFP paper, title of my paper is A well-known representation of monoids and its applica ton to the function vector reverse. 
+ I'll explain where that title comes from in a little bit. But actually, the paper is much more about finding the right definition just as Conal mentioned in his talk. So what do I mean by that. 
+ University dictionary definition is a precise statement of the essential nature of a thing, a statement or form of words which anything is defined, but for the purpose of this talk, mostly focus on the definition of agda, and you can define functions like edition, so do you have defined addition by induction on the first argument. Given this is a talk about Agda should really mention vectors, so you can also define vectors which are length index lists where you keep track of the length of the vector statically in the type. 
+And so the nonempty vector, takes a head and tail and builds a vector, and the next thing we can do is define the append function, and take one vector, and append it on to the next. 
+
+
+But this is actually quite subtle, and surprising it time checks at all. And because I'm going to do crazy stuff in the rest of the talk I figure I take time to explain what is going on here very precisely, we look at the first clause for append, what we promising here produce vector of length N plus M, and pause we pattern matched nil here, N is 0. 
+So the goal we have to deliver on is providing vector of length 0 + M, and what I like to write on the left hand side, is just return Y's, and that's vector of length M. 
+And so by definition of addition, I know 0 + M, and this will time check, and marked in green here. 
+
+
+So what about the cons case, in that case, I promised I would return a vector, that has successor of K + M, and I know that N needs to be successor of one column K if I write out usual definition, of... I can see the consX gives me successor at the front, and append of the tail and Y's, produces vector. 
+And now by definition of addition once again, for the successor case I see the two numbers are equal and I'm done. 
+
+
+And so, what's nice about this is example is the inductive structure of addition and append lines up precisely, that's great, because I don't need to do any other work. 
+But the bad news is that the only equalities you ever get for free are those that hold definition. 
+In particular suppose I tried to write functional vectors I manipulate the numbers, I rely on addition being commutative and doesn't hold definitionally, and even if it holds true. 
+So I had to do more work on the Adga definition, time check. 
+
+
+And so the things that work out well... but the purposes of this talk is maybe scratch the surface on things not so easy to define, but still possible. 
+So let's look at "reverse". 
+First thing I can do in order to define reverse is define is snoc operations that has the same type signature as cons instead adding things to the end of the list instead of the front, and now you can see I define reverse function fine, takes vector of lent N and produces vector of same length, so the empty vector mapped to the empty vector, and have cons and replace by the snoc and this is fine. 
+Agda accepts definition, and easy to see reverse is length preserving operation. 
+But taking quadratic time to reverse a list is pretty bad, right?
+And even though we're kind of independent, we would like to show that we at least can find a linear time algorithm to reversal this doesn't seem like a big ask. 
+We're in luck, there is a nice paper which inspired the title of my paper, by John Hughes called a novel representation of lists and application to the function of everse. 
+And so it says: A representation of lists as firsbclass functions is proposed. Lists represented in this way can be appended ttogether, in constant time and converted promotional to their length, and uses definition in this paper for reverse. 
+Where, we kind of take intermediate step, and write this function go. 
+That converts a list into what is called a difference list, function from list to list, and take all these elements, in the first list, and then build up a function, that will all add these on in reverse order, so elements to add on to the identity function, and nonempty list as input, we build up a function, where the first thing we do is kind of push the head of the list on a stack, and then we kind of continue pushing the other elements on the stack, and then once we build up this function, we can apply to the empty list, and then we have reverse list we were looking for if we expand a little bit, you can recognize back, this is the typical definition of reverse using accumulating parameter. 
+What is nice here, it now works in linear time, if you are interested in definition of list reversal that also works in constant space, you should choke out Anton's talk tomorrow, I sort of messed up the formatting on this slide, sorry about that. 
+So what happens if we try to reverse vector in the... And unfortunately here, things don't quite go quite so smoothly, and what's the problem. So we're promising to produce vector length successor K plus M, as we saw previously, append, but problem is when we make recursive call on the accumulator, we're making call on X's and length K, and extending the accumulator to build new vector of length successor of M and this definitionally equal to Agda and rejects definition, and says type incorrect. 
+So what is really going on here, we have mismatch all sudden, and definition reverse, tail recursive using accumulating parameter, and and addition isjust defined inductively on the first argument so. Can we the question now becomes can we find a better definition of addition lines up eversal function and choose different type of accumulating everse, and don't have to run into the problems, with types, and we can. 
+And so what we do here is define the accumulating version of addition, and tail recursive, and behaves the way you expect, and kind of mimics the closely the definition of everse you want to write, and now goes through smoothly, and crucial change here I moved from the type of reverse, returning something of type n plus m to actually having the same structure in both my type. The functions used in my type, and function I'm defining in this case, the accumulating everse function. 
+And so far so good. 
+We're winning, and seems we're doing okay, just one thing I now have to do. 
+Make a call to reverse, and kick that off with the empty vector AHHH no! This doesn't work, why is that?
+Well... if I look, I promising reverse, is a function that preverses length, so if I call accumulating everse function with list X's, and empty accumulator, that has a type no longer definitionally equal to N. 
+And so, remember, the definition of my accumulating everse, was induction on the first argument, so this computation, gets stuck. 
+And can't do any other work, and Agda rightfully rejects. 
+So what can I do. 
+One thing I can do is show Agda who is the boss and give a proof, and give inductive argument showing 0 is really the right unit of my accumulating addition, and I can use that proof, and to write a coercevec function that says, if I can show the length of two vectors are equal I can map one vector to the other, and then can I complete the definition of reverse, and kick it off with initial empty accumulator, this is fine. 
+I mean, this works. 
+Agda accepts this definition, but I think one of the points I tried to make so far, how you structure your definitions really matters and in particular if anything else, like another proof or use reverse function somewhere else. 
+And want to prove things about that function, having these kind of proof arguments, like showing that 0 is the right unit of my accumulating addition... it can complicate everything that comes after this. 
+
+
+And so would be nice if actual definition of my reverse that was both linear and didn't use any proof arguments, so let's try to find that. 
+And the good news is there is actually a hint we can take in this paper, by John Hughes again, and the key observation we can make is construction of using first class functions using lists doesn't just work for list, it works for any monoid. 
+So in particular what I'll do is come up with new representation of natural numbers to work with, called different naturals, not very good at naming I guess, and use that to see whether that can push the development of a little bit further. 
+
+
+And so what are difference naturals, just as different lists functions from list to list, and these are from natural to natural, and they can define pair of functions one that converts number into a difference natural, partially applying addition, and way back that takes difference natural and converts back into a number, simply applying the function to 0. 
+So far so good. 
+So I mentioned difference natural are monoidal. 
+So what do I have to do to show that. 
+I have to define a 0, and addition operations. 
+And so the 0 is just the identity, remember, these are functions, that we are working with and addition, is just function composition, and to really show this is a monoid I have to do more work, and have to prove 3 laws, have to show I have the right and left unit, and addition is associative. 
+
+
+And here is the surprising thing, right?
+All 3 of these properties now hold by definition. 
+
+
+And so I don't have to do any induction or do any work, and Agda will ab-September these definitions once I write RFL. 
+And why is that. 
+And look at example, why these are kind of the same, and here show 0 is the left unit of addition. 
+So starting from reifying difference of natural DNreifying simply applying to 0. 
+Working the other end, addition to of 0. 
+And so reifying applying to 0, and identity function doesn't change anything, and so my left and right hand side really equal, and only thing I've done here is unfold definitions and this seems like really useful trick, and next question is can we use this in definition vector reverse. 
+So let's try it. 
+Can we revisit the accumulating vector reverse, and now instead of indexing by two numbers, we'll do this funny trick. 
+Where we take a vector, which has some length N, and the sect accumulating vector that has, well, it's length is kind of funny. 
+We are assuming it's length is now, one of these difference naturals. 
+
+
+And then we produce a vector which we get by adding all the N's on the difference natural. 
+
+
+And so there are two cases. 
+In the first case we have accumulator, and we return that. 
+And the second case, we have nonempty list, and accumulator, and we want to make recursive call, so the recursive call we make on the tail X's, and now we need to extend our accumulator, and what's the problem here?
+
+
+And so what we would like to do is extend the accumulator with new successor, that would be building successor and extending the accumulator, in this fashion. 
+
+
+But... the problem is that what we're promising is that we actually extend the accumulator in a different way by growing the... by growing the N here, these two things are equal, and once again, because we don't know anything about the difference natural, there is no guarantee it will actually commute with the successor in this way. 
+
+
+So it seems like we're kind of stuck. 
+
+
+But... suppose we actually had a function with had the type that we're looking for. 
+Or had dcons operation, so we have difference natural, and element where accumulator vector built so far, and add things in a way we want to this vector, and cons doesn't have this type unfortunately, unless we start off the computational and instantiate the difference natural to 0. 
+And start DM, if I plug in the identity function for DM I see cons has the right type, and cures curiously as I go down the one list and accumulating through the other list, it turns out because this happens in lock step, I increment DM and... in every step, and turns out, cons can still be used in the right way, provided I pass it in as an argument to my accumulating reverse, what does that look like, starting to get a little bit more complicated now, let's look at this line, the third line of the definition first. 
+
+
+So there we can see, that's the familiar accumulating type or accumulating reverse, and the top line is a bit more gnarly we have the difference natural DM, and have the huge expression, the basic type of dcons operation on the previous slide, the thing needed to complete the definition, and see we can complete the definition this way, and can kick off the definition the way I like, by passing the identity function, D0. 
+And cons I will use to add to the accumulator, and list X, and empty accumulator nil and everything time checks, Agda is happy. 
+Hooray we won! But at what cost?
+
+
+So there is another definition of vector reverse, that many functional programmers are familiar with. 
+Which is using a fold l. 
+And so the idea here I reverse list using accumulator causing every new element I see on the list, and trying to use this for vectors unfortunately doesn't work very well, why not, suppose I try to define the function, length-preversing linear reverse on vectors I get stuck very quickly. 
+And so crucially remember the argument I pass to the fold-L has to type A to B to B, and now passing function cons which goes from flip cons from vector AN to vector, which is one longer, and so the B types are no longer identitial, and the program doesn't type check. 
+Hmm what can I do?
+Turns out I can be a little bit more general, and define a version of fold-L, that doesn't just return a single B, but actually returns N index B, and so what does that look like?
+I can see that I take a vector of length N and produce not just a B, but B at index N, in order to do this I need to provide initial accumulator D0. 
+And function and BK in the head of the list and turn into the successor. 
+And so first line is not surprising, I know list is empty, and N is 0. 
+And have to return B0 and have to have the accumulator, B0 in front of me, so I'm done straight away. 
+But the second case is really not so obvious. 
+So you can see here, I am going into making a recursive call on fold L on the tail X's. 
+Oh, dear! Ahh sorry. 
+
+
+Patrick was just pinging me in discord excuse me. 
+You can see in the recursive cases X is actually, now length K, and promising to produce something, with the successor case, and how could that possibly work. 
+The trick is doing the same thing, we're doing precomposition with successor in order for the recursion to go through. 
+And then have to pass not just B0 as accumulator, but B1 we get applying our step function. 
+
+
+And now we can define reverse without any proofs, and get linear time reverse function which is familiar to everyone in the room. 
+But wait there is more. 
+Nothing kind of special about natural numbers, this representation, monoid is endofunctors works with any monoid, and well known representation of groups, and not quite well known at novel the paper suggests, and so example of indexes decision tree by list of variables in scope, what is really nice the monoidal equalities all definitionally, we can exploit that information to write monoid... so doctors hate him because can solve any equation over monoid with one trick. And let me explain that trick. 
+And so suppose I have set A, which is the carrier of monoid. 
+And I'm going to fix that set in the rest of the talk, and suppose I write a little deep embedding of the monoidal ex-expressions, and write a little evaluator which maps the expressions into the A values easily enough, and replace 0 by 0. 
+And monoids, and addition, and all the variables and constants I encounter and now I can do the trick. 
+And turning the expression in function, and taking function and turn into the expression, we have seen a few times in the talk already, now I can normalize the expression, and basically expression built up 0's, and additions. 
+And this will actually turn it into the a list of all the things I'm added essentially. 
+
+
+And I have to do one proof. 
+And that proof says: Well for every expression if you normalize it and then evat wail you get the same result just evaluating the expression, this is a few lines long and not verity, but why I mention it, I can use this to run the monoid solver, and I pass in two argument and is these arguments are expressions and believe them to be equal, and built up from the monoid operations. 
+And then I need a kind of proof that is hopefully going to be very easy, and hopefully going to hold by calculation, mainly evaluating normalizing left hand side, and normalizing the right hand side. 
+And if I have that I can get that my two expressions, to call our solver, all I need to do is the two sides of the equality I'm trying to prove, and I'm trying to prove inequality over list, and write expression, left hand side, and E2 on the right hand side, and now call my solver, and all I need to do is pass the reference and I'm done. 
+So this construction works for any monoid. 
+In particularly the monoid for natural numbers using accumulating addition. 
+To come full circle, I don't have to use the proof, I can use the monoid solver, to complete the first definition of reverse we saw. 
+And so to recap. 
+Cayley representation ofa monoid satisfies the monoid laws by definition. This observation may be useful when writing functions accumulating monoid-in , and whether this is very useful or not, depends on your tolerance for complicated types, and crucially can use the same trick to solve monoidal equations for almost free, with a little bit of work, one very short proof, and that's all I have time for, and thanks very much. 
+Happy to take questions. 
+
+
+
+
+>> Same procedures as before. 
+Okay, no microphone questions so far, I got one question, so usually, when you finally get something to work out fine, in Agda, there are still some gnarly cases. 
+So when does this not work?
+
+
+>> So it's still quite... it's not trivial to reason about these things. 
+So even if you have a definition using... fold L that is short and sweet, and fits in 3 lines that's great, but if you want to do any proofs and have to be careful and generalize in the right direction to use the induction hypothesis, there are a few other examples in the paper I think might be interesting. 
+
+
+
+
+>> Any other questions?
+
+
+>> Okay, then we'll thank the speakers and take the break. 
+
+
+>> Thank you very much. 
+Thanks for having me! Enjoy the rest of ICFP.

@@ -1,0 +1,419 @@
+          >> TAHINA: Thank you.  Hello, everyone.  My name is Tahina
+     Ramananandro.  I'm from Microsoft research, and it's my pleasure to
+     introduce today three great talks for this session, starting with my
+     colleague Jonathan Protzenko who will present you about how to turn modular
+     high-level programs into verified low-level efficient code.  Thank you and
+     go ahead.
+          >> JONATHAN: Thanks, Tanzania, for the introduction.  I'm live?
+     Everyone can hear me?  Oh . . .
+          >> TAHINA: Please ask your questions or so on the Discord.  Sorry
+     about that.
+          >> JONATHAN: All right.  Thanks for attending this talk.  This is
+     joint work with my awesome collaborators at INRIA in Paris.  So that's a
+     lot of big words, modularity, code specialization, zero cost abstractions,
+     but this is the story of how we landed a significant amount of code into
+     the reference implementation of the Python language.
+          And so starting in October if you're using Python, specifically Python
+     3.12, you will be enjoying verified cryptography special for the hashing
+     that is part of the Python repository.
+          So this talk is the story of how we built a series of high-level APIs.
+     Built a series of high-level APIs that allowed us to be very productive and
+     save on a whole lot of work and make us very productive in producing that
+     code that went into Python.
+          And so the technical ingredients that went into that are terms that
+     should be very familiar to this audience.  There's elaborator reflection,
+     metaprograming, high-level abstractions, and to the right is the series of
+     APIs that went into Python.
+          I mentioned verified cryptography.  The specific library that was
+                                                                                00002
+     landed into Python is HACL*, the verified -- and it got integrated before
+     in Linux, Firefox, the block chain, but the novelty here is the addition of
+     these new APIs with the techniques that I just talked about, and the fact
+     that it went into Python.  HACL* is pretty large.  My message is that it's
+     a large amount of code and that productivity is really important because
+     it's really hard to keep things together when you have 140,000 lines of
+     verified code and over 30 algorithms, so really there's a lot of attention
+     and care that goes into keeping everyone productive.  HACL* compiles to
+     about 80,000 lines of C code, and the reason we compile to C code is for
+     performance.
+          There's a social thing wherein if you want people to take your code,
+     you have to give them C.  That's non-negotiable.  Things are perhaps
+     starting to change, but for people like Python or Mozilla or Linux, it's C
+     code that has to be produced.  It's non-negotiable.  It was a unique set of
+     constraints.  We were producing -- code that people will look at because
+     the work flows as follows.
+          If we want to add a new algorithm like right now into Mozilla, we're
+     going to produce the C code and submit a PR to the repository of Firefox,
+     and then someone will look at the code, actually review the generated C
+     code and issue comments like you see on the right like should the code look
+     like this or that.
+          So there's a very strong constraint here, which is that what we
+     produce is eminently readable, and usually that involves a back and forth
+     between us and whoever consumes our code downstream to reach a satisfactory
+     state of affairs.
+          And so the challenge for Python was the following.  There was a pretty
+     high-level API for hash algorithms, hash algorithms, you've heard about
+     them, maybe you've heard about Blake 2 or you know that you shouldn't use
+     MD5.  Python has a built-in library that exposes those algorithms, and it
+     turns out that they were gathering different implementations from all over
+     the place over the Internet, and it was all doing the same stuff, but in
+     a -- like, there were five copies of the same API, five copies of the same
+     state machine, five copies doing pretty much the same thing.
+          And when we set out to replace this stuff, of course we were not going
+     to re-verify the same stuff five times.  We're part of a functional
+     programming community, and we try to do things such as be generic if
+     there's the same stuff happening five times you only want to write it once
+     and you want to have aggressive code sharing and re-use.  You want to stay
+     at a very high level.  You want your invariance, data types, high-order
+     functions, and polymorphism.  You want a lot of usability.  You want your
+     stuff to be as automated as possible, your verification to go smoothly and
+     you want of course to have abstraction.  You don't want to hear about the
+     gory, grotesque details of C code.  You want to operate in a very
+     high-level environment, and that's a challenge when you're generating C
+     code at the other end of the pipeline.
+          And so this talk is really the story of how we managed to let the
+     programmer, the person who writes the proofs, who proves all of these
+     things, think and operate at a very high level of abstraction,
+     multi-layerity.
+          The way we did it is that we essentially added a stage to the F*-to-C
+                                                                                00003
+     compilation pipeline that essential implements something akin to --
+     directly in F*.
+          It turns out that it was a super useful feature that we ended up using
+     all over the place in HACL*, and it made me and several of my collaborators
+     much happier because we were able to get a very high level of automation.
+          So allow me now to give you a little bit of an intuition about how it
+     works with just, like, drawings, and then I'll get more into the technical
+     details.
+          This is a static call graph.  What that means is that the blue
+     function at the top update is calling updates 0-1 or update LT1 or N.  I'm
+     not going to get into the details yet of what this update function does,
+     but it's essentially the update function that the Python API needed and our
+     sub-cases.  So the blue box at the top calls into any of the three
+     sub-cases below, and the blue code is entirely generic.  That's the
+     important part.  It doesn't mean if it's the API for MD5 or any of the
+     variants of -- -- 3.
+          The blue code is identical.  The blue code is really generic over the
+     choice of the update block function that's underneath, and that one can be
+     algorithm specific.  There's an update function for SHA2 and 3.  There are
+     a variety of update functions, but the blue code really remains the same,
+     regardless of your choice of algorithm, and you can kind of see where this
+     is going, right?  You want to write the generic code once, and you want to
+     specialize it, want to instantiate it, you want to apply your function or
+     whatever way you think of this, you want to specialize this code for
+     various choices of block function.
+          So for instance, you might want to get -- you might want to have,
+     like, this specialized for SHA2-56, for instance, and if you remember, I
+     said that we were producing C code and you have to produce idiomatic fast C
+     code, and that means when you want to specialize your blue code over your
+     choice of green box, you can do something like having function pointers or
+     dynamic dispatch or having a tag genie, any of these things, because the
+     people who consume the code would be very unhappy.  They would say that's
+     not how you normally do it, it's slow, adding extra tests and people get
+     hung up over one extra conditional in the critical path.
+          So what you have to do, actually, is you have to get an entire copy of
+     this whole static call graph and generate a specialized version of this
+     entire thing for your choice of updated block SHA2-56, and you want to do
+     it again, and for instance you want to pick the SH5-12 function and you
+     want to generate, like, an entire copy of this entire algorithm for SHA512,
+     et cetera, et cetera, and so that's essentially what we did in this work.
+          We encoded that code specialization logic that copies an entire
+     algorithm and produces a specialized version of it that is suitable for
+     then feeding into the F*-to-C compilation pipeline, and this kind of code
+     specialization is entirely written in F* without extending the TCB, so the
+     tactic that takes care of re-writing all of this code.
+          As I mentioned before, one good intuition is it's almost like C++
+     specialized.  The code is copied, and of course we verify the whole thing
+     once, but we enjoy the specialization for free many times.
+          And before I get into the details, I'll note that this is a recurring
+     theme, actually, to have of course a high-level polymorphic construction
+                                                                                00004
+     that you want to specialize multiple times.  It's relying on whole program
+     monomorphization to target bit code.
+          Crypto also has automated verified compilation, and it's also giving
+     you, like, a lot of specialization for free.  Vale has verified
+     transformations.  All of these things are kind of operating in the same
+     space.  What is different for us is we are generating C code that people
+     will actually take a look at, and that puts a very unique set of
+     constraints on the problem.
+          Allow me now to jump into the technical details a little bit and give
+     you an intuition of what's happening.
+          The language that we operate in is called low* for low-level F*.  It's
+     a shallow embedding of curated C concepts in F*.  It means you can use
+     machine integers.  You cannot use higher order or closures.  You cannot use
+     any of these things because they don't naturally compile to C.
+          The code is irrelevant.  It's a link list, but my point is that
+     there's a fine function for that link list, and this implements a key value
+     map with a link list of pairs where the first is key and the second element
+     of the pair is the value.
+          You have a null check here.  We modeled the C memory model in F*, and
+     the way that this operates is that if your code fits into the low* subset,
+     then it's eligible for compilation to C via a dedicated compiler that will
+     generate C code out of this.  This is verbatim what comes out of the
+     compiler on the right.
+          So you can do things like the link list, but let's not -- oh, yeah.
+     And there's an erasure process that removes ghost things.  You can see here
+     that your U32 on the left becomes a UN32T from the header on the right,
+     et cetera.
+          So low* in a nutshell is a low-level subset of F* that models C
+     concepts, such as the C memory, stack and keep, machine integers,
+     et cetera, and KaRaMeL compiles post erasure to low* C.
+          We have used it for a number of works.  For the HACL library and its
+     various iterations, for QUIC and so on.
+          But if you look at the code that I just introduced for a warmup, that
+     code was very monomorphic, right?  It was specialized for pairs of UN32s.
+          And so what if we want to go generic?  Imagine that you want to have a
+     version of the previous code that's higher ordered, that has generic-type
+     parameters, that is modular and well-specified.  You could do something
+     like you have on the right, define the maps and give you a key and define
+     what it means to have equality with EQ type and a function that decides the
+     equality of two Ts and returns both, and then you could say, okay, well, I
+     have a map combinator and a choice of types for the values, and they are
+     super higher order, and it's really neat and you're generic and you cannot
+     compile to record because you cannot use closures, you don't want to use
+     higher order and pass records around with function pointers in them.
+          So you see the problem here, right?  There's a tension between writing
+     something that's super high level and yet generating readable C code.
+          So there's the first idea that some of you might be thinking about.
+     It's a good idea, but it doesn't scale.  It's to inline.  If I take the
+     example from the previous slide and kind of get the essence of it, right,
+     there's a fine function that takes a equality type and a key and does a
+                                                                                00005
+     review of all the entries and the map and that calls E.EQ, right?  And
+     that's the thing that's not C-like.  You don't want to call -- you cannot
+     select a function pointer and call it and have it be happy because you're
+     passing around function pointers everywhere.
+          So this is the thing that is not really looking good, and for the sake
+     of example, I've also added a send function.  Let's imagine you're in a
+     protocol and your send function takes a key and is looking up the value
+     associated to that key.  Fine.
+          A first idea is to aggressively inline everything.  So imagine that
+     you're trying to get a specialized version of the send function for UN32.
+     You could partially apply send to an EQ type where the type T is -- and the
+     equality function is simply your equality monomorphically, and if you're
+     relying on inlining, you will find that send U32 starts with the body of
+     send, then inlines find, so you get the beginning of find, and you end up
+     with the equality test and the remainder of the inlining.
+          That is specialized, doesn't rely on passing around records, and that
+     would compile to C.  Great.  But it would make people very unhappy because
+     that doesn't scale if you have more than a few functions.  Inlining
+     everything will give you 2,000, 5,000 line C function bodies, and while for
+     me, I'm like fine with it, the people who look at the C code are not fine
+     with it and they will be quite upset if I give that to them.
+          And here there's kind of a stumbling point, right?  You can't use type
+     pluses or dictionaries.  You don't want to pass closures around.  It's
+     not -- the inlining idea from the previous slide doesn't scale either.  Too
+     aggressive.  It's unsightly, and that's where we're going to introduce our
+     little cocktail of techniques with partial evaluation made of programming
+     and a systemic code re-writing pattern.
+          So what we do, and this is the gist of our technique, is that we
+     introduce a systematic re-writing program.  I will show you how to automate
+     it.
+          If I take the example on the left, this is can exactly what we had on
+     the previous slide.  Instead of doing inline inline, I'm going to re-write
+     this into a higher-order style.  The find function is going to become
+     parameterized over your choice of equality function.  So MK find is a
+     higher-order function that receives an equality function, and here's the
+     interesting bit.  MK send is a higher-order function that receives a
+     specialized version of find for the particular value of E.
+          The universal qualification of the EQ type is outside, which means
+     that MK send first sets the EQ type, then receives a specialized version of
+     find for that EQ type.
+          And what that pattern allows us to do is to instantiate in two steps.
+     First we generate a version of find that is specialized for U32.EQ, and
+     equipped with that specialized version of find, we develop a specialized
+     version of send that refers to find U32, and that's the important bit.
+     We're going to have a specialized copy of find, and send is going to call
+     that specialized copy of find.
+          And what that gives us is actually what we wanted.  We get a
+     specialized find U32.  It calls the monomorphic U32 equality, and the send
+     function is not aggressively inlined.  It is actually specialized for U32
+     and calls that function, and that's the essence of our technique.
+                                                                                00006
+          With this we managed to preserve the shape of the call graph.  If I
+     had find and send, I can specialized both find and send and give you a
+     complete copy of the algorithm where every single function has its own
+     specialized variants.  That generates a very readable C code.
+          Once again it's kind of like specialization in C++.  This is a
+     systematic pattern that can scale.
+          And so the step 2, of course, is to automate that pattern.  So now we
+     offer a micro-DSL where the user can directly annotate their code.  So the
+     user now writes the code on the left.  The user doesn't have to write MK,
+     or something.  All that the user does is say, well, given an equality
+     function, here is my find function written in natural style.  Here's my
+     send function that is going to refer to my find function.  No particular
+     encoding.
+          The user annotates these three functions, saying that they all need to
+     be specialized over their respective choice of type argument, and then we
+     have a metaprogram that runs at compile time that executes with an F*,
+     inspects this code, entirely re-writes it, and produces the encoding that
+     we just saw on the right.
+          And so the user writes the code on the left, and then once the
+     metaprogram has re-written this entire call graph into the higher-order
+     version on the right, all the user does is write the instantiations and the
+     specializations.
+          And this is what I refer to as an extra stage.  We have essentially
+     equipped F* with the ability to re-write your code to allow you to
+     specialize it for a given choice of equality in this example, and then you
+     can do that as many times as you want.  You can do any other type .EQ and
+     you're going to get specialized copies of your code for any choice of
+     equality.
+          Rechecks the terms that are generated.  We don't have to worry about
+     an implementation mistake in the re-writing tactic, and it traverses the
+     entire call graph and it allows the user to not have to think about the
+     encoding.
+          We have more bells and whistles.  We can emulate Coq section without
+     extending F *s.  You can say this one is just a helper so it doesn't need
+     to appear as a specialized copy and a few more gadgets, but the bottom line
+     is that this has turned out to be extremely useful in HACL*.  Moving away
+     from the micro example with send and find, what have we been using this for
+     in the real world?
+          First of all and before I get to the Python use case, first of all
+     we've been using it for a lot of algorithms in HACL*.  The V2 of HACL*
+     called HACL XN leverages instructions and processors, and so often times we
+     write an entire algorithm that is completely generic over the level of
+     vectorization.  So that means that almost all the code is the same, so it's
+     parametric, polymorphic, over a data type that's either plain C, 128-bit --
+     yeah, 128-bit vectorized instructions, like AVX or neon or 256AVX2, and
+     this is great.  We can write the algorithm once, rely on the tactic and
+     generate three copies of the same algorithm for these three vectorization
+     levels.
+          This is an actual screen shot of how it looks like.  Splice means
+     insert into the --
+                                                                                00007
+          And the decrypt for a given specialized encrypt and a specialized
+     poly-encrypt.
+          We have other uses for this in HACL*.  We have notably a very fun
+     algorithm that combines under the hood three sub-algorithms, and so we can
+     write one HPKE and then generate 15 or more if we like.  There are at least
+     80 possible options.  We can generate copies specialized for GH, key
+     derivation and signature.
+          Curve 25519 is also a fun example.  You can choose first whether you
+     want your core operations to be -- -- and then you get a field and then you
+     can choose again and generate multiple copies given your underlying base
+     field.
+          Which brings me to perhaps the flagship application.  These are
+     already uses of the techniques that I've described, but the flagship use of
+     the technique that I described is this streaming API.  And that's the stuff
+     that went into Python.  Now I'm going to tell you about that whole update
+     business.
+          This is a very nasty state machine.  This is a state machine to what's
+     called a block algorithm.  A block algorithm means that it processes data
+     block by block.  A block is, I don't know, 128 bytes, 64 bytes, whatever,
+     but it can only process data one block at a time, and this means that the
+     state machine is super tricky.  You must feed the data block by block,
+     which is not realistic for most use cases because you don't always have an
+     amount of data coming in that way.
+          It's also a nasty state machine because if you want to complete the
+     hash, the digest, you kill your state.  Your state becomes invalid, and so
+     oftentimes you want to compute intermediary hashes as the data comes in,
+     and that requires great care, and there's a precise sequence of operations
+     to obey, and so no one uses that.  No one uses that block API.  What
+     everyone uses is called a streaming API, which has the beautiful state
+     machine up on the top right, and the streaming API takes care of the
+     buffering.  The streaming API maintains an internal buffer that fills up
+     and when it's full it flushes it into the underlying algorithm.  It takes
+     care of all the internal details.
+          It doesn't invalidate the state when you extract the digest, and so
+     this is what you want to deal with as a client.  If you're Python, that's
+     the API that you're actually using.
+          The reason we're here is that this API is very tricky to implement
+     correctly, so there has been a very fancy series of papers that have found
+     in this very streaming layer for reference implementations notably of the
+     SHA-3 hashing algorithms.
+          Because it maintains a copy of this reference implementation of SHA-3,
+     Python inherited that bug and ended up with a CVE, and that's where we came
+     in.  We got in touch with the Python folks, who were super nice and very on
+     board with the idea of replacing their buggy algorithms with a verified
+     version of it.
+          So we were able to write the streaming API using the style that I
+     described.  We wrote it once.  We verified it once, but then we used those
+     techniques to specialize it for about 15 applications.
+          Python took a large amount of those and that gave us enormous code
+     savings.  It would have been absolutely impossible to verify streaming APIs
+                                                                                00008
+     for each one of the hash algorithms that we have, and so this technique of
+     writing the streaming API once and specializing it multiple times for SHA2
+     and 4 variants, SH3, six variants and for legacy, et cetera, that gave us,
+     like, a huge boost in productivity, and that actually led us to a
+     proof-to-code ratio of 0.51, which means that every line of F* yields two
+     line of C code.  That metric has its limits.
+          The reason I'm using it is we have been using that metric in previous
+     papers and we never achieved that ratio.  That means a massive improvement
+     in productivity.
+          We had an excellent engagement with the Python team.  We replaced all
+     of their built-in hash implementations, except for Blake 2, which will
+     happen soon, and it's a good confirmation that our work had impact.
+          It forced us to polish a lot of what we did and do some serious
+     packaging work, but it's good because our code is better off for it now,
+     and that's about it.
+          The lessons that I want to, like, leave you with is that the arsenal
+     of techniques allowed us to get the best of both worlds, operate at a very
+     high level while still generating a very low-level, very specialized code.
+          We have an extra power stage that implements C++ -- -- our flagship
+     application was the streaming API that transforms the unsafe state machine
+     into a safe one, and that one was integrated into Python.  Thank you.
+          >> TAHINA: Thank you, Jonathan.  We can now have questions, and please
+     introduce yourself with your name and affiliation, and please eat the mic.
+     Up close to the mic, as close as possible.
+          >> Can I see the nutrition facts, first?  Never mind.
+          Hello, this is Adam from MIT.  You mentioned how you don't have to
+     trust your re-writing process because the results of it are reject.  That
+     sounds like you could have some downsides, like presumably that would mean
+     you don't actually know that all the instantiations of each abstraction are
+     correct unless you have tried all of them and it might actually be more
+     expensive to check the specialized versions than the original one?  Is that
+     all fair so far?
+          >> JONATHAN: It's the elaborator reflection design, right, that the
+     compiler exposes a safe API that doesn't allow you to create anything that
+     would end up being accepted as an invalid, ill-typed term.
+          There are no facilities currently in F* that would allow you to show
+     once and for all that the re-writing tactic always produces well-typed
+     terms.  In practice, the transformation is pretty systematic and explains
+     itself rather well, and so once we debugged it, three years ago, we haven't
+     had any issues since.
+          >> But in a security context like this, you could imagine someone
+     purposely choosing a weird set of parameters where they noticed a corner
+     case in your re-writer and maybe they would be able to get around -- I
+     guess compilation would fail, which would be surprising.  You wouldn't
+     deploy that code, but nonetheless, there might have been a bug lurking in
+     there.  Is that right?
+          >> JONATHAN: I'm having a hard time imagining something like that
+     happening, but let's chat more afterwards.
+          >> Okay, thanks.
+                                                                                00009
+          >> Max, undergrad at -- --
+          I'm wondering how HACL* deals with, like, tiny attacks or other kinds
+     of attacks.  Is that out of the scope?
+          >> JONATHAN: Sorry, deals with what?
+          >> Deals with timing attacks or other kind of side channel attacks.
+          >> JONATHAN: There's a type-based discipline in which secret data
+     doesn't enjoy the operations that the rest of the data has, like division.
+          And secret data is a distinct abstract type, so you can't use it for
+     memory accesses or branching.  So that rules out the most standard classes
+     of side channel attacks.  That's the discipline that we use throughout.
+          >> Even with specialization, different vectorization.
+          >> JONATHAN: Yeah, the specialization doesn't -- so it won't look
+     underneath.  There's a different integer here, S.32.T, and the
+     specialization can't look underneath the S32.T abstraction, so you still --
+     the guarantees are preserved after specialization.  It's a guarantee
+     because the specialized code still type checks, and it means it still
+     enjoys that degree of side channel resistance.
+          >> Thank you.
+          >> TAHINA: And there is a similar question online.  So if you
+     implement RSA, for instance, can you require that something is equivalent
+     RSA blinding is used?
+          >> JONATHAN: So on top of that, we have a set of library functions
+     that you have to go through if you want to do certain things, like masking,
+     equality functions and the like.  I don't know about RSA blinding
+     specifically, but we oftentimes do impose these restrictions.
+          >> TAHINA: And this is the last question.
+          >> Thank you.  Ryan Steel, CMU.  I have a quick question about other
+     applications.  This seems very inline with something along the lines of
+     neural network performance kernel implementation.  Have you actually looked
+     at that kind of application?
+          >> JONATHAN: We have not, but we welcome new contributors to HACL*.
+          >> Sure, absolutely.  Thank you very much.
+          >> JONATHAN: Thank you.
+          >> TAHINA: And thank you, Jonathan.  Thank you again.
+          >> JONATHAN: Thanks.

@@ -1,0 +1,367 @@
+          >> L ON: Hi, everyone.  I just share my screen?
+          >> L on, could you share your screen, please?
+          >> L ON: Turn it off?  Okay.
+          I cannot share screen somehow.
+          Oh, yes, okay.
+                                                                                00016
+          Yes?  Do you hear me?
+          >> Hello?
+          >> L ON: Hi, hi.  Do you hear me?
+          >> Yes, we do.
+          >> L ON: I would like to share my screen, but I cannot do it.  It's
+     written the host disabled participant screen sharing.
+          >> Give me a moment.
+          Can you try now?
+          >> L ON: Yes, I can, so . . . let me see.
+          >> Just a moment.
+          >> L ON: Is everything good?
+          >> Yes, we can see your screen in the room.
+          >> L ON: Okay, I will start sharing.  Do you see if I move the slides?
+          >> Yes, in the room we can see your slides moving, yes.
+          >> L ON: So shall I start then?
+          >> Not yet.  Not yet.
+          >> So the next speaker is L on Gondelman, and thank you.  Please go
+     ahead.  Thank you.
+          >> L ON: Yes, hi, everyone.  My name is L on, and I'm going to present
+     the work that we recently did with Jonas, Mario, Amin and Lars on Verifying
+     Reliable Network Components in a Distributed Separation Logic with
+     Dependent Separation Protocols.  It's a very long title, so let's
+     investigate together what's behind it.
+          So this work is in one word is about tying two loose ends.  On one
+     end, we have session type-based reasoning about reliable communication.
+     And on the other hand we are tying reasoning and problem logics about
+     distributed programs running over an unreliable network.
+          And our work makes the following contributions in a nutshell.  We come
+     up with a reliable dependent transfer of resources pattern that allows us
+     to reason about reliable dependent transfer of resources over an unreliable
+     network.
+          And our work also provides a first foundational verification of
+     reliable client-server communication library, and on top of which we build
+     also verification of remote procedure call and the key-value store with
+     lazy replication.
+          So let's motivate this work with a example, in which we two processes,
+     process one and process two, on left and right, trying to communicate
+     through a channel end points, C and C prime.
+          The first process sends two words, carpe and diem, over a channel, and
+     then waits to receive two messages back and asserts that the length of
+     the -- so what it should receive is the length of the message is back, and
+     it asserts that the first message is five and the second message is length
+     four.
+          And the other process is kind of like a server.  It just receives the
+     message and then sends back the length of the request, of the string.
+          And so the observation which we can make is that the assertion about
+     messages.  A message's length holds only if the communication is reliable,
+     meaning that the messages are received in order and without
+     [indiscernible].
+          And then the question is, well, how can we prove that formally?  How
+                                                                                00017
+     can we capture this formally?
+          One possible solution for that would be to come up with a program
+     logic that forwards a formalism to specify the communication between
+     processes in a given program, like I showed just before.
+          And that comes with a proof rules to specify the behavior of
+     communication primitives.  Along with the fact that it should also enforce
+     the implementation of communication primitives is indeed reliable.
+          And here we see that we have some design choices for such a program
+     logic.  Well, it depends on what is the formalism to describe reliable
+     communication, and what are communicating processes themselves?  Are they
+     threads or are they network nodes?
+          And then also how the communication is actually implemented.
+          So one possible implementation, one possible setting would be a
+     message passing.  Where the process is threads running in parallel.  So
+     here what we see is that we can create those channel end points
+     synchronously, and then just respond to threads process one and process two
+     which do the job we described before.
+          And it happens that while the process is running in parallel for the
+     same machine, such a program logic has been recently developed, and it is
+     Actris framework.
+          Actris framework provides abstract logical model of reliable
+     communication via so-called Actris Ghost Theory, and it builds a dedicated
+     program logic to message-passing concurrency.
+          Let's see what all this means because we are going to use this.
+          So dependent separation protocols is an expressive variant of session
+     types.  One can say it like that.  Which means that -- I hope you can see
+     my mouse moving.  I guess so?
+          So dependent separation protocols is, they are described by the full
+     line.  One can send a message or receive a message and advance the protocol
+     or terminate the protocol, and when one sends a message, just like session
+     types when it's characterized just by the type, one can send or the value
+     of the type, it can -- one can transfer resource associated with this
+     value, and this resource can depend on some binders.
+          So hence it's the word dependent.
+          And those separation protocols, say just like standard session types,
+     they come with notions of duality and sub-protocol relation.
+          And for duality, it means basically that what one process sends is
+     viewed by the other process as something received, and visa versa.
+          And the sub-protocol relation essentially allows to swap between send
+     and receive messages if what we receive and send are independent.
+          And this is useful to, for instance, specify and verify the example
+     where the protocol for our echo server, it would be a recursive protocol
+     where the process two receives a string and then it sends back the length
+     of the string.
+          And then the protocol for the process one would be the dual when it
+     sends a string and it should receive the length of the string, and the
+     swapping is quite important here because one subtlety is that the process
+     one, it sends two messages ahead of receiving them.  So it doesn't send and
+     receive them and receive, so it wants to perform two sends first and then
+     make two receives.
+                                                                                00018
+          And thanks to sub-protocol relation, it is possible because the
+     protocol for the process one is a subtype of the protocol we need.
+          And then of course we need program rules for send and receive to make
+     this reasoning functional.
+          And this exactly where this provides program logic for message passing
+     concurrency by defining channel endpoint ownership of which associates this
+     physical channel C with the protocol.  And then provides the proof rules
+     for creating a channel synchronously, both channel endpoints, and then
+     provides the specification for send and receive.
+          We see very quickly the rule for it, for send, for instance.  One has
+     to have an ownership for the channel endpoint such that one can knows that
+     the protocol in the state where one can send a message and give up
+     resources associated with this message, and then get back updated ownership
+     for the channel endpoint.
+          All right, so this is what has been done recently for message
+     concurrency, but what about processes that we are considering are running
+     on separate machines and communicate with each other over a network.
+          So basically what if our little example with send and receive, they
+     are part of a bigger program, which is a distributed program with a client
+     and a server that goes down a classical paradigm when we create a client
+     socket and we connect the client to the server, after which we do all this
+     stuff.
+          And then on the server side, we also create a server socket and then
+     the server listens to accept new connections, and once the server accepts
+     connection, it can serve each client as we described previously.
+          And the problem here we can observe that well the network
+     communication is fundamental and reliable, unlike the message passing
+     concurrency, because messages can be lost, can be reordered or duplicated,
+     and so one needs, of course, to use a reliable transport layer, such as TCP
+     or other layers to make this communication reliable.
+          And the research question we ask in this work is, okay, in the applied
+     actually the Actris framework and the ghost theory and dependent separation
+     protocols to verify an implementation of reliable network communication
+     layer so that in the end we are able to enable high-level reasoning about
+     distributed applications, which we would build on top of such layer.
+          And our approach is the following.  So we implement this work reliable
+     communication library for client-server communication in OCaml.
+          And the Aneris program is a language that comes with a well-defined
+     formal semantics, and a machinery to reason about a program language.
+          This machinery is called Aneris program logic, and then we're going to
+     use this program logic of Aneris and the Actris framework to verify this
+     implementation, and once that's done, we are able to build distributed
+     applications and libraries on top of RCLib such as remote procedure call.
+          Let's see those steps in detail.
+          What is the library?  The library is very much like realistic
+     libraries like TCP or HTTP in the sense that it features these sockets like
+     primitives, like connect and listen and accept, and send and receive.  It
+     also uses HTTP four handshake connection establishment, and it provides the
+     channel descriptors on which send and receive operate, which under the hood
+     use buffer bidirectional channels.
+                                                                                00019
+          And the reliability is enforced through classical mechanisms through
+     acknowledgements or other transmission mechanisms.
+          It's approximately 300, 400 lines of OCaml code.
+          So here is just a -- how our OCaml API looks like, and it looks pretty
+     much standard apart from two differences.  We make it explicit distinction
+     between client and server sockets and channel descriptors, and the second
+     is that what you're going to send over them or what you're going to send is
+     not strings but values so that it's a bit more high level.
+          And in order to do so, we are parameterizing our API with a
+     serializer.  So when the client starts to want to connect, it needs first
+     to explain how the values that will be sent to the server will be
+     serialized, and similarly how the values that the server sends to the
+     client will be serialized.
+          All right.  And so once we implement this library, we then translated
+     into AnerisLang, which is a formal language with well-defined operational
+     semantics that features no logon concurrency and socket primitive.  So it's
+     about UDP network.  And it comes also with Aneris program logic that allows
+     to -- that provides proof rules to reason about local concurrency and to
+     reason about communication and reliable communication of our network.
+          And it is built on top of iris framework, so in Coq, and benefits from
+     all features of Iris framework.
+          So how do we verify?  What is the -- -- of verification?
+          Well, the key component of verification is what we call a session
+     escrow pattern that links together the unreliable spatial resource transfer
+     in Aneris and the reliable dependent resource transfer of Actris.  And once
+     this link is established, we can define an ownership for channel endpoint,
+     and we can verify send and receive implementation with respect to the
+     following specs, which look almost like the specs that we have seen for
+     message passing concurrency, the only difference being that the channel
+     ownership, channel endpoint ownership is parameterized by the serializer
+     and the -- --
+          But essentially both specs look really, really almost the same as
+     Actris provides for message passing concurrency.
+          And so let's see in details, so what the challenge is to provide this
+     and why do we need session escrow pattern?
+          Let's first see how resource transfer is realized in Aneris.
+          In Aneris, [indiscernible] communication, when one wants to transfer
+     resources over the network, one sends a message from socket lander S1, and
+     it's that moment one has to provide a resource and let's say we send a
+     message in one, verify is the messages to the propositions, so our resource
+     is inundated by messages that we sent.
+          And then, well, this resource doesn't go through the network.  This
+     resource is put into let's say a logical box from which the receiver can
+     get, acquire this resource, once it's received the message.
+          Now the question is how does it receive?  Because the problem is that
+     the messages can be lost or they can be duplicated, so the receiver should
+     receive the message only once, and we achieve this by sending over the
+     network not the resource, because this cannot be done because if the
+     message is lost the resource is lost, so the resource has to stay in the
+     logical box.
+                                                                                00020
+          So what we can send over the network is a duplicatable certificate
+     that the message has been sent, and because the certificate is
+     duplicatable, we can send as many such certificates as we send messages
+     until the very first message or copies of the message arrives to the
+     receiver, and using this certificate, the receiver can open the box and
+     retrieve the resource.
+          Now this enables transmission and safe transfer of special resources,
+     but it doesn't allow dependencies between resources that are stored into
+     logical contents, and indeed there may be several such resources that are
+     in transit.
+          So if you message M2 and M1, well, they can arrive out of order, and
+     the boxes in which we store resources for both messages, they are
+     completely unrelated.
+          And while this doesn't fit to verify reliable communication library,
+     because precisely their messages are indexed by some integer which enforces
+     the sequence ID which enforces the messages are stored on the receiver side
+     in the order they have been sent.
+          So on the other side, if we look how the Actris goes theory allows
+     reliable dependent transfer, we can -- what happens in Actris in theory is
+     that this transfer is modeled using a pair of logical buffers, V1V2, which
+     describes symmetrically for each direction the messages that are in transit
+     and that are governed inside a box inside Iris invariant by some shared
+     resource called a protocontext, which precisely tracks what are the
+     messages in transit.
+          And here it is that Actris comes with some logical rules that allow to
+     create the context with message -- no messages being yet in transit, and
+     two resources that govern the protocol for both types.
+          Here we don't see the physical channel endpoints, but one can guess
+     that it is those resources that will be used to define precisely channel
+     endpoints.
+          And the idea is that when one wants to logically send a message using
+     Actris Ghost Theory, then one has to own the protoown resource, have the
+     resource to be sent, which happens to be on the head of the protocol, opens
+     the logical box, and then -- to the end of the buffer V1 the message to be
+     sent, and then get back after an update the updated endpoint for itself.
+          And again for receive.  This is only shown for one side.
+          All right, so Actris Ghost Theory allows dependencies between
+     resources stored in the shared logical context, but the problem is that as
+     such it doesn't talk about certificates.  So it doesn't use an escrow
+     pattern, and this way of sending duplicatable resources, it is what we need
+     to reflect the Actris logical state with the transfer using duplicatable
+     witnesses in Aneris.
+          And also those witnesses, they must properly reflect the Actris
+     logical state so that resources that can be acquired in accordance to their
+     dependence.
+          And what it means is that on top of Actris Ghost Theory, we built the
+     following theory which we call session escrow pattern which comes with the
+     following rules.
+          Those rules look -- they have some similarities with Actris Ghost
+     Theory, but they present something novel.  So instead of having the
+                                                                                00021
+     logical -- now our logical context and the resources for both types, they
+     are parameterized by two numbers.
+          The left number tracks how many messages has been sent over this
+     channel endpoint, and the second number shows how many messages have been
+     received so that when we -- oops, sorry.
+          So that when we send -- let's say when we send a message logically, we
+     go from number N to N plus 1, and another thing that we can observe in
+     those rules is that whenever a send happens, we obtain not just updated
+     ownership of S own, but we also create duplicatable witness that we have
+     indeed made this update called SES IDX.
+          The duplication precisely states that this witness is duplicatable.
+          Now this is a resource we can send along messages over the network
+     because it's duplicable.
+          I'm lacking a bit of time, so I will skip this slide, but . . . I will
+     just say that once we have defined this session escrow pattern, we are able
+     indeed to define this channel endpoint ownership and verifies the
+     implementation of send and receive, which under the hood uses this channel
+     descriptor and suffers.
+          And so the important points here are that the implementation of send
+     and receive themself, they are network agnostic because they communicate
+     with network indirectly via this channel descriptor.
+          And thanks to that, verification of send and receive for client and
+     for server is exactly the same.
+          I will skip this because I'm out of time.
+          I will just say a couple of words about the verified remote procedure
+     call.
+          So on top of our library we built the remote procedure call library,
+     which allows to further abstract away details of communication and build
+     the application in the more high level.
+          So now we have a -- we can implement our application just by making
+     RPC request.  So the idea is that if the user provides the -- if the
+     user --
+          >> I'm sorry, you should conclude, please.
+          >> L ON: Yes, okay, sorry, I was a bit slow.
+          I will just conclude then.
+          So before this work, we have just Aneris program logic which models
+     unreliable network communication and allows verification of distributed
+     programs running on top of -- such as CRDTs, and what happened with this
+     work is that our reliable sessions library, it allows to abstract over
+     low-level unreliable network so that now we can build clients and
+     applications that necessitate reliable communication.
+          And furthermore, we build as a library, as a middleware on top of this
+     reliable communication library, we build the remote procedure call library,
+     which further abstracts away even high-level reliable network details, so
+     that the application types are key value stores or transactional databases,
+     they can be built directly on top of RPC without even reasoning at all
+     about network.
+          And this really provides us now we can develop distributed application
+     in a highly modular high.
+          Sorry, I was a bit out of time.  Thank you.
+                                                                                00022
+          >> Thank you.
+          >> Thank you.
+          >> L ON: Yes.
+          >> TAHINA: So please line up for questions and say your name and
+     affiliation, and eat the mic, if you like.
+          And while you are lining up for questions, I have a question online
+     from Edwin Toruq from . . . now where was the question?  Sorry, oops I lost
+     it, sorry.
+          Yes, thank you.
+          Is the RCLib available somewhere online?  And how does the key value
+     store compare to production implementations like ETCD?
+          >> L ON: Can you please again just the end of the question?  And how
+     it compares to?
+          >> TAHINA: ETCD.
+          >> L ON: Yes, yes.  It is available online, and there is GitHub repo,
+     and also in the artifact provided for this project.
+          And . . . it's difficult to -- I think the comparison is the actual
+     comparison is to be done, but this -- the implementation of reliable
+     communication and the libraries built on top of it, they do feature -- they
+     have several realistic features of existing industrial products, but I
+     don't think that they are really competitive with it yet.  In any sense.
+          So it's more a proof of concept in that sense.
+          >> TAHINA: Thank you.  Any further questions?  Let me see.  Any
+     further questions online?
+          I have one question, if you go back to the slide where you specify
+     just after the how do -- I mean -- no, no.  After point 3, sorry.  The
+     slide after point 3, please.
+          >> L ON: Yes.
+          >> TAHINA: Oh, no, sorry, it's not that one.  It's the next one?
+     Where you specify that you need to provide the serializers for the client
+     and the server, sorry.
+          >> L ON: I think it's this.
+          >> TAHINA: Yes, there, yes.
+          So when you say you provide the serializers for the clients, do you
+     also need to provide the parsers and somehow prove that they are correct
+     with respect to the serializer?
+          >> L ON: No.  You don't need to provide this at this moment.  What you
+     need to do is when you send a message, you have an additional side
+     condition that the values that you send is indeed serializable with respect
+     to the serializer that you gave.
+          So this is a side condition here in the rule percent.
+          >> TAHINA: And then where does it appear on the receiving side?
+          >> L ON: It does not appear on the receiving side because the . . .
+     sorry.
+          Because the serialization has been passed already the moment when you
+     created client and server socket.  So . . . umm, one just by the fact that
+     the library has been proved, that they receive messages correctly,
+     deserialized.
+          >> TAHINA: Okay.
+                                                                                00023
+          No further questions.  Let me see.  Either online or here.  Thank you
+     to the speaker again.  Thank you, L on.
+          >> L ON: Yes, thank you.
+          >> TAHINA: And this concludes the session.  Thank you, all, and let's
+     have lunch next door.  Thank you again.

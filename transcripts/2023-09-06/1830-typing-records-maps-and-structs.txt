@@ -1,0 +1,173 @@
+>> So the second talk in the session is going to be by Giuseppe Castagna, talking about: Typing Records, Maps and Structs. 
+
+
+>> ... the microphone... 
+Okay. 
+Thank you very much. 
+Okay. 
+So, this is a talk on records. 
+Which are, as you know, finite maps from labels and keys, and attributes, you name it. 
+And so to values. 
+ And I will will focus on two particular usages. So records, one it is like structs, which means you have a predefined set of labels and method into values of different types and if you select a label that is absent and then you have an error and time, and the other is dictionary maps associated tables in which label generated at runtime time, and if you select label that is absent, if gives you one particular value. 
+Nil, nul something. 
+And I'll show you how to type a language, in which records, with usages and also you have union intersection navigation type, and we have very strong motivation for that. 
+And the problem I will show you how to solve is how to define the subtyping relation and how to type the operational records. 
+
+
+In the paper there is also some work on multiple records but I will not present it here. And so, records, I don't know how many know, proposed 1965, Hor, e for Algol, rapidly adopted by ALGOL, but also by Simula 67 yielding the concept . 
+And used in a lot of scenarios, and I will focus on two. 
+One for structured data, and originally proposed by Hoare and one of maps associative arrays, and dictionary,s, and look up tables, and difference between the two, and a lot of difference, for each difference you will find language that there is exception, in this one. 
+And I want to focus on 3 aspects, first one, for maps, all keys usually have the same type and map into the values of the same type, and why construct, different keys map to different types. 
+
+
+And then, in the maps, the key are Val and is you can compute them and using as result to select something in the map, and while instructor, not necessarily Val, and struct access is by nominal keys, and accessing a key that is twined yields specific values, and accessing key in struct gives you an error, and so calculus, functional calculus, I added a record, of course, and 3 operations. 
+Selection, deletion, and concatenation with purity on the right hand side. And then I added the map operations which are the same operation, access, deletion, and update field. And the label for operations can be as a result of an expression, and of course the other difference is that in the writing semantics, if you try to select a label that is absent here, the semantics is undefined for the map selection, it just gives you nil. 
+
+
+
+
+So, types, what are the requirements?
+
+
+Well, we want the type system, which covers both map and structure usage, and mixed one, and also want union intersection types, and very simply because the work stem from collaboration with the developer of AB languages, in which they have these types, and usage for record, and very simple, I'm show example in Elixir, in Elixir, you have this kind of type in which you have a record, that maps the foo to atom, and atom used to twine constant with the record before, and optional field, bar that is mapped to atom, and means, if a field for bar is present, then it is mapped to atom. 
+And any other atom that is neither bar or foo must be mapped into the integer if present. 
+
+
+And this is an example of mixed usage, because the first are typical of struct and 3rd one typical maps, and concerns union intersection, and union, this type here, type of records exactly 2 field, 1 field output, and according to the Val of field, if it is okay, you have second field socket of type socket, and if the output field is type error, you have second message field, and Val either timeout or pair delay integer, and notice here, you have "or" union type for Elixir, and let me continue this example, now imagine you have a record, mapping, the balance of the previous type. 
+And now I do m.foo I know M does this type, I know foo must be present, and this expression type atom if I try to do m.bar if the field is optional it may be optional, and so it's narrow static type. 
+
+
+And but of course, I can use the map selection, and I know that if bar is present, I will receive an atom otherwise I will get nil so expression, is type atomnil or if I select atom neither foo nor bar and third case, applies system will integer or nil and finally, this integer of this expression here, you can put expression not just the key, and so m.foo and this is atom and know all the cases apply, and can be atom, integer, or result of m.foo gives a field that is abssent, and finally, if I give expression that produce any atom the system will tell me this is typed, nil but give me warning, selection that always give nil maybe not very useful. 
+
+
+So how I did this. 
+I defined as some types, that are type constructors like, Int, Booletc, and so we have union, intersection, negation, and top type, and types all the values, and empty type, the types with no Val, and of course records with sets of fields. 
+And fields are two kinds here. 
+And so this is the field that must be present. 
+It's mandatory, and must be associated to a Val of type T, and this is the optional field, which means that if a field for L is present, then, it must be mapped to something of type T, and this is the usage of struct type, and map type we have field, and key types subtype T, and what is the key types, at least underscore, that means all the other keys are mapped to value of this type, and something else that depends on the language you use. 
+
+
+For example, if you use language like ballerina all the keys are string, but the map is defined, you can map a key, a string into integer, and so maps all the strings, you can not differentiate which strings, so it's just underscore, TypeScript you can underscore, and something into the something, and number into the something, and most generic usage is ErlangTypeSpec and define a map, that map function of type Boolean into the integer, into something else, even know I think it's not a very good idea. 
+So this types, we encode already few things, encode open record types, and types, that... plus any other... key. 
+If it is present, then, it is a type. 
+And we can encode the closed record type, the records that have exactly only these fields, since here is says that any other fields, if it's present, must be associated with Val of empty type, so must be absent, and top type, the top record type, every record is smaller than this, the open record, with no other field. 
+
+
+And the Elixir example I showed you before, here enconeded by this type, and so mandatory to atom and bar is optional to atom and any other... mapped to int and everything else mapped to 0, because in Elixir record types are closed. 
+
+
+And if you want to write open record type, in Elixir you write dot, dot, dot here, and so you put a 1 here. 
+And so the type system... there are standard rules, and one rules for each constructor, for records, that say this record expression is the closest record expression of the corresponding types, and then you have rules for the structure, and the rules for the maps, and I don't want to comment all of them, just... the rules for selection. 
+And notice that for struct selection, I try to selection label L for E, all that requires E is a record in which L is is present, and may be some other fields. 
+And for map selection, I select the label result of V2 from E1. 
+And require E2 just a record. 
+And nothing else. 
+And E2 must be a subset of the labels. 
+
+
+And in that case, what I obtain as a result is exactly the same operation applied to the type. And so define the type system, I need to do two things, and one is define the subtyping relation, I do here, here, here, and other one define the compute, and type of operator I use here, here, and here, and how do I proceed?
+And first typing, I will show you, that our record values, are particular function that are called quasi constant function, and interpret types as set of values and therefore interpret record types as set of quasi constant function, and define subtyping as one type than the other, and set of Val of one is smaller than the set of Val of the other, in particular, I can use the interpretation to decide how to decide, and to define how to decide the record of typing, and I will derive back tracking algorithm, and type of operator, the problem is we can do operation like dot L on type T not just the record type, but can be union of intersection of record types, and negation of record types, and negation is really what makes things difficult, so what I do, is to define new notation for records, in which I embed negation and has the property that subtype of open record is union of this record, and then defined operation on these unions. 
+And so let me show first in the case of Ballerina, what we have is that you have just for maps, you can define the default behavior, that means, all the other... keys are mapped there. 
+
+
+And then I define the quasi constant function, just a constant apart from the finite set of it's domain, so consider this function F, and this is always constant Y0 apart from X1, Xn domain of F, and the default Val of fY0. 
+And once I define this is clear, the record Val is quazi constant function from labels, to value and undefined, and the R-Val is function always undefined, apart from finite set of labels. 
+
+
+And while, also, record type is a quazi constant function, but less interesting, what is interesting, is now we know how to interpret the record type, which is the set of all quazi constant function, on the labels, and such that, the Val is undefined, and corresponding Val of R, and corresponding type of the record. 
+And now use the interpretation to decide subtype, and so first iteration, subtyping, equivalent, and so T1 smaller than T2. 
+
+
+And second thing, every type which is... with the open record, it can be put in junctive normal form, and union of intersection of records and negation of records and so we have oto decide the emptiness of this union, and therefore decide the emptiness of each term in there. 
+To do that, we can do it, in unreadable formula, I don't want you to read. 
+The only thing, it is the in the paper, and the explanation, only thing I want you to observe is that this subtyping of this records, is defined by the composing the problem of the subcomponents so the default Val on the record and is type of the field on the records and the second thing is that here we have an or, and so the implementation of this, the composition would be, well, I first try this, if it fails, then I throw away the hypothesis I added and especially the recursive types, and start again, so the last point is how to define backtracking free subtyping algorithm, and how to decide this without back tracking, and first observation, and intersection record is always record of intersection, and they are like products in that. 
+And so I move the intersection side, here, and yield R0. 
+And so what I'm able to do is compute emptiness of these things, and this is equivalent to an original formula. 
+And so that checks in the empty, and so 0 is empty, or close the Phi function, and the parameter of the positive one, and set of negative records and if the set is empty it is false, if it's not I pick 1R, and I do some test, and do recurvive call, and no back tracking here, and type operators, what do I have to do. 
+So I have single record there, it's very easy. 
+The dot L on the record R, is, the mapping of R, is a function. 
+And so provided that this field L, is neither untwined or optional. 
+And so means the L doesn't contain undefined in it. 
+For the map selection... the same... I just do the union of all the labels, that are there inside, and if there is undefined I remove it, and put it instead. 
+And so now how to do. 
+When I do dot L on the normal form of the records, and before doing that, what I do is the problem is the negations, I embed negation in my presentation here, and this things are that. 
+And don't want you to read it. 
+But, just notice this part, is composed by normal record part, and this is the labels, and this is the default Val, and plus set of types, that represent the negative part, and the property of this representation is that every type that is a subtype of the open record is equivalent to union of these records. 
+And the second thing is there is an effective transformation that allows you to map this junction in normal form, into this union, and the type of operators are defined for this new form, exactly, as on the old form. 
+
+
+Okay, so... now, to define our operation on something that is a subtype of the record. 
+Open record. 
+I just transform it into a union, and distribute into the operation on the unions. 
+
+
+And the general case, is the Erlang map, the general case, you can map anything to any type. 
+And the problem here is when you have overlapping domains, that is to say, let me give an example in Elixir, this is a map that maps pair of integer term into the atom and pair of integer, it's a top type in Elixir and this is semantically, equivalent to maps integer, not integer, and not integer into the integer, and maps of integers into the empty types. 
+
+
+And so they must be undefined. 
+
+
+And there are different solutions for that. 
+What it does, is yeah, let's consider it. 
+And so, we know that all the fields of type integer, must be undefined they map to the empty type, typescript does a different solution, and very strict the key types, to ajoyed overlapping the types they do, do not overlap, and the chose for the Elixir is the TypeScript, use fixed set of key types that do not overlap, and little bit more, and atom string, etc, and pairs and records, and this is less expressive, you can not say, my maps from integers string into the string, and just from pairs, into the string. 
+
+
+But the advantage is simple extension of the previous theory, and can be extended by the row polymorphism and solution, possible as long ASCII types do not overlap, and you see here, we added these two examples, and maps map into the lists and triples into the functions, and why it's extension of previous theory y the only difference is the false value is not a type, but becomeses a product in all the key types, and this type of relation, and this is how it was defined before, and the only things that you have to modify now, for this case, is just... this red part, that is you check the default value for all the key types, and finally for type operators you only have to slightly to change the representation here, instead of having single default type. 
+And set of types, what you have is tuple of types, and set of tuples where each component corresponds to one different result type, and it has a meaning you can see in the paper. 
+
+
+So conclusion: What I did, type system for mix usage of surts and maps, and difficult in the presence of set theorietic types, and boils down to two things, that's what the paper does: Definition of subtyping and of appropriate type operators . 
+So I gave algorithms to decide/compute them and proved their soundness . 
+So the paper ever is rather technical, euphemism for boring, apologize for reviewers at ICFP, but very practical motivation, being implemented in... and for Ballerina. 
+ Being implemented for Elixir and under consideration for Ballerina Future work . 
+ Row polymorphism . 
+And the other part, we don't want to use Elixir a fixed set of key types, and would like the programmer to give us the way you partition key types, and so we are working on that. 
+And then I will be happy to answer your questions, if I can. 
+Thank you. 
+
+
+
+
+>> Is this on?
+Okay. 
+So... fantastic work as always. 
+Sam from Indiana university, one thing people do in TypeScript or JavaScript generally, they treat particular symbols as if they were like a named field; and that's in fact what the symbol feature in JavaScript was created for, so you can have something both first class, and also sort of more like dot, rather than indexing. 
+And I wonder; would that be... it feels like that ought to be straightforward extension here, but I'm not certain. 
+>> I'm not sure I understand the question. 
+
+
+So you say in TypeScript... well... 
+>> I don't think they support this in TypeScript today. 
+But this is sort of what you would want. 
+>> There is some related work, and explanation how relates to TypeScript. 
+In TypeScript you can have one exception, just one case, you say, no, not TypeScript, that's Flow. 
+In TypeScript you can have... the underscore, string number, something else, and huge finite union of constants. 
+>> Right, TypeScript, doesn't handle what I'm asking about, maybe we should take this offline. 
+
+
+
+
+>> And the possibilities of put in square brackets, to say... but in the square brackets, you can put string integer and things like that. 
+>> Yeah, sure. 
+But let's take this offline. 
+I think... for more explanation. 
+
+
+
+
+>> One of the... we made... 
+Sorry. 
+Okay. 
+
+
+So, one of the decisions that we made was to restrict the places that type negation was needed and seems quite a lot of the hoops you are having to jump through here, are dealing with negation of record types, and already got notation of a key type, so do you actually in this development need negation on anything other than key types. 
+>> I don't think so, usually you take the key types and do the negation, and what you are negating, at least in this framework, all the other labels that you use. 
+And so it is a finite set of labels, and so intuitively, you can just specify the type of these things, so if you want to say, it maps string into something apart from this string, then you just say maps every string there, and this string is mapped into top optional. 
+
+
+And so you don't need negation. 
+Maybe, yes, this is the answer I can give you now; think rapidly. 
+And by the way, Luau I look at TypeScript etc and really the one that does the right way. 
+>> Thank you. 
+>> On that great note, I think we should thank the speaker.

@@ -1,0 +1,401 @@
+>>  Hi, everyone, welcome.
+Today we have Anders Hejlsberg, who is a Microsoft technical fellow, and lead architect of the TypeScript open-source project. Anders has worked on programming languages and development tools for over 40 years and is the original designer of C#, Delphi, and Turbo Pascal.
+Anders studied engineering at the Technical University of Denmark.
+And today he's going to talk about TypeScript.
+Please give him a big hand. 
+
+
+>>ANDERS: Thanks, everyone. 
+Lovely to be here in person, this is actually the first in-person talk I've given since COVID, I think it's really kind of crazy, but lovely, I love it.
+I'm here to talk about TypeScript, and the journey of adding static types to JavaScript.
+And that journey began more than 10 years ago, and back then, the world was very different from what it is now, what was happening, you know, going from a very homogenous world of PCs, to a more heterogeneous world of devices and so forth. And Google had done fantastic work with V8. To increase JavaScript performance, and HTML5 was happening. And finally, the web platform was actually becoming a place where you could write really large programs. It was possible and it was also becoming necessary because of the device revolution. We all know JavaScript is a language that has issues, and writing really large applications in JavaScript is very, very hard, and the world was discovering that at a rapid pace at the time.
+JavaScript doesn't have a static type system, at the time it lacked essential features like modules and classes and so forth, and it was designed in a hurry, and a bunch of mistakes were made in the early design; and the tooling for JavaScript at the time kind of looked like this.
+There wasn't really any at all.
+Right, so you'd write the code and hope it ran, and if not, good luck trying to figure out why.
+And people were doing crazy things, to get out from under that, writing in CoffeeScript -- which is another compile-to-JavaScript language, without a type system, so it really solved some problems like classes and so forth, but not really all of it.
+Or internally we were seeing people do wild stuff like writing code in C# and cross-compiling it to JavaScript, and that was actually how I sort of first got into this problem.
+Some folks from outlook.com came to us, and said could you please consider productizing this thing script sharp, what is script sharp, it's this thing that compiles C# to JavaScript. 
+>>   Why are you doing that? 
+That allows us to use grown-up tooling. 
+We can do code navigation, and modules and all these fantastic things and I'm like, really?
+Is it really that busted.  And got us thinking about, wouldn't it be better if we instead of targeting JavaScript from other languages, how about trying to fix JavaScript. 
+What is it that is busted and what can we do to make it better?
+And we sort of ended up on two major things we wanted to do.
+One was to build great tooling enabled by static types. We knew already at the time from experience, you can't build a great ID experience for a language that has no types at all.
+Because there are no indications in your program as to what the intent is, so statement completion and code refactoring and all the code navigation and all that stuff isn't really possible without some hints put in the code.
+
+
+And the other thing was: ECMAScript 6 was becoming a thing, and it defined a whole bunch of new features but the browsers were lagging behind, and so there were a bunch of features people wanted to use, but they couldn't use because they weren't in the browser yet. It's actually possible to compile them to older JavaScript through translation, and so those were sort of the two things that we wanted to do with the TypeScript project. So TypeScript basically starts with JavaScript, which we then add a static type system to, and that enables us to build great tooling. And just out of curiosity, how many of you use VS Code here?
+And a lot of people using VS Code written in TypeScript, and one of the original users, and you see what great tooling is possible when you add a static type system. Transpilation, it all just compiles back to JavaScript again, that's sort of in a nutshell what TypeScript is.
+The project today we operate by these 6 principles: we're both open source and open development; the project is hosted on GitHub, a very active site, repository, and all are welcome to check it out, please.
+
+
+We closely track the ECMAScript standard. We do not see it as our job to make language features in the JavaScript core language. We innovate on the type system we add on top, and work through TC39. And champion features through TC39 and see our job to invent and build and innovate in the type system; and then of course we want to build the best of breed tooling. So the way we implemented our compiler is that it's written first and foremost as a compiler for tooling's sake, and it is a service that the ID can use to do things like statement completion and refactoring, and code navigation, etc.
+
+
+Not your classic code in binaries out kind of compiler. 
+We work hard to continuously lower the barrier of entry to make it easy for anyone who writes in JavaScript to use TypeScript. 
+And we focus a lot on the community, and it's a big community out there. 
+
+
+So we released the first version of TypeScript in October of 2012. 
+So 11 years ago, just about. 
+And it sort of been a slow climb and TypeScript today is for sure in the top 5 programming languages in the world depending on how you look. 
+On Github this is the latest thing, sitting number 4. 
+If you add JavaScript and TypeScript together, it's by far the world's most used programming language. 
+At this point, pretty much all major JavaScript frameworks are either written in TypeScript or for sure have support for TypeScript and we try to work a lot with the community on making the experience better. 
+We work a lot with view guys, and react. 
+And originally worked with angular folks, and that was sort of what got us launched years ago. 
+
+
+And... in addition to that there is this wonderful community effort called:  Definitely typed. 
+Which is all about collecting types for all of the world's JavaScript and putting it in a central repository, it's one of the most active sites on Github. 
+Today the activities actually slowly trending down, because more and more NPM packages now include their types, and don't need to get the types separately, and they come along when you NPM install something. 
+Even though this has been a large part of our success. 
+Now... for the rest of this talk, I'm going to talk about the type system, because that's what you probably are most interested in. 
+And actually where most of the innovation in the languages, and, you know, when we set out to design this type system our goal was to create a type system that models JavaScript's behavior, or allows you to model JavaScript's behavior. 
+And in a sense that already sets it apart how most type systems,  what behavior is possible in your language  right, but, but here we were coming in, there's a language that already has all sorts of behaviors, and job to design a type system to model that, takes you down a very different path, and end up with whole bunch of constructs I haven't seen type of structures, and haven't seen the other programming languages, and some unconventional choices and these are at beauts we use to describe our TypeScript. 
+First of all, it's erasable. 
+Meaning this type system does not in any way affect execution of your programs, because your programs run just as JavaScript. 
+When you write code in TypeScript. 
+Here for example, here is a little program that declares a person type, and greeting, la, la, la... and couple of places we use type annotation, and when there is trancepiled or compiled, all of the types are erased, and that runs in this just JavaScript, and types in no way affect execution. 
+  And in a sense what we're designing here is a  Type system surely tooling safe, which which contrasts with most type systems out there that exist because you want certain runtime guarantees or want the type system to assist the code generating creating the right type of instructions and so forth, none of that holds here, but on the other hand the type system has to be completely interactive, and implementation of the type system has to be completely interactive, because the main purpose is to power tooling. 
+Now, we actually over time have accumulated multiple ways of specifying the types. 
+Some people don't like to trancepile their code, they like to save and run right away. 
+And for that a lot of people use what is called jsdoc type annotations and we can slurp those up as well, we don't really care if you use manifest type syntax, or put your types in comments, indeed, when writing JavaScript in VS code, you are actually using TypeScript, you may not know it. 
+The language service that runs underneath is the TypeScript compiler, so TypeScript JavaScript is just TypeScript with no type annotations in it. 
+But we can still infer a lot of the types. 
+
+
+Another aspect of our type system is that it's gradual, of course it has to be when in a sense modelling a dynamic programming language, in TypeScript we have this type called ennie a community meme there, slap ennie on it, and don't have to worry about types, and this type is both top type and bottom type. 
+And so anything is assignable to any, but any is also assignable to anything else. 
+And of course... that means you have massive holes. 
+Clearly this type system is not sound, and it was never designed to be sound, and gradual type systems aren't -- at least not... may be sound in islands, but not overall sound. 
+So here is an example of some code you can write in TypeScript, if you wanted to, first create a number, and then assign that to any, and assign that any to a function, and then try to call the function, and boom, that's not going to work. 
+But! The thing that is interesting here is that, we already have a runtime underneath where all behaviors are well defined; even this program has a well defined behavior, and well defined behavior it raises an exception which of course might not be desired, and there are no undefined behaviors here, and often one of the key things, that people use TypeScript as in type systems, to root out undefined behavior, and because undefined behavior, enables all sort of security attacks, and so forth, but in JavaScript, all well defined, and a lot of behaviors are undesired, and in a sense our job to tease out all the undesired behavior, and in a sense, we're coming from nothing is checked and everything we do makes the world better, and most type system, come at from the standpoint, if you can't achieve perfection, and don't even try to go there. 
+And means you cut out whole bunch of possible things that you could do that you might not be able to prove soundness for, and we don't have that restriction, and makes the work very interesting, and we can go places where people typically don't go. 
+And so I sort of describe our type system as swiss cheese type system, it's full of holes, and in the most liberal settings of our checker, the holes are everywhere. 
+But we actually enable and we recommend that you run the checker in strict mode, and in strict mode, we can root out almost all of the things that you would worry about. 
+There are no implicit anies ever entered that mode, only the ones you strictly ask for. 
+And so we in sense turned the type system from a switch into a dial, and can dial up how much checking you want. 
+
+
+And now, our type system is structural and as you all know, JavaScript is duck typed. 
+
+
+You write... if you know walks like a duck, looks like a duck, it's a duck. 
+Here for example is a code, we have a Greek function that takes something that has a name property; and you will see we can either have a person class with a name property, or just pass an object literal, doesn't matter, anything with a name property is compatible here, this is different from nominal type systems where you have to agree upon a name for every contract, and have to explicitly state that you implement this contract, then you don't implement it. And that actually creates a lot more friction in the system right?
+ Because unless to Library were either writers agree on a,protocol, well, they can't talk to each other without first writing adapters and thought that were in in, in TypeScript. There is no friction, and also this enables us to actually add types after the fact, which is really in a sense what power the early success of TypeScript there at the time we came out there was gazillion frameworks and types, or none of them, right. And so we had to provide a way of writing the types out of band in  Declaration files that are sort of like dot h files in seed right. And being structural in the type system makes that an awful lot easier. 
+The type system is also generic I would pose it's impossible today to create language of any relevance that doesn't support generics go try. 
+But, eventually added generics as well,  But when you combine structural typing and Generics. You set yourself up for a world of pain, and which we have spent the last decade of exploring, here is an example of say generic type node, which is node in a tree that has strongly typed child pointer, children, and parent is P, and node of node of P's, as their type. 
+
+
+And now, let's say I define another type that looks just like it in structure, but has different names and whatever, in a nominal type system these two would not be compatible, but in  a structural Type system they have to be compatible. So let's say I have to instantiations of node. Know that the top root pointer of my tree, and now determine whether these two are compatible, structural means, I examine the property of each of them, and both have data, and parent type, and children type node of node, and now we explore those, and that of course leads us to... and that leads us to [chuckle] and turtles all the way down, and you end up exploring these recursive abysus at all times, and have to find the provisions in the type system to cut off the madness, and so we have what we sort of call affectly the turtle limiter. 
+Show up there, various techniques cut off the recursive after 3-5 levels and let's assume that's true, and check everything else, and if that also checks out, we're going to say it's true. 
+And now we can get away with this. 
+Because everything in JavaScript has a runtime type check built-in anyway, and don't have to prove beyond a shadow of doubt it's true, we just have to prove to high enough degree of certainty. 
+
+
+The type system also is... relies heavily on inference, which of course you want to do, because you are starting with something with no type annotations in it, so the extent we can infer stuff it's good, and here is an example of a program where everything is typed by a single type annotation on get links, and because strings is type string array, we know there is a map function, and we know that map function takes a function, and we can type the S accordingly to be a string, and that means in turn, we can figure out S.length is a number, and know that map returns a number array, and get links returns a number arare. 
+And the infer... array, and that types can flow throughout. 
+ Now you might ask why do we even need that type annotation Couldn't you have inferred that from the call to get links. We could have. 
+But we don't. 
+ There is type systems for example that do unification, and whole program and analysis to deduce the types, we only do inference from context moving inwards. 
+We do not have spooky action at a distance -- if you will. 
+Which plagues certain functional programming languages, where you call in a remote place all sudden changes to types over here, and of course full program analysis, and doesn't really work very well in module system, right,  that means that the Module barriers are going to have to have type Annotations anyway, so we we stipulate that functions must be annotated, he only time we we infer functions is when there's context like for example, passing a lambda here at that point, we can contextually type from the outer context, but get links a top-level function, we do not confer anything. 
+The type system is also very expressive and this is what I will try to cover then in the remainder of my talk here, all the various type constructers we have and accrued over time, and of course we support object types, and saw examples of that, and also support union, and intersection types that basically union or intersect the domains of possible values of the types. 
+
+
+We support the index types, which obtains the set of possible property names for a type. 
+And then, look up types that takes... given type T and a key of type K, what is the type of properties in that type... and then, map types which are comprehensions over object types, that allow you to do mappings and all these exist conditional types, and now get into the dependent typing and I'll show you examples of that. 
+But know that all of these exist, because they are necessary to model JavaScript's behavior. 
+It's not something we did just because we thought it was fun, it's actually something that is needed in order to properly type JavaScript. 
+
+
+And that's what I'm going to try to look at now -- let me go here, and I'm going to start showing code here. 
+First I'll talk about union types... is this not showing my screen, what do I do to get PowerPoint to show the screen. 
+Maybe I'll shut down PowerPoint, that will probably take care of it. 
+How is that?
+Can you all see this?
+This is a very typical piece of JavaScript, and very typical pattern in JavaScript. 
+JavaScript doesn't have overloading, but it's dynamically typed, you can write a function that does something when you give it a string and something else when you give it a number, and very common in JavaScript, maybe not strings and numbers, you take a string or object with property bag or whatever, and then you want to tease out inside the function what was given to you, and you do that by guarding code with type checks, and then off you go. 
+And now, originally TypeScript did not have union types, and singly rooted type system, and that made it pretty hard to type constructs like this. 
+We did originally introduce overloading and only works at top level, not when types are buried in types of properties and so forth. 
+And so here, there was really no type I would give here, I could give it type string, but now it errors on one of the things I want to permit. 
+Or give type number, and errors on the other, and on any, and then doesn't error at all, and don't want that either, so union types I can say string or number, and now I get the desired behavior. 
+And so union types allow me to basically combine arbitrary domains of arbitrary types, into one type, and probably this is the most Profound thing that we introduced into the language it has since colored everything that happens in the language and every operation does not operate on a single type. It always operates on a set of types represented as a union and the singleton cases just sort of like the odd ball. 
+Union type, makes it possible to increase meaningful increase of precision type system, and so shortly after, union type, introduce literal types, which are types, and basically unit types that have single possible Val, which is literal, So here I am making a new type called direction that has four possible values up down left and right, represented by their literal types, and that gives me much, much higher precision than I could have otherwise had, and really not meaningfully in a single group type system, and what's the point of something whose type is always the same, and that's a constant, once you have union type you can combine them. 
+And of course, this occurs... if we look in the type declarations for the dom this occurs all over the place, super common to have properties with the 10 possible values and whatever, and this allows us to model it and type check it properly, and of course, makes the code authoring experience better, sitting here and what I'm going to type in and go here, statement completion can help me fill in the right types here, and show me and so forth. 
+
+
+And now... this stuff also helps with solving the billion-dollar problem... of null pointers or 2 billion dollar problem in JavaScript, because JavaScript is endowned with not just null, but also undefined. 
+[Chuckle] so we really can use the same techniques to chase the issues down, and you see here I have an error, a function that takes an optional message, and if I attempt to message dot length, we have statement completion, but if you choose length -- let me say let len =. 
+You see we have the question dot operator, because we know the Val could be possibly undefined, and propagate the undefined and len is actually number or undefined here, and if I were to get rid of the question mark, you will see it's an error, because we know from control flow analysis, that it could be possibly undefined, if you are in guarded block, you can then, choose or pick these methods. 
+So this is enabled by control flow analysis, and that's sort of another part of once we had union types and literal types we added control flow analysis, and type refinement based on proof in the code, for example, here, this constitutes the proof the message couldn't be undefined and message is a union type, includes undefined, and remove the undefined from the union type in the code that is guarded by the check, and check  isn't just syntactic check that you're enclosed in a block and could also, ... let's say, you see here the message now is undefined, and removed from the type, and we know from control flow analysis that code dies, and never reaches this point here. 
+
+
+Indeed, maybe I'll skip over this one here, because it takes a little while to work through. 
+But here you see, again, examples of where control flow analysis, you know, detects uninitialized variables and detects type mismatches and so forth, and chasing them down is interesting. 
+In fact, it's funny to look at what part of the issues that JavaScript has, is the semantics of the operators, let's say I have a function here that takes string or strange arares or null or undefined and I do a truthy check of S, and well here not surprisingly you get string or string array. 
+But down here get null, or undefined or string, because the empty string is faulty, and could still have a string, a lot of people forget these things in their code, and end up thinking they have guarded against a certain type occurring, but they haven't. 
+
+
+And here is another classic, if type of S is object, you would think "well, I probably only get the string array then, right?
+" No, you also get null, the type of null is object in JavaScript. 
+Don't ask me why! But it is. 
+[Laughter] so down here you get string or undefined, or if you use... if you use the double equals to check for undefined, then you actually also check for null, because... it coerces the values, if you use triple equals, then you only get undefined and null occurs down here, and knowing this... on a daily basis we get bug reports, and I wrote this code, it's like, no, because you did this, this, and that, and this is something people always struggle with. 
+
+
+Now one of the really, really interesting things about union types also is that they enable a pattern we call discriminated union types, this is a very, very common pattern in JavaScript where you have objects that have a discriminate property that says what kind they are, and the remaining shape of the object depends on the kind. 
+
+
+Here is like drawing shapes or whatever, and this could be a message processing system that receives JSON over the wire and branches out based on it, and curse everywhere in JavaScript this pattern, and we actually understand this pattern, and here you see a function that computes the area, and all I have is single type annotation that says S is a shape, and we know S.kind could be square rectangle or circle. 
+Here S now been refined, and just to be the square variant, and this means, when you give the statement completion, so when you say S.we know the size is one of the properties you can pick out here, and similarly for rectangle and circle and so forth. 
+
+
+And even better if I try to put code here, we know the code is unreachable, you handled all the cases that could possibly occur, and through control flow analysis, we know this doesn't happen, so exhaustiveness checking is in a sense falls out from this work, and now, you can sort of see it's kind of like ADT's in a functional programming language, certain patterns here, not pattern matching the same level of richness necessarily, but even that can be worked around, interesting to note the type of S here gets refined down to... never. 
+Which is the empty union type. 
+We used the name never because it originated originally in functions we know from control analysis, never return, so if a function throws always, the return type is never. 
+Meaning you can assign it's result to anything, because it will never happen. 
+
+
+And so never is this bottom type that is assignable to everything, and is the opposite if you will of unknown, the top type that isn't designable to anything, but everything is assignable to it. 
+
+
+And interestingly also, you will see that because we know that the function... the endpoint of the function is never reachable, we can infer this function returns number, because we know that all of the return paths produce a number, and no fallout of the bottom that could possibly return an undefined, but if I comment out one of the cases you see now, we know S here could possibly be the rectangle, and this is no longer unreachable, and the function now returns number or undefined, because you could fallout the bottom. 
+So there is a bunch of stuff here that combines to, you know, really find a lot of bugs in people's code that they didn't realize they have. 
+Now, the... compliment of union types is intersection types. 
+They are less often used but you very quickly discover if you have unions you also need intersections, and here is an example of where they are relevant, say I have a function that takes string, return string, and function that takes direction, and up down, left right, I saw earlier, and say make union of those two and say I want to call the function, intuitively, you sort of know, well... I am typing two input positions here, one that requires strings and one that requires just the four possible string literals in direction, so the only thing that is safe to pass in is one of those 4 values, but on the return I don't know which one I have. 
+So it actually returns a union of the two which is just string. 
+
+
+And so effectively, you end up with intersections in  contravariant positions and unions and  covariant positions and the type checker knows that and that's one example, where intersections are  once you add unions to to your language and indeed you can see  here if I intersect string and direction I get string but if I  -- sorry if union string or direction, get string but intersect them, I get up down left right or direction, And interestingly, if I have a string or a number and I intersect them, or union them then I get string or number but if I intersect them I get never because they share nothing. And so if I were to change this from two string function to numfunc, and you see I end up with a function that never gets a Val, and I can never call it, but if I could it will return a string or a number. 
+Other examples, you know I'm going to skip over this in interest of time here. 
+But indexing with union types, same thing happens. 
+If you do spreading, we approximate the behavior of spreads using intersection types, which isn't exactly correct for JavaScript, but correct enough for our purposes. 
+Let me try and look at some of the other stuff that we do. 
+Here is a very typical pattern in JavaScript, and now we're starting to look at some of the things you can't really do in other programming languages, but typical in JavaScript, let's say I have an item record here, and then I write a function that takes an object and a property name and returns that property of that object. 
+
+
+And now this is a capability in JavaScript that strongly type languages typically content have. 
+Every object in JavaScript in a sense is a dictionary, and can you treat the property values just as keys in the dictionary. 
+But so how would I type that?
+-how would I make this piece of code down here actually give me naming for something type string, and price something of type number, currently, it just gives me any. 
+As you can see. 
+Because I don't have any types. 
+And so I'm going to type out what it actually looks like. 
+
+
+And here you see two of the type constructers I mentioned earlier, in use. 
+So, what I'm saying here is now, getProp is generic on T the type of object, and K is something that extends the possible property names of T. 
+
+
+And then, we infer that the function return a T sub-K. 
+
+
+And now, you will see down here that we infer o, you passed the item and name, and that gives me back a string, or you pass the item and price, and that gives me back a number. 
+If I for example, said: ... greater or equal -- doesn't matter, and pass price, else pass name.  And see now we infer, you are passing either a name or a price; and therefore you either get back a string or a number. 
+
+
+And so, union distribute over this type of constructor, and the T sub-K type constructor and whole semantic over time we learned over time these type of constructors and how to check them and what are their constraints and so forth, and a lot of the reasoning in the checker reinvolves around that. 
+And here is another real world example I won't spend too much time on, but this is a real world low dash library, pluck helper method, and picks out given array, and key name, and pluck me out all the properties from those objects with the property name, and that's array.map,  which is typed at T and returns T sub-K, and the result here is T sub-K array. 
+And therefore down here I get at string array. 
+When I pass it, etc, etc. 
+Map types are in a sense:  The ability to apply comprehensions to types. 
+
+
+And so it's sort of like a for comprehension that computes the property and is types inside an object type constructor, here for example, you see, I say for P-in, and foo, bar and baz give me a type string. 
+And end up with this for example, and where he have bunch of built in's, with build in partial type constructer, and declaration, and says given T, iterate over all keys of T, and make them optional and give them the type that already have.  And so this takes an object type and makes an optional type of the same shape, and there is pick that says:  Give me an object type and set of property names for that object type, and pick out those properties only, and give me a type for that. 
+And here you see example of use of that, like assign function that takes partial set of properties and modifies them or pick that picks out two properties, from item. 
+Which in turn, ends up giving me back a... well if you look at what we get when we say statement complex on X, you see we picked out just those two properties and whole bunch of pattern, and the reason we have those, is that this is what a lot of JavaScript libraries do, they just do object munging and turning objects into other objects and turning properties into other properties and so forth, and so we're sort of guided by what people do in what we go implement in the type system. 
+
+
+And now, one particular example there that starts to get really interesting, and now starting to get into dependent typing, is conditional types, and here is another JavaScript pattern we see a lot where depending on the input to a function, you get different outputs from the function, here for example, if I give you a string, I want to get back a name label, if I give you a number, I want to get back an ID label, and ideally we would want down here, typing that gives me the right type, when I give you something that we statically know as one or the other. 
+And that becomes possible with conditional types, and so here instead we said a label of T, where T could be a string or number, is if T extends string, then name label, other wise ID label, and use that as return type, and create label generic and use that as return type, and here I pass this name label, and ID label, I pass one or the other, and get one or the other, and in a sense think of condition am types, as smart union types and collapse upon instantation to one of the possible choices and then this combines with inference as well. 
+
+
+And this is where it starts to get interesting; because now you can write logic. 
+And so here we have a resolve of T that says:  If T extends promise of mumble, then return the mumble, other wise, return T, and now if I say what is resolve of string, that resolve never solve a promise of string, but that's also a string, resolve a promise of promise of string and only unwraps one level, and not doing quite what I wanted it to do. 
+But actually allow... sorry... we actually allow recursive types. 
+
+
+Combined with conditional types, and now start to go smell like touring completeness, and now types can compute and iterate, and here you see, now we will unwrap as much as we need to. 
+And so even here we get string, and here we get all of the bottom types, unwrapped out of their promises. 
+
+
+And this turns out to be very common in JavaScript too, there are lots of places where we need stuff like this. 
+For example, there is an array -- method on array right now, that got introduced recently called flat, and flattens, and put arrays inside of arrays, and inside array, and method platens them all into the one array. 
+And typing that looks something like this. 
+No matter how many levels of typing I give it. 
+It flattens it down to one level. 
+
+
+And of course, if I try to trick it and construct an array every time I index it, get another array, and goes on for infinitum you see here again, we have one of turtle limiters, where built into the type system, where after 100 iterations, or whatever we go, isn't going well,  we're going to stop here and give you an error. Now chasing down all of that is actually about has been the really hard part of something, continue to struggle with. 
+  Because effectively are types of system is Turing complete, and someone even put up an issue that proved the Turing complete test, and people doing most absurd things, I've seen people write chess games in the type system, SQL parser, you name it. 
+And a lot of stuff as possible. 
+And here is an example how to reverse tupple, and see the really nice little pure functional programming language, into the type system, and have the iteration, through recursive, and you have choice through conditional types, and all the values you operate on our types so you're operating on sets of values,  but of course they can be Singleton's and now you're just operating on simple values and function the are generic types, and because they take other types of parameters and can invoke them, and you can see, you write something that reverse a tuple for example, and in our type system, how are we doing on time. 
+Let's see. 
+Okay, look a little bit at tupple types, which is interesting too. 
+And I think I'll stop after that. 
+We support arrays, and tupple types, and even allow touple types to have holes in them, and say number array, and first of all in JavaScript tuples are just arrays, with given fixed layout, and so a two tuple here, number on a string, you run the program it's just array with two elements but we can strongly check this. 
+And we can even have holes in the middle of arrays of certain type, and check, yep, the front and the back. 
+
+
+Where this gets interesting, is JavaScript has all these abilities to manipulate argument lists of functions. 
+
+
+And for example, here is a function that takes a number and a string, and I can pass to it, 1 comma A, B, C, and can I spread in a tuple provided the tuple has a right shape, and indeed, see I try to pass in 3, you see checker says no can't do that, but can pass the DA2tuple and functions also support rest arguments you can spread arrays and indeed if you type a rest argument as a tuple you see everything actually unfies, and this simply becomes a function that takes two arguments and really no difference between parameter lists and tuples, and that in turn means that we can type parameter lists as array or tuples and capture them, so here for example, we're capturing a tuple that comes out of the function, and that in fact precisely all the function does it this. 
+And we can give accurate type to that. 
+And when you spreading an array, of course we give you a number array. 
+And we can even in later versions of the language allow you to control, whether you want us to infer mutable types or immutable types, here we infer immutable type, because both have good uses in the language, and another part of the inference, differs from the functional program language, and often, like functional programming language you are free to infer the most precise type ever, every time right, but, don't really know, what language, when you say one as element, of this tuple, you mean you want to toggle back that has numbers in that position and then you might put other numbers in there, or did you mean something that you're never gonna mutate? In which case we want to type it as the literal one right? Because that's the most precise type you can get. And so, it's not always desirable and so we allow to put the in hints like that. 
+ Now, where it starts to become interesting, then is you can you can model higher order functions as well. Here you see  Invoker that calls a given function with a given argument list that we can give accurate types to that. So when I say invoke of F1. 
+You see that. 
+Not only know what it's type is, we know you are now suppose Todd give me a number and string, and we can even pick up the parameter names from the function you passed in. 
+And so again, these are very common things that happen in JavaScript, and so, over time, we have been able to model that. 
+
+
+The last crazy one here is... inferring to composite tuples, and really looking at currying, although, but it's but it's really just binding arguments to  to functions and understanding how to split the argument. List of function into two tuple types, and where one is specified and now get partial application all of these with the correction types, and I'm going to cut it off here, and this is Summary slide, and hopefully this gives a taste of what is possible in the type system, and I wanted to end on slide that talks a little bit what TypeScript succeeded. 
+One of the key decisions we made early on was to not try to create a language that replaces JavaScript, even though the world was crazy with languages that were supposed to replace JavaScript. 
+Rather went the route of trying to improve the existing ecosystem, and I think we got right from the beginning was were designing TypeScript system for tooling sake here, and providing and creating excellent tooling. And that means that you aren't you engineer your Compiler very differently you engineered as a Compiler that really works as a service that powers your language service underneath the Editor, right, if in a sense it's core purpose and that means that everything has to be indecreasably responsive. 
+We know users get irritated if it takes more than 250 millisecond, for the drop down to show up. But if you're sitting in 100,000 Line program and you press dot somewhere arbitrarily in the middle of this program, you obviously can't  check all 100,000 lines to deliver a result. So you have to be incredibly incremental, and complete that dot then the program has changed and it could mean something completely different, and so you have to account for that. 
+And it's not simple, and TypeScript Compiler is in a sense, a gigantic exercise in applied functional programming. If you look at it, where we construct for all the source files, and never mutate, and every time the type a character we throw away the entire program and then reconstruct it from pieces of the old program and can Yes, I understand ourself are reusable, and get our performance and of course, TypeScript is written in itself, and writing compiler in JavaScript is not the first thing I thought I would be doing for a decade of my life. 
+But amazing what is possible. 
+
+
+
+
+[Laughter] and I'll leave the rest up there maybe, and let you read it. 
+And then stop here and then time for questions, if people have some. 
+
+
+And so thanks. 
+Yeah. 
+
+
+Thanks. 
+And we have so many questions. 
+Let's start with Ron when the mic is ready. 
+
+
+
+
+>>   RON:  Thanks very much for such an interesting talk. 
+I was wondering, when you are retrofitting a type system on a language, you are trying to avoid undesirable behavior, but along the way at some points you throw out programs that would have desirable behavior. 
+
+
+>>   Correct, and so wondering as a group when you decide which programs you want to save and when to add switches to turn the dial, and what thought process goes into that. 
+>>   A damn good question, and not one that has a short answer, and I think a lot of it is based on our own experience using the language, we do every day, and we know what the patterns are, and we know irritating when we can't get them right, and we also judicially monitor the issue tracker on GitHub, and the community is very good at making us aware of issues, and providing programs that reproduce the problems, and we try to jump on that. 
+And make it better. 
+
+
+But it's an iterative process all the time, and tension between completeness and soundness, you know. 
+[Laughter] the answer is never on the extreme, it's the nebulous gray middle we try to chase down in the our day-to-day lives. 
+>>   Thank you. 
+
+
+>>   You're welcome. 
+
+
+>>   Hello, I'm Adam from MIT and wondering about the principal you shared with the best effort, of soundness typing constructer and there is dynamic checking that was always there underneath JavaScript. What about important properties that have not been  . 
+
+
+>>   Well, that's why we have strict mode, and recommend people use strict mode.  And in strict mode it's a lot harder to violate soundness, but it's always possible. 
+   I mean, we do have like assertions where you can just willy-nill assert that this now has typed that. 
+And we endeavorer to make all of these explicit and only happens when you say so. 
+Fine, and say,  User Defined type predicates, which are functions that you can  pass an argument and then you can assert in the return type that X is type bylaw, and write the function that proves it. 
+There is no definite proof in JavaScript that you implement this particular protocol. 
+And most of the time it's based on good enough, if you have that property and that property, fine, we're going to say you are that. 
+We're not going to check all the 50 possible properties, because that would be too costly at runtime, and so always this balance, you know, of "safe enough" right?
+And we sort of have to embrace that in the design of the type system, we can't fight it, because the tool is of no interest to the community, again, it's tricky. 
+
+
+
+
+>>   Hello, I'm Simon. 
+Good to see you, although I used to work for Microsoft. 
+I have learned more about TypeScript in the last hour than I have in the previous 10 years, thank you for that. 
+
+
+So my question is this:  You described a bit of wild west situation where the bar is very low, you can't, can't not improve the situation, that's great, and I'm sure there is correctness criteria in your head, and don't want to report an error when there really isn't one, and quite complicated system, and I bet somewhere in your head or paper, there is some formalization that has criteria of happy of code that compiler is doing the right thing, do you have such something. 
+>>   Something more justified... 
+>>   In that heap of stuff, there is bunch of unsolved problems that we don't know the answer to. 
+For example, one of our most... one of the issues that on practically a daily basis, we refer users to is issues number 9998 that talks about limitations of control flow analysis, for example, it's possible in JavaScript, one of the things they got right, to close over out of state, so nested functions can access the outer locals of functions, and say you have an outer local, and say the outer local, not equal to undefined, and then you have a block of code, and that block of code calls functions, well do these functions then... and it's like, now you can try and inline the world there, and see, and there is certain things, you either... you still have to say, does this check for undefined hold in the face of a call to a function, following that function call, yes or no?
+And you are damned if you do and damned if you don't, and some people will go, that should invalidate all my assumptions, and because every call to a function of JavaScript, is virtual, and have no idea, where it ultimately is going to go. 
+And 98% of the time is probably doesn't, and inconvenient, and so there is things we never solve, and about making the right choice, and every time someone arrives and tells it's wrong, and the alternative is worse. 
+ 
+>>   I wonder if you tried to distill the choices some formalism, of the code of the. 
+>>   Not been formal design, but if you are interested. 
+I would love to learn a lot about what other holes we have I didn't even know about. 
+Yeah. 
+ 
+>>   Sam, Indiana university, thank you for the nice talk, as someone working in gradual typing for a long time, it's gratifying to see the amazing product that you have produced building on those ideas. 
+I guess my question is:  What would be valuable for the academic community. 
+Say those of us who think about gradual typing in a research contact for you, what are the questions that next ones that people should be thinking about for TypeScript in 5 years, or for the next gradually typed language that comes after TypeScript that we haven't solved those problems yet. 
+
+
+
+
+>>   Well, I think... for me probably the thing that gives us the most headaches is because we're turing complete you can do infinite computation with our types, and how do you cut off the madness, and where do you cut off the madness, is there proof certain types terminate and others don't, not super good... we have fairly crude limiters in place, that will stop recursing. 
+At times they stop recursing too soon. 
+And then, all sudden after 3 or 4 levels of nesting things are not checked as much as you would like them to be. 
+But, it's... conversely, there are examples of types that Absolutely explode exponentially after 3 or 4 levels of nesting because of the generative nature. 
+And it's very hard for us to tell the complexity of a type, and how far to drill into it. 
+You know what I mean, and for decade, we struggle with, and just yesterday, fixing a bug in this particular area. 
+Right, and then... I would love to research in that area, that would be super, super interesting, we would put it to good use, if we knew better answers than the answers we have now. 
+I'll keep going as long as you want. 
+>>   We have 5 more minutes, 4 more minutes. 
+>>   High, Neil from university of Cambridge. 
+I wanted to ask question about the intersection of union types in TypeScript. 
+And you know, this is one of the features where the natural complete strategy has exponential backtracking, but there aren't clear heuristics cutting off recursive depth at certain level, and TypeScript is still quite responsive, and wondering what type of Heuristics do you use that you find. 
+And so union intersection types are rarely, issued and certain constructs you do, where if you start... intersecting large union types. 
+Then we do this thing called normalization, and bring them to first normal form, and that actually is quadratic in nature. 
+And types can be very large there. 
+And we do not... as a rule operate on denormalized types, and we always normalize, such unions sit above intersections and sit above singleton types in the type representation. 
+
+
+But that's not without issues. 
+
+
+And so we do have certain limiters in there that say this type is too complex too compute and we're not going to try, otherwise, going to take all afternoon. 
+But generally speaking, I think where we really run into sort of intrackable trouble is allow recursive and in the type system and computation through the condition types and recursive types, and those are run amok and sometimes run amok creating millions of types, and very shallow, because they very bushy and wide, and you know what I mean, and people in the community get very inventive when they type libraries, very proud, look what I accomplished here, and they explode in your face, and then all the users of that framework, are now burdened with statement completion that gets incredibly slow, and that's tough, it's tough for us to place blame, because we don't know what is causing all the computation, you know what I mean, or not easily at least. 
+
+
+So those are some of the things we struggle with. 
+Okay, thanks. 
+
+
+>>   Mike Active Group. 
+At least with static systems as they evolve, sometimes make changes that break a lot of users code. 
+Was it ever the case you wanted to make improvement to the type system, and you discovered... 
+>>   Absolutely. 
+And it is sort of... it's the strange dilemma of type checker's job, right?
+That as the type checker gets better it produces more errors, and therefore breaks people's code, this built before on the last version, and now says the error here, and Obviously the program is working, well there could possibly be a condition the programmeror errors, but doesn't in real life, and so mean there is that debate always, and we tend to weigh changes is this something where our current behavior is just blatantly wrong, and can defend no matter who arrives, and clearly this should not do what it's doing now, and going to fix this, and going to call it a bug, and other situations yes, we now start checking more judiciously, and that's going to break some common patterns out there. 
+And people have Obviously worked around in their existing programs, and it's not actually causing them grief. 
+At that point, we typically lump it under new strict option. 
+
+
+And then, you can opt into it. 
+And then we have this uber option called strict that always opt you in the new strict options, if you are in that mode, you get the latest and greatest, and then opt yourself out of the latest checks if you don't want them, and then the start with the baseline, not strict, and then individually to every new feature we add and then time marches on, and compiler options, and testing all the combinatorics of  that is horrendous right and so so I don't know. . 
+I don't know if there is fantastic answer, but we try to cater to the two standpoints, last question. 
+>>   I want to elaborate a point... here with TypeScript... you are allowed to keep files as JavaScript, super useful to migrate something not really well typed, this is going to be JavaScript. 
+And I will slowly type them down. 
+Like, successfully migrated bunch of code base this way, and works really well in practice. 
+My question is a little bit off of a tangent:  Tooling and compiler as a service model is really important part of the... and really important part of another Microsoft project, R.-compiler. 
+>>   I didn't hear the last part, important part of... 
+>>   C# Rosslyn compiler, and wondering which one came first in the cross breeding. 
+>>   There was a lot of cross-breeding, Ralston came first, and the first production compiler, that we shipped or released for TypeScript was actually written by several of the people who had been on the Rosslyn team, and that was also an interesting journey, they came over and proceeded to write a TypeScript compiler in C# style in JavaScript, and a lot of classes and auto-generated syntax trees, and ST accessors and blah, blah, blah and a lot of auto generated code, right off the bat, and not a good way to get performance in JavaScript, and then we got more interested in this more functional way of writing JavaScript. 
+
+
+And where you just write functions within functions, and that's how you get isolation of state and whatever, and also how you reduce polymorphism in your code, and pretty bad, V8 handles polymorphism pretty badly, and doesn't know how to inline when you make method calls, because everything is virtual in a sense, right, and having functions within functions all the calls are inlinable, and get a whole different level of efficiency, and currently, the TypeScript compiler is implemented pretty much there are no classes at all, it's all functions, and it's a large exercise in functional programming in JavaScript, if you will.
+
+
+So, that was an interesting journey too.
+Yeah.
+There you go. 
+
+
+>>   Great, thank you! 
+>>   Thanks all, thanks, everyone. 
+
+
+>>   Thank you.

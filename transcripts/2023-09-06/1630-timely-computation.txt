@@ -1,0 +1,203 @@
+>> Okay, time to kick off the next session where we have Conal talking about Timely Computations. 
+
+
+>> Thanks for coming. 
+There is a simple question at the heart of my talk which is: What is a digital circuit?
+
+
+Or what is physical computation?
+We're thinking of doing computation abstractly, but what gives its essence, not what it computes, but the physics of computation, a physical process. Information is physical, computation is physical, so what happens when we think about specifically and clearly the physicality of computation?
+And now I'm guessing you have been doing computation for a long time, and gotten used to in retrospect and further reflection this odd aspect of digital computation.
+An aspect of computers and what they are, and how we use them are very different things. A computer is an electronic circuit, a physical thing that transforms analog signals. You might think we don't do that anymore.
+Of course we do, they're made out of the universe, and the universe is analog.
+So computation is a physical analog thing.
+And calculation is usually about discrete rather than continuous quantities and more of a digital notion.
+Rather than fundamental, it's mathematical.
+Actual physical implementation's momentum manifestation of computation is continuous, but what we use is discrete.
+And so one is physical and one is mathematical.
+So in what sense could we possibly go around talking about correctly computing the things that we're doing with computers that are so different from their very nature? So that's the question and another way to ask this question is, what is a digital circuit? Just said there's no such thing. And yet we use this notion of a digital circuit in a really important way. So it's a question: What do we want out of the answer to this question, and what are the properties of a good answer, and these are my preferences.
+I want the definition to be clear: So I really know what I'm talking about, and so the less fuzzy the better. I want it to be simple. Why should the question be simple? The question cannot be verified objectively, right?
+If I have a question, I answer it and verify the answer against the question, how do I know I have the right question? Another way to express that point, once I have the answer, how do I know how to apply the answer? In other words, under what circumstances is it correct? We can do that with our brains. We can do everything computationally, and to verify a question, we need to use our brains, and that's why it has to be simple.
+And so for instance, for me, it's not going to be operational, not going to be linguistic because both of those features fight against the simplicity of the question itself. It's going to be simple, denotational, mathematical. Also, it needs to be useful. I mean, it doesn't have to be useful for pure mathematicians, but I want it to be useful. I'm guessing most of you do too. Useful means we get some insight, something that we can solve problems with, something we care about. But the idea of formality is that it can be machine-checked; it's completely unambiguous. And I have to rely on our diligence, which we're not very good at, and no mistakes that slip by.
+Constructive is that I want to get some insights out of it that I can apply. So it's very much like being useful, and finally, compositional. And I think we're all here in part because we love compositionality, but the reason for compositionality is that our brains are limited. Right, and we want to be able to build things that are much more sophisticated than we can understand in their entirety. So we build them in pieces. And we care about the entirety. So we build them in pieces. And we care about correctness and we're gonna approach correctness in pieces. Okay, we're not going to build complicated things and then try to figure out what they're supposed to do and then prove that they're correct that's a non-compositional approach and it's too difficult for primates. And so those are the qualities I'm looking for, and definition. 
+Digital circuit: A digital circuit is an analog circuit to use in a discipline way. Not a physical thing. 
+ It's a discipline use of a physical thing. So digital circuit and analog circuit that respects discrete meanings. So what I mean as digital circuit is really going to have continuous flows of voltages, continuous and coming in. And we're going to interpret that continuous information discretely, and extract and find out information and bits out of it and call that the meaning of the signal, don't mean "the" meaning of the signal, but how we interpret the signal. 
+And want to be the case you put two signals into the circuit, and the signals differ a little bit. 
+But they don't differ in discreet interpretation. 
+And then the out puts can differ but not in their discreet interpretations. 
+So that so that means that analog circuit is respecting the discrete interpretation. If the two analog signals are coming in equivalent, in the sense how we interpret, in the sense of how we interpreted, then they haven't been the outputs will be equal but equivalent. Alright, so that's the kind of framing framing. Compositionality is centrally important. It's really are the superpower that we use over and over to solve any problem. And of course correctness. We don't want to just compete, we want to compute something in particular we don't want to just do random fluctuations or electric signals or bits. 
+ Want to start with just computing, alright not correct non-compositional just computing. So there's a picture of computing so we have function F1. 
+In the case we're talk talking about that's going to be circuit itself, a function that transforms continuous signals. 
+Information coming in. 
+Row 1, and information going out sigma 1. 
+And the transformation. 
+And that's not correct, just something going on. 
+We don't have a way to talk about it correct, we need to compare it to something. 
+We move up to computing to correct computing. 
+This is my picture of correct computing, the additionally the operation implementation or the physics, you might say, we have its intention, which I'm gonna call it denotations, meaning whereas the operation is chosen for its physicality, and something that can be computed in this universe, so we can look at it and learn from it.and maybe computed efficiently, inexsuspensionively, I want the meaning or purpose or intent of it, optimized in different sense, doesn't have to be physical, or computable, but mathematically defined and simple, amenable to precise reasoning, I don't just mean you can reason about it, but friendly to reason. 
+And then we need to relate somehow, the thing implemented to it's motivation, and motivation for implementing it, and that's the relationship here the horizontal arrows. 
+And so if row 1 is a bunch of wires or bunch of continuous signals then row 2 is the interpretation viaH, first vertical arrow. 
+And that's going to be the function that extracts information. 
+Okay, and for us, that will be something like bits, and continuous stuff, we're going to extract finite number of bits out of there and maybe interpret the bits like a number or a tree or something like that. 
+
+
+And so we need to know how the input, the kind of physical input is going to be interpreted mathematical input, and physical out put gets interpreted mathematical, and that's MK, And then we need the consistency requirement and that is that that's implied by my little curvy arrow in the middle, which means this diagram computes. 
+ . In other words, if we start with a physical input row one, and we pass it through the physical circuit, get sigma one, and interpret it, and that's the same as if we took row one and interpreted it in the input and passed to the mathematical function, that's what correctness means, the so that's correct computing, What about compositionally correct computing So the idea is if this is what we're not correct computing is. Okay, and we want to do, ambitious things correctly, right, then we're gonna need to compose them. We want to be able to succeed, we need the correctness at every step,  instead of postponing until the very end and having a gargantuan task. Okay, so I want to know how do we compose these correct things to make other correct things. So that's where we get compositionally correct computing. What I'm suggesting is that you take this diagram and you can see it in part, so I showed you one kind of parsing of it, which is these three layers and the three horizontal layers, Operation denotation extraction in he middle. But there's another way to slice it okay orthogonally, which is to say on the left we have some notion of the input. Now we only have two things or three things about the input, what's the physical input, what's the conceptual input and how does the physical relate to Or you could just say it's domain and codomain are part of it. So we know about the input, and we know about the output, itsfinish physical manifestation and conceptual intent relationship between them, and that's the domain and codomain of correct computing, and what about the morphism and functionality, and computation itself, that's the middle row, the column, and implementation and the purpose and meaning, and a proof. 
+And that's what the curvy arrow is, the proof in fact this relationship holds, in commutation and why do I call this compositional, because these suppose in really nice way. 
+I'm going to show what that looks like. 
+We have the package of comp computation, implementation of proof of correctness and including the extraction Okay, now how do we combine them, so that we can build bigger things, and how do we combine them, and we put them in sequence, we have the two correct competitions one on the left and right, and one on the left feeds the one on the right, and I say output including both outputs, conceptual and interpretation, when those line up, we can compose the correct computations, and to single correct computation. 
+What happens?
+S finish the implementations get composed sequentiality meanings it couples sequentially and the proofs get combined in a standard way, there‘s like to try that could possibly work and it does indeed work. So you combine the proofs in a clever way. 
+ So sequential composition isjust one way that we So sequential composition is just one way that we build up computations. Another main way is parallel composition. So here we have two correct computations. And now the domains and CO domains are unrelated to each other. They're completely independent unlike the previous one, these these are unrelated to each other. In the in the physical manifestation and in the conceptual motivation, the outputs get paired again in the same way. And then the functionality of the implementation and the mathematical intent, the mathematical function that motivates the implementation. Yes. No, exactly paired up but put it in parallel, that's this cross operator, so that's the kind of pure parallel composition, just means you run to come to computations in parallel. They consume a pair, you pass pass the divvy up that pair to each computation. You take the two results, put them back into a pair. That's this kind of operation here, what I've shown you are the basic building blocks, not all of them but most of the basic building blocks and what's called Cartesian categories, which is kind of the basic building blocks are some of the basic building blocks of computation in general and not just computable functions but differentiable functions linear functions polynomial functions. Incremental computation all kinds of things can be looked at in terms of this vocabulary, and they have very nice properties, and the related to the type lambda-calculus in 234 in a very simple universal sort of way. 
+ While the story is a little bit more involved in this, which is I don't want to just have computations that are all like mathematical functions. 
+ I want my circuits to be more real have an app that then just a mathematical functions, they implement because I want to be able to build them, and able to synthesize, maybe, you know like Verilog and build build a chip, that kind of thing. I need some sort of more analyze ability that I can get up mathematical functions. So we introduce representations. 
+ And the idea is that we have two mappings from representations, that's the capital fees. Okay, we have one at the implementation, And what that does is it's a subtle sort of shift. But it means that the data in this diagram or the data in therep citizentation, it's not just the meanings, but the things that mean what the meanings are, in other words the actual circuit, not just the mathematical interpretation. 
+So that's a bit of subtle point you can read in the paper. 
+ This whole composability story works out with this extra bit of very kind of practically important layer, and it works out when the fees and interpretations distribute over the construction of the operations and really relice on the F of G, and F of F, and F of G, compose F, and so that's home homomorphically appropriate, if categories that's called a functor or a Cocartesian functor so that distributed property. 50 that's what you need a functor. 
+ So that's the basic, and what does that have to do the the question. 
+ How we're gonna approach and building sophisticated very efficient. Physical computation, and have it be guaranteed correct and have it be, sort of, what reasonably easy to build at every step, and you want to not make it hard, make it easy. 
+ And this is classic, full adder you can think of adding 3 bits, or another way to think is add two bits in the carry on bit, and the result is going to be up to 2. 
+Or up to 3, and need two bits for that. 
+And 3 inputs, or one input per bit, or wire, wire is the physical view, and bit is the interpretation view. 
+
+
+And two outputs, one per bit, and now here is a question. 
+I want to build a correct implementation of this. 
+I want to be able to correct what embodies digital semantics of adding numbers, and remember my substrate isn't digital, we have analog, and so to know I implemented physically this computation, I have to take into account physicality of computation and one of the implications as the computation takes time. Right, it takes time to compute and it takes time to move information, and so understanding correctness relice on understanding timing, when we embrace physical callty, and you can get heck of a lot of performance gain if you do that. 
+Wonderful programming languages, especially functional language, or genuinely functional, take the physicality, or timing for instance out of the picture, but a huge cost in performance, huge cost in time and power consumption. 
+
+
+So if we take timing into account, then actual question arises, when should you look at these wires, right?
+Because remember that's the interpretation. 
+Have continuous signals, and pulling out bits, and how do you get bits, looking at wires at certain times, how do you know when to look at the wires, anything tricky should be approach compositionally. 
+
+
+And so, what's a clear question to ask?
+So here is a clear question to ask: If I know when to look at the inputs, then, when should I look at the outputs?
+Such that the correctness of this property holds. 
+Because remember when is the interpretations, that's how we get our digital interpretations. 
+
+
+So that's a question. 
+If I know when to look... if I know when I'm going to look at inputs, when should I look at outputs, the results, the bits I pull out accurately reflect the mathematical function motivating the construction of the circuit. 
+And so, turns out there is subtlety in the question. 
+So what notion of when is going to be useful and tractable logically. 
+And so for the whole circuit, is this all inputs, and look at all outputs, and that's a simple answer, turns out you do that you loose a lot of precision, in other words the timing prediction will be much worse than if you look at fine grained way with course grain way, and breaks compensationality, per bit timing has a big payoff. And another question, suppose I know for each bit, when to look at it, what moment to look at it. 
+And ask the question what moment would outputs be correct, and turns out no moments at all. 
+And why is that. 
+The reason for that, is math ways through a circuit have different lengths, and different amount of time for information to pass through, and here looking at two of these, and take one of the inputs, and we're going to look to see the out put of this Norgate. 
+And so, let's look at these, Nor has two inputs, and let's trace back, how much time passes between a single input bit, and this. 
+And so this path has two gates on it. 
+This has 1, 2, 3 gate on it. 
+And this will take longer, longer for one of the path to propagate information, so I know exactly when I1 is valid, nor will get one valid input at another time, and another at another time, and never get two valid inputs the same time, and assuming the propagation delay, it will never give a correct answer, I don't mean it never will. 
+We can never guarantee it will give a correct answer, it might just by luck, we want to know when can I guarantee. 
+That's when it's guaranteed to be correct. 
+
+
+And so what can we possibly do about that. 
+We can change the question... instead of talking about at what moment the inputs would be Vallade, and what moment, how about over an interval, suppose you give me interval of time, over which the inputs are guaranteed to be valid. 
+As long as the interval is long enough, the nor will receive valid inputs at the same time, and that time will be the intersections of when the validity of the information from one input and other input, they are going to be off, but if the duration of the original input is big enough, the intersection will be nonempty, and intersection will be valid information coming out. And so using single time, and use time per bit, instead of treating time as a moment, treat as intervals, and meaning interval, valid over the entire region. 
+And so, all right this slide is very simplistic way to think about actual analog competition, analog circuits always have meanings, if not trying to interpret them digitally, they just transform, continuous flows of information, and very simple way, and in a paper saying what it is, and not realistic way, very simple way. 
+All right. 
+And shift from analog to digital, the kind of main idea there is as you said, identify intervals, and intervals aren't just intervals, something happened, and something true to the intervals and what is true is stability, what I call stability, and what stability is the signal holds a particular Val during the interval, and now really, the signal is continuous voltage and doesn't hold a Val, it waivers near... every voltage level in the interval has the same interpretation, so I simplified it in a way with the tiny wavering here and not hard to fix that. 
+Definition stability, signal is stable if there is some interval, just interval, and interval, and some value, static Val, Boolean value X, such that the signal holds the value during the interval, so all times in the interval, the signal AP times T is equal to X, that's what I mean by stability. 
+
+
+And so idea is, let's not talk about arbitrary signals we're passing through. 
+Let's talk about signals that have stability, and constructive notion of stability, which is not only, do we know that these intervals of time, and Boolean values exist, but the proofs contain the specific information. 
+
+
+So, the fact we are working constructive logic means more than meets eye here, and we actually have these intervals in bits to work with. 
+Okay. 
+And now, this is about one bit, what about multiple bits, and wires, we're going to pull these up, every bit in the tple will have the signal, and interval of time will have the bit Val, and at the end what actually gets run is only analog computation, and what the user has to know only the timings so they know when to look. 
+
+
+And this sort of pattern about values that have certain property, like stability and functions that preserve that property, that's a general pattern that can be described in very general way and reused, and that's what I describe in the paper. 
+Now we can talk about stable gates, what is stable gate, it's a gate that has a property of preserving stability. 
+And this is in the paper. 
+And important thing I want to call out here. 
+And notion of stability, and then, stable logic, in other words, you know, digital gates, digital gates remember, physical gate used in discipline way, easily built out of standard building blocks, and these deltas are the delays propagation delays. 
+
+
+And now I skipped over real fast how time something computed, and just these 3 operations, and so, remember every gate is going to consume and produce some number signals, this case, 0, 1, 2. 
+And so, the timing computations need to work with no signals, that's pretty trivial. 
+One signal you just delay by certain value or two signals, and intersect the results, both have to be valid to get a valid input. 
+And so the basic building blocks of these timing computations are the universal interval. 
+Minus infinity to infinity, and this thing I'm calling star for convolution. 
+And also called Minkowsi son in this case, and so two intervals you add them and form the interval, the sums of values, one from one interval and one from the other, and set notion, and special case of convolution, and third one, intersection operator, and those 3 operators turn out to be to form an semi ring, and 4th one offsetting by nothing, offsetting by 0. 
+And that's the 4th one, the singleton zero interval, so the basic vocabulary, forms... semiring, and so what. 
+The time something linear in the semiring. 
+And so all the time of computations, if you think of the semiring, they turn out to be linear, that's a huge win for computation, instead of representing timing as function from intervals to intervals, we can rep sent linear functions in a data sort of way, what matrices are about, if we do that timing analysis is really essentially automatic Differentiation, that's what Differentiation is doing as well. 
+Computing linear approximations and in this sense statically... constant function with constant derivative. 
+If we look at full adder example, and crank it through this compositional analysis, and rep sent the timing as linear transformation, and really as matrices we get out this result, this is matrix, and may be hard to recognize, you can look in the inside, and no hidden information, this information tells you the timing properties of the circuit, if you don't like the timing properties, find the circuit properties you like. 
+
+
+And so that's basically it. 
+There is a bunch of potential improvements, for the work in progress, that's in the paper. 
+And I think that's a good time to stop and take questions. 
+
+
+As usual, microphones and there is a chat. 
+
+
+ Thanks for the talk. 
+Is it on?
+
+
+>> Not on. 
+>> No?
+That one. 
+
+
+So this is on... I guess. 
+
+
+
+
+>> The recording won't hear you if it's not on, I think. 
+
+
+>> Thanks for the talk. 
+I'll repeat the question. 
+>> I was curious, when dealing with say a signal that's a product of multiple bits, and you have the time interval for stability. 
+>> Yep. 
+>> Do those different bits have different -- and potentially related stable intervals, or... 
+>> Yeah... 
+>> ... is the encodings you looked at just have a single stable interval in time of the product... 
+>> Thank you, so the question is: I think -- correct me if I'm wrong, when we have the multiple bits and talking about the intervals are the intervals the same, are they really the freedom of multiple intervals, Absolutely yes, and incredibly important, if you look at ripple adder circuit, you don't need the inputs at the same time, and not consumed at the same time, and you insist on the same time you get badly timed circuits, so precision performance. 
+>> Thanks Conal. 
+All this suggests that feedback is very common appropriate in circuits, and having hard time seeing, how you make this work, and how you interpret the feedback. 
+
+
+>> That's the Firth bullet here, I showed you simple part of the story, and right, actual circuits have feedback, feed back is what gives temporalities, and allows us to lay out computation in time as well as space, the definition of stable I gave you is simplification, you identify single interval of time, and that's how you get one bit out of a wire, wires can hold a lot more than one bit, so what you need to do is take the definition, and generallyize it in fairly simple way, that says you don't have one interval at time, you have a bunch, you have tuple or try or vector whatever you want, and so bits, and proof for each of the times, the signal holds the Val over that time. 
+
+
+And so, that's kind of the first step. 
+And the next step then is to look at exactly how you want to formulate cyclic circuits, and recursive, and the nice way to do that general vocabulary, monoidal trace, and feedback, way you something with recursive and cycles in categories, and something I worked out on paper, and definitely not in this paper. 
+
+
+
+
+>> Thank you. 
+
+
+>> It's a matter of looking at inputs and outputs, and first of all, make sure the loop is well founded, and the well founded of that loop, why hardware designers usually put registers in their loops, but the essential thing is not registers and loops, it's well foundedness of the traces. 
+
+
+Thank you. 
+To insert one question from the chat. 
+It's a little long, but see if I can say the sentence with a question mark, the Approach implement efficient correct asynchronous circuits without the you. You.c metastability problems that affect clock domain crossings. Thank you. Really excited about the question. 
+ So what I described to you doesn't assume synchrony there's no clocks in this description can be refined to talk about clocks, and the cycle store where clocks come in. 
+And I don't think... I think it applies more broadly, and one of the reasons I pointed out the connection with automatic Differentiation, in more broad computations the time something data dependent, and in automatic Differentiation, like saying the derivative is input dependent that's just saying it's not function, it's interesting kind of function. 
+And this framework does support it. 
+And when I think of combination circuits, my model is set up and violations that come from that. 
+And combination circuit you have a register somewhere, and so not thinking in terms of intervals, think of how many seconds of these signals together have been stable, and does what you describe. 
+Does it map into the normal world, of timing analysis for hardware, and that's what exactly motivated this work, and working for different company, and went around asking hardware engineers, and help me fill in the gaps here, because I'm software guy, what on earth is timing analysis, and really from those questions, and it was almost nobody gave helpful answers, it's more like, how I struggle with this expensive industry tool or something. 
+But there is the set up and hold analysis, they do. 
+And actual timing, and I think setup and hold analysis is what I'm talk about, just different way, one lower bound, and one max, and one minute, both cases mean intersection of intervals, you can talk about semi infinite, and intersecting, and the other way, you are intersecting. 
+>> You mention previous... I guess what missing for me is global clock. 
+Relative to the clock. 
+
+
+So that's one kind of computing, and I really wanted to tell a story, more global than synchronous computing, and sequel is show really explains globally synchronous computing, and you know multi clock domains and what's called asynchronouscomputing, called very locally synchronous computing, dynamically synchronicty, thank you. 
+All all right, have to move on, thanks again. 
